@@ -9,6 +9,17 @@ before_install:
 
 script: bundle exec jekyll build
 
+deploy:
+  provider: s3
+  access_key_id:
+    secure: "Wuoa+4ldUffSQFDko8H99W7R/w5IbItEbdw1hrsxNm2OJwEGAG1nZDOP7MArUXlbKImmY1FsTHWLrcdAiq52skazZMrtlZ3T3YDrAIpUYeyobGL6EM5TjKEIwhkXM95vnhEFiFzWoru9D7XZsnQjvB+7+Ck8Bs+tmSccriKd50c="
+  secret_access_key:
+    secure: "KI2OlnSmAzvqoRhzoEQjLY9AO77u5lFA97WlcSyDors/83b4oI3xZ5qSj+c1a5pM8CpLDtZkMFR3RJ0h62i1QnyfqZxK0XrefMJSmlSR6mdz5FXqgU+M7EzicA7O0JOlmQEYcX4Sf1xvasqj3ejA3ulzOjdfuKlwe8ktHaWftgk="
+  bucket: blog.labs.datacite.org
+  local_dir: _site
+  acl: public_read
+  skip_cleanup: true
+
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
