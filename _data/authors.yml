@@ -1,0 +1,24 @@
+mfenner:
+  name: Martin Fenner
+  bio: DataCite Technical Director
+  orcid: 0000-0003-1419-2405
+  email: martin.fenner@datacite.org
+  gravatar: 434592a097e91261792ebd6b492042bc
+  twitter: mfenner
+  github: mfenner
+
+lrueda:
+  name: Laura Rueda
+  bio: DataCite Communications Director
+  email: laura.rueda@datacite.org
+
+tcruse:
+  name: Trisha Cruse
+  bio: DataCite Executive Director
+  email: patricia.cruse@datacite.org
+
+jlin:
+  name: Jennifer Lin
+  bio: CrossRef Director of Product Management
+  email: jlin@crossref.org
+  twitter: jenniferlin15
