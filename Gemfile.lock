@@ -141,6 +141,7 @@ PLATFORMS
 
 DEPENDENCIES
   bourbon
+  celluloid (= 0.16.1)
   github-pages
   jekyll-pandoc
 
