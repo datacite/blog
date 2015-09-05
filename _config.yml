@@ -1,60 +1,70 @@
 # Build settings
-markdown: redcarpet
+markdown: pandoc
 highlighter: pygments
 gems:
+  - jekyll-pandoc
   - jemoji
-  
+
+exclude:
+  - README.md
+  - LICENCE
+  - Gemfile
+  - Gemfile.lock
+  - .travis.yml
+
 # Site settings
-title: "Mediator"
+title: "DataCite Blog"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   Making research better by enabling people<br/>
+   to find, share, use, and cite data.
 
-email: a-mail@mail.mail
+email: support@datacite.org
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/logo-small.png"
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/dc_2.svg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'DataCite'
+author: 'DataCite'
 author_image: "/assets/images/author.jpg"
 
-paginate:	5
+paginate:	10
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "http://blog.datacite.org" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-twitter_handle: '@dirkfabisch'
+twitter_handle: '@datacite'
 
 #fill in disqus shortname to use disqus
-#disqus: disqus-shortname
+disqus: datacite
 
 # social icons and sharing options
 social:
   - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
-    desc: Follow me on twitter
+    url:	https://twitter.com/datacite
+    desc: Follow DataCite on Twitter
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+  - icon:  facebook
+    url: https://facebook.com/???
+    desc: Connect with DataCite on Facebook
+    share_url: https://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/dirkfabisch
-    desc:	Fork me on github
+    url:	https://github.com/datacite
+    desc:	Visit DataCite on Github
     share_url:
     share_title:
     share_link:
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+pandoc:
+  extensions:
+    - normalize
+    - smart
+    - mathjax
+    - csl: _styles/apa.csl
+    - bibliography: bibliography/references.bib
