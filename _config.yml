@@ -11,6 +11,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .travis.yml
+  - vendor
 
 # Site settings
 title: "DataCite Blog"

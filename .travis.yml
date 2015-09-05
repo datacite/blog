@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+- 2.2
+
+before_install:
+- wget https://github.com/jgm/pandoc/releases/download/1.15.0.6/pandoc-1.15.0.6-1-amd64.deb
+- sudo dpkg -i pandoc-1.15.0.6-1-amd64.deb
+- rm pandoc-1.15.0.6-1-amd64.deb
+
+script: bundle exec jekyll build
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
