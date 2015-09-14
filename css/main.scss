@@ -129,7 +129,7 @@ pre {
 
 .blog-header {
   position: absolute;
-  top: $font-size-base * 1;
+  top: $font-size-base * 2;
   left: 30%;
   right: 30%;
   z-index: 9;
@@ -160,7 +160,7 @@ pre {
     margin: 0;
     padding: $font-size-base * 1 $font-size-base $font-size-base / 2;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -2px;
     outline: 0;
     line-height: 50px;
@@ -210,7 +210,7 @@ pre {
       border-bottom: 0px;
     }
     .post-title {
-      font-weight: 600;
+      font-weight: 700;
       font-style: normal;
       letter-spacing: -0.04em;
       font-size: 50px;
@@ -276,9 +276,10 @@ pre {
 }
 
 .pagination {
-  text-align: center;
+  float: right;
+  color: gray;
   padding: $font-size-base * 3 0 0;
-  font-size: $font-size-base;
+  font-size: $font-size-large;
   a {
     color: #999999;
     text-decoration: none;
@@ -347,14 +348,15 @@ pre {
   a, a:hover, a:visited {
     color: $inverse;
   }
-  .share {
+  .share-footer {
     text-align: left;
   }
-  .share h4 {
+  .share-footer h4 {
     margin-bottom: .5em;
   }
-  .share a {
+  .share-footer a {
     padding-left: 0;
+    font-size: 27px;
     margin-right: 16px;
   }
 }
@@ -365,7 +367,7 @@ pre {
     padding-top: 0;
   }
   .post-title {
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     letter-spacing: -0.04em;
     font-size: 50px;
@@ -541,7 +543,7 @@ pre {
       h4 {
         font-size: 18px;
         line-height: 1.1;
-        font-weight: 600;
+        font-weight: 700;
         padding: 0;
         margin: 0;
         padding-left: 100px;
@@ -587,7 +589,7 @@ pre {
         .poweredby {
           display: block;
           padding-bottom: 18px;
-          font-weight: 600;
+          font-weight: 700;
           color: #333333;
         }
       }
