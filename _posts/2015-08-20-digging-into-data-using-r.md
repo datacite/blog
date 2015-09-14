@@ -2,7 +2,6 @@
 layout: post
 title:  Digging into Metadata using R
 author: mfenner
-image: /assets/images/2015/08/rutgers-lib-19497_JPEG-1.jpg
 ---
 
 In the first post of this new blog a few weeks ago I talked about [Data-Driven Development](/data-driven-development/), and that service monitoring is an important aspect of this. The main service DataCite is providing is registration of digital object identifiers (DOIs) for scholarly content, in particular research data.
@@ -38,7 +37,3 @@ Removing these two groups of researchers shows a more organic pattern, with abou
 ![](/assets/images/2015/08/unnamed-chunk-11-1.png)
 
 R is a nice reporting tool for these kinds of data, and the [rdatacite](https://github.com/ropensci/rdatacite), [rmarkdown](http://rmarkdown.rstudio.com/) and [knitr](http://yihui.name/knitr/) packages make the analysis and visualization a straightforward process. Feel free to adapt the code in the Github repository to your specific questions, or let me know what other reports you would like to see.
-
-*Cover image credit: unknown [-@Unknown:1926].*
-
-## References

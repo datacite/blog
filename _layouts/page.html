@@ -5,7 +5,7 @@
   {% include head.html %}
   <body itemscope itemtype="http://schema.org/Article">
     {% include header.html %}
-    <main class="content" role="main">
+    <div class="container-fluid">
       <article class="post">
         {% if page.image %}
         <div class="article-image">
@@ -42,7 +42,7 @@
           {{content}}
         </section>
       </article>
-    </main>
+    </div>
     <div class="bottom-closer">
       <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
         Image
@@ -53,6 +53,7 @@
         <a href="/" class="btn">Back to Overview</a>
       </div>
     </div>
+    {% include footer.html %}
     {% include javascripts.html %}
   </body>
 </html>

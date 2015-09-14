@@ -5,31 +5,15 @@
   {% include head.html %}
   <body itemscope itemtype="http://schema.org/Article">
     {% include header.html %}
-    <main class="content" role="main">
+    <div class="container-fluid">
       <article class="post">
-        {% if page.image %}
-        <div class="article-image">
-          <div class="post-image-image" style="background-image: url({{ page.image }})">
-            Article Image
-          </div>
-          <div class="post-meta">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <div style="text-align:center">
-              <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
-            </div>
-          </div>
+        <div class="post-meta">
+          <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date: "%B %-d, %Y" }}</time> ∙
+          <a href="{{ page.url }}#disqus_thread">0 Comments</a> ∙
+          <span class="post-reading-time"></span> read
+          <h1 class="post-title">{{ page.title }}</h1>
         </div>
-        {% else %}
-        <div class="noarticleimage">
-          <div class="post-meta">
-            <h1 class="post-title">{{ page.title }}</h1>
-          </div>
-        </div>
-        {% endif %}
         <section class="post-content">
-          <div class="post-reading">
-            <span class="post-reading-time"></span> read
-          </div>
           <a name="topofpage"></a>
           {{content}}
         </section>
@@ -38,8 +22,8 @@
           <div class="isLeft">
             <h5 class="index-headline featured"><span>Written by</span></h5>
             <section class="author">
-              {%if author.gravatar %}
-                <div class="author-image" style="background-image: url(http://www.gravatar.com/avatar/{{author.gravatar}}?s=250&d=mm&r=x)">Blog Logo</div>
+              {%if author.image_url %}
+                <div class="author-image" style="background-image: url({{author.image_url}})">Blog Logo</div>
               {% endif %}
               <h4>{{ author.name }}</h4>
               <p class="bio">{{author.bio}}</p>
@@ -81,7 +65,8 @@
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         {% endif %}
       </article>
-    </main>
+    </div>
+    {% include footer.html %}
     {% include javascripts.html %}
   </body>
 </html>

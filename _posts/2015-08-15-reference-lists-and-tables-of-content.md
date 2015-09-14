@@ -2,7 +2,6 @@
 layout: post
 title:  Reference Lists and Tables of Content
 author: mfenner
-image: /assets/images/2015/08/66aa3db41586da6a8f02cb9666357196.jpg
 ---
 
 [Geoff Bilder](https://twitter.com/gbilder) from CrossRef likes to show the following slide at scholarly conferences, and then asks the audience what they see:
@@ -53,7 +52,3 @@ Until not too long ago I was a big proponent of including all data associated wi
 Journal Article Tag Suite ([JATS](http://jats.nlm.nih.gov/)) is the standard machine-readable format for journal articles in the life sciences (and increasingly other sciences). At [JATS-CON](http://jats.nlm.nih.gov/jats-con/) in April this year I proposed (starting at minute 210) to extend JATS by providing it also as a container format:
 
 <iframe src="http://videocast.nih.gov/embed.asp?file=18962&w=640&h=360" width="645" height="411" frameborder="0">browser does not support iframe</iframe>
-
-*Cover image credit: Oregon Medical School [-@Oshu:1955].*
-
-## References

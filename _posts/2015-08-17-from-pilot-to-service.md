@@ -2,7 +2,6 @@
 layout: post
 title:  From Pilot to Service
 author: mfenner
-image: /assets/images/2015/08/img_card_6261.jpg
 ---
 
 Today I am pleased to announce the launch of a new service, DataCite Labs Search – the service is available immediately at [http://search.labs.datacite.org/](http://search.labs.datacite.org/). This is one of [THOR](http://project-thor.eu/)’s first services and is based on work in the earlier EC-funded [ODIN Project](http://odin-project.eu/).
@@ -56,7 +55,3 @@ Expect to see more new/updated DataCite services first appearing as DataCite Lab
 ## Thanks
 
 This is a collaborative effort and I want to thank the DataCite and THOR teams, and in particular  Karl Ward, Gudmundur Thorisson, Sebastian Peters, Rob Peters, Laura Rueda, Tom Demeranville, Geoff Bilder, Laure Haak and Laura Paglione.
-
-*Cover image credit: Barlow [-@Barlow:1818].*
-
-## References

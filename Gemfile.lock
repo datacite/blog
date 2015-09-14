@@ -52,7 +52,7 @@ GEM
       net-dns (~> 0.8)
       public_suffix (~> 1.4)
       typhoeus (~> 0.7)
-    hitimes (1.2.2)
+    hitimes (1.2.3)
     html-pipeline (1.9.0)
       activesupport (>= 2)
       nokogiri (~> 1.4)
