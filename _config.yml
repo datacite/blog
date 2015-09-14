@@ -40,6 +40,9 @@ twitter_handle: '@datacite'
 #fill in disqus shortname to use disqus
 disqus: datacite
 
+#fill in tracking id
+google_analytics: UA-22806196-7
+
 # social icons and sharing options
 social:
   - icon:	twitter
