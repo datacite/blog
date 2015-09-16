@@ -38,12 +38,18 @@ $font-size-large: ceil(($font-size-base * 1.25));
 main {
   display: block;
   font-family: $font-family-serif;
+  font-size: $font-size-large;
 
   h1, h2, h3, h4 {
     font-family: $font-family-sans;
   }
   h2 {
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 4px;
+  }
+  li {
+    line-height: $font-size-large * 1.5;
   }
 }
 html {
@@ -103,7 +109,7 @@ pre {
   padding: .5em;
 
   .container-fluid {
-    max-width: 960px;
+    max-width: 1150px;
   }
 }
 .profile {
@@ -125,12 +131,15 @@ pre {
   line-height: 1.5em;
 }
 .teaserimage {
-  height: 500px;
+  height: 1400px;
   width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
+  max-width: 1150px;
+  margin: 0;
   position: relative;
   overflow: hidden;
+  @include respond-to(1200) {
+    height: 500px;
+  }
   .teaserimage-image {
     background-size: cover;
     position: absolute;
@@ -146,9 +155,9 @@ pre {
 
 .blog-header {
   position: absolute;
-  top: $font-size-base * 2;
-  left: 30%;
-  right: 30%;
+  top: $font-size-base * 2.5;
+  left: 10%;
+  right: 10%;
   z-index: 9;
   font-family: $font-family-sans;
   @include respond-to(800) {
@@ -229,9 +238,6 @@ pre {
   ul {
     padding-left: 1.2em;
   }
-  li {
-    line-height: 24px;
-  }
 
   article {
     padding: 10px 0;
@@ -306,15 +312,18 @@ pre {
 }
 
 .pagination {
-  float: right;
   color: gray;
   padding: $font-size-base * 3 0 0;
   font-size: $font-size-large;
+  .page-number {
+    margin-right: 32px;
+  }
   a {
-    color: #999999;
+    color: $link-color;
     text-decoration: none;
+    margin-right: 32px;
     &:hover {
-      color: #333333;
+      color: $link-hover-color;
     }
   }
 }
@@ -372,7 +381,7 @@ pre {
   }
 
   .container-fluid {
-    max-width: 960px;
+    max-width: 1150px;
   }
 
   h4, h5 {

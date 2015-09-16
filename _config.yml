@@ -15,7 +15,7 @@ exclude:
 
 # Site settings
 title: "DataCite Blog"
-description: > # this means to ignore newlines until "email:"
+description: |
    Making research better by enabling people<br/>
    to find, share, use, and cite data.
 
@@ -30,7 +30,7 @@ author: 'DataCite'
 author_image: "/assets/images/author.jpg"
 
 permalink: /:title/
-paginate:	10
+paginate:	5
 
 url: "http://blog.datacite.org" # the base hostname & protocol for your site
 baseurl: ""
