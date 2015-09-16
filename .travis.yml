@@ -2,6 +2,10 @@ language: ruby
 rvm:
 - 2.2
 
+env:
+  global:
+    secure: c2efVu7HPLcE8dEtLxkqWNwjcb8M/NL1fHIaCyBYZDwErws9xGDzHNvI9h8u5suNwv1PIaTB1wIGbjLvfhnYmA6GN735g2sr/RY4EXUkKEkr49kPBnQKdBMEDx4R8WXppTIptXuBvH7gzdyYexgAJ8F+cvY7y1oM3HnKGfedbijNAtQpkqJOpKmo4V8yzTlxDT9D2o4pIdmGTZNx4BTUT4qHKwILEfRri8klV38P99V0v8qbMUaIB3iqcA3twTHCmN6cD10OwXaLL6M3IRmD2ecQoOEYsKfg1U+29Xp/tPc+FRBZ7dIwRlDQZz8VU38Kq+k0CRQkCFsXP/SOmXp4DLeyDEZtNzgxzr5xcTK2mnB9F5ARUDSWEB47JOae9USFTGZ7+GWzrfe+BabjCQdt2D9/5w5PvpcyzdZJ+e02pPMLxdOF/pvy16O5sgDJmsRrsAJ0KvEl413IcIVq0ezMXgB6Cr5fj/jSBv78WQ0dJPdxNcDexX8vsZJAJ77H8VfzRj63GHQ3AtnVeHujGo+JcjhWT2Q4hQ6MLxVFQLsQR2Dwwg3zaky07iMZMPWvuvkyUUgnnOCUAqnT+7GU0o3rsEjWLmb9Ic/sjlu4933LMguPMsV75uDZ5E1KugJGN9cjU9jNg09R3i7T9T3U8dmGRXpepxnFqZdetC1TMahBVjA=
+
 before_install:
 - wget https://github.com/jgm/pandoc/releases/download/1.15.0.6/pandoc-1.15.0.6-1-amd64.deb
 - sudo dpkg -i pandoc-1.15.0.6-1-amd64.deb
@@ -9,17 +13,11 @@ before_install:
 
 script: bundle exec jekyll build
 
-deploy:
-  provider: s3
-  access_key_id:
-    secure: "Fg7RUgRh6ZH271L98pAvNEwpEega+Ia1XcgbGzRtwITqGyy6pI8TFxXRbJ+kj1TvChxY0V8Zy5SjGaPw7eD/AHbyHbozEBMcxOo+ozSTD6D5PHCjOFRgcw4i5ROarZAevbIKa6zCHUKVczE+CF2sRZM0YJhXVAEq1qgY2wWbPv6wdODmayIX95JtaaHUKQebOtLVYi4FcCg2UtlGrbOQmCJY++txEcHWRVW/TBFBnmnaIPJM/pS0kFejC9YrB0uoN9/81EAlo2aXbXSHbf+n7eWJ5u4HPsRRVTcl6lkzqfqWXfOCPt5/K1maJ+YEPW+X//MKBadu9Y46oV/p6qYG09vG7zPWyqYiqpT6YuS0EQCQUsOIl+nriRi3cjuSIGtqP7+8zXxfohH8sistobYUq856iU9dguKRZ8WR8nk5oAEyY9WO8GV0jWjgzT2wVnbxWGU2OkfpqSq6bZitxbBiOOVl2AuFs5PIFc/rCG5TxxeRIWIdO2T1GgD5Ea002wPpEJdzfisRXX3r47503M/6kJ84wElO3y/nx1FNj730m6mzWpz6xPlhOe+q9Ct8+A5MRMwWSkYd+N8VOGHq+WjnxZYkNKaODcjWOQvGk/o6tn22tGGg9vS7/t7h16Fj6FTY60fXNJUWW9SNUJFVRlmmr5wzTy/Gqk/ZFgHOm9f6eWk="
-  secret_access_key:
-    secure: "I40llxohwQISStFmhfrihOZuyqCXOLXCNCVE7eRP+/6V+Xoo7aRcgaAW7kNKzMIgigKwqXy0CVBZGKFWJp4CP8xilauIcKf0GCavrGlpCXbRk+rZFOn9VG0velynf/jDuZH44CtNDufHOtd+sKa9T8HCkMmzM1gs8SetaI+qb53bdR/Dey616NeAmlsvRKDG5kHxPRQeizhwaJ/7B3flslKEi7zjEmVWWSRaIyolJaYXJa2uB58pqqXsme6L1EavzxkJj2xPMryvBIl4PKHrcpRhB6lNpCMBgjl39zgjr9NGQKQhhIdxBUNhDvGwDE88Q2AZddGFB5hgcXxNw7688sDaE8AGLyGYFLpIPByAyjzGNIPgYV4YqRAWvfi/m85gIEkbrQCjoBRPxNkxyfNoZxT9dPeWwz921azSUObZW6qcI20EeAmdhFhJToHHta/HhRKgcmg7l8ZVEx4xMeRQHJNTW7JHmYiobX+Bsv6yo84SbSgq/qdq3n8jXPIq9hk73e+k8rzg62Ne6VBLLVb4qfX7DIMEwJGGULY0SNA+VoJTp2ek4bngU6MaD87dwZ7NlHTRMHkZUsbqxnhXp5WozfS5MiDL4XLjRLP3UOth9lHI7C4BvwRueMppaUfxzP5ZS61MOkm/0HVZfkUPhu7seZ0AsXo2m3zsPwbDc/ewnG0="
-  bucket: blog.labs.datacite.org
-  local_dir: _site
-  acl: public_read
-  skip_cleanup: true
-
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+addons:
+  artifacts:
+    bucket: blog.labs.datacite.org
+    paths: _site
+    target_paths: .
+    s3_region: us-east-1
+    cache_control: public, max-age=315360000
+    permissions: public_read
