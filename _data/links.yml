@@ -1,7 +1,4 @@
 labs_links:
- - name: Blog
-   url: http://blog.labs.datacite.org
-   icon: rss
  - name: Schema
    url: http://schema.labs.datacite.org
    icon: file-code-o
