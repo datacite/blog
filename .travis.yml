@@ -20,3 +20,4 @@ deploy:
   skip_cleanup: true
   region: eu-west-1
   detect_encoding: true
+  all_branches: true
