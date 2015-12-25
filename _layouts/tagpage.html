@@ -34,9 +34,9 @@ layout: default
             {% if tag[0] == page.tag %}
             <strong>{{ tag[0] }}</strong>
             {% else %}
-            <a href="/tags/{{ tag[0] }}/">{{ tag[0] }}</a>
+            <a href="/tags/{{ tag.first | replace: ' ', '-' }}/">{{ tag.first }}</a>
             {% endif %}
-            <span class="number pull-right">{{ tag[1].size }}</span>
+            <span class="number pull-right">{{ tag.last.size }}</span>
           </li>
         {% endfor %}
         <li>
