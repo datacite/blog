@@ -18,5 +18,5 @@ deploy:
   local-dir: _site
   acl: public_read
   skip_cleanup: true
-  region: eu-west-
+  region: eu-west-1
   detect_encoding: true
