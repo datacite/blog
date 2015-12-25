@@ -4,6 +4,7 @@ title: Happy Birthday ORCID
 author: mfenner
 tags:
  - thor
+ - orcid
 ---
 
 Three years ago today Open Researcher & Contributor ID ([ORCID](http://orcid.org)) launched its service at the Outreach Meeting in Berlin. One of many tweets from the launch day:

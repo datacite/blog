@@ -4,6 +4,7 @@ title: Contributor Information in DataCite Metadata
 author: mfenner
 tags:
  - thor
+ - orcid
 ---
 
 The [Force11 Joint Declaration of Data Citation Principles](https://www.force11.org/group/joint-declaration-data-citation-principles-final) highlight the importance of giving scholarly credit to all contributors:
