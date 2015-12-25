@@ -1,23 +1,22 @@
 language: ruby
 rvm:
 - 2.2
-env:
-  global:
-    secure: c2efVu7HPLcE8dEtLxkqWNwjcb8M/NL1fHIaCyBYZDwErws9xGDzHNvI9h8u5suNwv1PIaTB1wIGbjLvfhnYmA6GN735g2sr/RY4EXUkKEkr49kPBnQKdBMEDx4R8WXppTIptXuBvH7gzdyYexgAJ8F+cvY7y1oM3HnKGfedbijNAtQpkqJOpKmo4V8yzTlxDT9D2o4pIdmGTZNx4BTUT4qHKwILEfRri8klV38P99V0v8qbMUaIB3iqcA3twTHCmN6cD10OwXaLL6M3IRmD2ecQoOEYsKfg1U+29Xp/tPc+FRBZ7dIwRlDQZz8VU38Kq+k0CRQkCFsXP/SOmXp4DLeyDEZtNzgxzr5xcTK2mnB9F5ARUDSWEB47JOae9USFTGZ7+GWzrfe+BabjCQdt2D9/5w5PvpcyzdZJ+e02pPMLxdOF/pvy16O5sgDJmsRrsAJ0KvEl413IcIVq0ezMXgB6Cr5fj/jSBv78WQ0dJPdxNcDexX8vsZJAJ77H8VfzRj63GHQ3AtnVeHujGo+JcjhWT2Q4hQ6MLxVFQLsQR2Dwwg3zaky07iMZMPWvuvkyUUgnnOCUAqnT+7GU0o3rsEjWLmb9Ic/sjlu4933LMguPMsV75uDZ5E1KugJGN9cjU9jNg09R3i7T9T3U8dmGRXpepxnFqZdetC1TMahBVjA=
+
 before_install:
 - wget https://github.com/jgm/pandoc/releases/download/1.15.0.6/pandoc-1.15.0.6-1-amd64.deb
 - sudo dpkg -i pandoc-1.15.0.6-1-amd64.deb
 - rm pandoc-1.15.0.6-1-amd64.deb
+
 script: bundle exec jekyll build
+
 deploy:
   provider: s3
-  access_key_id: AKIAJS74CLEP7FQBOVBQ
-  secret_access_key:
-    secure: j0jk/iTK7xDTyEFYeM5rWvFsLRFL7vgsp0E+h7gqVji3DtAscg3gj8kXLf514uNXGW+py8ooyQzMzhuagV8hg7rucRRsdSQJn1M9c9ZRWd9lnZCtyn9102NX8LRartDn5CTRWsbh3013Z70p7D2/acbRpQkvPNLxCSfGJxQ6Vv13bsbfV4A7yEQS6cG9TwiyPemh+OYukQnIwC3DYW5TeBZhUWx3ktgsA9N+Cxx+3DD8Lc4Lo4QoIfTeAb5LteSTBvQd/Xr9xRocoAPv05aY7VjOxiahnL4J1ZNmivN+jO2T03ozF+aQQ2vej1XIRR+jLRe97lZlA0UtP3Xv3D76J99xzoEPDcyQ71pfThGmJujTLB/BjXT2ju8PqvWWM3S2MjpTNh3Uf+Xk1HexXISGNFizNJRjhHPyELYUroaO8g/CWOnbQyW61TOt0SPLKGoi+omoiWHj8fW0i1q+FRg3fbdkSOGcy8Qk4IgAJeuYCW3K7Wpol+fFjzpzcUlVv+jD5lbI2vGctdsDVfi6JuqVBl/PQ44e8R3yCGcbgHpmKp7lBupk+HBMMhGYVAqzvcJ/1munzeh3RaqjunqQ5MQk0G1j9AqWwsifNO0sYTsqKI4KGk/F07E9OVXaLPsN71cd+uH8SivlazRu42BrwxDUeUqjB9WQcovk9Y/LklCTW20=
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
   bucket: blog.datacite.org
+  endpoint: blog.datacite.org.s3-website-eu-west-1.amazonaws.com
   local-dir: _site
   acl: public_read
   skip_cleanup: true
-  region: eu-west-1
-  on:
-    repo: datacite/blog
+  region: eu-west-
+  detect_encoding: true
