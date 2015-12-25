@@ -17,16 +17,12 @@ If you weren't able to join the webinar we have made the slides and recording av
 
 You can also download (and cite!) the slides:
 
-![Webinar Introduction](/assets/images/2015/12/webinar_intro-2.png)
+![Webinar Introduction [@rueda_2015]](/assets/images/2015/12/webinar_intro-2.png)
 
-Rueda, Laura. (2015). DataCite Profiles and ORCID Auto-Update, Introduction. Zenodo.  [10.5281/zenodo.34671](http://doi.org/10.5281/zenodo.34671)
+![Webinar ORCID [@brown_2015]](/assets/images/2015/12/webinar_orcid-1.png)
 
-![Webinar ORCID](/assets/images/2015/12/webinar_orcid-1.png)
-
-Brown, Josh. (2015). DataCite/ORCID auto-update and inbox, all you need to know. Zenodo. [10.5281/zenodo.34670](http://doi.org/10.5281/zenodo.34670)
-
-![Webinar DataCite](/assets/images/2015/12/webinar_datacite-1.png)
-
-Fenner, Martin. (2015). DataCite/ORCID Integration. Zenodo. [10.5281/zenodo.34673](http://doi.org/10.5281/zenodo.34673)
+![Webinar DataCite [@fenner_2015c]](/assets/images/2015/12/webinar_datacite-1.png)
 
 Many thanks to Josh Brown from ORCID and Martin Fenner from DataCite for preparing the webinar and to all the participants for their interest and questions. Let's continue the discussion here on the comments or through [Twitter](https://twitter.com/datacite)!
+
+## References
