@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  Announcing Data-Level Metrics in DataCite Labs
+title: Announcing Data-Level Metrics in DataCite Labs
 author: mfenner
+tags:
+ - metrics
 ---
 
 Last week Jennifer Lin shared information on the **Making Data Count** (MDC) project [on this blog](/when-counting-is-hard/). MDC is a project funded by the U.S. National Science Foundation (NSF) to design and develop metrics that track and measure data use – **data-level metrics** (DLM).
