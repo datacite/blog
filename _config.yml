@@ -11,7 +11,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .travis.yml
-  - vendor
+  - assets/jquery/*
 
 # Site settings
 title: Blog
@@ -22,8 +22,6 @@ description: |
 email: support@datacite.org
 #blog logo
 logo: "/assets/images/logo-small.png"
-# blog cover
-cover: "/assets/images/dc_2.svg"
 
 name: 'DataCite'
 author: 'DataCite'
