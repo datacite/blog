@@ -73,7 +73,7 @@ A common approach in the commercial startup world is to focus on the particular 
 But for the most part I think the risk of trying to build too much yourself is bigger, in particular since many external services have monthly plans, and there are often several alternatives. The biggest consideration is the risk of lock-in, which is of course what all service providers are aiming for.
 
 ### Open Source where it is important
-The software written by DataCite staff to run the DataCite services is all open source, hosted in a [public Github repository](https://github.com/datacite). This is important for a number of reasons, best explained by Geoff Bilder, Jennifer Lin and Cameron Neylon in their [Principles of Open Scholarly Infrastructures](http://cameronneylon.net/blog/principles-for-open-scholarly-infrastructures/). One nice side effect is that a number of important external services are free for open source projects, for example Github or the [Travis CI](https://travis-ci.org/) continuous integration service.
+The software written by DataCite staff to run the DataCite services is all open source, hosted in a [public Github repository](https://github.com/datacite). This is important for a number of reasons, best explained by Geoff Bilder, Jennifer Lin and Cameron Neylon in their Principles of Open Scholarly Infrastructures [@Bilder2015]. One nice side effect is that a number of important external services are free for open source projects, for example Github or the [Travis CI](https://travis-ci.org/) continuous integration service.
 
 What this doesn't mean is that all software that DataCite uses should be open source. I like the approach that ORCID has taken in the [ORCID Principles](https://orcid.org/about/what-is-orcid/principles):
 
@@ -98,3 +98,4 @@ One important advantage that non-profits have over commercial startups is that i
 
 Cooperation takes time and effort, and staff time is usually limited when you are a small organization and also have a lot of technical work on your plate. But it is still a worthwhile investment. And I think non-profit organizations in the scholarly communication space could cooperate much more. While there are many cooperations around specific projects and initiatives, I think most of the basics of running the organization, and the technical infrastructure in particular, are not really discussed much. Small non-profits such as DataCite face particular challenges that are different from both commercial organizations and larger non-profits such as academic institutions. I want to spend more time in 2016 working on this, so please contact me if you are interested to help.
 
+## References
