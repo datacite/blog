@@ -11,7 +11,7 @@
         $(".post-content").fitVids();
 
         // Calculates Reading Time
-        $('.post').readingTime({
+        $('.post-content').readingTime({
             readingTimeTarget: '.post-reading-time'
         });
 

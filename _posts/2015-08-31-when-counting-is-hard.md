@@ -2,6 +2,8 @@
 layout: post
 title:  When Counting is Hard
 author: jlin
+tags:
+ - data-level metrics
 ---
 
 *This is a guest post by [Jennifer Lin](http://twitter.com/jenniferlin15), project manager for the Making Data Count project, and since last week CrossRef Director of Product Management.*

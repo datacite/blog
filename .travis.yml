@@ -2,10 +2,6 @@ language: ruby
 rvm:
 - 2.2
 
-env:
-  global:
-    secure: c2efVu7HPLcE8dEtLxkqWNwjcb8M/NL1fHIaCyBYZDwErws9xGDzHNvI9h8u5suNwv1PIaTB1wIGbjLvfhnYmA6GN735g2sr/RY4EXUkKEkr49kPBnQKdBMEDx4R8WXppTIptXuBvH7gzdyYexgAJ8F+cvY7y1oM3HnKGfedbijNAtQpkqJOpKmo4V8yzTlxDT9D2o4pIdmGTZNx4BTUT4qHKwILEfRri8klV38P99V0v8qbMUaIB3iqcA3twTHCmN6cD10OwXaLL6M3IRmD2ecQoOEYsKfg1U+29Xp/tPc+FRBZ7dIwRlDQZz8VU38Kq+k0CRQkCFsXP/SOmXp4DLeyDEZtNzgxzr5xcTK2mnB9F5ARUDSWEB47JOae9USFTGZ7+GWzrfe+BabjCQdt2D9/5w5PvpcyzdZJ+e02pPMLxdOF/pvy16O5sgDJmsRrsAJ0KvEl413IcIVq0ezMXgB6Cr5fj/jSBv78WQ0dJPdxNcDexX8vsZJAJ77H8VfzRj63GHQ3AtnVeHujGo+JcjhWT2Q4hQ6MLxVFQLsQR2Dwwg3zaky07iMZMPWvuvkyUUgnnOCUAqnT+7GU0o3rsEjWLmb9Ic/sjlu4933LMguPMsV75uDZ5E1KugJGN9cjU9jNg09R3i7T9T3U8dmGRXpepxnFqZdetC1TMahBVjA=
-
 before_install:
 - wget https://github.com/jgm/pandoc/releases/download/1.15.0.6/pandoc-1.15.0.6-1-amd64.deb
 - sudo dpkg -i pandoc-1.15.0.6-1-amd64.deb
@@ -13,11 +9,14 @@ before_install:
 
 script: bundle exec jekyll build
 
-addons:
-  artifacts:
-    bucket: blog.labs.datacite.org
-    paths: _site
-    target_paths: .
-    s3_region: us-east-1
-    cache_control: public, max-age=315360000
-    permissions: public_read
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: blog.labs.datacite.org
+  endpoint: blog.labs.datacite.org.s3-website-eu-west-1.amazonaws.com
+  local-dir: _site
+  acl: public_read
+  skip_cleanup: true
+  region: eu-west-1
+  detect_encoding: true
