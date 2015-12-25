@@ -16,7 +16,7 @@ deploy:
     secure: j0jk/iTK7xDTyEFYeM5rWvFsLRFL7vgsp0E+h7gqVji3DtAscg3gj8kXLf514uNXGW+py8ooyQzMzhuagV8hg7rucRRsdSQJn1M9c9ZRWd9lnZCtyn9102NX8LRartDn5CTRWsbh3013Z70p7D2/acbRpQkvPNLxCSfGJxQ6Vv13bsbfV4A7yEQS6cG9TwiyPemh+OYukQnIwC3DYW5TeBZhUWx3ktgsA9N+Cxx+3DD8Lc4Lo4QoIfTeAb5LteSTBvQd/Xr9xRocoAPv05aY7VjOxiahnL4J1ZNmivN+jO2T03ozF+aQQ2vej1XIRR+jLRe97lZlA0UtP3Xv3D76J99xzoEPDcyQ71pfThGmJujTLB/BjXT2ju8PqvWWM3S2MjpTNh3Uf+Xk1HexXISGNFizNJRjhHPyELYUroaO8g/CWOnbQyW61TOt0SPLKGoi+omoiWHj8fW0i1q+FRg3fbdkSOGcy8Qk4IgAJeuYCW3K7Wpol+fFjzpzcUlVv+jD5lbI2vGctdsDVfi6JuqVBl/PQ44e8R3yCGcbgHpmKp7lBupk+HBMMhGYVAqzvcJ/1munzeh3RaqjunqQ5MQk0G1j9AqWwsifNO0sYTsqKI4KGk/F07E9OVXaLPsN71cd+uH8SivlazRu42BrwxDUeUqjB9WQcovk9Y/LklCTW20=
   bucket: blog.datacite.org
   local-dir: _site
-  acl: public_read,bucket_owner_full_control
+  acl: public_read
   skip_cleanup: true
   region: eu-west-1
   on:
