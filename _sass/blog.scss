@@ -205,8 +205,8 @@
   color: $gray-darker;
   font-size: 1em;
   padding: 0;
-  border: 0;
-  box-shadow: none;
+  border: 0 !important;
+  box-shadow: none !important;
 
   .panel-body {
     background-color: $gray-light;
