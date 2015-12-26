@@ -54,16 +54,25 @@
                     <hr>
                     <p class="published">Published on <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
                     <p class="published">© {{ page.date | date: "%Y" }} {{ author.name }}. Distributed under the terms of the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>.</p>
+                    {% if page.tags.size > 0 %}
+                    <p class="published">
+                      <i class="fa fa-tags"></i>
+                      {% assign tags = page.tags | sort %}
+                      {% for tag in tags %}
+                      <a href="/tags/{{ tag | replace: ' ', '-' }}/">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
+                      {% endfor %}
+                    </p>
+                    {% endif %}
                   </section>
                 </div>
               </div>
             </div>
           </div>
-          <div class="panel panel-default">
+          <div class="panel tags">
             <div class="panel-body">
               <div class="bottom-teaser cf">
                 <div class="isLeft">
-                  <h5 class="index-headline featured"><span>Share</span></h5>
+                  <h5 class="index-headline featured"><span>Share on</span></h5>
                   {% for social in site.social %}
                     {% if social.share_url != null %}
                       <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{{ social.share_title }}{{page.title | cgi_escape}}{{ social.share_link }}{{site.url}}{{page.id}}"

@@ -13,10 +13,12 @@ deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
-  bucket: blog.datacite.org
-  endpoint: blog.datacite.org.s3-website-eu-west-1.amazonaws.com
+  bucket: blog.labs.datacite.org
+  endpoint: blog.labs.datacite.org.s3-website-eu-west-1.amazonaws.com
   local-dir: _site
   acl: public_read
   skip_cleanup: true
   region: eu-west-1
   detect_encoding: true
+  on:
+    all_branches: true

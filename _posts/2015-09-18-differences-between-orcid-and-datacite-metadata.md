@@ -4,6 +4,8 @@ title:  Differences between ORCID and DataCite Metadata
 author: mfenner
 tags:
  - thor
+ - orcid
+ - metadata
 ---
 
 One of the first tasks for DataCite in the European Commission-funded [THOR project](http://project-thor.eu/), which started in June, was to contribute to a comparison of the ORCID and DataCite metadata standards. Together with ORCID, CERN, the British Library and Dryad we looked at how contributors, organizations and artefacts - and the relations between them - are described in the respective metadata schemata, and how they are implemented in two example data repositories, [Archaeology Data Service](http://archaeologydataservice.ac.uk/) and [Dryad Digital Repository](https://www.datadryad.org/). The focus of our work was on identifying major gaps. Our report was finished and made publicly available last week [@Fenner:2015b]. The key findings are summarized below:

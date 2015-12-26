@@ -2,7 +2,7 @@ mfenner:
   name: Martin Fenner
   bio: DataCite Technical Director
   orcid: 0000-0003-1419-2405
-  email: martin.fenner@datacite.org
+  email: mfenner@datacite.org
   image_url: http://www.gravatar.com/avatar/434592a097e91261792ebd6b492042bc?s=250&d=mm&r=x
   twitter: mfenner
   github: mfenner
@@ -11,11 +11,13 @@ lrueda:
   name: Laura Rueda
   bio: DataCite Communications Director
   email: laura.rueda@datacite.org
+  image_url: /assets/images/lrueda.jpg
 
 tcruse:
   name: Trisha Cruse
   bio: DataCite Executive Director
   email: patricia.cruse@datacite.org
+  image_url: /assets/images/cruse.jpg
 
 jlin:
   name: Jennifer Lin
@@ -23,3 +25,9 @@ jlin:
   email: jlin@crossref.org
   twitter: jenniferlin15
   image_url: /assets/images/jlin.jpg
+
+mwitt:
+  name: Michael Witt
+  bio: "Head of the Distributed Data Curation Center, Purdue University"
+  orcid: 0000-0003-4221-7956
+  image_url: /assets/images/mwitt.jpg
