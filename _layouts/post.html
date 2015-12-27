@@ -13,8 +13,8 @@
             <div class="panel-body post-content">
               <a name="topofpage"></a>
               <div class="post-meta">
-                <span class="post-reading-time"></span> read ∙
-                <a href="{{ page.url }}#disqus_thread">0 comments</a>
+                <span class="post-reading-time"></span> read
+                {%if site.disqus %} ∙ <a href="{{ page.url }}#disqus_thread">0 comments</a>{% endif %}
               </div>
               <h1>{{ page.title }}</h1>
               {{content}}
@@ -59,7 +59,7 @@
                       <i class="fa fa-tags"></i>
                       {% assign tags = page.tags | sort %}
                       {% for tag in tags %}
-                      <a href="/tags/{{ tag | replace: ' ', '-' }}/">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
+                      <a href="/tag/{{ tag | replace: ' ', '-' }}/">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
                       {% endfor %}
                     </p>
                     {% endif %}
