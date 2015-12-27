@@ -52,7 +52,7 @@
                     <h4>{{ author.name }}</h4>
                     <p class="bio">{{author.bio}}</p>
                     <hr>
-                    <p class="published">Published on <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+                    <p class="published"><i class="fa fa-calendar"></i> <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
                     <p class="published">© {{ page.date | date: "%Y" }} {{ author.name }}. Distributed under the terms of the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>.</p>
                     {% if page.tags.size > 0 %}
                     <p class="published">
