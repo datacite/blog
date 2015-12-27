@@ -59,7 +59,7 @@
                       <i class="fa fa-tags"></i>
                       {% assign tags = page.tags | sort %}
                       {% for tag in tags %}
-                      <a href="/tags/{{ tag | replace: ' ', '-' }}/">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
+                      <a href="/tag/{{ tag | replace: ' ', '-' }}/">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
                       {% endfor %}
                     </p>
                     {% endif %}

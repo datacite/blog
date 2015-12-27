@@ -67,12 +67,17 @@ layout: default
         <h4>Tags</h4>
         <ul>
         {% assign tags = site.tags | sort %}
-        {% for tag in tags %}
+          {% for tag in tags %}
           <li>
-            <a href="/tags/{{ tag.first | replace: ' ', '-' }}/">{{ tag.first }}</a>
+            <a href="/tag/{{ tag.first | replace: ' ', '-' }}/">{{ tag.first }}</a>
             <span class="number pull-right">{{ tag.last.size }}</span>
           </li>
-        {% endfor %}
+          {% endfor %}
+          <li>
+            <br/>
+            <strong>all posts</strong>
+            <span class="number pull-right">{{ site.posts.size }}</span>
+          </li>
         </ul>
       </div>
     </div>
