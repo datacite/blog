@@ -31,13 +31,13 @@ author_image: "/assets/images/author.jpg"
 permalink: /:title/
 paginate:	10
 
-url: "http://blog..labs.datacite.org" # the base hostname & protocol for your site
+url: "http://blog.datacite.org" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
 twitter_handle: '@datacite'
 
 #fill in disqus shortname to use disqus
-#disqus: datacite
+disqus: datacite
 
 #fill in tracking id
 google_analytics: UA-22806196-6
