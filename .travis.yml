@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.3
+- 2.2
 
 before_install:
 - wget https://github.com/jgm/pandoc/releases/download/1.15.2/pandoc-1.15.2-1-amd64.deb
