@@ -60,4 +60,6 @@ Language-specific repositories provide the detailed information that is needed t
 
 ![](/assets/images/2015/10/Bildschirmfoto-2015-10-18-um-12-14-48.png)
 
-Of particular interest is how Depsy tracks reuse, as the service follows all the dependencies and dependencies of dependencies of a software package, [described as transitive credit](http://doi.org/10.5334/jors.be) by Dan Katz in 2014. Depsy is currently tracking software packages in **pypi** and **CRAN**, and an open API is available. Once Depsy has launched, it would of course be of great interest to integrate data from the service into the DataCite Claim Store, and Depsy is providing an open API for this.
+Of particular interest is how Depsy tracks reuse, as the service follows all the dependencies and dependencies of dependencies of a software package, described as transitive credit by Dan Katz [-@https://doi.org/10.5334/jors.be]. Depsy is currently tracking software packages in **pypi** and **CRAN**, and an open API is available. Once Depsy has launched, it would of course be of great interest to integrate data from the service into the DataCite Claim Store, and Depsy is providing an open API for this.
+
+## References
