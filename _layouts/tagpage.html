@@ -18,6 +18,7 @@ layout: default
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date: "%F %R" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+              {%if site.disqus %} ∙ <a href="{{ post.url }}#disqus_thread">0 comments</a>{% endif %}
             </div>
           </div>
         </div>{% endfor %}
