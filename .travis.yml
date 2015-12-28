@@ -14,7 +14,8 @@ before_script:
   else
     AWS_BUCKET="blog.labs.datacite.org";
   fi
-- cp _config.$TRAVIS_BRANCH.yml _config.yml
+- cd _frontend && npm install
+- cd ../ && cp _config.$TRAVIS_BRANCH.yml _config.yml
 
 script:
 - bundle exec jekyll build
