@@ -2,6 +2,8 @@
 layout: post
 title:  Overcoming Development Pain
 author: mfenner
+tags:
+ - infrastructure
 ---
 
 Today DataCite received an email from a user alerting us that there are some small inconsistencies with our recommended data citation format:
