@@ -31,3 +31,6 @@ deploy:
   detect_encoding: true
   on:
     all_branches: true
+
+notifications:
+  slack: datacite:Wt8En0ALoTA6Kjc5EOKNDWxN
