@@ -29,24 +29,24 @@ author: 'DataCite'
 author_image: "/assets/images/author.jpg"
 
 permalink: /:title/
-paginate:	10
+paginate: 10
 
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "https://blog.datacite.org" # the base hostname & protocol for your site
 baseurl: ""
 source_url: https://github.com/datacite/blog
 #used to display twitter cards
 twitter_handle: '@datacite'
 
 #fill in disqus shortname to use disqus
-#disqus: datacite
+disqus: datacite
 
 #fill in tracking id
 google_analytics: UA-22806196-6
 
 # social icons and sharing options
 social:
-  - icon:	twitter
-    url:	https://twitter.com/datacite
+  - icon: twitter
+    url:  https://twitter.com/datacite
     desc: Follow DataCite on Twitter
     share_url: http://twitter.com/share
     share_title: ?text=
@@ -59,9 +59,9 @@ social:
     share_title: ?t=
     share_link: "&amp;u="
 
-  - icon:	github
-    url:	https://github.com/datacite
-    desc:	Visit DataCite on Github
+  - icon: github
+    url:  https://github.com/datacite
+    desc: Visit DataCite on Github
     share_url:
     share_title:
     share_link:

@@ -1,20 +1,29 @@
 language: ruby
 rvm:
-- 2.2
+- 2.3
 
 before_install:
-- wget https://github.com/jgm/pandoc/releases/download/1.15.0.6/pandoc-1.15.0.6-1-amd64.deb
+- wget https://github.com/jgm/pandoc/releases/download/1.15.2/pandoc-1.15.2-1-amd64.deb
 - sudo dpkg -i pandoc-1.15.0.6-1-amd64.deb
 - rm pandoc-1.15.0.6-1-amd64.deb
 
-script: bundle exec jekyll build
+before_script:
+- if [ "$TRAVIS_BRANCH" == "master" ]; then
+    AWS_BUCKET="blog.datacite.org"
+  else
+    AWS_BUCKET="blog.labs.datacite.org"
+  fi
+- cp _config.$TRAVIS_BRANCH.yml _config.yml
+
+script:
+- bundle exec jekyll build
 
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
-  bucket: blog.datacite.org
-  endpoint: blog.datacite.org.s3-website-eu-west-1.amazonaws.com
+  bucket: $AWS_BUCKET
+  endpoint: $AWS_BUCKET.s3-website-eu-west-1.amazonaws.com
   local-dir: _site
   acl: public_read
   skip_cleanup: true
