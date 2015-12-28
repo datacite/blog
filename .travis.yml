@@ -1,4 +1,5 @@
 language: ruby
+cache: bundler
 rvm:
 - 2.2
 
@@ -9,9 +10,9 @@ before_install:
 
 before_script:
 - if [ "$TRAVIS_BRANCH" == "master" ]; then
-    AWS_BUCKET="blog.datacite.org"
+    AWS_BUCKET="blog.datacite.org";
   else
-    AWS_BUCKET="blog.labs.datacite.org"
+    AWS_BUCKET="blog.labs.datacite.org";
   fi
 - cp _config.$TRAVIS_BRANCH.yml _config.yml
 
