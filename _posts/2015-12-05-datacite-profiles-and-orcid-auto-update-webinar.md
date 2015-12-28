@@ -9,7 +9,7 @@ tags:
 
 Last Monday, DataCite organized the first in a series of t webinars were we will be sharing our latest developments, new services, collaborations with different organizations and best practices to get the most out of persistent identifiers and data publication. Our hope is to connect with the DataCite community to bring everyone up to date and gather feedback on our work.
 
-DataCite has been working very closely with ORCID and CrossRef, [as Martin Fenner has already discussed](http://blog.datacite.org/explaining-the-datacite-orcid-auto-update/), and this webinar introduced both the  results of our collaboration and our on-going development including ORCID Auto-Update, DataCite Profiles, Link Store and others.
+DataCite has been working very closely with ORCID and CrossRef, as Martin Fenner has already discussed [-@https://blog.datacite.org/explaining-the-datacite-orcid-auto-update], and this webinar introduced both the  results of our collaboration and our on-going development including ORCID Auto-Update, DataCite Profiles, Link Store and others.
 
 If you weren't able to join the webinar we have made the slides and recording available.
 
@@ -17,11 +17,11 @@ If you weren't able to join the webinar we have made the slides and recording av
 
 You can also download (and cite!) the slides:
 
-![Webinar Introduction [@rueda_2015]](/assets/images/2015/12/webinar_intro-2.png)
+![Webinar Introduction [@https://doi.org/10.5281/zenodo.34671]](/assets/images/2015/12/webinar_intro-2.png)
 
-![Webinar ORCID [@brown_2015]](/assets/images/2015/12/webinar_orcid-1.png)
+![Webinar ORCID [@https://doi.org/10.5281/zenodo.34670]](/assets/images/2015/12/webinar_orcid-1.png)
 
-![Webinar DataCite [@fenner_2015c]](/assets/images/2015/12/webinar_datacite-1.png)
+![Webinar DataCite [@https://doi.org/10.5281/zenodo.34673]](/assets/images/2015/12/webinar_datacite-1.png)
 
 Many thanks to Josh Brown from ORCID and Martin Fenner from DataCite for preparing the webinar and to all the participants for their interest and questions. Let's continue the discussion here on the comments or through [Twitter](https://twitter.com/datacite)!
 
