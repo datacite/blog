@@ -4,7 +4,7 @@ title: Infrastructure Tips for the Non-Profit Startup
 author: mfenner
 ---
 
-When I started as DataCite Technical Director four months ago, [my first post](http://blog.datacite.org/data-driven-development/) on this blog was about what I called **Data-Driven Development**. The post included a lot of ideas on how to approach development and technical infrastructure. In this post I want to take a second look.
+When I started as DataCite Technical Director four months ago, my first post [@https://blog.datacite.org/data-driven-development] on this blog was about what I called **Data-Driven Development**. The post included a lot of ideas on how to approach development and technical infrastructure. In this post I want to take a second look.
 
 While I think the ideas expressed in the blog post are still true, I also learned that the focus of a Technical Director working for a small non-profit is somewhere else. The main challenge might be to properly run infrastructure and technical development with limited resources, both in terms of staff and money. While DataCite isn't a startup (the organization turned six years old this month), we face many of the same challenges. And as a non-profit, we can't take the approach of the typical startup, which in the early stages might have a small staff, but usually can spend more money than it is taking in.
 
@@ -73,9 +73,9 @@ A common approach in the commercial startup world is to focus on the particular 
 But for the most part I think the risk of trying to build too much yourself is bigger, in particular since many external services have monthly plans, and there are often several alternatives. The biggest consideration is the risk of lock-in, which is of course what all service providers are aiming for.
 
 ### Open Source where it is important
-The software written by DataCite staff to run the DataCite services is all open source, hosted in a [public Github repository](https://github.com/datacite). This is important for a number of reasons, best explained by Geoff Bilder, Jennifer Lin and Cameron Neylon in their Principles of Open Scholarly Infrastructures [@Bilder2015]. One nice side effect is that a number of important external services are free for open source projects, for example Github or the [Travis CI](https://travis-ci.org/) continuous integration service.
+The software written by DataCite staff to run the DataCite services is all open source, hosted in a [public Github repository](https://github.com/datacite). This is important for a number of reasons, best explained in the Principles of Open Scholarly Infrastructures [@https://doi.org/10.6084/M9.FIGSHARE.1314859]. One nice side effect is that a number of important external services are free for open source projects, for example Github or the [Travis CI](https://travis-ci.org/) continuous integration service.
 
-What this doesn't mean is that all software that DataCite uses should be open source. I like the approach that ORCID has taken in the [ORCID Principles](https://orcid.org/about/what-is-orcid/principles):
+What this doesn't mean is that all software that DataCite uses should be open source. I like the approach that ORCID has taken in the ORCID Principles [@https://orcid.org/about/what-is-orcid/principles]:
 
 > All software developed by ORCID will be publicly released under an Open Source Software license approved by the Open Source Initiative. For the software it adopts, ORCID will prefer Open Source.
 
