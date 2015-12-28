@@ -6,9 +6,7 @@ author: mfenner
 
 This week I start as the new DataCite Technical Director. While I get up to speed with existing DataCite services and infrastructure, and we start to launch new services (e.g. this blog), this is also a good time to communicate the overall approach I am taking. I like to call it **Data-Driven Development**, or **DDD** as we all love acronyms.
 
-![](/assets/images/2015/08/Fel_048248-RE-2.jpg)
-
-*Unbekannt, Blick auf Hannover (1931). ETH-Bibliothek Zürich, Bildarchiv [http://doi.org/10.3932/ETHZ-A-000159123](http://doi.org/10.3932/ETHZ-A-000159123)*
+![Blick auf Hannover [@https://doi.org/10.3932/ETHZ-A-000159123]](/assets/images/2015/08/Fel_048248-RE-2.jpg)
 
 ## Definition
 Data-Driven Development and related terms are in use in several contexts, in particular [economics](http://www.weforum.org/projects/data-driven-development), and [programming](https://en.wikipedia.org/wiki/Data-driven_programming). The term sounds similar to [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) and [behavior-driven development](https://en.wikipedia.org/wiki/Behavior-driven_development), two related software development processes. [Business intelligence](https://en.wikipedia.org/wiki/Business_intelligence) and [data science](https://en.wikipedia.org/wiki/Data_science) are of course closely related. My definition is as follows:
@@ -69,7 +67,5 @@ Of course I am aware that this is an ambitious agenda, in particular since DataC
 * implement DDD practices over time, starting with one service and one aspect
 * use service providers wherever it makes sense ([there is a future where you yourself are running less servers](http://thenewstack.io/new-stack-mitchell-hashimoto-containers-no-containers-one-question-2015/)). This means anything that is not core to the DataCite mission and where the service provider is better and/or cheaper than what you could do internally. This evaluation can of course change over time
 * collaborate with other scholarly non-profits on infrastructure, including DataCite members and data centers, and other persistent identifier providers such as CrossRef and ORCID
-
-*Cover image credit: unknown [-@Unknown:1931].*
 
 ## References
