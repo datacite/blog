@@ -13,7 +13,8 @@ DataCite has been working very closely with ORCID and CrossRef, as Martin Fenner
 
 If you weren't able to join the webinar we have made the slides and recording available.
 
-<iframe src="https://player.vimeo.com/video/147743305" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/147743305">DataCite Profiles and ORCID Auto-Update (30th Nov 2015)</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="https://player.vimeo.com/video/147743305" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<figcaption>DataCite Profiles and ORCID Auto-Update [@https://vimeo.com/147743305]</figcaption><br/>
 
 You can also download (and cite!) the slides:
 
