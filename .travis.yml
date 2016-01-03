@@ -1,7 +1,11 @@
 language: ruby
-cache: bundler
 rvm:
 - 2.2
+cache: bundler
+cache:
+  directories:
+    - _frontend/node_modules
+    - _frontend/bower_components
 
 before_install:
 - wget https://github.com/jgm/pandoc/releases/download/1.15.2/pandoc-1.15.2-1-amd64.deb
@@ -14,7 +18,8 @@ before_script:
   else
     AWS_BUCKET="blog.labs.datacite.org";
   fi
-- cp _config.$TRAVIS_BRANCH.yml _config.yml
+- cd _frontend && npm install
+- cd ../ && cp _config.$TRAVIS_BRANCH.yml _config.yml
 
 script:
 - bundle exec jekyll build

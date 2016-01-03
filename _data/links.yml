@@ -7,7 +7,7 @@ labs_links:
    icon: search
 production_links:
  - name: Blog
-   url: http://blog.datacite.org
+   url: https://blog.datacite.org
    icon: rss
  - name: Citation Formatter
    url: http://crosscite.org/citeproc/
