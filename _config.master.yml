@@ -43,6 +43,9 @@ disqus: datacite
 #fill in tracking id
 google_analytics: UA-22806196-6
 
+#error tracking
+bugsnag: c37a5861967091a9b42a1a77e235114a
+
 # social icons and sharing options
 social:
   - icon: twitter
