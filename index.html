@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-
-<div class='row'>
-  <div class='col-md-8'>
-    <div class="container-fluid">
+<div class="container-fluid">
+  <div class='row'>
+    <div class='col-md-8'>
       <div class="post-list">
         <a name="topofpage"></a>{% if site.tags.featured %}
         <h5 class="index-headline featured"><span>Featured</span></h5>
@@ -61,25 +60,25 @@ layout: default
         </div>
       </nav>
     </div>
-  </div>
-  <div class='col-md-4'>
-    <div class="panel tags">
-      <div class="panel-body">
-        <h4>Tags</h4>
-        <ul>
-        {% assign tags = site.tags | sort %}
-          {% for tag in tags %}
-          <li>
-            <a href="/tag/{{ tag.first | replace: ' ', '-' }}/">{{ tag.first }}</a>
-            <span class="number pull-right">{{ tag.last.size }}</span>
-          </li>
-          {% endfor %}
-          <li>
-            <br/>
-            <strong>all posts</strong>
-            <span class="number pull-right">{{ site.posts.size }}</span>
-          </li>
-        </ul>
+    <div class='col-md-3 col-md-offset-1'>
+      <div class="panel tags">
+        <div class="panel-body">
+          <h4>Tags</h4>
+          <ul>
+          {% assign tags = site.tags | sort %}
+            {% for tag in tags %}
+            <li>
+              <a href="/tag/{{ tag.first | replace: ' ', '-' }}/">{{ tag.first }}</a>
+              <span class="number pull-right">{{ tag.last.size }}</span>
+            </li>
+            {% endfor %}
+            <li>
+              <br/>
+              <strong>all posts</strong>
+              <span class="number pull-right">{{ site.posts.size }}</span>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
