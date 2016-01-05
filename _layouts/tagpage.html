@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class='row'>
-  <div class='col-md-8'>
-    <div class="container-fluid">
+<div class="container-fluid">
+  <div class='row'>
+    <div class='col-md-8'>
       <div class="post-list">
         <a name="topofpage"></a>
         {% for post in site.tags[page.tag] %}
@@ -24,29 +24,29 @@ layout: default
         </div>{% endfor %}
       </div>
     </div>
-  </div>
-  <div class='col-md-4'>
-    <div class="panel tags">
-      <div class="panel-body">
-        <h4>Tags</h4>
-        <ul>
-        {% assign tags = site.tags | sort %}
-        {% for tag in tags %}
+    <div class='col-md-3 col-md-offset-1'>
+      <div class="panel tags">
+        <div class="panel-body">
+          <h4>Tags</h4>
+          <ul>
+          {% assign tags = site.tags | sort %}
+          {% for tag in tags %}
+            <li>
+              {% if tag[0] == page.tag %}
+              <strong>{{ tag[0] }}</strong>
+              {% else %}
+              <a href="/tag/{{ tag.first | replace: ' ', '-' }}/">{{ tag.first }}</a>
+              {% endif %}
+              <span class="number pull-right">{{ tag.last.size }}</span>
+            </li>
+          {% endfor %}
           <li>
-            {% if tag[0] == page.tag %}
-            <strong>{{ tag[0] }}</strong>
-            {% else %}
-            <a href="/tag/{{ tag.first | replace: ' ', '-' }}/">{{ tag.first }}</a>
-            {% endif %}
-            <span class="number pull-right">{{ tag.last.size }}</span>
+            <br/>
+            <a href="/">all posts</a>
+            <span class="number pull-right">{{ site.posts.size }}</span>
           </li>
-        {% endfor %}
-        <li>
-          <br/>
-          <a href="/">all posts</a>
-          <span class="number pull-right">{{ site.posts.size }}</span>
-        </li>
-        </ul>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
