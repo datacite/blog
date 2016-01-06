@@ -15,14 +15,16 @@ before_install:
 before_script:
 - if [ "$TRAVIS_BRANCH" == "master" ]; then
     AWS_BUCKET="blog.datacite.org";
+    JEKYLL_COMMAND="build";
   else
     AWS_BUCKET="blog.labs.datacite.org";
+    JEKYLL_COMMAND="build --drafts";
   fi
 - cd _frontend && npm install
 - cd ../ && cp _config.$TRAVIS_BRANCH.yml _config.yml
 
 script:
-- bundle exec jekyll build
+- bundle exec jekyll $JEKYLL_COMMAND
 
 deploy:
   provider: s3
