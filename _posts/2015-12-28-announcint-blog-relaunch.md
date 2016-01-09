@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing the DataCite Blog relaunch
+title: Announcing the DataCite Blog Relaunch
 author: mfenner
 tags:
  - blog
