@@ -17,8 +17,7 @@ exclude:
 # Site settings
 title: Blog
 description: |
-   Making research better by enabling people<br/>
-   to find, share, use, and cite data.
+   Making research better by enabling people to find, share, use, and cite data.
 
 email: support@datacite.org
 #blog logo
