@@ -8,23 +8,30 @@ cache:
     - _frontend/bower_components
 
 before_install:
-- wget https://github.com/jgm/pandoc/releases/download/1.15.2/pandoc-1.15.2-1-amd64.deb
-- sudo dpkg -i pandoc-1.15.2-1-amd64.deb
-- rm pandoc-1.15.2-1-amd64.deb
+  - set -e
+  - if [ "${TRAVIS_TAG?}" ]; then
+      AWS_BUCKET="blog.datacite.org";
+      CONFIG_FILE="_config.master.yml";
+      JEKYLL_COMMAND="build";
+    elif [ "$TRAVIS_BRANCH" == "labs" ]; then
+      AWS_BUCKET="blog.labs.datacite.org";
+      CONFIG_FILE="_config.labs.yml";
+      JEKYLL_COMMAND="build --drafts";
+    else
+      exit 1;
+    fi
+  - rvm install 2.2.0
+
+  - wget https://github.com/jgm/pandoc/releases/download/1.15.2/pandoc-1.15.2-1-amd64.deb
+  - sudo dpkg -i pandoc-1.15.2-1-amd64.deb
+  - rm pandoc-1.15.2-1-amd64.deb
 
 before_script:
-- if [ "$TRAVIS_BRANCH" == "master" ]; then
-    AWS_BUCKET="blog.datacite.org";
-    JEKYLL_COMMAND="build";
-  else
-    AWS_BUCKET="blog.labs.datacite.org";
-    JEKYLL_COMMAND="build --drafts";
-  fi
-- cd _frontend && npm install
-- cd ../ && cp _config.$TRAVIS_BRANCH.yml _config.yml
+  - cd _frontend && npm install
+  - cd ../ && cp $CONFIG_FILE _config.yml
 
 script:
-- bundle exec jekyll $JEKYLL_COMMAND
+  - bundle exec jekyll $JEKYLL_COMMAND
 
 deploy:
   provider: s3
