@@ -16,7 +16,7 @@ At the top of the status page we provide an overview of the status of all our se
 
 ![Services Overview](/assets/images/2016/01/services-overview.png)
 
-We update status manually when there is an issue, possible values are
+We will update the status manually when there is an issue, possible values are
 
 * Operational
 * Degraded Performance
