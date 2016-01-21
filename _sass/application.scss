@@ -267,7 +267,7 @@ Panels are the primary way in which content is organized in Lagotto.
 ```
 */
 
-$panel-footer-bg:                $gray;
+$panel-footer-bg:                white;
 $panel-inner-border:             $gray;
 
 $panel-default-text:             $brand-primary;
@@ -584,4 +584,8 @@ html {
 }
 .navbar-static-top {
   border-bottom: 1px solid $gray;
+}
+.meta {
+  text-align:center;
+  max-width: 150px;
 }

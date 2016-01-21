@@ -4,7 +4,7 @@ layout: default
 
 <div class="container-fluid">
   <div class='row'>
-    <div class='col-md-8'>
+    <div class='col-md-9'>
       <div class="post-list">
         <a name="topofpage"></a>
         {% for post in site.tags[page.tag] %}
@@ -16,15 +16,24 @@ layout: default
             <section class="post-excerpt" itemprop="description">
               <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
             </section>
-            <div class="post-meta">
-              <time datetime="{{ post.date | date: "%F %R" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-              {%if site.disqus %} ∙ <a href="{{ post.url }}#disqus_thread">0 comments</a>{% endif %}
-            </div>
+          </div>
+          <div class="panel-footer">
+            <span class="meta"><time datetime="{{ post.date | date: "%F %R" }}">{{ post.date | date: "%B %-d, %Y" }}</time></span>
+            {% assign author = site.data.authors[post.author] || site.author %}
+            <span class="meta">{{ author.name }}</span>
+            {%if site.disqus %}<a href="{{ post.url }}#disqus_thread">0 comments</a>{% endif %}
+            {%if post.tags.size > 0 %}<span class="pull-right">
+              <i class="fa fa-tags"></i>
+              {% assign tags = post.tags | sort %}
+              {% for tag in tags %}
+              <a href="/tag/{{ tag | replace: ' ', '-' }}/">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
+              {% endfor %}
+            </span>{% endif %}
           </div>
         </div>{% endfor %}
       </div>
     </div>
-    <div class='col-md-3 col-md-offset-1'>
+    <div class='col-md-3'>
       <div class="panel tags">
         <div class="panel-body">
           <h4>Tags</h4>
