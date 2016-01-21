@@ -40,7 +40,7 @@ layout: default
             {% assign author = site.data.authors[post.author] || site.author %}
             <span class="meta">{{ author.name }}</span>
             {%if site.disqus %}<a href="{{ post.url }}#disqus_thread">0 comments</a>{% endif %}
-            {%if post.tags.size > 0 %}<span class="pull-right">
+            {%if post.tags.size > 0 %}<span class="tags pull-right">
               <i class="fa fa-tags"></i>
               {% assign tags = post.tags | sort %}
               {% for tag in tags %}

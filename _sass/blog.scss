@@ -242,7 +242,7 @@ span.citation {
   text-decoration: none;
 }
 .panel-footer {
-  span, span.meta a {
+  span.meta, span.tags, span a {
     color: $gray-darker;
   }
   span.meta {
