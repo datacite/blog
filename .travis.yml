@@ -9,7 +9,7 @@ cache:
 
 before_install:
   - set -e
-  - if [ "${TRAVIS_TAG?}" ]; then
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then
       AWS_BUCKET="blog.datacite.org";
       CONFIG_FILE="_config.master.yml";
       JEKYLL_COMMAND="build";
