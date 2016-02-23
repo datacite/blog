@@ -1,6 +1,7 @@
 _site/*
 .sass-cache
 .DS_Store
+.Rhistory
 _frontend/node_modules/*
 _frontend/bower_components/*
 assets/bootstrap-sass
