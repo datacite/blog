@@ -31,3 +31,11 @@ mwitt:
   bio: "Head of the Distributed Data Curation Center, Purdue University"
   orcid: 0000-0003-4221-7956
   image_url: /assets/images/mwitt.jpg
+
+hpampel:
+  name: Heinz Pampel
+  bio: "#OpenAccess: http://oa.helmholtz.de , e-Infrastructures for #OpenScience: http://re3data.org , Innovations in Scholarly Communication: http://wisspub.net"
+  orcid: 0000-0003-3334-2771
+  email: heinz.pampel@gfz-potsdam.de
+  twitter: pampel
+  image: https://pbs.twimg.com/profile_images/378800000761485499/2e08c904773ac15d05a7c43b1e702800.jpeg
