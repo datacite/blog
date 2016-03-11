@@ -38,4 +38,12 @@ hpampel:
   orcid: 0000-0003-3334-2771
   email: heinz.pampel@gfz-potsdam.de
   twitter: pampel
-  image: https://pbs.twimg.com/profile_images/378800000761485499/2e08c904773ac15d05a7c43b1e702800.jpeg
+  image: /assets/images/hpampel.jpeg
+
+ehull:
+  name: Elizabeth Hull
+  bio: "Operations Manager at Dryad"
+  orcid: 0000-0002-8661-6265
+  email: ehull@datadryad.org
+  twitter: @datadryad
+  image: /assets/images/ehull.jpg
