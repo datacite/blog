@@ -24,5 +24,5 @@ You can find CERN datasets (open and citable!) here:
 [http://doi.org/10.7484/INSPIREHEP.DATA.RF5P.6M3K](http://doi.org/10.7484/INSPIREHEP.DATA.RF5P.6M3K)
 [http://doi.org/10.7484/INSPIREHEP.DATA.A78C.HK44](http://doi.org/10.7484/INSPIREHEP.DATA.A78C.HK44)
 
-Are there any other datasets you would like to highlight? Tell us in the comments or through Twitter (@datacite).
+Are there any other datasets you would like to highlight? Tell us in the comments or through [Twitter](https://twitter.com/datacite/status/709380561547173888)! 
 
