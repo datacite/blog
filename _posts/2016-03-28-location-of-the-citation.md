@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Location of the Citation, are Data Citation Recommendations Having an Effect?
+title: "The Location of the Citation: are Data Citation Recommendations Having an Effect?"
 author: ehull
 tags:
  - citation
