@@ -38,7 +38,7 @@ hpampel:
   orcid: 0000-0003-3334-2771
   email: heinz.pampel@gfz-potsdam.de
   twitter: pampel
-  image: /assets/images/hpampel.jpeg
+  image_url: /assets/images/hpampel.jpeg
 
 ehull:
   name: Elizabeth Hull
@@ -46,4 +46,4 @@ ehull:
   orcid: 0000-0002-8661-6265
   email: ehull@datadryad.org
   twitter: datadryad
-  image: /assets/images/ehull.jpg
+  image_url: /assets/images/ehull.jpg
