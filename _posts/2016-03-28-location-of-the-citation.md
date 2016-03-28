@@ -7,7 +7,7 @@ tags:
  - dois
 ---
 
-I was pleased to present at [IDCC16](http://www.dcc.ac.uk/events/idcc16) on a research paper called _The location of the citation: Changing practices in how publications cite original data in the Dryad Digital Repository_ (see preprint: Mayo et al, [2016](https://doi.org/10.5281/zenodo.32412). 
+I was pleased to present at [IDCC16](http://www.dcc.ac.uk/events/idcc16) on a research paper called _The location of the citation: Changing practices in how publications cite original data in the Dryad Digital Repository_ (see preprint: Mayo et al, [@http://doi.org/10.5281/zenodo.32412]). 
 
 Recently, organizations including CrossRef and the Digital Curation Center (DCC) have recommended as a best practice that original data citations appear in the works cited sections of the article. We wondered: has data citation practice been changing in light of this guidance, and are there any visible trends over time?
 
@@ -40,3 +40,5 @@ The bad news is that at the current rate of growth, the proportion of articles w
 Where do we go from here? Author education and increased adoption of standards like the [TOP Guidelines](https://cos.io/top/) will undoubtedly help. Further questions to consider include: is the works cited the right place for original data citations?, should data availability sections be promoted more widely? and should original and data re-use citations be treated differently?
 
 We at DataCite recognize the importance of properly citing data in the scholarly record and the more we understand the challenges the better we can work collectively to overcome the current issues and support the adoption of best practices. Do you have any ideas on how to improve? Share them in the comments!
+
+## References
