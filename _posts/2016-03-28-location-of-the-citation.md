@@ -35,6 +35,6 @@ On the bright side, the total percentage of articles in which the Dryad DOI was 
 
 The bad news is that at the current rate of growth, the proportion of articles with data citations in the works cited section would not exceed 90% until **2031**. This evidence leads us to conclude that current efforts to promulgate best practice are working, but only very slowly.
 
-Where do we go from here? Author education and increased adoption of standards like the [TOP Guidelines](https://cos.io/top/) will undoubtedly help. Further questions to consider include: ‘is the works cited the right place for original data citations?’, ‘should data availability sections be promoted more widely?’ and ’should original and data re-use citations be treated differently?’ 
+Where do we go from here? Author education and increased adoption of standards like the [TOP Guidelines](https://cos.io/top/) will undoubtedly help. Further questions to consider include: is the works cited the right place for original data citations?, should data availability sections be promoted more widely? and should original and data re-use citations be treated differently?
 
 We at DataCite recognize the importance of properly citing data in the scholarly record and the more we understand the challenges the better we can work collectively to overcome the current issues and support the adoption of best practices. Do you have any ideas on how to improve? Share them in the comments!
