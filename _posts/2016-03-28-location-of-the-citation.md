@@ -1,10 +1,10 @@
 ---
 layout: post
-title: The Location of the Citation: Are Data Citation Recommendations Having an Effect?
+title: The Location of the Citation, are Data Citation Recommendations Having an Effect?
 author: ehull
 tags:
  - citation
- - dryad
+ - dois
 ---
 
 I was pleased to present at [IDCC16](http://www.dcc.ac.uk/events/idcc16) on a research paper called _The location of the citation: Changing practices in how publications cite original data in the Dryad Digital Repository_ (see preprint: Mayo et al [-@https://doi.org/10.5281/zenodo.32412]). 
