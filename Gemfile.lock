@@ -10,12 +10,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.8)
     blankslate (2.1.2.4)
-<<<<<<< HEAD
-=======
-    bourbon (4.2.3)
-      sass (~> 3.4)
-      thor
->>>>>>> dirkfabisch/master
     celluloid (0.16.0)
       timers (~> 4.0.0)
     classifier-reborn (2.0.4)
