@@ -1,9 +1,13 @@
 # Build settings
+<<<<<<< HEAD
 markdown: pandoc
 highlighter: pygments
+=======
+>>>>>>> dirkfabisch/master
 gems:
   - jekyll-pandoc
   - jemoji
+<<<<<<< HEAD
 
 exclude:
   - README.md
@@ -13,6 +17,9 @@ exclude:
   - .travis.yml
   - vendor
   - assets/jquery/*
+=======
+  - jekyll-paginate
+>>>>>>> dirkfabisch/master
 
 # Site settings
 title: Blog
