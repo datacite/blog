@@ -31,3 +31,19 @@ mwitt:
   bio: "Head of the Distributed Data Curation Center, Purdue University"
   orcid: 0000-0003-4221-7956
   image_url: /assets/images/mwitt.jpg
+
+hpampel:
+  name: Heinz Pampel
+  bio: "#OpenAccess: http://oa.helmholtz.de , e-Infrastructures for #OpenScience: http://re3data.org , Innovations in Scholarly Communication: http://wisspub.net"
+  orcid: 0000-0003-3334-2771
+  email: heinz.pampel@gfz-potsdam.de
+  twitter: pampel
+  image_url: /assets/images/hpampel.jpeg
+
+ehull:
+  name: Elizabeth Hull
+  bio: "Operations Manager at Dryad"
+  orcid: 0000-0002-8661-6265
+  email: ehull@datadryad.org
+  twitter: datadryad
+  image_url: /assets/images/ehull.jpg
