@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hiring an Application Developer
+title: DataCite is Hiring an Application Developer
 author: mfenner
 ---
 
