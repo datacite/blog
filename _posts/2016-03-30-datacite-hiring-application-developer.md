@@ -8,4 +8,4 @@ As DataCite's Technical Director I am very excited to announce that DataCite is 
 
 We are particularly interested in candidates with a strong Open Science background. Remote work (from somewhere in Europe) is possible.
 
-Please take a look at the job posting for more information and contact me by April 17th if you are interested in the position.
+Please take a look at the [job posting](https://www.datacite.org/about-datacite/job-opportunities) for more information and contact me by April 17th if you are interested in the position.
