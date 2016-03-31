@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dataverse is now minting DOIs with DataCite Metadata Store API
+title: General Assembly 2016, moving DataCite forward
 author: tcruse
 ---
 
