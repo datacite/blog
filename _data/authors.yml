@@ -47,3 +47,11 @@ ehull:
   email: ehull@datadryad.org
   twitter: datadryad
   image_url: /assets/images/ehull.jpg
+
+ecastro: 
+  name: Eleni Castro  
+  bio: "Research Coordinator, Data Curation and Outreach at IQSS, Harvard University"  
+  orcid: 0000-0001-9767-8536 
+  email: ecastro@fas.harvard.edu 
+  twitter: dataverseorg  
+  image_url: /assets/images/ecastro.png
