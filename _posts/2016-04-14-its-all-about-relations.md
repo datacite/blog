@@ -8,13 +8,13 @@ tags:
  - crossref
 ---
 
-Two weeks ago Elizabeth Hull described in a [guest post](location-of-the-citation/) that only 6% of Dryad datasets associated with a journal article are found in the reference list of that article [@http://doi.org/10.5281/zenodo.32412]. This number has increased from 4% to 8% from 2011-2014, but is still low. One important reason is missing incentives: we don't yet have the same automated citation linking  between articles and data that exist between articles thanks to [Crossref](http://www.crossref.org).
+In a [guest post](/location-of-the-citation/) two weeks ago Elizabeth Hull explained that only 6% of Dryad datasets associated with a journal article are found in the reference list of that article, data she also presented at the IDCC conference in February [@http://doi.org/10.5281/zenodo.32412]. This number has increased from 4% to 8% between 2011-2014, but is still low. One important reason is missing incentives: we don't yet have the same automated citation linking  between articles and data that exists between articles thanks to [Crossref](http://www.crossref.org).
 
 Wouldn't it be nice if a data publisher such as the Oak Ridge National Laboratory is automatically informed about journal articles citing one of their datasets [@http://doi.org/10.3334/CDIAC/00001]?
 
-![[Global, Regional, and National Fossil-Fuel CO2 Emissions](https://eventdata.datacite.org/works/doi.org/10.3334/CDIAC/00001).](/assets/images/2016/04/oak_ridge.png)
+![Global, Regional, and National Fossil-Fuel CO2 Emissions. [Live data](https://eventdata.datacite.org/works/doi.org/10.3334/CDIAC/00001).](/assets/images/2016/04/oak_ridge.png)
 
-The challenge: both DataCite and Crossref collect metadata as part of the respective DOI registration services they provide. These metadata - in the case of Datacite defined in the DataCite Metadata Schema [@http://doi.org/10.5438/0010] - describe the information required for a citation (title, authors, publication date, etc.). And the metadata can contain links to other related resources, for example citations. But what is missing is an automated exchange of the information collected by Crossref and DataCite.
+The challenge: both DataCite and Crossref collect metadata as part of the respective DOI registration services they provide. These metadata describe the information required for a citation (title, authors, publication date, etc.) [@http://doi.org/10.5438/0010]. And the metadata can contain references to related resources. But what is missing is an automated exchange of the information collected by Crossref and DataCite.
 
 We can't simply store information coming from Crossref in the DataCite Metadata Store ([MDS](https://mds.datacite.org)) for two reasons:
 
@@ -47,7 +47,7 @@ This Tuesday we released version 5 of the Lagotto software [@http://doi.org/10.5
 3. Support for **Github**, describing the relations between software release, code repository,
    and repository owner, for the by now more than 7,000 DataCite DOIs for software linked to a Github release.
 
-In the coming weeks and months DataCite and Crossref will continue developing the platform to build out their Event Data services, so stay tuned for updates. And if you don’t mind minor bugs and incomplete data (currently about 1.2 million events for over 400,000 DataCite DOIs), take a look at [DataCite Event Data](https://eventdata.datacite.org) and send us your feedback.
+In the coming months DataCite and Crossref will continue developing the platform to build out their Event Data services, so stay tuned for updates. And if you don’t mind minor bugs and incomplete data (currently about 1.2 million events for about 400,000 DataCite DOIs), take a look at [DataCite Event Data](https://eventdata.datacite.org) and send us your feedback.
 
 ![**A real life lagotto**. Credit: Anke Büter and Najko Jahn (Exeter)](/assets/images/2016/04/lagotto.jpg)
 
