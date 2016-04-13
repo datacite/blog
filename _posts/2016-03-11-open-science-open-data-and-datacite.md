@@ -18,13 +18,7 @@ Similarly, in 2012 [CERN](http://cern.ch) announced the discovery of the Higgs b
 
 ![[What is the Higgs](http://www.nytimes.com/interactive/2013/10/08/science/the-higgs-boson.html?_r=0#/?g=true&higgs1_slide=0 )](/assets/images/2016/03/higgs.png)
 
-You can find CERN datasets (open and citable!) here:
-
-[@http://doi.org/10.7484/INSPIREHEP.DATA.26B4.TY5F]
-[@http://doi.org/10.7484/INSPIREHEP.DATA.RF5P.6M3K]
-[@http://doi.org/10.7484/INSPIREHEP.DATA.A78C.HK44]
-
-Are there any other datasets you would like to highlight? Tell us in the comments or through [Twitter](https://twitter.com/datacite/status/709380561547173888)! 
+You can also find CERN datasets [@http://doi.org/10.7484/INSPIREHEP.DATA.26B4.TY5F, @http://doi.org/10.7484/INSPIREHEP.DATA.RF5P.6M3K, @http://doi.org/10.7484/INSPIREHEP.DATA.A78C.HK44]. Are there any other datasets you would like to highlight? Tell us in the comments or through [Twitter](https://twitter.com/datacite/status/709380561547173888)!
 
 ## References
 
