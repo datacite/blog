@@ -16,3 +16,5 @@ In other news, badges are now available for repositories to acknowledge and link
 To generate a badge for a repository, simply look up it up in re3data.org and click “Get a Badge” at the bottom of the page. Badges are available in two different sizes and colors to match the theme of your repository, and they can be downloaded in SVG and PNG formats or embedded using a snippet of HTML.
 
 Some examples of how data repositories have integrated these badges include the [Bielefeld University](https://pub.uni-bielefeld.de/data?lang=en), [CLARIN](http://www.clarin.si/info/about-repository/), [PURR](http://purr.purdue.edu/), and the [Landcare Research Data Repository](https://datastore.landcareresearch.co.nz/about).
+
+This is a crosspost from [re3data.org Reaches a Milestone and Begins Offering Badges](http://www.re3data.org/2016/04/re3data-org-reaches-a-milestone-begins-offering-badges/)
