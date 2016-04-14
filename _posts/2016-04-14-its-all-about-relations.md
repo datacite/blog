@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Its all about Relations
+title: It's all about Relations
 author: mfenner
 tags:
  - metadata
