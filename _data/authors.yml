@@ -48,10 +48,17 @@ ehull:
   twitter: datadryad
   image_url: /assets/images/ehull.jpg
 
-ecastro: 
-  name: Eleni Castro  
-  bio: "Research Coordinator, Data Curation and Outreach at IQSS, Harvard University"  
-  orcid: 0000-0001-9767-8536 
-  email: ecastro@fas.harvard.edu 
-  twitter: dataverseorg  
+ecastro:
+  name: Eleni Castro
+  bio: "Research Coordinator, Data Curation and Outreach at IQSS, Harvard University"
+  orcid: 0000-0001-9767-8536
+  email: ecastro@fas.harvard.edu
+  twitter: dataverseorg
   image_url: /assets/images/ecastro.png
+
+danielskatz:
+  name: Daniel S. Katz
+  bio: "Assistant Director for Scientific Software and Applications at NCSA, Research Associate Professor in ECE and GSLIS at the University of Illinois Urbana-Champaign"
+  orcid: 0000-0001-5934-7525
+  twitter: danielskatz
+  image_url: https://secure.gravatar.com/avatar/3f59e90625547fce79de3e9c0d46867d
