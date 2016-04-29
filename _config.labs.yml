@@ -1,6 +1,6 @@
 # Build settings
 markdown: pandoc
-highlighter: pygments
+highlighter: rouge
 gems:
   - jekyll-pandoc
   - jemoji
@@ -33,6 +33,7 @@ paginate: 10
 url: "https://blog.labs.datacite.org" # the base hostname & protocol for your site
 baseurl: ""
 source_url: https://github.com/datacite/blog
+cdn_url: https://assets.datacite.org
 #used to display twitter cards
 twitter_handle: '@datacite'
 
