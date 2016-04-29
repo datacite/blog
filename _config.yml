@@ -1,6 +1,6 @@
 # Build settings
 markdown: pandoc
-highlighter: pygments
+highlighter: rouge
 gems:
   - jekyll-pandoc
   - jemoji
