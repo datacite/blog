@@ -3,6 +3,7 @@ markdown: pandoc
 highlighter: rouge
 gems:
   - jekyll-pandoc
+  - jekyll-paginate
   - jemoji
 
 exclude:
