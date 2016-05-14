@@ -3,9 +3,8 @@ layout: post
 title: DataCite to Dublin Core application profile (DC2AP)
 author: lrueda
 tags:
- - DublinCore
+ - dublin core
  - metadata
- - DC2AP
 ---
 
 The DataCite Metadata Working Group has prepared a DataCite to Dublin Core application profile (DC2AP) and would love to hear your comments about it!
