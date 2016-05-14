@@ -2,17 +2,19 @@
 layout: post
 title: General Assembly 2016, moving DataCite forward
 author: tcruse
+tags:
+ - datacite
 ---
 
-In late February, twenty-four of DataCite’s twenty-seven members gathered in Amsterdam for our annual Strategy Meeting and General Assembly. DataCite members are the voting body of the organisation and work directly with data centers and the data sharing community. The focus of the meeting was evaluating how DataCite can continue to provide quality services and meet the continuously changing needs of the research community. DataCite thanks all of our members for contributing to a successful of the meeting. 
+In late February, twenty-four of DataCite’s twenty-seven members gathered in Amsterdam for our annual Strategy Meeting and General Assembly. DataCite members are the voting body of the organisation and work directly with data centers and the data sharing community. The focus of the meeting was evaluating how DataCite can continue to provide quality services and meet the continuously changing needs of the research community. DataCite thanks all of our members for contributing to a successful of the meeting.
 
 ![](/assets/images/2016/03/ga.jpg)
 
-The backdrop of the General Assembly was a year of rapid growth for DataCite with increased use of DOIs for data by the research community. While the organisation is facing growth and change, DataCite members collectively reaffirmed support of research sharing by making it easy to find, access, use, and cite data. 
+The backdrop of the General Assembly was a year of rapid growth for DataCite with increased use of DOIs for data by the research community. While the organisation is facing growth and change, DataCite members collectively reaffirmed support of research sharing by making it easy to find, access, use, and cite data.
 
 ![](/assets/images/2016/03/gas.png)
 
-The General Assembly was a dynamic meeting, where our members voted on significant changes to the statutes of the organisation and opened a new phase for DataCite. These changes will provide a more agile process to accept new members, welcoming different types of institutions, companies or associations, and create sustainable growth and development path for the organisation. 
+The General Assembly was a dynamic meeting, where our members voted on significant changes to the statutes of the organisation and opened a new phase for DataCite. These changes will provide a more agile process to accept new members, welcoming different types of institutions, companies or associations, and create sustainable growth and development path for the organisation.
 
 DataCite is now opening membership organisations that share our mission of making research data a first-class citizen. We invite data centres, research organizations, libraries, publishers, and funders to become members of DataCite. By creating an organization that is open to all DataCite can accelerate data sharing, use, and re-use and stimulate new research. In so doing, DataCite will help transform scholarship and the role of data in our society.
 

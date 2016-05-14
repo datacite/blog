@@ -3,7 +3,7 @@ layout: post
 title: Open Science, Open Data and DataCite DOIs
 author: lrueda
 tags:
- - dois
+ - doi
 ---
 
 At DataCite we are incredibly proud of supporting Open Science. Over the past several years, DataCite DOIs have been assigned to millions of research datasets. All of these DOIs are an important step towards making data a first-class citizen in scholarly research -- they all deserve a round of applause, but some deserve to be highlighted.
