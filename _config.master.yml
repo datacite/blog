@@ -1,5 +1,5 @@
 # Build settings
-markdown: pandoc
+markdown: Pandoc
 highlighter: rouge
 gems:
   - jekyll-pandoc
