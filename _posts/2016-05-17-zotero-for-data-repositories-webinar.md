@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data catalog cards: simplifying article/data linking"
+title: "Zotero for Data Repositories Webinar"
 author: lrueda
 tags:
  - citation
@@ -21,4 +21,6 @@ Also, the slides are available (and citable!) on [Figshare](http://doi.org/10.60
 
 During the discussion the article ‘Achieving human and machine accessibility of cited data in scholarly publications’ [@http://doi.org/10.7717/peerj-cs.1] was mentioned, as well as the [Force11 Data Citation Implementation Pilot - Repository Early Adopters](https://www.force11.org/group/dcip/eg4repository) group. Finally, if you want to learn more about Citoid and Zotero, please see the [Automated citations in Wikipedia: Citoid and the technology behind it](https://www.mediawiki.org/wiki/Citoid/Zotero%27s_Tech_Talk). 
 
-Many thanks to Sebastian for an excellent webinar! If you have any questions or comments, leave us a message in the comments or get back to us via Twitter: @adam42smith and @datacite.
+Many thanks to Sebastian for an excellent webinar! If you have any questions or comments, leave us a message in the comments or get back to us via Twitter: [adam42smith](http://twitter.com/adam42smith) and [datacite](http://twitter.com/datacite).
+
+## References
