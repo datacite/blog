@@ -3,6 +3,7 @@ markdown: Pandoc
 highlighter: rouge
 gems:
   - jekyll-pandoc
+  - jekyll-csvy
   - jekyll-paginate
   - jemoji
 
@@ -75,5 +76,5 @@ pandoc:
     - normalize
     - smart
     - mathjax
-    - csl: _styles/apa.csl
-    - bibliography: bibliography/references.bib
+#    - csl: _styles/apa.csl
+#    - bibliography: bibliography/references.bib
