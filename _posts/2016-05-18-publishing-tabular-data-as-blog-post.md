@@ -6,7 +6,7 @@ tags:
  - csv
  - metadata
 ---
-CSV in many ways is for data what markdown is for text documents: a very simple format that is both human- and machine-readable, and that – despite a number of shortcomings - is widely used. Given the popularity of markdown for writing blog posts, using CSV to publish blog posts with tabular data should be an obvious thing to do, and we have just published our [first blog post](/datacite-mandatory-properties/) using CSV data.
+CSV in many ways is for data what markdown is for text documents: a very simple format that is both human- and machine-readable, and that – despite a number of shortcomings - is widely used. Given the popularity of markdown for writing blog posts, using CSV to publish blog posts with tabular data should be an obvious thing to do, and we have just published our [first blog post](/datacite-mandatory-properties/) using CSV data. The blog post shows Table 3 from the DataCite Metadata Schema [@http://doi.org/10.5438/0010], describing the mandatory properties.
 
 ![Periodic table of elements. From: [Wikipedia](https://en.wikipedia.org/wiki/Periodic_table)](/assets/images/2016/05/periodic_table.jpg)
 
@@ -30,3 +30,5 @@ To add the metadata required for every Jekyll blog post we are again adding a YA
 In HTML tabular data are typically displayed as HTML tables and this is what we are doing with the `CSVY` converter. This works well for tables that are not too big, and the converter supports inline markdown formatting (bold, italic, links, etc.) in table cells. Block formatting (e.g. lists) is on our list of future improvements, and we will polish the converter based on user feedback. We are of course also interested in embedding CSV tables within markdown documents, as this is a common use case.
 
 One important feature of using CSVY for blog posts is that the CSV remains available, and can be ingested and processed by tools that can read CSVY, e.g. with R using the [rio](https://cran.r-project.org/web/packages/rio/index.html) package. The CSVY for our CSVY blog post is available [here](https://github.com/datacite/blog/blob/master/_posts/2016-05-18-datacite-mandatory-properties.csvy).
+
+## References
