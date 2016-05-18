@@ -23,7 +23,7 @@ tags:
 ---
 ```
 
-Markdown is a nice format for writing texts, but doesn't work so well for tabular data, as the document quickly becomes difficult to edit and read for humans. CSV is a much better fit for tabular data, and can be written both with a general text editor, or with a spreadsheet program or other specialized tool.
+Markdown is a nice format for writing texts, but doesn't work so well for tabular data, as the current implementation are difficult to edit and read for humans. CSV is a much better fit for tabular data, and can be written both with a general text editor, or with a spreadsheet program or other specialized tool.
 
 To add the metadata required for every Jekyll blog post we are again adding a YAML header, the resulting file format is `CSVY`, about which we have talked [before](/thinking-about-csv/). Jekyll can be extended to understand many file formats beyond markdown. As a `CSVY` converter doesn't exist yet, we have written this converter and released [jekyll-csvy](https://github.com/datacite/jekyll-csvy) as Ruby gem, so that `CSVY` support can be easily added to every Jekyll-powered blog.
 
