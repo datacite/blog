@@ -14,7 +14,11 @@ layout: default
               <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
             </header>
             <section class="post-excerpt" itemprop="description">
-              <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+              {% if post.description %}
+                <p>{{ post.description | strip_html }}</p>
+              {% else %}
+                <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+              {% endif %}
             </section>
           </div>
           <div class="panel-footer">
