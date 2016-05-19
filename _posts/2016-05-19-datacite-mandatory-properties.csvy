@@ -5,7 +5,7 @@ author: mfenner
 description: |
   The following provides a detailed description of the mandatory properties,
   which must be supplied with any initial metadata submission to DataCite,
-  together with their sub‐properties. From: DataCite Metadata Schema 3.1 documentation, Table 3.
+  together with their sub‐properties. From: Table 3, [DataCite Metadata Schema 3.1](http://schema.datacite.org/meta/kernel-3.1/index.html) documentation.
 tags:
  - csv
  - metadata

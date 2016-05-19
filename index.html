@@ -33,7 +33,7 @@ layout: default
             </header>
             <section class="post-excerpt" itemprop="description">
               {% if post.description %}
-                <p>{{ post.description | strip_html }}</p>
+                <p>{{ post.description | markdownify | strip_html }}</p>
               {% else %}
                 <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
               {% endif %}
