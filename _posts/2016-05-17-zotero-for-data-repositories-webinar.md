@@ -17,9 +17,9 @@ If you want to put these ideas into practice to improve your data repository int
 
 [https://vimeo.com/166934111](https://vimeo.com/166934111)
 
-Also, the slides are available (and citable!) on [Figshare](http://doi.org/10.6084/m9.figshare.3364708.v1) and the code snippets on [Github](https://github.com/adam3smith/zotero-workshops/tree/master/data-translators).
+Also, the slides are available (and citable!) on Figshare [@http://doi.org/10.6084/M9.FIGSHARE.3364708.V1] and the code snippets on [Github](https://github.com/adam3smith/zotero-workshops/tree/master/data-translators).
 
-During the discussion the article ‘Achieving human and machine accessibility of cited data in scholarly publications’ [@http://doi.org/10.7717/peerj-cs.1] was mentioned, as well as the [Force11 Data Citation Implementation Pilot - Repository Early Adopters](https://www.force11.org/group/dcip/eg4repository) group. Finally, if you want to learn more about Citoid and Zotero, please see the [Automated citations in Wikipedia: Citoid and the technology behind it](https://www.mediawiki.org/wiki/Citoid/Zotero%27s_Tech_Talk). 
+During the discussion the article ‘Achieving human and machine accessibility of cited data in scholarly publications’ [@http://doi.org/10.7717/peerj-cs.1] was mentioned, as well as the [Force11 Data Citation Implementation Pilot - Repository Early Adopters](https://www.force11.org/group/dcip/eg4repository) group. Finally, if you want to learn more about Citoid and Zotero, please see the [Automated citations in Wikipedia: Citoid and the technology behind it](https://www.mediawiki.org/wiki/Citoid/Zotero%27s_Tech_Talk).
 
 Many thanks to Sebastian for an excellent webinar! If you have any questions or comments, leave us a message in the comments or get back to us via Twitter: [adam42smith](http://twitter.com/adam42smith) and [datacite](http://twitter.com/datacite).
 
