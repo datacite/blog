@@ -9,7 +9,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-8">
-          <div class="panel panel-default">
+          <div class="panel panel-default panel-table">
             <div class="panel-body post-content">
               <a name="topofpage"></a>
               <div class="post-meta">
@@ -17,10 +17,10 @@
               </div>
               <h1>{{ page.title }}</h1>
               {% if page.description %}
-                <p>{{ page.description | markdownify }}</p>
+                <div class="description">{{ page.description | markdownify }}</div>
               {% endif %}
-              {{content}}
             </div>
+            {{content}}
           </div>
           {%if site.disqus %}
           <div class="panel panel-default">

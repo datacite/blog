@@ -64,6 +64,10 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
+    jekyll-csvy (0.4)
+      jekyll (>= 3.0)
+      jekyll-pandoc (~> 2.0, >= 2.0.0)
+      pandoc-ruby (~> 2.0, >= 2.0.0)
     jekyll-feed (0.5.1)
     jekyll-gist (1.4.0)
       octokit (~> 4.2)
@@ -97,7 +101,7 @@ GEM
       rb-inotify (>= 0.9.7)
     mercenary (0.3.6)
     mini_portile2 (2.0.0)
-    minitest (5.8.4)
+    minitest (5.9.0)
     multipart-post (2.0.0)
     net-dns (0.8.0)
     nokogiri (1.6.7.2)
@@ -130,6 +134,7 @@ PLATFORMS
 DEPENDENCIES
   celluloid (= 0.16.0)
   github-pages (~> 78)
+  jekyll-csvy (~> 0.4)
   jekyll-pandoc (~> 2.0)
 
 BUNDLED WITH
