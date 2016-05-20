@@ -20,15 +20,16 @@ author: mfenner
 tags:
  - csv
  - metadata
+ - blog
 ---
 ```
 
 Markdown is a nice format for writing texts, but doesn't work so well for tabular data, as the current Markdown table implementations are difficult to edit and read for humans for all but the simplest tables. CSV is a much better fit for tabular data, and can be written both with a general text editor, or with a spreadsheet program or other specialized tool.
 
-To add the metadata required for every Jekyll blog post we are again adding a YAML header, the resulting file format is [CSVY](http://csvy.org), about which we have talked [before](/thinking-about-csv/). Jekyll can be extended to understand many file formats beyond Markdown. As a `CSVY` converter doesn't exist yet, we have written this converter and released [jekyll-csvy](https://github.com/datacite/jekyll-csvy) as Ruby gem, so that `CSVY` support can be easily added to every Jekyll-powered blog.
+To add the metadata required for every Jekyll blog post we are again adding a YAML header, the resulting file format is [CSVY](http://csvy.org), about which we have talked before [@https://blog.datacite.org/thinking-about-csv]. Jekyll can be extended to understand many file formats beyond Markdown. As a `CSVY` converter doesn't exist yet, we have written this converter and released jekyll-csvy as Ruby gem [@https://github.com/datacite/jekyll-csvy], so that `CSVY` support can be easily added to every Jekyll-powered blog.
 
 In HTML tabular data are typically displayed as HTML tables, and this is what we are doing with the `CSVY` converter. This works well for tables that are not too wide, and the converter supports inline Markdown formatting (bold, italic, links, etc.) in table cells. Block formatting (e.g. lists) is on our list of future improvements, and we will polish the converter based on user feedback. We are of course also interested in embedding CSV tables within Markdown documents, as this is a common use case.
 
-One important feature of using CSVY for blog posts is that the CSV remains available, and can be ingested and processed by tools that can read CSVY, e.g. with R using the [rio](https://cran.r-project.org/web/packages/rio/index.html) package. The CSVY for our CSVY blog post is available [here](https://github.com/datacite/blog/blob/master/_posts/2016-05-20-datacite-mandatory-properties.csvy).
+One important feature of using CSVY for blog posts is that the CSV remains available, and can be ingested and processed by tools that can read CSVY, e.g. using the R rio [@https://cran.r-project.org/web/packages/rio/index.html] package. The CSVY for our CSVY blog post is available [here](https://github.com/datacite/blog/blob/master/_posts/2016-05-20-datacite-mandatory-properties.csvy).
 
 ## References
