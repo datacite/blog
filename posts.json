@@ -3,9 +3,11 @@ layout: null
 ---
 [{% for post in site.posts %}
   {
-    "url": "{{ post.url }}",
+    "url": "{{ post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+    "author": "{{ site.data.authors[post.author].name }}",
     "title": "{{ post.title }}",
-    "date": "{{ post.date | date_to_xmlschema }}",
+    "container-title": "{{ site.title }}",
+    "issued": "{{ post.date | date_to_xmlschema }}",
     "tags": {{ post.tags | jsonify }},
     "description": {{ post.description | jsonify }},
     "content": {{ post.content | jsonify }}
