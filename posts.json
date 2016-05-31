@@ -6,7 +6,6 @@ layout: null
     "url": "{{ post.url }}",
     "title": "{{ post.title }}",
     "date": "{{ post.date | date: "%B %d, %Y" }}",
-    "category": "blog",
     "tags": {{ post.tags | jsonify }},
     "description": {{ post.description | jsonify }},
     "content": {{ post.content | jsonify }}
