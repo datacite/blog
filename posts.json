@@ -9,7 +9,6 @@ layout: null
     "container-title": "{{ site.title }}",
     "issued": "{{ post.date | date_to_xmlschema }}",
     "tags": {{ post.tags | jsonify }},
-    "description": {{ post.description | jsonify }},
-    "content": {{ post.content | jsonify }}
+    "description": {% if post.description %}{{ post.description | jsonify }}{% else %}{{ post.excerpt | strip_html | truncatewords: 50 | jsonify }}{% endif %}
   } {% if forloop.last %}{% else %},{% endif %}{% endfor %}
 ]
