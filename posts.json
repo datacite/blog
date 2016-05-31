@@ -5,7 +5,7 @@ layout: null
   {
     "url": "{{ post.url }}",
     "title": "{{ post.title }}",
-    "date": "{{ post.date | date: "%B %d, %Y" }}",
+    "date": "{{ post.date | date_to_xmlschema }}",
     "tags": {{ post.tags | jsonify }},
     "description": {{ post.description | jsonify }},
     "content": {{ post.content | jsonify }}
