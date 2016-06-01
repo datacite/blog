@@ -10,7 +10,8 @@ layout: null
     "title": "{{ post.title }}",
     "container-title": "{{ site.title }}",
     "issued": "{{ post.date | date_to_xmlschema }}",
+    "license": "{{ site.license['url'] }}",
     "tags": {{ post.tags | jsonify }},
-    "description": {% if post.description %}{{ post.description | rstrip | jsonify }}{% else %}{{ post.excerpt | strip_html | rstrip | truncatewords: 50 | jsonify }}{% endif %}
+    "description": {% if post.description %}{{ post.description | rstrip | jsonify }}{% else %}{{ post.excerpt | rstrip | truncatewords: 50 | jsonify }}{% endif %}
   } {% if forloop.last %}{% else %},{% endif %}{% endfor %}
 ]

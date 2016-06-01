@@ -21,7 +21,9 @@ title: DataCite Blog
 title_short: Blog
 description: |
    Making research better by enabling people to find, share, use, and cite data.
-
+license:
+  name: Creative Commons Attribution
+  url: "https://creativecommons.org/licenses/by/4.0/"
 email: support@datacite.org
 #blog logo
 logo: "/assets/images/logo-small.png"

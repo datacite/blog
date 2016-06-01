@@ -56,7 +56,7 @@
                     <hr>
                     <p class="published"><i class="fa fa-calendar"></i> <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
                     <p class="published"><i class="fa fa-history"></i> <a href="{{ site.source_url }}/commits/master/{{ page.path }}">History</a></p>
-                    <p class="published">© {{ page.date | date: "%Y" }} {{ author.name }}. Distributed under the terms of the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>.</p>
+                    <p class="published">© {{ page.date | date: "%Y" }} {{ author.name }}. Distributed under the terms of the <a href="{{ site.license['url'] }}">{{ site.license['name'] }} license</a>.</p>
                     {% if page.tags.size > 0 %}
                     <p class="published">
                       <i class="fa fa-tags"></i>
