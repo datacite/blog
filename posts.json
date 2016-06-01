@@ -4,9 +4,9 @@ layout: null
 [{% for post in site.posts %}
   {
     "url": "{{ post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
-    "author": { "given": "{{ site.data.authors[post.author].given }}",
+    "author": [{ "given": "{{ site.data.authors[post.author].given }}",
                 "family": "{{ site.data.authors[post.author].family }}",
-                "orcid": "{{ site.data.authors[post.author].orcid }}" },
+                "orcid": "{{ site.data.authors[post.author].orcid }}" }],
     "title": "{{ post.title }}",
     "container-title": "{{ site.title }}",
     "issued": "{{ post.date | date_to_xmlschema }}",
