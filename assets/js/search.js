@@ -21,6 +21,10 @@ if (query) {
     .get(function(error, json) {
       if (error) { return console.warn(error); }
       searchResult(json);
+
+      json.meta["page"] = page;
+      json.meta["total_pages"] = Math.ceil(json.meta.total/25);
+      paginate(json, "#content");
   });
 }
 
