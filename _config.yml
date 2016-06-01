@@ -17,10 +17,13 @@ exclude:
   - assets/jquery/*
 
 # Site settings
-title: Blog
+title: DataCite Blog
+title_short: Blog
 description: |
    Making research better by enabling people to find, share, use, and cite data.
-
+license:
+  name: Creative Commons Attribution
+  url: "https://creativecommons.org/licenses/by/4.0/"
 email: support@datacite.org
 #blog logo
 logo: "/assets/images/logo-small.png"
@@ -36,6 +39,8 @@ url: "http://localhost:4000" # the base hostname & protocol for your site
 baseurl: ""
 source_url: https://github.com/datacite/blog
 cdn_url: https://assets.datacite.org
+search_url: https://api.labs.datacite.org
+
 #used to display twitter cards
 twitter_handle: '@datacite'
 
