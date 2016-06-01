@@ -2,121 +2,44 @@
 layout: default
 ---
 <div class="container-fluid">
-  <div class='row'>
+  <div class="row">
     <div class='col-md-9'>
-      <div class="post-list">
-        <a name="topofpage"></a>{% if site.tags.featured %}
-        <h5 class="index-headline featured"><span>Featured</span></h5>
-        <div class="container featured">{% for post in site.tags.featured %}
-          <div class="panel panel-default post-list">
-            <div class="panel-body post-content">
-              <header class="post-header">
-                <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-              </header>
-              <section class="post-excerpt" itemprop="description">
-                <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-              </section>
-              <div class="post-meta">
-                <time datetime="{{ post.date | date: "%F %R" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-              </div>
-            </div>
-          </div>{% endfor %}
-        </div>
-
-        <h5 class="index-headline normal"><span>Regular</span></h5>{% endif %}
-
-        {% for post in paginator.posts %}
-        <div class="panel panel-default post-list">
-          <div class="panel-body post-content">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-            </header>
-            <section class="post-excerpt" itemprop="description">
-              {% if post.description %}
-                <p>{{ post.description | markdownify | strip_html }}</p>
-              {% else %}
-                <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-              {% endif %}
-            </section>
-          </div>
-          <div class="panel-footer">
-            <span class="meta"><time datetime="{{ post.date | date: "%F %R" }}">{{ post.date | date: "%B %-d, %Y" }}</time></span>
-            {% assign author = site.data.authors[post.author] || site.author %}
-            <span class="meta">{{ author.name }}</span>
-            {%if site.disqus %}<a href="{{ post.url }}#disqus_thread">0 comments</a>{% endif %}
-            {%if post.tags.size > 0 %}<span class="tags pull-right">
-              <i class="fa fa-tags"></i>
-              {% assign tags = post.tags | sort %}
-              {% for tag in tags %}
-              <a href="/tag/{{ tag | replace: ' ', '-' }}/">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
-              {% endfor %}
-            </span>{% endif %}
-          </div>
-        </div>{% endfor %}
-      </div>
-
-      <nav class="pagination" role="navigation">
-        <div class="panel panel-default">
-          <div class="panel-body post-content centered">
-            {% if paginator.next_page %}
-              <a class="older-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
-            {% endif %}
-            <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-            {% if paginator.previous_page %}
-              {% if paginator.page == 2 %}
-                <a class="newer-posts" href="/">Newer posts &rarr;</a>
-              {% else %}
-                <a class="newer-posts" href="/page{{paginator.previous_page}}">Newer posts &rarr;</a>
-              {% endif %}
-            {% endif %}
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div class='col-md-3'>
-      <div class="panel tags">
-        <div class="panel-body">
-          <h4>Tags</h4>
-          <ul>
-          {% assign tags = site.tags | sort %}
-            {% for tag in tags %}
-            <li>
-              <a href="/tag/{{ tag.first | replace: ' ', '-' }}/">{{ tag.first }}</a>
-              <span class="number pull-right">{{ tag.last.size }}</span>
-            </li>
-            {% endfor %}
-            <li>
-              <br/>
-              <strong>all posts</strong>
-              <span class="number pull-right">{{ site.posts.size }}</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="panel tags">
-        <div class="panel-body">
-          <div class="bottom-teaser cf">
-            <div class="isLeft">
-              <a class="icon-rss" href="{{ site.url }}/feed.xml">
-                <i class="fa fa-rss fa-2x"></i><span class="hidden">RSS</span>
-              </a>
+      <div class="search-wide">
+        <form action="/index.html" method="get" id="search-form" class="form-horizontal" role="form" data-search-url="{{site.search_url}}">
+          <div class="input-group">
+            <input type="text" id="q" name="q" placeholder="Search blog" class="form-control">
+            <div class="input-group-btn">
+              <button type="submit" class="btn btn-primary hidden-xs">Search</button>
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class='col-md-9'>
+      <div class="post-list" id="content"></div>
+      {%if site.disqus %}
+      <div class="panel panel-default">
+        <div class="panel-body" id="disqus_thread">
+          <script type="text/javascript">
+              /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+              var disqus_shortname = '{{site.disqus}}';
+
+              /* * * DON'T EDIT BELOW THIS LINE * * */
+              (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+    <div class='col-md-3'>
+      <div id="tags"></div>
+    </div>
+  </div>
 </div>
-
-<script type="text/javascript">
-  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-  var disqus_shortname = '{{site.disqus}}';
-
-  /* * * DON'T EDIT BELOW THIS LINE * * */
-  (function () {
-  var s = document.createElement('script'); s.async = true;
-  s.type = 'text/javascript';
-  s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-  }());
-</script>
