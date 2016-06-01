@@ -85,20 +85,34 @@ function searchResult(json) {
       .attr("href", function() { return post.id + "#disqus_thread"; })
       .text("0 comments");
 
-    var tags = post.attributes.tags;
-    if (typeof tags !== "undefined" && tags.length > 0)  {
+    var t = post.attributes.tags;
+    if (typeof t !== "undefined" && t.length > 0)  {
       d3.select("#panel-footer-" + i).insert("span")
         .attr("class", "tags pull-right").append("i")
         .attr("class", "fa fa-tags");
-      for (var j=0; j<tags.length; j++) {
+      for (var j=0; j<t.length; j++) {
         d3.select("#panel-footer-" + i + " .tags").append("a")
-          .attr("href", function() { return "/index.html?tag=" + tags[j]; })
-          .text((j + 1 < tags.length) ? tags[j] + "," : tags[j]);
+          .attr("href", function() { return "/index.html?tag=" + t[j]; })
+          .text((j + 1 < t.length) ? t[j] + "," : t[j]);
       }
     }
   }
-  if (typeof meta.tags !== "undefined") {
-    console.log(meta.tags);
+
+  // convert tags object to array for sorting
+  tags = Object.keys(meta.tags);
+
+  if (typeof tags !== "undefined" && tags.length > 0) {
+    tags.sort(function (a, b) {
+      if (meta.tags[a] > meta.tags[b]) {
+        return -1;
+      }
+      if (meta.tags[a] < meta.tags[b]) {
+        return 1;
+      }
+      // a must be equal to b
+      return 0;
+    });
+
     d3.select("#tags")
       .classed("panel facets", true).insert("div")
       .attr("class", "panel-body").insert("h4")
@@ -106,7 +120,8 @@ function searchResult(json) {
 
     d3.select("#tags .panel-body").insert("ul");
 
-    for (var key in meta.tags) {
+    for (k = 0; k<tags.length; k++) {
+      var key = tags[k];
       if (tag === key) {
         d3.select("#tags .panel-body ul").insert("li")
           .append("a")
