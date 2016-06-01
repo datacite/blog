@@ -4,6 +4,7 @@ title: Launching the DataCite Status Page
 author: mfenner
 tags:
  - infrastructure
+ - datacite
 ---
 
 As a provider of crucial scholarly infrastructure, it is critical that DataCite not only provides a reliable service, but also [properly communicates problems](http://crosstech.crossref.org/2015/01/problems-with-dx-doi-org-on-january-20th-2015-what-we-know.html). The best way to do this is via a central status page, a best practice used by many organizations from [Github](https://status.github.com/) and [Diqus](https://status.disqus.com/) to [Slack](https://status.slack.com/). Because you don't want to run the status page with the rest of your infrastructure (as the page may go down if there is a problem), many organizations use a third-party service.

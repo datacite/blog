@@ -2,6 +2,8 @@
 layout: post
 title: "Get involved in the DataCite Community!"
 author: tcruse
+tags:
+ - datacite
 ---
 
 DataCite is a community driven organization, and we encourage involvement from people that share our data sharing vision. Over the past year, DataCite has seen a tremendous amount of growth and uptake in the use of DataCite DOIs.
