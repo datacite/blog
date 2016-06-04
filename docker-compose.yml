@@ -7,6 +7,6 @@ services:
   blog:
     image: datacite1/blog
     ports:
-      - "8030:80"
+      - "8030:4000"
     volumes:
       - .:/home/app/webapp
