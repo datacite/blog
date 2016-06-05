@@ -28,6 +28,10 @@ email: support@datacite.org
 #blog logo
 logo: "/assets/images/logo-small.png"
 
+# needed for Docker
+host: 0.0.0.0
+port: 8030
+
 name: 'DataCite'
 author: 'DataCite'
 author_image: "/assets/images/author.jpg"
@@ -35,7 +39,7 @@ author_image: "/assets/images/author.jpg"
 permalink: /:title/
 paginate: 10
 
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "http://localhost:8030" # the base hostname & protocol for your site
 baseurl: ""
 source_url: https://github.com/datacite/blog
 cdn_url: https://assets.datacite.org
