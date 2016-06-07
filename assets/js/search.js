@@ -4,6 +4,7 @@
 var params = d3.select("#search-form");
 
 if (!params.empty()) {
+  var site_url = params.attr('data-site-url');
   var search_url = params.attr('data-search-url');
   var page = getParameterByName('page');
   if (page === null) { page = 1; }
@@ -55,6 +56,7 @@ function searchResult(json) {
 
   for (var i=0; i<data.length; i++) {
     var post = data[i];
+    post["url"] = post.id.replace(/https:\/\/blog.datacite.org/, site_url);
 
     d3.select("#content").insert("div")
       .attr("class", "panel panel-default post-list")
@@ -67,7 +69,7 @@ function searchResult(json) {
       .append("h2")
       .attr("class", "post-title")
       .append("a")
-      .attr("href", function() { return post.id; })
+      .attr("href", function() { return post.url; })
       .text(post.attributes.title);
     d3.select("#panel-body-" + i).append("section")
       .attr("class", "post-excerpt")
@@ -86,7 +88,7 @@ function searchResult(json) {
       .text(formattedAuthorList(post.attributes.author));
 
     d3.select("#panel-footer-" + i).insert("a")
-      .attr("href", function() { return post.id + "#disqus_thread"; })
+      .attr("href", function() { return post.url + "#disqus_thread"; })
       .text("0 comments");
 
     var t = post.attributes.tags;
