@@ -11,6 +11,7 @@ layout: null
     "container-title": "{{ site.title }}",
     "issued": "{{ post.date | date_to_xmlschema }}",
     "license": "{{ site.license['url'] }}",
+    "image": "{{ post.image }}",
     "tags": {{ post.tags | jsonify }},
     "description": {% if post.description %}{{ post.description | strip_html | rstrip | jsonify }}{% else %}{{ post.excerpt | strip_html | rstrip | truncatewords: 50 | jsonify }}{% endif %}
   } {% if forloop.last %}{% else %},{% endif %}{% endfor %}
