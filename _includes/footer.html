@@ -33,21 +33,21 @@
       {% endfor %}
       </ul>
     </div>
-    <div class='col-md-3 share'>
+    <div class='col-md-3'>
       <h4>Contact us</h4>
-      <a href='mailto:support@datacite.org'>
+      <a href='mailto:support@datacite.org' class="share">
         <i class='fa fa-envelope fa-2x'></i>
       </a>
-      <a href='https://blog.datacite.org'>
+      <a href='https://blog.datacite.org' class="share">
         <i class='fa fa-rss fa-2x'></i>
       </a>
-      <a href='https://twitter.com/datacite'>
+      <a href='https://twitter.com/datacite' class="share">
         <i class='fa fa-twitter fa-2x'></i>
       </a>
-      <a href='https://www.linkedin.com/company/datacite'>
+      <a href='https://www.linkedin.com/company/datacite' class="share">
         <i class='fa fa-linkedin fa-2x'></i>
       </a>
-      <ul>
+      <ul class="share">
       {% for link in site.data.links.contact_links %}
         <li><a href='{{ link.url }}'>{{ link.name }}</a></li>
       {% endfor %}
