@@ -17,8 +17,8 @@ if (!params.empty()) {
 }
 
 // load the data from the DataCite Labs API API
-if (query) {
-  d3.json(query)
+if (query_url) {
+  d3.json(query_url)
     .get(function(error, json) {
       if (error) { return console.warn(error); }
       searchResult(json);
