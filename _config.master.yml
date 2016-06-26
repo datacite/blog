@@ -39,7 +39,7 @@ url: "https://blog.datacite.org" # the base hostname & protocol for your site
 baseurl: ""
 source_url: https://github.com/datacite/blog
 cdn_url: https://assets.datacite.org
-search_url: https://api.labs.datacite.org
+search_url: https://api.datacite.org
 
 #used to display twitter cards
 twitter_handle: '@datacite'

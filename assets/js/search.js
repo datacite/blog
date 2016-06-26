@@ -8,12 +8,12 @@ if (!params.empty()) {
   var search_url = params.attr('data-search-url');
   var page = getParameterByName('page');
   if (page === null) { page = 1; }
-  var q = getParameterByName('q');
+  var query = getParameterByName('query');
   var tag = getParameterByName('tag');
 
-  var query = encodeURI(search_url + "/pages?page=" + page);
-  if (q !== null) { query += "&q=" + q; }
-  if (tag !== null) { query += "&tag=" + tag; }
+  var query_url = encodeURI(search_url + "/pages?page=" + page);
+  if (query !== null) { query_url += "&query=" + query; }
+  if (tag !== null) { query_url += "&tag=" + tag; }
 }
 
 // load the data from the DataCite Labs API API
