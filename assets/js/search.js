@@ -37,7 +37,7 @@ function searchResult(json) {
   d3.select("#q").property("value", q);
 
   json.href = "?page={{number}}";
-  if (q !== null) { json.href += "&q=" + q; }
+  if (query !== null) { json.href += "&query=" + query; }
   if (tag !== null) { json.href += "&tag=" + tag; }
 
   if (typeof data === "undefined" || data.length === 0) {
