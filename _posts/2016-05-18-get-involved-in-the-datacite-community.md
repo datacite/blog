@@ -4,6 +4,7 @@ title: "Get involved in the DataCite Community!"
 author: tcruse
 tags:
  - datacite
+ - featured
 image: https://blog.datacite.org/assets/images/2016/05/bike_featured.png
 ---
 
