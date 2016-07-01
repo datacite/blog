@@ -8,7 +8,7 @@ tags:
 
 This week we relaunched [DataCite Search](https://search.datacite.org), providing a more user-friendly interface to search DataCite metadata, and additional information not available before.
 
-The new search uses a single entry box for queries, and filters for **resource type**, **publication year** and **data center**. A new **Cite** button will generate a citation in several popular citation styles, as well as bibtex and RIS formats. Users who sign in using their ORCID credentials can add works to their ORCID record using the DataCite Search and Link service.
+The new search uses a single entry box for queries, and filters for **resource type**, **publication year** and **data center**. A new **Cite** button will generate a citation in several popular citation styles, as well as bibtex and RIS formats. Users who sign in using their ORCID credentials can add works to their ORCID record using the DataCite Search and Link service, and will find a menu shortcut to a page with all DataCite DOIs associated with their ORCID ID.
 
 ![](/assets/images/2016/07/search.png)
 
