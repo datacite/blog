@@ -8,17 +8,17 @@ if (!params.empty()) {
   var search_url = params.attr('data-search-url');
   var page = getParameterByName('page');
   if (page === null) { page = 1; }
-  var q = getParameterByName('q');
+  var query = getParameterByName('query');
   var tag = getParameterByName('tag');
 
-  var query = encodeURI(search_url + "/pages?page=" + page);
-  if (q !== null) { query += "&q=" + q; }
-  if (tag !== null) { query += "&tag=" + tag; }
+  var query_url = encodeURI(search_url + "/pages?page=" + page);
+  if (query !== null) { query_url += "&query=" + query; }
+  if (tag !== null) { query_url += "&tag=" + tag; }
 }
 
 // load the data from the DataCite Labs API API
-if (query) {
-  d3.json(query)
+if (query_url) {
+  d3.json(query_url)
     .get(function(error, json) {
       if (error) { return console.warn(error); }
       searchResult(json);
@@ -34,10 +34,10 @@ function searchResult(json) {
   data = json.data;
   meta = json.meta;
 
-  d3.select("#q").property("value", q);
+  d3.select("#query").property("value", query);
 
   json.href = "?page={{number}}";
-  if (q !== null) { json.href += "&q=" + q; }
+  if (query !== null) { json.href += "&query=" + query; }
   if (tag !== null) { json.href += "&tag=" + tag; }
 
   if (typeof data === "undefined" || data.length === 0) {
