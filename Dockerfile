@@ -25,16 +25,38 @@ RUN apt-get install -y wget && \
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-# Prepare app folder
-RUN mkdir /home/app/webapp
+# Prepare tmp folder for installation of Ruby gems and npm modules
+RUN mkdir -p /home/app/tmp
+COPY vendor /home/app/tmp/vendor
+RUN chown -R app:app /home/app/tmp && \
+    chmod -R 755 /home/app/tmp
+
+# Install npm and bower packages
+WORKDIR /home/app/tmp/vendor
+RUN sudo -u app npm install && \
+    npm install -g phantomjs-prebuilt
+
+# Install Ruby gems
+COPY Gemfile /home/app/tmp/Gemfile
+COPY Gemfile.lock /home/app/tmp/Gemfile.lock
+WORKDIR /home/app/tmp
+RUN gem install bundler && \
+    mkdir -p /home/app/tmp/vendor/bundle && \
+    chown -R app:app /home/app/tmp/vendor/bundle && \
+    chmod -R 755 /home/app/tmp/vendor/bundle && \
+    sudo -u app bundle install --path vendor/bundle
+
+# Copy webapp folder
 ADD . /home/app/webapp
-RUN chown -R app:app /home/app/webapp && \
+WORKDIR /home/app/webapp
+RUN mkdir -p /home/app/webapp/tmp/pids && \
+    chown -R app:app /home/app/webapp && \
     chmod -R 755 /home/app/webapp
 
-# Install Ruby gems via bundler, run as app user
-WORKDIR /home/app/webapp
-RUN gem install bundler && \
-    sudo -u app bundle install --path vendor/bundle --without development
+# Run additional scripts during container startup (i.e. not at build time)
+RUN mkdir -p /etc/my_init.d
+COPY vendor/docker/70_install.sh /etc/my_init.d/70_install.sh
+
 
 CMD ["bundle", "exec", "jekyll", "serve", "--incremental"]
 
