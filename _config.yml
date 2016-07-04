@@ -42,7 +42,7 @@ paginate: 10
 url: "http://localhost:8030" # the base hostname & protocol for your site
 baseurl: ""
 source_url: https://github.com/datacite/blog
-cdn_url: https://assets.datacite.org
+cdn_url: http://localhost:8010
 search_url: https://api.datacite.org
 
 #used to display twitter cards
