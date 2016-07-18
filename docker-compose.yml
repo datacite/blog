@@ -5,7 +5,7 @@ version: '2'
 
 services:
   blog:
-    image: datacite1/blog
+    image: datacite/blog
     ports:
       - "8030:8030"
     volumes:

@@ -4,6 +4,8 @@ title: Relaunching DataCite Search
 author: mfenner
 tags:
  - infrastructure
+ - featured
+image: https://blog.datacite.org/assets/images/2016/07/search.png
 ---
 
 This week we relaunched [DataCite Search](https://search.datacite.org), providing a more user-friendly search interface for DataCite metadata. We also added functionality that was not available before.
