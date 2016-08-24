@@ -6,7 +6,7 @@ tags:
  - datacite
  - data sharing
  - featured
-image: https://blog.datacite.org/assets/images/2016/08/kgarza.png
+image: https://blog.datacite.org/assets/images/2016/08/kristian.png
 ---
 
 DataCite is pleased to welcome Kristian Garza to our team. Kristian is our new application developer and he comes to DataCite with a wealth of experience in Open Science, web development, and data repositories. Get to know him better via this interview.
