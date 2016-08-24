@@ -11,7 +11,7 @@ image: https://blog.datacite.org/assets/images/2016/08/kgarza.png
 
 DataCite is pleased to welcome Kristian Garza to our team. Kristian is our new application developer and he comes to DataCite with a wealth of experience in Open Science, web development, and data repositories. Get to know him better via this interview.
 
-![](/assets/images/2016/08/kgarza.png)
+![](/assets/images/2016/08/kristian.png)
 
 ## Can you tell us a little bit about what you did before starting for DataCite?
 
@@ -23,7 +23,7 @@ Then, I moved to Mexico and joined Datamine. At Datamine I was working as a Soft
 
 ## Can you tell us a bit more about this PhD work on incentivizing research data sharing?
 
-There is been published work in Social Psychology and Behavioural Economics that indicates that small changes in web interfaces (and other mediums) can help or bias users' decision-making. My work tested the use of these Behavioural Economics models in researchers (i.e. users) that self-deposit data in a data repository. Specifically, we attempted to help or bias researchers' decision-making toward following more open access practices when it comes to depositing their data online. [My work](http://dl.acm.org/citation.cfm?doid=2783446.2783605) has shown that these kind of interventions are a useful tool for data repository designers looking to promote good sharing practices into their users with minor tweaks.
+There is been published work in Social Psychology and Behavioural Economics that indicates that small changes in web interfaces (and other mediums) can help or bias users' decision-making. My work tested the use of these Behavioural Economics models in researchers (i.e. users) that self-deposit data in a data repository. Specifically, we attempted to help or bias researchers' decision-making toward following more open access practices when it comes to depositing their data online. My work [@http://doi.org/10.1145/2783446.2783605] has shown that these kind of interventions are a useful tool for data repository designers looking to promote good sharing practices into their users with minor tweaks.
 
 ## What interested you in the job at DataCite? Any particular problems that you would like to work on?
 
@@ -52,3 +52,5 @@ Choosing one single aspect of application development that entices me is a daunt
 My interest depends on the problems I am  facing at a particular time. My first priority is to learn the development toolkit used by DataCite. On the other hand, I am excited about development of applications using node.js, thus I would like to learn that.
 
 Kristian has started working on the DataCite [Statistics portal](https://www.datacite.org/stats.html) and [Citation Formatter service](https://www.datacite.org/citation.html). You can reach out to him via the comments here, via [email](mailto:kgarza@datacite.org), or via the usual DataCite channels.
+
+# References
