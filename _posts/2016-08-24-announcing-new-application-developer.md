@@ -23,7 +23,7 @@ Then, I moved to Mexico and joined Datamine. At Datamine I was working as a Soft
 
 ## Can you tell us a bit more about this PhD work on incentivizing research data sharing?
 
-There is been published work in Social Psychology and Behavioural Economics that indicates that small changes in web interfaces (and other mediums) can help or bias users’ decision-making. My work tested the use of these Behavioural Economics models in researchers (i.e. users) that self-deposit data in a data repository. Specifically, we attempted to help or bias researchers’ decision-making toward following more open access practices when it comes to depositing their data online. My work has shown that these kind of interventions are a useful tool for data repository designers looking to promote good sharing practices into their users with minor tweaks.
+There is been published work in Social Psychology and Behavioural Economics that indicates that small changes in web interfaces (and other mediums) can help or bias users' decision-making. My work tested the use of these Behavioural Economics models in researchers (i.e. users) that self-deposit data in a data repository. Specifically, we attempted to help or bias researchers' decision-making toward following more open access practices when it comes to depositing their data online. [My work](http://dl.acm.org/citation.cfm?doid=2783446.2783605) has shown that these kind of interventions are a useful tool for data repository designers looking to promote good sharing practices into their users with minor tweaks.
 
 ## What interested you in the job at DataCite? Any particular problems that you would like to work on?
 
