@@ -6,7 +6,7 @@ tags:
  - datacite
  - metadata schema
  - featured
-image: https://blog.datacite.org/assets/images/2016/09/schema_preview.png_
+image: https://blog.datacite.org/assets/images/2016/09/schema_preview.png
 ---
 
 Many things have changed in the last two years in the research community. Data publication and data citation are becoming a standard in different communities, and DataCite is proud to support the development of best practices and services for these emerging initiatives.
@@ -32,7 +32,8 @@ This is the first of many posts on DataCite’s new metadata schema. If you want
 
 <iframe src="https://player.vimeo.com/video/172929697" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-If you have any specific questions of about the new schema please send us a note at [support@datacite.org](mailto:support@datacite.org).
+
+If you have any specific questions about the new schema please send us a note at [support@datacite.org](mailto:support@datacite.org).
 
 # References
 
