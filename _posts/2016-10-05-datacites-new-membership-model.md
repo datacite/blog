@@ -4,6 +4,7 @@ title:  DataCite’s New Membership Model - Join Us!
 author: tcruse
 tags:
  - datacite
+ - featured
 image: https://blog.datacite.org/assets/images/2016/10/join.png
 ---
 
