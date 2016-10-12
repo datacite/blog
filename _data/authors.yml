@@ -27,6 +27,14 @@ tcruse:
   email: patricia.cruse@datacite.org
   image_url: /assets/images/cruse.jpg
 
+kgarza:
+  name: Kristian Garza
+  given: Kristian
+  family: Garza
+  bio: DataCite Application Developer
+  orcid: 0000-0003-3484-6875
+  email: kgarza@datacite.org
+
 jlin:
   name: Jennifer Lin
   given: Jennifer
