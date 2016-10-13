@@ -34,7 +34,7 @@ DataCite  is in the e process of **Dockerizing** many of our services. We are al
 It might not come as a surprise that the DOI Citation Formatting service is also an API. You can format a given DOI using a simple call:
 
 ```
-    GET /format?doi=<doi>&style=<style>&lang=<locale>
+GET /format?doi=<doi>&style=<style>&lang=<locale>
 ```
 
 Take for example this DOI 10.1145/2783446.2783605. To format it in the `chicago` style and in `french` you just need to do:
@@ -43,12 +43,10 @@ Take for example this DOI 10.1145/2783446.2783605. To format it in the `chicago`
 http://citation.datacite.org/format?doi=10.1145/2783446.2783605&style=chicago-fullnote-bibliography&lang=fr-FR
 ```
 
-
-
 Additionally one can format a given citeproc text via
 
 ```
-    POST /format?style=<style>&lang=<lang>
+POST /format?style=<style>&lang=<lang>
 ```
 The same thing can be done using [DOI content negotiation](http://citation.crosscite.org/docs.html),[ ](http://citation.crosscite.org/docs.html) where the backend calls the DOI Citation Formatting service, but sometimes a direct API call is easier, e.g. when using Javascript.
 
