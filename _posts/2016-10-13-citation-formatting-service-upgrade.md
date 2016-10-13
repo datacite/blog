@@ -4,14 +4,17 @@ title:  Three things you should know about our new DOI Citation Formatting servi
 author: kgarza
 tags:
  - datacite
- - DOI Formatting
+ - citation
  - Docker
+ - featured
+ - infrastructure
+ image: https://blog.datacite.org/assets/images/2016/10/citation_formatter.png
 ---
 
 
-We are happy to announce the relaunch of our **DOI Citation Formatting** service, available at [http://citation.crosscite.org](http://citation.crosscite.org) (requests to the old URL at http://crosscite.org will be redirected). The service uses the [citeproc.js](https://github.com/juris-m/citeproc-js) library by [Frank Bennett](https://twitter.com/fgbjr/)[ ](https://twitter.com/fgbjr/)together with the more than 5,000 citation styles made available by the [citationstyles.org](http://citationstyles.org) project. The service works with DOIs from [Crossref](http://www.crossref.org/), [mEDRA](https://www.medra.org/) and [ISTIC](http://www.doi.org.cn/portal/index.htm) in addition to DataCite DOIs. The main reason for the relaunch was a major upgrade of the backend, in addition we did some changes to the web user interface. For those interested on integrating this service with other systems there are three things you ought to know.
+We are happy to announce the relaunch of our **DOI Citation Formatting** service, available at [http://citation.crosscite.org](http://citation.crosscite.org). The service uses the [citeproc.js](https://github.com/juris-m/citeproc-js) library by [Frank Bennett](https://twitter.com/fgbjr/)[ ](https://twitter.com/fgbjr/) together with the more than 5,000 citation styles made available by the [citationstyles.org](http://citationstyles.org) project. The service works with DOIs from [Crossref](http://www.crossref.org/), [mEDRA](https://www.medra.org/) and [ISTIC](http://www.doi.org.cn/portal/index.htm) in addition to DataCite DOIs. The main reason for the relaunch was a major upgrade of the backend, in addition we did some changes to the web user interface. For those interested on integrating this service with other systems there are three things you ought to know.
 
-![Screenshot](https://raw.githubusercontent.com/crosscite/citeproc-doi-server/master/public/img/start.png)
+![DOI Citation Formatting Website](/assets/images/2016/10/citation_formatter.png)
 
 ## 1. Docker is under the hood
 
@@ -20,12 +23,10 @@ We rebuilt the citation formatter using [Docker](https://www.docker.com/). Docke
 Using Docker has a few practical implications. Deploying the software in a production environment becomes much easier, thus enabling quick deployments of bug fixes and updates to  include new  citation styles. An additional advantage is that running the DOI Citation Formatter service in  development or production becomes much easier for other people and organizations. Using Docker, a single one-liner on your terminal can help you to achieve this:
 
 ```
-
-docker run -p 8000:80 crosscite/citeproc-doi-server
-
+$ docker run -p 8000:80 crosscite/citeproc-doi-server
 ```
 
-One can run Docker in any platform. Until recently Docker required Linux, but this spring [Docker for Mac ](https://docs.docker.com/engine/installation/mac/)and [Docker for Windows](https://docs.docker.com/engine/installation/windows/) was released and provides a nice wrapper around Docker so that the user experience is almost identical. Check the service [repository](https://github.com/crosscite/citeproc-doi-server) for further details regarding running the citation formatter service with Docker.
+One can run Docker in any platform. Until recently Docker required Linux, but this spring [Docker for Mac ](https://docs.docker.com/engine/installation/mac/) and [Docker for Windows](https://docs.docker.com/engine/installation/windows/) was released and provides a nice wrapper around Docker so that the user experience is almost identical. Check the service [repository](https://github.com/crosscite/citeproc-doi-server) for further details regarding running the citation formatter service with Docker.
 
 DataCite  is in the e process of **Dockerizing** many of our services. We are already running seven other DataCite services with Docker and plan to migrate all DataCite services to the Docker platform. Deploying software with Docker is much simpler than manually installing software on a server or virtual machine; this setup also allows us to run multiple servers with the same software in different locations, providing redundancy in cases of service outages.
 
@@ -40,9 +41,7 @@ It might not come as a surprise that the DOI Citation Formatting service is also
 Take for example this DOI 10.1145/2783446.2783605. To format it in the `chicago` style and in `french` you just need to do:
 
 ```
-
 http://citation.datacite.org/format?doi=10.1145/2783446.2783605&style=chicago-fullnote-bibliography&lang=fr-FR
-
 ```
 
 
@@ -51,10 +50,8 @@ Additionally one can format a given citeproc text via
 
 ```
     POST /format?style=<style>&lang=<lang>
-
-
 ```
-The same thing can be done using [DOI content negotiation](http://citation.crosscite.org/docs.html),[ ](http://citation.crosscite.org/docs.html)where the backend calls the DOI Citation Formatting service, but sometimes a direct API call is easier, e.g. when using Javascript.
+The same thing can be done using [DOI content negotiation](http://citation.crosscite.org/docs.html),[ ](http://citation.crosscite.org/docs.html) where the backend calls the DOI Citation Formatting service, but sometimes a direct API call is easier, e.g. when using Javascript.
 
 ## 3. There is room for more work
 
