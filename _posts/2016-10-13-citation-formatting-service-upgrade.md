@@ -3,7 +3,6 @@ layout: post
 title:  Three things you should know about our new DOI Citation Formatting service
 author: kgarza
 tags:
- - datacite
  - citation
  - docker
  - featured

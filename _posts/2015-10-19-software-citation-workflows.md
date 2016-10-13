@@ -3,7 +3,7 @@ layout: post
 title: Software Citation Workflows
 author: mfenner
 tags:
- - software
+ - software citation
  - github
 ---
 
