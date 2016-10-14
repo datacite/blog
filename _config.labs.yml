@@ -17,8 +17,8 @@ exclude:
   - assets/jquery/*
 
 # Site settings
-title: DataCite Blog
-title_short: Blog
+title: DataCite Labs Blog
+title_short: Labs Blog
 description: |
    Making research better by enabling people to find, share, use, and cite data.
 license:
