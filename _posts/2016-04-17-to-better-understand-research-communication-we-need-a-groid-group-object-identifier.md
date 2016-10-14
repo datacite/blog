@@ -4,7 +4,7 @@ title: To better understand research communication, we need a GROID (group objec
 author: danielskatz
 tags:
  - metadata
- - software
+ - software citation
 ---
 
 *The following is a guest post by Daniel S. Katz, cross-posted from his [blog](https://danielskatzblog.wordpress.com/2016/04/17/to-better-understand-research-communication-we-need-a-groid-group-object-identifier/).*

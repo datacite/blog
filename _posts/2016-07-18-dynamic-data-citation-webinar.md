@@ -7,7 +7,6 @@ tags:
  - rda
  - citation
  - thor
- - featured
 image: https://blog.datacite.org/assets/images/2016/07/dynamic-data.png
 ---
 

@@ -4,7 +4,6 @@ title: "Our New Website: Dynamic, Responsive and Adapted to your Needs"
 author: lrueda
 tags:
  - datacite
- - featured
 image: https://blog.datacite.org/assets/images/2016/06/web_featured.jpg
 ---
 

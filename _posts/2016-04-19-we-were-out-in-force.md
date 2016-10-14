@@ -4,7 +4,7 @@ title: We were out in Force
 author: mfenner
 tags:
  - orcid
- - software
+ - software citation
  - github
  - impactstory
 image: https://blog.datacite.org/assets/images/2016/04/impactstory.png

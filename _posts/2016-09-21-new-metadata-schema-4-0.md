@@ -4,7 +4,7 @@ title:  New DataCite Metadata Schema 4.0
 author: lrueda
 tags:
  - datacite
- - metadata schema
+ - metadata
  - featured
 image: https://blog.datacite.org/assets/images/2016/09/schemapreview.png
 ---
@@ -24,7 +24,7 @@ The DataCite Metadata Schema 4.0 introduces these changes:
 * There is a new subproperty for GeoLocation ‘geoLocationPolygon’
 * geoLocationPoint and geoLocationBox have been updated
 
-These changes in our metadata schema would not have been possible without the stellar work of DataCite’s Metadata Working Group. The Working Group determines and maintains DataCite's metadata standard -- a big thank you to all for their hard work. 
+These changes in our metadata schema would not have been possible without the stellar work of DataCite’s Metadata Working Group. The Working Group determines and maintains DataCite's metadata standard -- a big thank you to all for their hard work.
 
 Remember that previous Metadata Schemas will still be supported, but we encourage our users and integrators to update to the current version and provide as much metadata for their DOIs as possible to improve the discoverability of datasets.
 

@@ -3,7 +3,6 @@ layout: post
 title:  Three things you should know about our new DOI Citation Formatting service
 author: kgarza
 tags:
- - datacite
  - citation
  - docker
  - featured
@@ -54,6 +53,6 @@ The same thing can be done using [DOI content negotiation](http://citation.cross
 
 We had additional ideas for the DOI citation formatting service while working on the relaunch. We would like to make the user interface more accessible. The service for example currently uses the style names form the [citationstyles.org](http://citationstyles.org/) library instead of the human-readable names.  We are very interested in feedback and will reevaluate the service frontend going forward.
 
-In terms of the backend there are issues with managing dependencies on other software packages, meaning that for example we currently can not use the latest version of [node.js](https://nodejs.org/en/). Ideally we would like to package the software into an NPM module, making it easier add citation formatting tools to other node.js projects.
+In terms of the backend there are issues with managing dependencies on other software packages, meaning that for example we currently can not use the latest version of [node.js](https://nodejs.org/en/). Ideally we would like to package the software into an NPM module, making it easier to add citation formatting tools to other node.js projects.
 
 In summary, rebuilding the DOI Citation Formatting service service with Docker, is a solid step in running services in a more efficient manner.
