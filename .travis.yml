@@ -33,7 +33,7 @@ before_script:
   - cd ../ && cp $CONFIG_FILE _config.yml
 
 script:
-  - bundle exec jekyll $JEKYLL_COMMAND
+  - JEKYLL_ENV=$JEKYLL_ENV bundle exec jekyll $JEKYLL_COMMAND
 
 deploy:
   provider: s3
