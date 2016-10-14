@@ -29,6 +29,16 @@
                     </a>
                   </li>
                 {% endfor %}
+              {% elsif jekyll.environment == "stage" %}
+                <li class='dropdown-header'>DataCite Labs</li>
+                {% for link in site.data.links.stage_links %}
+                  <li>
+                    <a href='{{ link.url }}'>
+                      <i class='fa fa-{{ link.icon }} fa-fw'></i>
+                      {{ link.name }}
+                    </a>
+                  </li>
+                {% endfor %}
               {% else %}
                 <li class='dropdown-header'>DataCite Development</li>
                 {% for link in site.data.links.development_links %}
