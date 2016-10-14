@@ -20,7 +20,7 @@ TIND has a solution, and it involves [Invenio](http://invenio-software.org), a s
 
 As a DataCite member, TIND can immediately enable seamless DOI creation for their partners and customers. DataCite is happy to have TIND join our community, and together we can bring tools and services to the library community. 
 
-In their [press release](http://blog.tind.io/press/partner-datacite), Alexander Nietzold, TIND's CEO says “We’re extremely pleased to be partnering with DataCite [...] Together with DataCite, TIND can offer its customers uniquely citable identifiers for all of their research output.” 
+In today’s [press release](http://blog.tind.io/press/partner-datacite), Alexander Nietzold, TIND's CEO says “We’re extremely pleased to be partnering with DataCite [...] Together with DataCite, TIND can offer its customers uniquely citable identifiers for all of their research output.” 
 
 DataCite is extremely happy to welcome TIND to the data publication and citation community! If you want to contact them, you can find all the details in our [DataCite Members page](https://www.datacite.org/members.html).
 
