@@ -12,11 +12,11 @@ As we mentioned in [our last blog post](https://blog.datacite.org/datacites-new-
 
 ![](/assets/images/2016/10/tind.png)
 
-TIND is located in Switzerland and is an official spin-off from the [European Organization for Nuclear Research](http://home.cern) (CERN), providing services for library and data management services based on CERN-developed, open source technology. Established in 2013, TIND provides services to leading research institutions and IGOs such as Caltech and the United Nations.
+TIND is located in Norway, Switzerland and California. The company is an official spin-off from the [European Organization for Nuclear Research](http://home.cern) (CERN), providing services for library and data management services based on CERN-developed, open source technology ([Invenio](http://invenio-software.org)). Established in 2013, TIND provides services to leading research institutions and IGOs such as Caltech and the United Nations.
 
 The TIND Team describes themselves as a “small group with big ambitions.” They are engineers by training but have the mission of libraries at heart.  TIND recognizes that the library mission is to advance knowledge and foster creativity by removing barriers to information, but some of the emerging solutions need to meet these challenges are not widely seen in libraries. 
 
-TIND has a solution, and it involves [Invenio](http://invenio-software.org), a software stack originally developed by CERN to run the [CERN Document Server](http://cds.cern.ch), managing 1.5M bibliographic records in High-Energy Physics. TIND enjoys an exclusive license agreement with CERN, gaining unique access to Invenio know-how. The TIND Team works closely with the Invenio team, thus always staying up-to-date on new releases, patches on ongoing developments.
+Core services offered by TIND include an ILS, Institutional Repository and Digital Archive. In 2016, TIND has been investing great efforts in building a robust and customized service for research data management. This work is heavily based on CERN data management projects such as [HepData](http://hepdata.net), [Zenodo](http://zenodo.org) and [CERN Open Data](http://opendata.cern.ch). A crucial part of this new RDM service for TIND is to have the ability to assign DOIs to any dataset uploaded.
 
 As a DataCite member, TIND can immediately enable seamless DOI creation for their partners and customers. DataCite is happy to have TIND join our community, and together we can bring tools and services to the library community. 
 
