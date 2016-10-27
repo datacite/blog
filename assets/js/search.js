@@ -8,15 +8,16 @@ if (!params.empty()) {
   var search_url = params.attr('data-search-url');
   var page = getParameterByName('page');
   if (page === null) { page = 1; }
+  var offset = 25 * (page - 1);
   var query = getParameterByName('query');
   var tag = getParameterByName('tag');
 
-  var query_url = encodeURI(search_url + "/pages?page=" + page);
+  var query_url = encodeURI(search_url + "/pages?offset=" + offet);
   if (query !== null) { query_url += "&query=" + query; }
   if (tag !== null) { query_url += "&tag=" + tag; }
 }
 
-// load the data from the DataCite Labs API API
+// load the data from the DataCite API
 if (query_url) {
   d3.json(query_url)
     .get(function(error, json) {
