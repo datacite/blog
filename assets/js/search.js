@@ -12,7 +12,7 @@ if (!params.empty()) {
   var query = getParameterByName('query');
   var tag = getParameterByName('tag');
 
-  var query_url = encodeURI(search_url + "/pages?offset=" + offet);
+  var query_url = encodeURI(search_url + "/pages?offset=" + offset);
   if (query !== null) { query_url += "&query=" + query; }
   if (tag !== null) { query_url += "&tag=" + tag; }
 }
