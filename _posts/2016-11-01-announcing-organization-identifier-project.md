@@ -10,7 +10,7 @@ tags:
 
 The scholarly research community has come to depend on a series of open identifier and metadata infrastructure systems to great success.  Content identifiers (through DataCite and Crossref) and contributor identifiers (through ORCID) have become foundational infrastructure for the community. But there is one piece of the infrastructure that is missing -- there currently is no open, stakeholder-governed infrastructure for organization identifiers and associated metadata.
 
-![The London Institution. Source: [Wikipedia](https://de.wikipedia.org/wiki/Datei:London_Institution_at_the_Finsbury_Circus.jpg)](/assets/images/2016/10/london_institute.jpg)
+![The London Institution. Source: [Wikipedia](https://de.wikipedia.org/wiki/Datei:London_Institution_at_the_Finsbury_Circus.jpg)](/assets/images/2016/11/london_institute.jpg)
 
 In early 2016, DataCite began a collaboration with ORCID and Crossref to explore the organization identifiers landscape and on how our organizations could work with the community to solve the organization identifier problem [@https://doi.org/10.6084/M9.FIGSHARE.3479141]. Out of those conversations emerged a way forward as expressed in the following documents:
 
