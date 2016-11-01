@@ -5,7 +5,6 @@ author: lrueda
 tags:
  - datacite
  - metadata
- - featured
 image: https://blog.datacite.org/assets/images/2016/09/schemapreview.png
 ---
 
