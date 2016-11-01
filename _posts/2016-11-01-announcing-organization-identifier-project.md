@@ -8,7 +8,7 @@ tags:
  - crossref
  - thor
  - featured
- image: https://blog.datacite.org/assets/images/2016/11/london_institute.jpg
+image: https://blog.datacite.org/assets/images/2016/11/london_institute.jpg
 ---
 
 The scholarly research community has come to depend on a series of open identifier and metadata infrastructure systems to great success.  Content identifiers (through DataCite and Crossref) and contributor identifiers (through ORCID) have become foundational infrastructure for the community. But there is one piece of the infrastructure that is missing -- there currently is no open, stakeholder-governed infrastructure for organization identifiers and associated metadata.
