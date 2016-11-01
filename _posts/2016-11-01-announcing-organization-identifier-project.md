@@ -6,6 +6,7 @@ tags:
  - organization identifier
  - orcid
  - crossref
+ - thor
 ---
 
 The scholarly research community has come to depend on a series of open identifier and metadata infrastructure systems to great success.  Content identifiers (through DataCite and Crossref) and contributor identifiers (through ORCID) have become foundational infrastructure for the community. But there is one piece of the infrastructure that is missing -- there currently is no open, stakeholder-governed infrastructure for organization identifiers and associated metadata.
@@ -24,7 +25,7 @@ We invite the community to comment on these papers online via email ([oi-project
 
 An important focus of DataCite’s work is to connect resources , which have a DataCite DOI, to other resources - for example [new versions of the same dataset](https://blog.datacite.org/dynamic-data-citation-webinar/), [collections of related datasets](https://blog.datacite.org/to-better-understand-research-communication-we-need-a-groid-group-object-identifier/), or [articles citing the dataset](https://blog.datacite.org/location-of-the-citation/). Equally important is the support for linking these resources to the people and organizations who have contributed to their generation. We are working closely with ORCID to enable [linking between DataCite DOIs and ORCID IDs](https://blog.datacite.org/announcing-datacite-profiles-service/). In July we [relaunched our search](https://blog.datacite.org/relaunching-datacite-search/) to better show these relations between DataCite DOIs and other resources. And in September we launched an updated DataCite Metadata Schema [@http://doi.org/10.5438/0012] with better support for linking to funding information. Enabling all these relations are persistent identifiers and metadata describing these relations.
 
-DataCite also supports the linking of resources to academic institutions in one of two ways: Using the **HostingInstitution** contributor role, or via the **affiliation** attribute for creators and contributors.  One gap we identified when analyzing linking to organizations [@http://doi.org/10.5281/ZENODO.30799] last September is the lack of adoption of organizational identifiers. Without broad adoption of identifiers for organizations similar to how DataCite DOIs, Crossref DOIs and ORCID IDs are widely used in the scholarly community, it becomes very difficult to track these relations to institutions in a way similar to how we can track relations to people.
+DataCite also supports the linking of resources to academic institutions in one of two ways: Using the **HostingInstitution** contributor role, or via the **affiliation** attribute for creators and contributors.  One gap we identified when analyzing linking to organizations [@https://doi.org/10.5281/ZENODO.30799] last September is the lack of adoption of organizational identifiers. Without broad adoption of identifiers for organizations similar to how DataCite DOIs, Crossref DOIs and ORCID IDs are widely used in the scholarly community, it becomes very difficult to track these relations to institutions in a way similar to how we can track relations to people.
 
 Again, we look forward to the community’s feedback either via email or in person at the [PIDapalooza](http://pidapalooza.org/) conference next week.
 
