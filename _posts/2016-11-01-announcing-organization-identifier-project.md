@@ -7,6 +7,8 @@ tags:
  - orcid
  - crossref
  - thor
+ - featured
+image: https://blog.datacite.org/assets/images/2016/11/london_institute.jpg
 ---
 
 The scholarly research community has come to depend on a series of open identifier and metadata infrastructure systems to great success.  Content identifiers (through DataCite and Crossref) and contributor identifiers (through ORCID) have become foundational infrastructure for the community. But there is one piece of the infrastructure that is missing -- there currently is no open, stakeholder-governed infrastructure for organization identifiers and associated metadata.
@@ -19,7 +21,7 @@ In early 2016, DataCite began a collaboration with ORCID and Crossref to explore
 2. Organization Identifier Provider Landscape [@https://doi.org/10.5438/4716]
 3. Technical Considerations for an Organization Identifier Registry [@https://doi.org/10.5438/7885]
 
-We invite the community to comment on these papers online via email ([oi-project@orcid.org](mailto:oi-project@orcid.org)) or comments in the corresponding Google Docs ([1](https://docs.google.com/document/d/1PpWRBnlrU_X6TwYzQlB89w4FNXMLqieJv-RW0irNTsg/edit?usp=sharing), [2](https://docs.google.com/document/d/1lcKXWm9PxDvVWBxdlH7BVU7w8esnW0F_dppNiCJ9BW8/edit#) or [3](https://docs.google.com/a/datacite.org/document/d/1Zj5sRRdnjKLjY81AbaeUdal3n6VuQgi1H66vRMaayiA/edit?usp=sharing)), or in person at [Crossref LIVE16](https://crossreflive16.sched.org/) on November 1st and 2nd or at [PIDapalooza](http://pidapalooza.org/) on November 9th and 10th. To move The OI Project forward, we will be forming a Community Working Group with the goal of holding an initial meeting before the end of 2016. The Working Group’s main charge is to develop a plan to launch and sustain an open, independent, non-profit organization identifier registry to facilitate the disambiguation of researcher affiliations
+We invite the community to comment on these papers online via email ([oi-project@orcid.org](mailto:oi-project@orcid.org)) or comments in the corresponding Google Docs ([1](https://docs.google.com/document/d/1PpWRBnlrU_X6TwYzQlB89w4FNXMLqieJv-RW0irNTsg/edit?usp=sharing), [2](https://docs.google.com/document/d/1lcKXWm9PxDvVWBxdlH7BVU7w8esnW0F_dppNiCJ9BW8/edit#) or [3](https://docs.google.com/document/d/1Zj5sRRdnjKLjY81AbaeUdal3n6VuQgi1H66vRMaayiA/edit?usp=sharing)), or in person at [Crossref LIVE16](https://crossreflive16.sched.org/) on November 1st and 2nd or at [PIDapalooza](http://pidapalooza.org/) on November 9th and 10th. To move The OI Project forward, we will be forming a Community Working Group with the goal of holding an initial meeting before the end of 2016. The Working Group’s main charge is to develop a plan to launch and sustain an open, independent, non-profit organization identifier registry to facilitate the disambiguation of researcher affiliations
 
 ## DataCite’s Focus
 
