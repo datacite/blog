@@ -4,6 +4,8 @@ title: Relaunching DataCite Search
 author: mfenner
 tags:
  - infrastructure
+ - api
+ - search
 image: https://blog.datacite.org/assets/images/2016/07/search.png
 ---
 
