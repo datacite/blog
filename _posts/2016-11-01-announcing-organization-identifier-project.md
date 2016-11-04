@@ -6,7 +6,6 @@ tags:
  - organization identifier
  - orcid
  - crossref
- - thor
  - featured
 image: https://blog.datacite.org/assets/images/2016/11/london_institute.jpg
 ---
