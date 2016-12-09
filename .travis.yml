@@ -37,11 +37,11 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
   bucket: $AWS_BUCKET
-  local-dir: build
-  acl: public_read
-  skip_cleanup: true
   region: eu-west-1
-  detect_encoding: true
+  skip_cleanup: true
+  local_dir: build
+  acl: public_read
+  cache_control: "max-age=31536000"
   on:
     all_branches: true
 

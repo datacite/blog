@@ -15,7 +15,7 @@ We are happy to announce the relaunch of our **DOI Citation Formatting** service
 
 ![DOI Citation Formatting Website](/images/2016/10/citation_formatter.png)
 
-## 1. Docker is under the hood
+### 1. Docker is under the hood
 
 We rebuilt the citation formatter using [Docker](https://www.docker.com/). Docker is a popular software containerization platform wrap a piece of software in a complete system that contains everything needed to run: code, runtime, system tools, system libraries. This guarantees that the software will always run exactly the same way, regardless of its environment.
 
@@ -29,7 +29,7 @@ One can run Docker in any platform. Until recently Docker required Linux, but th
 
 DataCite  is in the e process of **Dockerizing** many of our services. We are already running seven other DataCite services with Docker and plan to migrate all DataCite services to the Docker platform. Deploying software with Docker is much simpler than manually installing software on a server or virtual machine; this setup also allows us to run multiple servers with the same software in different locations, providing redundancy in cases of service outages.
 
-## 2. This is an API
+### 2. This is an API
 
 It might not come as a surprise that the DOI Citation Formatting service is also an API. You can format a given DOI using a simple call:
 
@@ -50,7 +50,7 @@ POST /format?style=<style>&lang=<lang>
 ```
 The same thing can be done using [DOI content negotiation](http://citation.crosscite.org/docs.html),[ ](http://citation.crosscite.org/docs.html) where the backend calls the DOI Citation Formatting service, but sometimes a direct API call is easier, e.g. when using Javascript.
 
-## 3. There is room for more work
+### 3. There is room for more work
 
 We had additional ideas for the DOI citation formatting service while working on the relaunch. We would like to make the user interface more accessible. The service for example currently uses the style names form the [citationstyles.org](http://citationstyles.org/) library instead of the human-readable names.  We are very interested in feedback and will reevaluate the service frontend going forward.
 
