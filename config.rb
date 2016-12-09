@@ -39,6 +39,10 @@ helpers do
   def stage?
     ENV['RACK_ENV'] == "stage"
   end
+
+  def sanitize(string)
+    Sanitize.fragment(string).strip
+  end
 end
 
 activate :blog do |blog|

@@ -1,9 +1,9 @@
 ---
 layout: null
 ---
-[<% blog.articles.each do |article| %>
+[<% blog.articles.each_with_index do |article, i| %>
   {
-    "url": "<%= article.data.url %>",
+    "url": "<%= ENV['SITE_URL'] + article.url %>",
     "author": [{ "given": "<%= data.authors[article.data.author].given %>",
                 "family": "<%=  data.authors[article.data.author].family %>",
                 "orcid": "http://orcid.org/<%=  data.authors[article.data.author].orcid %>" }],
@@ -11,7 +11,7 @@ layout: null
     "container-title": "<%= ENV['SITE_TITLE'] %>",
     "issued": "<%= article.data.date.iso8601 %>",
     "license": "<%= data.site.license.url %>",
-    "image": "<%= article.data.image.present? ? article.data.image : nil %>",
+    "image": "<%= article.data.image %>",
     "tags": <%= article.data.tags.to_json %>,
-    "description": "<%= article.data.description %>"
-  }<% end %>]
+    "description": "<%= sanitize(article.summary) %>"
+  }<% if i + 1 < blog.articles.length %>,<% end %><% end %>]
