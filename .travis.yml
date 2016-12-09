@@ -25,22 +25,19 @@ before_install:
 install:
   - bundle install
 
+before_script:
+  - cd vendor && npm install
+  - cd ..
+
 script:
   - bundle exec middleman build -e $RACK_ENV
-
-before_script:
-  - cd _frontend && npm install
-  - cd ../ && cp $CONFIG_FILE _config.yml
-
-script:
-  - JEKYLL_ENV=$JEKYLL_ENV bundle exec jekyll $JEKYLL_COMMAND
 
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
   bucket: $AWS_BUCKET
-  local-dir: _site
+  local-dir: build
   acl: public_read
   skip_cleanup: true
   region: eu-west-1
