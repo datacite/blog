@@ -1,0 +1,11 @@
+<div class="bottom-teaser cf">
+  <div class="isLeft">
+    <h5 class="index-headline featured"><span>Share on</span></h5>
+    <% data.social.each do |social| %>
+      <a class="icon-<%= social.icon %>" href="<%= social.share_url %><%= social.share_title %>On the <%= data.site.twitter_handle %> blog: <%= current_page.data.title %><%= social.share_link %><%= ENV['SITE_URL'] %><%= current_page.url %>"
+        onclick="window.open(this.href, '<%= social.icon %>-share', 'width=550,height=255');return false;">
+        <i class="fa fa-<%= social.icon %> fa-2x"></i><span class="hidden"><%= social.icon %></span>
+      </a>
+    <% end %>
+  </div>
+</div>
