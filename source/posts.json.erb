@@ -4,9 +4,10 @@ layout: null
 [<% blog.articles.each_with_index do |article, i| %>
   {
     "url": "<%= ENV['SITE_URL'] + article.url %>",
-    "author": [{ "given": "<%= data.authors[article.data.author].given %>",
-                "family": "<%=  data.authors[article.data.author].family %>",
-                "orcid": "http://orcid.org/<%=  data.authors[article.data.author].orcid %>" }],
+    "author": [<% Array(article.data.author).each_with_index do |a, i| %>
+      { "given": "<%= data.authors.fetch(a, {})[:given] %>",
+        "family": "<%=  data.authors.fetch(a, {})[:family] %>",
+        "orcid": "http://orcid.org/<%=  data.authors.fetch(a, {})[:orcid] %>" }<% if i + 1 < article.data.author.length %>,<% end %><% end %>],
     "title": "<%= article.data.title %>",
     "container-title": "<%= ENV['SITE_TITLE'] %>",
     "issued": "<%= article.data.date.iso8601 %>",

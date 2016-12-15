@@ -7,9 +7,7 @@
             <a name="topofpage"></a>
             <div class="post-meta">
               <h1><%= current_page.data.title %></h1>
-              <% author = data.authors[current_page.data.author] %>
-              <%= author.name %> on <%= current_page.data.date.strftime("%B %-d, %Y") %>
-              • <span class="post-reading-time"></span> read
+              <%= current_page.data.date.strftime("%B %-d, %Y") %> by <%= author_string(current_page.data.author) %> • <span class="post-reading-time"></span> read
             </div>
 
             <%= yield %>
@@ -19,7 +17,7 @@
         </div>
         <div class="row">
           <div class="col-md-5 col-md-offset-2 post-content">
-             <%= partial "includes/infobox.html.erb" %>
+            <%= partial "includes/infobox.html.erb" %>
           </div>
           <div class="col-md-2 col-md-offset-1">
              <%= partial "includes/social.html.erb" %>
