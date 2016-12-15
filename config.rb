@@ -43,10 +43,14 @@ helpers do
   def sanitize(string)
     Sanitize.fragment(string).strip
   end
+
+  def author_string(author)
+    Array(author).map { |a| data.authors.fetch(a, {})[:name] }.to_sentence
+  end
 end
 
 activate :blog do |blog|
-  blog.sources = "posts/{year}-{month}-{day}-{title}.html"
+  blog.sources = "posts/{title}.html"
   blog.permalink = "{title}"
 end
 
