@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/datacite/tilt.git
-  revision: d058cdfca5762e029d8db45a63344d0228c197e2
+  revision: 8b0ecbc8fb671f9b56571a11b05c6c381e573294
   branch: pandoc-options
   specs:
     tilt (2.0.5)
