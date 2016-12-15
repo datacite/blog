@@ -1,7 +1,10 @@
 ---
 layout: post
 title:  "Announcing the Organization Identifier Project: a Way Forward"
-author: mfenner
+author:
+ - mfenner
+ - tcruse
+ - lrueda
 date: 2016-11-01
 tags:
  - organization identifier

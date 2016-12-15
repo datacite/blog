@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Announcing Our New Application Developer
-author: mfenner
+author:
+ - mfenner
+ - kgarza
 date: 2016-08-24
 tags:
  - datacite
