@@ -14,6 +14,7 @@ gem 'middleman-blog', "~> 4.0"
 gem 'middleman-sprockets', '~> 4.1.0'
 gem 'middleman-dotenv', '~> 2.0'
 gem 'middleman-livereload'
+gem 'middleman-syntax', '~> 2.0'
 gem 'opal', '~> 0.10'
 
 # For feed.xml.builder

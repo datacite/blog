@@ -140,6 +140,9 @@ GEM
     middleman-sprockets (4.1.0)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
+    middleman-syntax (2.1.0)
+      middleman-core (>= 3.2)
+      rouge (~> 1.0)
     mini_portile2 (2.1.0)
     minitest (5.10.1)
     multi_json (1.11.3)
@@ -168,6 +171,7 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    rouge (1.11.1)
     ruby-enum (0.6.0)
       i18n
     safe_yaml (1.0.4)
@@ -199,6 +203,7 @@ DEPENDENCIES
   middleman-dotenv (~> 2.0)
   middleman-livereload
   middleman-sprockets (~> 4.1.0)
+  middleman-syntax (~> 2.0)
   nokogiri (~> 1.6.0)
   opal (~> 0.10)
   pandoc-ruby (~> 2.0)
