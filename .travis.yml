@@ -10,6 +10,7 @@ before_install:
       AWS_BUCKET="blog.datacite.org";
       RACK_ENV="production";
       CIRNECO_OPTS="--sandbox";
+      cp .env.master .env;
     elif [ "$TRAVIS_BRANCH" == "labs" ]; then
       AWS_BUCKET="blog.labs.datacite.org";
       RACK_ENV="stage";
@@ -45,8 +46,8 @@ after_success:
   - git config --global push.default simple
 
   - git remote add upstream https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
-  - git add .
-  - git commit -m 'Committing files changed by cirneco'
+  - git add source/posts/.
+  - git commit -m 'Committing files changed by cirneco [skip ci]'
   - git push upstream HEAD:$TRAVIS_BRANCH
 
 deploy:
