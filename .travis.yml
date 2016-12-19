@@ -14,7 +14,7 @@ before_install:
     elif [ "$TRAVIS_BRANCH" == "labs" ]; then
       AWS_BUCKET="blog.labs.datacite.org";
       RACK_ENV="stage";
-      CIRNECO_OPTS="";
+      CIRNECO_OPTS="--sandbox";
       cp .env.labs .env;
     else
       exit 1;
