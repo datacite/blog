@@ -1,5 +1,5 @@
 ---
-layout: table
+layout: post
 title: DataCite Mandatory Properties
 author: mfenner
 date: 2016-05-20
