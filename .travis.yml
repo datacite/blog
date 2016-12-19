@@ -46,7 +46,7 @@ after_success:
 
   - git remote add origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
   - git commit -a -m 'Committing files changed by cirneco'
-  - git push origin
+  - git push origin > /dev/null 2>&1
 
 deploy:
   provider: s3
