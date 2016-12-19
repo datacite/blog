@@ -47,8 +47,7 @@ after_success:
 
   - git remote add upstream https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
   - git add source/posts/.
-  - if [ -z "$(git status --untracked-files=no --porcelain)" ]; then
-    else
+  - if ! [ -z "$(git status --untracked-files=no --porcelain)" ]; then
       git commit -m 'Committing files changed by cirneco [skip ci]';
       git push upstream HEAD:$TRAVIS_BRANCH;
     fi
