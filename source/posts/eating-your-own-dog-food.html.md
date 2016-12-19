@@ -2,7 +2,7 @@
 layout: post
 title: Eating your own Dog Food
 author: mfenner
-date: 2016-12-19
+date: 2016-12-20
 tags:
 - datacite
 - doi
