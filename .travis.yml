@@ -44,7 +44,7 @@ after_success:
   - git config --global user.name "${GIT_NAME}"
   - git config --global push.default simple
   - git commit -a -m 'Committing files changed by cirneco'
-  - git push https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git $TRAVIS_BRANCH --quiet
+  - git push https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git origin
 
 deploy:
   provider: s3

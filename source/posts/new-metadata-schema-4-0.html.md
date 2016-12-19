@@ -10,7 +10,7 @@ image: https://blog.datacite.org/images/2016/09/schemapreview.png
 ---
 Many things have changed in the last two years in the research community. Data publication and data citation are becoming a standard in different communities, and DataCite is proud to support the development of best practices and services for these emerging initiatives.
 
-In 2014, the [DataCite Metadata Schema 3.1](http://schema.datacite.org/meta/kernel-3.1/) was launched to support better affiliation information and new relation types. Now, two years after, the [DataCite Metadata Schema 4.0](https://schema.labs.datacite.org/meta/kernel-4.0/) [@http://doi.org/10.5438/0012] comes with improvements to name identifiers, funding information and resource types. This update reflects the uses and needs of the community, and they are important in improving data discoverability and reusability, and promote proper credit to data creators.
+In 2014, the [DataCite Metadata Schema 3.1](http://schema.datacite.org/meta/kernel-3.1/) was launched to support better affiliation information and new relation types. Now, two years after, the [DataCite Metadata Schema 4.0](https://schema.labs.datacite.org/meta/kernel-4.0/) [@https://doi.org/10.5438/0012] comes with improvements to name identifiers, funding information and resource types. This update reflects the uses and needs of the community, and they are important in improving data discoverability and reusability, and promote proper credit to data creators.
 
 ![](/images/2016/09/schema.svg)
 

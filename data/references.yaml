@@ -921,7 +921,7 @@ references:
   URL: https://peerj.com/articles/cs-86/
   DOI: 10.7717/peerj-cs.86
 
-- id: http://doi.org/10.5438/0012
+- id: https://doi.org/10.5438/0012
   type: article-journal
   author:
   - literal: DataCite Metadata Working Group
@@ -930,7 +930,7 @@ references:
   title: DataCite Metadata Schema for the Publication and Citation of Research Data
     v4.0
   publisher: DataCite e.V.
-  URL: http://doi.org/10.5438/0012
+  URL: https://doi.org/10.5438/0012
 
 - id: https://doi.org/10.5438/2906
   type: no-type
