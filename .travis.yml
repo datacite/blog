@@ -44,9 +44,10 @@ after_success:
   - git config --global user.name "${GIT_NAME}"
   - git config --global push.default simple
 
-  - git remote add origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
-  - git commit -a -m 'Committing files changed by cirneco'
-  - git push origin > /dev/null 2>&1
+  - git remote add upstream https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
+  - git add .
+  - git commit -m 'Committing files changed by cirneco'
+  - git push upstream > /dev/null 2>&1
 
 deploy:
   provider: s3
