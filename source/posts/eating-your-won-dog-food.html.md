@@ -50,7 +50,7 @@ tags:
 
 We can reuse all these metadata when generating DataCite metadata, using the tags as `subjects`.
 
-The default metadata are metadata that always stay the same for the blog, such as `publisher` or `rights`. We can store them in a site-wide configuration file. We can also assume reasonable defaults that can be overridden in the YAML front matter, e.g. `resourceType` (we use [BlogPosting](https://schema.org/BlogPosting) with `resourceTypeGeneral` Text) and `version`. We store more information about authors outside the blog post, including `givenName`, `familyName` and `nameIdentifier` (we now show the ORCID ID of every blog author at the bottom of the post).
+The default metadata are metadata that always stay the same for the blog, such as `publisher`, `HostingInstitution` or `rights`. We can store them in a site-wide configuration file. We can also assume reasonable defaults that can be overridden in the YAML front matter, e.g. `resourceType` (we use [BlogPosting](https://schema.org/BlogPosting) with `resourceTypeGeneral` Text) and `version`. We store more information about authors outside the blog post, including `givenName`, `familyName` and `nameIdentifier` (we now show the ORCID ID of every blog author at the bottom of the post).
 
 Finally, there are metadata that we can automatically extract from the blog post, and we are currently doing this for the `description` and `relatedIdentifiers`. This blog uses Pandoc and BibTex to generate the references section at the end, and we can fetch this information and convert it into the format needed for `relatedIdentifier`.
 
