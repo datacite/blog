@@ -7,7 +7,7 @@ tags:
 - dublin core
 - metadata
 doi: 10.5072/BZAK-W7E4
-published: true
+published: false
 ---
 The DataCite Metadata Working Group has prepared a DataCite to Dublin Core application profile (DC2AP) and would love to hear your comments about it!
 

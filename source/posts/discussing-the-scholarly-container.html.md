@@ -7,7 +7,7 @@ tags:
 - rda
 - csv
 doi: 10.5438/D9EQ-9DGA
-published: true
+published: false
 ---
 One of my personal highlights in last week's Research Data Alliance (RDA) [6th Plenary Meeting](https://rd-alliance.org/plenary-meetings/rda-sixth-plenary-meeting.html) in Paris was the [Data Packages](https://rd-alliance.org/data-packages-bof-p6-bof-session.html) Birds of a Feather (BoF), organized by [Rufus Pollock](http://rufuspollock.org/) from the Open Knowledge Foundation ([OKFN](okfn.org)). He highlighted the urgent need for packacking data in a standard format to facilitate reuse, and described the extensive work the OKFN has done on [data packages](http://data.okfn.org/doc/data-package). A particular focus is on packacking CSV files, the most widely used format for exchanging data.
 
