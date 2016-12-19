@@ -7,6 +7,8 @@ tags:
 - orcid
 - impactstory
 - thor
+doi: 10.5438/78P9-FNRN
+published: true
 ---
 *The following is a guest post by Lars Juhl Jensen, cross-posted from his [blog](https://larsjuhljensen.wordpress.com/2016/05/01/tip-getting-data-into-impactstory-but-not-your-orcid-profile/).*
 

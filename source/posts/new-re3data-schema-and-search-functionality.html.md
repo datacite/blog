@@ -6,6 +6,8 @@ date: 2016-01-20
 tags:
 - re3data
 - metadata
+doi: 10.5438/4BY7-B7ZN
+published: true
 ---
 We are pleased to announce the publication of version 3.0 of the “Metadata Schema for the Description of Research Data Repositories” [@http://doi.org/10.2312/RE3.008].
 

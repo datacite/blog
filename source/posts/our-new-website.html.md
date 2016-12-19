@@ -6,6 +6,8 @@ date: 2016-06-27
 tags:
 - datacite
 image: https://blog.datacite.org/images/2016/06/web_featured.jpg
+doi: 10.5438/QW2X-PGCY
+published: true
 ---
 We are very pleased to announce the launch of our new website: [www.datacite.org](https://www.datacite.org)! Our website is the central place for information about DataCite and we love the new look! It has become the hub for all our services and now it delivers our latest news and supports the community with a responsive easy-to-use interface.
 

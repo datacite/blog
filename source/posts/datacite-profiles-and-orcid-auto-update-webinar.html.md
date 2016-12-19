@@ -6,6 +6,8 @@ date: 2015-12-05
 tags:
 - orcid
 - thor
+doi: 10.5438/CJT2-T6DZ
+published: true
 ---
 Last Monday, DataCite organized the first in a series of t webinars were we will be sharing our latest developments, new services, collaborations with different organizations and best practices to get the most out of persistent identifiers and data publication. Our hope is to connect with the DataCite community to bring everyone up to date and gather feedback on our work.
 

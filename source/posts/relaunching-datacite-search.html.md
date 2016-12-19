@@ -6,6 +6,8 @@ date: 2016-07-05
 tags:
 - infrastructure
 image: https://blog.datacite.org/images/2016/07/search.png
+doi: 10.5438/VQ2T-VR4K
+published: true
 ---
 This week we relaunched [DataCite Search](https://search.datacite.org), providing a more user-friendly search interface for DataCite metadata. We also added functionality that was not available before.
 

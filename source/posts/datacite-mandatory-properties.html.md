@@ -11,6 +11,8 @@ type: Dataset
 tags:
 - csv
 - metadata
+doi: 10.5438/EA4H-TX3G
+published: true
 ---
 ID,DataCite‐Property,Occ,Definition,"Allowed values, examples, other constraints"
 1,Identifier,1,The Identifier is a unique string that identifies a resource.,DOI (Digital Object Identifier) registered by a DataCite member. Format should be `10.1234/foo`

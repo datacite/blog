@@ -7,6 +7,8 @@ tags:
 - datacite
 - featured
 image: https://blog.datacite.org/images/2016/10/join.png
+doi: 10.5438/8SZS-1H0H
+published: true
 ---
 It has been a busy few months at DataCite, but we want to share some important information about changes to DataCite's membership model. Earlier this year DataCite members voted to revise our membership model and open membership up to any organization that shares our data sharing mission. Previously DataCite limited membership to non-profit organizations.
 

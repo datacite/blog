@@ -5,6 +5,8 @@ author: jlin
 date: 2015-08-31
 tags:
 - data-level metrics
+doi: 10.5438/02BH-TGC7
+published: true
 ---
 *This is a guest post by [Jennifer Lin](http://twitter.com/jenniferlin15), project manager for the Making Data Count project, and since last week CrossRef Director of Product Management.*
 

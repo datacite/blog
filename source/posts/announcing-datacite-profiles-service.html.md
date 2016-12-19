@@ -6,6 +6,8 @@ date: 2015-11-09
 tags:
 - orcid
 - thor
+doi: 10.5438/15X1-BJ6R
+published: true
 ---
 DataCite Labs today is launching the [DataCite Profiles](https://profiles.labs.datacite.org) service, a central place for users to sign in with DataCite, using their ORCID credentials.
 
