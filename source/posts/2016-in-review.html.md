@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  2016 in review
+date: 2016-12-19
 author: lrueda
 tags:
- - DataCite
+ - datacite
  - featured
 image: https://blog.datacite.org/assets/images/2016/12/year_featured.png
 ---
@@ -14,7 +15,7 @@ image: https://blog.datacite.org/assets/images/2016/12/year_featured.png
 
 ### New statutes, new members
 
-At DataCite's last [General Assembly](https://blog.datacite.org/datacites-new-membership-model/) in Amsterdam Amsterdam, we made important changes to our [statutes](https://www.datacite.org/documents/statutes.html). These changes include the revision our membership model and we opened our membership up to any organisation that shares our data sharing mission. We now have new members in all categories including some of the key players in the data sharing landscape. [CSC - IT Center for Science](http://csc.fi/), [Figshare](http://figshare.org), [ORCID](http://orcid.org), [ResearchGate](http://researchgate.net), [TIND](http://tind.io), [Tsinghua University Library](http://www.lib.tsinghua.edu.cn/english/) and [USGS](http://usgs.gov) have all joined DataCite. Three potential new members have submitted their applications, and multiple other organisations have expressed interest in joining DataCite. The growth is, of course, not just in members, but in their user communities and the wealth of data and other research artefacts that are easier to discover, reuse, and cite.
+At DataCite's last [General Assembly](https://blog.datacite.org/datacites-new-membership-model/) in Amsterdam, we made important changes to our [statutes](https://www.datacite.org/documents/statutes.html). These changes include the revision our membership model and we opened our membership up to any organisation that shares our data sharing mission. We now have new members in all categories including some of the key players in the data sharing landscape. [CSC - IT Center for Science](http://csc.fi/), [Figshare](http://figshare.org), [ORCID](http://orcid.org), [ResearchGate](http://researchgate.net), [TIND](http://tind.io), [Tsinghua University Library](http://www.lib.tsinghua.edu.cn/english/) and [USGS](http://usgs.gov) have all joined DataCite. Three potential new members have submitted their applications, and multiple other organisations have expressed interest in joining DataCite. The growth is, of course, not just in members, but in their user communities and the wealth of data and other research artefacts that are easier to discover, reuse, and cite.
 
 ### Infrastructure and services
 
