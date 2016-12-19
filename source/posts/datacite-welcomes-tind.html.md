@@ -5,8 +5,6 @@ author: tcruse
 date: 2016-10-14
 tags:
 - members
-doi: 10.5072/YEPH-28DB
-published: false
 ---
 As we mentioned in [our last blog post](https://blog.datacite.org/datacites-new-membership-model/), DataCite recently changed its membership model, and we now invite members from all types of organisations to join DataCite. As a result, we are happy to announce that several organisations have joined DataCite.  Over the coming months, we will introduce DataCite’s newest members to the community. Today we are introducing you [TIND](http://tind.io), the first for-profit organization to join DataCite -- welcome TIND.
 
@@ -23,12 +21,3 @@ As a DataCite member, TIND can immediately enable seamless DOI creation for thei
 In today’s [press release](http://blog.tind.io/press/partner-datacite), Alexander Nietzold, TIND's CEO says “We’re extremely pleased to be partnering with DataCite [...] Together with DataCite, TIND can offer its customers uniquely citable identifiers for all of their research output.”
 
 DataCite is extremely happy to welcome TIND to the data publication and citation community! If you want to contact them, you can find all the details in our [DataCite Members page](https://www.datacite.org/members.html).
-
-
-
-
-
-
-
-
-

@@ -6,8 +6,6 @@ date: 2015-10-02
 tags:
 - rda
 - csv
-doi: 10.5072/ST5J-D2E1
-published: false
 ---
 One of my personal highlights in last week's Research Data Alliance (RDA) [6th Plenary Meeting](https://rd-alliance.org/plenary-meetings/rda-sixth-plenary-meeting.html) in Paris was the [Data Packages](https://rd-alliance.org/data-packages-bof-p6-bof-session.html) Birds of a Feather (BoF), organized by [Rufus Pollock](http://rufuspollock.org/) from the Open Knowledge Foundation ([OKFN](okfn.org)). He highlighted the urgent need for packacking data in a standard format to facilitate reuse, and described the extensive work the OKFN has done on [data packages](http://data.okfn.org/doc/data-package). A particular focus is on packacking CSV files, the most widely used format for exchanging data.
 
@@ -31,4 +29,3 @@ As important as the containers themselves are tools and services that work with 
 * work with Rufus and OKFN, e.g. on registry support and packaging into a single file
 * work with the broader community on supporting scholarly containers: data repositories, reference managers, tools to analyze datasets, etc.
 * propose a pre-conference workshop for the [Force2016 conference](https://www.force11.org/event/force2016-mark-your-calendars) in April 2016. This conference started out as [Beyond the PDF in 2011](http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-is-epub/), and scholarly containers are a perfect thematic fit.
-

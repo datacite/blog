@@ -4,7 +4,7 @@ search_url: https://api.datacite.org
 site_title: DataCite Blog
 default_type: BlogPosting
 institution: DataCite
-prefix: 10.5072
+prefix: 10.5438
 license:
   name: Creative Commons Attribution
   url: "https://creativecommons.org/licenses/by/4.0/"

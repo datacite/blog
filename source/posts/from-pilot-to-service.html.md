@@ -7,8 +7,6 @@ tags:
 - thor
 - orcid
 - crossref
-doi: 10.5072/56EB-DQE4
-published: false
 ---
 Today I am pleased to announce the launch of a new service, DataCite Labs Search – the service is available immediately at [http://search.labs.datacite.org/](http://search.labs.datacite.org/). This is one of [THOR](http://project-thor.eu/)’s first services and is based on work in the earlier EC-funded [ODIN Project](http://odin-project.eu/).
 

@@ -6,8 +6,6 @@ date: 2015-10-01
 tags:
 - thor
 - rda
-doi: 10.5072/89G2-HB6~
-published: false
 ---
 The [Research Data Alliance 6th Plenary](https://rd-alliance.org/plenary-meetings/rda-sixth-plenary-meeting.html) last week discussed numerous topics very relevant to DataCite. Below is a short subjective list of topics I found interesting. If you attended RDA, feel free to add your thoughts in the comments. And if you didn't attend, you can still provide feedback.
 

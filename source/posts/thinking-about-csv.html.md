@@ -5,8 +5,6 @@ author: mfenner
 date: 2016-05-04
 tags:
 - csv
-doi: 10.5072/VNAM-C528
-published: false
 ---
 This week some of us from DataCite are attending [CSVconf](http://csvconf.com/) in Berlin, and we are a conference sponsor and co-organizer.
 

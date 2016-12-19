@@ -5,8 +5,6 @@ author: mfenner
 date: 2015-09-03
 tags:
 - csv
-doi: 10.5072/RYXH-FS4R
-published: false
 ---
 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) (comma-separated values) is a popular file format for data. It is popular because it is very simple: CSV is text-based and any application that can open text files can read or write CSV. This makes it a good fit for [digital preservation](http://www.digitalpreservation.gov/formats/fdd/fdd000323.shtml). We don't know how many of the datasets in DataCite use CSV because the `format` metadata attribute is not used much ([this query](http://search.labs.datacite.org/?q=format%3Acsv) gives you some examples), but we know that the number is big.
 

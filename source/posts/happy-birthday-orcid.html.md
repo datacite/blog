@@ -6,8 +6,6 @@ date: 2015-10-16
 tags:
 - thor
 - orcid
-doi: 10.5072/YG5V-06JJ
-published: false
 ---
 Three years ago today Open Researcher & Contributor ID ([ORCID](http://orcid.org)) launched its service at the Outreach Meeting in Berlin. One of many tweets from the launch day:
 

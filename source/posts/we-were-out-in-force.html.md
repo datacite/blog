@@ -9,8 +9,6 @@ tags:
 - github
 - impactstory
 image: https://blog.datacite.org/images/2016/04/impactstory.png
-doi: 10.5072/4JPZ-7BMP
-published: false
 ---
 This week most of the DataCite staff is attending the [Force16](https://www.force11.org/meetings/force2016) conference in Portland, Oregon. Force16 brings together a large group of people who either already work with DataCite in one way or another, or are doing interesting projects of relevance to DataCite.
 

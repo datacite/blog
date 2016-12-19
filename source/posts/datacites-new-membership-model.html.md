@@ -7,8 +7,6 @@ tags:
 - datacite
 - featured
 image: https://blog.datacite.org/images/2016/10/join.png
-doi: 10.5072/HD51-MMED
-published: false
 ---
 It has been a busy few months at DataCite, but we want to share some important information about changes to DataCite's membership model. Earlier this year DataCite members voted to revise our membership model and open membership up to any organization that shares our data sharing mission. Previously DataCite limited membership to non-profit organizations.
 
@@ -31,9 +29,3 @@ There are two types of memberships:
 * Non-Allocating Members are those who support DataCite's mission but do not wish to allocate DOI names. They work actively with DataCite and the wider research data community
 
 If you are interested in DataCite membership contact us at [support@datacite.org](mailto:support@datacite.org) or for more information on DataCite membership see our [membership page](https://www.datacite.org/become.html).
-
-
-
-
-
-

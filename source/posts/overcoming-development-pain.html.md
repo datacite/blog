@@ -5,8 +5,6 @@ author: mfenner
 date: 2015-08-11
 tags:
 - infrastructure
-doi: 10.5072/GKHJ-AKB?
-published: false
 ---
 Today DataCite received an email from a user alerting us that there are some small inconsistencies with our recommended data citation format:
 
