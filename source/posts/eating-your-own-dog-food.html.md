@@ -25,7 +25,7 @@ The simplicity is particularly important here, as registering the DOIs and metad
 
 ### Generating DOIs
 
-The DOIs for this blog are generated automatically, using a modified base32 encoding algorithm that is provided by Cirneco, as [discussed last week](https://doi.org/10.5438/53NZ-N4G7). The DOI is minted when a new post is pushed to [https://blog.datacite.org](https://blog.datacite.org), and all DOIs are short, without semantic infomation that might change over time, and with a checksum to minimize transcription errors, for example [https://doi.org/10.5438/53NZ-N4G](https://doi.org/10.5438/53NZ-N4G).
+The DOIs for this blog are generated automatically, using a modified base32 encoding algorithm that is provided by Cirneco, as [discussed last week](https://doi.org/10.5438/55E5-T5C0). The DOI is minted when a new post is pushed to [https://blog.datacite.org](https://blog.datacite.org), and all DOIs are short, without semantic infomation that might change over time, and with a checksum to minimize transcription errors, for example [https://doi.org/10.5438/XCBJ-G7ZY](https://doi.org/10.5438/XCBJ-G7ZY).
 
 ### Generating Metadata
 
@@ -52,9 +52,9 @@ tags:
 
 We can reuse all these metadata when generating DataCite metadata, using the tags as `subjects`.
 
-The default metadata are metadata that always stay the same for the blog, such as `publisher`, `HostingInstitution` or `rights`. We can store them in a site-wide configuration file. We can also assume reasonable defaults that can be overridden in the YAML front matter, e.g. `resourceType` (we use [BlogPosting](https://schema.org/BlogPosting) with `resourceTypeGeneral` Text) and `version`. We store more information about authors outside the blog post, including `givenName`, `familyName` and `nameIdentifier` (we now show the ORCID ID of every blog author at the bottom of the post).
+The default metadata are metadata that always stay the same for the blog, such as `publisher`, `HostingInstitution` and `rights`. We can store them in a site-wide configuration file. We can also assume reasonable defaults that can be overridden in the YAML front matter, e.g. `resourceType` (we use [BlogPosting](https://schema.org/BlogPosting) with `resourceTypeGeneral` Text) and `version`. We store more information about authors outside the blog post, including `givenName`, `familyName` and `nameIdentifier` (we now show the ORCID ID of every blog author at the bottom of the post).
 
-Finally, there are metadata that we can automatically extract from the blog post, and we are currently doing this for the `description` and `relatedIdentifiers`. This blog uses Pandoc and BibTex to generate the references section at the end, and we can fetch this information and convert it into the format needed for `relatedIdentifier`.
+Finally, there are metadata that we can automatically extract from the blog post, and we are currently doing this for the `description` and `relatedIdentifier`. This blog uses Pandoc and BibTex to generate the references section at the end, and we can fetch this information and convert it into the format needed for `relatedIdentifier`.
 
 Taken together we can provide all metadata that are *required* or *recommended* in the Metadata Schema documentation [-@https://doi.org/10.5438/0012], and we can do this without any extra effort for the author.
 
