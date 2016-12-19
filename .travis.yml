@@ -9,9 +9,11 @@ before_install:
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
       AWS_BUCKET="blog.datacite.org";
       RACK_ENV="production";
+      CIRNECO_OPTS="--sandbox";
     elif [ "$TRAVIS_BRANCH" == "labs" ]; then
       AWS_BUCKET="blog.labs.datacite.org";
       RACK_ENV="stage";
+      CIRNECO_OPTS="--sandbox";
       cp .env.labs .env;
     else
       exit 1;
@@ -25,12 +27,23 @@ before_install:
 install:
   - bundle install
 
-before_script:
+before_scrpt:
+  - git config --global user.email "${GIT_EMAIL}"
+  - git config --global user.name "${GIT_NAME}"
+  - git config --global push.default simple
+
   - cd vendor && npm install
   - cd ..
 
+  - bundle exec cirneco doi mint source/posts $CIRNECO_OPTS;
+
 script:
   - bundle exec middleman build -e $RACK_ENV
+
+after_success:
+  - git add --all .
+  - git commit -m 'Committing files changed by cirneco.'
+  - git push https://${GITHUB_TOKEN}@github.com/datacite/blog.rb $TRAVIS_BRANCH --quiet"
 
 deploy:
   provider: s3
