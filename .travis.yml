@@ -47,8 +47,11 @@ after_success:
 
   - git remote add upstream https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
   - git add source/posts/.
-  - git commit -m 'Committing files changed by cirneco [skip ci]'
-  - git push upstream HEAD:$TRAVIS_BRANCH
+  - if [ -z "$(git status --untracked-files=no --porcelain)" ]; then
+    else
+      git commit -m 'Committing files changed by cirneco [skip ci]';
+      git push upstream HEAD:$TRAVIS_BRANCH;
+    fi
 
 deploy:
   provider: s3
