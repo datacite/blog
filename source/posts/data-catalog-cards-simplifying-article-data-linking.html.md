@@ -6,6 +6,8 @@ date: 2016-05-13
 tags:
 - citation
 - metadata
+doi: 10.5072/6ECH-0D2~
+published: false
 ---
 Data citation is core to DataCite's mission and DataCite is involved in several projects that try to facilitate data citation, including [THOR](https://project-thor.eu/), [Data Citation Implementation Pilot (DCIP)](https://www.force11.org/group/dcip), [Research Data Alliance (RDA)](https://rd-alliance.org/), and [COPDESS](http://www.copdess.org/). The biggest roadblock for wider data citation adoption might be insufficient incentives for individual researchers, but another major challenge is that implementing data citation is still too complicated.
 

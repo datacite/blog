@@ -6,6 +6,8 @@ date: 2016-05-18
 tags:
 - datacite
 image: https://blog.datacite.org/images/2016/05/bike_featured.png
+doi: 10.5072/J2TP-BYTE
+published: false
 ---
 DataCite is a community driven organization, and we encourage involvement from people that share our data sharing vision. Over the past year, DataCite has seen a tremendous amount of growth and uptake in the use of DataCite DOIs.
 

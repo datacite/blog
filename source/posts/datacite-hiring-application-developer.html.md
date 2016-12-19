@@ -5,6 +5,8 @@ author: mfenner
 date: 2016-03-30
 tags:
 - datacite
+doi: 10.5072/WEQ2-YM5D
+published: false
 ---
 As DataCite's Technical Director I am very excited to announce that DataCite is looking for an application developer to strengthen our technical team. Working for DataCite is an opportunity to work on interesting development work around scholarly infrastructure and data citation. We are a small team, which requires flexibility, but it is a chance to work on a broad range of topics, from frontend development to DevOps work.
 

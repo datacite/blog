@@ -9,8 +9,10 @@ summary: |
   together with their sub‐properties. From: Table 3, [DataCite Metadata Schema 3.1](http://schema.datacite.org/meta/kernel-3.1/index.html) documentation.
 type: Dataset
 tags:
- - csv
- - metadata
+- csv
+- metadata
+doi: 10.5072/WZJR-D7ZV
+published: false
 ---
 ID,DataCite‐Property,Occ,Definition,"Allowed values, examples, other constraints"
 1,Identifier,1,The Identifier is a unique string that identifies a resource.,DOI (Digital Object Identifier) registered by a DataCite member. Format should be `10.1234/foo`

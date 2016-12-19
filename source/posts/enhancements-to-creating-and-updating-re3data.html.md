@@ -5,6 +5,8 @@ author: hpampel
 date: 2016-02-24
 tags:
 - re3data
+doi: 10.5072/GD9A-67NT
+published: false
 ---
 We are happy to announce a new feature that enables users to more easily suggest corrections and enhancements of information about research data repositories registered in re3data.org.
 

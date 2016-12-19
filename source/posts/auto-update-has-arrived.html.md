@@ -7,6 +7,8 @@ tags:
 - orcid
 - crossref
 - thor
+doi: 10.5072/NEEC-2C0J
+published: false
 ---
 *This post has been cross-posted from the [ORCID blog](http://orcid.org/blog/2015/10/26/auto-update-has-arrived-orcid-records-move-next-level). We will follow up with a blog post later this week explaining the DataCite auto-update implementation.*
 

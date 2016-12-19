@@ -7,6 +7,8 @@ date: 2016-03-28
 tags:
 - citation
 - data-level metrics
+doi: 10.5072/J8TX-CN7D
+published: false
 ---
 I was pleased to present at [IDCC16](http://www.dcc.ac.uk/events/idcc16) on a research paper called _The location of the citation: Changing practices in how publications cite original data in the Dryad Digital Repository_ (see preprint: Mayo et al, [-@http://doi.org/10.5281/zenodo.32412]).
 
