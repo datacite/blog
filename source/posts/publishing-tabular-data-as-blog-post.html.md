@@ -8,7 +8,7 @@ tags:
 - metadata
 image: https://blog.datacite.org/images/2016/05/periodic_table.jpg
 doi: 10.5438/KTR7-ZJJH
-published: false
+published: true
 ---
 CSV in many ways is for data what Markdown is for text documents: a very simple format that is both human- and machine-readable, and that – despite a number of shortcomings - is widely used. Given the popularity of Markdown for writing blog posts, using CSV to publish blog posts with tabular data should be an obvious thing to do, and we have just published our [first blog post](/datacite-mandatory-properties/) using CSV data. The blog post shows Table 3 from the DataCite Metadata Schema [@http://doi.org/10.5438/0010], describing the mandatory properties.
 

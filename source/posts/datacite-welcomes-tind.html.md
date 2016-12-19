@@ -6,7 +6,7 @@ date: 2016-10-14
 tags:
 - members
 doi: 10.5438/1YAA-K6D1
-published: false
+published: true
 ---
 As we mentioned in [our last blog post](https://blog.datacite.org/datacites-new-membership-model/), DataCite recently changed its membership model, and we now invite members from all types of organisations to join DataCite. As a result, we are happy to announce that several organisations have joined DataCite.  Over the coming months, we will introduce DataCite’s newest members to the community. Today we are introducing you [TIND](http://tind.io), the first for-profit organization to join DataCite -- welcome TIND.
 

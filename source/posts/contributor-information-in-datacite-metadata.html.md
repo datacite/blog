@@ -7,7 +7,7 @@ tags:
 - thor
 - orcid
 doi: 10.5438/W029-Y6W~
-published: false
+published: true
 ---
 The [Force11 Joint Declaration of Data Citation Principles](https://www.force11.org/group/joint-declaration-data-citation-principles-final) highlight the importance of giving scholarly credit to all contributors:
 

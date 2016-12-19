@@ -6,7 +6,7 @@ date: 2015-10-04
 tags:
 - rda
 doi: 10.5438/85SN-MX23
-published: false
+published: true
 ---
 In late September [DataCite](https://www.datacite.org/) and [ePIC](http://www.pidconsortium.eu/) co-hosted a conference, **Persistent Identifiers: Enabling Services for Data Intensive Research**, in Paris on the Monday before the RDA Sixth Plenary meeting. It was a great way to kick-off a busy week of data conversations and most appropriate to start with persistent identifiers – after all shouldn’t everything begin with persistent identifiers? All of the presentations from the DataCite / EPIC event are now [available collectively](https://zenodo.org/collection/user-datacite) and linked below individually.
 

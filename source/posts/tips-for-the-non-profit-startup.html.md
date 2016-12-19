@@ -6,7 +6,7 @@ date: 2015-12-23
 tags:
 - infrastructure
 doi: 10.5438/T0AP-D5W7
-published: false
+published: true
 ---
 When I started as DataCite Technical Director four months ago, my first post [@https://blog.datacite.org/data-driven-development] on this blog was about what I called **Data-Driven Development**. The post included a lot of ideas on how to approach development and technical infrastructure. In this post I want to take a second look.
 
