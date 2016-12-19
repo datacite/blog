@@ -29,7 +29,7 @@ The DOIs for this blog are generated automatically, using a modified base32 enco
 
 ### Generating Metadata
 
-For the generation of metadata we need to strike the right balance between simple to provide by the author, but rich enough to help with discovery. We are doing this via three mechanisms:
+For the generation of metadata, we need to strike a  balance between simple author provided metadata, but rich enough to aid discovery. We are doing this via three mechanisms:
 
 * metadata provided by the author
 * default metadata for the blog
