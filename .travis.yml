@@ -47,7 +47,7 @@ after_success:
   - git remote add upstream https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
   - git add .
   - git commit -m 'Committing files changed by cirneco'
-  - git push upstream > /dev/null 2>&1
+  - git push upstream
 
 deploy:
   provider: s3
