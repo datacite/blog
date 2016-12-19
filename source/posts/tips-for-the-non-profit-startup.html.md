@@ -4,9 +4,8 @@ title: Infrastructure Tips for the Non-Profit Startup
 author: mfenner
 date: 2015-12-23
 tags:
- - infrastructure
+- infrastructure
 ---
-
 When I started as DataCite Technical Director four months ago, my first post [@https://blog.datacite.org/data-driven-development] on this blog was about what I called **Data-Driven Development**. The post included a lot of ideas on how to approach development and technical infrastructure. In this post I want to take a second look.
 
 While I think the ideas expressed in the blog post are still true, I also learned that the focus of a Technical Director working for a small non-profit is somewhere else. The main challenge might be to properly run infrastructure and technical development with limited resources, both in terms of staff and money. While DataCite isn't a startup (the organization turned six years old this month), we face many of the same challenges. And as a non-profit, we can't take the approach of the typical startup, which in the early stages might have a small staff, but usually can spend more money than it is taking in.

@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "Tip: Getting data into Impactstory but not your ORCID profile"
+title: 'Tip: Getting data into Impactstory but not your ORCID profile'
 author: larsjuhljensen
 date: 2016-05-01
 tags:
- - orcid
- - impactstory
- - thor
+- orcid
+- impactstory
+- thor
 ---
-
 *The following is a guest post by Lars Juhl Jensen, cross-posted from his [blog](https://larsjuhljensen.wordpress.com/2016/05/01/tip-getting-data-into-impactstory-but-not-your-orcid-profile/).*
 
 I use [Impactstory](http://impactstory.org/) to track altmetrics for my publications. I believe they did the right thing by not asking me to maintain yet another online profile and instead building upon existing infrastructure. I also use [figshare](http://figshare.com/) to publish open datasets and wanted to get Impactstory to track these too.

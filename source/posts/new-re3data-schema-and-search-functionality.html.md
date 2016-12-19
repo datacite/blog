@@ -4,10 +4,9 @@ title: New re3data.org Schema and Search Functionality
 author: mwitt
 date: 2016-01-20
 tags:
- - re3data
- - metadata
+- re3data
+- metadata
 ---
-
 We are pleased to announce the publication of version 3.0 of the “Metadata Schema for the Description of Research Data Repositories” [@http://doi.org/10.2312/RE3.008].
 
 This updated version of the re3data.org schema incorporates feedback from users as well as changes in registry policies and structural adjustments to the schema designed to better reflect changes in the landscape of research data repositories. New faceted and filtered search capabilities have also been added to improve searching of re3data.org.

@@ -23,8 +23,9 @@ sprockets.append_path File.join(root, 'vendor', 'bower_components')
 # Set markdown template engine
 set :markdown_engine, :pandoc
 set :markdown, smartypants: true,
+               metadata: "link-citations",
                csl: "styles/apa.csl",
-               bibliography: "bibliography/references.bib",
+               bibliography: "data/references.yaml",
                lang: "en"
 
 # put configuration variables into .env file

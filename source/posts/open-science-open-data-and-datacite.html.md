@@ -4,9 +4,8 @@ title: Open Science, Open Data and DataCite DOIs
 author: lrueda
 date: 2016-03-11
 tags:
- - doi
+- doi
 ---
-
 At DataCite we are incredibly proud of supporting Open Science. Over the past several years, DataCite DOIs have been assigned to millions of research datasets. All of these DOIs are an important step towards making data a first-class citizen in scholarly research -- they all deserve a round of applause, but some deserve to be highlighted.
 
 Einstein predicted the existence of gravitational waves under his general theory of relativity in 1916. It has taken a hundred years to detect them. Following the data collected by [LIGO's](https://www.ligo.caltech.edu) twin detectors in September 2015, the collision of two black holes sent gravitational waves sand caused ripples in the fabric of space-time. This crash happened 1.3 billion years ago and converted about three times the mass of the sun into gravitational waves, generating a peak power output 50 times that of the entire visible universe.

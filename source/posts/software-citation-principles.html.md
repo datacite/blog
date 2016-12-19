@@ -4,10 +4,9 @@ title: Software Citation Principles
 author: lrueda
 date: 2016-09-20
 tags:
- - datacite
- - software citation
+- datacite
+- software citation
 ---
-
 The [FORCE11 Software Citation Working Group](https://www.force11.org/group/software-citation-working-group) has published the results of its review of existing community practices, using a consolidated set of Software Citation Principles [@http://doi.org/10.7717/peerj-cs.86] to encourage the adoption of software citation across disciplines.
 
 Supporting citation is part of DataCite's core mission and this extends to software citation. These new principles will help the research community locate, identify, and cite software as a component of research outputs. Through our members, participating data centres, and our [metadata schema](http://schema.datacite.org), we promote software as a citable research object.

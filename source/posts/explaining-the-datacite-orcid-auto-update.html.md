@@ -4,11 +4,10 @@ title: Explaining the DataCite/ORCID Auto-update
 author: mfenner
 date: 2015-10-29
 tags:
- - orcid
- - crossref
- - thor
+- orcid
+- crossref
+- thor
 ---
-
 This Monday ORCID, CrossRef and DataCite announced ([ORCID post](http://blog.orcid.org/blog/2015/10/26/auto-update-has-arrived-orcid-records-move-next-level), [CrossRef post](http://crosstech.crossref.org/2015/10/auto-update-has-arrived-orcid-records-move-to-the-next-level.html), [DataCite post](/auto-update-has-arrived/)) the new auto-update service that automatically pushes metadata to ORCID when an ORCID identifier is found in newly registered DOI names.
 
 This is the first joint announcement by the three organizations, and shows the close collaboration between ORCID, CrossRef and DataCite. A good opportunity to learn more about these joint activities are the [ORCID Outreach Meeting in San Francisco](https://orcid.org/assets/sf2015) November 3-4, and the [CrossRef Annual Meeting in Boston](http://www.crossref.org/annualmeeting/agenda.html) November 17-18.

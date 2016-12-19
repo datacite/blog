@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  Overcoming Development Pain
+title: Overcoming Development Pain
 author: mfenner
 date: 2015-08-11
 tags:
- - infrastructure
+- infrastructure
 ---
-
 Today DataCite received an email from a user alerting us that there are some small inconsistencies with our recommended data citation format:
 
     Creator (PublicationYear): Title. Publisher. Identifier

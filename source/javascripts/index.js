@@ -14,10 +14,6 @@
         $('.post-content').readingTime({
             readingTimeTarget: '.post-reading-time'
         });
-
-        $('span.citation').click(function(){
-            $(location).attr('href', $(this).data("cites"));
-        });
     });
 
 }(jQuery));

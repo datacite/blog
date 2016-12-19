@@ -4,9 +4,8 @@ title: Enhancements to creating and updating re3data
 author: hpampel
 date: 2016-02-24
 tags:
- - re3data
+- re3data
 ---
-
 We are happy to announce a new feature that enables users to more easily suggest corrections and enhancements of information about research data repositories registered in re3data.org.
 
 Below every re3data.org record you can find the feature “submit a change request”. Clicking this button brings you to a form where you can submit changes to the repository’s registry record along with your private, optional comments and contact information:

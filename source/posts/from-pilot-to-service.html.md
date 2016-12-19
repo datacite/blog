@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  From Pilot to Service
+title: From Pilot to Service
 author: mfenner
 date: 2015-08-17
 tags:
- - thor
- - orcid
- - crossref
+- thor
+- orcid
+- crossref
 ---
-
 Today I am pleased to announce the launch of a new service, DataCite Labs Search – the service is available immediately at [http://search.labs.datacite.org/](http://search.labs.datacite.org/). This is one of [THOR](http://project-thor.eu/)’s first services and is based on work in the earlier EC-funded [ODIN Project](http://odin-project.eu/).
 
 The ODIN project [launched the DataCite/ORCID claiming tool](http://odin-project.eu/2013/05/13/new-orcid-integrated-data-citation-tool/) in June 2013. The DataCite/ORCID claiming tool allows users to add works from the DataCite Metadata Store (MDS) to their ORCID profile. This was a successful pilot, enabling researchers to add their datasets to the ORCID service infrastructure.

@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "DataCite Metadata Schema 4.0 Webinar"
+title: DataCite Metadata Schema 4.0 Webinar
 author: lrueda
 date: 2016-07-08
 tags:
- - datacite
+- datacite
 image: https://blog.datacite.org/images/2016/07/schema_featured.jpg
 ---
-
 On June 30th, 2016, DataCite organised a webinar to introduce the community to the new version of its metadata schema developed by DataCite’s Metadata Working Group.  and support the different integrators interested in migrating to the new schema.
 
 [http://schema.labs.datacite.org/meta/kernel-4.0/](http://schema.labs.datacite.org/meta/kernel-4.0/)

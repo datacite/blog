@@ -4,10 +4,9 @@ title: Discussing the Scholarly Container
 author: mfenner
 date: 2015-10-02
 tags:
- - rda
- - csv
+- rda
+- csv
 ---
-
 One of my personal highlights in last week's Research Data Alliance (RDA) [6th Plenary Meeting](https://rd-alliance.org/plenary-meetings/rda-sixth-plenary-meeting.html) in Paris was the [Data Packages](https://rd-alliance.org/data-packages-bof-p6-bof-session.html) Birds of a Feather (BoF), organized by [Rufus Pollock](http://rufuspollock.org/) from the Open Knowledge Foundation ([OKFN](okfn.org)). He highlighted the urgent need for packacking data in a standard format to facilitate reuse, and described the extensive work the OKFN has done on [data packages](http://data.okfn.org/doc/data-package). A particular focus is on packacking CSV files, the most widely used format for exchanging data.
 
 I was sold on the importance of CSV and the idea of packacking data in a standard format since attending [CSVconf](http://okfnlabs.org/blog/2014/05/05/csv-conf-2014.html) (co-organized by Rufus) in July 2014, and have written about this several times ([Build Roads not Stagecoaches](http://blog.martinfenner.org/2014/07/18/roads-not-stagecoaches/), [Reference Lists and Tables of Content](/reference-lists-and-tables-of-content/)), most recently a few weeks ago ([Using YAML frontmatter with CSV](/using-yaml-frontmatter-with-csv/)). In the RDA session I suggested two important improvements for the OKFN data package format:

@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  Reference Lists and Tables of Content
+title: Reference Lists and Tables of Content
 author: mfenner
 date: 2015-08-15
 tags:
- - metadata
+- metadata
 ---
-
 [Geoff Bilder](https://twitter.com/gbilder) from CrossRef likes to show the following slide at scholarly conferences, and then asks the audience what they see:
 ![](/images/2015/08/article-1.png)
 

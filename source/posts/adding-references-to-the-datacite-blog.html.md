@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  Adding References to the DataCite Blog
+title: Adding References to the DataCite Blog
 author: mfenner
 date: 2015-09-16
 tags:
- - blog
+- blog
 ---
-
 We launched this blog six weeks ago on a hosted version of [Ghost](https://ghost.org/), the open source blogging platform. Ghost doesn't have all the features of Wordpress or other more mature blogging platforms, but it is a pleasure to use. The other alternative would have been to put the blog up on the Drupal-based main [DataCite website](http://www.datacite.org), but Drupal is really a content-management system and usually not the best choice for a serious blog.
 
 What all the above systems (Ghost, Wordpress, Drupal) have in common is that they need a web server and database backend. This is fine for the standard blog, but it becomes a problem once you start thinking about customizing your blog. In the case of the DataCite blog I want to be able to provide the following:

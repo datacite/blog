@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Data catalog cards: simplifying article/data linking"
+title: 'Data catalog cards: simplifying article/data linking'
 author: mfenner
 date: 2016-05-13
 tags:
- - citation
- - metadata
+- citation
+- metadata
 ---
-
 Data citation is core to DataCite's mission and DataCite is involved in several projects that try to facilitate data citation, including [THOR](https://project-thor.eu/), [Data Citation Implementation Pilot (DCIP)](https://www.force11.org/group/dcip), [Research Data Alliance (RDA)](https://rd-alliance.org/), and [COPDESS](http://www.copdess.org/). The biggest roadblock for wider data citation adoption might be insufficient incentives for individual researchers, but another major challenge is that implementing data citation is still too complicated.
 
 ![[Citation needed](https://commons.wikimedia.org/wiki/File%3ACitation_needed_stickers.jpeg). By User:Tfinc (Own work) [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons](/images/2016/05/Citation_needed_stickers.jpeg)

@@ -1,6 +1,11 @@
+site_url: https://blog.datacite.org
+source_url: https://github.com/datacite/blog
+search_url: https://api.datacite.org
+site_title: DataCite Blog
+default_type: BlogPosting
+institution: DataCite
+prefix: 10.5072
 license:
   name: Creative Commons Attribution
   url: "https://creativecommons.org/licenses/by/4.0/"
-source_url: https://github.com/datacite/blog
-search_url: https://api.datacite.org
 twitter_handle: "@datacite"

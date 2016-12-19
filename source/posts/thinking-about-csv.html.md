@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "Thinking about CSV"
+title: Thinking about CSV
 author: mfenner
 date: 2016-05-04
 tags:
- - csv
+- csv
 ---
-
 This week some of us from DataCite are attending [CSVconf](http://csvconf.com/) in Berlin, and we are a conference sponsor and co-organizer.
 
 > csv,conf is a non-profit community conference run by some folks who really love data and sharing knowledge. If you are as passionate about data and the application it has to society as us then you should join us in Berlin!

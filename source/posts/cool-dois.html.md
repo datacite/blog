@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "Cool DOI's"
+title: Cool DOI's
 author: mfenner
 date: 2016-12-15
 tags:
- - doi
- - featured
+- doi
+- featured
 image: https://blog.datacite.org/images/2016/12/cool-dois.png
 ---
-
-In 1998 Tim Berners-Lee coined the term cool URIs [-@https://www.w3.org/Provider/Style/URI], that is URIs that don’t change. We know that URLs referenced in the scholarly literature are often not cool, leading to link rot [@https://doi.org/10.1371/journal.pone.0115253] and making it hard or impossible to find the referenced resource.
+In 1998 Tim Berners-Lee coined the term cool URIs [-@https://www.w3.org/Provider/Style/URI], that is URIs that don’t change. We know that URLs referenced in the scholarly literature are often not cool, leading to link rot [@https://doi.org/10.1371/journal.pone.0115253] and making it hard or impossible to find the referenced resource.READMORE
 
 Cool URIs are, of course, a fundamental principle behind DOIs, with the two important concepts [*resolution*](https://www.doi.org/doi_handbook/3_Resolution.html) (it is very hard to maintain a URL directly pointing at a resource) and [*policies*](https://www.doi.org/doi_handbook/6_Policies.html) (that all DOI registration agencies and organizations minting DOIs agree to maintain the redirection). The third essential element for DOIs, their [*data model*](https://www.doi.org/doi_handbook/4_Data_Model.html), is not directly about persistent linking, but about the discoverability of the linked resources via standard metadata in a central index.
 

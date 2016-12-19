@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  Using YAML Frontmatter with CSV
+title: Using YAML Frontmatter with CSV
 author: mfenner
 date: 2015-09-03
 tags:
- - csv
+- csv
 ---
-
 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) (comma-separated values) is a popular file format for data. It is popular because it is very simple: CSV is text-based and any application that can open text files can read or write CSV. This makes it a good fit for [digital preservation](http://www.digitalpreservation.gov/formats/fdd/fdd000323.shtml). We don't know how many of the datasets in DataCite use CSV because the `format` metadata attribute is not used much ([this query](http://search.labs.datacite.org/?q=format%3Acsv) gives you some examples), but we know that the number is big.
 
 The CSV format has two important shortcomings: a) it is not clearly defined, and b) because of its simplicity it is almost impossible to add metadata describing the data in the CSV file. The closest thing we have to a CSV standard definition is [RFC 4180](https://tools.ietf.org/html/rfc4180), but that RFC clearly states that *It does not specify an Internet standard of any kind*.

@@ -4,11 +4,10 @@ title: Auto-Update Has Arrived!
 author: mfenner
 date: 2015-10-26
 tags:
- - orcid
- - crossref
- - thor
+- orcid
+- crossref
+- thor
 ---
-
 *This post has been cross-posted from the [ORCID blog](http://orcid.org/blog/2015/10/26/auto-update-has-arrived-orcid-records-move-next-level). We will follow up with a blog post later this week explaining the DataCite auto-update implementation.*
 
 Since ORCID’s inception, our key goal has been to unambiguously identify researchers and provide tools to automate the connection between researchers and their creative works. We are taking a big step towards achieving this goal today, with the launch of [Auto-Update](http://orcid.org/blog/2014/11/21/new-functionality-friday-auto-update-your-orcid-record) functionality in collaboration with [Crossref](http://www.crossref.org/) and [DataCite](https://www.datacite.org/).

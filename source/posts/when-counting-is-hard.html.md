@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  When Counting is Hard
+title: When Counting is Hard
 author: jlin
 date: 2015-08-31
 tags:
- - data-level metrics
+- data-level metrics
 ---
-
 *This is a guest post by [Jennifer Lin](http://twitter.com/jenniferlin15), project manager for the Making Data Count project, and since last week CrossRef Director of Product Management.*
 
 Counting is hard. But when it comes to research data, not in the way we thought it was ([example 1](http://www.huffingtonpost.com/leif-walsh/why-counting-is-hard-for-_b_4414475.html), [example 2](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5279&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5279), [example 3](http://www.cardcountingtrainer.com)). The Making Data Count (MDC) project aims to go further - measurement. But to do so, we must start with basic counting: 1, 2, 3... uno, dos, tres...

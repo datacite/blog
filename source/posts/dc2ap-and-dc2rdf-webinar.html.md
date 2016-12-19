@@ -4,9 +4,8 @@ title: DC2AP and DC2RDF Webinar
 author: lrueda
 date: 2016-04-26
 tags:
- - dublin core
+- dublin core
 ---
-
 As we have [talked about before](https://blog.datacite.org/datacite-to-dublin-core-application-profile), the DataCite Metadata Working Group has prepared a DataCite to Dublin Core application profile (DC2AP) and an ontology (DC2RDF) and is currently running a public review to become a DCMI Community Specification.
 
 Two weeks ago, DataCite organised a webinar to discuss the first round of feedback received. Egbert Gramsbergen (TU Delft), Jan Ashton (British Library) and Silvio Peroni (Università di Bologna) examined the challenges encountered during the development of the profile and the efforts to come.

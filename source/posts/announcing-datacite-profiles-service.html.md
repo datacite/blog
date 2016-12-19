@@ -4,10 +4,9 @@ title: Announcing the DataCite Profiles Service
 author: mfenner
 date: 2015-11-09
 tags:
- - orcid
- - thor
+- orcid
+- thor
 ---
-
 DataCite Labs today is launching the [DataCite Profiles](https://profiles.labs.datacite.org) service, a central place for users to sign in with DataCite, using their ORCID credentials.
 
 The first version of DataCite Profiles focusses on integration with ORCID via the **Search & Link** and **Auto-Update** services, described in a [previous blog post](/explaining-the-datacite-orcid-auto-update/). When users first sign-in, or when they go to their Settings page (accessible via the navigation menu in the upper right corner), they are presented with these two choices for adding their works to their ORCID record:

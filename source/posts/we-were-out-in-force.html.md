@@ -4,13 +4,12 @@ title: We were out in Force
 author: mfenner
 date: 2016-04-19
 tags:
- - orcid
- - software citation
- - github
- - impactstory
+- orcid
+- software citation
+- github
+- impactstory
 image: https://blog.datacite.org/images/2016/04/impactstory.png
 ---
-
 This week most of the DataCite staff is attending the [Force16](https://www.force11.org/meetings/force2016) conference in Portland, Oregon. Force16 brings together a large group of people who either already work with DataCite in one way or another, or are doing interesting projects of relevance to DataCite.
 
 [ImpactStory](https://impactstory.org) is a non-profit that helps scientists learn where their research is being cited, shared, saved and more. Ten days ago ImpactStory [launched a new version](http://blog.impactstory.org/new-better-freer/) that is built all around ORCID IDs and DOIs. Both the data and the software running the service are open, and the new version integrates naturally with the ORCID/DOI integrations that DataCite is working on as part of the [THOR project](https://project-thor.eu/). The ImpactStory co-founders Jason Priem and Heather Piwowar are both attending Force16 and we had a great conversation on how the new ImpactStory could be integrated with what DataCite is doing.

@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "A common API for retrieving DataCite Metadata"
+title: A common API for retrieving DataCite Metadata
 author: mfenner
 date: 2016-11-03
 tags:
- - api
- - search
+- api
+- search
 ---
-
 Today we are launching a new version of the DataCite API at [http://api.datacite.org](http://api.datacite.org). This new version includes numerous bug fixes and now includes related resources (e.g. data centers, members or contributors) according to the [JSONAPI spec](http://jsonapi.org/format/#fetching-includes). The changelog can be found [here](https://github.com/datacite/spinone/blob/master/CHANGELOG.md). Current users of the API should watch out for breaking changes in the `meta` object used for faceting.
 
 We first launched the DataCite API in June as what we hope will become the new standard way to retrieve metadata from DataCite. Most of the content in the API comes from our search index of the MDS and is about DOI metadata, but we are also including information from other services, e.g. our member database and the [Event Data](https://blog.datacite.org/its-all-about-relations/) service. We ourselves use the API to power the web frontend for search, to [display member information](https://www.datacite.org/members.html) on our homepage, and to provide a search for our [blog](http://blog.datacite.org/).

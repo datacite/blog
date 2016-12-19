@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  Digging into Metadata using R
+title: Digging into Metadata using R
 author: mfenner
 date: 2015-08-20
 tags:
- - metadata
- - orcid
+- metadata
+- orcid
 ---
-
 In the first post of this new blog a few weeks ago I talked about [Data-Driven Development](/data-driven-development/), and that service monitoring is an important aspect of this. The main service DataCite is providing is registration of digital object identifiers (DOIs) for scholarly content, in particular research data.
 
 Monitoring this service should include the following:

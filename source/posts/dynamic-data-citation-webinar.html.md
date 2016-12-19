@@ -4,13 +4,12 @@ title: Dynamic Data Citation Webinar
 author: mfenner
 date: 2016-07-18
 tags:
- - datacite
- - rda
- - citation
- - thor
+- datacite
+- rda
+- citation
+- thor
 image: https://blog.datacite.org/images/2016/07/dynamic-data.png
 ---
-
 On July 12, 2016, DataCite invited [Andreas Rauber](http://www.ifs.tuwien.ac.at/~andi/) to present the recommendations for dynamic data citation of the [RDA Data Citation Working Group](https://rd-alliance.org/groups/data-citation-wg.html) in a webinar.
 
 ![](/images/2016/07/dynamic-data.png)

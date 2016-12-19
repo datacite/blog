@@ -4,10 +4,9 @@ title: Relaunching DataCite Search
 author: mfenner
 date: 2016-07-05
 tags:
- - infrastructure
+- infrastructure
 image: https://blog.datacite.org/images/2016/07/search.png
 ---
-
 This week we relaunched [DataCite Search](https://search.datacite.org), providing a more user-friendly search interface for DataCite metadata. We also added functionality that was not available before.
 
 The new search uses a single entry box for queries, and filters by resource type, publication year and data center. A new Cite button will generate a citation in several popular citation styles, and in BibTeX and RIS import formats. Users who sign in using their ORCID credentials can add works to their ORCID record using the DataCite Search and Link service, and will find a menu shortcut to a page with all DataCite DOIs associated with their ORCID ID.
