@@ -25,7 +25,7 @@ The simplicity is particularly important here, as registering the DOIs and metad
 
 ### Generating DOIs
 
-The DOIs for this blog are generated automatically, using a modified base32 encoding algorithm that is provided by Cirneco, as discussed last week [@https://doi.org/10.5438/55E5-T5C0]. The DOI is minted when a new post is pushed to [https://blog.datacite.org](https://blog.datacite.org), and all DOIs are short, without semantic infomation that might change over time, and with a checksum to minimize transcription errors, for example **https://doi.org/10.5438/XCBJ-G7ZY**.
+The DOIs for this blog are generated automatically, using a modified base32 encoding algorithm that is provided by Cirneco, as discussed last week [@https://doi.org/10.5438/55E5-T5C0]. The DOI is generated and minted when a new post is pushed to [https://blog.datacite.org](https://blog.datacite.org). This avoids two problems: a) DOI-like strings in the wild before publication and b) the randomly generated DOI exists already (we can simply generate a new one). All DOIs are short, without semantic infomation that might change over time, and with a checksum to minimize transcription errors, for example **https://doi.org/10.5438/XCBJ-G7ZY**. Going forward we encourage users to link to the DataCite Blog using the DOI, as these links will continue to work even if we ever move the blog to a different location.
 
 ### Generating Metadata
 
@@ -57,6 +57,8 @@ The default metadata are metadata that always stay the same for the blog, such a
 Finally, there are metadata that we can automatically extract from the blog post, and we are currently doing this for the `description` and `relatedIdentifier`. This blog uses Pandoc and BibTex to generate the references section at the end, and we can fetch this information and convert it into the format needed for `relatedIdentifier`.
 
 Taken together we can provide all metadata that are *required* or *recommended* in the Metadata Schema documentation [-@https://doi.org/10.5438/0012], and we can do this without any extra effort for the author. The full XML is avalailable [here](https://data.datacite.org/content-resolver/application/x-datacite+xml/10.5438/4K3M-NYVG).
+
+Not all blog posts need to be cited formally with metadata in a *references* list formatted according to a specific citation style. But these metadata greatly help with discovery, a search in DataCite Search for [eating dog food](http://search.datacite.org/works?query=eating+dog+food) will for example bring up this blog post as the first hit.
 
 ### Persistent storage
 
