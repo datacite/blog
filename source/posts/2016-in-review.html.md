@@ -6,7 +6,7 @@ author: lrueda
 tags:
 - datacite
 - featured
-image: https://blog.datacite.org/assets/images/2016/12/year_featured.png
+image: https://blog.datacite.org/images/2016/12/year_featured.png
 doi: 10.5438/ZWSF-4Y7Y
 published: true
 ---

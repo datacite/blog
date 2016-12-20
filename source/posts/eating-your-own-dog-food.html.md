@@ -8,7 +8,7 @@ tags:
 - doi
 - metadata
 - featured
-image: https://blog.datacite.org/images/2016/12/230785.png
+image: https://blog.datacite.org/images/2016/12/230785.jpg
 doi: 10.5438/4K3M-NYVG
 published: true
 ---
