@@ -16,7 +16,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <!-- DublinCore Metadata -->
-    <meta property="dc:title" content="<%= ENV['SITE_TITLE'] %>" />
+    <meta property="dc:title" content="<%= page_title(current_page) %>" />
     <meta property="dc:format" content="text/html" />
     <meta property="dc:language" content="en" />
     <meta property="dc:rights" content="CC-BY" />
@@ -27,13 +27,13 @@
     <% if ENV['TWITTER_HANDLE'] %>
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="<%= ENV['TWITTER_HANDLE'] %>" />
-    <meta name="twitter:title" content="<%= ENV['SITE_TITLE'] %>" />
+    <meta name="twitter:title" content="<%= page_title(current_page) %>" />
     <meta name="twitter:image" content="<%= page_image(current_page) %>" />
-    <meta name="twitter:description" content="<%= ENV['SITE_DESCRIPTION'] %>" />
+    <meta name="twitter:description" content="<%= page_description(current_page) %>" />
     <% end %>
 
-    <meta property="og:site_name" content="<%= ENV['SITE_TITLE'] %>" />
-    <meta property="og:description" content="<%= ENV['SITE_DESCRIPTION'] %>" />
+    <meta property="og:site_name" content="<%= page_title(current_page) %>" />
+    <meta property="og:description" content="<%= page_description(current_page) %>" />
     <meta property="og:image" content="<%= page_image(current_page) %>" />
     <meta property="og:type" content="blog" />
 
