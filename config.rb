@@ -50,6 +50,26 @@ helpers do
   def author_string(author)
     Array(author).map { |a| data.authors.fetch(a, {})[:name] }.to_sentence
   end
+
+  def article_as_json(article)
+    author = Array(article.data.author).map do |a|
+      au = data.authors.fetch(a, {})
+      { "given" => au[:given],
+        "family" => au[:family],
+        "orcid" => au[:orcid] }
+    end
+
+    { "url" => ENV['SITE_URL'] + article.url,
+      "author" => author,
+      "title" => article.data.title,
+      "container-title" => ENV['SITE_TITLE'],
+      "issued" => article.data.date.iso8601,
+      "license" => data.site.license.url,
+      "image" => article.data.image.presence,
+      "tags" => article.data.tags,
+      "description" => sanitize(article.summary)
+    }.to_json
+  end
 end
 
 activate :blog do |blog|
