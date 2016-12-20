@@ -918,7 +918,7 @@ references:
   title: Software citation principles
   container-title: PeerJ Computer Science
   publisher: PeerJ
-  URL: https://peerj.com/articles/cs-86/
+  URL: http://doi.org/10.7717/peerj-cs.86
   DOI: 10.7717/peerj-cs.86
 
 - id: https://doi.org/10.5438/0012
@@ -929,8 +929,9 @@ references:
   - year: '2016'
   title: DataCite Metadata Schema for the Publication and Citation of Research Data
     v4.0
-  publisher: DataCite e.V.
+  container-title: DataCite
   URL: https://doi.org/10.5438/0012
+  DOI: doi.org/10.5438/0012
 
 - id: https://doi.org/10.5438/2906
   type: no-type
