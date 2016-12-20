@@ -48,7 +48,6 @@ GEM
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.0.3)
     contracts (0.13.0)
-    crass (1.0.2)
     dotenv (2.1.1)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -149,8 +148,6 @@ GEM
     multipart-post (2.0.0)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
-    nokogumbo (1.4.10)
-      nokogiri
     oj (2.13.1)
     opal (0.10.3)
       hike (~> 1.2)
@@ -175,10 +172,6 @@ GEM
     ruby-enum (0.6.0)
       i18n
     safe_yaml (1.0.4)
-    sanitize (4.4.0)
-      crass (~> 1.0.2)
-      nokogiri (>= 1.4.4)
-      nokogumbo (~> 1.4.1)
     sass (3.4.22)
     servolux (0.12.0)
     sourcemap (0.1.1)
@@ -204,10 +197,8 @@ DEPENDENCIES
   middleman-livereload
   middleman-sprockets (~> 4.1.0)
   middleman-syntax (~> 2.0)
-  nokogiri (~> 1.6.0)
   opal (~> 0.10)
   pandoc-ruby (~> 2.0)
-  sanitize (~> 4.0, >= 4.0.1)
   tilt (~> 2.0)!
   tzinfo-data
   wdm (~> 0.1.0)

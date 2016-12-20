@@ -52,23 +52,46 @@ helpers do
   end
 
   def article_as_json(article)
+    return "" unless article.data.doi.present?
+
+    type = article.data.type.presence || "BlogPosting"
+    url = ENV['SITE_URL'] + article.url
+    id = article.data.doi.present? ? "https:/doi.org/" + article.data.doi : url
+    version = article.data.version.presence || "1.0"
+    license = data.site.license.url || "https://creativecommons.org/licenses/by/4.0/"
+
+    html = article.render({layout: false})
+    summary = Bergamasco::Summarize.summary_from_html(html)
+
     author = Array(article.data.author).map do |a|
       au = data.authors.fetch(a, {})
-      { "given" => au[:given],
-        "family" => au[:family],
-        "orcid" => au[:orcid] }
+      { "@type" => "Person",
+        "@id" => "http://orcid.org/" + au[:orcid],
+        "givenName" => au[:given],
+        "familyName" => au[:family] }
     end
 
-    { "url" => ENV['SITE_URL'] + article.url,
+    { "@context" => "http://schema.org",
+      "@type" => type,
+      "@id" => id,
+      "name" => article.data.title,
+      "url" => url,
       "author" => author,
-      "title" => article.data.title,
-      "container-title" => ENV['SITE_TITLE'],
-      "issued" => article.data.date.iso8601,
+      "publisher" => ENV['SITE_TITLE'],
+      "datePublished" => article.data.date.iso8601,
       "license" => data.site.license.url,
       "image" => article.data.image.presence,
-      "tags" => article.data.tags,
-      "description" => sanitize(article.summary)
+      "keywords" => article.data.tags.join(", "),
+      "version" => version,
+      "description" => summary,
+      "license" => license
     }.to_json
+  end
+
+  def page_image(page)
+    return "/images/datacite.png" if page.nil? || page.data.image.nil?
+
+    page.data.image
   end
 end
 
