@@ -14,7 +14,7 @@ ENV RACK_ENV development
 
 # Update installed APT packages
 RUN apt-get update && apt-get upgrade -y -o Dpkg::Options::="--force-confold" && \
-    apt-get install -y pandoc
+    apt-get install -y pandoc cmake
 
 # Install bundler
 RUN gem install bundler

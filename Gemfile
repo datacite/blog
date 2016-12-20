@@ -20,9 +20,5 @@ gem 'opal', '~> 0.10'
 # For feed.xml.builder
 gem "builder", "~> 3.0"
 
-# For summaries
-gem 'nokogiri', "~> 1.6.0"
-gem 'sanitize', '~> 4.0', '>= 4.0.1'
-
-# For DOI registration
+# For DOI registration and summary
 gem 'cirneco', '~> 0.7'

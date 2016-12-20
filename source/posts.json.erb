@@ -1,18 +1,4 @@
 ---
 layout: null
 ---
-[<% blog.articles.each_with_index do |article, i| %>
-  {
-    "url": "<%= ENV['SITE_URL'] + article.url %>",
-    "author": [<% Array(article.data.author).each_with_index do |a, j| %>
-      { "given": "<%= data.authors.fetch(a, {})[:given] %>",
-        "family": "<%=  data.authors.fetch(a, {})[:family] %>",
-        "orcid": "http://orcid.org/<%=  data.authors.fetch(a, {})[:orcid] %>" }<% if (j + 1) < Array(article.data.author).length %>,<% end %><% end %>],
-    "title": "<%= article.data.title %>",
-    "container-title": "<%= ENV['SITE_TITLE'] %>",
-    "issued": "<%= article.data.date.iso8601 %>",
-    "license": "<%= data.site.license.url %>",
-    "image": "<%= article.data.image %>",
-    "tags": <%= article.data.tags.to_json %>,
-    "description": "<%= sanitize(article.summary) %>"
-  }<% if (i + 1) < blog.articles.length %>,<% end %><% end %>]
+[<%= blog.articles.map { |a| article_as_json(a) }.join(", ") %>]
