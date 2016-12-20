@@ -44,7 +44,7 @@ helpers do
   end
 
   def sanitize(string)
-    Sanitize.fragment(string).strip
+    Sanitize.fragment(string).squish
   end
 
   def author_string(author)
