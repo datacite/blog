@@ -1066,7 +1066,7 @@ references:
   issued:
   - year: '2016'
   title: Cool DOI’s
-  publisher: DataCite Blog
+  container-title: DataCite Blog
   URL: https://doi.org/10.5438/55E5-T5C0
   DOI: 10.5438/55E5-T5C0
 
@@ -1078,7 +1078,7 @@ references:
   issued:
   - year: '2016'
   title: DataCite’s New Membership Model - Join Us!
-  publisher: DataCite Blog
+  container-title: DataCite Blog
   URL: https://doi.org/10.5438/8SZS-1H0H
   DOI: 10.5438/8SZS-1H0H
 
@@ -1092,7 +1092,7 @@ references:
   issued:
   - year: '2016'
   title: Announcing Our New Application Developer
-  publisher: DataCite Blog
+  container-title: DataCite Blog
   URL: https://doi.org/10.5438/Y131-YX9D
   DOI: 10.5438/Y131-YX9D
 
@@ -1104,7 +1104,7 @@ references:
   issued:
   - year: '2016'
   title: Dataverse is now minting DOIs with DataCite Metadata Store API
-  publisher: DataCite Blog
+  container-title: DataCite Blog
   URL: https://doi.org/10.5438/BMMQ-YCE9
   DOI: 10.5438/BMMQ-YCE9
 
@@ -1116,7 +1116,7 @@ references:
   issued:
   - year: '2016'
   title: We were out in Force
-  publisher: DataCite Blog
+  container-title: DataCite Blog
   URL: https://doi.org/10.5438/C3BY-VYZS
   DOI: 10.5438/C3BY-VYZS
 
@@ -1145,7 +1145,7 @@ references:
   issued:
   - year: '2016'
   title: 'Thor: Conceptual Model Of Persistent Identifier Linking'
-  publisher: Zenodo
+  container-title: Zenodo
   URL: https://doi.org/10.5281/zenodo.48705
   DOI: 10.5281/zenodo.48705
 
@@ -1171,7 +1171,7 @@ references:
   - year: '2016'
   title: Demonstration Of Services To Integrate Orcids Into Data Records And Database
     Systems
-  publisher: Zenodo
+  container-title: Zenodo
   URL: https://doi.org/10.5281/zenodo.58971
   DOI: 10.5281/zenodo.58971
 
@@ -1186,7 +1186,7 @@ references:
   - year: '2016'
   title: Analysis And Comparison Of Persistent Identifier Use And Integration Across
     Disciplines And Sectors
-  publisher: Zenodo
+  container-title: Zenodo
   URL: https://doi.org/10.5281/zenodo.154592
   DOI: 10.5281/zenodo.154592
 ...
