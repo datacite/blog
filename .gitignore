@@ -1,9 +1,14 @@
-_site/*
-.sass-cache
+# Ignore bundler config
+/.bundle
+
+# Ignore the build directory
+/build
+
+# Ignore cache
+/.sass-cache
+/.cache
+
+# Ignore .DS_store file
 .DS_Store
-.Rhistory
-_frontend/node_modules/*
-_frontend/bower_components/*
-assets/bootstrap-sass
-assets/jquery
-assets/fitvids
+
+.env
