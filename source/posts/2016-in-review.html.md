@@ -44,7 +44,7 @@ The [THOR project](https://project-thor.eu) has produced a large variety of outp
 
 ### Our community
 
-The progress we made this year wouldn't have been possible without our community! [DataCite's members](https://www.datacite.org/members.html) are the backbone of DataCite; they move the organisation forward and increase our reach. From our new [Steering Groups](https://www.datacite.org/steering.html), our fantastic [Metadata Working Group](https://groups.google.com/forum/#!forum/datacite-metadata) (and its new baby, the Metadata Schema 4.0 [-@https://doi.org/10.5438/0012], the [re3data.org](http://re3data.org) Working Group and to all that support DataCite's mission, we would like to send you a big thank you and wish you all the best for 2017!
+The progress we made this year wouldn't have been possible without our community! [DataCite's members](https://www.datacite.org/members.html) are the backbone of DataCite; they move the organisation forward and increase our reach. From our new [Steering Groups](https://www.datacite.org/steering.html), our fantastic [Metadata Working Group](https://groups.google.com/forum/#!forum/datacite-metadata) (and its new baby, the Metadata Schema 4.0 [-@https://doi.org/10.5438/0012]), the [re3data.org](http://re3data.org) Working Group and to all that support DataCite's mission, we would like to send you a big thank you and wish you all the best for 2017!
 
 ![](/images/2016/12/year2.png)
 
