@@ -12,7 +12,7 @@ published: true
 ---
 I was pleased to present at [IDCC16](http://www.dcc.ac.uk/events/idcc16) on a research paper called _The location of the citation: Changing practices in how publications cite original data in the Dryad Digital Repository_ (see preprint: Mayo et al, [-@http://doi.org/10.5281/zenodo.32412]).
 
-Recently, organizations including CrossRef and the Digital Curation Center (DCC) have recommended as a best practice that original data citations appear in the works cited sections of the article. We wondered: has data citation practice been changing in light of this guidance, and are there any visible trends over time?
+Recently, organizations including CrossRef and the Digital Curation Center (DCC) have recommended as a best practice that original data citations appear in the works cited sections of the article. We wondered: has data citation practice been changing in light of this guidance, and are there any visible trends over time?READMORE
 
 To explore this, we examined 1,125 journal articles published from 2011-2014 with associated data in the [Dryad](http://datadryad.org) data repository. Dryad receives their DOIs from EZID, a DataCite member. We retrieved the article full text via the [EuropePMC Open Access API](http://europepmc.org/ftpsite), searched for the Dryad DOI, and classified the hits as:
 

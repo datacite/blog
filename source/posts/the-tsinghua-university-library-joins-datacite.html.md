@@ -8,7 +8,7 @@ tags:
 doi: 10.5438/ESYS-F867
 published: true
 ---
-DataCite is delighted to welcome the [Tsinghua University Library](http://www.lib.tsinghua.edu.cn/english/) to the DataCite community! The Tsinghua University Library supports the University's mission of education and research. It engages with the ongoing environment to deliver world-class physical and digital content and services critical to research, education, and outreach, contributes to discover, preserve, and disseminate knowledge and creative expression worldwide.
+DataCite is delighted to welcome the [Tsinghua University Library](http://www.lib.tsinghua.edu.cn/english/) to the DataCite community! The Tsinghua University Library supports the University's mission of education and research. It engages with the ongoing environment to deliver world-class physical and digital content and services critical to research, education, and outreach, contributes to discover, preserve, and disseminate knowledge and creative expression worldwide.READMORE
 
 The Tsinghua University Library has a long history of innovation and service. It was established in 1912, just one year after the university was built. During the last century, it has gone through multiple restructuring processes, changing focuses and amassing an amazing collection of almost 5 million items.
 

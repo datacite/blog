@@ -10,7 +10,7 @@ published: true
 ---
 This week some of us from DataCite are attending [CSVconf](http://csvconf.com/) in Berlin, and we are a conference sponsor and co-organizer.
 
-> csv,conf is a non-profit community conference run by some folks who really love data and sharing knowledge. If you are as passionate about data and the application it has to society as us then you should join us in Berlin!
+> csv,conf is a non-profit community conference run by some folks who really love data and sharing knowledge. If you are as passionate about data and the application it has to society as us then you should join us in Berlin!READMORE
 
 One important reason we are at CSVconf is that providing persistent identifiers and starndard metadata for research data, which in most cases are stored in tabular data formats such as CSV, is central to what DataCite is doing. And while DataCite provides a searchable index of metadata for these datasets, getting the metadata into the index is not as frictionless as one would hope.
 

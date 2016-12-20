@@ -8,7 +8,7 @@ tags:
 doi: 10.5438/C81T-HKVP
 published: true
 ---
-In late February, twenty-four of DataCite’s twenty-seven members gathered in Amsterdam for our annual Strategy Meeting and General Assembly. DataCite members are the voting body of the organisation and work directly with data centers and the data sharing community. The focus of the meeting was evaluating how DataCite can continue to provide quality services and meet the continuously changing needs of the research community. DataCite thanks all of our members for contributing to a successful of the meeting.
+In late February, twenty-four of DataCite’s twenty-seven members gathered in Amsterdam for our annual Strategy Meeting and General Assembly. DataCite members are the voting body of the organisation and work directly with data centers and the data sharing community. The focus of the meeting was evaluating how DataCite can continue to provide quality services and meet the continuously changing needs of the research community. DataCite thanks all of our members for contributing to a successful of the meeting.READMORE
 
 ![](/images/2016/03/ga.jpg)
 

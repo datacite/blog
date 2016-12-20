@@ -12,7 +12,7 @@ published: true
 ---
 *The following is a guest post by Daniel S. Katz, cross-posted from his [blog](https://danielskatzblog.wordpress.com/2016/04/17/to-better-understand-research-communication-we-need-a-groid-group-object-identifier/).*
 
-After a number of general discussions in the research communication community, mostly focused on software citation, and then a few separate discussions with Anita Bandrowski and Martin Fenner, it’s become clear to me that we need something like a group (perhaps hierarchical) object identifier (GROID), which is somewhat different than a DOI, or at least different than how DOIs are commonly used today. I’m thus trying to document some uses cases and their associated requirements, with the hope that this will be interesting to others who might want to discuss what we can do to address the use cases.
+After a number of general discussions in the research communication community, mostly focused on software citation, and then a few separate discussions with Anita Bandrowski and Martin Fenner, it’s become clear to me that we need something like a group (perhaps hierarchical) object identifier (GROID), which is somewhat different than a DOI, or at least different than how DOIs are commonly used today. I’m thus trying to document some uses cases and their associated requirements, with the hope that this will be interesting to others who might want to discuss what we can do to address the use cases.READMORE
 
 Some uses cases are:
 

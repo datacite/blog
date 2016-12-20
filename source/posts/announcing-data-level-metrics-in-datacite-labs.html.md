@@ -8,7 +8,7 @@ tags:
 doi: 10.5438/JZG5-VCQV
 published: true
 ---
-Last week Jennifer Lin shared information on the **Making Data Count** (MDC) project [on this blog](/when-counting-is-hard/). MDC is a project funded by the U.S. National Science Foundation (NSF) to design and develop metrics that track and measure data use – **data-level metrics** (DLM).
+Last week Jennifer Lin shared information on the **Making Data Count** (MDC) project [on this blog](/when-counting-is-hard/). MDC is a project funded by the U.S. National Science Foundation (NSF) to design and develop metrics that track and measure data use – **data-level metrics** (DLM).READMORE
 
 Funding for the 12 month project ends October 1st, with a no-cost extension until March 1st. MDC is a research project and has delivered some interesting questions and important results. One open question is whether and how to turn MDC research into a service that is not limited to the grant-funding period and possibly includes other datasets beyond those from the [DataONE repository network](https://www.dataone.org/current-member-nodes). These important decisions require analysis and feedback from the broader community.
 

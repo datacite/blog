@@ -8,7 +8,7 @@ tags:
 doi: 10.5438/9JWD-TN3A
 published: true
 ---
-DataCite is pleased to welcome USGS to the DataCite community. USGS is one of the largest government scientific agencies in the world and was created by an act of the US Congress over 125 years ago. With vast holdings in Earth and biological data, USGS is leading the way with research into ecosystems, climate and land use change, energy and mineral assessments, environmental health, natural hazards, and water resources.
+DataCite is pleased to welcome USGS to the DataCite community. USGS is one of the largest government scientific agencies in the world and was created by an act of the US Congress over 125 years ago. With vast holdings in Earth and biological data, USGS is leading the way with research into ecosystems, climate and land use change, energy and mineral assessments, environmental health, natural hazards, and water resources.READMORE
 
 ![[https://data.usgs.gov/datarelease/](https://data.usgs.gov/datarelease/)](/images/2016/10/usgs.png)
 

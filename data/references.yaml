@@ -1057,4 +1057,136 @@ references:
   title: 'Hypertext Style: Cool URIs don’t change.'
   title-short: Hypertext Style
   URL: https://www.w3.org/Provider/Style/URI
+
+- id: https://doi.org/10.5438/55E5-T5C0
+  type: article-journal
+  author:
+  - family: Fenner
+    given: Martin
+  issued:
+  - year: '2016'
+  title: Cool DOI’s
+  publisher: DataCite Blog
+  URL: https://doi.org/10.5438/55E5-T5C0
+  DOI: 10.5438/55E5-T5C0
+
+- id: https://doi.org/10.5438/8SZS-1H0H
+  type: no-type
+  author:
+  - family: Cruse
+    given: Patricia
+  issued:
+  - year: '2016'
+  title: DataCite’s New Membership Model - Join Us!
+  publisher: DataCite Blog
+  URL: https://doi.org/10.5438/8SZS-1H0H
+  DOI: 10.5438/8SZS-1H0H
+
+- id: https://doi.org/10.5438/Y131-YX9D
+  type: article-journal
+  author:
+  - family: Fenner
+    given: Martin
+  - family: Garza
+    given: Kristian
+  issued:
+  - year: '2016'
+  title: Announcing Our New Application Developer
+  publisher: DataCite Blog
+  URL: https://doi.org/10.5438/Y131-YX9D
+  DOI: 10.5438/Y131-YX9D
+
+- id: https://doi.org/10.5438/BMMQ-YCE9
+  type: article-journal
+  author:
+  - family: Castro
+    given: Eleni
+  issued:
+  - year: '2016'
+  title: Dataverse is now minting DOIs with DataCite Metadata Store API
+  publisher: DataCite Blog
+  URL: https://doi.org/10.5438/BMMQ-YCE9
+  DOI: 10.5438/BMMQ-YCE9
+
+- id: https://doi.org/10.5438/C3BY-VYZS
+  type: article-journal
+  author:
+  - family: Fenner
+    given: Martin
+  issued:
+  - year: '2016'
+  title: We were out in Force
+  publisher: DataCite Blog
+  URL: https://doi.org/10.5438/C3BY-VYZS
+  DOI: 10.5438/C3BY-VYZS
+
+- id: https://doi.org/10.5281/zenodo.48705
+  type: article-journal
+  author:
+  - family: Fenner
+    given: Martin
+  - family: Demeranville
+    given: Tom
+  - family: Kotarski
+    given: Rachael
+  - family: Dasler
+    given: Robin
+  - family: McEntyre
+    given: Johanna
+  - family: Mello
+    given: Guilherme
+    dropping-particle: de
+  - family: Vision
+    given: Todd
+  - family: Dappert
+    given: Angela
+  - family: Farquhar
+    given: Adam
+  issued:
+  - year: '2016'
+  title: 'Thor: Conceptual Model Of Persistent Identifier Linking'
+  publisher: Zenodo
+  URL: https://doi.org/10.5281/zenodo.48705
+  DOI: 10.5281/zenodo.48705
+
+- id: https://doi.org/10.5281/zenodo.58971
+  type: article-journal
+  author:
+  - family: Mello
+    given: Guilherme
+    dropping-particle: de
+  - family: Graef
+    given: Florian
+  - family: Stocker
+    given: Markus
+  - family: Schindler
+    given: Uwe
+  - family: Dasler
+    given: Robin
+  - family: McEntyre
+    given: Johanna
+  - family: Dallmeier-Tiessen
+    given: Sünje
+  issued:
+  - year: '2016'
+  title: Demonstration Of Services To Integrate Orcids Into Data Records And Database
+    Systems
+  publisher: Zenodo
+  URL: https://doi.org/10.5281/zenodo.58971
+  DOI: 10.5281/zenodo.58971
+
+- id: https://doi.org/10.5281/zenodo.154592
+  type: article-journal
+  author:
+  - family: Dallmeier-Tiessen
+    given: Sünje
+  - family: Dasler
+    given: Robin
+  issued:
+  - year: '2016'
+  title: Analysis And Comparison Of Persistent Identifier Use And Integration Across
+    Disciplines And Sectors
+  publisher: Zenodo
+  URL: https://doi.org/10.5281/zenodo.154592
+  DOI: 10.5281/zenodo.154592
 ...

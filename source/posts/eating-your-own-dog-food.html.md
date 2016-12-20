@@ -25,7 +25,7 @@ The simplicity is particularly important here, as registering the DOIs and metad
 
 ### Generating DOIs
 
-The DOIs for this blog are generated automatically, using a modified base32 encoding algorithm that is provided by Cirneco, as [discussed last week](https://doi.org/10.5438/55E5-T5C0). The DOI is minted when a new post is pushed to [https://blog.datacite.org](https://blog.datacite.org), and all DOIs are short, without semantic infomation that might change over time, and with a checksum to minimize transcription errors, for example [https://doi.org/10.5438/XCBJ-G7ZY](https://doi.org/10.5438/XCBJ-G7ZY).
+The DOIs for this blog are generated automatically, using a modified base32 encoding algorithm that is provided by Cirneco, as discussed last week [@https://doi.org/10.5438/55E5-T5C0]. The DOI is minted when a new post is pushed to [https://blog.datacite.org](https://blog.datacite.org), and all DOIs are short, without semantic infomation that might change over time, and with a checksum to minimize transcription errors, for example **https://doi.org/10.5438/XCBJ-G7ZY**.
 
 ### Generating Metadata
 

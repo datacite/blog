@@ -8,7 +8,7 @@ tags:
 doi: 10.5438/GA8V-FA94
 published: true
 ---
-Recently I was at a conference and a fellow conference-goer saw on my name badge that that I worked for DataCite and they stepped back and said, “*Wow, DataCite must be a very exciting place to be right now.*” I agree.  It is very exciting and I am thrilled to be DataCite’s new Executive Director.
+Recently I was at a conference and a fellow conference-goer saw on my name badge that that I worked for DataCite and they stepped back and said, “*Wow, DataCite must be a very exciting place to be right now.*” I agree.  It is very exciting and I am thrilled to be DataCite’s new Executive Director.READMORE
 
 Over the past year DataCite has seen an enormous uptake in the use of our services. Yesterday, I looked at our stats and 34% of all of DataCite’s DOIs have been registered in 2015 -- 2.229.016 DOIs just this year with a total of 6.494.634 DOIs since 2009 – and we still have two months to go in 2015.  Cleary the use of DataCite DOIs are resonating with the nearly 650 data centers that get their DOIs from DataCite.
 

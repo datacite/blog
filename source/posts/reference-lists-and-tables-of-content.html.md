@@ -11,7 +11,7 @@ published: true
 [Geoff Bilder](https://twitter.com/gbilder) from CrossRef likes to show the following slide at scholarly conferences, and then asks the audience what they see:
 ![](/images/2015/08/article-1.png)
 
-Most of us probably immediately recognize this document as a scholarly article. This immediate recognition includes essential parts of an article such as the title - or the reference list:
+Most of us probably immediately recognize this document as a scholarly article. This immediate recognition includes essential parts of an article such as the title - or the reference list:READMORE
 
 ![](/images/2015/08/article2-1.png)
 

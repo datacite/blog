@@ -10,7 +10,7 @@ published: true
 ---
 We are happy to announce a new feature that enables users to more easily suggest corrections and enhancements of information about research data repositories registered in re3data.org.
 
-Below every re3data.org record you can find the feature “submit a change request”. Clicking this button brings you to a form where you can submit changes to the repository’s registry record along with your private, optional comments and contact information:
+Below every re3data.org record you can find the feature “submit a change request”. Clicking this button brings you to a form where you can submit changes to the repository’s registry record along with your private, optional comments and contact information:READMORE
 
 ![Change request form of the DRYAD re3data.org record](http://www.re3data.org/wp-content/uploads/2016/02/Enhancements-to-creating-and-updating-the-registry.png)
 

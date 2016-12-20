@@ -12,7 +12,7 @@ image: https://blog.datacite.org/images/2016/11/london_institute.jpg
 doi: 10.5438/TNHX-54CG
 published: true
 ---
-The scholarly research community has come to depend on a series of open identifier and metadata infrastructure systems to great success.  Content identifiers (through DataCite and Crossref) and contributor identifiers (through ORCID) have become foundational infrastructure for the community. But there is one piece of the infrastructure that is missing -- there currently is no open, stakeholder-governed infrastructure for organization identifiers and associated metadata.
+The scholarly research community has come to depend on a series of open identifier and metadata infrastructure systems to great success.  Content identifiers (through DataCite and Crossref) and contributor identifiers (through ORCID) have become foundational infrastructure for the community. But there is one piece of the infrastructure that is missing -- there currently is no open, stakeholder-governed infrastructure for organization identifiers and associated metadata.READMORE
 
 ![The London Institution. Source: [Wikipedia](https://de.wikipedia.org/wiki/Datei:London_Institution_at_the_Finsbury_Circus.jpg)](/images/2016/11/london_institute.jpg)
 

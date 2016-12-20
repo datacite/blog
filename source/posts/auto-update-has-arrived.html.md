@@ -12,7 +12,7 @@ published: true
 ---
 *This post has been cross-posted from the [ORCID blog](http://orcid.org/blog/2015/10/26/auto-update-has-arrived-orcid-records-move-next-level). We will follow up with a blog post later this week explaining the DataCite auto-update implementation.*
 
-Since ORCID’s inception, our key goal has been to unambiguously identify researchers and provide tools to automate the connection between researchers and their creative works. We are taking a big step towards achieving this goal today, with the launch of [Auto-Update](http://orcid.org/blog/2014/11/21/new-functionality-friday-auto-update-your-orcid-record) functionality in collaboration with [Crossref](http://www.crossref.org/) and [DataCite](https://www.datacite.org/).
+Since ORCID’s inception, our key goal has been to unambiguously identify researchers and provide tools to automate the connection between researchers and their creative works. We are taking a big step towards achieving this goal today, with the launch of [Auto-Update](http://orcid.org/blog/2014/11/21/new-functionality-friday-auto-update-your-orcid-record) functionality in collaboration with [Crossref](http://www.crossref.org/) and [DataCite](https://www.datacite.org/).READMORE
 
 There’s already been a lot of excitement about Auto-Update: [Crossref’s recent announcement](http://crosstech.crossref.org/2015/09/orcid-auto-update.html) about the imminent launch generated a flurry of discussion and celebration on social media. Our own [tweet](https://twitter.com/ORCID_Org/status/647020600192581633) on the topic was viewed over 10,500 times and retweeted by 60 other accounts.
 

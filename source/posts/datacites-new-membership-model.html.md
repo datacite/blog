@@ -5,12 +5,11 @@ author: tcruse
 date: 2016-10-05
 tags:
 - datacite
-- featured
 image: https://blog.datacite.org/images/2016/10/join.png
 doi: 10.5438/8SZS-1H0H
 published: true
 ---
-It has been a busy few months at DataCite, but we want to share some important information about changes to DataCite's membership model. Earlier this year DataCite members voted to revise our membership model and open membership up to any organization that shares our data sharing mission. Previously DataCite limited membership to non-profit organizations.
+It has been a busy few months at DataCite, but we want to share some important information about changes to DataCite's membership model. Earlier this year DataCite members voted to revise our membership model and open membership up to any organization that shares our data sharing mission. Previously DataCite limited membership to non-profit organizations.READMORE
 
 We invite members from all types of organizations – including data centers, publishers, libraries, and funders – to join our global network committed to supporting data sharing through partnership, advocacy, and by developing tools and services that accelerate data sharing, use, and reuse. Together, we will be at the forefront of helping to transform scholarship and the role of research data in our society.
 

@@ -9,7 +9,7 @@ tags:
 doi: 10.5438/C61Q-Z2K7
 published: true
 ---
-Three years ago today Open Researcher & Contributor ID ([ORCID](http://orcid.org)) launched its service at the Outreach Meeting in Berlin. One of many tweets from the launch day:
+Three years ago today Open Researcher & Contributor ID ([ORCID](http://orcid.org)) launched its service at the Outreach Meeting in Berlin.READMORE One of many tweets from the launch day:
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Congrats to <a href="https://twitter.com/ORCID_Org">@orcid_org</a> the ORCID registry is live (<a href="http://t.co/2lxn0nLa">http://t.co/2lxn0nLa</a>) NPG is a proud launch partner (PR): <a href="http://t.co/9eiqe44x">http://t.co/9eiqe44x</a></p>&mdash; Nature Publishing Gp (@npgnews) <a href="https://twitter.com/npgnews/status/258256101676564480">October 16, 2012</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

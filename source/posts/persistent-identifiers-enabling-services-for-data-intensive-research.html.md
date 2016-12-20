@@ -9,7 +9,7 @@ tags:
 doi: 10.5438/JM9F-325F
 published: true
 ---
-Yesterday DataCite and [ePIC](http://www.pidconsortium.eu/) co-hosted the workshop [Persistent Identifiers: Enabling Services for Data Intensive Research](http://www.eventbrite.com/e/persistent-identifiers-enabling-services-for-data-intensive-research-tickets-17500184523). Below is a short summary of the tweets, all using the hashtag [#pid_paris](https://twitter.com/hashtag/pid_paris?src=hash).
+Yesterday DataCite and [ePIC](http://www.pidconsortium.eu/) co-hosted the workshop [Persistent Identifiers: Enabling Services for Data Intensive Research](http://www.eventbrite.com/e/persistent-identifiers-enabling-services-for-data-intensive-research-tickets-17500184523). Below is a short summary of the tweets, all using the hashtag [#pid_paris](https://twitter.com/hashtag/pid_paris?src=hash).READMORE
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Full room to discuss Persistent Identifiers for Data Intensive Research <a href="https://twitter.com/hashtag/pid_paris?src=hash">#pid_paris</a> <a href="http://t.co/FVQLx8hYoP">pic.twitter.com/FVQLx8hYoP</a></p>&mdash; DataCite (@datacite) <a href="https://twitter.com/datacite/status/645921435593125888">September 21, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
