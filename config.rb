@@ -60,8 +60,7 @@ helpers do
     version = article.data.version.presence || "1.0"
     license = data.site.license.url || "https://creativecommons.org/licenses/by/4.0/"
 
-    html = article.render({layout: false})
-    summary = Bergamasco::Summarize.summary_from_html(html)
+
 
     author = Array(article.data.author).map do |a|
       au = data.authors.fetch(a, {})
@@ -83,15 +82,28 @@ helpers do
       "image" => article.data.image.presence,
       "keywords" => article.data.tags.join(", "),
       "version" => version,
-      "description" => summary,
+      "description" => page_description(article),
       "license" => license
     }.to_json
+  end
+
+  def page_title(page)
+    return ENV['SITE_TITLE'] if page.nil? || page.data.doi.nil?
+
+    page.data.title
   end
 
   def page_image(page)
     return "/images/datacite.png" if page.nil? || page.data.image.nil?
 
     page.data.image
+  end
+
+  def page_description(page)
+    return ENV['SITE_DESCRIPTION'] if page.nil? || page.data.doi.nil?
+
+    html = page.render({layout: false})
+    Bergamasco::Summarize.summary_from_html(html)
   end
 end
 
