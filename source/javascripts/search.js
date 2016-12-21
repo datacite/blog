@@ -26,7 +26,7 @@ if (query_url) {
 
       json.meta["page"] = page;
       json.meta["total_pages"] = Math.ceil(json.meta.total/25);
-      paginate(json, "#content");
+      paginate(json, "#pager");
   });
 }
 
@@ -55,57 +55,57 @@ function searchResult(json) {
       .text(numberWithDelimiter(json.meta.total) + " Posts");
   }
 
-  for (var i=0; i<data.length; i++) {
-    var post = data[i];
-    post["url"] = post.id.replace(/https:\/\/blog.datacite.org/, site_url);
+  for (var i=0; i<data.length; i+=2) {
+    var row = data.slice(i,i+2);
 
-    d3.select("#content").insert("div")
-      .attr("class", "panel panel-default post-list")
-      .attr("id", "panel-" + i).insert("div")
-      .attr("class", "panel-body post-content")
-      .attr("id", "panel-body-" + i);
+    for (var j=0; j<row.length; j++) {
+      var column_tag = (j == 0 ? "#left-col" : "#right-col");
+      var k = i + j;
+      var post = data[k];
 
-    d3.select("#panel-body-" + i).append("header")
-      .attr("class", "post-header")
-      .append("h3")
-      .attr("class", "work")
-      .append("a")
-      .attr("href", function() { return post.url; })
-      .text(post.attributes.title);
-    d3.select("#panel-body-" + i).append("section")
-      .attr("class", "post-excerpt")
-      .attr("itemprop", "description").insert("p")
-      .html(post.attributes.description);
+      post["url"] = post.id.replace(/https:\/\/blog.datacite.org/, site_url);
 
-    d3.select("#panel-" + i).insert("div")
-      .attr("class", "panel-footer")
-      .attr("id", "panel-footer-" + i).append("span")
-      .attr("class", "meta").append("time")
-      .attr("datetime", post.attributes.issued)
-      .text(formattedDate(post.attributes.issued.substring(0, 10)));
+      d3.select(column_tag).insert("div")
+        .attr("class", "panel panel-default post-list")
+        .attr("id", "panel-" + k).insert("div")
+        .attr("class", "panel-body post-content")
+        .attr("id", "panel-body-" + k);
 
-    d3.select("#panel-footer-" + i).insert("span")
-      .attr("class", "meta")
-      .text(formattedAuthorList(post.attributes.author));
-
-    d3.select("#panel-footer-" + i).insert("a")
-      .attr("href", function() { return post.url + "#disqus_thread"; })
-      .text("0 comments");
-
-    var t = post.attributes.tags;
-    if (typeof t !== "undefined" && t.length > 0)  {
-      d3.select("#panel-footer-" + i).insert("span")
-        .attr("class", "tags pull-right").append("i")
-        .attr("class", "fa fa-tags");
-      for (var j=0; j<t.length; j++) {
-        d3.select("#panel-footer-" + i + " .tags").append("a")
-          .attr("href", function() { return "/index.html?tag=" + t[j]; })
-          .text((j + 1 < t.length) ? t[j] + "," : t[j]);
+      if (post.attributes["image-url"] !== null) {
+        d3.select("#panel-body-" + k).append("img")
+          .attr("src", function() { return post.attributes["image-url"]; });
       }
+
+      d3.select("#panel-body-" + k).append("header")
+        .attr("class", "post-header")
+        .append("h3")
+        .attr("class", "work")
+        .append("a")
+        .attr("href", function() { return post.url; })
+        .text(post.attributes.title);
+      d3.select("#panel-body-" + k).append("div")
+        .attr("class", "author")
+        .html(formattedAuthorList(post.attributes.author));
+      d3.select("#panel-body-" + k).append("section")
+        .attr("class", "post-excerpt")
+        .attr("itemprop", "description").insert("p")
+        .html(post.attributes.description);
+
+      d3.select("#panel-" + k).insert("div")
+        .attr("class", "panel-footer")
+        .attr("id", "panel-footer-" + k).append("span")
+        .attr("class", "meta").append("time")
+        .attr("datetime", post.attributes.issued)
+        .text(formattedDate(post.attributes.issued.substring(0, 10)));
+
+      d3.select("#panel-footer-" + k).insert("a")
+        .attr("href", function() { return post.url + "#disqus_thread"; })
+        .attr("class", "pull-right")
+        .text("0 comments");
     }
   }
 
-  // convert tags object to array for sorting
+  // convert tags meta object to array for sorting
   tags = Object.keys(meta.tags);
 
   if (typeof tags !== "undefined" && tags.length > 0) {
