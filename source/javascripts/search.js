@@ -67,15 +67,18 @@ function searchResult(json) {
       post["url"] = post.id.replace(/https:\/\/blog.datacite.org/, site_url);
 
       d3.select(column_tag).insert("div")
-        .attr("class", "panel panel-default post-list")
-        .attr("id", "panel-" + k).insert("div")
-        .attr("class", "panel-body post-content")
-        .attr("id", "panel-body-" + k);
+        .attr("class", "panel panel-default")
+        .attr("id", "panel-" + k);
 
       if (post.attributes["image-url"] !== null) {
-        d3.select("#panel-body-" + k).append("img")
+        d3.select("#panel-" + k).insert("div")
+          .attr("class", "panel-header post-content").insert("img")
           .attr("src", function() { return post.attributes["image-url"]; });
       }
+
+      d3.select("#panel-" + k).insert("div")
+        .attr("class", "panel-body post-content")
+        .attr("id", "panel-body-" + k);
 
       d3.select("#panel-body-" + k).append("header")
         .attr("class", "post-header")
@@ -103,7 +106,7 @@ function searchResult(json) {
         .attr("href", function() { return post.attributes.url + "#disqus_thread"; })
         .attr("data-disqus-identifier", post.id)
         .attr("class", "pull-right")
-        .text("0 comments");
+        .html('<i class="fa fa-comments"/>');
     }
   }
 
