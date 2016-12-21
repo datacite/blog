@@ -50,7 +50,13 @@
       </script>
     <% end %>
 
-    <% if current_page.url != "/" -%>
+    <% if current_page.url == "/" -%>
+      <% blog.articles.each do |article| %>
+        <script type="application/ld+json">
+          <%= article_as_json(article) %>
+        </script>
+      <% end %>
+    <% else %>
       <script type="application/ld+json">
         <%= article_as_json(current_page) %>
       </script>

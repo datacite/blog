@@ -60,8 +60,6 @@ helpers do
     version = article.data.version.presence || "1.0"
     license = data.site.license.url || "https://creativecommons.org/licenses/by/4.0/"
 
-
-
     author = Array(article.data.author).map do |a|
       au = data.authors.fetch(a, {})
       { "@type" => "Person",
@@ -78,7 +76,6 @@ helpers do
       "author" => author,
       "publisher" => ENV['SITE_TITLE'],
       "datePublished" => article.data.date.iso8601,
-      "license" => data.site.license.url,
       "image" => article.data.image.presence,
       "keywords" => article.data.tags.join(", "),
       "version" => version,
