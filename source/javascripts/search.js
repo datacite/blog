@@ -8,11 +8,12 @@ if (!params.empty()) {
   var search_url = params.attr('data-search-url');
   var page = getParameterByName('page');
   if (page === null) { page = 1; }
-  var offset = 25 * (page - 1);
+  var per_page = 10;
+  var offset = per_page * (page - 1);
   var query = getParameterByName('query');
   var tag = getParameterByName('tag');
 
-  var query_url = encodeURI(search_url + "/pages?offset=" + offset);
+  var query_url = encodeURI(search_url + "/pages?rows=" + per_page + "&offset=" + offset);
   if (query !== null) { query_url += "&query=" + query; }
   if (tag !== null) { query_url += "&tag=" + tag; }
 }
@@ -25,7 +26,7 @@ if (query_url) {
       searchResult(json);
 
       json.meta["page"] = page;
-      json.meta["total_pages"] = Math.ceil(json.meta.total/25);
+      json.meta["total_pages"] = Math.ceil(json.meta.total/per_page);
       paginate(json, "#pager");
   });
 }
@@ -66,15 +67,18 @@ function searchResult(json) {
       post["url"] = post.id.replace(/https:\/\/blog.datacite.org/, site_url);
 
       d3.select(column_tag).insert("div")
-        .attr("class", "panel panel-default post-list")
-        .attr("id", "panel-" + k).insert("div")
-        .attr("class", "panel-body post-content")
-        .attr("id", "panel-body-" + k);
+        .attr("class", "panel panel-default")
+        .attr("id", "panel-" + k);
 
       if (post.attributes["image-url"] !== null) {
-        d3.select("#panel-body-" + k).append("img")
+        d3.select("#panel-" + k).insert("div")
+          .attr("class", "panel-header post-content").insert("img")
           .attr("src", function() { return post.attributes["image-url"]; });
       }
+
+      d3.select("#panel-" + k).insert("div")
+        .attr("class", "panel-body post-content")
+        .attr("id", "panel-body-" + k);
 
       d3.select("#panel-body-" + k).append("header")
         .attr("class", "post-header")
@@ -99,9 +103,10 @@ function searchResult(json) {
         .text(formattedDate(post.attributes.issued.substring(0, 10)));
 
       d3.select("#panel-footer-" + k).insert("a")
-        .attr("href", function() { return post.url + "#disqus_thread"; })
+        .attr("href", function() { return post.attributes.url + "#disqus_thread"; })
+        .attr("data-disqus-identifier", post.id)
         .attr("class", "pull-right")
-        .text("0 comments");
+        .html('<i class="fa fa-comments"/>');
     }
   }
 
