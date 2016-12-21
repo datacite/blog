@@ -56,7 +56,7 @@ helpers do
 
     type = article.data.type.presence || "BlogPosting"
     url = ENV['SITE_URL'] + article.url
-    id = article.data.doi.present? ? "https:/doi.org/" + article.data.doi : url
+    id = article.data.doi.present? ? "https://doi.org/" + article.data.doi : url
     version = article.data.version.presence || "1.0"
     license = data.site.license.url || "https://creativecommons.org/licenses/by/4.0/"
 
