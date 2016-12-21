@@ -100,7 +100,7 @@ function searchResult(json) {
         .text(formattedDate(post.attributes.issued.substring(0, 10)));
 
       d3.select("#panel-footer-" + k).insert("a")
-        .attr("href", function() { return post.url + "#disqus_thread"; })
+        .attr("href", function() { return post.attributes.url + "#disqus_thread"; })
         .attr("data-disqus-identifier", post.id)
         .attr("class", "pull-right")
         .text("0 comments");
