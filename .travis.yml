@@ -40,18 +40,6 @@ before_script:
 script:
   - bundle exec middleman build -e $RACK_ENV
 
-after_success:
-  - git config --global user.email "${GIT_EMAIL}"
-  - git config --global user.name "${GIT_NAME}"
-  - git config --global push.default simple
-
-  - git remote add upstream https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
-  - git add source/posts/.
-  - if ! [ -z "$(git status --untracked-files=no --porcelain)" ]; then
-      git commit -m 'Committing files changed by cirneco [skip ci]';
-      git push upstream HEAD:$TRAVIS_BRANCH;
-    fi
-
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
@@ -66,5 +54,17 @@ deploy:
     all_branches: true
 
 notifications:
-  slack: datacite:Wt8En0ALoTA6Kjc5EOKNDWxN
+  slack: $SLACK_TOKEN
   email: false
+
+after_deploy:
+  - git config --global user.email "${GIT_EMAIL}"
+  - git config --global user.name "${GIT_NAME}"
+  - git config --global push.default simple
+  - git remote add upstream https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
+
+  - git add source/posts/.
+  - if ! [ -z "$(git status --untracked-files=no --porcelain)" ]; then
+      git commit -m 'Committing files changed by cirneco [skip ci]';
+      git push upstream HEAD:$TRAVIS_BRANCH;
+    fi
