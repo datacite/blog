@@ -1190,4 +1190,352 @@ references:
   container-title: Zenodo
   URL: https://doi.org/10.5281/zenodo.154592
   DOI: 10.5281/zenodo.154592
+
+- id: https://doi.org/10.1002/2015JE004895
+  type: article-journal
+  author:
+  - family: El-Maarry
+    given: M. R.
+  - family: Watters
+    given: W. A.
+  - family: Yoldi
+    given: Z.
+  - family: Pommerol
+    given: A.
+  - family: Fischer
+    given: D.
+  - family: Eggenberger
+    given: U.
+  - family: Thomas
+    given: N.
+  issued:
+  - year: '2015'
+  title: Field investigation of dried lakes in western United States as an analogue
+    to desiccation fractures on Mars
+  container-title: 'Journal of Geophysical Research: Planets'
+  page: 2015JE004895
+  volume: '120'
+  issue: '12'
+  URL: http://onlinelibrary.wiley.com/doi/10.1002/2015JE004895/abstract
+  DOI: 10.1002/2015JE004895
+  ISSN: '2169-9100'
+
+- id: /10.1016/j.bpj.2015.04.023
+  type: article-journal
+  author:
+  - family: Rambo
+    given: Robert P.
+  - family: Tainer
+    given: John A.
+  issued:
+  - year: '2015'
+  title: Modeling Macromolecular Motions by X-Ray-Scattering-Constrained Molecular
+    Dynamics
+  container-title: Biophysical Journal
+  page: '2421-2423'
+  volume: '108'
+  issue: '10'
+  URL: http://www.cell.com/biophysj/abstract/S0006-3495(15)00404-X
+  DOI: 10.1016/j.bpj.2015.04.023
+  ISSN: '0006-3495'
+
+- id: https://doi.org/10.5194/esurfd-2-1005-2014
+  type: article-journal
+  author:
+  - family: Lorenz
+    given: R. D.
+  - family: Norris
+    given: J. M.
+  - family: Jackson
+    given: B. K.
+  - family: Norris
+    given: R. D.
+  - family: Chadbourne
+    given: J. W.
+  - family: Ray
+    given: J.
+  issued:
+  - year: '2014'
+  title: Trhttps://doi.orgail formation by ice-shoved “sailing stones” observed at
+    Racetrack Playa, Death Valley National Park
+  container-title: Earth Surface Dynamics Discussions
+  page: '1005-1022'
+  volume: '2'
+  issue: '2'
+  URL: http://www.earth-surf-dynam-discuss.net/esurf-2014-32/
+  DOI: 10.5194/esurfd-2-1005-2014
+  ISSN: '2196-6311'
+
+- id: https://doi.org/10.3398/064.075.0213
+  type: article-journal
+  author:
+  - family: Baumgardner
+    given: George D.
+  - family: Shaffer
+    given: Brian S.
+  issued:
+  - year: '2015'
+  title: 'Sliding Bones: Movement of Skeletal Material Over Smith Creek Playa in
+    Nevada and Its Taphonomic and Paleontologic Implications'
+  title-short: Sliding Bones
+  container-title: Western North American Naturalist
+  page: '236-243'
+  volume: '75'
+  issue: '2'
+  URL: http://www.bioone.org/doi/10.3398/064.075.0213
+  DOI: 10.3398/064.075.0213
+  ISSN: '1527-0904'
+
+- id: https://doi.org/10.1016/j.aeolia.2015.08.001
+  type: article-journal
+  author:
+  - family: Jones
+    given: Ronald
+  - family: Hooke
+    given: Roger LeB.
+  issued:
+  - year: '2015'
+  title: 'Racetrack Playa: Rocks moved by wind alone'
+  title-short: Racetrack Playa
+  container-title: Aeolian Research
+  page: '1-3'
+  volume: 19, Part A
+  URL: http://www.sciencedirect.com/science/article/pii/S1875963715000713
+  DOI: 10.1016/j.aeolia.2015.08.001
+  ISSN: '1875-9637'
+
+- id: https://doi.org/10.1016/j.aeolia.2016.01.003
+  type: article-journal
+  author:
+  - family: Sanz-Montero
+    given: M. E.
+  - family: Cabestrero
+    given: Ó.
+  - family: Rodríguez-Aranda
+    given: J. P.
+  issued:
+  - year: '2016'
+  title: 'Comments on Racetrack playa: Rocks moved by wind alone'
+  container-title: Aeolian Research
+  page: '196-197'
+  volume: '20'
+  URL: http://www.sciencedirect.com/science/article/pii/S1875963715300197
+  DOI: 10.1016/j.aeolia.2016.01.003
+  ISSN: '1875-9637'
+
+- id: https://doi.org/10.1002/esp.3677
+  type: article-journal
+  author:
+  - family: Sanz-Montero
+    given: M. E.
+  - family: Cabestrero
+    given: Ó.
+  - family: Rodríguez-Aranda
+    given: J. P.
+  issued:
+  - year: '2015'
+  title: Sedimentary effects of flood-producing windstorms in playa lakes and their
+    role in the movement of large rocks
+  container-title: Earth Surface Processes and Landforms
+  page: '864-875'
+  volume: '40'
+  issue: '7'
+  URL: http://onlinelibrary.wiley.com/doi/10.1002/esp.3677/abstract
+  DOI: 10.1002/esp.3677
+  ISSN: '1096-9837'
+
+- id: https://doi.org/10.4172/2381-8719.1000256
+  type: article-journal
+  author:
+  - family: Schoenemann
+    given: Brigitte
+  issued:
+  - year: '2016'
+  title: A Miniscule System of a ‘Sailing Rock’
+  container-title: Journal of Geology & Geophysics
+  page: '256'
+  volume: '5'
+  URL: http://www.omicsgroup.org/journals/a-miniscule-system-of-a-sailing-rock-2381-8719-1000256.php?aid=79791
+  DOI: 10.4172/2381-8719.1000256
+  ISSN: '2381-8719'
+
+- id: https://doi.org/10.1016/j.jas.2015.02.009
+  type: article-journal
+  author:
+  - family: Grayson
+    given: Donald K.
+  - family: Meltzer
+    given: David J.
+  issued:
+  - year: '2015'
+  title: Revisiting Paleoindian exploitation of extinct North American mammals
+  container-title: Journal of Archaeological Science
+  page: '177-193'
+  volume: '56'
+  URL: http://www.sciencedirect.com/science/article/pii/S0305440315000473
+  DOI: 10.1016/j.jas.2015.02.009
+  ISSN: '0305-4403'
+
+- id: https://doi.org/10.1007/s12209-016-2596-z
+  type: article-journal
+  author:
+  - family: Li
+    given: Mingchao
+  - family: Zhou
+    given: Sibao
+  - family: Wang
+    given: Gang
+  issued:
+  - year: '2016'
+  title: 3D identification and stability analysis of key surface blocks of rock slope
+  container-title: Transactions of Tianjin University
+  page: '317-323'
+  volume: '22'
+  issue: '4'
+  URL: http://link.springer.com/article/10.1007/s12209-016-2596-z
+  DOI: 10.1007/s12209-016-2596-z
+  ISSN: 1006-4982, 1995-8196
+
+- id: http://hdl.handle.net/10536/DRO/DU:30088291
+  type: article-journal
+  author:
+  - family: Hannigan
+    given: Shelley
+  - family: Raphael
+    given: Jo-Anne
+  - family: White
+    given: Peta
+  - family: Bragg
+    given: Leicha
+  - family: Cripps Clark
+    given: John
+  issued:
+  - year: '2016'
+  title: Collaborative reflective experience and practice in education explored through
+    self-study and arts-based research
+  container-title: Creative approaches to research
+  page: '84-110'
+  volume: '9'
+  issue: '1'
+  URL: http://hdl.handle.net/10536/DRO/DU:30088291
+  ISSN: '1835-9442'
+
+- id: https://arxiv.org/abs/1501.04916
+  type: article-journal
+  author:
+  - family: Asorey
+    given: H.
+  - family: Nunez
+    given: L. A.
+  - family: Sarmiento-Cano
+    given: C.
+  issued:
+  - year: '2015'
+  title: Exposicion Temprana de Nativos Digitales en Ambientes, Metodologias y Tecnicas
+    de Investigacion en la Universidad
+  container-title: arXiv \[physics\]
+  note: 'arXiv: 1501.04916'
+  URL: https://arxiv.org/abs/1501.04916
+
+- id: https://doi.org/10.1371/journal.pone.0105948
+  type: article-journal
+  author:
+  - family: Norris
+    given: Richard D.
+  - family: Norris
+    given: James M.
+  - family: Lorenz
+    given: Ralph D.
+  - family: Ray
+    given: Jib
+  - family: Jackson
+    given: Brian
+  issued:
+  - year: '2014'
+  title: 'Sliding Rocks on Racetrack Playa, Death Valley National Park: First Observation
+    of Rocks in Motion'
+  title-short: Sliding Rocks on Racetrack Playa, Death Valley National Park
+  container-title: PLOS ONE
+  page: 'e105948'
+  volume: '9'
+  issue: '8'
+  URL: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0105948
+  DOI: 10.1371/journal.pone.0105948
+  ISSN: '1932-6203'
+
+- id: https://doi.org/10.1016/j.tree.2010.11.006
+  type: article-journal
+  author:
+  - family: Whitlock
+    given: Michael C.
+  issued:
+  - year: '2011'
+  title: 'Data archiving in ecology and evolution: best practices'
+  title-short: Data archiving in ecology and evolution
+  container-title: Trends in Ecology & Evolution
+  page: '61-65'
+  volume: '26'
+  issue: '2'
+  URL: http://www.sciencedirect.com/science/article/pii/S0169534710002697
+  DOI: 10.1016/j.tree.2010.11.006
+  ISSN: '0169-5347'
+
+- id: https://doi.org/10.1371/journal.pbio.1001687
+  type: article-journal
+  author:
+  - family: Fenner
+    given: Martin
+  issued:
+  - year: '2013'
+  title: What Can Article-Level Metrics Do for You?
+  container-title: PLOS Biology
+  page: 'e1001687'
+  volume: '11'
+  issue: '10'
+  URL: http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001687
+  DOI: 10.1371/journal.pbio.1001687
+  ISSN: '1545-7885'
+
+- id: https://www.ncbi.nlm.nih.gov/books/NBK7256
+  type: book
+  author:
+  - family: Patrias
+    given: Karen
+  issued:
+  - year: '2015'
+  title: Citing Medicine
+  publisher: National Library of Medicine (US)
+  edition: 2nd
+  URL: https://www.ncbi.nlm.nih.gov/books/NBK7256/
+
+- id: https://doi.org/10.1371/journal.pone.0134826
+  type: article-journal
+  author:
+  - family: Tenopir
+    given: Carol
+  - family: Dalton
+    given: Elizabeth D.
+  - family: Allard
+    given: Suzie
+  - family: Frame
+    given: Mike
+  - family: Pjesivac
+    given: Ivanka
+  - family: Birch
+    given: Ben
+  - family: Pollock
+    given: Danielle
+  - family: Dorsett
+    given: Kristina
+  issued:
+  - year: '2015'
+  title: Changes in Data Sharing and Data Reuse Practices and Perceptions among Scientists
+    Worldwide
+  container-title: PLOS ONE
+  page: 'e0134826'
+  volume: '10'
+  issue: '8'
+  URL: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134826
+  DOI: 10.1371/journal.pone.0134826
+  ISSN: '1932-6203'
 ...
