@@ -60,6 +60,7 @@ helpers do
     version = article.data.version.presence || "1.0"
     keywords = article.data.tags.present? ? article.data.tags.join(", ") : nil
     license = data.site.license.url || "https://creativecommons.org/licenses/by/4.0/"
+    publisher = ENV['SITE_PUBLISHER']
 
     author = Array(article.data.author).map do |a|
       au = data.authors.fetch(a, {})
@@ -86,7 +87,7 @@ helpers do
       "name" => article.data.title,
       "url" => url,
       "author" => author,
-      "publisher" => ENV['SITE_TITLE'],
+      "publisher" => publisher,
       "datePublished" => article.data.date.iso8601,
       "keywords" => keywords,
       "version" => version,
