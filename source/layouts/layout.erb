@@ -7,8 +7,12 @@
     <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title><%= ENV['SITE_TITLE'] %></title>
-    <meta name="description" content="<%= ENV['SITE_DESCRIPTION'] %>" />
+    <% title = page_title(current_page) %>
+    <% description = page_description(current_page) %>
+    <% image = page_image(current_page) %>
+
+    <title><%= title %></title>
+    <meta name="description" content="<%= description %>" />
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
@@ -16,7 +20,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <!-- DublinCore Metadata -->
-    <meta property="dc:title" content="<%= page_title(current_page) %>" />
+    <meta property="dc:title" content="<%= title %>" />
     <meta property="dc:format" content="text/html" />
     <meta property="dc:language" content="en" />
     <meta property="dc:rights" content="CC-BY" />
@@ -27,14 +31,14 @@
     <% if ENV['TWITTER_HANDLE'] %>
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="<%= ENV['TWITTER_HANDLE'] %>" />
-    <meta name="twitter:title" content="<%= page_title(current_page) %>" />
-    <meta name="twitter:image" content="<%= page_image(current_page) %>" />
-    <meta name="twitter:description" content="<%= page_description(current_page) %>" />
+    <meta name="twitter:title" content="<%= title %>" />
+    <meta name="twitter:image" content="<%= image %>" />
+    <meta name="twitter:description" content="<%= description %>" />
     <% end %>
 
-    <meta property="og:site_name" content="<%= page_title(current_page) %>" />
-    <meta property="og:description" content="<%= page_description(current_page) %>" />
-    <meta property="og:image" content="<%= page_image(current_page) %>" />
+    <meta property="og:site_name" content="<%= title %>" />
+    <meta property="og:description" content="<%= description %>" />
+    <meta property="og:image" content="<%= image %>" />
     <meta property="og:type" content="blog" />
 
     <link href="//fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
