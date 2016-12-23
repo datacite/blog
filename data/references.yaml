@@ -1220,7 +1220,7 @@ references:
   DOI: 10.1002/2015JE004895
   ISSN: '2169-9100'
 
-- id: /10.1016/j.bpj.2015.04.023
+- id: https://doi.org/10.1016/j.bpj.2015.04.023
   type: article-journal
   author:
   - family: Rambo
