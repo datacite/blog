@@ -55,11 +55,9 @@
       </script>
     <% end %>
 
-    <% if current_page.url != "/" -%>
-      <script type="application/ld+json">
-        <%= article_as_json(current_page) %>
-      </script>
-    <% end %>
+    <script type="application/ld+json">
+      <%= article_as_json(current_page) %>
+    </script>
   </head>
   <body>
     <%= partial "includes/header.html.erb" %>
