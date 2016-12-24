@@ -1,9 +1,13 @@
+datacite:
+  name: DataCite
+  type: Organization
+
 mfenner:
   name: Martin Fenner
   given: Martin
   family: Fenner
   bio: DataCite Technical Director
-  orcid: 0000-0003-1419-2405
+  orcid: http://orcid.org/0000-0003-1419-2405
   email: mfenner@datacite.org
   image_url: https://www.gravatar.com/avatar/434592a097e91261792ebd6b492042bc?s=250&d=mm&r=x
   twitter: mfenner
@@ -14,7 +18,7 @@ lrueda:
   given: Laura
   family: Rueda
   bio: DataCite Communications Director
-  orcid: 0000-0001-5952-7630
+  orcid: http://orcid.org/0000-0001-5952-7630
   email: laura.rueda@datacite.org
   image_url: /images/lrueda.jpg
 
@@ -23,7 +27,7 @@ tcruse:
   given: Patricia
   family: Cruse
   bio: DataCite Executive Director
-  orcid: 0000-0002-9300-5278
+  orcid: http://orcid.org/0000-0002-9300-5278
   email: patricia.cruse@datacite.org
   image_url: /images/cruse.jpg
 
@@ -32,7 +36,7 @@ kgarza:
   given: Kristian
   family: Garza
   bio: DataCite Application Developer
-  orcid: 0000-0003-3484-6875
+  orcid: http://orcid.org/0000-0003-3484-6875
   email: kgarza@datacite.org
   image_url: /images/kristian.png
 
@@ -43,7 +47,7 @@ jlin:
   bio: CrossRef Director of Product Management
   email: jlin@crossref.org
   twitter: jenniferlin15
-  orcid: 0000-0002-9680-2328
+  orcid: http://orcid.org/0000-0002-9680-2328
   image_url: /images/jlin.jpg
 
 mwitt:
@@ -51,7 +55,7 @@ mwitt:
   given: Michael
   family: Witt
   bio: "Head of the Distributed Data Curation Center, Purdue University"
-  orcid: 0000-0003-4221-7956
+  orcid: http://orcid.org/0000-0003-4221-7956
   image_url: /images/mwitt.jpg
 
 hpampel:
@@ -59,7 +63,7 @@ hpampel:
   given: Heinz
   family: Pampel
   bio: "#OpenAccess: http://oa.helmholtz.de , e-Infrastructures for #OpenScience: http://re3data.org , Innovations in Scholarly Communication: http://wisspub.net"
-  orcid: 0000-0003-3334-2771
+  orcid: http://orcid.org/0000-0003-3334-2771
   email: heinz.pampel@gfz-potsdam.de
   twitter: pampel
   image_url: /images/hpampel.jpeg
@@ -69,7 +73,7 @@ ehull:
   given: Elizabeth
   family: Hull
   bio: "Operations Manager at Dryad"
-  orcid: 0000-0002-8661-6265
+  orcid: http://orcid.org/0000-0002-8661-6265
   email: ehull@datadryad.org
   twitter: datadryad
   image_url: /images/ehull.jpg
@@ -79,7 +83,7 @@ ecastro:
   given: Eleni
   family: Castro
   bio: "Research Coordinator, Data Curation and Outreach at IQSS, Harvard University"
-  orcid: 0000-0001-9767-8536
+  orcid: http://orcid.org/0000-0001-9767-8536
   email: ecastro@fas.harvard.edu
   twitter: dataverseorg
   image_url: /images/ecastro.png
@@ -89,7 +93,7 @@ danielskatz:
   given: Daniel S.
   family: Katz
   bio: "Assistant Director for Scientific Software and Applications at NCSA, Research Associate Professor in ECE and GSLIS at the University of Illinois Urbana-Champaign"
-  orcid: 0000-0001-5934-7525
+  orcid: http://orcid.org/0000-0001-5934-7525
   twitter: danielskatz
   image_url: https://secure.gravatar.com/avatar/3f59e90625547fce79de3e9c0d46867d
 
@@ -98,6 +102,6 @@ larsjuhljensen:
   given: Lars Juhl
   family: Jensen
   bio: "Research professor at the Novo Nordisk Foundation Center for Protein Research in Copenhagen where he heads a disease systems biology group."
-  orcid: 0000-0001-7885-715X
+  orcid: http://orcid.org/0000-0001-7885-715X
   twitter: larsjuhljensen
   image_url: /images/larsjuhljensen.jpg

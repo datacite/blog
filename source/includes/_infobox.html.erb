@@ -7,7 +7,7 @@
         <% end %>
         <h4><%= data.authors.fetch(a, {})[:name] %></h4>
         <p class="bio"><%= data.authors.fetch(a, {})[:bio] %></p>
-        <p class="orcid"><%= link_to "http://orcid.org/" + data.authors.fetch(a, {})[:orcid], "http://orcid.org/" + data.authors.fetch(a, {})[:orcid] %></p>
+        <p class="orcid"><%= link_to data.authors.fetch(a, {})[:orcid], data.authors.fetch(a, {})[:orcid] %></p>
         <div class="clearfix"></div>
       <% end %>
       <h4><%= current_page.data.title %></h4>
