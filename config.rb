@@ -102,9 +102,15 @@ helpers do
         "@id" => data.site.url,
         "name" => data.site.title }
       has_part = nil
+      encoding = {
+        "@type" => "MediaObject",
+        "@id" => data.site.source_url + "/master/source/" + article.path + ".md",
+        "fileFormat" => "text/markdown"
+      }
     else
       description = data.site.description
       is_part_of = nil
+      encoding = nil
       has_part = blog.articles.map do |a|
         url = data.site.url + a.url
         id = a.data.doi.present? ? "https://doi.org/" + a.data.doi : url
@@ -140,6 +146,7 @@ helpers do
       "description" => description,
       "license" => license,
       "image" => article.data.image.presence,
+      "encoding" => encoding,
       "isPartOf" => is_part_of,
       "hasPart" => has_part,
       "citation" => citation.presence
