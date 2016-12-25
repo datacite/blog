@@ -64,7 +64,11 @@ function searchResult(json) {
       var k = i + j;
       var post = data[k];
 
-      post["url"] = post.id.replace(/https:\/\/blog.datacite.org/, site_url);
+      if (site_url == "https://blog.datacite.org") {
+        url = post.id
+      } else {
+        url = post.attributes.url.replace(/https:\/\/blog.datacite.org/, site_url);
+      }
 
       d3.select(column_tag).insert("div")
         .attr("class", "panel panel-default")
@@ -85,7 +89,7 @@ function searchResult(json) {
         .append("h3")
         .attr("class", "work")
         .append("a")
-        .attr("href", function() { return post.url; })
+        .attr("href", function() { return url; })
         .text(post.attributes.title);
       d3.select("#panel-body-" + k).append("div")
         .attr("class", "author")

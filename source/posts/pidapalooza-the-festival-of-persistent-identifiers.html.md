@@ -6,6 +6,7 @@ date: 2016-09-01
 tags:
 - datacite
 - pidapalooza
+location: Reykjavik, Iceland
 image: https://blog.datacite.org/images/2016/09/crowd.png
 doi: 10.5438/PRF0-NRXQ
 published: true

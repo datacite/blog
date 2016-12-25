@@ -5,6 +5,7 @@ author: tcruse
 date: 2015-10-04
 tags:
 - rda
+location: Paris, France
 doi: 10.5438/85SN-MX23
 published: true
 ---
