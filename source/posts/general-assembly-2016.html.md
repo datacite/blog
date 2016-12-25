@@ -5,6 +5,7 @@ author: tcruse
 date: 2016-03-31
 tags:
 - datacite
+location: Amsterdam, Netherlands
 doi: 10.5438/C81T-HKVP
 published: true
 ---

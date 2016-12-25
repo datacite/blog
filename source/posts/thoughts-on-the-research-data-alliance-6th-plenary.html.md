@@ -6,6 +6,7 @@ date: 2015-10-01
 tags:
 - thor
 - rda
+location: Paris, France
 doi: 10.5438/7RXD-S8A3
 published: true
 ---
