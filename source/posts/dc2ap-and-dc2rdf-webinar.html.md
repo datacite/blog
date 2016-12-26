@@ -5,6 +5,8 @@ author: lrueda
 date: 2016-04-26
 tags:
 - dublin core
+doi: 10.5438/KKJ4-19RN
+published: false
 ---
 As we have [talked about before](https://blog.datacite.org/datacite-to-dublin-core-application-profile), the DataCite Metadata Working Group has prepared a DataCite to Dublin Core application profile (DC2AP) and an ontology (DC2RDF) and is currently running a public review to become a DCMI Community Specification.READMORE
 

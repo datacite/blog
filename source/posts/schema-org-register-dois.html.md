@@ -7,6 +7,8 @@ tags:
 - doi
 - schema.org
 image: https://blog.datacite.org/images/2016/12/schema-org.png
+doi: 10.5438/B4VW-P94S
+published: false
 ---
 Last week we started assigning DOIs to every post on this blog [@https://doi.org/10.5438/4K3M-NYVG]. The process we implemented uses a new command line utility and integrates well with the publishing workflow we use.
 
