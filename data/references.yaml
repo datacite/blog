@@ -671,7 +671,7 @@ references:
   - year: '2014'
   title: DataCite Metadata Schema for the Publication and Citation of Research Data
     v3.1
-  publisher: DataCite e.V.
+  publisher: DataCite
   URL: http://doi.org/10.5438/0010
 
 - id: http://doi.org/10.5281/ZENODO.49516
@@ -902,7 +902,7 @@ references:
   URL: http://doi.org/10.1145/2783446.2783605
   DOI: 10.1145/2783446.2783605
 
-- id: http://doi.org/10.7717/peerj-cs.86
+- id: https://doi.org/10.7717/peerj-cs.86
   type: article-journal
   author:
   - family: Smith
@@ -918,7 +918,7 @@ references:
   title: Software citation principles
   container-title: PeerJ Computer Science
   publisher: PeerJ
-  URL: http://doi.org/10.7717/peerj-cs.86
+  URL: https://doi.org/10.7717/peerj-cs.86
   DOI: 10.7717/peerj-cs.86
 
 - id: https://doi.org/10.5438/0012
@@ -1067,7 +1067,7 @@ references:
   issued:
   - year: '2016'
   title: Cool DOI’s
-  container-title: DataCite Blog
+  container-title: DataCite
   URL: https://doi.org/10.5438/55E5-T5C0
   DOI: 10.5438/55E5-T5C0
 
@@ -1079,7 +1079,7 @@ references:
   issued:
   - year: '2016'
   title: DataCite’s New Membership Model - Join Us!
-  container-title: DataCite Blog
+  container-title: DataCite
   URL: https://doi.org/10.5438/8SZS-1H0H
   DOI: 10.5438/8SZS-1H0H
 
@@ -1093,7 +1093,7 @@ references:
   issued:
   - year: '2016'
   title: Announcing Our New Application Developer
-  container-title: DataCite Blog
+  container-title: DataCite
   URL: https://doi.org/10.5438/Y131-YX9D
   DOI: 10.5438/Y131-YX9D
 
@@ -1105,7 +1105,7 @@ references:
   issued:
   - year: '2016'
   title: Dataverse is now minting DOIs with DataCite Metadata Store API
-  container-title: DataCite Blog
+  container-title: DataCite
   URL: https://doi.org/10.5438/BMMQ-YCE9
   DOI: 10.5438/BMMQ-YCE9
 
@@ -1117,7 +1117,7 @@ references:
   issued:
   - year: '2016'
   title: We were out in Force
-  container-title: DataCite Blog
+  container-title: DataCite
   URL: https://doi.org/10.5438/C3BY-VYZS
   DOI: 10.5438/C3BY-VYZS
 
@@ -1538,4 +1538,57 @@ references:
   URL: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134826
   DOI: 10.1371/journal.pone.0134826
   ISSN: '1932-6203'
+
+- id: https://doi.org/10.5438/4K3M-NYVG
+  type: no-type
+  author:
+  - family: Fenner
+    given: Martin
+  issued:
+  - year: '2016'
+  title: Eating your own Dog Food
+  publisher: DataCite
+  URL: https://doi.org/10.5438/4K3M-NYVG
+  DOI: 10.5438/4K3M-NYVG
+
+- id: http://dublincore.org/documents/2012/06/14/dces
+  type: no-type
+  issued:
+  - year: '2012'
+  title: Dublin Core Metadata Element Set, Version 1.1
+  URL: http://dublincore.org/documents/2012/06/14/dces/
+
+- id: https://doi.org/10.15497/RDA00016
+  type: no-type
+  author:
+  - family: Rauber
+    given: Andreas
+  - family: Asmi
+    given: Ari
+  - family: Uytvanck
+    given: Dieter
+    dropping-particle: van
+  - family: Proell
+    given: Stefan
+  issued:
+  - year: '2016'
+  title: 'Data Citation of Evolving Data: Recommendations of the RDA Working Group
+    on Data Citation (WGDC)'
+  publisher: Research Data Alliance
+  URL: https://doi.org/10.15497/RDA00016
+  DOI: 10.15497/RDA00016
+
+- id: https://doi.org/10.5334/jors.by
+  type: article-journal
+  author:
+  - family: Katz
+    given: Dan S.
+  - family: Smith
+    given: Arfon M.
+  issued:
+  - year: '2015'
+  container-title: Journal of Open Research Software
+  publisher: Ubiquity Press, Ltd.
+  URL: https://doi.org/10.5334/jors.by
+  DOI: 10.5334/jors.by
 ...
