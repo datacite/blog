@@ -8,11 +8,13 @@ before_install:
   - set -e
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
       AWS_BUCKET="blog.datacite.org";
+      ARCHIVE_BUCKET="archive.datacite.org";
       RACK_ENV="production";
       CIRNECO_OPTS="";
       cp .env.master .env;
     elif [ "$TRAVIS_BRANCH" == "labs" ]; then
       AWS_BUCKET="blog.labs.datacite.org";
+      ARCHIVE_BUCKET="archive.labs.datacite.org";
       RACK_ENV="stage";
       CIRNECO_OPTS="";
       cp .env.labs .env;
@@ -41,17 +43,29 @@ script:
   - bundle exec middleman build -e $RACK_ENV
 
 deploy:
-  provider: s3
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
-  bucket: $AWS_BUCKET
-  region: eu-west-1
-  skip_cleanup: true
-  local_dir: build
-  acl: public_read
-  cache_control: "max-age=31536000"
-  on:
-    all_branches: true
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY
+    secret_access_key: $AWS_SECRET_KEY
+    bucket: $AWS_BUCKET
+    region: eu-west-1
+    skip_cleanup: true
+    local_dir: build
+    acl: public_read
+    cache_control: "max-age=31536000"
+    on:
+      all_branches: true
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY
+    secret_access_key: $AWS_SECRET_KEY
+    bucket: $ARCHIVE_BUCKET
+    region: eu-west-1
+    skip_cleanup: true
+    local_dir: source/posts
+    upload-dir: blog
+    acl: public_read
+    cache_control: "max-age=31536000"
+    on:
+      all_branches: true
 
 notifications:
   slack: $SLACK_TOKEN

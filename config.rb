@@ -104,7 +104,7 @@ helpers do
       has_part = nil
       encoding = {
         "@type" => "MediaObject",
-        "@id" => data.site.source_url + "/master/source/" + article.path + ".md",
+        "@id" => (ENV['SITE_ARCHIVE_URL'] || data.site.archive_url) + "/" + File.basename(article.path, '.html.md') + ".md",
         "fileFormat" => "text/markdown"
       }
     else
