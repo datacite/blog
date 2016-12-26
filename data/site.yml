@@ -3,7 +3,7 @@ title: DataCite Blog
 description: The DataCite blog.
 publisher: DataCite
 source_url: https://github.com/datacite/blog
-archive_url: https://archive.datacite.org/blog
+archive_url: https://raw.githubusercontent.com/datacite/blog/master
 search_url: https://api.datacite.org
 default_type: BlogPosting
 institution: DataCite
