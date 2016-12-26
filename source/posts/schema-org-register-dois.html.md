@@ -7,10 +7,8 @@ tags:
 - doi
 - schema.org
 image: https://blog.datacite.org/images/2016/12/schema-org.png
-doi: 10.5438/14TN-546T
-published: true
 ---
-Last week we started assigning DOIs to every post on this blog [@https://doi.org/10.5438/4K3M-NYVG]. The process we implemented uses a new command line utility and integrates well with the publishing workflow we use for this blog.
+Last week we started assigning DOIs to every post on this blog [@https://doi.org/10.5438/4K3M-NYVG]. The process we implemented uses a new command line utility and integrates well with the publishing workflow we use.
 
 Unfortunately the same workflow can only be applied to a small number of science blogs.READMORE Most science blogs
 

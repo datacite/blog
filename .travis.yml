@@ -10,13 +10,13 @@ before_install:
       AWS_BUCKET="blog.datacite.org";
       ARCHIVE_BUCKET="archive.datacite.org";
       RACK_ENV="production";
-      CIRNECO_OPTS="";
+      $CIRNECO_CMD="mint";
       cp .env.master .env;
     elif [ "$TRAVIS_BRANCH" == "labs" ]; then
       AWS_BUCKET="blog.labs.datacite.org";
       ARCHIVE_BUCKET="archive.labs.datacite.org";
       RACK_ENV="stage";
-      CIRNECO_OPTS="";
+      $CIRNECO_CMD="mint_and_hide";
       cp .env.labs .env;
     else
       exit 1;
@@ -37,7 +37,7 @@ before_script:
   - cd vendor && npm install
   - cd ..
 
-  - bundle exec cirneco doi mint source/posts $CIRNECO_OPTS;
+  - bundle exec cirneco doi $CIRNECO_CMD source/posts;
 
 script:
   - bundle exec middleman build -e $RACK_ENV
