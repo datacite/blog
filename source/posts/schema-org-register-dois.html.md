@@ -12,7 +12,7 @@ published: true
 ---
 Last week we started assigning DOIs to every post on this blog [@https://doi.org/10.5438/4K3M-NYVG]. The process we implemented uses a new command line utility and integrates well with the publishing workflow we use for this blog.
 
-Unfortunately only a small number of science blogs are in a similar situation.READMORE Most science blogs
+Unfortunately the same workflow can only be applied to a small number of science blogs.READMORE Most science blogs
 
 * are written by a single person (often a scientist) with no easy access to register DOIs
 * use common blogging platforms such as Wordpress or Blogger rather than a static site generator
@@ -119,7 +119,7 @@ The above workflow should facilitate DOI registration for science blog posts com
 
 The reason is that science blogs are just one example for a pattern that we see frequently, and have discussed in various contexts in 2016: the separation of content creation from DOI registration.
 
-* **Dynamic data citation**. The RDA Data Citation working recommends [@https://doi.org/10.15497/RDA00016] that a PID should be assigned when a unique query is used in a data citation. The above workflow significantly reduces the effort for the data center in generating metadata for that PID.
+* **Dynamic data citation**. The RDA Data Citation working recommends [@https://doi.org/10.15497/RDA00016] that a PID should be assigned when a unique query is used in a data citation. The above workflow reduces the effort for the data center in generating metadata for that PID by shifting some of the work to DataCite.
 
 * **Fragment identifiers**. There are many use cases for citing a specific fragment of a larger document, e.g. a segment in a video, or a paragraph in a text document. Rather than creating endless numbers of DOIs that will never be used, or using [template handles](https://www.doi.org/doi_handbook/5_Applications.html#5.8) which don't work well with DOIs (more on that another time), we can create a DOI whenever someone wants to cite the fragment.
 
@@ -129,8 +129,8 @@ The reason is that science blogs are just one example for a pattern that we see 
 
 ### Next steps
 
-The generation of DOIs for the DataCite blog is a nice use case for the above workflow, since the authors of the blog and the data center are both DataCite. We would be interested in working with science blogs that are managed by an organization that is also a DataCite data center, and is for example using Wordpress for their blog.
+The generation of DOIs for the DataCite blog is a nice use case for the above workflow, since the authors of the blog and the data center are both DataCite, and because schema.org metadata are a natural fit for a blog. We would be interested in working with science blogs that are managed by an organization that is also a DataCite data center, and is for example using Wordpress for their blog.
 
-One of the issues we need to solve is the timing of minting the DOI and associated metadata. We want to avoid DOI-like strings that are not registered as DOIs, but we also want to avoid a delay in obtaining a DOI once a blog post has been published. For the DataCite blog it makes sense to mint a DOI when we put a draft blog post on our staging server – meaning the post will be published eventually – and update the metadata (e.g. blog post url) when the post goes to our blog production server.
+One of the issues we need to solve is the timing of minting the DOI and associated metadata. We want to avoid DOI-like strings that are not registered as DOIs, but we also want to avoid a delay in obtaining a DOI once a blog post has been published. For the DataCite blog it makes sense to mint a DOI when we put a draft blog post on our staging server – meaning the post will be published eventually – and update the metadata (e.g. the blog post url) when the post goes to our production server.
 
 ### References
