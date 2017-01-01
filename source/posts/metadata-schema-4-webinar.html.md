@@ -8,6 +8,7 @@ tags:
 image: https://blog.datacite.org/images/2016/07/schema_featured.jpg
 doi: 10.5438/X4JQ-EGT5
 published: true
+accession_number: MS-312-9237-3530
 ---
 On June 30th, 2016, DataCite organised a webinar to introduce the community to the new version of its metadata schema developed by DataCite’s Metadata Working Group.  and support the different integrators interested in migrating to the new schema.READMORE
 

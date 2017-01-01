@@ -8,6 +8,7 @@ tags:
 - zotero
 doi: 10.5438/Q2GH-6EGD
 published: true
+accession_number: MS-247-8051-1696
 ---
 On May 17, 2016, DataCite continued our monthly webinar series with Sebastian Karcher, Associate Director of the [Qualitative Data Repository](https://qdr.syr.edu/) (QDR) at Syracuse University, presenting on Zotero for data repositories.  Sebastian is an expert in scholarly referencing and citation workflows and has been a longtime contributor to the Citation Style Language as well as Zotero, the open source reference management software.READMORE
 

@@ -7,6 +7,7 @@ tags:
 - doi
 doi: 10.5438/SS2R-9CNS
 published: true
+accession_number: MS-276-8529-9605
 ---
 At DataCite we are incredibly proud of supporting Open Science. Over the past several years, DataCite DOIs have been assigned to millions of research datasets. All of these DOIs are an important step towards making data a first-class citizen in scholarly research -- they all deserve a round of applause, but some deserve to be highlighted.READMORE
 

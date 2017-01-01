@@ -9,6 +9,7 @@ tags:
 location: Paris, France
 doi: 10.5438/7RXD-S8A3
 published: true
+accession_number: MS-83-5235-9690
 ---
 The [Research Data Alliance 6th Plenary](https://rd-alliance.org/plenary-meetings/rda-sixth-plenary-meeting.html) last week discussed numerous topics very relevant to DataCite. Below is a short subjective list of topics I found interesting. If you attended RDA, feel free to add your thoughts in the comments. And if you didn't attend, you can still provide feedback.READMORE
 

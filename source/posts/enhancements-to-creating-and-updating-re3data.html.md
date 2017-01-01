@@ -7,6 +7,7 @@ tags:
 - re3data
 doi: 10.5438/6GEP-3S5E
 published: true
+accession_number: MS-69-9472-6693
 ---
 We are happy to announce a new feature that enables users to more easily suggest corrections and enhancements of information about research data repositories registered in re3data.org.
 

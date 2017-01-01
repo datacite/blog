@@ -7,6 +7,7 @@ tags:
 - csv
 doi: 10.5438/4QX3-RP8Y
 published: true
+accession_number: MS-50-9725-1528
 ---
 This week some of us from DataCite are attending [CSVconf](http://csvconf.com/) in Berlin, and we are a conference sponsor and co-organizer.
 
