@@ -21,4 +21,4 @@ gem 'opal', '~> 0.10'
 gem "builder", "~> 3.0"
 
 # For DOI registration and summary
-gem 'cirneco', '~> 0.7'
+gem 'cirneco', '~> 0.8'
