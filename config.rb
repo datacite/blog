@@ -105,12 +105,12 @@ helpers do
       if article.data.doi.present?
         xmlname = article.data.doi.split('/', 2).last + ".xml"
       else
-        xmlname = File.basename(article.path, '.html.md') + ".xml"
+        xmlname = File.basename(article.path, '.html') + ".xml"
       end
 
       encoding = {
         "@type" => "MediaObject",
-        "@id" => data.site.url + "/" + File.basename(article.path, '.html.md') + "/" + xmlname,
+        "@id" => data.site.url + "/" + File.basename(article.path, '.html') + "/" + xmlname,
         "fileFormat" => "application/xml"
       }
     else
