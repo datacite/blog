@@ -102,10 +102,16 @@ helpers do
         "@id" => "https://doi.org/" + data.site.doi,
         "name" => data.site.title }
       has_part = nil
+      if article.data.doi.present?
+        xmlname = article.data.doi.split('/', 2).last + ".xml"
+      else
+        xmlname = File.basename(article.path, '.html.md') + ".xml"
+      end
+
       encoding = {
         "@type" => "MediaObject",
-        "@id" => (ENV['SITE_ARCHIVE_URL'] || data.site.archive_url) + "/source/posts/" + File.basename(article.path, '.html.md') + ".md",
-        "fileFormat" => "text/markdown"
+        "@id" => data.site.url + "/" + File.basename(article.path, '.html.md') + "/" + xmlname,
+        "fileFormat" => "application/xml"
       }
     else
       description = data.site.description

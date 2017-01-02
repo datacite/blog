@@ -4,7 +4,6 @@ title: DataCite Blog
 description: DataCite staff writes about topics relevant to DataCite members and the wider data citation community.
 publisher: DataCite
 source_url: https://github.com/datacite/blog
-archive_url: https://raw.githubusercontent.com/datacite/blog/master
 search_url: https://api.datacite.org
 default_type: BlogPosting
 institution: DataCite

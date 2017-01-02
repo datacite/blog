@@ -35,6 +35,7 @@ before_script:
   - cd ..
 
   - bundle exec cirneco doi name source/posts;
+  - bundle exec cirneco doi write_jats https://${AWS_BUCKET}
 
 script:
   - bundle exec middleman build -e $RACK_ENV
