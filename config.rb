@@ -99,7 +99,7 @@ helpers do
       date_modified = article.data.date_modified ? article.data.date_modified.iso8601 : article.data.date.iso8601
       is_part_of = {
         "@type" => "Blog",
-        "@id" => data.site.url,
+        "@id" => "https://doi.org/" + data.site.doi,
         "name" => data.site.title }
       has_part = nil
       encoding = {
