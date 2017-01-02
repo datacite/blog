@@ -9,6 +9,7 @@ tags:
 image: https://blog.datacite.org/images/2016/12/year_featured.png
 doi: 10.5438/ZWSF-4Y7Y
 published: true
+accession_number: MS-342-5223-1623
 ---
 2016 has been a year of many changes at DataCite. Since the (already not-so-new!) team joined in late 2015, DataCite has become a more dynamic and highly engaged organisation. Structural, technical and cultural changes have helped us see our biggest growth in membership ever. With our increased number of members, we are excited to continue our work in 2017 and continue building a global, sustainable, and robust research data ecosystem.READMORE
 

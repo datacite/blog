@@ -1,9 +1,9 @@
 url: https://blog.datacite.org
+doi: 10.5438/0000-00SS
 title: DataCite Blog
-description: The DataCite blog.
+description: DataCite staff writes about topics relevant to DataCite members and the wider data citation community.
 publisher: DataCite
 source_url: https://github.com/datacite/blog
-archive_url: https://raw.githubusercontent.com/datacite/blog/master
 search_url: https://api.datacite.org
 default_type: BlogPosting
 institution: DataCite

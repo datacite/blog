@@ -8,6 +8,7 @@ tags:
 image: https://blog.datacite.org/images/2016/05/bike_featured.png
 doi: 10.5438/MRR6-MF3Q
 published: true
+accession_number: MS-223-0552-6243
 ---
 DataCite is a community driven organization, and we encourage involvement from people that share our data sharing vision. Over the past year, DataCite has seen a tremendous amount of growth and uptake in the use of DataCite DOIs.
 

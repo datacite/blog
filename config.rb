@@ -60,7 +60,6 @@ helpers do
     license = data.site.license.url || "https://creativecommons.org/licenses/by/4.0/"
     date_created = article.data.date_created ? article.data.date_created.iso8601 : article.data.date.iso8601
     date_published = article.data.published ? article.data.date.iso8601 : nil
-    date_modified = article.data.date_modified ? article.data.date_modified.iso8601 : article.data.date.iso8601
 
     publisher = data.site.publisher.presence
     if publisher
@@ -97,28 +96,38 @@ helpers do
 
     if type == "BlogPosting"
       description = Bergamasco::Summarize.summary_from_html(html)
+      date_modified = article.data.date_modified ? article.data.date_modified.iso8601 : article.data.date.iso8601
       is_part_of = {
         "@type" => "Blog",
-        "@id" => data.site.url,
+        "@id" => "https://doi.org/" + data.site.doi,
         "name" => data.site.title }
       has_part = nil
+      if article.data.doi.present?
+        xmlname = article.data.doi.split('/', 2).last + ".xml"
+      else
+        xmlname = File.basename(article.path, '.html') + ".xml"
+      end
+
       encoding = {
         "@type" => "MediaObject",
-        "@id" => (ENV['SITE_ARCHIVE_URL'] || data.site.archive_url) + "/source/posts/" + File.basename(article.path, '.html.md') + ".md",
-        "fileFormat" => "text/markdown"
+        "@id" => data.site.url + "/" + File.basename(article.path, '.html') + "/" + xmlname,
+        "fileFormat" => "application/xml"
       }
     else
       description = data.site.description
+      date_modified = blog.articles.map { |a| a.date }.max.to_date.iso8601
       is_part_of = nil
       encoding = nil
       has_part = blog.articles.map do |a|
-        url = data.site.url + a.url
-        id = a.data.doi.present? ? "https://doi.org/" + a.data.doi : url
+        aurl = data.site.url + a.url
+        aid = a.data.doi.present? ? "https://doi.org/" + a.data.doi : aurl
+        date_created = a.data.date_created ? a.data.date_created.iso8601 : a.data.date.iso8601
         date_published = a.data.published ? a.data.date.iso8601 : nil
 
         { "@type" => "BlogPosting",
-          "@id" => id,
+          "@id" => aid,
           "name" => a.data.title,
+          "dateCreated" => date_created,
           "datePublished" => date_published }.compact
       end
     end

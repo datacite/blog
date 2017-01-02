@@ -8,6 +8,7 @@ tags:
 - orcid
 doi: 10.5438/1HV8-2GC2
 published: true
+accession_number: MS-16-7274-3436
 ---
 In the first post of this new blog a few weeks ago I talked about [Data-Driven Development](/data-driven-development/), and that service monitoring is an important aspect of this. The main service DataCite is providing is registration of digital object identifiers (DOIs) for scholarly content, in particular research data.READMORE
 
