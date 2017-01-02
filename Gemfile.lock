@@ -28,7 +28,7 @@ GEM
       pandoc-ruby (~> 2.0, >= 2.0.0)
       safe_yaml (~> 1.0, >= 1.0.4)
     builder (3.2.2)
-    cirneco (0.8.11)
+    cirneco (0.8.12)
       activesupport (~> 4.2, >= 4.2.5)
       base32-crockford-checksum (~> 0.2.2)
       bergamasco (~> 0.3)

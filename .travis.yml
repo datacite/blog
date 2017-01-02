@@ -69,7 +69,7 @@ notifications:
   email: false
 
 after_deploy:
-  - bundle exec cirneco doi $CIRNECO_CMD https://${AWS_BUCKET} --sandbox
+  - bundle exec cirneco doi $CIRNECO_CMD https://${AWS_BUCKET}
 
   - git config --global user.email "${GIT_EMAIL}"
   - git config --global user.name "${GIT_NAME}"
