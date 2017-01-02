@@ -78,6 +78,6 @@ after_deploy:
 
   - git add source/.
   - if ! [ -z "$(git status --untracked-files=no --porcelain)" ]; then
-      git commit -m 'Committing files changed by cirneco [skip ci]';
+      git commit -m 'Committing files changed by cirneco';
       git push upstream HEAD:$TRAVIS_BRANCH;
     fi
