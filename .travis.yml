@@ -26,9 +26,6 @@ before_install:
   - wget https://github.com/jgm/pandoc/releases/download/1.15.2/pandoc-1.15.2-1-amd64.deb
   - sudo dpkg -i pandoc-1.15.2-1-amd64.deb
   - rm pandoc-1.15.2-1-amd64.deb
-  - sudo add-apt-repository ppa:kalakris/cmake -y
-  - sudo apt-get update -q
-  - sudo apt-get install cmake -y
 
 install:
   - bundle install
@@ -37,7 +34,7 @@ before_script:
   - cd vendor && npm install
   - cd ..
 
-  - bundle exec cirneco doi $CIRNECO_CMD source/posts;
+  - bundle exec cirneco doi name source/posts;
 
 script:
   - bundle exec middleman build -e $RACK_ENV
@@ -54,30 +51,32 @@ deploy:
     cache_control: "max-age=31536000"
     on:
       all_branches: true
-  - provider: s3
-    access_key_id: $AWS_ACCESS_KEY
-    secret_access_key: $AWS_SECRET_KEY
-    bucket: $ARCHIVE_BUCKET
-    region: eu-west-1
-    skip_cleanup: true
-    local_dir: source/posts
-    upload-dir: blog
-    acl: public_read
-    cache_control: "max-age=31536000"
-    on:
-      all_branches: true
+  # - provider: s3
+  #   access_key_id: $AWS_ACCESS_KEY
+  #   secret_access_key: $AWS_SECRET_KEY
+  #   bucket: $ARCHIVE_BUCKET
+  #   region: eu-west-1
+  #   skip_cleanup: true
+  #   local_dir: source/posts
+  #   upload-dir: blog
+  #   acl: public_read
+  #   cache_control: "max-age=31536000"
+  #   on:
+  #     all_branches: true
 
 notifications:
   slack: $SLACK_TOKEN
   email: false
 
 after_deploy:
+  - bundle exec cirneco doi $CIRNECO_CMD https://${AWS_BUCKET} --sandbox
+
   - git config --global user.email "${GIT_EMAIL}"
   - git config --global user.name "${GIT_NAME}"
   - git config --global push.default simple
   - git remote add upstream https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
 
-  - git add source/posts/.
+  - git add source/.
   - if ! [ -z "$(git status --untracked-files=no --porcelain)" ]; then
       git commit -m 'Committing files changed by cirneco [skip ci]';
       git push upstream HEAD:$TRAVIS_BRANCH;
