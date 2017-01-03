@@ -12,7 +12,7 @@ accession_number: MS-12-3591-5910
 ---
 Two weeks ago we started assigning DOIs to every post on this blog [@https://doi.org/10.5438/4K3M-NYVG]. The process we implemented uses a new [command line utility](https://github.com/datacite/cirneco) and integrates well with the publishing workflow we use, with (almost) no extra effort compared to how we published blog posts before.READMORE
 
-Given that DataCite is a DOI registration agency, we obviously are careful about following best practices for assigning DOIs. DataCite focusses on DOIs for research data, but many of the general principles also apply to blog posts. And we already learned a few things already.
+Given that DataCite is a DOI registration agency, we obviously are careful about following best practices for assigning DOIs. DataCite focusses on DOIs for research data, but many of the general principles also apply to blog posts. And we learned a few things already.
 
 ### Using schema.org metadata embedded in landing pages
 
