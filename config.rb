@@ -102,11 +102,7 @@ helpers do
         "@id" => "https://doi.org/" + data.site.doi,
         "name" => data.site.title }
       has_part = nil
-      if article.data.doi.present?
-        xmlname = article.data.doi.split('/', 2).last + ".xml"
-      else
-        xmlname = File.basename(article.path, '.html') + ".xml"
-      end
+      xmlname = File.basename(article.path, '.html') + ".xml"
 
       encoding = {
         "@type" => "MediaObject",
