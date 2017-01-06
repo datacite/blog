@@ -80,10 +80,18 @@ function searchResult(json) {
 
     d3.select("#panel-" + i).insert("div")
       .attr("class", "panel-footer")
-      .attr("id", "panel-footer-" + i).append("span")
-      .attr("class", "meta").append("time")
-      .attr("datetime", post.attributes.issued)
-      .text(formattedDate(post.attributes.issued.substring(0, 10)));
+      .attr("id", "panel-footer-" + i);
+
+    if (post.attributes.issued !== null) {
+      d3.select("#panel-footer-" + i).insert("span")
+        .attr("class", "meta").append("time")
+        .attr("datetime", post.attributes.issued)
+        .text(formattedDate(post.attributes.issued.substring(0, 10)));
+    } else {
+      d3.select("#panel-footer-" + i).insert("span")
+        .attr("class", "meta")
+        .text("unpublished");
+    }
 
     d3.select("#panel-footer-" + i).insert("span")
       .attr("class", "meta")
