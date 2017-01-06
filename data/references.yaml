@@ -671,7 +671,7 @@ references:
   - year: '2014'
   title: DataCite Metadata Schema for the Publication and Citation of Research Data
     v3.1
-  publisher: DataCite
+  container-title: DataCite
   URL: http://doi.org/10.5438/0010
 
 - id: http://doi.org/10.5281/ZENODO.49516
@@ -934,7 +934,7 @@ references:
   DOI: doi.org/10.5438/0012
 
 - id: https://doi.org/10.5438/2906
-  type: no-type
+  type: article-journal
   author:
   - family: Cruse
     given: Patricia
@@ -945,12 +945,12 @@ references:
   issued:
   - year: '2016'
   title: 'Organization Identifier Project: A Way Forward'
-  publisher: ORCID
+  container-title: ORCID
   URL: https://doi.org/10.5438/2906
   DOI: 10.5438/2906
 
 - id: https://doi.org/10.5438/7885
-  type: no-type
+  type: article-journal
   author:
   - family: Fenner
     given: Martin
@@ -968,7 +968,7 @@ references:
   DOI: 10.5438/7885
 
 - id: https://doi.org/10.5438/4716
-  type: no-type
+  type: article-journal
   author:
   - family: Bilder
     given: Geoffrey
@@ -979,7 +979,7 @@ references:
   issued:
   - year: '2016'
   title: 'Organisation identifiers: current provider survey'
-  publisher: ORCID
+  container-title: ORCID
   URL: https://doi.org/10.5438/4716
   DOI: 10.5438/4716
 
@@ -1540,14 +1540,14 @@ references:
   ISSN: '1932-6203'
 
 - id: https://doi.org/10.5438/4K3M-NYVG
-  type: no-type
+  type: article-journal
   author:
   - family: Fenner
     given: Martin
   issued:
   - year: '2016'
   title: Eating your own Dog Food
-  publisher: DataCite
+  container-title: DataCite
   URL: https://doi.org/10.5438/4K3M-NYVG
   DOI: 10.5438/4K3M-NYVG
 
@@ -1591,4 +1591,34 @@ references:
   publisher: Ubiquity Press, Ltd.
   URL: https://doi.org/10.5334/jors.by
   DOI: 10.5334/jors.by
+
+- id: https://doi.org/10.5438/TNHX-54CG
+  type: article-journal
+  author:
+  - family: Fenner
+    given: Martin
+  issued:
+  - year: '2016'
+  title: 'Announcing the Organization Identifier Project: a Way Forward'
+  container-title: DataCite
+  URL: https://doi.org/10.5438/TNHX-54CG
+  DOI: 10.5438/TNHX-54CG
+
+- id: https://doi.org/10.5438/0000-00SS
+  type: no-type
+  author:
+  - family: Cruse
+    given: Patricia
+  - family: Rueda
+    given: Laura
+  - family: Garza
+    given: Kristian
+  - family: Fenner
+    given: Martin
+  issued:
+  - year: '2015'
+  title: DataCite Blog
+  publisher: DataCite
+  URL: https://doi.org/10.5438/0000-00SS
+  DOI: 10.5438/0000-00SS
 ...
