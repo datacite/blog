@@ -3,10 +3,11 @@ layout: post
 title: Using Schema.org for DOI Registration
 author: mfenner
 date_created: 2016-12-26
-date: 2017-01-03
+date: 2017-01-09
 tags:
 - doi
 - schema.org
+- featured
 image: https://blog.datacite.org/images/2016/12/schema-org.png
 accession_number: MS-12-3591-5910
 doi: 10.5438/14TN-546T
