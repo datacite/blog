@@ -2,12 +2,12 @@
 layout: post
 title: re3data.org Reaches a Milestone and Begins Offering Badges
 author: hpampel
-date: 2016-04-13
+date: 2016-04-12
+date_modified: 2016-04-13
 tags:
 - re3data
 accession_number: MS-212-9893-7426
 doi: 10.5438/KTR7-ZJJH
-published: false
 ---
 re3data.org has reached a milestone of identifying and listing 1,500 research data repositories, making it the largest and most comprehensive registry of data repositories available on the web. It has grown steadily since its launch four years ago to cover a wide range of disciplines from around the world.READMORE
 
