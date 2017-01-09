@@ -114,7 +114,7 @@ helpers do
       date_modified = blog.articles.map { |a| a.date }.max.to_date.iso8601
       is_part_of = nil
       encoding = nil
-      has_part = blog.articles.select { |a| a.data.published.to_s != "false" }.map do |a|
+      has_part = articles_published.map do |a|
         aurl = data.site.url + a.url
         aid = a.data.doi.present? ? "https://doi.org/" + a.data.doi : aurl
         date_created = a.data.date_created.presence || a.data.date
@@ -173,6 +173,11 @@ helpers do
 
     html = page.render({layout: false})
     Bergamasco::Summarize.summary_from_html(html)
+  end
+
+  def articles_published
+    blog.articles.select { |a| a.data.published.to_s != "false" }
+                 .sort { |a,b| b["datePublished"] <=> a["datePublished"] }
   end
 end
 
