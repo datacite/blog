@@ -176,8 +176,7 @@ helpers do
   end
 
   def articles_published
-    blog.articles.select { |a| a.data.published.to_s != "false" }
-                 .sort { |a,b| b["datePublished"] <=> a["datePublished"] }
+    blog.articles.select { |a| a.data.published.to_s != "false" }.sort_by { |a| a.data.date.to_date.iso8601 }.reverse
   end
 end
 
