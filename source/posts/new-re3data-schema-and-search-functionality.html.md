@@ -2,7 +2,7 @@
 layout: post
 title: New re3data.org Schema and Search Functionality
 author: mwitt
-date: 2016-01-20
+date: '2016-01-20'
 tags:
 - re3data
 - metadata

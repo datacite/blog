@@ -2,7 +2,7 @@
 layout: post
 title: Reference Lists and Tables of Content
 author: mfenner
-date: 2015-08-15
+date: '2015-08-15'
 tags:
 - metadata
 doi: 10.5438/5AEG-WEEV

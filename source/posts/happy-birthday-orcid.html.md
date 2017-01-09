@@ -2,7 +2,7 @@
 layout: post
 title: Happy Birthday ORCID
 author: mfenner
-date: 2015-10-16
+date: '2015-10-16'
 tags:
 - thor
 - orcid

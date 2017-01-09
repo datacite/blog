@@ -2,7 +2,7 @@
 layout: post
 title: We were out in Force
 author: mfenner
-date: 2016-04-19
+date: '2016-04-19'
 tags:
 - orcid
 - software citation

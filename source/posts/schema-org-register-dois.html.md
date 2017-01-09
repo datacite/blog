@@ -3,15 +3,13 @@ layout: post
 title: Using Schema.org for DOI Registration
 author: mfenner
 date_created: 2016-12-26
-date: 2017-01-03
-date_modified: 2017-01-09
+date: 2017-01-09
 tags:
 - doi
 - schema.org
 - featured
 image: https://blog.datacite.org/images/2016/12/schema-org.png
 accession_number: MS-12-3591-5910
-doi: 10.5438/14TN-546T
 ---
 Two weeks ago we started assigning DOIs to every post on this blog [@https://doi.org/10.5438/4K3M-NYVG]. The process we implemented uses a new [command line utility](https://github.com/datacite/cirneco) and integrates well with our the publishing workflow, with (almost) no extra effort compared to how we published blog posts before.
 
@@ -85,12 +83,12 @@ The DataCite blog now uses schema.org in JSON-LD format to embed metadata in mac
 }
 ```
 
-If you are familiar with the DataCite Metadata Schema, it is easy to see how schema.org metadata can be converted into DataCite metadata and used with the DataCite Metadata Store, DataCite’s DOI registration and management service. The properties required by DataCite metadata (DOI, author, title, publisher, publicationYear, resourceTypeGeneral) are standard metadata for blog posts with the exception of the DOI. You can see that the JSON-LD `@id` is the DOI expressed as HTTPS URL (and that the `@id`for authors is their ORCID ID). And there are some naming differences e.g. `name` vs. `title`. The DataCite metadata corresponding to the above schema.org metadata look like this:
+If you are familiar with the DataCite Metadata Schema, it is easy to see how schema.org metadata can be converted into DataCite metadata and used with the DataCite Metadata Store, DataCite’s DOI registration and management service. The properties required by DataCite metadata (DOI, author, title, publisher, publicationYear, resourceTypeGeneral) are standard metadata for blog posts with the exception of the DOI. You can see that the JSON-LD `@id` is the DOI expressed as HTTPS URL (and that the `@id`for authors is their ORCID ID). And there are some naming differences e.g. `name` vs. `title`. The DataCite metadata corresponding to the above schema.org metadata look like this (and can be downloaded [here]():
 
 ```{xml}
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xmlns="http://datacite.org/schema/kernel-4"
-          xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  xmlns="http://datacite.org/schema/kernel-4"
+  xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
   <identifier identifierType="DOI">10.5438/4K3M-NYVG</identifier>
   <creators>
     <creator>
@@ -113,33 +111,21 @@ If you are familiar with the DataCite Metadata Schema, it is easy to see how sch
     <subject>datacite</subject>
     <subject>doi</subject>
     <subject>metadata</subject>
-  </subjects>
+    </subjects>
   <dates>
-    <date dateType="Issued">2016-12-20</date>
     <date dateType="Created">2016-12-20</date>
+    <date dateType="Issued">2016-12-20</date>
     <date dateType="Updated">2016-12-20</date>
   </dates>
   <relatedIdentifiers>
     <relatedIdentifier relatedIdentifierType="DOI" relationType="References">10.5438/0012</relatedIdentifier>
     <relatedIdentifier relatedIdentifierType="DOI" relationType="References">10.5438/55E5-T5C0</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsPartOf">10.5438/0000-00SS</relatedIdentifier>
   </relatedIdentifiers>
   <version>1.0</version>
-  <rightsList>
-    <rights rightsURI="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</rights>
-  </rightsList>
   <descriptions>
     <description descriptionType="Abstract">
-      Eating your own dog food is a slang term to describe that an organization
-      should itself use the products and services it provides. For DataCite this
-      means that we should use DOIs with appropriate metadata and strategies for
-      long-term preservation for the scholarly outputs we produce. For the most
-      part this is not research data, but rather technical documents such as
-      the DataCite Schema and its documentation (2016). These outputs also
-      include the posts on this blog, where we discuss topics relevant for the
-      DataCite community, but also of broader interest to anyone who cares about
-      research data, persistent identifiers, and scholarly infrastructure. And
-      starting today all blog posts on this blog will have a DOI, metadata and
-      use a persistent storage mechanism.
+      Eating your own dog food is a slang term to describe that an organization should itself use the products and services it provides. For DataCite this means that we should use DOIs with appropriate metadata and strategies for long-term preservation for...
     </description>
   </descriptions>
 </resource>

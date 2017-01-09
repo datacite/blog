@@ -2,7 +2,7 @@
 layout: post
 title: Using YAML Frontmatter with CSV
 author: mfenner
-date: 2015-09-03
+date: '2015-09-03'
 tags:
 - csv
 doi: 10.5438/5HZJ-5KDS

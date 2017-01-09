@@ -2,12 +2,11 @@
 layout: post
 title: DataCite Profiles and ORCID Auto-Update webinar
 author: lrueda
-date: 2015-12-05
+date: '2015-12-05'
 tags:
 - orcid
 - thor
 doi: 10.5438/CJT2-T6DZ
-published: true
 accession_number: MS-135-1623-7005
 ---
 Last Monday, DataCite organized the first in a series of t webinars were we will be sharing our latest developments, new services, collaborations with different organizations and best practices to get the most out of persistent identifiers and data publication. Our hope is to connect with the DataCite community to bring everyone up to date and gather feedback on our work.READMORE

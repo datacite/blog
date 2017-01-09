@@ -2,7 +2,7 @@
 layout: post
 title: Data-Driven Development
 author: mfenner
-date: 2015-08-03
+date: '2015-08-03'
 tags:
 - infrastructure
 doi: 10.5438/5PS5-G3V~

@@ -2,7 +2,7 @@
 layout: post
 title: 'Our New Website: Dynamic, Responsive and Adapted to your Needs'
 author: lrueda
-date: 2016-06-27
+date: '2016-06-27'
 tags:
 - datacite
 image: https://blog.datacite.org/images/2016/06/web_featured.jpg

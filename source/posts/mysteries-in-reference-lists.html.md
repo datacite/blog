@@ -2,7 +2,7 @@
 layout: post
 title: Mysteries in Reference Lists
 author: mfenner
-date: 2016-12-23
+date: '2016-12-23'
 tags:
 - doi
 - citation

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2016 in review
-date: 2016-12-19
+date: '2016-12-19'
 author: lrueda
 tags:
 - datacite

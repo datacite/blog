@@ -2,7 +2,7 @@
 layout: post
 title: DataCite Metadata Schema 4.0 Webinar
 author: lrueda
-date: 2016-07-08
+date: '2016-07-08'
 tags:
 - datacite
 image: https://blog.datacite.org/images/2016/07/schema_featured.jpg

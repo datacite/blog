@@ -2,7 +2,7 @@
 layout: post
 title: 'Persistent Identifiers: Enabling Services for Data Intensive Research'
 author: mfenner
-date: 2015-09-22
+date: '2015-09-22'
 tags:
 - thor
 - rda

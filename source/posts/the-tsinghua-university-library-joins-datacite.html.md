@@ -2,7 +2,7 @@
 layout: post
 title: The Tsinghua University Library joins DataCite
 author: lrueda
-date: 2016-10-24
+date: '2016-10-24'
 tags:
 - members
 location: Beijing, China

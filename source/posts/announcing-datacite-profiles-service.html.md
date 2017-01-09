@@ -2,7 +2,7 @@
 layout: post
 title: Announcing the DataCite Profiles Service
 author: mfenner
-date: 2015-11-09
+date: '2015-11-09'
 tags:
 - orcid
 - thor

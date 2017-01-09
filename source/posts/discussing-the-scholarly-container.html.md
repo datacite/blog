@@ -2,7 +2,7 @@
 layout: post
 title: Discussing the Scholarly Container
 author: mfenner
-date: 2015-10-02
+date: '2015-10-02'
 tags:
 - rda
 - csv

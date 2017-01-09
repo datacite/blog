@@ -2,7 +2,7 @@
 layout: post
 title: DataCite Is an Exciting Place to Be
 author: tcruse
-date: 2015-11-02
+date: '2015-11-02'
 tags:
 - datacite
 doi: 10.5438/GA8V-FA94
