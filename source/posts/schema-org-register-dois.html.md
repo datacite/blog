@@ -9,10 +9,10 @@ tags:
 - schema.org
 - featured
 image: https://blog.datacite.org/images/2016/12/schema-org.png
-accession_number: MS-12-3591-5910
+accession_number: MS-12
 doi: 10.5438/0000-00CC
 ---
-Two weeks ago we started assigning DOIs to every post on this blog [@https://doi.org/10.5438/4K3M-NYVG]. The process we implemented uses a new [command line utility](https://github.com/datacite/cirneco) and integrates well with our the publishing workflow, with (almost) no extra effort compared to how we published blog posts before.
+Three weeks ago we started assigning DOIs to every post on this blog [@https://doi.org/10.5438/4K3M-NYVG]. The process we implemented uses a new [command line utility](https://github.com/datacite/cirneco) and integrates well with our the publishing workflow, with (almost) no extra effort compared to how we published blog posts before.
 
 Given that DataCite is a DOI registration agency, we obviously are careful about following best practices for assigning DOIs. DataCite focusses on DOIs for research data, but many of the general principles can also apply to blog posts. And we have learned a few things already.
 
@@ -148,7 +148,7 @@ With this workflow we have the DOI before publication, which is helpful as a lin
 
 On the other hand, we should not register the DOI too early, e.g. for draft posts that are never published. What we should also avoid is using something that looks like a DOI, but is not registered with the Handle system. Geoff Bilder has described the problems with such DOI-like strings as internal identifiers in a June 2016 [post](http://blog.crossref.org/2016/06/doi-like-strings-and-fake-dois.html) on the Crossref blog.
 
-The DataCite blog uses "cool" DOIs that are generated from random numbers using the base32 algorithm [@https://doi.org/10.5438/55E5-T5C0]. We have modified this process a little bit: we create an internal identifier (we call them accession number) that contains a random number unique to the DataCite blog for every draft post – this post has accession number `MS-12-3591-5910`. When we mint the DOI this accession number - ignoring letters and hyphens - is turned into a DOI, and the DOI can be predicted because of the base32 algorithm. This workflow avoids using DOI-like strings as internal identifiers, and eliminates the small risk of using the same random number twice when minting a DOI.
+The DataCite blog uses "cool" DOIs that are generated from random numbers using the base32 algorithm [@https://doi.org/10.5438/55E5-T5C0]. We have modified this process a little bit: we create an internal identifier (we call them accession number) that contains a random number unique to the DataCite blog for every draft post – this post has accession number `MS-12`. When we mint the DOI this accession number - ignoring letters and hyphens - is turned into a DOI, and the DOI can be predicted because of the base32 algorithm. This workflow avoids using DOI-like strings as internal identifiers, and eliminates the small risk of using the same random number twice when minting a DOI.
 
 ### Blog posts in JATS XML
 
