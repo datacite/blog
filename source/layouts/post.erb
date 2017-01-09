@@ -8,7 +8,7 @@
             <div class="post-meta">
               <h1><%= current_page.data.title %></h1>
               <%= current_page.data.date.to_date.strftime("%B %-d, %Y") %> by <%= author_string(current_page.data.author) %>
-              <% unless current_page.data.published %>
+              <% if current_page.data.published.to_s == "false" %>
               • <span class="unpublished">unpublished</span>
               <% end %>
               • <span class="post-reading-time"></span> read
