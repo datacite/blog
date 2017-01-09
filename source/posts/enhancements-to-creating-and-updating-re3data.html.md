@@ -2,7 +2,7 @@
 layout: post
 title: Enhancements to creating and updating re3data
 author: hpampel
-date: 2016-02-24
+date: '2016-02-24'
 tags:
 - re3data
 doi: 10.5438/6GEP-3S5E

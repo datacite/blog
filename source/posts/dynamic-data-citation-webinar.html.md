@@ -2,7 +2,7 @@
 layout: post
 title: Dynamic Data Citation Webinar
 author: mfenner
-date: 2016-07-18
+date: '2016-07-18'
 tags:
 - datacite
 - rda

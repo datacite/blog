@@ -58,8 +58,8 @@ helpers do
     version = article.data.version.presence || "1.0"
     keywords = article.data.tags.present? ? article.data.tags.join(", ") : nil
     license = data.site.license.url || "https://creativecommons.org/licenses/by/4.0/"
-    date_created = article.data.date_created ? article.data.date_created.iso8601 : article.data.date.iso8601
-    date_published = article.data.published ? article.data.date.iso8601 : nil
+    date_created = article.data.date_created.presence || article.data.date
+    date_published = article.data.published.to_s == "false" ? nil : article.data.date
 
     publisher = data.site.publisher.presence
     if publisher
@@ -96,7 +96,7 @@ helpers do
 
     if type == "BlogPosting"
       description = Bergamasco::Summarize.summary_from_html(html)
-      date_modified = article.data.date_modified ? article.data.date_modified.iso8601 : article.data.date.iso8601
+      date_modified = article.data.date_modified.presence || article.data.date
       is_part_of = {
         "@type" => "Blog",
         "@id" => "https://doi.org/" + data.site.doi,
@@ -114,11 +114,11 @@ helpers do
       date_modified = blog.articles.map { |a| a.date }.max.to_date.iso8601
       is_part_of = nil
       encoding = nil
-      has_part = blog.articles.map do |a|
+      has_part = blog.articles.select { |a| a.data.published.to_s != "false" }.map do |a|
         aurl = data.site.url + a.url
         aid = a.data.doi.present? ? "https://doi.org/" + a.data.doi : aurl
-        date_created = a.data.date_created ? a.data.date_created.iso8601 : a.data.date.iso8601
-        date_published = a.data.published ? a.data.date.iso8601 : nil
+        date_created = a.data.date_created.presence || a.data.date
+        date_published = a.data.published ? a.data.date : nil
 
         { "@type" => "BlogPosting",
           "@id" => aid,

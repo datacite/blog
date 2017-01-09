@@ -7,7 +7,7 @@
             <a name="topofpage"></a>
             <div class="post-meta">
               <h1><%= current_page.data.title %></h1>
-              <%= current_page.data.date.strftime("%B %-d, %Y") %> by <%= author_string(current_page.data.author) %>
+              <%= current_page.data.date.to_date.strftime("%B %-d, %Y") %> by <%= author_string(current_page.data.author) %>
               <% unless current_page.data.published %>
               • <span class="unpublished">unpublished</span>
               <% end %>

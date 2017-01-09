@@ -2,7 +2,7 @@
 layout: post
 title: Relaunching DataCite Search
 author: mfenner
-date: 2016-07-05
+date: '2016-07-05'
 tags:
 - infrastructure
 image: https://blog.datacite.org/images/2016/07/search.png

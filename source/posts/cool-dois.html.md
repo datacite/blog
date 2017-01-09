@@ -2,7 +2,7 @@
 layout: post
 title: Cool DOI's
 author: mfenner
-date: 2016-12-15
+date: '2016-12-15'
 tags:
 - doi
 - featured

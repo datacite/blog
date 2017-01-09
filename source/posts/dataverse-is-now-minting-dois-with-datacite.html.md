@@ -2,7 +2,7 @@
 layout: post
 title: Dataverse is now minting DOIs with DataCite Metadata Store API
 author: ecastro
-date: 2016-03-30
+date: '2016-03-30'
 tags:
 - doi
 location: Cambridge, MA, USA

@@ -2,7 +2,7 @@
 layout: post
 title: Open Science, Open Data and DataCite DOIs
 author: lrueda
-date: 2016-03-11
+date: '2016-03-11'
 tags:
 - doi
 doi: 10.5438/SS2R-9CNS

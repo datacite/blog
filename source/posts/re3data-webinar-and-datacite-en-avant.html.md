@@ -2,7 +2,7 @@
 layout: post
 title: 're3data Webinar and DataCite: En Avant!'
 author: mwitt
-date: 2015-11-25
+date: '2015-11-25'
 tags:
 - re3data
 doi: 10.5438/MCNV-GA6N

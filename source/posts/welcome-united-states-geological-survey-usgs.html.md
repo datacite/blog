@@ -2,7 +2,7 @@
 layout: post
 title: Welcome United States Geological Survey (USGS)
 author: tcruse
-date: 2016-10-17
+date: '2016-10-17'
 tags:
 - members
 location: Reston, VA, USA

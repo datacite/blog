@@ -2,7 +2,7 @@
 layout: post
 title: Overcoming Development Pain
 author: mfenner
-date: 2015-08-11
+date: '2015-08-11'
 tags:
 - infrastructure
 doi: 10.5438/8QKH-1R6~

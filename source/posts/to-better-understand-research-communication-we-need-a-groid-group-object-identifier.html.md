@@ -3,7 +3,7 @@ layout: post
 title: To better understand research communication, we need a GROID (group object
   identifier)
 author: danielskatz
-date: 2016-04-17
+date: '2016-04-17'
 tags:
 - metadata
 - software citation

@@ -2,7 +2,7 @@
 layout: post
 title: Adding References to the DataCite Blog
 author: mfenner
-date: 2015-09-16
+date: '2015-09-16'
 tags:
 - blog
 doi: 10.5438/2WFX-2HZ1
