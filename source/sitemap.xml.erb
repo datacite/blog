@@ -7,7 +7,7 @@ directory_index: false
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <% pages.each do |p| %>
   <url>
-    <loc><%= ENV['SITE_URL'] %>/<%=p.destination_path.gsub('/index.html','')%></loc>
+    <loc><%= ENV['SITE_URL'] %>/<%=p.destination_path.gsub('/index.html','/')%></loc>
     <changefreq>monthly</changefreq>
   </url>
 <% end %>
