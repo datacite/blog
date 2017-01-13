@@ -12,12 +12,12 @@ before_install:
       RACK_ENV="production";
       CIRNECO_CMD="mint";
       cp .env.master .env;
-    elif [ "$TRAVIS_BRANCH" == "labs" ]; then
-      AWS_BUCKET="blog.labs.datacite.org";
-      ARCHIVE_BUCKET="archive.labs.datacite.org";
+    elif [ "$TRAVIS_BRANCH" == "test" ]; then
+      AWS_BUCKET="blog.test.datacite.org";
+      ARCHIVE_BUCKET="archive.test.datacite.org";
       RACK_ENV="stage";
       CIRNECO_CMD="mint_and_hide";
-      cp .env.labs .env;
+      cp .env.stage .env;
     else
       exit 1;
     fi
