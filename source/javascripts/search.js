@@ -58,7 +58,7 @@ function searchResult(json) {
 
   for (var i=0; i<data.length; i++) {
     var post = data[i];
-    post["url"] = post.id.replace(/https:\/\/blog.datacite.org/, site_url);
+    post["url"] = post.attributes.url.replace(/https:\/\/blog.datacite.org/, site_url);
 
     d3.select("#content").insert("div")
       .attr("class", "panel panel-default post-list")
