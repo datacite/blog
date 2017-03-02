@@ -1621,4 +1621,35 @@ references:
   publisher: DataCite
   URL: https://doi.org/10.5438/0000-00SS
   DOI: 10.5438/0000-00SS
+
+- id: https://10.1101/097196
+  type: article-journal
+  author:
+  - family: Fenner
+    given: Martin
+  - family: Crosas
+    given: Mercè
+  - family: Grethe
+    given: Jeffrey
+  - family: Kennedy
+    given: David
+  - family: Hermjakob
+    given: Henning
+  - family: Rocca-Serra
+    given: Philippe
+  - family: Berjon
+    given: Robin
+  - family: Karcher
+    given: Sebastian
+  - family: Martone
+    given: Maryann
+  - family: Clark
+    given: Timothy
+  issued:
+  - year: '2016'
+    month: '12'
+  title: A Data Citation Roadmap for Scholarly Data Repositories
+  container-title: bioRxiv
+  page: '097196'
+  DOI: 10.1101/097196
 ...

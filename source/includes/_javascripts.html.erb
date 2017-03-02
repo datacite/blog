@@ -4,4 +4,13 @@
 <script src="/javascripts/readingTime.min.js"></script>
 <script src="/javascripts/index.js"></script>
 <script src="/javascripts/search.js"></script>
+<% if ENV['SITE_DISQUS'] %>
 <script id="dsq-count-scr" src="//<%= ENV['SITE_DISQUS'] %>.disqus.com/count.js" async></script>
+<% end %>
+<script>
+  $.getJSON('https://data.datacite.org/content-resolver/application/vnd.schemaorg.ld+json/10.5438/TNHX-54CG', function( data ) {
+    $("#schema_org").html( data );
+  });
+</script>
+<script type="application/ld+json" id="schema_org">
+</script>
