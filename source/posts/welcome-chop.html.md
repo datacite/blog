@@ -8,8 +8,8 @@ tags:
 - doi
 - members
 accession_number: MS-9732
+doi: 10.5438/0000-9G41
 ---
-
 [Children's Hospital of Philadelphia (CHOP)](http://www.chop.edu/) was founded in 1855 as the first hospital in the United States dedicated to the healthcare of children. It has a tradition of research that has spanned nearly a [century](https://www.research.chop.edu/about/overview). The research breakthroughs at CHOP have improved the lives of countless children throughout the world.
 
 ![](/images/2017/03/d3b.png)
