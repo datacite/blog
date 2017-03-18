@@ -61,7 +61,7 @@ GEM
       faraday (>= 0.7.4, < 1.0)
     fast_blank (1.0.0)
     fastimage (2.1.0)
-    ffi (1.9.17)
+    ffi (1.9.18)
     haml (4.0.7)
       tilt
     hamster (3.0.0)
@@ -144,7 +144,7 @@ GEM
     multipart-post (2.0.0)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
-    oj (2.18.2)
+    oj (2.18.3)
     opal (0.10.3)
       hike (~> 1.2)
       sourcemap (~> 0.1.0)
@@ -157,7 +157,7 @@ GEM
     padrino-support (0.13.3.3)
       activesupport (>= 3.1)
     pandoc-ruby (2.0.1)
-    parallel (1.10.0)
+    parallel (1.11.1)
     public_suffix (2.0.5)
     rack (2.0.1)
     rack-livereload (0.3.16)
@@ -177,7 +177,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifier (3.1.2)
+    uglifier (3.1.8)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS

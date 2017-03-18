@@ -1,4 +1,4 @@
-FROM phusion/passenger-full:0.9.19
+FROM phusion/passenger-full:0.9.20
 MAINTAINER Martin Fenner "mfenner@datacite.org"
 
 # Set correct environment variables.
@@ -12,9 +12,12 @@ ENV RACK_ENV development
 # Use baseimage-docker's init process.
 # CMD ["/sbin/my_init"]
 
+# Install Ruby 2.3.3
+RUN bash -lc 'rvm --default use ruby-2.3.3'
+
 # Update installed APT packages
 RUN apt-get update && apt-get upgrade -y -o Dpkg::Options::="--force-confold" && \
-    apt-get install -y pandoc cmake
+    apt-get install -y pandoc
 
 # Install bundler
 RUN gem install bundler
