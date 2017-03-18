@@ -10,12 +10,20 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # General configuration
-
 activate :syntax
 
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+end
+
+# Load data
+activate :data_source do |c|
+  c.root = "https://#{ENV['CDN_HOST']}/data"
+  c.files = [
+    "authors.json",
+    "links.json"
+  ]
 end
 
 # Use sprockets for asset compilation
