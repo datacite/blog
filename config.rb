@@ -42,7 +42,7 @@ set :markdown, smartypants: true,
 activate :dotenv
 
 # use asset host
-activate :asset_host, host: ENV['CDN_URL']
+# activate :asset_host, host: ENV['CDN_URL']
 
 ###
 # Helpers
