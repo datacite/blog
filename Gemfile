@@ -12,6 +12,7 @@ gem 'tilt', '~> 2.0', git: "https://github.com/datacite/tilt.git", branch: "pand
 gem 'pandoc-ruby', '~> 2.0'
 gem 'middleman-blog', "~> 4.0"
 gem 'middleman-sprockets', '~> 4.1.0'
+gem 'tilt-handlebars', '~> 1.4'
 gem 'middleman-dotenv', '~> 2.0'
 gem 'middleman-livereload'
 gem 'middleman-syntax', '~> 2.0'

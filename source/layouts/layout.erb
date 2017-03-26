@@ -60,10 +60,19 @@
     </script>
   </head>
   <body>
-    <%= partial "includes/header.html.erb" %>
-    <%= yield %>
-    <%= partial "includes/footer.html.erb" %>
-    <%= partial "includes/javascripts.html.erb" %>
-    <%= partial "includes/google_analytics.html.erb" %>
+    <% header_links = development? ? data.links.development_links : (stage? ? data.links.stage_links : data.links.production_links) %>
+    <%= partial "includes/header.html.hbs", locals:
+      { site_title: ENV['SITE_TITLE'],
+        navbar_class: current_page.url == "/" ? "navbar-default" : "navbar-white",
+        header_links: header_links } -%>
+    <%= yield -%>
+    <%= partial "includes/footer.html.hbs", locals:
+      { about_links: data.links.about_links,
+        services_links: data.links.services_links,
+        resources_links: data.links.resources_links,
+        community_links: data.links.community_links,
+        contact_links: data.links.contact_links } -%>
+    <%= partial "includes/javascripts.html.hbs", locals: { cdn_url: ENV['CDN_URL'], site_disqus: ENV['SITE_DISQUS'] } -%>
+    <%= partial "includes/google_analytics.html.hbs", locals: { site_ga: ENV['SITE_GA'] } -%>
   </body>
 </html>
