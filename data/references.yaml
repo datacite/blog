@@ -1652,4 +1652,16 @@ references:
   container-title: bioRxiv
   page: '097196'
   DOI: 10.1101/097196
+
+- id: https://doi.org/10.5438/TNHX-54CG
+  type: article-journal
+  author:
+  - family: Fenner
+    given: Martin
+  issued:
+  - year: '2016'
+  title: 'Announcing the Organization Identifier Project: a Way Forward'
+  publisher: DataCite
+  URL: https://doi.org/10.5438/TNHX-54CG
+  DOI: 10.5438/TNHX-54CG
 ...
