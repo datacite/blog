@@ -2,7 +2,7 @@
 layout: post
 title: DataCite Mandatory Properties
 author: mfenner
-date: '2017-03-02'
+date: '2017-03-30'
 summary: |
   The following provides a detailed description of the mandatory properties,
   which must be supplied with any initial metadata submission to DataCite,
