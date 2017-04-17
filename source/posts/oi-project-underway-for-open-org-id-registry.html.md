@@ -8,6 +8,7 @@ tags:
 - orcid
 - crossref
 - featured
+image: https://blog.datacite.org/images/2016/11/london_institute.jpg
 accession_number: MS-386-152
 doi: 10.5438/0000-0C2G
 ---
