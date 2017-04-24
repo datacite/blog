@@ -2,13 +2,13 @@
 layout: post
 title: Towards Realtime DOI Search
 author: kgarza
-date: '2017-03-25'
+date: '2017-04-24'
 tags:
 - Docker
 - Solr
 - EBS
 - EFS
-image: https://blog.datacite.org/images/2016/12/cool-dois.png
+image: https://blog.datacite.org/images/2017/04/new_db_index.png
 doi: 10.5438/8WYF-HPQV
 published: false
 ---
