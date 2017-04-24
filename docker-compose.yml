@@ -5,6 +5,7 @@ version: '2'
 
 services:
   blog:
+    env_file: .env
     image: datacite/blog
     ports:
       - "8030:8030"
