@@ -8,8 +8,8 @@ tags:
 - datacite
 - board
 accession_number: MS-newboard1234
+doi: 10.5438/0000-16JD
 ---
-
 DataCite is thrilled to welcome three new members to our [Executive Board](https://www.datacite.org/board.html). With their expertise and passion for data sharing, DataCite is poised to make an even more substantial impact on the research data community.  The also represent organizations that are vital to DataCite future and -- the for-profit communities, US Federal agencies, and international organizations.  Please join me in welcoming Mike Frame, Mark Hahnel, and Marco Marsella! 
 
 Mike Frame is currently serving as the Deputy Director for the Core Science, Analytics and Libraries  organization in [USGS](https://www.usgs.gov). Mike has a passion for enabling better for enabling better use and application of scientific data/information through developing data access/interoperability strategies and the implementation of technologies such as: customized/personalized knowledge portals, data integration tools, analysis/visualization technologies, on-line Geospatial mapping applications, application of standards, and state-of-the art indexing/discovery methods. He has served as the chief system architect for various national and international distributed biological networks and as a Principle Investigator on several US National Science Foundation projects.
