@@ -3,17 +3,14 @@ layout: post
 title: One step closer towards instant DOI search results
 author: kgarza
 date: '2017-04-25'
-summary: 'Up until last month, we were only indexing DOIs once a day. We changed that
-  last week, and we now are indexing DOIs every eight hours.
-
-'
+summary: Up until last month, we were only indexing DOIs once a day. We changed that last week, and we now are indexing DOIs every eight hours.
 tags:
 - docker
 - solr
 - featured
 image: https://blog.datacite.org/images/2017/04/new_db_index.png
 doi: 10.5438/8WYF-HPQV
-published: false
+published: true
 accession_number: MS-95-6142-5623
 ---
 ![Art?](/images/2017/04/art2_new_db_index.png)
