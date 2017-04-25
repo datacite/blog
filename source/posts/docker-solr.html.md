@@ -8,6 +8,7 @@ summary: |
 tags:
 - docker
 - solr
+- featured
 image: https://blog.datacite.org/images/2017/04/new_db_index.png
 doi: 10.5438/8WYF-HPQV
 published: false
