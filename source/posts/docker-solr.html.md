@@ -15,11 +15,11 @@ doi: 10.5438/8WYF-HPQV
 published: true
 accession_number: MS-95-6142-5623
 ---
-![Art?](/images/2017/04/art2_new_db_index.png)
+![](/images/2017/04/art2_new_db_index.png)
 
 You might be wondering, what this pink and green picture illustrates?  A few months ago we couldn't  show you this picture; the data that we used to created it, did not exist. And the answer to what this illustrates -- this is simply a distorted version of DataCite search indexing frequency. Once you add a Y-X axis and some labeling you can see this picture represents, in a 24-hour span, our database CPU utilization every time we index it to generate our Search. Up until last month, we were only indexing DOIs once a day. We changed that last week, and we now are indexing DOIs every eight hours.
 
-![DB indexing over 24hrs.](/images/2017/04/new_db_index.png)
+![](/images/2017/04/new_db_index.png)
 
 This has two important implications for our members. First, it means that data centers do not have to wait 24-hours to see the DOIs they minted reflected in DataCite Services. This is not limited to services such as DataCite Search, but it includes DataCite API and DataCite OAI-PMH. Second, this also means that data centers can redesign their workflows to take advantages of the new DOI indexing frequency.
 
