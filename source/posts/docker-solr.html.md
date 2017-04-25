@@ -3,8 +3,10 @@ layout: post
 title: One step closer towards instant DOI search results
 author: kgarza
 date: '2017-04-25'
-summary: |
-  Up until last month, we were only indexing DOIs once a day. We changed that last week, and we now are indexing DOIs every eight hours.
+summary: 'Up until last month, we were only indexing DOIs once a day. We changed that
+  last week, and we now are indexing DOIs every eight hours.
+
+'
 tags:
 - docker
 - solr
@@ -12,9 +14,8 @@ tags:
 image: https://blog.datacite.org/images/2017/04/new_db_index.png
 doi: 10.5438/8WYF-HPQV
 published: false
+accession_number: MS-95-6142-5623
 ---
-
-
 ![Art?](/images/2017/04/art2_new_db_index.png)
 
 You might be wondering, what this pink and green picture illustrates?  A few months ago we couldn't  show you this picture; the data that we used to created it, did not exist. And the answer to what this illustrates -- this is simply a distorted version of DataCite search indexing frequency. Once you add a Y-X axis and some labeling you can see this picture represents, in a 24-hour span, our database CPU utilization every time we index it to generate our Search. Up until last month, we were only indexing DOIs once a day. We changed that last week, and we now are indexing DOIs every eight hours.
