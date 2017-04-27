@@ -2,14 +2,14 @@
 layout: post
 title: A Content Negotiation Update
 author: mfenner
-date: '2017-04-27'
+date: '2017-04-28'
 tags:
 - doi
 - metadata
 - thor
 - featured
 image: https://blog.datacite.org/images/2017/04/cite-apa.png
-published: true
+published: false
 accession_number: MS-55-5135-4277
 ---
 
