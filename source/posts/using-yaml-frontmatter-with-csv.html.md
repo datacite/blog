@@ -33,7 +33,7 @@ abstract: |
 ---
 ```
 
-By adding a similar section to CSV files we can add arbitrary metadata, including longer text such as a file description. In other words, all the metadata required to submit a CSV to a data repository and obtain a DOI. This makes data submission even simpler than using a zip bundle [as discussed in an earlier post](/reference-lists-and-tables-of-content/), or using the [DataUp tool](http://doi.org/10.12688/f1000research.3-6.v2), a Microsoft Excel add-in that is unfortunately no longer available.
+By adding a similar section to CSV files we can add arbitrary metadata, including longer text such as a file description. In other words, all the metadata required to submit a CSV to a data repository and obtain a DOI. This makes data submission even simpler than using a zip bundle [as discussed in an earlier post](/reference-lists-and-tables-of-content/), or using the [DataUp tool](https://doi.org/10.12688/f1000research.3-6.v2), a Microsoft Excel add-in that is unfortunately no longer available.
 
 Javier has picked `.csvy` as file extension for this modified file format (I like `.ycsv` a little bit better). I don't think we need to define what metadata can go into the YAML frontmatter, because there a number of different use cases. The only exception would be a standardized way to describe the columns in the CSV file, e.g.:
 

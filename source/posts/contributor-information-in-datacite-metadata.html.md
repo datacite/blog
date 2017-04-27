@@ -113,7 +113,7 @@ You see one difference: CrossRef also provides the affiliation, as a list of tex
 
 Funding information is similar to affiliation in that it is something not related to the dataset itself, but to one or more contributors. We could therefore encode funding information similar to affiliation, as a `funding` field for each author. The big advantage would be that DataCite and ORCID would have consisting funding information, rather than DataCite listing funding for works, and ORCID listing funding for people, and no direct connection between the two.
 
-Lastly, we can use Citeproc JSON to describe the contributor role of the author. DataCite distinguishes between `creator` – *the main researchers involved in producing the data, or the authors of the publication, in priority order* – and `contributor` for other contributions, with a controlled vocabulary for `contributorType`. The [THOR report](http://doi.org/10.5281/ZENODO.30799 ) mentioned above goes into detail in the different contributor role vocabularies used by DataCite and ORCID (there is little overlap), and also describes [Project CRediT](http://casrai.org/CRediT), a community initiative to harmonize contributor roles across stakeholders, standardizing on 14 common roles. CRediT is closely link to [contributorship badges](https://www.mozillascience.org/contributorship-badges-a-new-project), a project started by the Mozilla Science Lab, with an example journal article using the CRediT roles and badges [here](http://www.gigasciencejournal.com/content/3/1/18/about#open-badges):
+Lastly, we can use Citeproc JSON to describe the contributor role of the author. DataCite distinguishes between `creator` – *the main researchers involved in producing the data, or the authors of the publication, in priority order* – and `contributor` for other contributions, with a controlled vocabulary for `contributorType`. The [THOR report](https://doi.org/10.5281/ZENODO.30799 ) mentioned above goes into detail in the different contributor role vocabularies used by DataCite and ORCID (there is little overlap), and also describes [Project CRediT](http://casrai.org/CRediT), a community initiative to harmonize contributor roles across stakeholders, standardizing on 14 common roles. CRediT is closely link to [contributorship badges](https://www.mozillascience.org/contributorship-badges-a-new-project), a project started by the Mozilla Science Lab, with an example journal article using the CRediT roles and badges [here](http://www.gigasciencejournal.com/content/3/1/18/about#open-badges):
 
 ![](/images/2015/10/Bildschirmfoto-2015-10-12-um-09-39-34.png)
 
@@ -127,7 +127,7 @@ Taking all the above together, the JSON to describe all this information could l
       }],
       "funding": [{
         "funder-name": "Alfred P. Sloan Foundation",
-        "funder-identifier": "http://doi.org/10.13039/100000879",
+        "funder-identifier": "https://doi.org/10.13039/100000879",
         "award-number": "555-1212",
         "award-uri": "http://www.sloan.org/awards/555-1212"
       }],

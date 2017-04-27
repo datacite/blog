@@ -11,7 +11,7 @@ doi: 10.5438/F17B-45VZ
 published: true
 accession_number: MS-161-4738-6555
 ---
-I was pleased to present at [IDCC16](http://www.dcc.ac.uk/events/idcc16) on a research paper called _The location of the citation: Changing practices in how publications cite original data in the Dryad Digital Repository_ (see preprint: Mayo et al, [-@http://doi.org/10.5281/zenodo.32412]).
+I was pleased to present at [IDCC16](http://www.dcc.ac.uk/events/idcc16) on a research paper called _The location of the citation: Changing practices in how publications cite original data in the Dryad Digital Repository_ (see preprint: Mayo et al, [-@https://doi.org/10.5281/zenodo.32412]).
 
 Recently, organizations including CrossRef and the Digital Curation Center (DCC) have recommended as a best practice that original data citations appear in the works cited sections of the article. We wondered: has data citation practice been changing in light of this guidance, and are there any visible trends over time?READMORE
 

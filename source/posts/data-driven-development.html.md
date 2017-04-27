@@ -18,7 +18,7 @@ Data-Driven Development and related terms are in use in several contexts, in par
 
 > We develop and maintain our services based on data.
 
-This shouldn't come as a surprise as DataCite's mission is **Helping you to find, access and reuse data**. And my last job at the Open Access publisher [PLOS](http://plos.org) was all about [collecting and presenting data](http://doi.org/10.1371/journal.pbio.1001687) about the reuse of scholarly articles (citations, downloads, social media mentions, etc.). But here I mean **data** in a much broader sense.
+This shouldn't come as a surprise as DataCite's mission is **Helping you to find, access and reuse data**. And my last job at the Open Access publisher [PLOS](http://plos.org) was all about [collecting and presenting data](https://doi.org/10.1371/journal.pbio.1001687) about the reuse of scholarly articles (citations, downloads, social media mentions, etc.). But here I mean **data** in a much broader sense.
 
 ## Product Development
 
