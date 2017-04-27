@@ -10,7 +10,7 @@ doi: 10.5438/4BY7-B7ZN
 published: true
 accession_number: MS-46-9576-4223
 ---
-We are pleased to announce the publication of version 3.0 of the “Metadata Schema for the Description of Research Data Repositories” [@http://doi.org/10.2312/RE3.008].
+We are pleased to announce the publication of version 3.0 of the “Metadata Schema for the Description of Research Data Repositories” [@https://doi.org/10.2312/RE3.008].
 
 This updated version of the re3data.org schema incorporates feedback from users as well as changes in registry policies and structural adjustments to the schema designed to better reflect changes in the landscape of research data repositories. New faceted and filtered search capabilities have also been added to improve searching of re3data.org.READMORE
 

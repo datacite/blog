@@ -1,6 +1,6 @@
 ---
 references:
-- id: http://doi.org/10.5281/zenodo.32412
+- id: https://doi.org/10.5281/zenodo.32412
   type: article-journal
   author:
   - family: Mayo
@@ -87,7 +87,7 @@ references:
   title: 'Data from: The origin of modern frogs (Neobatrachia) was accompanied by
     acceleration in mitochondrial and nuclear substitution rates'
   publisher: Dryad Digital Repository
-  URL: http://doi.org/10.5061/DRYAD.3QD54
+  URL: https://doi.org/10.5061/DRYAD.3QD54
   DOI: 10.5061/DRYAD.3QD54
 
 - id: Irisarri:2012gv
@@ -153,7 +153,7 @@ references:
   - year: '1818'
   title: Pilot Boat \#3, on the bar
   publisher: Museum of Vertebrate Zoology
-  URL: http://doi.org/10.7299/X7MK6BM6
+  URL: https://doi.org/10.7299/X7MK6BM6
   DOI: 10.7299/X7MK6BM6
 
 - id: Oshu:1955
@@ -166,7 +166,7 @@ references:
   - year: '1955'
   title: Unidentified man reading a book in the Old Library
   publisher: Oregon Health & Science University
-  URL: http://doi.org/10.6083/M4MP51XQ
+  URL: https://doi.org/10.6083/M4MP51XQ
   DOI: 10.6083/M4MP51XQ
 
 - id: Unknown:1926
@@ -177,7 +177,7 @@ references:
   - year: '1926'
   title: Workmen digging up the road at the corner of Belmont Avenue and Burhans Street
     in Paterson, New Jersey
-  URL: http://doi.org/10.7282/T38C9WT9
+  URL: https://doi.org/10.7282/T38C9WT9
   DOI: 10.7282/T38C9WT9
 
 - id: https://orcid.org/about/what-is-orcid/principles
@@ -474,7 +474,7 @@ references:
   publisher: DataCite Blog
   URL: https://blog.datacite.org/recap
 
-- id: http://doi.org/10.2312/RE3.008
+- id: https://doi.org/10.2312/RE3.008
   type: article-journal
   author:
   - family: Rücknagel
@@ -528,9 +528,9 @@ references:
   - year: '2015'
   title: Metadata Schema for the Description of Research Data Repositories
   publisher: GFZ Germans Research Center for Geosciences
-  URL: http://doi.org/10.2312/RE3.008
+  URL: https://doi.org/10.2312/RE3.008
 
-- id: http://doi.org/10.1103/physrevlett.116.061102
+- id: https://doi.org/10.1103/physrevlett.116.061102
   type: article-journal
   author:
   - family: Abbott
@@ -561,9 +561,9 @@ references:
   publisher: American Physical Society (APS)
   volume: '116'
   issue: '6'
-  URL: http://doi.org/10.1103/physrevlett.116.061102
+  URL: https://doi.org/10.1103/physrevlett.116.061102
 
-- id: http://doi.org/10.7935/K5MW2F23
+- id: https://doi.org/10.7935/K5MW2F23
   type: dataset
   author:
   - literal: LIGO Scientific Collaboration
@@ -571,9 +571,9 @@ references:
   - year: '2016'
   title: Data release for event GW150914
   publisher: LIGO Scientific Collaboration
-  URL: http://doi.org/10.7935/K5MW2F23
+  URL: https://doi.org/10.7935/K5MW2F23
 
-- id: http://doi.org/10.7484/INSPIREHEP.DATA.26B4.TY5F
+- id: https://doi.org/10.7484/INSPIREHEP.DATA.26B4.TY5F
   type: dataset
   author:
   - family: Aad
@@ -601,9 +601,9 @@ references:
   title: 'Data from Figure 7 from: Measurements of Higgs boson production and couplings
     in diboson final states with the ATLAS detector at the LHC'
   publisher: HEPDATA
-  URL: http://doi.org/10.7484/INSPIREHEP.DATA.26B4.TY5F
+  URL: https://doi.org/10.7484/INSPIREHEP.DATA.26B4.TY5F
 
-- id: http://doi.org/10.7484/INSPIREHEP.DATA.RF5P.6M3K
+- id: https://doi.org/10.7484/INSPIREHEP.DATA.RF5P.6M3K
   type: dataset
   author:
   - family: Aad
@@ -631,9 +631,9 @@ references:
   title: 'Data from Figure 7 from: Measurements of Higgs boson production and couplings
     in diboson final states with the ATLAS detector at the LHC'
   publisher: HEPDATA
-  URL: http://doi.org/10.7484/INSPIREHEP.DATA.RF5P.6M3K
+  URL: https://doi.org/10.7484/INSPIREHEP.DATA.RF5P.6M3K
 
-- id: http://doi.org/10.7484/INSPIREHEP.DATA.A78C.HK44
+- id: https://doi.org/10.7484/INSPIREHEP.DATA.A78C.HK44
   type: dataset
   author:
   - family: Aad
@@ -661,9 +661,9 @@ references:
   title: 'Data from Figure 7 from: Measurements of Higgs boson production and couplings
     in diboson final states with the ATLAS detector at the LHC'
   publisher: HEPDATA
-  URL: http://doi.org/10.7484/INSPIREHEP.DATA.A78C.HK44
+  URL: https://doi.org/10.7484/INSPIREHEP.DATA.A78C.HK44
 
-- id: http://doi.org/10.5438/0010
+- id: https://doi.org/10.5438/0010
   type: article-journal
   author:
   - literal: DataCite Metadata Working Group
@@ -672,9 +672,9 @@ references:
   title: DataCite Metadata Schema for the Publication and Citation of Research Data
     v3.1
   container-title: DataCite
-  URL: http://doi.org/10.5438/0010
+  URL: https://doi.org/10.5438/0010
 
-- id: http://doi.org/10.5281/ZENODO.49516
+- id: https://doi.org/10.5281/ZENODO.49516
   type: no-type
   author:
   - family: Fenner
@@ -701,9 +701,9 @@ references:
   - year: '2016'
   title: Lagotto 5.0.1
   publisher: Zenodo
-  URL: http://doi.org/10.5281/ZENODO.49516
+  URL: https://doi.org/10.5281/ZENODO.49516
 
-- id: http://doi.org/10.3334/CDIAC/00001
+- id: https://doi.org/10.3334/CDIAC/00001
   type: dataset
   author:
   - literal: Environmental Sciences Division, Oak Ridge National Laboratory
@@ -711,7 +711,7 @@ references:
   - year: '2009'
   title: Global, Regional, and National Fossil-Fuel CO2 Emissions
   publisher: Carbon Dioxide Information Analysis Center (CDIAC)
-  URL: http://doi.org/10.3334/CDIAC/00001
+  URL: https://doi.org/10.3334/CDIAC/00001
 
 - id: https://blog.datacite.org/to-better-understand-research-communication-we-need-a-groid-group-object-identifier
   type: no-type
@@ -747,7 +747,7 @@ references:
   publisher: Figshare Blog
   URL: https://figshare.com/blog/Unveiling_figshare_Collections_a_new_way_to_group_content/202
 
-- id: http://doi.org/10.15252/msb.20156658
+- id: https://doi.org/10.15252/msb.20156658
   type: article-journal
   author:
   - family: McEntyre
@@ -765,10 +765,10 @@ references:
   page: '847-847'
   volume: '11'
   issue: '12'
-  URL: http://doi.org/10.15252/msb.20156658
+  URL: https://doi.org/10.15252/msb.20156658
   DOI: 10.15252/msb.20156658
 
-- id: http://doi.org/10.7717/peerj-cs.1
+- id: https://doi.org/10.7717/peerj-cs.1
   type: article-journal
   author:
   - family: Starr
@@ -821,7 +821,7 @@ references:
   publisher: PeerJ
   page: 'e1'
   volume: '1'
-  URL: http://doi.org/10.7717/peerj-cs.1
+  URL: https://doi.org/10.7717/peerj-cs.1
   DOI: 10.7717/peerj-cs.1
 
 - id: https://blog.datacite.org/thinking-about-csv
@@ -870,7 +870,7 @@ references:
   publisher: CRAN
   URL: https://cran.r-project.org/web/packages/rio/index.html
 
-- id: http://doi.org/10.6084/M9.FIGSHARE.3364708.V1
+- id: https://doi.org/10.6084/M9.FIGSHARE.3364708.V1
   type: no-type
   author:
   - family: Karcher
@@ -879,10 +879,10 @@ references:
   - year: '2016'
   title: Zotero for Data Repositories
   publisher: Figshare
-  URL: http://doi.org/10.6084/M9.FIGSHARE.3364708.V1
+  URL: https://doi.org/10.6084/M9.FIGSHARE.3364708.V1
   DOI: 10.6084/M9.FIGSHARE.3364708.V1
 
-- id: http://doi.org/10.1145/2783446.2783605
+- id: https://doi.org/10.1145/2783446.2783605
   type: paper-conference
   author:
   - family: Garza
@@ -899,7 +899,7 @@ references:
   container-title: Proceedings of the 2015 British HCI Conference on - British HCI
     15
   publisher: Association for Computing Machinery (ACM)
-  URL: http://doi.org/10.1145/2783446.2783605
+  URL: https://doi.org/10.1145/2783446.2783605
   DOI: 10.1145/2783446.2783605
 
 - id: https://doi.org/10.7717/peerj-cs.86
@@ -1653,15 +1653,143 @@ references:
   page: '097196'
   DOI: 10.1101/097196
 
-- id: https://doi.org/10.5438/TNHX-54CG
+- id: https://doi.org/10.5438/0000-00cc
   type: article-journal
   author:
   - family: Fenner
     given: Martin
   issued:
-  - year: '2016'
-  title: 'Announcing the Organization Identifier Project: a Way Forward'
+  - year: '2017'
+  title: Using Schema.org for DOI Registration
   publisher: DataCite
-  URL: https://doi.org/10.5438/TNHX-54CG
-  DOI: 10.5438/TNHX-54CG
+  keyword: doi, schema.org
+  DOI: 10.5438/0000-00CC
+
+- id: https://doi.org/10.5438/6423
+  type: no-type
+  author:
+  - family: Farquhar
+    given: Adam
+  - family: Aryani
+    given: Amir
+  - family: Brown
+    given: Josh
+  - family: Burton
+    given: Adrian
+  - family: Cruise
+    given: Patricia
+  - family: Dallmeier-Thiessen
+    given: Sünje
+  - family: Dappert
+    given: Angela
+  - family: Dasler
+    given: Robn
+  - family: Demeranville
+    given: Tom
+  - family: Diepenbroek
+    given: Michael
+  - family: Duine
+    given: Maike
+  - family: Fenner
+    given: Martin
+  - family: Garza
+    given: Kristian
+  - family: Groth
+    given: Paul
+  - family: Haak
+    given: Laurel
+  - family: Kiermer
+    given: Veronique
+  - family: Kotarski
+    given: Rachael
+  - family: MacCallum
+    given: Catriona
+  - family: McEntyre
+    given: Johanna
+  - family: Mele
+    given: Salvatore
+  - family: Mello
+    given: Guilherme
+  - family: Rueda
+    given: Laura
+  - family: Stocker
+    given: Markus
+  - family: Vision
+    given: Todd
+  issued:
+  - year: '2015'
+  title: Technical and Human Infrastructure for Open Research (THOR)
+  publisher: DataCite
+  DOI: 10.5438/6423
+
+- id: https://doi.org/10.5438/n138-z3mk
+  type: no-type
+  author:
+  - family: Fenner
+    given: Martin
+  issued:
+  - year: '2017'
+  title: 'Bolognese: a Ruby library for conversion of DOI Metadata'
+  publisher: DataCite
+  keyword: doi, metadata, crossref, datacite, schema.org, bibtex, codemeta
+  DOI: 10.5438/n138-z3mk
+
+- id: https://doi.org/10.1101/103143
+  type: article-journal
+  author:
+  - family: Sansone
+    given: Susanna-Assunta
+  - family: Gonzalez-Beltran
+    given: Alejandra
+  - family: Rocca-Serra
+    given: Philippe
+  - family: Alter
+    given: George
+  - family: Grethe
+    given: Jeffrey S
+  - family: Xu
+    given: Hua
+  - family: Fore
+    given: Ian
+  - family: Lyle
+    given: Jared
+  - family: Gururaj
+    given: Anupama E
+  - family: Chen
+    given: Xiaoling
+  - family: Kim
+    given: Hyeoneui
+  - family: Zong
+    given: Nansu
+  - family: Li
+    given: Yueling
+  - family: Liu
+    given: Ruiling
+  - family: Ozyurt
+    given: Ibrahim Burak
+  - family: Ohno-Machado
+    given: Lucila
+  - family: Members
+    given: bioCADDIE Working Groups
+  issued:
+  - year: '2017'
+  title: 'DATS: the data tag suite to enable discoverability of datasets'
+  container-title: bioRxiv
+  publisher: Cold Spring Harbor Labs Journals
+  abstract: Todays science increasingly requires effective ways to find and access
+    existing datasets that are distributed across a range of repositories. For researchers
+    in the life sciences, discoverability of datasets may soon become as essential
+    as identifying the latest publications via PubMed. Through an international collaborative
+    effort funded by the National Institutes of Health (NIH)s Big Data to Knowledge
+    (BD2K) initiative, we have designed and implemented the DAta Tag Suite (DATS)
+    model to support the DataMed data discovery index. DataMeds goal is to be for
+    data what PubMed has been for the scientific literature. Akin to the Journal Article
+    Tag Suite (JATS) used in PubMed, the DATS model enables submission of metadata
+    on datasets to DataMed. DATS has a core set of elements, which are generic and
+    applicable to any type of datasets, and an extended set that can accommodate more
+    specialized data types. DATS is a platform-independent model also available as
+    a Schema.org annotated serialization to be used beyond DataMed, for example, in
+    projects like DataCite.
+  URL: http://biorxiv.org/content/early/2017/01/25/103143
+  DOI: 10.1101/103143
 ...
