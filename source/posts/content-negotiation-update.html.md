@@ -9,7 +9,7 @@ tags:
 - thor
 - featured
 image: https://blog.datacite.org/images/2017/04/cite-apa.png
-published: false
+published: true
 accession_number: MS-55-5135-4277
 ---
 
