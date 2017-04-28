@@ -12,7 +12,6 @@ tags:
 - csv
 - metadata
 doi: 10.5438/EA4H-TX3G
-published: false
 accession_number: MS-153-7270-8771
 ---
 ID,DataCite‐Property,Occ,Definition,Allowed values, examples, other constraints
