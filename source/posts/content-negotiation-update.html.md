@@ -2,7 +2,7 @@
 layout: post
 title: A Content Negotiation Update
 author: mfenner
-date: '2017-04-27'
+date: '2017-04-28'
 tags:
 - doi
 - metadata
@@ -34,7 +34,7 @@ This command returns BibTeX metadata for this DOI:
 }
 ```
 
-Or maybe you want to go directly to the content, in this case the JATS XML for the blog post [@https://doi.org/10.5438/0000-00CC]:
+Or maybe you want to go directly to the content, in this case the JATS XML for the blog post [@https://doi.org/10.5438/0000-00cc]:
 
 ```
 curl -LH "Accept: application/xml" https://doi.org/10.5438/0000-0C2G
