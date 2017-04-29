@@ -10,8 +10,8 @@ tags:
 - featured
 image: https://blog.datacite.org/images/2017/04/cite-apa.png
 accession_number: MS-55-5135-4277
+doi: 10.5438/0000-01QJ
 ---
-
 While it is a best practice for DOIs (expressed as URL) to send the user to the landing page for that resource [@https://doi.org/10.7717/peerj-cs.1; @https://10.1101/097196], sometimes we want something else: **metadata**, e.g. to generate a citation, or to go to the **content** itself. The easiest way to do that is to use DOI content negotiation.
 
 In this blog post we will give an introduction to DOI content negotation, describe some of the issues we identified with our current implementation, and announce a major service update addressing these issues and launching in two weeks.READMORE
