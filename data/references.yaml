@@ -1622,6 +1622,19 @@ references:
   URL: https://doi.org/10.5438/0000-00SS
   DOI: 10.5438/0000-00SS
 
+- id: https://doi.org/10.5438/t1jg-hvhn
+  type: no-type
+  author:
+  - family: Fenner
+    given: Martin
+  issued:
+  - year: '2017'
+  title: 'Content-Negotation: an API for DOI content negotiation'
+  publisher: DataCite
+  keyword: doi, metadata, crossref, datacite, schema.org, bibtex, codemeta, content
+    negotiation
+  DOI: 10.5438/t1jg-hvhn
+
 - id: https://10.1101/097196
   type: article-journal
   author:

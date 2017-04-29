@@ -97,7 +97,7 @@ DataCite has rewritten most of the code of the content negotiation service, and 
 * tested with DOIs from DataCite and Crossref, supports conversion of Crossref metadata to DataCite metadata
 * BibTeX and RIS files have proper file extension (.bib and .ris) for easier import into other applications.
 * new content type `codemeta`, other content types will be added in the coming months based on user feedback
-* available as open source software via [Github](https://github.com/crosscite/content-negotiation), and [Docker Hub](https://hub.docker.com/r/crosscite/content-negotiation/).
+* available as open source software via Github [@https://doi.org/10.5438/t1jg-hvhn] and [Docker Hub](https://hub.docker.com/r/crosscite/content-negotiation/).
 
 There is one breaking change that users should be aware of: the content type `text/html` will no longer be supported, as the DOI proxy always forwards requests with this content type to the URL registered in the handle system. Users who want to see a HTML representation of the DOI metadata should go to DataCite Search, i.e. [https://search.datacite.org/works/10.5438/0000-0C2G](https://search.datacite.org/works/10.5438/0000-0C2G) instead of  [https://data.datacite.org/10.5438/0000-0C2G](https://data.datacite.org/10.5438/0000-0C2G). We will be improving the information shown for a single DOI in DataCite Search in the coming months, and appreciate user feedback.
 
