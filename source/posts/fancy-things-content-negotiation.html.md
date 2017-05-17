@@ -2,11 +2,10 @@
 layout: post
 title: Fancy things you could build using content negotiation
 author: lrueda
-date: '2017-05-16'
+date: '2017-05-17'
 tags:
 - doi
 - content negotiation
-published: true
 accession_number: MS-4444444444
 ---
 
@@ -36,7 +35,6 @@ DataCite DOIs point to all sorts of research outputs and, of course, it is very 
 
 ![](/images/2017/05/cn04.png)
 
-These are only a few ideas. You can find many implementations already in the wild: on [data discoverability](http://www.ch.imperial.ac.uk/rzepa/blog/?p=13203), [reference management](https://www.zotero.org) or [linked data](https://wiki.duraspace.org/display/DSDOC6x/Linked+%28Open%29+Data), for example. 
+These are only a few ideas. You can find many implementations already in the wild: on [data discoverability](http://www.ch.imperial.ac.uk/rzepa/blog/?p=13203), [reference management](https://www.zotero.org) or [linked data](https://wiki.duraspace.org/display/DSDOC6x/Linked+%28Open%29+Data), for example.
 
 Do you have other good examples? [Get back to us](mailto:support@datacite.org), we would love to share them with the community!
-
