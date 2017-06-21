@@ -4,8 +4,8 @@ title: One step closer towards instant DOI search results
 author: kgarza
 date: '2017-04-25'
 summary: |
-  Up until last month, we were only indexing DOIs once a day. We changed that last week,
-  and we now are indexing DOIs every eight hours.
+  Up until last month, we were only indexing DOIs once a day. We changed that
+  last week, and we now are indexing DOIs every eight hours.
 tags:
 - docker
 - solr
