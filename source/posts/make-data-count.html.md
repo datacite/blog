@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "Make Data Count: Building a System to Support Recognition of Data as a First Class Research Output"
+title: 'Make Data Count: Building a System to Support Recognition of Data as a First
+  Class Research Output'
 author: lrueda
 date: '2017-05-18'
 tags:
 - mdc
 accession_number: MS-00075838394
 published: true
+doi: 10.5438/028A-CXTC
 ---
-
 The [Alfred P. Sloan Foundation](https://sloan.org/) has made a 2-year, $747K award to the [California Digital Library](http://www.cdlib.org/), [DataCite](https://www.datacite.org/) and [DataONE](https://www.dataone.org/) to support collection of usage and citation metrics for data objects. Building on pilot work, this award will result in the launch of a new service that will collate and expose data level metrics.
 
 ![](/images/2017/05/mdc.png)
