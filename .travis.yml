@@ -37,7 +37,6 @@ before_script:
 
 script:
   - bundle exec middleman build -e $RACK_ENV
-  - bundle exec cirneco doi write_jats https://${AWS_BUCKET}
 
 deploy:
   - provider: s3
