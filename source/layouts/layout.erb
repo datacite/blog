@@ -64,6 +64,8 @@
     <%= partial "includes/header.html.hbs", locals:
       { site_title: ENV['SITE_TITLE'],
         navbar_class: current_page.url == "/" ? "navbar-default" : "navbar-white",
+        stage: stage?,
+        development: development?,
         header_links: header_links } -%>
     <%= yield -%>
     <%= partial "includes/footer.html.hbs", locals:
