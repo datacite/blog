@@ -28,7 +28,7 @@ With the launch of Auto-Update, that is just what will happen.
 * **Crossref and DataCite**. Upon receipt of data from a publisher or data center with a valid identifier, Crossref or DataCite can automatically push that information to the researcher’s ORCID record.
 More information about how to opt out of this service can be found here: [the ORCID Inbox](http://support.orcid.org/knowledgebase/articles/665437-the-orcid-inbox).
 
-![](/images/2015/10/graph.png)
+![Automagically](/images/2015/10/graph.png)
 
 ### Why is this so revolutionary?
 
