@@ -20,11 +20,11 @@ Our members will also be able to get up-to-date statistics on their DOIs – How
 
 Finally, the persistence of DataCite DOIs is a top priority. Keeping DOIs persistent includes making sure URL links are active and healthy.  A link-checker service will provide an easy way for members to monitor URLs links of DataCite DOI to see if any are broken.
 
-![](/images/2017/06/puzzle.svg)
+![Puzzle](/images/2017/06/puzzle.svg)
 
 One of the goals with our new development is to keep the community continually informed of what we are working on and the direction we are planning to take next. We also take seriously your input and ideas. As part of the wide scholarly communications ecosystem, we are proud to be open and transparent!
 
-![](/images/2017/06/circle.svg)
+![Circle](/images/2017/06/circle.svg)
 
 Two important features aid our development -- our [DataCite User Stories](https://www.datacite.org/user-stories.html) and our [DataCite Development Roadmap](https://www.datacite.org/roadmap.html). The User Stories collect descriptions of new features and requirements, and the Roadmap takes those User Stories and organizes them into projects and prioritizes our development.
 
@@ -35,6 +35,6 @@ GitHub and Waffle are the tools we chose to make them all available and collect 
 * GitHub: [https://github.com/datacite/datacite](https://github.com/datacite/datacite)
 * DataCite waffle.io board: [https://waffle.io/datacite/datacite](https://waffle.io/datacite/datacite)
 
-![](/images/2017/06/workflow.png)
+![Workflow](/images/2017/06/workflow.png)
 
 We are excited about the work in front of us and want your continued input. Please review our roadmap, add your comments and suggestions, and help us shape our next steps. Your input is key!

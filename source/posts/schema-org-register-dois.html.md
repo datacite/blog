@@ -24,7 +24,7 @@ Our practice is that every DOI should resolve to a landing page, and that landin
 
 As for the vocabulary, the DataCite Metadata Schema has never been widely used for metadata embedded in web pages. Dublin Core Metadata [@http://dublincore.org/documents/2012/06/14/dces] are often used for metadata in HTML `meta` tags. [Schema.org](https://schema.org/) is an initiative started in 2011 with many of the same goals as Dublin Core, namely to *create, maintain, and promote schemas for structured data on the Internet*.
 
-![](/images/2016/12/schema-org.png)
+![schema.org](/images/2016/12/schema-org.png)
 
 Schema.org is widely adopted, not the least because the initiative was started by Google, Microsoft, Yahoo, and Yandex to help with indexing web pages for search. Schema.org metadata can be embedded using microdata, RDFa or JSON-LD.
 

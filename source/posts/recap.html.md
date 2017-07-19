@@ -53,8 +53,6 @@ Next up **Kerstin Lehnert**, [IGSN](http://www.geosamples.org/igsnabout), presen
 
 After the formal session the meeting participants walked down the hill for a reception at La tour Zamansky. After looking at the spectacular views and a having a few sips of bubbly we all dispersed with our heads full from a day of great conversations on persistent identifiers.
 
-![](/images/2015/10/paris-view-2.jpg)
+![Paris view](/images/2015/10/paris-view-2.jpg)
 
 ## References
-
-

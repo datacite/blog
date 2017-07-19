@@ -51,7 +51,7 @@ resource "aws_security_group" "production" {
 
 * **Packer** automates the creation of machine and container images. We use Packer to automatically build Amazon Machine Images (AMIs) that we then deploy as EC2 instances using terraform
 
-![](/images/2015/12/Bildschirmfoto-2015-12-23-um-11-29-50.png)
+![Packer](/images/2015/12/Bildschirmfoto-2015-12-23-um-11-29-50.png)
 
 * **Chef** for automated configuration management. We use Chef to help Packer build AMIs.
 
@@ -91,7 +91,7 @@ Some organizations provide their infrastructure services for free or a discount 
 
 Slack has become an essential internal communication tool. Not only because the current five staff members are in three different countries, but also because Slack nicely integrates with a large number of services. This greatly helps with keeping everyone on the same page.
 
-![](/images/2015/12/Bildschirmfoto-2015-12-23-um-11-26-47.png)
+![Slack](/images/2015/12/Bildschirmfoto-2015-12-23-um-11-26-47.png)
 
 ### Start small but make changes easy
 One trap you can fall into is to think too big when starting out. You should build or buy what you need now or in the near future. At the same time you should make sure that whatever solution you come up with will scale up when needed.
