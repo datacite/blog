@@ -931,7 +931,7 @@ references:
     v4.0
   container-title: DataCite
   URL: https://doi.org/10.5438/0012
-  DOI: doi.org/10.5438/0012
+  DOI: 10.5438/0012
 
 - id: https://doi.org/10.5438/2906
   type: article-journal
