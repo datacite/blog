@@ -31,7 +31,7 @@ When you click on the `Is Cited By` link you will find 6 citations, all of which
 
 We included the names of the data sources (e.g. Europe PMC, PLOS, etc.) to distinguish DataCite metadata from external data pulled in from DLM. We are not currently deduplicating  links if they are found in different sources - in this case two citations where found both via PLOS fulltext search and via Europe PMC API:
 
-![](/images/2015/09/Bildschirmfoto-2015-09-09-um-17-21-21.png)
+![PLOS fulltext search and Europe PMC](/images/2015/09/Bildschirmfoto-2015-09-09-um-17-21-21.png)
 
 Although citations in the scholarly literature are the most interesting links the DLM service can discover, DLM also searches other data sources such as the bookmarking service [CiteULike](http://citeulike.org), the [ORCID](http://orcid.org) registry of personal author identifiers, and Wikipedia (in this case for [10.5061/DRYAD.868SM](http://search.datacite.org/?query=10.5061/DRYAD.868SM]):
 

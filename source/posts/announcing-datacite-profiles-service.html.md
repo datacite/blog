@@ -14,7 +14,7 @@ DataCite Labs today is launching the [DataCite Profiles](https://profiles.dataci
 
 The first version of DataCite Profiles focusses on integration with ORCID via the **Search & Link** and **Auto-Update** services, described in a [previous blog post](/explaining-the-datacite-orcid-auto-update/). When users first sign-in, or when they go to their Settings page (accessible via the navigation menu in the upper right corner), they are presented with these two choices for adding their works to their ORCID record:
 
-![](/images/2015/11/Bildschirmfoto-2015-11-09-um-20-02-45.png)
+![ORCID Auto-Updated](/images/2015/11/Bildschirmfoto-2015-11-09-um-20-02-45.png)
 
 **Auto-Update** still needs a bit more work and hasn't launched yet, but by signing up for the Profiles service users give DataCite permission to automatically update their ORCID record with works with DataCite DOIs that include their ORCID identifier.
 
@@ -22,7 +22,7 @@ The first version of DataCite Profiles focusses on integration with ORCID via th
 
 Together with the Profiles service we are launching a new common navigation bar with links to the most common services and a place to sign in.
 
-![](/images/2015/11/Bildschirmfoto-2015-11-09-um-20-14-22.png)
+![Search](/images/2015/11/Bildschirmfoto-2015-11-09-um-20-14-22.png)
 
 DataCite Profiles, [DataCite Labs Search](https://search.test.datacite.org) and the DataCite Labs Link Store already support this common layout, and other DataCite services will be added over time.
 

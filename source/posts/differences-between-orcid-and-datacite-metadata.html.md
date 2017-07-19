@@ -58,6 +58,6 @@ The first approach is the linked open data approach, and was designed specifical
 
 A common metadata schema between ORCID and DataCite is neither feasible nor necessarily needed. In addition, we have to also consider interoperability with other metadata standards (e.g. CASRAI, OpenAIRE, COAR), and with other artefacts, such as those having CrossRef DOIs. What is more realistic is harmonization across a limited set essential metadata.
 
-The third approach to improve interoperability uses a common API format that includes all the metadata that need to be exchanged, but doesn’t require the metadata schema itself to change. This approach was [taken by DataCite and CrossRef a few years ago](http://crosstech.crossref.org/2012/05/crossref_and_datacite_unify_su.html) to provide metadata for DOIs in a consistent way despite significant differences in the CrossRef and DataCite metadata schema. Using HTTP content negotiation, metadata are provided in a variety of formats.
+The third approach to improve interoperability uses a common API format that includes all the metadata that need to be exchanged, but doesn’t require the metadata schema itself to change. This approach was [taken by DataCite and CrossRef a few years ago](https://www.crossref.org/blog/crossref-and-datacite-unify-support-for-http-content-negotiation/) to provide metadata for DOIs in a consistent way despite significant differences in the CrossRef and DataCite metadata schema. Using HTTP content negotiation, metadata are provided in a variety of formats.
 
 ## References

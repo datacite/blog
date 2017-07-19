@@ -28,13 +28,13 @@ To get more detailed information about #1, and to look into #2, we can use the s
 
 In the overview report I look at the number of DOI names registered over time, with some examples where these numbers are broken down by data center and resource type. Below are two examples for data packages from **Dryad** and software from **Zenodo**:
 
-![](/images/2015/08/unnamed-chunk-10-1.png)
+![Dryad data packages by month](/images/2015/08/unnamed-chunk-10-1.png)
 
-![](/images/2015/08/unnamed-chunk-12-1.png)
+![Zenodo resources of type software created by month](/images/2015/08/unnamed-chunk-12-1.png)
 
 In the orcid report I look at the number of DOI names that have at least one Open Researcher and Contributor ID (ORCID) in the metadata.
 
-![](/images/2015/08/unnamed-chunk-3-1.png)
+![DataCite DOI names with ORCID IDs by month](/images/2015/08/unnamed-chunk-3-1.png)
 
 The report goes in more detail explaining the two peaks, basically two small group of researchers producing a large number of data sets (at Pangaea and Imperial College, respectively), and including their ORCID identifiers will all of them.
 
