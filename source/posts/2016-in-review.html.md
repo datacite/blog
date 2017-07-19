@@ -13,7 +13,7 @@ accession_number: MS-342-5223-1623
 ---
 2016 has been a year of many changes at DataCite. Since the (already not-so-new!) team joined in late 2015, DataCite has become a more dynamic and highly engaged organisation. Structural, technical and cultural changes have helped us see our biggest growth in membership ever. With our increased number of members, we are excited to continue our work in 2017 and continue building a global, sustainable, and robust research data ecosystem.READMORE
 
-![](/images/2016/12/year1.png)
+![DataCite, 2016 in review](/images/2016/12/year1.png)
 
 ### New statutes, new members
 
@@ -24,7 +24,7 @@ At DataCite's last [General Assembly](https://doi.org/10.5438/8SZS-1H0H) in Amst
 In 2016, with the help of our new [application developer](https://doi.org/10.5438/Y131-YX9D), we devoted an enormous amount of effort to the renewal of our backend infrastructure. AWS S3, Docker, Travis, Terraform, Papertrail, Bugsnag, statuspage.io are only a few of the behind the scenes technologies that have increased the reliability of DataCite's new infrastructure.
 
 On top of that, we have renewed [Profiles](http://profiles.datacite.org),
-[Status](https://status.datacite.org), [JSON API (including Event Data)](http://api.datacite.org), [Citation Formatter](http://citation.crosscite.org), [Search](http://search.datacite.org)and others have been renewed -- and we still have great plans for them in 2017! We have also made connections with many external integrators, who have worked with us to improve our software and services for the user community -- [Dataverse's integration](https://doi.org/10.5438/BMMQ-YCE9), [Impactstory](https://doi.org/10.5438/C3BY-VYZS), [ORCID auto-update](http://support.orcid.org/knowledgebase/articles/793980-what-are-auto-updates) are all good examples.
+[Status](http://status.datacite.org), [JSON API (including Event Data)](https://api.datacite.org), [Citation Formatter](https://citation.crosscite.org), [Search](https://search.datacite.org)and others have been renewed -- and we still have great plans for them in 2017! We have also made connections with many external integrators, who have worked with us to improve our software and services for the user community -- [Dataverse's integration](https://doi.org/10.5438/BMMQ-YCE9), [Impactstory](https://doi.org/10.5438/C3BY-VYZS), [ORCID auto-update](http://support.orcid.org/knowledgebase/articles/793980-what-are-auto-updates) are all good examples.
 
 ### Engagement and visibility
 
@@ -47,6 +47,6 @@ The [THOR project](https://project-thor.eu) has produced a large variety of outp
 
 The progress we made this year wouldn't have been possible without our community! [DataCite's members](https://www.datacite.org/members.html) are the backbone of DataCite; they move the organisation forward and increase our reach. From our new [Steering Groups](https://www.datacite.org/steering.html), our fantastic [Metadata Working Group](https://groups.google.com/forum/#!forum/datacite-metadata) (and its new baby, the Metadata Schema 4.0 [-@https://doi.org/10.5438/0012]), the [re3data.org](http://re3data.org) Working Group and to all that support DataCite's mission, we would like to send you a big thank you and wish you all the best for 2017!
 
-![](/images/2016/12/year2.png)
+![Happy new year!](/images/2016/12/year2.png)
 
 ### References

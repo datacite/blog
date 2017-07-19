@@ -15,7 +15,7 @@ accession_number: MS-322-4901-9305
 ---
 DataCite is pleased to welcome Kristian Garza to our team. Kristian is our new application developer and he comes to DataCite with a wealth of experience in Open Science, web development, and data repositories. Get to know him better via this interview.READMORE
 
-![](/images/2016/08/kgarza.png)
+![Kristian Garza](/images/2016/08/kgarza.png)
 
 ### Can you tell us a little bit about what you did before starting for DataCite?
 
@@ -35,7 +35,7 @@ I am interested in working on infrastructure that would promote research data sh
 
 There are three things in particular that I am interested in working on:
 
-* the development of services that reduce perceived risks and increase individual benefits for scientists sharing their data (e.g. the [DataCite Event Data]((https://blog.datacite.org/its-all-about-relations/) service),
+* the development of services that reduce perceived risks and increase individual benefits for scientists sharing their data (e.g. the [DataCite Event Data](https://blog.datacite.org/its-all-about-relations/) service),
 * the incorporation of these services into scientific workflows, and
 * the study of persistent identification adoption patterns in the sciences.
 

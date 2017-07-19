@@ -21,9 +21,9 @@ Since DataCite is in the business of providing DOI names for scholarly content, 
 
 Out of the box the standard blogging platforms mentioned above don't support references or DOI registration, so a bit of extra work is needed. The easiest way to do this is to switch to a  simpler blogging platform. Luckily there are a lot of choices among these so-called **static site generators**, which don't need a database and simply generate HTML files. Adding the features from the above wish list then becomes a straightforward process and that is what I have started doing.
 
-As of this week, this blog is also [available in DataCite Labs](http://blog.labs.datacite.org), and we now support references, as you can see in [this blog post](http://blog.labs.datacite.org/when-counting-is-hard/) from two weeks ago.
+As of this week, we support references, as you can see in this blog post[@https://doi.org/10.5438/02BH-TGC7] from two weeks ago.
 
-![](/images/2015/09/Bildschirmfoto-2015-09-15-um-20-19-48.png)
+![References](/images/2015/09/Bildschirmfoto-2015-09-15-um-20-19-48.png)
 
 The picture is from the PDF version of the post, where the integration with the blog is still ongoing.
 
@@ -32,3 +32,5 @@ The *DataCite Labs Blog* looks very similar to the *DataCite Blog*, but under th
 Of course DOI registration doesn't all of the sudden make blog content more ​​*scholarly*​, but it can make it easier to find. For example, blog posts can be found by searching CrossRef or DataCite's metadata, and links can be discovered between blog posts and scholarly articles (or datasets) by using the DataCite metrics pilot, which we [announced last week](/announcing-data-level-metrics-in-datacite-labs/). To facilitate this we need to deposit the references with the metadata we send to DataCite, e.g. for the three scholarly articles, one software repository, one dataset and one data paper you see in the picture above.
 
 A little more work is needed before the *Labs Blog* can become the official *DataCite Blog*, and as always we appreciate your feedback. The blog itself is stored in a [public Github repository](https://github.com/datacite/blog), so feel free to reuse any of the code. We use the [Travis](https://travis-ci.org/) continuous integration tool to automatically generate the HTML pages for the blog, and then push the newly generated HTML content to [Amazon S3](https://aws.amazon.com/s3/) for hosting.
+
+## References

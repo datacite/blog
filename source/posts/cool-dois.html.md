@@ -17,7 +17,7 @@ Cool URIs are, of course, a fundamental principle behind DOIs, with the two impo
 
 All DOIs, expressed as HTTP URI, are therefore cool URIs. So what is a cool DOI? And, furthermore, how to create and use them? To understand what a cool DOI is, we have to explain the three parts that make up a DOI:
 
-![](/images/2016/12/doi-parts.png)
+![The three parts that make up a DOI](/images/2016/12/doi-parts.png)
 
 ### Proxy
 
@@ -91,10 +91,10 @@ cirneco doi check 10.5555/KVTD-VPWM
 Checksum for 10.5555/KVTD-VPWM is valid
 ```
 
-This can be used to quickly verify a DOI, e.g. in a web form or API. The Ruby base32 encoding library used by cirneco is open source ([https://github.com/datacite/base32](https://github.com/datacite/base32). I added the checksum to the existing library), and implementations of the Crockford base32 encoding pattern are available in many other languages, including [Python](https://github.com/jbittel/base32-crockford), [PHP](https://github.com/dflydev/dflydev-base32-crockford), [Javascript](https://www.npmjs.com/package/base32-crockford), [Java](http://stackoverflow.com/questions/22385467/crockford-base32-encoding-for-large-number-java-implementation), [Go](https://github.com/richardlehane/crock32) and [.NET](https://crockfordbase32.codeplex.com/).
+This can be used to quickly verify a DOI, e.g. in a web form or API. The Ruby base32 encoding library used by cirneco is open source ([https://github.com/datacite/base32](https://github.com/datacite/base32). I added the checksum to the existing library), and implementations of the Crockford base32 encoding pattern are available in many other languages, including [Python](https://github.com/jbittel/base32-crockford), [PHP](https://github.com/dflydev/dflydev-base32-crockford), [Javascript](https://www.npmjs.com/package/base32-crockford), [Java](http://stackoverflow.com/questions/22385467/crockford-base32-encoding-for-large-number-java-implementation), [Go](https://github.com/richardlehane/crock32) and [.NET](https://www.nuget.org/packages/crockford-base32).
 
 To answer the question raised at the beginning: a cool DOI is a DOI expressed as HTTPS URI using the doi.org proxy and using a base32-encoded suffix, for example **https://doi.org/10.5555/KVTD-VPWM**. This DOI works well in a web environment, is human readable, easy to parse and detect (e.g. in text mining), and can be generated using an algorithm that is well understood and supported.
 
-![](/images/2016/12/cool-dois.svg)
+![Cool DOIs](/images/2016/12/cool-dois.svg)
 
 ### References

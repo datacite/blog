@@ -63,11 +63,11 @@ Cruse, P. (2017). The OI Project gets underway planning an Open Organization Ide
 
 There is an easier way to get this information from DataCite if you don't feel comfortable using the command line. First find the DOI you want to cite in DataCite Search, e.g. [https://search.datacite.org/works/10.5438/0000-0C2G](https://search.datacite.org/works/10.5438/0000-0C2G) in this case.
 
-![](/images/2017/04/search-result.png)
+![Add to ORCID](/images/2017/04/search-result.png)
 
 Then click on the **Cite** button and select on of several popular citation styles. We again pick the APA style:
 
-![](/images/2017/04/cite-apa.png)
+![APA style](/images/2017/04/cite-apa.png)
 
 This is the same formatted citation we saw earlier, as DataCite Search is using the content negotiation and citation formatting services in the background. These services have been around for several years, and we work together with other DOI registration agencies on this. The citation service in DataCite Search for example is based on Crossref [open source code](https://github.com/crosscite/doi-metadata-search) originally written for [Crossref Metadata Search](https://search.crossref.org).
 

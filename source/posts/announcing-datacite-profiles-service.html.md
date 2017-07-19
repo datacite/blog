@@ -10,7 +10,7 @@ doi: 10.5438/15X1-BJ6R
 published: true
 accession_number: MS-12-7196-7302
 ---
-DataCite Labs today is launching the [DataCite Profiles](https://profiles.labs.datacite.org) service, a central place for users to sign in with DataCite, using their ORCID credentials.READMORE
+DataCite Labs today is launching the [DataCite Profiles](https://profiles.datacite.org) service, a central place for users to sign in with DataCite, using their ORCID credentials.READMORE
 
 The first version of DataCite Profiles focusses on integration with ORCID via the **Search & Link** and **Auto-Update** services, described in a [previous blog post](/explaining-the-datacite-orcid-auto-update/). When users first sign-in, or when they go to their Settings page (accessible via the navigation menu in the upper right corner), they are presented with these two choices for adding their works to their ORCID record:
 
@@ -24,7 +24,7 @@ Together with the Profiles service we are launching a new common navigation bar 
 
 ![](/images/2015/11/Bildschirmfoto-2015-11-09-um-20-14-22.png)
 
-DataCite Profiles, [DataCite Labs Search](https://search.labs.datacite.org) and the [DataCite Labs Link Store]((https://cls.labs.datacite.org) already support this common layout, and other DataCite services will be added over time.
+DataCite Profiles, [DataCite Labs Search](https://search.test.datacite.org) and the DataCite Labs Link Store already support this common layout, and other DataCite services will be added over time.
 
 DataCite Profiles uses JSON Web Tokens ([JWT](http://jwt.io/)) to provide a single-sign on service for DataCite. JWT are an attractive alternative to setting up an OAuth provider for this use case. We use them to share additional profile information such as the user role across DataCite services.
 
