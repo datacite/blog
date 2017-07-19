@@ -14,7 +14,7 @@ With the release of [Dataverse 4.3](https://github.com/IQSS/dataverse/releases/t
 
 _"DataCite is very excited to offer this new functionality to the research community. Sharing data is good. Dataverse is quickly becoming a critical component of the data sharing landscape. We all share the goal of increasing access and use of research data and by connecting communities and integrating research platforms we are taking a collective step forward to accelerate data sharing. DataCite looks forward to continued collaborations with the Dataverse team."_
 
-![](/images/2016/03/dataverse.png)
+![Dataverse and DataCite](/images/2016/03/dataverse.png)
 
 In addition, the new API will also support more dataset metadata fields to increase discoverability of datasets in Dataverse: description, author affiliation and author identifier (e.g., [ORCID](http://orcid.org) identifier which helps with researcher disambiguation).
 

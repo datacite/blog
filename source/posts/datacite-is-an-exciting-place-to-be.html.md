@@ -19,6 +19,6 @@ DataCite’s core business is providing DOI’s for data to the research communi
 
 DataCite’s success depends on its membership. DataCite’s global community of 24 Members and 8 Affiliate Members are from around the world, from Australia to Estonia and California to Japan.   Working with DataCite’s engaged Members promises to be one the best parts of my new position as I work with them to understand their needs. The  Members work with data centers, stewards, libraries, archives, universities, and research institutes who have responsibility for managing, holding, curating, and archiving data.
 
-[DataCite's Current Members]()![](/images/2015/11/members.png)
+![DataCite's Current Members](/images/2015/11/members.png)
 
 These are indeed exciting times for DataCite. We have a host services and communication initiatives that we will launching over the next several months. I invite the community to get in touch and share your ideas and your enthusiasm.

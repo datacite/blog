@@ -14,7 +14,7 @@ This week I start as the new DataCite Technical Director. While I get up to spee
 ![Blick auf Hannover [@https://doi.org/10.3932/ETHZ-A-000159123]](/images/2015/08/Fel_048248-RE-2.jpg)
 
 ## Definition
-Data-Driven Development and related terms are in use in several contexts, in particular [economics](http://www.weforum.org/projects/data-driven-development), and [programming](https://en.wikipedia.org/wiki/Data-driven_programming). The term sounds similar to [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) and [behavior-driven development](https://en.wikipedia.org/wiki/Behavior-driven_development), two related software development processes. [Business intelligence](https://en.wikipedia.org/wiki/Business_intelligence) and [data science](https://en.wikipedia.org/wiki/Data_science) are of course closely related. My definition is as follows:
+Data-Driven Development and related terms are in use in several contexts, in particular [economics](http://reports.weforum.org/data-driven-development/), and [programming](https://en.wikipedia.org/wiki/Data-driven_programming). The term sounds similar to [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) and [behavior-driven development](https://en.wikipedia.org/wiki/Behavior-driven_development), two related software development processes. [Business intelligence](https://en.wikipedia.org/wiki/Business_intelligence) and [data science](https://en.wikipedia.org/wiki/Data_science) are of course closely related. My definition is as follows:
 
 > We develop and maintain our services based on data.
 
