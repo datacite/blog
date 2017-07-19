@@ -18,6 +18,7 @@ gem 'middleman-livereload'
 gem 'middleman-syntax', '~> 2.0'
 gem 'middleman-data_source', '~> 0.8.1'
 gem 'opal', '~> 0.10'
+gem 'html-proofer', '~> 3.7', '>= 3.7.2'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
