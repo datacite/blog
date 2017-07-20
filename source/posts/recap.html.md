@@ -41,7 +41,7 @@ The second session of the day, **Supporting Data Intensive Research**, included 
 
 **Tobias Weigel**, [DKRZ](https://www.dkrz.de/), started us off with his talk about infrastructure to support data replication, versioning and collections. Tobias discussed the need for differentiated and clearly communicated quality levels for PIDs and stressed that whenever a PID exists in the wild we should not remove it even if the object has been removed. **Presentation**: PID usage at DKRZ, the role of RDA and ePIC policies [@https://doi.org/10.5281/zenodo.31790]
 
-**Ann Cambon-Thomsen**, [BRIF](http://gen2phen.org/groups/brif-bio-resource-impact-factor), spoke on the identification of bio-resources and shared information on CoBRA – guidelines to standardize the citation of bio-resources in journal articles. **Presentation**: BRIF: Bioresource research impact factor (framework) [@https://doi.org/10.5281/zenodo.31786]
+**Ann Cambon-Thomsen**, [BRIF](https://www.esgi-infrastructure.eu/consortium/inserm-toulouse/), spoke on the identification of bio-resources and shared information on CoBRA – guidelines to standardize the citation of bio-resources in journal articles. **Presentation**: BRIF: Bioresource research impact factor (framework) [@https://doi.org/10.5281/zenodo.31786]
 
 Next up **Kerstin Lehnert**, [IGSN](http://www.geosamples.org/igsnabout), presented on the challenges associated with uniquely identifying samples taken from our natural environment. One particular challenge is how to develop a core metadata schema, with a controlled, but flexible vocabulary. **Presentation**: IGSN: International Geo Sample Number. Unambiguous Citation of Physical Samples [@https://doi.org/10.5281/zenodo.31788]
 

@@ -48,7 +48,8 @@ But how are these DataCite/ORCID links shared with other services? A good starti
 
 Labs Search also provides a **Cite** button that formats the metadata according to common citation styles such as **APA**, or in common exchange formats such as **BibTeX**. These formats unfortunately don't support ORCID identifiers (nothing has changed since I [wrote about this](http://blogs.plos.org/mfenner/2011/11/08/why-bibtex-ris-and-endnote-xml-will-soon-be-broken/) in 2011), so that the DataCite/ORCID links would be lost using these formats.
 
-Citeproc JSON is a modern alternative to BibTeX, RIS and similar exchange formats, and is used as the machine-readable representation to format references in the reference managers Zotero, Mendeley, Papers (and others) using [Citation Style Language](http://citationstyles.org/). Although Citeproc JSON doesn't support ORCID identifiers, it is much easier to extend than for example BibTeX, where adding ORCID identifiers without breaking the format is difficult to impossible. Last week I implemented this modified Citeproc JSON in a new DataCite service I am working on (e.g. using the example from above: [https://eventdata.test.datacite.org/works/10.6084/M9.FIGSHARE.791569](https://eventdata.test.datacite.org/works/10.6084/M9.FIGSHARE.791569)):
+Citeproc JSON is a modern alternative to BibTeX, RIS and similar exchange formats, and is used as the machine-readable representation to format references in the reference managers Zotero, Mendeley, Papers (and others) using [Citation Style Language](http://citationstyles.org/). Although Citeproc JSON doesn't support ORCID identifiers, it is much easier to extend than for example BibTeX, where adding ORCID identifiers without breaking the format is difficult to impossible. Last week I implemented this modified Citeproc JSON in a new DataCite service I am working on (e.g. using the example from above:
+  
 ```
 "author": [{
       "family": "Chamberlain",

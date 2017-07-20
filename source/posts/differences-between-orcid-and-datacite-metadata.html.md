@@ -28,7 +28,7 @@ While a single input field for contributor names is common, separate fields for 
 
 ### Standardized Contributor Roles
 
-The currently existing vocabularies for **contributor type** (DataCite) and **contributor role** (ORCID) provide a high-level description, but fall short when trying to describe the author/creator contribution in more detail. [Project CRediT](http://credit.casrai.org/) is a multi-stakeholder initiative that has developed a common vocabulary with 14 different contributor roles, and this vocabulary can be used to provide this detail, e.g. who provided resources such as reagents or samples, who did the statistical analysis, or who contributed to the methodology of a study.
+The currently existing vocabularies for **contributor type** (DataCite) and **contributor role** (ORCID) provide a high-level description, but fall short when trying to describe the author/creator contribution in more detail. [Project CRediT](http://docs.casrai.org/CRediT) is a multi-stakeholder initiative that has developed a common vocabulary with 14 different contributor roles, and this vocabulary can be used to provide this detail, e.g. who provided resources such as reagents or samples, who did the statistical analysis, or who contributed to the methodology of a study.
 
 CRediT is complementary to existing contributor role vocabularies such as those by ORCID and DataCite. For contributor roles it is particularly important that the same vocabulary is used across stakeholders, so that the roles described in the data center can be forwarded first to DataCite, then to ORCID, and then also to other places such as institutional repositories.
 
