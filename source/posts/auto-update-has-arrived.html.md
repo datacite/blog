@@ -44,7 +44,7 @@ This is the beginning of the end for the endless rekeying of information that pl
 
 #### Q. What do I need to do to sign up for auto-update?
 
-You need to grant permission to Crossref and DataCite to post information to your ORCID record.  You can do this today by using the Search and Link wizard for DataCite available through the ORCID Registry or the DataCite [Metadata Search](http://search.labs.datacite.org/) page.  We also have added a new ORCID Inbox, so that you can receive a message from Crossref or DataCite if they receive a datafile with your iD, and you can grant permission directly. See [more on the ORCID Inbox](http://support.orcid.org/knowledgebase/articles/665437-the-orcid-inbox).
+You need to grant permission to Crossref and DataCite to post information to your ORCID record.  You can do this today by using the Search and Link wizard for DataCite available through the ORCID Registry or the [DataCite Search](https://search.datacite.org/) page. We also have added a new ORCID Inbox, so that you can receive a message from Crossref or DataCite if they receive a datafile with your iD, and you can grant permission directly. See [more on the ORCID Inbox](http://support.orcid.org/knowledgebase/articles/665437-the-orcid-inbox).
 
 #### Q. Will Crossref and DataCite be able to update my ORCID record with already published works for which I did not use my ORCID iD?
 

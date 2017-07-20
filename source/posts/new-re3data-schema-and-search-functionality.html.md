@@ -16,8 +16,6 @@ This updated version of the re3data.org schema incorporates feedback from users 
 
 re3data.org is a service of [DataCite](http://datacite.org), listing over 1.400 research data repositories. Since 2012, re3data.org has provided researchers, funding bodies, publishers and other research organizations with detailed information about research data repositories. After the merger of DataBib and re3data.org in 2014, the joint registry started collaborating with DataCite. In 2015, the DataCite General Assembly officially approved the inclusion of re3data.org into its service portfolio.
 
-![re3data.org Metadata Schema for the Description of Research Data Repositories version 3.0](http://www.re3data.org/wp-content/uploads/2016/01/web.png)
-
-Crosspost from [http://www.re3data.org/2016/01/new-re3data-org-schema-and-search-functionality/](http://www.re3data.org/2016/01/new-re3data-org-schema-and-search-functionality/).
+![re3data.org Metadata Schema for the Description of Research Data Repositories version 3.0](/images/2016/01/web.png)
 
 ## References
