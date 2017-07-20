@@ -15,7 +15,7 @@ In a [guest post](/location-of-the-citation/) two weeks ago Elizabeth Hull expla
 
 Wouldn't it be nice if a data publisher such as the Oak Ridge National Laboratory is automatically informed about journal articles citing one of their datasets [@https://doi.org/10.3334/CDIAC/00001]?
 
-![Global, Regional, and National Fossil-Fuel CO2 Emissions. [Live data](https://eventdata.datacite.org/works/doi.org/10.3334/CDIAC/00001).](/images/2016/04/oak_ridge.png)
+![Global, Regional, and National Fossil-Fuel CO2 Emissions.](/images/2016/04/oak_ridge.png)
 
 The challenge: both DataCite and Crossref collect metadata as part of the respective DOI registration services they provide. These metadata describe the information required for a citation (title, authors, publication date, etc.) [@https://doi.org/10.5438/0010]. And the metadata can contain references to related resources. But what is missing is an automated exchange of the information collected by Crossref and DataCite.
 
@@ -29,7 +29,7 @@ We can't simply store information coming from Crossref in the DataCite Metadata 
 
 DataCite thus needs a service to enhance its DataCite Metadata Store (MDS). Data citations are the most important use case, but his service should be flexible enough to also handle information coming from other providers besides Crossref, for example claims of DataCite DOIs in the ORCID registry or links of DataCite DOIs to code repositories such as Github.
 
-The new service is called [DataCite Event Data](https://eventdata.datacite.org), and the screenshot above shows six data citations coming from Crossref. The software powering the service is called [Lagotto](http://www.lagotto.io/), open source software originally developed in 2009 by the Open Access publisher [Public Library of Science](http://www.plos.org). While Lagotto provides the basic functionality needed for the Event Data service, significant development effort was required to enable the full functionality described above. This work was done, and will continue, in close collaboration with Crossref, as Crossref wants to address similar use cases. Although the core Crossref infrastructure is built around citation linking of publications, Crossref is working on [registering other online events associated with Crossref DOIs](http://blog.crossref.org/2016/02/event-data-open-for-your-interpretation.html),
+The new service is called [DataCite Event Data](https://eventdata.test.datacite.org), and the screenshot above shows six data citations coming from Crossref. The software powering the service is called [Lagotto](http://www.lagotto.io/), open source software originally developed in 2009 by the Open Access publisher [Public Library of Science](http://www.plos.org). While Lagotto provides the basic functionality needed for the Event Data service, significant development effort was required to enable the full functionality described above. This work was done, and will continue, in close collaboration with Crossref, as Crossref wants to address similar use cases. Although the core Crossref infrastructure is built around citation linking of publications, Crossref is working on [registering other online events associated with Crossref DOIs](http://blog.crossref.org/2016/02/event-data-open-for-your-interpretation.html),
 e.g. a Wikipedia page referencing one or more journal articles.
 
 This Tuesday we released version 5 of the Lagotto software [@https://doi.org/10.5281/ZENODO.49516] with support for what we need for the Event Data service. The release would not have been possible without developer [Joe Wass](https://github.com/afandian) from Crossref. The list of changes is long and can be read about in detail in the [release notes](https://github.com/lagotto/lagotto/releases/tag/v.5.0.1). The highlights include:
@@ -50,9 +50,8 @@ This Tuesday we released version 5 of the Lagotto software [@https://doi.org/10.
 3. Support for **Github**, describing the relations between software release, code repository,
    and repository owner, for the by now more than 7,000 DataCite DOIs for software linked to a Github release.
 
-In the coming months DataCite and Crossref will continue developing the platform to build out their Event Data services, so stay tuned for updates. And if you don’t mind minor bugs and incomplete data (currently about 1.2 million events for about 400,000 DataCite DOIs), take a look at [DataCite Event Data](https://eventdata.datacite.org) and send us your feedback.
+In the coming months DataCite and Crossref will continue developing the platform to build out their Event Data services, so stay tuned for updates. And if you don’t mind minor bugs and incomplete data (currently about 1.2 million events for about 400,000 DataCite DOIs), take a look at [DataCite Event Data](https://eventdata.test.datacite.org) and send us your feedback.
 
 ![**A real life lagotto**. Credit: Anke Büter and Najko Jahn (Exeter)](/images/2016/04/lagotto.jpg)
 
 ## References
-

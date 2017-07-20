@@ -14,7 +14,7 @@ This week we relaunched [DataCite Search](https://search.datacite.org), providin
 
 The new search uses a single entry box for queries, and filters by resource type, publication year and data center. A new Cite button will generate a citation in several popular citation styles, and in BibTeX and RIS import formats. Users who sign in using their ORCID credentials can add works to their ORCID record using the DataCite Search and Link service, and will find a menu shortcut to a page with all DataCite DOIs associated with their ORCID ID.READMORE
 
-![](/images/2016/07/search.png)
+![Search](/images/2016/07/search.png)
 
 In addition to information about works, DataCite Search also allows queries for contributors, data centers, and members, and the works associated with them. Information from the [DataCite Event Data service](https://www.datacite.org/eventdata.html) is included in the search results where available, and can be specifically looked up via the **Services** tab.
 

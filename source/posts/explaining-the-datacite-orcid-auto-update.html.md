@@ -11,9 +11,9 @@ doi: 10.5438/3DFW-Z4KQ
 published: true
 accession_number: MS-36-7411-1123
 ---
-This Monday ORCID, CrossRef and DataCite announced ([ORCID post](http://blog.orcid.org/blog/2015/10/26/auto-update-has-arrived-orcid-records-move-next-level), [CrossRef post](http://crosstech.crossref.org/2015/10/auto-update-has-arrived-orcid-records-move-to-the-next-level.html), [DataCite post](/auto-update-has-arrived/)) the new auto-update service that automatically pushes metadata to ORCID when an ORCID identifier is found in newly registered DOI names.READMORE
+This Monday ORCID, CrossRef and DataCite announced ([ORCID post](http://blog.orcid.org/blog/2015/10/26/auto-update-has-arrived-orcid-records-move-next-level), [CrossRef post](https://www.crossref.org/blog/auto-update-has-arrived-orcid-records-move-to-the-next-level/), [DataCite post](/auto-update-has-arrived/)) the new auto-update service that automatically pushes metadata to ORCID when an ORCID identifier is found in newly registered DOI names.READMORE
 
-This is the first joint announcement by the three organizations, and shows the close collaboration between ORCID, CrossRef and DataCite. A good opportunity to learn more about these joint activities are the [ORCID Outreach Meeting in San Francisco](https://orcid.org/assets/sf2015) November 3-4, and the [CrossRef Annual Meeting in Boston](http://www.crossref.org/annualmeeting/agenda.html) November 17-18.
+This is the first joint announcement by the three organizations, and shows the close collaboration between ORCID, CrossRef and DataCite. A good opportunity to learn more about these joint activities are the [ORCID Outreach Meeting in San Francisco](https://orcid.org/assets/sf2015) November 3-4, and the [CrossRef Annual Meeting in Boston](https://www.crossref.org/crossref-live-annual/archive/) November 17-18.
 
 As promised in the Monday blog post, I want to explain the DataCite implementation of the ORCID auto-update functionality in a separate blog post. To start with the bad news: the DataCite service isn't ready yet, and will launch in November. There are two reasons for this: CrossRef started to work on this functionality much earlier, and – more importantly – DataCite feels that we need to make some major architectural changes in our systems to implement this properly. The good news is that the architectural changes will give us a more solid foundation for additional features we can add over time. Let me explain the most important issues below.
 
@@ -21,7 +21,7 @@ As promised in the Monday blog post, I want to explain the DataCite implementati
 
 In order to update an ORCID record, an organization needs permission from the researcher who owns the record. These permissions can be short-lived for a specific update, or long-lived for many years. The latter is obviously the preferred option for the auto-update functionality.
 
-DataCite is already collecting permissions to update ORCID records from our [Search and Link service](http://search.labs.datacite.org/) and we want to continue collecting permissions for the Auto-update service in the same place. To do this properly, we will launch a new Profiles service. It will act as a central place to interact with DataCite services. In the first version it will focus on ORCID permissions, but we can build this out over time with additional functionality. The service is currently under testing, we hope to launch **Labs Profiles** next week.
+DataCite is already collecting permissions to update ORCID records from our [Search and Link service](https://search.datacite.org/) and we want to continue collecting permissions for the Auto-update service in the same place. To do this properly, we will launch a new Profiles service. It will act as a central place to interact with DataCite services. In the first version it will focus on ORCID permissions, but we can build this out over time with additional functionality. The service is currently under testing, we hope to launch **Labs Profiles** next week.
 
 One unresolved issue with the current implementation is that DataCite has to use the same ORCID client credentials for both the Search and Link and Auto-update services. This makes it impossible to distinguish self-claims by a researcher coming in from the Search and Link service, and links coming in from the Auto-update service. CrossRef's has an ORCID membership that allows them to use separate client credentials for Search and Link and Auto-update. We are working with ORCID to solve this.
 
@@ -29,7 +29,7 @@ One unresolved issue with the current implementation is that DataCite has to use
 
 Another challenge is the synchronization between the Search and Link and Auto-update services. ORCID records can contain multiple claims for the same DOI, e.g. from Search and Link, Auto-update, and possibly also other sources. Here is an example from my ORCID record with claims from Europe PubMed Central, CrossRef Metadata Search and Scopus:
 
-![](/images/2015/10/Bildschirmfoto-2015-10-29-um-11-01-37.png)
+![ORCID record](/images/2015/10/Bildschirmfoto-2015-10-29-um-11-01-37.png)
 
 It is important for DataCite to allow claims from multiple sources, and to show the provenance of every item in a person's ORCID record. The way the Search and Link service currently works (and [CrossRef Metadata Search](http://search.crossref.org/) and [DataCite Labs Search](http://search.labs.datacite.org/) use the same [codebase](https://github.com/crosscite/doi-metadata-search) for this) is that researchers can only add a claim to their ORCID records if that DOI is not yet claimed, even if the claim comes from another source. This is a pragmatic decision, as researchers will probably resort to self-claiming only for items that were not automatically added to their profiles. With the launch of Auto-update we need to rethink this approach, possibly allowing users to claim all works that have not yet been claimed via the Search and Link service.
 

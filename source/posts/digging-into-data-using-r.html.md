@@ -40,6 +40,6 @@ The report goes in more detail explaining the two peaks, basically two small gro
 
 Removing these two groups of researchers shows a more organic pattern, with about 500 DOIs with associated ORCIDs created every month.
 
-![](/images/2015/08/unnamed-chunk-11-1.png)
+![DOI names with ORCID IDs filtered](/images/2015/08/unnamed-chunk-11-1.png)
 
 R is a nice reporting tool for these kinds of data, and the [rdatacite](https://github.com/ropensci/rdatacite), [rmarkdown](http://rmarkdown.rstudio.com/) and [knitr](http://yihui.name/knitr/) packages make the analysis and visualization a straightforward process. Feel free to adapt the code in the Github repository to your specific questions, or let me know what other reports you would like to see.

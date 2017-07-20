@@ -18,4 +18,4 @@ We are seeking recommendations from the community for Steering Group members. Co
 
 If you are interested in participating in our Steering Groups, please contact [patricia.cruse@datacite.org](mailto:support@datacite.org)
 
-![From: [http://blog.modernmechanix.com/bike-keeps-family-in-stitches/](http://blog.modernmechanix.com/bike-keeps-family-in-stitches/)](/images/2016/05/bike.png)
+![Bike keeps family in stitches](/images/2016/05/bike.png)

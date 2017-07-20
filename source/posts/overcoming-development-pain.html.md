@@ -15,7 +15,7 @@ Today DataCite received an email from a user alerting us that there are some sma
 at [https://www.datacite.org/services/cite-your-data.html](https://www.datacite.org/services/cite-your-data.html)
 
     Creator; (PublicationYear): Title; Publisher. Identifier
-at [data.datacite.org](http://data.datacite.org/10.5061/DRYAD.8C1P6)
+at [search.datacite.org](https://search.datacite.org/works/10.5061/DRYAD.8C1P6)
 
 Removing two semicolons at **data.datacite.org** looks like an easy fix, but this is a bit more complicated since the data citation at **data.datacite.org** is automatically generated using an existing citation style, which looks just slightly different ([http://citationstyles.org/](http://citationstyles.org/) doesn't have a **DataCite** style). Support for data citation style is a topic for another blog post, but here I want to talk about what it takes to make changes to DataCite's website or services to fix a bug or add a feature.READMORE
 
@@ -63,11 +63,11 @@ A `terraform apply` will build the infrastructure described by terraform. As the
 
 To link the above workflows together we use [Atlas](https://atlas.hashicorp.com/), a commercial tool, but free for the number of servers that we need to manage at DataCite. One of the nice features of Atlas is that we can trigger terraform runs by changing the terraform configuration files stored in a Github repository, so really infrastructure as code:
 
-![](/images/2015/08/Bildschirmfoto-2015-08-11-um-20-14-30.png)
+![Infrastructure as code](/images/2015/08/Bildschirmfoto-2015-08-11-um-20-14-30.png)
 
 Finally, we want to notify the team when applying these changes to the DataCite infrastructure, and we use email and Slack for this:
 
-![](/images/2015/08/Bildschirmfoto-2015-08-11-um-20-20-48.png)
+![Email and Slack](/images/2015/08/Bildschirmfoto-2015-08-11-um-20-20-48.png)
 
 I am working on integrating **Docker** into this workflow, as Docker containers are much more flexible than Amazon Machine Images.
 

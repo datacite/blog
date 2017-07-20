@@ -56,7 +56,7 @@ Domain-specific repositories such as the Astrophysics Source Code Library ([ASCL
 
 * software that has a DOI (Zenodo, above)
 * software using specific tags (Depsy, see below)
-* software cited in the scholarly literature ([ScienceToolbox](http://sciencetoolbox.org/))
+* software cited in the scholarly literature (ScienceToolbox)
 
 ### Metrics Data Provider
 

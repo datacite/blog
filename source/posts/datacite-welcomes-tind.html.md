@@ -11,7 +11,7 @@ accession_number: MS-20-9120-7885
 ---
 As we mentioned in [our last blog post](https://blog.datacite.org/datacites-new-membership-model/), DataCite recently changed its membership model, and we now invite members from all types of organisations to join DataCite. As a result, we are happy to announce that several organisations have joined DataCite.  Over the coming months, we will introduce DataCite’s newest members to the community. Today we are introducing you [TIND](http://tind.io), the first for-profit organization to join DataCite -- welcome TIND.READMORE
 
-![](/images/2016/10/tind.png)
+![TIND](/images/2016/10/tind.png)
 
 TIND is located in Norway, Switzerland and California. The company is an official spin-off from the [European Organization for Nuclear Research](http://home.cern) (CERN), providing services for library and data management services based on CERN-developed, open source technology ([Invenio](http://invenio-software.org)). Established in 2013, TIND provides services to leading research institutions and IGOs such as Caltech and the United Nations.
 

@@ -14,7 +14,7 @@ image: https://blog.datacite.org/images/2017/04/new_db_index.png
 accession_number: MS-95-6142-5623
 doi: 10.5438/0000-02ZN
 ---
-![](/images/2017/04/art2_new_db_index.png)
+![Art](/images/2017/04/art2_new_db_index.png)
 
 
 ![Art?](/images/2017/04/art2_new_db_index.png)

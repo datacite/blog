@@ -12,7 +12,7 @@ doi: 10.5438/028A-CXTC
 ---
 The [Alfred P. Sloan Foundation](https://sloan.org/) has made a 2-year, $747K award to the [California Digital Library](http://www.cdlib.org/), [DataCite](https://www.datacite.org/) and [DataONE](https://www.dataone.org/) to support collection of usage and citation metrics for data objects. Building on pilot work, this award will result in the launch of a new service that will collate and expose data level metrics.
 
-![](/images/2017/05/mdc.png)
+![Make Data Count](/images/2017/05/mdc.png)
 
 The impact of research has traditionally been measured by citations to journal publications: journal articles are the currency of scholarly research.  However, scholarly research is made up of a much larger and richer set of outputs beyond traditional publications, including research data. In order to track and report the reach of research data, methods for collecting metrics on complex research data are needed.  In this way, data can receive the same credit and recognition that is assigned to journal articles.
 
