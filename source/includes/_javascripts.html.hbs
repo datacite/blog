@@ -8,10 +8,3 @@
     {{#if site_disqus}}
     <script id="dsq-count-scr" src="//{{site_disqus}}.disqus.com/count.js" async></script>
     {{/if}}
-    <script>
-      $.getJSON('https://data.datacite.org/content-resolver/application/vnd.schemaorg.ld+json/10.5438/TNHX-54CG', function( data ) {
-        $("#schema_org").html( data );
-      });
-    </script>
-    <script type="application/ld+json" id="schema_org">
-    </script>

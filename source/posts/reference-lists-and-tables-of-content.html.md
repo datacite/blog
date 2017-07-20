@@ -10,23 +10,23 @@ published: true
 accession_number: MS-57-1948-6926
 ---
 [Geoff Bilder](https://twitter.com/gbilder) from CrossRef likes to show the following slide at scholarly conferences, and then asks the audience what they see:
-![](/images/2015/08/article-1.png)
+![Paper 1](/images/2015/08/article-1.png)
 
 Most of us probably immediately recognize this document as a scholarly article. This immediate recognition includes essential parts of an article such as the title - or the reference list:READMORE
 
-![](/images/2015/08/article2-1.png)
+![Paper 2](/images/2015/08/article2-1.png)
 
 This immediate recognition is a powerful concept, it makes it easy for the reader to navigate a scholarly document, e.g. to quickly jump to the abstract or references.
 
 We don't have the same immediate recognition for datasets. Given that a large number of datasets in DataCite are in CSV (comma separated values) format, the closest we come to a immediately recognized document is probably the spreadsheet:
 
-![](https://upload.wikimedia.org/wikipedia/commons/2/23/Spreadsheet_animation.gif)
+![Container](https://upload.wikimedia.org/wikipedia/commons/2/23/Spreadsheet_animation.gif)
 
 *From: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spreadsheet_animation.gif), licensed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0).*
 
 A canonical format for datasets goes beyond immediate recognition of the essential parts by the user, it would also greatly facilitate reuse of data. As [Nick Stenning](https://twitter.com/nickstenning) from the Open Knowledge Foundation (OKFN) pointed out at CSV.conf last year, the cost of shipping of goods is in large part determined by the cost of loading and unloading, and the container has dramatically changed that equation. He argued that common formats such as the OKFN [data package](http://dataprotocols.org/data-packages/) could do the same for data reuse.
 
-![](/images/2015/08/break-bulk-sacks.png)
+![Bulk parcels](/images/2015/08/break-bulk-sacks.png)
 
 *From: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hafenarbeiter_bei_der_Verladung_von_Sackgut_-_MS_Rothenstein_NDL,_Port_Sudan_1960.png), licensed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0).*
 
@@ -40,7 +40,7 @@ The approach taken by the OKFN data package format - and related formats such as
 
 The concept described here (a collection of documents in a larger container, and a listing of all included documents) is of course at least as old as the scholarly article: the **book** as a canonical format for collections (of texts), and the **table of contents** to describe what is in the book.
 
-![](https://upload.wikimedia.org/wikipedia/commons/b/b7/Table_of_Contents_PANARCHIE_published_in_1860.JPG)
+![Table of contents](https://upload.wikimedia.org/wikipedia/commons/b/b7/Table_of_Contents_PANARCHIE_published_in_1860.JPG)
 
 *From: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Table_of_Contents_PANARCHIE_published_in_1860.JPG), licensed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0).*
 

@@ -49,7 +49,7 @@ curl -L https://data.datacite.org/application/x-bibtex/10.5438/0000-0C2G
 
 For this to work you have to go directly to the DataCite content negotiation service at **data.datacite.org** instead of using the **doi.org** DOI proxy.
 
-The most popular use of DOI content negotiation is citation formatting in any of the 1000s of citation styles provided by the Citation Style Language ([CSL](http://citationstyles.org/)) project. For this we combine DOI content negotiation, which generates a JSON file from the metadata in a format that CSL understands ([Citeproc JSON](http://gsl-nagoya-u.net/http/pub/citeproc-doc.html)), with our [DOI citation formatting service](https://blog.datacite.org/citation-formatting-service-upgrade/), which generates the formatted citation:
+The most popular use of DOI content negotiation is citation formatting in any of the 1000s of citation styles provided by the Citation Style Language ([CSL](http://citationstyles.org/)) project. For this we combine DOI content negotiation, which generates a JSON file from the metadata in a format that CSL understands ([Citeproc JSON](https://bitbucket.org/fbennett/citeproc-js/)), with our [DOI citation formatting service](https://blog.datacite.org/citation-formatting-service-upgrade/), which generates the formatted citation:
 
 ```
 curl -LH "Accept: text/x-bibliography; style=apa" https://doi.org/10.5438/0000-0C2G

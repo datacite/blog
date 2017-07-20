@@ -22,11 +22,11 @@ One big problem with code repositories is that they are not intended as long-ter
 
 ### Data Repository
 
-Long-term archiving of software is best done in dedicated data repositories, the two most popular in terms of DataCite DOIs are [Zenodo](https://zenodo.org/) (close to [5000](https://search.datacite.org/?query=%2A&resourceType_facet=Software&datacentre_facet=CERN.ZENODO+-+ZENODO+-+Research.+Shared.) DOIs for software) and [NanoHub](https://nanohub.org/) (about [2,000](https://search.labs.datacite.org/?query=%2A&resourceType_facet=Software&datacentre_facet=PURDUE.EZID+-+Purdue+University) DOIs for software). NanoHub uses the open source [HubZero](https://hubzero.org/) software that integrates a subversion code repository, whereas Zenodo has built an integration with Github, described in this [guide](https://guides.github.com/activities/citable-code/).
+Long-term archiving of software is best done in dedicated data repositories, the two most popular in terms of DataCite DOIs are [Zenodo](https://zenodo.org/) (close to [5000](https://search.datacite.org/?query=%2A&resourceType_facet=Software&datacentre_facet=CERN.ZENODO+-+ZENODO+-+Research.+Shared.) DOIs for software) and [NanoHub](https://nanohub.org/) (about [2,000](https://search.datacite.org/?query=%2A&resourceType_facet=Software&datacentre_facet=PURDUE.EZID+-+Purdue+University) DOIs for software). NanoHub uses the open source [HubZero](https://hubzero.org/) software that integrates a subversion code repository, whereas Zenodo has built an integration with Github, described in this [guide](https://guides.github.com/activities/citable-code/).
 
 ![Making your code citable](/images/2015/10/Bildschirmfoto-2015-10-18-um-14-01-39.png)
 
-Providing a long-term archive for code is needed to properly cite software, similarly to what we expect for research data and scholarly articles. We of course don't have to use DOIs for this, but DOIs make citation easier by requiring basic citation metadata, are supported by reference managers, and we can provide formatted citations via [DOI content negotiation](http://www.crosscite.org/cn/), e.g. in [DataCite Labs Search](http://search.labs.datacite.org/?q=10.5281/ZENODO.32193):
+Providing a long-term archive for code is needed to properly cite software, similarly to what we expect for research data and scholarly articles. We of course don't have to use DOIs for this, but DOIs make citation easier by requiring basic citation metadata, are supported by reference managers, and we can provide formatted citations via [DOI content negotiation](http://www.crosscite.org/cn/), e.g. in [DataCite Labs Search](https://search.datacite.org/?query=10.5281/ZENODO.32193):
 
 ![Citation style](/images/2015/10/Bildschirmfoto-2015-10-18-um-13-59-34.png)
 
@@ -34,7 +34,7 @@ The Github/Zenodo integration assigns a DOI to a particular [Github release](htt
 
 ### Claim Store
 
-We can expand the DataCite Data-Level Metrics service or Claim Store [described in an earlier post](/announcing-data-level-metrics-in-datacite-labs/) to properly handle Github repositories, and the first implementation is [available now](http://cls.labs.datacite.org) in DataCite Labs. Continuing with the earlier example of the Python **librosa** library, the DataCite Claim store tracks links between release, repository and repository owner:
+We can expand the DataCite Data-Level Metrics service or Claim Store [described in an earlier post](/announcing-data-level-metrics-in-datacite-labs/) to properly handle Github repositories, and the first implementation is [available now](https://eventdata.test.datacite.org) in DataCite Labs. Continuing with the earlier example of the Python **librosa** library, the DataCite Claim store tracks links between release, repository and repository owner:
 
 ![Claim store](/images/2015/10/Bildschirmfoto-2015-10-18-um-17-07-48.png)
 
