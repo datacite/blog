@@ -2,12 +2,12 @@
 layout: post
 title: Thoughts on the Research Data Alliance 6th Plenary
 author: mfenner
-date: 2015-10-01
+date: '2015-10-01'
 tags:
 - thor
 - rda
 location: Paris, France
-doi: 10.5438/7RXD-S8A3
+doi: 10.5438/0000-02K9
 published: true
 accession_number: MS-83-5235-9690
 ---

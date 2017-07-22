@@ -2,10 +2,10 @@
 layout: post
 title: When Counting is Hard
 author: jlin
-date: 2015-08-31
+date: '2015-08-31'
 tags:
 - data-level metrics
-doi: 10.5438/02BH-TGC7
+doi: 10.5438/0000-7QJ4
 published: true
 accession_number: MS-7922-7404
 ---

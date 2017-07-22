@@ -9,7 +9,7 @@ tags:
 - citation
 - thor
 image: https://blog.datacite.org/images/2016/07/dynamic-data.png
-doi: 10.5438/Y4KS-KSBC
+doi: 10.5438/0000-0A3V
 published: true
 accession_number: MS-323-6723-4859
 ---

@@ -2,11 +2,11 @@
 layout: post
 title: Get involved in the DataCite Community!
 author: tcruse
-date: 2016-05-18
+date: '2016-05-18'
 tags:
 - datacite
 image: https://blog.datacite.org/images/2016/05/bike_featured.png
-doi: 10.5438/MRR6-MF3Q
+doi: 10.5438/0000-06Z1
 published: true
 accession_number: MS-223-0552-6243
 ---

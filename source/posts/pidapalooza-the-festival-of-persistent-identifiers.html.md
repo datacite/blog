@@ -8,7 +8,7 @@ tags:
 - pidapalooza
 location: Reykjavik, Iceland
 image: https://blog.datacite.org/images/2016/09/crowd.png
-doi: 10.5438/PRF0-NRXQ
+doi: 10.5438/0000-07MP
 published: true
 accession_number: MS-244-4337-7437
 ---

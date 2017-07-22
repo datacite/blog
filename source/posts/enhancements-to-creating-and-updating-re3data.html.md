@@ -5,7 +5,7 @@ author: hpampel
 date: '2016-02-24'
 tags:
 - re3data
-doi: 10.5438/6GEP-3S5E
+doi: 10.5438/0000-025?
 published: true
 accession_number: MS-69-9472-6693
 ---

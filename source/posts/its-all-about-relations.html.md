@@ -2,12 +2,12 @@
 layout: post
 title: It's all about Relations
 author: mfenner
-date: 2016-04-14
+date: '2016-04-14'
 tags:
 - metadata
 - data-level metrics
 - crossref
-doi: 10.5438/PE54-ZJ5T
+doi: 10.5438/0000-07GJ
 published: true
 accession_number: MS-240-9748-8453
 ---

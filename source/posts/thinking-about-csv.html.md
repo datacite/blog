@@ -2,10 +2,10 @@
 layout: post
 title: Thinking about CSV
 author: mfenner
-date: 2016-05-04
+date: '2016-05-04'
 tags:
 - csv
-doi: 10.5438/4QX3-RP8Y
+doi: 10.5438/0000-01JD
 published: true
 accession_number: MS-50-9725-1528
 ---

@@ -6,7 +6,7 @@ date: '2016-01-11'
 tags:
 - infrastructure
 - datacite
-doi: 10.5438/YHCJ-P5HR
+doi: 10.5438/0000-0A7Z
 published: true
 accession_number: MS-327-9587-5505
 ---

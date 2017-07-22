@@ -2,11 +2,11 @@
 layout: post
 title: 'Recap: Persistent Identifiers in Paris'
 author: tcruse
-date: 2015-10-04
+date: '2015-10-04'
 tags:
 - rda
 location: Paris, France
-doi: 10.5438/85SN-MX23
+doi: 10.5438/0000-02QD
 published: true
 accession_number: MS-87-8463-0690
 ---

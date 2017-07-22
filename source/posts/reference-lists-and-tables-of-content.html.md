@@ -5,7 +5,7 @@ author: mfenner
 date: '2015-08-15'
 tags:
 - metadata
-doi: 10.5438/5AEG-WEEV
+doi: 10.5438/0000-01SM
 published: true
 accession_number: MS-57-1948-6926
 ---

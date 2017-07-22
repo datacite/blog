@@ -2,10 +2,10 @@
 layout: post
 title: DataCite is Hiring an Application Developer
 author: mfenner
-date: 2016-03-30
+date: '2016-03-30'
 tags:
 - datacite
-doi: 10.5438/MSK0-15R2
+doi: 10.5438/0000-06Z1
 published: true
 accession_number: MS-223-3362-1432
 ---

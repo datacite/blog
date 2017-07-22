@@ -6,7 +6,7 @@ date: '2016-07-08'
 tags:
 - datacite
 image: https://blog.datacite.org/images/2016/07/schema_featured.jpg
-doi: 10.5438/X4JQ-EGT5
+doi: 10.5438/0000-09RG
 published: true
 accession_number: MS-312-9237-3530
 ---

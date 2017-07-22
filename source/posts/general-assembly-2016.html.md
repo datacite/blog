@@ -6,7 +6,7 @@ date: '2016-03-31'
 tags:
 - datacite
 location: Amsterdam, Netherlands
-doi: 10.5438/C81T-HKVP
+doi: 10.5438/0000-043M
 published: true
 accession_number: MS-131-5525-5931
 ---

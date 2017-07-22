@@ -5,7 +5,7 @@ author: tcruse
 date: '2015-11-02'
 tags:
 - datacite
-doi: 10.5438/GA8V-FA94
+doi: 10.5438/0000-05FV
 published: true
 accession_number: MS-175-2470-2537
 ---

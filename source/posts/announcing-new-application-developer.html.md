@@ -9,7 +9,7 @@ tags:
 - datacite
 - data sharing
 image: https://blog.datacite.org/images/2016/08/kgarza.png
-doi: 10.5438/Y131-YX9D
+doi: 10.5438/0000-0A2T
 published: true
 accession_number: MS-322-4901-9305
 ---

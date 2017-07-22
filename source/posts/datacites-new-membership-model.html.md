@@ -6,7 +6,7 @@ date: '2016-10-05'
 tags:
 - datacite
 image: https://blog.datacite.org/images/2016/10/join.png
-doi: 10.5438/8SZS-1H0H
+doi: 10.5438/0000-02YM
 published: true
 accession_number: MS-94-6212-2016
 ---

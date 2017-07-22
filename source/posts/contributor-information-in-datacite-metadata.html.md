@@ -2,11 +2,11 @@
 layout: post
 title: Contributor Information in DataCite Metadata
 author: mfenner
-date: 2015-10-12
+date: '2015-10-12'
 tags:
 - thor
 - orcid
-doi: 10.5438/W029-Y6W~
+doi: 10.5438/0000-029=
 published: true
 accession_number: MS-73-9506-4316
 ---
