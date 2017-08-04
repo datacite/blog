@@ -2,7 +2,7 @@
 layout: post
 title: EZID DOI Service is Evolving
 author:
-- pcruse
+- tcruse
 - mwitt
 - jstarr
 date: '2017-08-04'
