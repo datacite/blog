@@ -7,6 +7,7 @@ author:
 - jstarr
 date: '2017-08-04'
 tags:
+- featured
 - ezid
 - cdl
 - purdue
