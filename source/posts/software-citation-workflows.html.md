@@ -7,6 +7,7 @@ tags:
 - software citation
 - github
 accession_number: MS-16-5219-8798
+doi: 10.5438/1h7n-3cen
 ---
 *This blog post provides more detail for a short presentation I will give today at the [Software Credit Workshop](http://www.software.ac.uk/software-credit) in London. The aim is to look at the infrastructure pieces needed for software discovery and credit, and at the workflows linking these different parts of the infrastructure.*READMORE
 

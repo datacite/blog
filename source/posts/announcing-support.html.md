@@ -7,6 +7,7 @@ tags:
 - support
 image: https://blog.datacite.org/images/2017/07/support.png
 accession_number: MS-445566778899
+doi: 10.5438/c-yyxj-zgkr
 ---
 New services, APIs, enhanced functions, and even websites can be hard to grasp. At DataCite we understand how difficult it is to get started and stay up-to-date with all the developments in the scholarly communications ecosystem. That is why we decided to pull all DataCite's information into a single Support Center. Our goal is to present our user community with a complete, up-to-date, easy to read, searchable resource.
 

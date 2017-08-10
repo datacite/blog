@@ -7,6 +7,7 @@ tags:
 - infrastructure
 image: https://blog.datacite.org/images/2016/07/search.png
 accession_number: MS-297-6575-8724
+doi: 10.5438/vq2t-vr4k
 ---
 This week we relaunched [DataCite Search](https://search.datacite.org), providing a more user-friendly search interface for DataCite metadata. We also added functionality that was not available before.
 
