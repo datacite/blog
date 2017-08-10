@@ -6,6 +6,7 @@ date: '2015-08-11'
 tags:
 - infrastructure
 accession_number: MS-256-3865-6524
+doi: 10.5438/qw2x-pgcy
 ---
 Today DataCite received an email from a user alerting us that there are some small inconsistencies with our recommended data citation format:
 

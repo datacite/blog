@@ -7,6 +7,7 @@ tags:
 - orcid
 - thor
 accession_number: MS-12-7196-7302
+doi: 10.5438/15x1-bj6r
 ---
 DataCite Labs today is launching the [DataCite Profiles](https://profiles.datacite.org) service, a central place for users to sign in with DataCite, using their ORCID credentials.READMORE
 

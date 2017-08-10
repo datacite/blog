@@ -8,6 +8,7 @@ tags:
 - crossref
 - thor
 accession_number: MS-36-7411-1123
+doi: 10.5438/3dfw-z4kq
 ---
 This Monday ORCID, CrossRef and DataCite announced ([ORCID post](http://blog.orcid.org/blog/2015/10/26/auto-update-has-arrived-orcid-records-move-next-level), [CrossRef post](https://www.crossref.org/blog/auto-update-has-arrived-orcid-records-move-to-the-next-level/), [DataCite post](/auto-update-has-arrived/)) the new auto-update service that automatically pushes metadata to ORCID when an ORCID identifier is found in newly registered DOI names.READMORE
 

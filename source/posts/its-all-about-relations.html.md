@@ -8,6 +8,7 @@ tags:
 - data-level metrics
 - crossref
 accession_number: MS-240-9748-8453
+doi: 10.5438/pe54-zj5t
 ---
 In a [guest post](/location-of-the-citation/) two weeks ago Elizabeth Hull explained that only 6% of Dryad datasets associated with a journal article are found in the reference list of that article, data she also presented at the IDCC conference in February [@https://doi.org/10.5281/zenodo.32412]. This number has increased from 4% to 8% between 2011-2014, but is still low. One important reason is missing incentives: we don't yet have the same automated citation linking  between articles and data that exists between articles thanks to [Crossref](http://www.crossref.org).READMORE
 

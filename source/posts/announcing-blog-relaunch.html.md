@@ -6,6 +6,7 @@ date: '2015-12-28'
 tags:
 - blog
 accession_number: MS-315-5330-6879
+doi: 10.5438/xcbj-g7zy
 ---
 The DataCite blog has migrated to a new platform, from a hosted version at [Ghost](https://ghost.org/) to a self-hosted version using [Jekyll](https://jekyllrb.com/). The main reason for this change is that it gives us more control over the formatting of blog posts. The migration was easy as both Ghost and Jekyll use [markdown](http://support.ghost.org/markdown-guide/) to format blog posts, and the blog post URLs haven't changed.READMORE
 
