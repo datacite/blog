@@ -6,7 +6,7 @@ date: '2015-10-16'
 tags:
 - thor
 - orcid
-doi: 10.5438/C61Q-Z2K7
+doi: 10.5438/0000-042K
 published: true
 accession_number: MS-130-8806-2547
 ---

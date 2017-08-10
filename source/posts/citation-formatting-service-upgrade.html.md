@@ -10,6 +10,7 @@ tags:
 - infrastructure
 image: https://blog.datacite.org/images/2016/10/citation_formatter.png
 accession_number: MS-143-6247-2132
+doi: 10.5438/0000-04F?
 ---
 We are happy to announce the relaunch of our **DOI Citation Formatting** service, available at [http://citation.crosscite.org](http://citation.crosscite.org). The service uses the [citeproc.js](https://github.com/juris-m/citeproc-js) library by [Frank Bennett](https://twitter.com/fgbjr/)[ ](https://twitter.com/fgbjr/) together with the more than 5,000 citation styles made available by the [citationstyles.org](http://citationstyles.org) project. The service works with DOIs from [Crossref](http://www.crossref.org/), [mEDRA](https://www.medra.org/) and [ISTIC](http://www.doi.org.cn/portal/index.htm) in addition to DataCite DOIs. The main reason for the relaunch was a major upgrade of the backend, in addition we did some changes to the web user interface. For those interested on integrating this service with other systems there are three things you ought to know.READMORE
 

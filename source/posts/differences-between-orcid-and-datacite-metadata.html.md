@@ -2,12 +2,12 @@
 layout: post
 title: Differences between ORCID and DataCite Metadata
 author: mfenner
-date: 2015-09-18
+date: '2015-09-18'
 tags:
 - thor
 - orcid
 - metadata
-doi: 10.5438/BC11-CQW1
+doi: 10.5438/0000-03TB
 published: true
 accession_number: MS-122-1490-7644
 ---

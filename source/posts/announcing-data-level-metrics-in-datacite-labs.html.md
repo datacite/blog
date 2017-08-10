@@ -2,10 +2,10 @@
 layout: post
 title: Announcing Data-Level Metrics in DataCite Labs
 author: mfenner
-date: 2015-09-09
+date: '2015-09-09'
 tags:
 - data-level metrics
-doi: 10.5438/JZG5-VCQV
+doi: 10.5438/0000-06BJ
 published: true
 accession_number: MS-203-8450-9335
 ---

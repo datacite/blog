@@ -2,11 +2,11 @@
 layout: post
 title: Digging into Metadata using R
 author: mfenner
-date: 2015-08-20
+date: '2015-08-20'
 tags:
 - metadata
 - orcid
-doi: 10.5438/1HV8-2GC2
+doi: 10.5438/0000-00GG
 published: true
 accession_number: MS-16-7274-3436
 ---

@@ -7,7 +7,7 @@ tags:
 - datacite
 - metadata
 image: https://blog.datacite.org/images/2016/09/schemapreview.png
-doi: 10.5438/VQ3X-QDWT
+doi: 10.5438/0000-0991
 published: true
 accession_number: MS-297-6690-1180
 ---

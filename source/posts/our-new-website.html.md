@@ -6,7 +6,7 @@ date: '2016-06-27'
 tags:
 - datacite
 image: https://blog.datacite.org/images/2016/06/web_featured.jpg
-doi: 10.5438/QW2X-PGCY
+doi: 10.5438/0000-080~
 published: true
 accession_number: MS-256-3865-6524
 ---

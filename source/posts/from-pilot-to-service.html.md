@@ -2,12 +2,12 @@
 layout: post
 title: From Pilot to Service
 author: mfenner
-date: 2015-08-17
+date: '2015-08-17'
 tags:
 - thor
 - orcid
 - crossref
-doi: 10.5438/S8GF-0CK9
+doi: 10.5438/0000-08FC
 published: true
 accession_number: MS-271-2925-0195
 ---

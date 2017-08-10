@@ -10,7 +10,7 @@ tags:
 - impactstory
 image: https://blog.datacite.org/images/2016/04/impactstory.png
 location: Portland, OR, USA
-doi: 10.5438/C3BY-VYZS
+doi: 10.5438/0000-041J
 published: true
 accession_number: MS-129-9811-1199
 ---

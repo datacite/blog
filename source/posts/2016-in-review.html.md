@@ -7,7 +7,7 @@ tags:
 - datacite
 - featured
 image: https://blog.datacite.org/images/2016/12/year_featured.png
-doi: 10.5438/ZWSF-4Y7Y
+doi: 10.5438/0000-0AP9
 published: true
 accession_number: MS-342-5223-1623
 ---
