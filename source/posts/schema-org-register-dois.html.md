@@ -10,7 +10,7 @@ tags:
 - featured
 image: https://blog.datacite.org/images/2016/12/schema-org.png
 accession_number: MS-12
-doi: 10.5438/0000-00CC
+doi: 10.5438/0000-00cc
 ---
 Three weeks ago we started assigning DOIs to every post on this blog [@https://doi.org/10.5438/4K3M-NYVG]. The process we implemented uses a new [command line utility](https://github.com/datacite/cirneco) and integrates well with our the publishing workflow, with (almost) no extra effort compared to how we published blog posts before.
 
