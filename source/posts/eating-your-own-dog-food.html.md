@@ -9,8 +9,6 @@ tags:
 - metadata
 - featured
 image: https://blog.datacite.org/images/2016/12/230785.jpg
-doi: 10.5438/0000-01HC
-published: true
 accession_number: MS-49-3632-5083
 ---
 [Eating your own dog food](https://newrepublic.com/article/115349/dogfooding-tech-slang-working-out-glitches) is a slang term to describe that an organization should itself use the products and services it provides. For DataCite this means that we should use DOIs with appropriate metadata and strategies for long-term preservation for the scholarly outputs we produce. For the most part this is not research data, but rather technical documents such as the DataCite Schema and its documentation [-@https://doi.org/10.5438/0012].

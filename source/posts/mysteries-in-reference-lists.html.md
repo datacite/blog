@@ -7,8 +7,6 @@ tags:
 - doi
 - citation
 image: https://blog.datacite.org/images/2016/12/journal.pone.0105948.g004.png
-doi: 10.5438/0000-049T
-published: true
 accession_number: MS-137-6609-5916
 ---
 On Tuesday the journal PLOS ONE celebrated its 10th anniversary (see [blog post](http://blogs.plos.org/plos/2016/12/ten-years-of-advancing-science-as-one/) by PLOS ONE Editor-in-Chief Jörg Heber and [blog post](http://blogs.plos.org/everyone/2016/12/20/the-ride-of-your-life-one-to-the-power-of-10/) by PLOS ONE Managing Editor Iratxe Puebla and PLOS Advocacy Director Catriona MacCallum). PLOS ONE (and PLOS) have changed scholarly publishing in many ways, from a DataCite perspective probably most importantly via the data policy [updated in February 2014](http://blogs.plos.org/everyone/2014/02/24/plos-new-data-policy-public-access-data-2/) that states that

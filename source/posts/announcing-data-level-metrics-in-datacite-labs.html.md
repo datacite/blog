@@ -5,8 +5,6 @@ author: mfenner
 date: '2015-09-09'
 tags:
 - data-level metrics
-doi: 10.5438/0000-06BJ
-published: true
 accession_number: MS-203-8450-9335
 ---
 Last week Jennifer Lin shared information on the **Making Data Count** (MDC) project [on this blog](/when-counting-is-hard/). MDC is a project funded by the U.S. National Science Foundation (NSF) to design and develop metrics that track and measure data use – **data-level metrics** (DLM).READMORE

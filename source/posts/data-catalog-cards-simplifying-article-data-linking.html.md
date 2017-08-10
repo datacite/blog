@@ -6,7 +6,6 @@ date: '2016-05-13'
 tags:
 - citation
 - metadata
-doi: 10.5438/0000-044N
 accession_number: MS-132-3217-1472
 ---
 Data citation is core to DataCite's mission and DataCite is involved in several projects that try to facilitate data citation, including [THOR](https://project-thor.eu/), [Data Citation Implementation Pilot (DCIP)](https://www.force11.org/group/dcip), [Research Data Alliance (RDA)](https://rd-alliance.org/), and [COPDESS](http://www.copdess.org/). The biggest roadblock for wider data citation adoption might be insufficient incentives for individual researchers, but another major challenge is that implementing data citation is still too complicated.READMORE
@@ -38,4 +37,3 @@ Several general purpose data repositories already provide most or all of this fu
 My thinking about this topic was triggered by a conversation with [Tim Clark](http://www.massgeneral.org/neurology/researcher_profiles/clark_timothy.aspx) in the context of the DCIP project. The guest post by Dan S. Katz [@https://blog.datacite.org/to-better-understand-research-communication-we-need-a-groid-group-object-identifier] and the discussion around it was another important motivation, and a DataCite blog post from last August [@https://blog.datacite.org/reference-lists-and-tables-of-content] contains some of the ideas expressed here. Obviously this topic is of great interest to DataCite, as we hope that data catalog cards use DataCite DOIs, and that we can help both with making article/data publishing workflows easier, and with discovering data associated with an article.
 
 ## References
-

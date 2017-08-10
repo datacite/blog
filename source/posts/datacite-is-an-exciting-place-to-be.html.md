@@ -5,8 +5,6 @@ author: tcruse
 date: '2015-11-02'
 tags:
 - datacite
-doi: 10.5438/0000-05FV
-published: true
 accession_number: MS-175-2470-2537
 ---
 Recently I was at a conference and a fellow conference-goer saw on my name badge that that I worked for DataCite and they stepped back and said, “*Wow, DataCite must be a very exciting place to be right now.*” I agree.  It is very exciting and I am thrilled to be DataCite’s new Executive Director.READMORE
