@@ -1805,4 +1805,14 @@ references:
     projects like DataCite.
   URL: http://biorxiv.org/content/early/2017/01/25/103143
   DOI: 10.1101/103143
+
+- id: https://doi.org/10.25490/a97f-egyk
+  type: article-journal
+  author:
+  - literal: Data Citation Synthesis Group
+  issued:
+  - year: '2014'
+  title: Joint Declaration of Data Citation Principles
+  publisher: Force11
+  DOI: 10.25490/a97f-egyk
 ...

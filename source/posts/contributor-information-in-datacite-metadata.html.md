@@ -10,7 +10,7 @@ doi: 10.5438/0000-029=
 published: true
 accession_number: MS-73-9506-4316
 ---
-The [Force11 Joint Declaration of Data Citation Principles](https://www.force11.org/group/joint-declaration-data-citation-principles-final) highlight the importance of giving scholarly credit to all contributors:
+The Force11 Joint Declaration of Data Citation Principles [@https://doi.org/10.25490/a97f-egyk] highlight the importance of giving scholarly credit to all contributors:
 
 > Data citations should facilitate giving scholarly credit and normative and legal attribution to all contributors to the data, recognizing that a single style or mechanism of attribution may not be applicable to all data.READMORE
 
@@ -38,7 +38,7 @@ The EC-funded [THOR project](http://project-thor.eu/) that DataCite is involved 
 }
 ```
 
-To correctly identify contributors we have to use unique identifiers rather than personal names. The Data Citation Principles highlight the importance of unique identifiers for data, and I had suggested in an early draft of the principles to also mention the importance of unique identifiers for contributors.
+To correctly identify contributors we have to use unique identifiers rather than personal names. The Force11 Joint Declaration of Data Citation Principles [@https://doi.org/10.25490/a97f-egyk] highlight the importance of unique identifiers for data, and I had suggested in an early draft of the principles to also mention the importance of unique identifiers for contributors.
 
 [ORCID](http://orcid.org) identifiers are by far the most widely used identifiers in DataCite metadata – they can be found in the metadata of about [208,000 DOI names](https://search.test.datacite.org/?query=nameIdentifier%3AORCID%5C%3A*) (other identifiers such as ISNI are also supported). In addition there are self-claims of DataCite DOI names in the ORCID registry (e.g. generated via the DataCite Search & Link Service that is part of [Labs Search](https://search.test.datacite.org/)), the exact number of which we currently don't know. DataCite is working with ORCID on a frictionless exchange of these DataCite/ORCID links in both directions.
 
@@ -49,7 +49,7 @@ But how are these DataCite/ORCID links shared with other services? A good starti
 Labs Search also provides a **Cite** button that formats the metadata according to common citation styles such as **APA**, or in common exchange formats such as **BibTeX**. These formats unfortunately don't support ORCID identifiers (nothing has changed since I [wrote about this](http://blogs.plos.org/mfenner/2011/11/08/why-bibtex-ris-and-endnote-xml-will-soon-be-broken/) in 2011), so that the DataCite/ORCID links would be lost using these formats.
 
 Citeproc JSON is a modern alternative to BibTeX, RIS and similar exchange formats, and is used as the machine-readable representation to format references in the reference managers Zotero, Mendeley, Papers (and others) using [Citation Style Language](http://citationstyles.org/). Although Citeproc JSON doesn't support ORCID identifiers, it is much easier to extend than for example BibTeX, where adding ORCID identifiers without breaking the format is difficult to impossible. Last week I implemented this modified Citeproc JSON in a new DataCite service I am working on (e.g. using the example from above:
-  
+
 ```
 "author": [{
       "family": "Chamberlain",
@@ -114,7 +114,7 @@ You see one difference: CrossRef also provides the affiliation, as a list of tex
 
 Funding information is similar to affiliation in that it is something not related to the dataset itself, but to one or more contributors. We could therefore encode funding information similar to affiliation, as a `funding` field for each author. The big advantage would be that DataCite and ORCID would have consisting funding information, rather than DataCite listing funding for works, and ORCID listing funding for people, and no direct connection between the two.
 
-Lastly, we can use Citeproc JSON to describe the contributor role of the author. DataCite distinguishes between `creator` – *the main researchers involved in producing the data, or the authors of the publication, in priority order* – and `contributor` for other contributions, with a controlled vocabulary for `contributorType`. The [THOR report](https://doi.org/10.5281/ZENODO.30799 ) mentioned above goes into detail in the different contributor role vocabularies used by DataCite and ORCID (there is little overlap), and also describes [Project CRediT](http://casrai.org/CRediT), a community initiative to harmonize contributor roles across stakeholders, standardizing on 14 common roles. CRediT is closely link to [contributorship badges](https://www.mozillascience.org/contributorship-badges-a-new-project), a project started by the Mozilla Science Lab, with an example journal article using the CRediT roles and badges [here](http://gigasciencejournal.com/blog/putting-credit-hands-researchers/):
+Lastly, we can use Citeproc JSON to describe the contributor role of the author. DataCite distinguishes between `creator` – *the main researchers involved in producing the data, or the authors of the publication, in priority order* – and `contributor` for other contributions, with a controlled vocabulary for `contributorType`. The THOR report mentioned above [@https://doi.org/10.5281/ZENODO.30799] goes into detail in the different contributor role vocabularies used by DataCite and ORCID (there is little overlap), and also describes [Project CRediT](http://casrai.org/CRediT), a community initiative to harmonize contributor roles across stakeholders, standardizing on 14 common roles. CRediT is closely link to [contributorship badges](https://www.mozillascience.org/contributorship-badges-a-new-project), a project started by the Mozilla Science Lab, with an example journal article using the CRediT roles and badges [here](http://gigasciencejournal.com/blog/putting-credit-hands-researchers/):
 
 ![Contributor badges](/images/2015/10/Bildschirmfoto-2015-10-12-um-09-39-34.png)
 
@@ -151,3 +151,5 @@ Taking all the above together, the JSON to describe all this information could l
 ```
 
 The above obviously contains a lot more information than the original Citeproc JSON. And event though `affiliation`, `funding` and `CRediT` are optional fields, this goes beyond the scope of Citeproc JSON, which is used to format references, rather than as a generic bibliographic exchange format. We should therefore call this JSON differently, and I propose **Crosscite JSON**, a common JSON format to describe scholarly works used by the DOI registration agencies CrossRef and DataCite. One particular challenge will be to strike the right balance between important information that we want to share easily, vs. keeping the JSON simple and not move away too much from Citeproc JSON, which after all is already implemented in a lot of tools and workflows. While the above JSON example looks a bit scary at first, it provides the level of detail asked for by institutions and funders, and - in contrast to the Data Citation Principles - *uses a single mechanism of attribution applicable to all scholarly works, including data*.
+
+## References
