@@ -7,7 +7,7 @@ tags:
 - doi
 - content negotiation
 accession_number: MS-4444444444
-doi: 10.5438/44EH-NRW4
+doi: 10.5438/44eh-nrw4
 ---
 As our Technical Director Martin Fenner [shared a few days ago](https://blog.datacite.org/content-negotiation-update/), our new Content Resolver service is an ideal interface and information source to build integrations. Today, we want to share with you a few potential (and fancy!) integrations one could build using content negotiation and DOI metadata.
 

@@ -13,6 +13,7 @@ references:
   - year: '2015'
   title: 'The location of the citation: changing practices in how publications cite
     original data in the Dryad Digital Repository'
+  container-title: Zenodo
   publisher: Zenodo
   URL: http://zenodo.org/record/32412
   DOI: 10.5281/zenodo.32412
@@ -200,7 +201,7 @@ references:
   DOI: 10.3932/ETHZ-A-000159123
 
 - id: https://doi.org/10.5281/ZENODO.30799
-  type: no-type
+  type: article-journal
   author:
   - family: Fenner
     given: Martin
@@ -222,12 +223,13 @@ references:
   issued:
   - year: '2015'
   title: 'D2.1: Artefact, Contributor, and Organisation Relationship Data Schema'
+  container-title: Zenodo
   publisher: Zenodo
   URL: https://doi.org/10.5281/ZENODO.30799
   DOI: 10.5281/ZENODO.30799
 
 - id: https://doi.org/10.6084/M9.FIGSHARE.1314859
-  type: no-type
+  type: article-journal
   author:
   - family: Bilder
     given: Geoffrey
@@ -242,13 +244,14 @@ references:
   URL: https://doi.org/10.6084/M9.FIGSHARE.1314859
 
 - id: https://doi.org/10.5281/zenodo.34671
-  type: no-type
+  type: article-journal
   author:
   - family: Rueda
     given: Laura
   issued:
   - year: '2015'
   title: DataCite Profiles and ORCID Auto-Update, an Introduction to DataCite
+  container-title: Zenodo
   publisher: Zenodo
   URL: https://doi.org/10.5281/zenodo.34671
 
@@ -1810,9 +1813,13 @@ references:
   type: article-journal
   author:
   - literal: Data Citation Synthesis Group
+  editor:
+  - family: Martone
+    given: Maryann
   issued:
   - year: '2014'
   title: Joint Declaration of Data Citation Principles
+  container-title: Force11
   publisher: Force11
   DOI: 10.25490/a97f-egyk
 ...
