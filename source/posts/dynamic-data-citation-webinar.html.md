@@ -9,9 +9,8 @@ tags:
 - citation
 - thor
 image: https://blog.datacite.org/images/2016/07/dynamic-data.png
-doi: 10.5438/0000-0A3V
-published: true
 accession_number: MS-323-6723-4859
+doi: 10.5438/y4ks-ksbc
 ---
 On July 12, 2016, DataCite invited [Andreas Rauber](http://www.ifs.tuwien.ac.at/~andi/) to present the recommendations for dynamic data citation of the [RDA Data Citation Working Group](https://rd-alliance.org/groups/data-citation-wg.html) in a webinar.READMORE
 
