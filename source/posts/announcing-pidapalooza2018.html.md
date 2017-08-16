@@ -8,7 +8,6 @@ tags:
 - conference
 accession_number: MS-241-6591-1682
 ---
-
 [PIDapalooza](https://doi.org/10.5438/11.0002) is back, by popular demand! We’re building on the the best of the [inaugural PIDapalooza](https://scholarlykitchen.sspnet.org/2016/11/21/pidapalooza-revenge-of-the-nerds/) and organizing two days packed with discussions, demos, informal and interactive sessions, updates, talks by leading PID innovators, and more. There will be lots of opportunities to network - and to learn from and engage with PID enthusiasts from around the world. All in a fun, relaxed, and welcoming atmosphere!
 
 We’re looking for your PIDeas! Want to update the community on your current PID projects? Brainstorm new ones? Bring together experts with different perspectives on PID-related topics? Find out what’s new in PID-land? Share your experiences of creating, innovating, or communicating about PIDs? We welcome your [proposals](https://goo.gl/forms/UvBUgMhnRbfSac1s1) for energetic, exciting, and thoughtful rapid-fire sessions related to our eight festival themes :
