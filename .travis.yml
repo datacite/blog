@@ -36,7 +36,7 @@ before_script:
   - cd vendor && npm install
   - cd ..
 
-  - bundle exec cirneco doi name source/posts;
+#  - bundle exec cirneco doi name source/posts;
 
 script:
   - bundle exec middleman build -e $RACK_ENV
