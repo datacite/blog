@@ -71,16 +71,16 @@ notifications:
   slack: $SLACK_TOKEN
   email: false
 
-after_deploy:
-  - bundle exec cirneco doi $CIRNECO_CMD https://${AWS_BUCKET}
-
-  - git config --global user.email "${GIT_EMAIL}"
-  - git config --global user.name "${GIT_NAME}"
-  - git config --global push.default simple
-  - git remote add upstream https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
-
-  - git add source/.
-  - if ! [ -z "$(git status --untracked-files=no --porcelain)" ]; then
-      git commit -m 'Committing files changed by cirneco';
-      git push upstream HEAD:$TRAVIS_BRANCH;
-    fi
+# after_deploy:
+#   - bundle exec cirneco doi $CIRNECO_CMD https://${AWS_BUCKET}
+#
+#   - git config --global user.email "${GIT_EMAIL}"
+#   - git config --global user.name "${GIT_NAME}"
+#   - git config --global push.default simple
+#   - git remote add upstream https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
+#
+#   - git add source/.
+#   - if ! [ -z "$(git status --untracked-files=no --porcelain)" ]; then
+#       git commit -m 'Committing files changed by cirneco';
+#       git push upstream HEAD:$TRAVIS_BRANCH;
+#     fi
