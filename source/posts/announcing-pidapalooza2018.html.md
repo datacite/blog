@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing PIDapalooza 2018 - the open festival for persistent identifiers!
+title: 'Announcing PIDapalooza 2018 - the open festival for persistent identifiers!'
 author: tcruse
 date: '2018-08-16'
 tags:
