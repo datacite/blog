@@ -9,6 +9,8 @@ tags:
 accession_number: MS-791-1498
 ---
 
+*Cross-posted from the [Make Data Count blog](https://makedatacount.org/2017/08/18/counter-code-of-practice-for-data-usage-draft-update/).*
+
 As a research and scholarly communications community, we value methods to gauge the impact of research outputs, and we do this in the forms of citations and downloads. But, until now this has been limited to traditional journal publications, and scholarly research is much more than an article. Foremost, data play a major role in the research process and deserve to be valued as a first-class scholarly output. But to do so, an infrastructure for measure the impact of research data needs to be developed that responds to the community’s needs. The first step is developing a measurement standard for data usage.
 
 Counting data is much harder than journal counting pdf articles. Data are complex objects with a variety of file formats, numerous versions, and one dataset can be part of or derived from another dataset. Earlier this year, COUNTER (represented by Paul Needham) and Make Data Count  team members  (Martin Fenner (DataCite), Matt Jones (DataONE), John Chodacki and Daniella Lowenberg (CDL)) met for two days to talk through the use cases, definitions, and hurdles in properly counting data usage and to put together the first iteration of the *COUNTER Code of Practice for Data Usage*.
