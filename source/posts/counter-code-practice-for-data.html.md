@@ -6,8 +6,8 @@ date: '2017-08-23'
 tags:
 - data citation
 - counter
+accession_number: MS-791-1498
 ---
-
 
 As a research and scholarly communications community, we value methods to gauge the impact of research outputs, and we do this in the forms of citations and downloads. But, until now this has been limited to traditional journal publications, and scholarly research is much more than an article. Foremost, data play a major role in the research process and deserve to be valued as a first-class scholarly output. But to do so, an infrastructure for measure the impact of research data needs to be developed that responds to the community’s needs. The first step is developing a measurement standard for data usage.
 
