@@ -2,7 +2,7 @@
 <script>
     var disqus_config = function () {
         this.page.url = '<%= ENV['SITE_URL'] + current_page.url %>';
-        this.page.identifier = '<%= current_page.data.doi ? "https://doi.org/" + current_page.data.doi : 1 %>';
+        this.page.identifier = '<%= ENV['SITE_URL'] + current_page.url %>';
     };
     (function() {
         var d = document, s = d.createElement('script');
