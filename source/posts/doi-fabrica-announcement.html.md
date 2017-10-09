@@ -1,4 +1,20 @@
+---
+layout: post
+title: DOI Fabrica
+author: kgarza
+date: '2017-10-10'
+tags:
+- blog
+- doi
+- members
+- datacite
+doi: 
+---
+
+
 ## Introduction
+
+DataCite DOI Fabrica is a one-stop service to find, create, manage, connect and track DOIs for your organization.
 
 ### Amount of work included
 - ToDo: add plots of commits.
