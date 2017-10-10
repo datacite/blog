@@ -11,8 +11,8 @@ tags:
 doi: 
 ---
 
+![DataCite DOI Fabrica](https://imgur.com/a/jz4NL)
 
-## Introduction
 
 DataCite DOI Fabrica is a one-stop application to find, create, manage, connect and track DOIs for your organization.
 
