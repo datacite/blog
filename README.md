@@ -15,7 +15,7 @@ The Blog will take care of formatting, sourcing images, spacing, etc by itself. 
 
 Here it is a quick video to show you how it works:
 
-[![How to create a Blog post](https://img.youtube.com/vi/HPuYi-h7XGI/3.jpg)](https://www.youtube.com/watch?v=HPuYi-h7XGI "How to create a Blog post")
+[![How to create a Blog post](https://img.youtube.com/vi/HPuYi-h7XGI/0.jpg)](https://www.youtube.com/watch?v=HPuYi-h7XGI "How to create a Blog post")
 
 
 ### How to do your own formatting
