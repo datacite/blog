@@ -5,13 +5,17 @@
 
 ### How to create a Blog post
 
-Create a blog entry is really simple. there are 3 simple steps.
+Create a blog entry is really simple. There are 3 simple steps:
 
-1. First click [**here**](https://github.com/datacite/blog/tree/master/source/posts) to go to the `/posts`  and click on **Create new file**.
-2. Then type your blog post as it were a simple text file.
-3. When you finish just click **Commit new file**.
+1. First click [**here**](https://github.com/datacite/blog/tree/master/source/posts) to go to the `/posts`  and click the **Create new file** button.
+2. Then type your blog post as it were a simple text file and give it a name.
+3. When you finish just click the **Commit new file** button.
 
 The Blog will take care of formatting, sourcing images, spacing, etc by itself. Wait a few minutes and see it live.
+
+Here it is a quick video to show you how it works:
+
+[![How to create a Blog post](https://img.youtube.com/vi/HPuYi-h7XGI/3.jpg)](https://www.youtube.com/watch?v=HPuYi-h7XGI "How to create a Blog post")
 
 
 ### How to do your own formatting
