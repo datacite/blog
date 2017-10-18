@@ -40,7 +40,7 @@ All functionality relevant for DOI registration (including management of data ce
 ### [Link checker reports](https://github.com/datacite/datacite/issues/11)
 *As a national library, I want services that check DOI resolution (broken links), so I can keep my responsibilities of persistence.*
 
-![](/images/2017/10/link-checker.png)
+![](/images/2017/10/link-checking.png)
 
 DOI Fabrica includes a simple link checker that is particularly useful during DOI registration. A more robust link checker is on our [roadmap](https://www.datacite.org/roadmap.html) for the coming months.
 
