@@ -40,22 +40,22 @@ All functionality relevant for DOI registration (including management of data ce
 ### [Link checker reports](https://github.com/datacite/datacite/issues/11)
 *As a national library, I want services that check DOI resolution (broken links), so I can keep my responsibilities of persistence.*
 
-![Link checker](/images/2017/10/link-checker.png)
+![](/images/2017/10/link-checker.png)
 
 DOI Fabrica includes a simple link checker that is particularly useful during DOI registration. A more robust link checker is on our [roadmap](https://www.datacite.org/roadmap.html) for the coming months.
 
 ### [Reporting tool](https://github.com/datacite/datacite/issues/52)
 *As a member, I want a reporting tool, so that I can stay informed about my DOIs.*
 
-![Stats for members](/images/2017/10/stats.png)
+![](/images/2017/10/stats.png)
 
 While future DOI Fabrica releases will provide much more detailed reporting, with this release members will see a dashboard that summarizes the numbers of data centers (clients) they work with, and the number of DOIs registered per year.
 
 ### [DOIs per discipline](https://github.com/datacite/datacite/issues/68)
 *As a national library, I want to see how many datasets exist per discipline, so that I can decide about resourcing.*
 
-![re3data](/images/2017/10/re3data.png)
+![](/images/2017/10/re3data.png)
 
 We are still a long way from understanding how DOIs for research data exist per discipline, we took an important first step by enabling the linking of data centers to [re3data](https://www.re3data.org), allowing us to automatically pull in information about the disciplines covered in any particular repository.
 
-With so many changes in DOI Fabrica we couldn’t include everything we wanted in the first release, and one functionality in particular has to wait for the next release in six weeks: DOI registration. We need to first address technical dependencies before this can be implemented, and rather than delaying the first release of DOI Fabrica, we decided to focus on functionality important for our members, and to add DOI registration via XML upload and web form in the next release. We look forward to your feedback and to suggestions on how we can improve DOI Fabrica.
+With so many changes in DOI Fabrica we couldn’t include everything we wanted in the first release, and one functionality in particular has to wait for the next release in six weeks: DOI registration. We need to first address technical dependencies before this can be implemented, and rather than delaying the first release of DOI Fabrica, we decided to focus on functionality important for our members, and to add DOI registration via XML upload and web form in the next release. We look forward to your feedback and to suggestions on how we can improve [DOI Fabrica](https://doi.datacite.org).
