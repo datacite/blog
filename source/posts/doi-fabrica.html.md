@@ -56,6 +56,6 @@ While future DOI Fabrica releases will provide much more detailed reporting, wit
 
 ![](/images/2017/10/re3data.png)
 
-We are still a long way from understanding how DOIs for research data exist per discipline, we took an important first step by enabling the linking of data centers to [re3data](https://www.re3data.org), allowing us to automatically pull in information about the disciplines covered in any particular repository.
+We are still a long way from understanding how many DOIs for research data exist per discipline, but we took an important first step by enabling the linking of data centers to [re3data](https://www.re3data.org), allowing us to automatically pull in information about the disciplines covered in any particular repository.
 
 With so many changes in DOI Fabrica we couldn’t include everything we wanted in the first release, and one functionality in particular has to wait for the next release in six weeks: DOI registration. We need to first address technical dependencies before this can be implemented, and rather than delaying the first release of DOI Fabrica, we decided to focus on functionality important for our members, and to add DOI registration via XML upload and web form in the next release. We look forward to your feedback and to suggestions on how we can improve [DOI Fabrica](https://doi.datacite.org).
