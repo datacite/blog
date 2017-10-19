@@ -28,7 +28,7 @@ As for the vocabulary, the DataCite Metadata Schema has never been widely used f
 
 Schema.org is widely adopted, not the least because the initiative was started by Google, Microsoft, Yahoo, and Yandex to help with indexing web pages for search. Schema.org metadata can be embedded using microdata, RDFa or JSON-LD.
 
-DataCite has recently added support for schema.org in JSON-LD format to [DOI content negotiation](http://citation.crosscite.org/docs.html), for example `curl -LH "Accept: application/ld+json" https://doi.org/10.5438/4K3M-NYVG`. Schema.org in JSON-LD is also embedded in search results on [DataCite Search](https://search.datacite.org) using the tag `<script type="application/ld+json">`.
+DataCite has recently added support for schema.org in JSON-LD format to [DOI content negotiation](http://citation.crosscite.org/docs.html), for example `curl -LH "Accept: application/vnd.schemaorg.ld+json" https://doi.org/10.5438/4K3M-NYVG`. Schema.org in JSON-LD is also embedded in search results on [DataCite Search](https://search.datacite.org) using the tag `<script type="application/vnd.schemaorg.ld+json">`.
 
 The DataCite blog now uses schema.org in JSON-LD format to embed metadata in machine-readable format, for example for the blog post mentioned earlier:
 
