@@ -18,7 +18,6 @@ The DataCite [Metadata Schema 4.1](http://schema.datacite.org/meta/kernel-4.1/) 
 The 4.1 update is backward compatible and introduces a number of schema and documentation [@https://doi.org/10.5438/0014] enhancements to make software citation easier and clearer. These include:
 
 * Two new relation types
-
   * (HasVersion, IsVersionOf)
     * **HasVersion**: The registered resource such as a software package or code repository has a versioned instance (indicates A
       has the instance B) e.g. it may be used to relate an un-versioned code repository to one of its specific software versions.
