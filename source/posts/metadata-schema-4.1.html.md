@@ -11,8 +11,7 @@ image: https://blog.datacite.org/images/2017/10/matrix.png
 accession_number: MS-745257251
 ---
 
-The DataCite Metadata Schema 4.1 has been released today. If the 4.1 release has a theme, it is support for software citation. The DataCite Metadata Working Group addressed this topic in response to increasing interest within the community, including the
-publication of the Force11 Software Citation Principles [@https://doi.org/10.7717/peerj-cs.86] as well as a set of guidelines prepared by the UK Science and Technology Facilities Council for working with the DataCite schema [@http://purl.org/net/epubs/work/24058274].READMORE
+The DataCite [Metadata Schema 4.1](http://schema.datacite.org/meta/kernel-4.1/) has been released today. If the 4.1 release has a theme, it is support for software citation. The DataCite Metadata Working Group addressed this topic in response to increasing interest within the community, including the publication of the Force11 Software Citation Principles [@https://doi.org/10.7717/peerj-cs.86] as well as a set of guidelines prepared by the UK Science and Technology Facilities Council for working with the DataCite schema [@http://purl.org/net/epubs/work/24058274].READMORE
 
 ![*Image available from [https://pixabay.com/en/matrix-heart-love-communication-2502935](https://pixabay.com/en/matrix-heart-love-communication-2502935). Public Domain Dedication (CC0).*](/images/2017/10/matrix.png)
 
@@ -37,7 +36,8 @@ The 4.1 update is backward compatible and introduces a number of schema and docu
 
 While the DataCite metadata schema now supports software registration, and provides properties to include version information
 for items being registered, it is not to be used as a version control or source code control system. There are many tools
-widely available that are ideally suited for that purpose. Instead, DataCite facilitates *software discovery*, *sharing* and *citation*.
+widely available that are ideally suited for that purpose. Instead, DataCite facilitates *software discovery*, *sharing*
+and *citation*.
 
 If you have any specific questions about the new schema please send us a note at [mailto:support@datacite.org](support@datacite.org).
 
