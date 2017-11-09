@@ -1,0 +1,53 @@
+
+---
+layout: post
+title: Three new features that DOI Fabrica brings to simplify your DOI management
+author: kgarza
+date: '2017-11-09'
+tags:
+- blog
+- Fabrica
+---
+
+
+
+# Three new features that DOI Fabrica brings to simplify your DOI management.
+
+
+
+November has arrived and it has brought a new set of features and improvements to DOI Fabrica. DOI Fabrica is the modernized version for the DataCite Metadata Store (MDS) web frontend. Its the one place for DataCite services users to create and find, connect and track every single DOI from their organization. We're constantly improving DOI Fabrica to help your organization to register and manage DOIs and metadata. In this release, there are 2 new features and a major improvement.
+
+
+Before heading to the new features, we are glad to inform you that DOI Fabrica has now 100 users registered. The uptake from DataCite providers has been amazing and we hope the new features help you to keep registering and take advantage of all the functionality in DOI Fabrica. If you are a user of DataCite services and still have not been able to access DOI Fabrica please do so. Just get an ORCID ID and contact your DataCite DOI regional provider to get your account sorted. 
+
+
+## Introducing an improved workflow to assign roles to DOI Fabrica user
+
+
+It never was so easy to assign roles to your users in DOI Fabrica. Thanks for your feedback we have simplified the how admins can assign a role to an existing user. Just type the ORCID ID of the user you want to add, confirm their name, assign their role and parent organization. All on one single page. You will find this process clearly documented on our [support website](https://support.datacite.org/v1.1/docs/datacite-doi-fabrica#section-how-to-register-as-doi-fabrica-user).
+
+![New workflow to assign roles to users.](https://files.readme.io/b23b589-Bildschirmfoto_2017-11-06_um_23.17.06.png)
+
+
+## Clean you clients-base by deleting clients
+
+
+There would be the time in which you need to delete a client from your organization. Wouldn’t be cool if you can do it with a single button? Well, now you can do it with a single button. Provided that one of your clients has no DOIs registered, an admin can delete by simply click a button. Take a look at our [documentation for further details](https://support.datacite.org/v1.1/docs/datacite-doi-fabrica-for-providers#section-delete-client-account).
+
+
+
+## Transfer DOIs between clients
+
+
+In the past transferring DOIs between clients used to be a complicated task, that required double checks and phone authorization. Now you can do it with a simple click, provided that you are a Provider administrator you can transfer DOIs between your clients by simply click a button. Take a look at our [documentation for further details](https://support.datacite.org/v1.1/docs/datacite-doi-fabrica-for-providers#section-transfer-one-dois-to-another-client).
+
+
+For more details, check out the webinar below with loads of more information about this release and *DEMOS*  you may have missed and our [Roadmap](https://www.datacite.org/roadmap.html) for what’s coming next!
+
+[![DataCite Webinar: DOI Fabrica Update](https://img.youtube.com/vi/_O5tNhiX1Rk/0.jpg)](https://www.youtube.com/watch?v=_O5tNhiX1Rk “DataCite Webinar: DOI Fabrica Update")
+
+
+
+
+
+
