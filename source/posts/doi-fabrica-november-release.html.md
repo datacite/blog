@@ -3,8 +3,10 @@ layout: post
 title: Three new DOI Fabrica features to simplify account management
 author: kgarza
 date: '2017-11-09'
+url: https://files.readme.io/b23b589-Bildschirmfoto_2017-11-06_um_23.17.06.png
 tags:
 - doi fabrica
+- feature
 ---
 
 Last month month we launched [DOI Fabrica](https://blog.datacite.org/doi-fabrica/), the modernized version of the DataCite Metadata Store (MDS) web frontend. It is the one place for [DataCite providers](https://support.datacite.org/docs/datacite-doi-fabrica#section-what-is-the-difference-between-members-providers-and-clients) and their clients to create, find, connect and track every single DOI from their organization.
@@ -17,13 +19,13 @@ Before heading to the new features, we are glad to inform you that DOI Fabrica h
 
 The initial workflow for assigning roles to your users in DOI Fabrica was too complicated, and potentially confusing. Thanks to your feedback we have now simplified how administrators can associate a user with a provider or client, and assign the appropriate role. Just type the ORCID ID of the user you want to add, confirm their name, assign their role and parent organization -- all on one single page. You will find this process clearly documented on our [support website](https://support.datacite.org/v1.1/docs/datacite-doi-fabrica#section-how-to-register-as-doi-fabrica-user).
 
-![New workflow to assign roles to users.](https://files.readme.io/b23b589-Bildschirmfoto_2017-11-06_um_23.17.06.png)
+![ ](https://files.readme.io/b23b589-Bildschirmfoto_2017-11-06_um_23.17.06.png)
 
 ## Clean up your client list by deleting no longer needed clients
 
 There will be times when you want to delete a client account. Wouldn’t it be cool if you can do it with a single button? Well, now you can. Provided that the client has no DOIs registered, an admin can delete the client by simply clicking a button (and confirming in the screen that follows).
 
-![Confirm dialog for deleting clients.](https://files.readme.io/f5cffb2-Provider_DeleteClient_Account.PNG)
+![ ](https://files.readme.io/f5cffb2-Provider_DeleteClient_Account.PNG)
 
 Take a look at our [documentation for further details](https://support.datacite.org/v1.1/docs/datacite-doi-fabrica-for-providers#section-delete-client-account).
 
