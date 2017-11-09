@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Three new features that DOI Fabrica to simplify your DOI management
+title: Three new DOI Fabrica features to simplify your DOI management
 author: kgarza
 date: '2017-11-09'
 tags:
