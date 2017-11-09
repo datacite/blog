@@ -18,6 +18,23 @@ Here it is a quick video to show you how it works:
 [![How to create a Blog post](https://img.youtube.com/vi/HPuYi-h7XGI/0.jpg)](https://www.youtube.com/watch?v=HPuYi-h7XGI "How to create a Blog post")
 
 
+### Metadata template
+
+To make the blogpost to show correctly you can copy the template below and added to the top part of your blogpost. Just change the title, author, date and tags.
+
+``` 
+---
+layout: post
+title: Your Fancy title
+author: Your github name
+date: The date
+tags: 
+- topic
+- topic
+---
+```
+
+
 ### How to do your own formatting
 
 
