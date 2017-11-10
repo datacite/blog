@@ -18,7 +18,6 @@ In September, the MDC team sat down and mapped out the project plan for our two-
 This fall the MDC team also spent time traveling to several [conferences](https://makedatacount.org/mdc-webinar-20170913/) to gather early adopters and gauge interest in data usage metrics. Many energetic and thoughtful discussions occurred regarding what the MDC-envisioned full ecosystem of data usage metrics will look like and how various stakeholders can contribute. The main takeaway: there is a need for a comprehensive and standardized way to count and display data level metrics.
 
 ![](https://makedatacount.files.wordpress.com/2017/11/mdc.png?w=712)
-![](https://makedatacount.files.wordpress.com/2017/11/mdc.png?w=712)
 
 Coming up, representatives from the MDC team will be (and hope you can join us) at:
 
@@ -47,4 +46,4 @@ All of the MDC project work can be tracked on [Github](https://github.com/CDLUC3
 
 *Researchers*: We want to give you credit for your research data. We are always looking for beta testers of our system and would appreciate your input. Please get in touch if you or your labs are interested in getting involved.
 
-Join our [mailing list](http://eepurl.com/c-HzHj) & follow us on [Twitter](https://twitter.com/makedatacount) (@MakeDataCount)
+Join our [mailing list](http://eepurl.com/c-HzHj) & follow us on [Twitter](https://twitter.com/makedatacount) (MakeDataCount)
