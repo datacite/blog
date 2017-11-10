@@ -9,6 +9,7 @@ tags:
 - featured
 image: https://makedatacount.files.wordpress.com/2017/11/mdc.png?w=712
 ---
+*This blog post by Daniella Lowenberg was cross-posted from the [Make Data Count blog](https://makedatacount.org/2017/11/09/make-data-count-update-november-2017/).*
 
 The Make Data Count (MDC) project is moving ahead with full force and the team wanted to take a moment to update the research stakeholder community on our project resources and roadmap.READMORE
 
