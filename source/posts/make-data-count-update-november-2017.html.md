@@ -7,9 +7,10 @@ tags:
 - mdc
 - data-level metrics
 - featured
+image: https://makedatacount.files.wordpress.com/2017/11/mdc.png?w=712
 ---
 
-The Make Data Count (MDC) project is moving ahead with full force and the team wanted to take a moment to update the research stakeholder community on our project resources and roadmap.
+The Make Data Count (MDC) project is moving ahead with full force and the team wanted to take a moment to update the research stakeholder community on our project resources and roadmap.READMORE
 
 In September, the MDC team sat down and mapped out the project plan for our two-year grant. Working in an agile method, we defined a “minimum viable product” (mvp) that comprises a full ecosystem of data usage and citation metrics flowing in and out of the technical hub and displayed on the DataONE repositories, Dash (California Digital Library Data Publishing Platform), and DataCite by summer of 2018.
 
