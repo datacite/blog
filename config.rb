@@ -28,7 +28,7 @@ end
 
 # Use sprockets for asset compilation
 activate :sprockets
-sprockets.append_path File.join(root, 'vendor', 'bower_components')
+sprockets.append_path File.join(root, 'vendor', 'node_components')
 
 # Set markdown template engine
 set :markdown_engine, :pandoc
