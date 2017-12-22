@@ -8,6 +8,9 @@
 /.sass-cache
 /.cache
 
+# Ignore npm
+/vendor/node_modules
+
 # Ignore .DS_store file
 .DS_Store
 
