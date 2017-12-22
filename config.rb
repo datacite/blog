@@ -26,10 +26,6 @@ activate :data_source do |c|
   ]
 end
 
-# Use sprockets for asset compilation
-activate :sprockets
-sprockets.append_path File.join(root, 'vendor', 'node_components')
-
 # Set markdown template engine
 set :markdown_engine, :pandoc
 set :markdown, smartypants: true,
