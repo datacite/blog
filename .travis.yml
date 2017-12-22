@@ -30,10 +30,6 @@ before_install:
 install:
   - bundle install
 
-before_script:
-  - cd vendor && npm install
-  - cd ..
-
 script:
   - bundle exec middleman build -e $RACK_ENV --verbose
   - bundle exec htmlproofer --http-status-ignore "999" --allow-hash-href --only-4xx ./build || true
