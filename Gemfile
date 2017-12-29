@@ -23,6 +23,3 @@ gem 'nokogiri', '~> 1.8.1'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
-
-# For DOI registration and summary
-gem 'cirneco', '~> 0.9'
