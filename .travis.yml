@@ -14,13 +14,11 @@ before_install:
       ARCHIVE_BUCKET="archive.datacite.org";
       RACK_ENV="production";
       cp .env.master .env;
-    elif [ "$TRAVIS_BRANCH" == "master" ]; then
+    else
       AWS_BUCKET="blog.test.datacite.org";
       ARCHIVE_BUCKET="archive.test.datacite.org";
       RACK_ENV="stage";
       cp .env.stage .env;
-    else
-      exit 1;
     fi
 
   - wget https://github.com/jgm/pandoc/releases/download/1.15.2/pandoc-1.15.2-1-amd64.deb
@@ -45,7 +43,7 @@ deploy:
     acl: public_read
     cache_control: "max-age=31536000"
     on:
-      all_branches: true
+      branch: master
   # - provider: s3
   #   access_key_id: $AWS_ACCESS_KEY
   #   secret_access_key: $AWS_SECRET_KEY
