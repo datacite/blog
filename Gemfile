@@ -23,3 +23,6 @@ gem 'nokogiri', '~> 1.8.1'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
+
+# For scholary metadata formatting
+gem 'bergamasco', '~> 0.3'
