@@ -1,11 +1,9 @@
 language: ruby
 rvm:
 - 2.4.1
+sudo: required
 
 cache: bundler
-cache:
-  directories:
-  - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 
 before_install:
   - set -e
@@ -18,6 +16,7 @@ before_install:
       AWS_BUCKET="blog.test.datacite.org";
       ARCHIVE_BUCKET="archive.test.datacite.org";
       RACK_ENV="stage";
+      CLOUDFRONT_DISTRIBUTION_ID=$CLOUDFRONT_DISTRIBUTION_ID_TEST;
       cp .env.stage .env;
     else
       exit 1;
@@ -29,6 +28,7 @@ before_install:
 
 install:
   - bundle install
+  - sudo pip install awscli
 
 script:
   - bundle exec middleman build -e $RACK_ENV --verbose
@@ -45,34 +45,16 @@ deploy:
     acl: public_read
     cache_control: "max-age=31536000"
     on:
-      all_branches: true
-  # - provider: s3
-  #   access_key_id: $AWS_ACCESS_KEY
-  #   secret_access_key: $AWS_SECRET_KEY
-  #   bucket: $ARCHIVE_BUCKET
-  #   region: eu-west-1
-  #   skip_cleanup: true
-  #   local_dir: source/posts
-  #   upload-dir: blog
-  #   acl: public_read
-  #   cache_control: "max-age=31536000"
-  #   on:
-  #     all_branches: true
+      branch: master
+
+after_deploy:
+  - export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY
+  - export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_KEY
+  # Allow `awscli` to make requests to CloudFront.
+  - aws configure set preview.cloudfront true
+  # Invalidate every object in the targeted distribution.
+  - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
 
 notifications:
   slack: $SLACK_TOKEN
   email: false
-
-# after_deploy:
-#   - bundle exec cirneco doi $CIRNECO_CMD https://${AWS_BUCKET}
-#
-#   - git config --global user.email "${GIT_EMAIL}"
-#   - git config --global user.name "${GIT_NAME}"
-#   - git config --global push.default simple
-#   - git remote add upstream https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/datacite/blog.git
-#
-#   - git add source/.
-#   - if ! [ -z "$(git status --untracked-files=no --porcelain)" ]; then
-#       git commit -m 'Committing files changed by cirneco';
-#       git push upstream HEAD:$TRAVIS_BRANCH;
-#     fi
