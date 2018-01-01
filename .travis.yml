@@ -9,12 +9,10 @@ before_install:
   - set -e
   - if [ "${TRAVIS_TAG?}" ]; then
       AWS_BUCKET="blog.datacite.org";
-      ARCHIVE_BUCKET="archive.datacite.org";
       RACK_ENV="production";
       cp .env.master .env;
     elif [ "$TRAVIS_BRANCH" == "master" ]; then
       AWS_BUCKET="blog.test.datacite.org";
-      ARCHIVE_BUCKET="archive.test.datacite.org";
       RACK_ENV="stage";
       CLOUDFRONT_DISTRIBUTION_ID=$CLOUDFRONT_DISTRIBUTION_ID_TEST;
       cp .env.stage .env;
@@ -36,7 +34,6 @@ script:
   - if [ "${AUTO_DEPLOY}" == "false"]; then
       exit;
     fi
-
 
 deploy:
   - provider: s3
