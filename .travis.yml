@@ -19,7 +19,7 @@ before_install:
       CLOUDFRONT_DISTRIBUTION_ID=$CLOUDFRONT_DISTRIBUTION_ID_TEST;
       cp .env.stage .env;
     else
-      exit 1;
+      AUTO_DEPLOY=false;
     fi
 
   - wget https://github.com/jgm/pandoc/releases/download/1.15.2/pandoc-1.15.2-1-amd64.deb
@@ -33,6 +33,10 @@ install:
 script:
   - bundle exec middleman build -e $RACK_ENV --verbose
   - bundle exec htmlproofer --http-status-ignore "999" --allow-hash-href --only-4xx ./build || true
+  - if [ "${AUTO_DEPLOY}" == "false"]; then
+      exit;
+    fi
+
 
 deploy:
   - provider: s3
