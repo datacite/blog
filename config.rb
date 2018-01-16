@@ -109,13 +109,13 @@ helpers do
         "@id" => "https://doi.org/" + data.site.doi,
         "name" => data.site.title }
       has_part = nil
-      xmlname = File.basename(article.path, '.html') + ".xml"
-
-      encoding = {
-        "@type" => "MediaObject",
-        "@id" => data.site.url + "/" + File.basename(article.path, '.html') + "/" + xmlname,
-        "fileFormat" => "application/xml"
-      }
+      # xmlname = File.basename(article.path, '.html') + ".xml"
+      #
+      # encoding = {
+      #   "@type" => "MediaObject",
+      #   "@id" => data.site.url + "/" + File.basename(article.path, '.html') + "/" + xmlname,
+      #   "fileFormat" => "application/xml"
+      # }
     else
       description = data.site.description
       date_modified = blog.articles.map { |a| a.date }.max.to_date.iso8601

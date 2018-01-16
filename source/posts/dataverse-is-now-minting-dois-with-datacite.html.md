@@ -7,7 +7,6 @@ tags:
 - doi
 location: Cambridge, MA, USA
 doi: 10.5438/bmmq-yce9
-published: true
 accession_number: MS-125-0400-5006
 ---
 With the release of [Dataverse 4.3](https://github.com/IQSS/dataverse/releases/tag/v4.3) in mid-March, anyone installing or updating to the most recent version of the Dataverse software will be able to mint DOIs directly through the [DataCite Metadata Store API](https://mds.datacite.org/static/apidoc).READMORE This functionality was originally announced at DataCite’s General Assembly and Strategy Meeting February 2016 - Amsterdam (Netherlands) and according to Patricia Cruse, Executive Director, DataCite:

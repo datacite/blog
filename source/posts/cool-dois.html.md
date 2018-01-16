@@ -7,7 +7,6 @@ tags:
 - doi
 - featured
 image: https://blog.datacite.org/images/2016/12/cool-dois.png
-published: false
 accession_number: MS-55-5135-1980
 doi: 10.5438/55e5-t5c0
 ---

@@ -2,12 +2,13 @@
 layout: false
 directory_index: false
 ---
-<% pages = sitemap.resources.find_all{|p| p.source_file.match(/\.html/) } %>
+<% pages = sitemap.resources.select { |p| p.source_file.match(/\.html/) } %>
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <% pages.each do |p| %>
   <url>
-    <loc><%= ENV['SITE_URL'] %>/<%=p.destination_path.gsub('/index.html','/')%></loc>
+    <loc><%= ENV['SITE_URL'] %>/<%= p.destination_path.gsub('/index.html','/') %></loc>
+    <lastmod><%= p.data.date %></lastmod>
     <changefreq>monthly</changefreq>
   </url>
 <% end %>
