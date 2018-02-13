@@ -7,9 +7,15 @@ tags:
 - re3data
 ---
 
-By offering detailed information on more than 2,000 research data repositories, [re3data](https://www.re3data.org/search) has become the most comprehensive source of reference for research data infrastructures globally.
+By offering detailed information on more than 2,000 research data repositories, [re3data](https://www.re3data.org/search) has become the most comprehensive source
+of reference for research data infrastructures globally.
 
-Through the development and advocacy of a framework for discipline-specific research data management, Science Europe is looking at the minimum requirements for research data repositories that can be used by funders and research organizations. These can be used in conjunction with [Domain Data Protocols](http://www.scienceeurope.org/wp-content/uploads/2018/01/SE_Guidance_Document_RDMPs.pdf) that individual researchers from different scientific communities will be able to use as templates for their data management plans.
+Through the development and advocacy of a framework for discipline-specific
+research data management, Science Europe is looking at the minimum requirements
+for research data repositories that can be used by funders and research organizations.
+These can be used in conjunction with [Domain Data Protocols](http://www.scienceeurope.org/wp-content/uploads/2018/01/SE_Guidance_Document_RDMPs.pdf)
+that individual researchers from different scientific communities will be able
+to use as templates for their data management plans.
 
 At its recent workshop in Brussels, Science Europe's Working Group on Research Data outlined their first results with requirements that emphasize persistent identifiers, metadata, data access and use, machine readability, and long-term preservation. Next steps include building consensus on the approach and requirements as well as implementation with registries, [suggesting re3data](http://www.scienceeurope.org/wp-content/uploads/2018/02/8_SE-RDM-WS-Jan-2018_Trusted_Repositories_Rieck.pdf).
 
