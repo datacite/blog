@@ -11,6 +11,7 @@ tags:
 - orcid
 - crossref
 image: https://blog.datacite.org/images/2018/02/org_id.png
+doi: 10.5438/spfw-5q39
 ---
 
 *This blog post by Laure Haak, Ed Pentz and Trisha Cruse was cross-posted from the [ORCID blog](https://orcid.org/blog/2018/02/01/next-steps-organization-id-initiative-report-stakeholder-meeting).*
