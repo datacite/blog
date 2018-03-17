@@ -6,7 +6,7 @@ date: '2017-08-23'
 tags:
 - data citation
 - counter
-accession_number: MS-791-1498
+doi: 10.5438/p678-z011
 ---
 
 *Cross-posted from the [Make Data Count blog](https://makedatacount.org/2017/08/18/counter-code-of-practice-for-data-usage-draft-update/).*

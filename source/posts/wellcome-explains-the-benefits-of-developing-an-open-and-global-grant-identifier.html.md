@@ -6,6 +6,7 @@ date: '2018-02-28'
 tags:
 - funding
 - grant identifier
+doi: 10.5438/d5zg-9g02
 ---
 *This blog post by Crossref Director of Member & Community Outreach Ginny Hendricks and guest authors Robert Kiley and Nina Frentrop from the Wellcome Trust was cross-posted with permission from the [Crossref blog](https://www.crossref.org/blog/wellcome-explains-the-benefits-of-developing-an-open-and-global-grant-identifier/). DataCite Executive Director Patricia Cruse is participating in the grant identifier working group to make sure Crossref and DataCite align their work and our respective members can benefit from a standard approach to grant identifiers.*
 

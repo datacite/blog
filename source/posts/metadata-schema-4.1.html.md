@@ -8,7 +8,7 @@ tags:
  - software
  - featured
 image: https://blog.datacite.org/images/2017/10/fortran.png
-accession_number: MS-745257251
+doi: 10.5438/nzhx-xx96
 ---
 
 The DataCite [Metadata Schema 4.1](http://schema.datacite.org/meta/kernel-4.1/) has been released today. If the 4.1 release has a theme, it is support for software citation. The DataCite Metadata Working Group addressed this topic in response to increasing interest within the community, including the publication of the Force11 Software Citation Principles [@https://doi.org/10.7717/peerj-cs.86] as well as a set of guidelines prepared by the UK Science and Technology Facilities Council for working with the DataCite schema [@http://purl.org/net/epubs/work/24058274].READMORE

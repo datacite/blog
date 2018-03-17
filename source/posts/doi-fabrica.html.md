@@ -8,7 +8,7 @@ tags:
 - mds
 - featured
 image: https://blog.datacite.org/images/2017/10/re3data.png
-accession_number: MS-7146551
+doi: 10.5438/g7q1-7t10
 ---
 
 Today DataCite is launching [DOI Fabrica](https://doi.datacite.org/), the next generation of DataCite’s DOI registration service, replacing the Metadata Store ([MDS](https://mds.datacite.org/)). This is the biggest and most important product release DataCite has done in many years, and the result of nine months of hard work by the entire DataCite team.READMORE

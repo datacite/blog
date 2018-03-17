@@ -5,6 +5,7 @@ author: mwitt
 date: '2018-02-13'
 tags:
 - re3data
+doi: 10.5438/jeag-2v54
 ---
 
 By offering detailed information on more than 2,000 research data repositories, [re3data](https://www.re3data.org/search) has become the most comprehensive source

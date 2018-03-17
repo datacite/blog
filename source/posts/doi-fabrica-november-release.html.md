@@ -6,7 +6,7 @@ date: '2017-11-09'
 image: https://files.readme.io/b23b589-Bildschirmfoto_2017-11-06_um_23.17.06.png
 tags:
 - doi fabrica
-- featured
+doi: 10.5438/spfd-gh73
 ---
 
 Last month month we launched [DOI Fabrica](https://blog.datacite.org/doi-fabrica/), the modernized version of the DataCite Metadata Store (MDS) web frontend. It is the one place for [DataCite providers](https://support.datacite.org/docs/datacite-doi-fabrica#section-what-is-the-difference-between-members-providers-and-clients) and their clients to create, find, connect and track every single DOI from their organization.
