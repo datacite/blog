@@ -7,7 +7,6 @@ author:
 date: '2018-01-18'
 tags:
 - datacite
-- featured
 image: https://blog.datacite.org/images/2018/01/rhallett.jpg
 doi: 10.5438/prvv-nv23
 ---
