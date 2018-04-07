@@ -10,6 +10,7 @@ tags:
 - organization identifier
 - orcid
 - crossref
+- featured
 image: https://blog.datacite.org/images/2018/02/org_id.png
 doi: 10.5438/spfw-5q39
 ---
