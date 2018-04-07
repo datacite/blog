@@ -9,8 +9,7 @@ tags:
 - crossref
 - featured
 image: https://blog.datacite.org/images/2016/11/london_institute.jpg
-accession_number: MS-386-152
-doi: 10.5438/000b-s38m
+doi: 10.5438/0000-0c2g
 ---
 At the end of October 2016, Crossref, DataCite, and ORCID reported on collaboration in the area of organization identifiers [@https://doi.org/10.5438/TNHX-54CG]. We issued three papers [@https://doi.org/10.5438/2906;@https://doi.org/10.5438/4716;@https://doi.org/10.5438/7885] for community comment and after input we subsequently announced the formation of The OI Project, along with a call for expressions of interest from people interested in serving on the working group.
 
