@@ -5,8 +5,7 @@ author: mfenner
 date: '2015-08-03'
 tags:
 - infrastructure
-accession_number: MS-132-3217-1472
-doi: 10.5438/cab5-teg0
+doi: 10.5438/dhsm-8219
 ---
 This week I start as the new DataCite Technical Director. While I get up to speed with existing DataCite services and infrastructure, and we start to launch new services (e.g. this blog), this is also a good time to communicate the overall approach I am taking. I like to call it **Data-Driven Development**, or **DDD** as we all love acronyms.READMORE
 

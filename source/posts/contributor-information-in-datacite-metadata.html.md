@@ -6,8 +6,7 @@ date: '2015-10-12'
 tags:
 - thor
 - orcid
-accession_number: MS-73-9506-4316
-doi: 10.5438/6wcf-efw5
+doi: 10.5438/d98m-9125
 ---
 The Force11 Joint Declaration of Data Citation Principles [@https://doi.org/10.25490/a97f-egyk] highlight the importance of giving scholarly credit to all contributors:
 
