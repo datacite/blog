@@ -9,11 +9,10 @@ if (!params.empty()) {
   var page = getParameterByName('page');
   if (page === null) { page = 1; }
   var per_page = 10;
-  var offset = per_page * (page - 1);
   var query = getParameterByName('query');
   var tag = getParameterByName('tag');
 
-  var query_url = encodeURI(search_url + "/pages?offset=" + offset + "&rows=" + per_page);
+  var query_url = encodeURI(search_url + "/pages?page[size]=" + per_page + "&page[number]=" + page);
   if (query !== null) { query_url += "&query=" + query; }
   if (tag !== null) { query_url += "&tag=" + tag; }
 }
