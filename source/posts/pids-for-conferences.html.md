@@ -5,6 +5,7 @@ author: abirukou
 date: '2018-04-19'
 tags:
 - conference id
+doi: 10.5438/prq9-ed42
 ---
 
 *This blog post by guest author Aliaksandr Birukou was cross-posted from the [Crossref blog](https://www.crossref.org/blog/pids-for-conferences---your-comments-are-welcome/).*
