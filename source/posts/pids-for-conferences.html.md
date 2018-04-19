@@ -9,7 +9,7 @@ tags:
 
 *This blog post by guest author Aliaksandr Birukou was cross-posted from the [Crossref blog](https://www.crossref.org/blog/pids-for-conferences---your-comments-are-welcome/).*
 
-__Aliaksandr Birukou is the Executive Editor for Computer Science at Springer Nature and is chair of the [Project PID Group])https://www.crossref.org/working-groups/conferences-projects/) that has been working to establish a persistent identifier system and registry for scholarly conferences. Here Alex provides some background to the work and asks for input from the community:__
+*Aliaksandr Birukou is the Executive Editor for Computer Science at Springer Nature and is chair of the [Project PID Group])(https://www.crossref.org/working-groups/conferences-projects/) that has been working to establish a persistent identifier system and registry for scholarly conferences. Here Alex provides some background to the work and asks for input from the community:*
 
 Roughly one year ago, Crossref and DataCite [started](https://www.crossref.org/blog/taking-the-con-out-of-conferences) a working group on conference and project identifiers. With this blog post, we would like to share the [specification](https://docs.google.com/document/d/1URIvkUpzcfjSd2YFIS-rdRIrOyrKSbFfhkdpGPRTAFI/edit) of conference metadata and Crossmark for proceedings and are inviting the broader community to comment.
 
