@@ -6,10 +6,10 @@ date: '2018-05-09'
 tags: 
 - featured
 image: https://blog.datacite.org/images/2018/05/fabrica-homepage.png
-doi: 10.5438/zm6n-7r79
+doi: 10.5438/0yk5-b755
 ---
 
-The DataCite team is pleased to announce the release of DOI Fabrica 1.0! DataCite Providers and Clients can check it out at [https://doi.datacite.org]. 
+The DataCite team is pleased to announce the release of DOI Fabrica 1.0! DataCite Providers and Clients can check it out at [https://doi.datacite.org](https://doi.datacite.org). 
 
 DOI Fabrica is the new web interface for DataCite DOI registration services. With DOI Fabrica, you can create and manage DOIs right from your browser without needing to use an API. This first release of DOI Fabrica includes the functionality of the old MDS web interface, plus several helpful new features. 
 
