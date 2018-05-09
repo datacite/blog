@@ -1849,4 +1849,30 @@ references:
   container-title: DataCite
   URL: https://doi.org/10.5438/0014
   DOI: 10.5438/0014
+
+- id: https://doi.org/10.5438/cxe5-rg55
+  type: no-type
+  author:
+  - family: Fenner
+    given: Martin
+  issued:
+  - year: '2018'
+  title: Frontend for the DataCite DOI Fabrica service
+  publisher: DataCite
+  keyword: Doi Registration, DOI Fabrica
+  DOI: 10.5438/CXE5-RG55
+
+- id: https://doi.org/10.5438/8gb0-v673
+  type: no-type
+  author:
+  - family: Fenner
+    given: Martin
+  - family: Garza
+    given: Kristian
+  issued:
+  - year: '2018'
+  title: DataCite Application API
+  publisher: DataCite
+  keyword: Doi Registration, Rails API, DOI Fabrica
+  DOI: 10.5438/8GB0-V673
 ...
