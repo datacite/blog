@@ -32,4 +32,6 @@ With all that's included in the DOI Fabrica 1.0 release, we should take a moment
 
 Now that DOI Fabrica is on the scene, it’s about time for the MDS web interface to step down. We’ll continue to support the MDS web interface through November 2018, but do please think about switching to DOI Fabrica soon. The MDS API will remain unchanged, with no plans to retire it any time soon. 
 
-The new features of DOI Fabrica were discussed in detail during our last DataCite Open Hours on May 2. The [recording](https://tinyurl.com/y85zt7hf) and the [slides](https://tinyurl.com/yb9ddyrp) for that meeting are available. The source code for the DOI Fabrica [backend](https://doi.org/10.5438/8gb0-v673) and [frontend](https://doi.org/10.5438/cxe5-rg55) are available in GitHub. And of course, you can always contact [support@datacite.org](mailto:support@datacite.org) with your questions and feedback. 
+The new features of DOI Fabrica were discussed in detail during our last DataCite Open Hours on May 2. The [recording](https://tinyurl.com/y85zt7hf) and the [slides](https://tinyurl.com/yb9ddyrp) for that meeting are available. The source code for the DOI Fabrica backend (@https://doi.org/10.5438/8gb0-v673) and frontend (@https://doi.org/10.5438/cxe5-rg55) are available on GitHub. And of course, you can always contact [support@datacite.org](mailto:support@datacite.org) with your questions and feedback. 
+
+## References
