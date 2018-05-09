@@ -18,6 +18,7 @@ DOI Fabrica allows you to create DOIs via file upload, similar to the old Metada
 ![New DOI creation features in DOI Fabrica 1.0](/images/2018/05/fabrica-highlights.png)
 
 A big change for DOI creation in DOI Fabrica is the introduction of states for DOIs. When creating or updating a DOI, you're now required to select one of three states for that DOI: Draft, Registered, or Findable. 
+
 * A Draft DOI is completely private. You can only see it within DOI Fabrica. For those Clients coming from EZID, this is similar to EZID's "reserved" DOIs. 
 * A Registered DOI is registered with the global handle server, so it will resolve, but it won't be indexed in DataCite Search. This means someone can only find it if they know the exact DOI. 
 * A Findable DOI is registered with the global handle server and it's indexed in DataCite Search. It is fully public and able to be found and resolved by anyone. 
