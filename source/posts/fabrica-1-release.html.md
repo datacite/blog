@@ -6,7 +6,7 @@ date: '2018-05-09'
 tags: 
 - featured
 image: https://blog.datacite.org/images/2018/05/fabrica-homepage.png
-doi:
+doi: 10.5438/zm6n-7r79
 ---
 
 The DataCite team is pleased to announce the release of DOI Fabrica 1.0! DataCite Providers and Clients can check it out at [https://doi.datacite.org]. 
