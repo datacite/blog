@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DOI Fabrica 1.0 is Here!"
-author: daslerr
+author: rdasler
 date: '2018-05-09'
 tags: 
 - featured
@@ -26,7 +26,7 @@ More information about states is available on our [support site](https://support
 
 Release 1.0 of DOI Fabrica also introduces some additional management features, such as showing Clients all in one place in the Provider dashboard and using the Provider settings to feed the information on the DataCite Members web page. Of particular interest is the improved [prefix management](https://support.datacite.org/docs/datacite-doi-fabrica-for-providers#section-provider-dashboard-prefixes) for Providers. Providers can now view all of their assigned prefixes via the Provider dashboard, assign new prefixes to Clients, and even transfer prefixes between Clients in just a few clicks. Best of all, Providers no longer need to contact DataCite when they run out of prefixes! It's all handled in DOI Fabrica. 
 
-![Provider prefix management in DOI Fabrica 1.0](/images/2018/06/fabrica-prefixes.png)
+![Provider prefix management in DOI Fabrica 1.0](/images/2018/05/fabrica-prefixes.png)
 
 With all that's included in the DOI Fabrica 1.0 release, we should take a moment to discuss what's not included. We know that many of you have been waiting on a DOI creation form with individual fields. After listening to all your feedback during our testing phase, we decided the fielded form needed a bit more work in order to be just right. Instead of including it in release 1.0, the form will come out in its own separate follow-on release on May 30. We appreciate your patience, and we're looking forward to sharing the results with you soon. You can see what else is planned for DOI Fabrica, along with our other projects, on our [roadmap](https://datacite.org/roadmap.html).
 
