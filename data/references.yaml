@@ -1875,4 +1875,45 @@ references:
   publisher: DataCite
   keyword: Doi Registration, Rails API, DOI Fabrica
   DOI: 10.5438/8GB0-V673
+
+- id: https://doi.org/10.1007/978-3-319-43997-6_27
+  type: chapter
+  author:
+  - family: Chen
+    given: Xiaoli
+  - family: Dallmeier-Tiessen
+    given: Sünje
+  - family: Dani
+    given: Anxhela
+  - family: Dasler
+    given: Robin
+  - family: Fernández
+    given: Javier Delgado
+  - family: Fokianos
+    given: Pamfilos
+  - family: Herterich
+    given: Patricia
+  - family: Šimko
+    given: Tibor
+  issued:
+  - year: '2016'
+  title: 'CERN Analysis Preservation: A Novel Digital Library Service to Enable
+    Reusable and Reproducible Research'
+  container-title: Research and Advanced Technology for Digital Libraries
+  publisher: Springer International Publishing
+  page: '347-356'
+  URL: https://doi.org/10.1007%2F978-3-319-43997-6_27
+  DOI: 10.1007/978-3-319-43997-6_27
+
+- id: https://doi.org/10.5281/zenodo.46761
+  type: article-journal
+  author:
+  - family: Dasler
+    given: Robin
+  issued:
+  - year: '2016'
+  title: 'Thor: Metrics And Tools'
+  publisher: Zenodo
+  keyword: persistent identifier, metrics, THOR, impact, measurement tool
+  DOI: 10.5281/zenodo.46761
 ...
