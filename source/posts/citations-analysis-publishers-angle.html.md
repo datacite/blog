@@ -2,10 +2,11 @@
 layout: post
 title: Citations_Analysis_publishers_angle
 author: kjgarza
-date: The date
+date: '2018-05-11'
 tags: 
-- topic
-- topic
+- scholix
+- citation
+- data science
 published: false
 ---
 

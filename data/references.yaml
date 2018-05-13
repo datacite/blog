@@ -1913,7 +1913,7 @@ references:
   issued:
   - year: '2016'
   title: 'Thor: Metrics And Tools'
-  publisher: Zenodo
+  container-title: Zenodo
   keyword: persistent identifier, metrics, THOR, impact, measurement tool
   DOI: 10.5281/zenodo.46761
 ...
