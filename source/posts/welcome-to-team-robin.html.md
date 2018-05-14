@@ -9,7 +9,7 @@ tags:
 - featured
 - datacite
 image: https://blog.datacite.org/images/robin.png
-
+doi: 10.5438/4cna-aq40
 ---
 DataCite is pleased to welcome Robin Dasler to our team. Robin joined DataCite as product manager in March. Get to know her better via this interview.
 
