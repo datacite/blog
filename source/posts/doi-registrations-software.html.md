@@ -38,9 +38,8 @@ As of May 16, 2018, [58,301 DOIs](https://search.datacite.org/works?resource-typ
 How did these numbers change over time, since the
 he [first DataCite DOI for software](https://api.datacite.org/works?resource-type-id=software&sort=registered&order=asc&page[size]=1) was registered September 7th, 2011 by the Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) in Germany (@https://doi.org/10.5447/ipk/2011/0)?
 
-We can start by looking at the [Zenodo/Github integration](https://guides.github.com/activities/citable-code/), where users can archive a Github repository in the Zenodo data repository. The integration was launched in 
-February 2014 and we can see a nice correlation with this data, and with a [May 2014 blog post](https://github.com/blog/1840-improving-github-for-science) by 
-Arfon Smith on the Github blog, describing (and advertising) the integration work.
+We can start by looking at the [Zenodo/GitHub integration](https://guides.github.com/activities/citable-code/), where users can archive a GitHub repository in the Zenodo data repository. The integration was launched in 
+February 2014 and we can see a nice correlation with this data, and with a [May 2014 blog post](https://github.com/blog/1840-improving-github-for-science) by Arfon Smith on the GitHub blog, describing (and advertising) the integration work.
 
 ![Software DOIs registered at DataCite](/images/2018/05/dois-for-software.png)
 
