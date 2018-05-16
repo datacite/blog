@@ -905,25 +905,6 @@ references:
   URL: https://doi.org/10.1145/2783446.2783605
   DOI: 10.1145/2783446.2783605
 
-- id: https://doi.org/10.7717/peerj-cs.86
-  type: article-journal
-  author:
-  - family: Smith
-    given: AM
-  - family: Katz
-    given: DS
-  - family: Niemeyer
-    given: KE
-  - family: FORCE11-Software-Citation-Working-Group
-  issued:
-  - year: '2016'
-    month: september
-  title: Software citation principles
-  container-title: PeerJ Computer Science
-  publisher: PeerJ
-  URL: https://doi.org/10.7717/peerj-cs.86
-  DOI: 10.7717/peerj-cs.86
-
 - id: https://doi.org/10.5438/0012
   type: article-journal
   author:
@@ -1916,4 +1897,55 @@ references:
   container-title: Zenodo
   keyword: persistent identifier, metrics, THOR, impact, measurement tool
   DOI: 10.5281/zenodo.46761
+
+- id: https://doi.org/10.5447/ipk/2011/0
+  type: no-type
+  author:
+  - family: Colmsee
+    given: Christian
+  - family: Flemming
+    given: Steffen
+  - family: Klapperstück
+    given: Matthias
+  - family: Lange
+    given: Matthias
+  - family: Scholz
+    given: Uwe
+  issued:
+  - year: '2011'
+  title: A case study for efficient management of high throughput primary lab data
+  publisher: Leibniz Institute of Plant Genetics; Crop Plant Research (IPK)
+  keyword: bioinformatics, source code, database, LIMS, primary data
+  DOI: 10.5447/ipk/2011/0
+
+- id: https://doi.org/10.7717/peerj-cs.86
+  type: article-journal
+  author:
+  - family: Smith
+    given: Daniel S.
+    suffix: Arfon M. Katz
+  - family: Niemeyer
+    given: Kyle E.
+  issued:
+  - year: '2016'
+    month: '9'
+  title: Software citation principles
+  container-title: PeerJ Computer Science
+  publisher: PeerJ
+  page: 'e86'
+  volume: '2'
+  URL: https://doi.org/10.7717%2Fpeerj-cs.86
+  DOI: 10.7717/peerj-cs.86
+
+- id: https://doi.org/10.5438/0yk5-b755
+  type: article-journal
+  author:
+  - family: Dasler
+    given: Robin
+  issued:
+  - year: '2018'
+  title: DOI Fabrica 1.0 is Here!
+  publisher: DataCite
+  keyword: featured
+  DOI: 10.5438/0yk5-b755
 ...
