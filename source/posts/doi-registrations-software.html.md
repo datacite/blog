@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DOI Registrations for Software
-date: '2018-05-17'
+date: '2018-05-16'
 author: 
 - mfenner
 - danielskatz
