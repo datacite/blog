@@ -43,7 +43,7 @@ February 2014 and we can see a nice correlation with this data, and with a [May 
 
 ![Software DOIs registered at DataCite](/images/2018/05/dois-for-software.png)
 
-In September 2016, the FORCE11 Software Citation Principles (@https://doi.org/10.7717/peerj-cs.86) were published, and in October 2016 the [GitHub Guide to Making your Code Citable](https://guides.github.com/activities/citable-code/) was updated. There appears to be a change of in the rate of growth around this time as well.
+In September 2016, the FORCE11 Software Citation Principles (@https://doi.org/10.7717/peerj-cs.86) were published, the Zenodo/GitHub integration was upgraded (@http://help.zenodo.org/whatsnew/), and in October 2016 the [GitHub Guide to Making your Code Citable](https://guides.github.com/activities/citable-code/) was updated. There appears to be a change of in the rate of growth around this time as well.
 
 
 ## Looking forward
