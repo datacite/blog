@@ -16,7 +16,7 @@ image: https://blog.datacite.org/images/2018/05/dois-for-software.png
 
 We know that software is important in research, and some of us in the scholarly communications community, for example, [in FORCE11](https://www.force11.org/group/software-citation-implementation-working-group), have been pushing the concept of software citation as a method to allow software developers and maintainers to get academic credit for their work: software releases are published and assigned DOIs, and software users then cite these releases when they publish research that uses the software.
 
-DataCite recently examined the DOIs that have been created for software, and found that the number of new DOIs created for software is growing roughly exponentially, now reaching about 2000 software DOIs per month, with spikes of around 4000 per month in some of 2017. The data and results are shown here. The source code for the R script used to generate the data and figures is [available](https://github.com/datacite/metadata-reports/blob/master/software/index.md).
+DataCite recently examined the DOIs that have been created for software, and found that the number of new DOIs created for software is growing roughly exponentially, now reaching about 2000 software DOIs per month, with spikes of around 4000 per month in some of 2017. The data and results are shown here. The source code for the R script used to generate the data and figures is available (@https://doi.org/10.5438/wr0x-e194).
 
 As of May 16, 2018, [58,301 DOIs](https://search.datacite.org/works?resource-type-id=software) have been registered for software. We can break down this number by repository where the software source code is hosted – most DOIs for software have been registered at Zenodo. 
 

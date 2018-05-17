@@ -2082,4 +2082,23 @@ references:
   publisher: DataCite
   keyword: metadata, software, featured
   DOI: 10.5438/NZHX-XX96
+
+- id: https://doi.org/10.5438/wr0x-e194
+  type: no-type
+  author:
+  - family: Fenner
+    given: Martin
+  - family: Katz
+    given: Daniel S.
+  - family: Smith
+    given: Arfon
+  - family: Nielsen
+    given: Lars Holm
+  issued:
+  - year: '2018'
+  title: DOI Registrations for Software
+  publisher: DataCite
+  keyword: doi, software, codemeta
+  URL: https://github.com/datacite/metadata-reports
+  DOI: 10.5438/wr0x-e194
 ...
