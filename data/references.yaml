@@ -1922,20 +1922,39 @@ references:
   type: article-journal
   author:
   - family: Smith
+    given: Arfon M.
+  - family: Katz
     given: Daniel S.
-    suffix: Arfon M. Katz
   - family: Niemeyer
     given: Kyle E.
+  - literal: FORCE11 Software Citation Working Group
   issued:
   - year: '2016'
     month: '9'
+  accessed:
+  - year: '2018'
+    month: '5'
+    day: '17'
   title: Software citation principles
   container-title: PeerJ Computer Science
-  publisher: PeerJ
   page: 'e86'
   volume: '2'
-  URL: https://doi.org/10.7717%2Fpeerj-cs.86
+  abstract: Software is a critical part of modern research and yet there is little
+    support across the scholarly ecosystem for its acknowledgement and citation. Inspired
+    by the activities of the FORCE11 working group focused on data citation, this
+    document summarizes the recommendations of the FORCE11 Software Citation Working
+    Group and its activities between June 2015 and April 2016. Based on a review of
+    existing community practices, the goal of the working group was to produce a consolidated
+    set of citation principles that may encourage broad adoption of a consistent policy
+    for software citation across disciplines and venues. Our work is presented here
+    as a set of software citation principles, a discussion of the motivations for
+    developing the principles, reviews of existing community practice, and a discussion
+    of the requirements these principles would place upon different stakeholders.
+    Working examples and possible technical solutions for how these principles can
+    be implemented will be discussed in a separate paper.
+  URL: https://peerj.com/articles/cs-86
   DOI: 10.7717/peerj-cs.86
+  ISSN: '2376-5992'
 
 - id: https://doi.org/10.5438/0yk5-b755
   type: article-journal
@@ -1945,7 +1964,122 @@ references:
   issued:
   - year: '2018'
   title: DOI Fabrica 1.0 is Here!
-  publisher: DataCite
+  container-title: DataCite
   keyword: featured
   DOI: 10.5438/0yk5-b755
+
+- id: https://doi.org/10.2218/ijdc.v11i2.422
+  type: article-journal
+  author:
+  - family: Jones
+    given: Catherine Mary
+  - family: Matthews
+    given: Brian
+  - family: Gent
+    given: Ian
+  - family: Griffin
+    given: Tom
+  - family: Tedds
+    given: Jonathan
+  issued:
+  - year: '2017'
+    month: '7'
+  title: Persistent Identification and Citation of Software
+  container-title: International Journal of Digital Curation
+  publisher: Edinburgh University Library
+  page: '104-114'
+  volume: '11'
+  issue: '2'
+  URL: https://doi.org/10.2218%2Fijdc.v11i2.422
+  DOI: 10.2218/ijdc.v11i2.422
+
+- id: https://doi.org/10.5063/schema/codemeta-2.0
+  type: no-type
+  author:
+  - family: Jones
+    given: Matthew B
+  - family: Boettiger
+    given: Carl
+  - family: Mayes
+    given: Abby Cabunoc
+  - family: Smith
+    given: Arfon
+  - family: Slaughter
+    given: Peter
+  - family: Niemeyer
+    given: Kyle
+  - family: Gil
+    given: Yolanda
+  - family: Fenner
+    given: Martin
+  - family: Nowak
+    given: Krzysztof
+  - family: Hahnel
+    given: Mark
+  - family: Coy
+    given: Luke
+  - family: Allen
+    given: Alice
+  - family: Crosas
+    given: Mercè
+  - family: Sands
+    given: Ashley
+  - family: Hong
+    given: Neil Chue
+  - family: Cruse
+    given: Patricia
+  - family: Katz
+    given: Dan
+  - family: Goble
+    given: Carole
+  issued:
+  - year: '2017'
+  title: 'CodeMeta: an exchange schema for software metadata'
+  publisher: KNB Data Repository
+  DOI: 10.5063/schema/codemeta-2.0
+
+- id: https://doi.org/10.5281/zenodo.1241346
+  type: no-type
+  author:
+  - family: Boettiger
+    given: Carl
+  - family: Salmon
+    given: Maëlle
+  - literal: Arfon Smith
+  - family: Ross
+    given: Noam
+  - family: Leinweber
+    given: Katrin
+  - family: Krystalli
+    given: Anna
+  issued:
+  - year: '2018'
+  title: 'Ropensci/Codemetar: Codemetar: Generate Codemeta Metadata For R Packages'
+  publisher: Zenodo
+  DOI: 10.5281/zenodo.1241346
+
+- id: https://doi.org/10.6084/m9.figshare.4490588
+  type: no-type
+  author:
+  - family: Boettiger
+    given: Carl
+  issued:
+  - year: '2017'
+    month: '1'
+  title: 'Codemeta: A Rosetta Stone for Software Metadata'
+  container-title: figshare
+  URL: https://figshare.com/articles/Codemeta_A_Rosetta_Stone_for_Software_Metadata/4490588/1
+  DOI: 10.6084/m9.figshare.4490588
+
+- id: https://doi.org/10.5438/nzhx-xx96
+  type: article-journal
+  author:
+  - family: Starr
+    given: Joan
+  issued:
+  - year: '2017'
+  title: New DataCite Metadata Updates Support Software Citation
+  publisher: DataCite
+  keyword: metadata, software, featured
+  DOI: 10.5438/NZHX-XX96
 ...

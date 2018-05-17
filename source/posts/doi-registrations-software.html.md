@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DOI Registrations for Software
-date: '2018-05-16'
+date: '2018-05-17'
 author: 
 - mfenner
 - danielskatz
@@ -48,6 +48,8 @@ In September 2016, the FORCE11 Software Citation Principles (@https://doi.org/10
 
 ## Looking forward
 
-We see a nice exponential growth in the number of DOIs for software, and we don't expect this to change in 2018 and beyond. The [Force11 Software Citation Implementation Working Group](https://www.force11.org/group/software-citation-implementation-working-group) is working on implementing the Software Citation Principles, and for a number of use cases, e.g., citation in a journal article, DOIs play an important role. While it might not be easy to demonstrate in absolute DOI registration numbers, we expect that initiatives such as [Citation File Format](http://citation-file-format.github.io/citation-file-format/) and [Software Heritage](https://www.softwareheritage.org/) will have a positive impact on the number of DOIs for software. [CodeMeta](https://codemeta.github.io/) is particularly relevant; this new standard for software metadata has supported DOI registration in the CaltechDATA repository since [March 2018](https://www.library.caltech.edu/news/enhanced-software-preservation-now-available-caltechdata), and in the DataCite DOI Fabrica DOI registration service since May 2018 (@https://doi.org/10.5438/0yk5-b755).
+We see a nice exponential growth in the number of DOIs for software, and we don't expect this to change in 2018 and beyond. The [Force11 Software Citation Implementation Working Group](https://www.force11.org/group/software-citation-implementation-working-group) is working on implementation and adoption of the Software Citation Principles, and for a number of use cases, e.g., citation in a journal article, DOIs play an important role. We expect initiatives such as [Citation File Format](http://citation-file-format.github.io/citation-file-format/) and [Software Heritage](https://www.softwareheritage.org/) to have a positive impact on the number of DOIs for software. A paper on persistent identification and citation of software using DOIs by Jones et al (-@https://doi.org/10.2218/ijdc.v11i2.422) was published in July 2017, based on earlier work from 2015 (@http://purl.org/net/epubs/work/24058274), and the DataCite Metadata 4.1 schema focussing on software citation was released in September 2017 (@https://doi.org/10.5438/0014, @https://doi.org/10.5438/nzhx-xx96). 
+
+CodeMeta (@https://doi.org/10.6084/m9.figshare.4490588, @https://doi.org/10.5063/schema/codemeta-2.0) is particularly relevant; this new standard for software metadata is increasingly integrated into DOI registration workflows, including the CaltechDATA repository since [March 2018](https://www.library.caltech.edu/news/enhanced-software-preservation-now-available-caltechdata), and the DataCite DOI registration service since May 2018 (@https://doi.org/10.5438/cxe5-rg55, @https://doi.org/10.5438/0yk5-b755). CodeMeta libraries are currently available for R (Codemetar, @https://doi.org/10.5281/zenodo.1241346), Ruby (Bolognese, @https://doi.org/10.5438/n138-z3mk) and Python ([CodeMetaPy](https://github.com/proycon/codemetapy)).
 
 ## References
