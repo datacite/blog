@@ -2,7 +2,7 @@ backend:
   name: github
   repo: datacite/blog
   branch: master
-  base_url: https://profiles.test.datacite.org
+  base_url: https://auth.test.datacite.org
 publish_mode: editorial_workflow
 media_folder: "source/images/uploads"
 public_folder: "/images/uploads"
