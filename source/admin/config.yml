@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   branch: master
 publish_mode: editorial_workflow
 media_folder: "source/images/uploads"
@@ -13,9 +13,9 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Author", name: "author", widget: "list"}
+      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "DOI", name: "doi", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
