@@ -3,6 +3,7 @@ layout: post
 title: DOI Registrations for Software
 author:
   - mfenner
+  - dkatz
 date: '2018-05-27'
 tags:
   - doi
