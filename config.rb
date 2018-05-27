@@ -190,6 +190,7 @@ end
 activate :blog do |blog|
   blog.sources = "posts/{title}.html"
   blog.permalink = "{title}"
+  blog.default_extension = ".md"
 end
 
 activate :directory_indexes
