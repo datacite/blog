@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Welcome to the DataCite Team, Robin!
-author: 
-- rdasler
-- mfenner
+title: 'Welcome to the DataCite Team, Robin!'
+author:
+  - rdasler
+  - mfenner
 date: '2018-05-13'
-tags: 
-- featured
-- datacite
-image: https://blog.datacite.org/images/robin.png
+tags:
+  - featured
+  - datacite
+image: 'https://blog.datacite.org/images/robin.png'
+location: 'Hamburg, Germany'
 doi: 10.5438/4cna-aq40
 ---
 DataCite is pleased to welcome Robin Dasler to our team. Robin joined DataCite as product manager in March. Get to know her better via this interview.
