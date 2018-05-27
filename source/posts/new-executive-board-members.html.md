@@ -2,12 +2,10 @@
 layout: post
 title: Welcome DataCite’s New Executive Board Members
 author: tcruse
-date_created: 2017-04-24
 date: '2017-04-23'
 tags:
 - datacite
 - board
-accession_number: MS-newboard1234
 doi: 10.5438/0000-16jd
 ---
 DataCite is thrilled to welcome three new members to our [Executive Board](https://www.datacite.org/board.html). With their expertise and passion for data sharing, DataCite is poised to make an even more substantial impact on the research data community.  The also represent organizations that are vital to DataCite future and -- the for-profit communities, US Federal agencies, and international organizations.  Please join me in welcoming Mike Frame, Mark Hahnel, and Marco Marsella!

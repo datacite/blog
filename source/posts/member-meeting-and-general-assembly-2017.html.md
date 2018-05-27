@@ -5,9 +5,7 @@ date: '2017-04-27'
 author: lrueda
 tags:
 - datacite
-- featured
 image: https://blog.datacite.org/images/2017/04/group.png
-accession_number: MS-GA-2017
 doi: 10.5438/0000-1z1k
 ---
 On April 3rd and 4th, fifty [DataCite members](https://www.datacite.org/members.html) gathered in Barcelona for DataCite's annual Member Meeting and General Assembly. The Member Meeting provides a venue for DataCie members to help shape DataCite’s strategic direction. The General Assembly is DataCite’s official governing body and approves fee structures, budgets, and elects our Executive Board.

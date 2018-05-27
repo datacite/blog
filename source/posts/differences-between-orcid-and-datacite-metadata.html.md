@@ -7,7 +7,6 @@ tags:
 - thor
 - orcid
 - metadata
-accession_number: MS-122-1490-7644
 doi: 10.5438/bc11-cqw1
 ---
 One of the first tasks for DataCite in the European Commission-funded [THOR project](http://project-thor.eu/), which started in June, was to contribute to a comparison of the ORCID and DataCite metadata standards. Together with ORCID, CERN, the British Library and Dryad we looked at how contributors, organizations and artefacts - and the relations between them - are described in the respective metadata schemata, and how they are implemented in two example data repositories, [Archaeology Data Service](http://archaeologydataservice.ac.uk/) and [Dryad Digital Repository](https://www.datadryad.org/).READMORE

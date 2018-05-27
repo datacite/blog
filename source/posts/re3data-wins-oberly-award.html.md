@@ -2,11 +2,9 @@
 layout: post
 title: DataCite’s re3data wins Oberly Award from the American Libraries Association
 author: mwitt
-date_created: 2017-04-19
 date: '2017-04-19'
 tags:
 - re3data
-accession_number: MS-re33333
 doi: 10.5438/0001-0hn*
 ---
 The [Association of College and Research Libraries division of the American Libraries Association](http://www.ala.org) (ALA) gives the [Oberly Award](http://www.ala.org/acrl/awards/publicationawards/oberlyaward) for Bibliography in the Agricultural or Natural Sciences every two years. This summer, the [re3data](http://www.re3data.org) registry of research data repositories will be recognized with the [award](http://www.ala.org/news/member-news/2017/03/2017-acrl-sts-oberly-award-goes-scholze-and-witt) at the ALA Annual Conference in Chicago.

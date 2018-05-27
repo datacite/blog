@@ -9,7 +9,6 @@ tags:
 - datacite
 - data sharing
 image: https://blog.datacite.org/images/2016/08/kgarza.png
-accession_number: MS-322-4901-9305
 doi: 10.5438/y131-yx9d
 ---
 DataCite is pleased to welcome Kristian Garza to our team. Kristian is our new application developer and he comes to DataCite with a wealth of experience in Open Science, web development, and data repositories. Get to know him better via this interview.READMORE

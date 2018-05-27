@@ -6,7 +6,6 @@ date: '2015-09-22'
 tags:
 - thor
 - rda
-accession_number: MS-200-0837-3317
 doi: 10.5438/jm9f-325f
 ---
 Yesterday DataCite and [ePIC](http://www.pidconsortium.eu/) co-hosted the workshop [Persistent Identifiers: Enabling Services for Data Intensive Research](http://www.eventbrite.com/e/persistent-identifiers-enabling-services-for-data-intensive-research-tickets-17500184523). Below is a short summary of the tweets, all using the hashtag [#pid_paris](https://twitter.com/hashtag/pid_paris?src=hash).READMORE

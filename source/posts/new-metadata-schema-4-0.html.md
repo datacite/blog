@@ -7,7 +7,6 @@ tags:
 - datacite
 - metadata
 image: https://blog.datacite.org/images/2016/09/schemapreview.png
-accession_number: MS-297-6690-1180
 doi: 10.5438/vq3x-qdwt
 ---
 Many things have changed in the last two years in the research community. Data publication and data citation are becoming a standard in different communities, and DataCite is proud to support the development of best practices and services for these emerging initiatives.

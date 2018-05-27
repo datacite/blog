@@ -8,7 +8,6 @@ tags:
 - pidapalooza
 location: Reykjavik, Iceland
 image: https://blog.datacite.org/images/2016/09/crowd.png
-accession_number: MS-244-4337-7437
 doi: 10.5438/prf0-nrxq
 ---
 Passionate as we are about persistent identifiers, we are delighted to invite you to [PIDapalooza](http://pidapalooza.org), the festival of PIDs this November in Reykjavik. Together with our colleagues from Crossref, ORCID and the California Digital Library, we have envisioned this community gathering for everyone who’s working with identifiers: digital tech experts, publishers, researchers, tool builders, organisations, infrastructure providers… and you!READMORE

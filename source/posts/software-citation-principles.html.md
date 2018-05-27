@@ -6,7 +6,6 @@ date: '2016-09-20'
 tags:
 - datacite
 - software citation
-accession_number: MS-307-4718-4768
 doi: 10.5438/wmas-km0v
 ---
 The [FORCE11 Software Citation Working Group](https://www.force11.org/group/software-citation-working-group) has published the results of its review of existing community practices, using a consolidated set of Software Citation Principles [@https://doi.org/10.7717/peerj-cs.86] to encourage the adoption of software citation across disciplines.READMORE

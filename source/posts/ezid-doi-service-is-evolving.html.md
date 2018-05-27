@@ -10,7 +10,6 @@ tags:
 - ezid
 - cdl
 - purdue
-accession_number: MS-981746544
 doi: 10.5438/0x88-gvge
 ---
 The California Digital Library (CDL) and Purdue University are adopting a new strategic direction for their EZID digital object identifier (DOI) services to support DataCite’s long-term sustainability and to improve DOI services for the broader community.

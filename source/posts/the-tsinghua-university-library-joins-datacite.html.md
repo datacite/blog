@@ -6,7 +6,6 @@ date: '2016-10-24'
 tags:
 - members
 location: Beijing, China
-accession_number: MS-159-0353-8438
 doi: 10.5438/esys-f867
 ---
 DataCite is delighted to welcome the [Tsinghua University Library](http://www.lib.tsinghua.edu.cn/english/) to the DataCite community! The Tsinghua University Library supports the University's mission of education and research. It engages with the ongoing environment to deliver world-class physical and digital content and services critical to research, education, and outreach, contributes to discover, preserve, and disseminate knowledge and creative expression worldwide.READMORE

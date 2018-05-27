@@ -7,7 +7,6 @@ date: '2016-04-17'
 tags:
 - metadata
 - software citation
-accession_number: MS-274-3927-0265
 doi: 10.5438/shr4-2bs2
 ---
 *The following is a guest post by Daniel S. Katz, cross-posted from his [blog](https://danielskatzblog.wordpress.com/2016/04/17/to-better-understand-research-communication-we-need-a-groid-group-object-identifier/).*

@@ -6,7 +6,6 @@ date: '2016-02-18'
 tags:
 - dublin core
 - metadata
-accession_number: MS-128-6248-4718
 doi: 10.5438/bzak-w7e4
 ---
 The DataCite Metadata Working Group has prepared a DataCite to Dublin Core application profile (DC2AP) and would love to hear your comments about it!

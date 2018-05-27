@@ -5,7 +5,6 @@ author: mfenner
 date: '2015-09-16'
 tags:
 - blog
-accession_number: MS-31-0368-9279
 doi: 10.5438/2wfx-2hz1
 ---
 We launched this blog six weeks ago on a hosted version of [Ghost](https://ghost.org/), the open source blogging platform. Ghost doesn't have all the features of Wordpress or other more mature blogging platforms, but it is a pleasure to use. The other alternative would have been to put the blog up on the Drupal-based main [DataCite website](http://www.datacite.org), but Drupal is really a content-management system and usually not the best choice for a serious blog.READMORE

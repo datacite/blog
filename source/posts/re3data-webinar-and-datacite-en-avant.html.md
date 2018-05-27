@@ -5,7 +5,6 @@ author: mwitt
 date: '2015-11-25'
 tags:
 - re3data
-accession_number: MS-219-0041-1206
 doi: 10.5438/mcnv-ga6n
 ---
 The inaugural meeting of the DataCite re3data Working Group was convened in Paris on September 20th at the offices of the International Council for Science (ICSU). Co-chairs Michael Witt and Frank Scholze gave the background and history of Databib, which was initially funded by the IMLS in the United States, and [re3data.org](http://service.re3data.org/search/results), which has been funded by DFG in Germany. Both projects shared the same vision - to build a registry to help users and applications find and use appropriate research data repositories - and so they merged together to combine their expertise, database, software, and processes under the auspices of [DataCite](https://www.datacite.org/services/find-repository.html).READMORE

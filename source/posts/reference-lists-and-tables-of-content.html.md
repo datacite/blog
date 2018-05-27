@@ -5,7 +5,6 @@ author: mfenner
 date: '2015-08-15'
 tags:
 - metadata
-accession_number: MS-57-1948-6926
 doi: 10.5438/5aeg-weev
 ---
 [Geoff Bilder](https://twitter.com/gbilder) from CrossRef likes to show the following slide at scholarly conferences, and then asks the audience what they see:

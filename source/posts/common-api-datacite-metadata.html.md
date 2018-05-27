@@ -6,7 +6,6 @@ date: '2016-11-03'
 tags:
 - api
 - search
-accession_number: MS-73-9506-4316
 doi: 10.5438/6wcf-efw5
 ---
 Today we are launching a new version of the DataCite API at [http://api.datacite.org](http://api.datacite.org). This new version includes numerous bug fixes and now includes related resources (e.g. data centers, members or contributors) according to the [JSONAPI spec](http://jsonapi.org/format/#fetching-includes). The changelog can be found [here](https://github.com/datacite/spinone/blob/master/CHANGELOG.md). Current users of the API should watch out for breaking changes in the `meta` object used for faceting.READMORE

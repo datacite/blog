@@ -6,7 +6,6 @@ author: lrueda
 date: '2017-05-18'
 tags:
 - mdc
-accession_number: MS-00075838394
 doi: 10.5438/028a-cxtc
 ---
 The [Alfred P. Sloan Foundation](https://sloan.org/) has made a 2-year, $747K award to the [California Digital Library](http://www.cdlib.org/), [DataCite](https://www.datacite.org/) and [DataONE](https://www.dataone.org/) to support collection of usage and citation metrics for data objects. Building on pilot work, this award will result in the launch of a new service that will collate and expose data level metrics.
