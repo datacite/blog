@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 'Announcing PIDapalooza 2018 - the open festival for persistent identifiers!'
-author: 
-- tcruse
-date: '2018-08-16'
+title: Announcing PIDapalooza 2018 - the open festival for persistent identifiers!
+author:
+  - tcruse
+date: '2017-08-16'
 tags:
-- persistent identifier
-- conference
-doi:
+  - persistent identifier
+  - conference
+location: 'Girona, Spain'
 ---
 [PIDapalooza](https://doi.org/10.5438/11.0002) is back, by popular demand! We’re building on the the best of the [inaugural PIDapalooza](https://scholarlykitchen.sspnet.org/2016/11/21/pidapalooza-revenge-of-the-nerds/) and organizing two days packed with discussions, demos, informal and interactive sessions, updates, talks by leading PID innovators, and more. There will be lots of opportunities to network - and to learn from and engage with PID enthusiasts from around the world. All in a fun, relaxed, and welcoming atmosphere!
 
