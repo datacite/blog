@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Welcome to the DataCite Team, Richard!
+title: 'Welcome to the DataCite Team, Richard!'
 author:
-- mfenner
-- rhallett
+  - mfenner
+  - rhallett
 date: '2018-01-18'
 tags:
-- datacite
-image: https://blog.datacite.org/images/2018/01/rhallett.jpg
+  - datacite
+image: 'https://blog.datacite.org/images/2018/01/rhallett.jpg'
+location: 'Bath, United Kingdom'
 doi: 10.5438/prvv-nv23
 ---
 DataCite is pleased to welcome Richard Hallett to our team. Richard joined DataCite as application developer in December. Get to know him better via this interview.
