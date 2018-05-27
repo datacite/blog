@@ -2,22 +2,25 @@ backend:
   name: github
   repo: datacite/blog
   branch: master
-  base_url: https://auth.test.datacite.org
+  base_url: <%= ENV['SITE_URL'] %>
+display_url: <%= ENV['SITE_URL'] %>
 publish_mode: editorial_workflow
 media_folder: "source/images/uploads"
 public_folder: "/images/uploads"
 collections:
-  - name: "blog"
-    label: "Blog"
+  - name: "post"
+    label: "Post"
     folder: "source/posts"
     create: true
+    extension: "md"
+    format: "yaml-frontmatter"
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Author", name: "author", widget: "list"}
       - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Featured Image", name: "image", widget: "image"}
-      - {label: "DOI", name: "doi", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "DOI", name: "doi", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
