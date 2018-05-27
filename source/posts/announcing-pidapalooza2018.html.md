@@ -8,6 +8,7 @@ tags:
   - persistent identifier
   - conference
 location: 'Girona, Spain'
+doi: 10.5438/63ra-7539
 ---
 [PIDapalooza](https://doi.org/10.5438/11.0002) is back, by popular demand! We’re building on the the best of the [inaugural PIDapalooza](https://scholarlykitchen.sspnet.org/2016/11/21/pidapalooza-revenge-of-the-nerds/) and organizing two days packed with discussions, demos, informal and interactive sessions, updates, talks by leading PID innovators, and more. There will be lots of opportunities to network - and to learn from and engage with PID enthusiasts from around the world. All in a fun, relaxed, and welcoming atmosphere!
 
