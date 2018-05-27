@@ -1,7 +1,8 @@
 ---
 layout: post
 title: A common API for retrieving DataCite Metadata
-author: mfenner
+author: 
+- mfenner
 date: '2016-11-03'
 tags:
 - api

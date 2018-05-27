@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Software Citation Workflows
-author: mfenner
+author: 
+- mfenner
 date: '2015-10-19'
 tags:
 - software citation

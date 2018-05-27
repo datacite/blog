@@ -1,7 +1,8 @@
 ---
 layout: post
 title: DataCite’s New Membership Model - Join Us!
-author: tcruse
+author: 
+- tcruse
 date: '2016-10-05'
 tags:
 - datacite

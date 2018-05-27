@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Get involved in the DataCite Community!
-author: tcruse
+author: 
+- tcruse
 date: '2016-05-18'
 tags:
 - datacite

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Happy Birthday ORCID
-author: mfenner
+author: 
+- mfenner
 date: '2015-10-16'
 tags:
 - thor

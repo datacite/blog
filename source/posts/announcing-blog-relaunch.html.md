@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Announcing the DataCite Blog Relaunch
-author: mfenner
+author: 
+- mfenner
 date: '2015-12-28'
 tags:
 - blog

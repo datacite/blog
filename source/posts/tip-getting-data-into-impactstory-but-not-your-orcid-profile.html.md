@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'Tip: Getting data into Impactstory but not your ORCID profile'
-author: larsjuhljensen
+author: 
+- larsjuhljensen
 date: '2016-05-01'
 tags:
 - orcid

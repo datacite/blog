@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Reference Lists and Tables of Content
-author: mfenner
+author:
+- mfenner
 date: '2015-08-15'
 tags:
 - metadata

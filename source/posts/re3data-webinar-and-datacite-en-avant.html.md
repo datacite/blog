@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 're3data Webinar and DataCite: En Avant!'
-author: mwitt
+author: 
+- mwitt
 date: '2015-11-25'
 tags:
 - re3data

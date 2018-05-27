@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Make Data Count: Building a System to Support Recognition of Data as a First
-  Class Research Output'
-author: lrueda
+title: 'Make Data Count: Building a System to Support Recognition of Data as a First Class Research Output'
+author: 
+- lrueda
 date: '2017-05-18'
 tags:
 - mdc

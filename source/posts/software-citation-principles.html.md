@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Software Citation Principles
-author: lrueda
+author: 
+- lrueda
 date: '2016-09-20'
 tags:
 - datacite

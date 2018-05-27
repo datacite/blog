@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Auto-Update Has Arrived!
-author: mfenner
+author: 
+- mfenner
 date: '2015-10-26'
 tags:
 - orcid

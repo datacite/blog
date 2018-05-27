@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "DOI Fabrica 1.0 is Here!"
-author: rdasler
+author: 
+- rdasler
 date: '2018-05-09'
 tags: 
 - featured

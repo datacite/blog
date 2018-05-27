@@ -1,7 +1,8 @@
 ---
 layout: post
 title: re3data.org Reaches a Milestone and Begins Offering Badges
-author: hpampel
+author: 
+- hpampel
 date: '2016-04-13'
 tags:
 - re3data

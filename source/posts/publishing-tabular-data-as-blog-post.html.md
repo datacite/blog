@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Publishing tabular data as blog post
-author: mfenner
+author: 
+- mfenner
 date: '2016-05-20'
 tags:
 - csv

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Welcome DataCite’s New Executive Board Members
-author: tcruse
+author: 
+- tcruse
 date: '2017-04-23'
 tags:
 - datacite

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Announcing Data-Level Metrics in DataCite Labs
-author: mfenner
+author: 
+- mfenner
 date: '2015-09-09'
 tags:
 - data-level metrics

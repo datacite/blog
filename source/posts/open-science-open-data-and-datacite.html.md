@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Open Science, Open Data and DataCite DOIs
-author: lrueda
+author: 
+- lrueda
 date: '2016-03-11'
 tags:
 - doi

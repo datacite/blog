@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Infrastructure Tips for the Non-Profit Startup
-author: mfenner
+author: 
+- mfenner
 date: '2015-12-23'
 tags:
 - infrastructure

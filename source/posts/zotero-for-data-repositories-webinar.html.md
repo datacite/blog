@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Zotero for Data Repositories Webinar
-author: lrueda
+author: 
+- lrueda
 date: '2016-05-17'
 tags:
 - citation

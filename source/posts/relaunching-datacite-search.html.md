@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Relaunching DataCite Search
-author: mfenner
+author: 
+- mfenner
 date: '2016-07-05'
 tags:
 - infrastructure

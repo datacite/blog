@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Explaining the DataCite/ORCID Auto-update
-author: mfenner
+author: 
+- mfenner
 date: '2015-10-29'
 tags:
 - orcid

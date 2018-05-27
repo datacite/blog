@@ -1,7 +1,8 @@
 ---
 layout: post
 title: PIDs for conferences - your comments are welcome!
-author: abirukou
+author: 
+- abirukou
 date: '2018-04-19'
 tags:
 - conference id

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Enhancements to creating and updating re3data
-author: hpampel
+author: 
+- hpampel
 date: '2016-02-24'
 tags:
 - re3data

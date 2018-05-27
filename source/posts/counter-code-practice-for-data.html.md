@@ -1,7 +1,8 @@
 ---
 layout: post
 title: COUNTER Code of Practice for Data Usage Draft Update
-author: dlowenberg
+author: 
+- dlowenberg
 date: '2017-08-23'
 tags:
 - data citation

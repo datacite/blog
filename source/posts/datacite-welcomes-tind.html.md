@@ -1,7 +1,8 @@
 ---
 layout: post
 title: DataCite Welcomes TIND
-author: tcruse
+author: 
+- tcruse
 date: '2016-10-14'
 tags:
 - members

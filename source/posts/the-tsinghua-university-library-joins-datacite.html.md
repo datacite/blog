@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Tsinghua University Library joins DataCite
-author: lrueda
+author: 
+- lrueda
 date: '2016-10-24'
 tags:
 - members

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: PIDapalooza, the festival of persistent identifiers is coming soon!
-author: lrueda
+author: 
+- lrueda
 date: '2016-09-01'
 tags:
 - datacite

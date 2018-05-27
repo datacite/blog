@@ -1,7 +1,8 @@
 ---
 layout: post
 title: One step closer towards instant DOI search results
-author: kgarza
+author: 
+- kgarza
 date: '2017-04-25'
 tags:
 - docker

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Contributor Information in DataCite Metadata
-author: mfenner
+author: 
+- mfenner
 date: '2015-10-12'
 tags:
 - thor

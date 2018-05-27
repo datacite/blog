@@ -1,7 +1,8 @@
 ---
 layout: post
 title: DataCite is Hiring an Application Developer
-author: mfenner
+author: 
+- mfenner
 date: '2016-03-30'
 tags:
 - datacite

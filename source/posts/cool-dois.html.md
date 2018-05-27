@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Cool DOI's
-author: mfenner
+author: 
+- mfenner
 date: '2016-12-15'
 tags:
 - doi

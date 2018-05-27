@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'Our New Website: Dynamic, Responsive and Adapted to your Needs'
-author: lrueda
+author: 
+- lrueda
 date: '2016-06-27'
 tags:
 - datacite

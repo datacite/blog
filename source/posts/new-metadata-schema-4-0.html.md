@@ -1,7 +1,8 @@
 ---
 layout: post
 title: New DataCite Metadata Schema 4.0
-author: lrueda
+author: 
+- lrueda
 date: '2016-09-21'
 tags:
 - datacite

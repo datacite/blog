@@ -1,7 +1,8 @@
 ---
 layout: post
 title: General Assembly 2016, moving DataCite forward
-author: tcruse
+author: 
+- tcruse
 date: '2016-03-31'
 tags:
 - datacite

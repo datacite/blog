@@ -1,7 +1,8 @@
 ---
 layout: post
 title: When Counting is Hard
-author: jlin
+author: 
+- jlin
 date: '2015-08-31'
 tags:
 - data-level metrics

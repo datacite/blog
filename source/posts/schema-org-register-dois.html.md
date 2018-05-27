@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Using Schema.org for DOI Registration
-author: mfenner
+author: 
+- mfenner
 date: '2017-01-09'
 tags:
 - doi

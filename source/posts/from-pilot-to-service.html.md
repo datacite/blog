@@ -1,7 +1,8 @@
 ---
 layout: post
 title: From Pilot to Service
-author: mfenner
+author: 
+- mfenner
 date: '2015-08-17'
 tags:
 - thor

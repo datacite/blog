@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 2,000 Data Repositories and Science Europe’s Framework for Discipline-specific Research Data Management
-author: mwitt
+author: 
+- mwitt
 date: '2018-02-13'
 tags:
 - re3data

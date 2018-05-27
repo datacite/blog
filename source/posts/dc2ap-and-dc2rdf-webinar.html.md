@@ -1,7 +1,8 @@
 ---
 layout: post
 title: DC2AP and DC2RDF Webinar
-author: lrueda
+author: 
+- lrueda
 date: '2016-04-26'
 tags:
 - dublin core

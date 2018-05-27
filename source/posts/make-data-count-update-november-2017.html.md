@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Make Data Count Update: November, 2017"
-author: dlowenberg
+title: 'Make Data Count Update: November, 2017'
+author: 
+- dlowenberg
 date: '2017-11-10'
 tags:
 - mdc

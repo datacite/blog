@@ -1,7 +1,8 @@
 ---
 layout: post
 title: It's all about Relations
-author: mfenner
+author: 
+- mfenner
 date: '2016-04-14'
 tags:
 - metadata

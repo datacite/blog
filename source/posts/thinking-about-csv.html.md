@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Thinking about CSV
-author: mfenner
+author: 
+- mfenner
 date: '2016-05-04'
 tags:
 - csv

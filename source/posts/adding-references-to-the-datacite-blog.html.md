@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Adding References to the DataCite Blog
-author: mfenner
+author: 
+- mfenner
 date: '2015-09-16'
 tags:
 - blog

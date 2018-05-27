@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'Recap: Persistent Identifiers in Paris'
-author: tcruse
+author: 
+- tcruse
 date: '2015-10-04'
 tags:
 - rda

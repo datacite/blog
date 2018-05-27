@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Wellcome explains the benefits of developing an open and global grant identifier
-author: ghendricks
+author: 
+- ghendricks
 date: '2018-02-28'
 tags:
 - funding

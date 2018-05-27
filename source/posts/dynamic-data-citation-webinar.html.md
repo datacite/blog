@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Dynamic Data Citation Webinar
-author: mfenner
+author: 
+- mfenner
 date: '2016-07-18'
 tags:
 - datacite

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: A Content Negotiation Update
-author: mfenner
+author: 
+- mfenner
 date: '2017-04-28'
 tags:
 - doi

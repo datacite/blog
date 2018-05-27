@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Thoughts on the Research Data Alliance 6th Plenary
-author: mfenner
+author: 
+- mfenner
 date: '2015-10-01'
 tags:
 - thor

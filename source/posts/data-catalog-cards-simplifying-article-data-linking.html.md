@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'Data catalog cards: simplifying article/data linking'
-author: mfenner
+author: 
+- mfenner
 date: '2016-05-13'
 tags:
 - citation

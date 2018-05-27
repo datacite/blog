@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Launching the DataCite Status Page
-author: mfenner
+author: 
+- mfenner
 date: '2016-01-11'
 tags:
 - infrastructure

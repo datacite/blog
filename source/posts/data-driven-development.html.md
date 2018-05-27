@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Data-Driven Development
-author: mfenner
+author: 
+- mfenner
 date: '2015-08-03'
 tags:
 - infrastructure

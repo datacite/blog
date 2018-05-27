@@ -2,7 +2,8 @@
 layout: post
 title: 2016 in review
 date: '2016-12-19'
-author: lrueda
+author: 
+- lrueda
 tags:
 - datacite
 image: https://blog.datacite.org/images/2016/12/year_featured.png

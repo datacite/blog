@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Three things you should know about our new DOI Citation Formatting service
-author: kgarza
+author: 
+- kgarza
 date: '2016-10-13'
 tags:
 - citation

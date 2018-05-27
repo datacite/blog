@@ -2,7 +2,8 @@
 layout: post
 title: The OI Project gets underway planning an Open Organization Identifier Registry
 date: '2017-03-30'
-author: tcruse
+author: 
+- tcruse
 tags:
 - organization identifier
 - orcid

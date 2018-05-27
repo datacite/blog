@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Differences between ORCID and DataCite Metadata
-author: mfenner
+author: 
+- mfenner
 date: '2015-09-18'
 tags:
 - thor

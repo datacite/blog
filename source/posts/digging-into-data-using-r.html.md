@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Digging into Metadata using R
-author: mfenner
+author: 
+- mfenner
 date: '2015-08-20'
 tags:
 - metadata

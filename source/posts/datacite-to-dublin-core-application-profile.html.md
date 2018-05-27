@@ -1,7 +1,8 @@
 ---
 layout: post
 title: DataCite to Dublin Core application profile (DC2AP)
-author: lrueda
+author: 
+- lrueda
 date: '2016-02-18'
 tags:
 - dublin core

@@ -2,7 +2,8 @@
 layout: post
 title: DataCite Member Meeting and General Assembly 2017
 date: '2017-04-27'
-author: lrueda
+author: 
+- lrueda
 tags:
 - datacite
 image: https://blog.datacite.org/images/2017/04/group.png

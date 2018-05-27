@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Announcing our new DataCite Support Center
-author: tcruse
+author: 
+- tcruse
 date: '2017-07-11'
 tags:
 - support

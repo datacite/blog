@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Discussing the Scholarly Container
-author: mfenner
+author: 
+- mfenner
 date: '2015-10-02'
 tags:
 - rda

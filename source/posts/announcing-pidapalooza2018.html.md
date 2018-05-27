@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'Announcing PIDapalooza 2018 - the open festival for persistent identifiers!'
-author: tcruse
+author: 
+- tcruse
 date: '2018-08-16'
 tags:
 - persistent identifier

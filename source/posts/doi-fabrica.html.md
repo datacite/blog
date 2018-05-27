@@ -2,7 +2,8 @@
 layout: post
 title: Announcing DataCite DOI Fabrica
 date: '2017-10-18'
-author: mfenner
+author: 
+- mfenner
 tags:
 - doi
 - mds

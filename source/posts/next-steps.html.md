@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Next steps for the Organization ID Initiative: Report from the Stakeholder Meeting"
+title: 'Next steps for the Organization ID Initiative: Report from the Stakeholder Meeting'
 author:
 - lhaak
 - tcruse

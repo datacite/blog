@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Dataverse is now minting DOIs with DataCite Metadata Store API
-author: ecastro
+author: 
+- ecastro
 date: '2016-03-30'
 tags:
 - doi

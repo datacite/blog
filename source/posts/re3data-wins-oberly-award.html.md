@@ -1,7 +1,8 @@
 ---
 layout: post
 title: DataCite’s re3data wins Oberly Award from the American Libraries Association
-author: mwitt
+author: 
+- mwitt
 date: '2017-04-19'
 tags:
 - re3data

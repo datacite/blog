@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Fancy things you could build using content negotiation
-author: lrueda
+author: 
+- lrueda
 date: '2017-05-17'
 tags:
 - doi

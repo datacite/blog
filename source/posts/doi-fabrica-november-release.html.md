@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Three new DOI Fabrica features to simplify account management
-author: kgarza
+author: 
+- kgarza
 date: '2017-11-09'
 image: https://files.readme.io/b23b589-Bildschirmfoto_2017-11-06_um_23.17.06.png
 tags:

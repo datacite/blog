@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Welcoming Children’s Hospital of Philadelphia to the community!
-author: lrueda
+author: 
+- lrueda
 date: '2017-03-02'
 tags:
 - doi

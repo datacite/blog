@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Development Roadmap
-author: lrueda
+author: 
+- lrueda
 date: '2017-06-26'
 tags:
 - roadmap

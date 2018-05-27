@@ -1,7 +1,8 @@
 ---
 layout: post
 title: DataCite Metadata Schema 4.0 Webinar
-author: lrueda
+author: 
+- lrueda
 date: '2016-07-08'
 tags:
 - datacite

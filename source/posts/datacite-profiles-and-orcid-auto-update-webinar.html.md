@@ -1,7 +1,8 @@
 ---
 layout: post
 title: DataCite Profiles and ORCID Auto-Update webinar
-author: lrueda
+author: 
+- lrueda
 date: '2015-12-05'
 tags:
 - orcid

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: To better understand research communication, we need a GROUPID (group object
-  identifier)
-author: danielskatz
+title: To better understand research communication, we need a GROUPID (group object identifier)
+author: 
+- danielskatz
 date: '2016-04-17'
 tags:
 - metadata

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: New DataCite Metadata Updates Support Software Citation
-author: jstarr
+author: 
+- jstarr
 date: '2017-10-23'
 tags:
  - metadata
