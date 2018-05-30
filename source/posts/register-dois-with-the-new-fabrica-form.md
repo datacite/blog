@@ -6,6 +6,7 @@ author:
 date: '2018-05-30'
 tags:
   - featured
+  - doi
 image: /images/uploads/fabrica-form-annotated.png
 doi: 10.14454/y92r-5t46
 ---
