@@ -9,12 +9,6 @@ For the past several years data citation has been an important topic in the rese
 
 We analyzed data that used the preferred method for data citation according to the Joint Declaration of Data Citation Principles. Additionally, we examined records downloaded from the Crossref’s Event Data and DataCite services and developed a series of recommendations regarding the use of this source for data citation analyses. The analysis shows that data citation is growing at a slow pace. Furthermore, we found data citation differences between publishers and data centers. We identify limitations in terms of identifying the types of relationship between datasets and publications. We anticipate that this will help identify early patterns of data citation. We also expect that this work would lay the groundwork for future analysis of data citation using the Crossref and DataCite Event Data services.
 
-
-
-In this blogpost we performed an exploratory analysis of data citation dataset collected via crossref and datacite services. We analyzed data that has used the preferred method for data citation according to the DCPI. The analysis shows that data citation is growing at a slow pace. We expose Data citation differences between publishers. We expect that is helps to identify which publishers strategies help more the whole ecosystem. 
-
-
-
 Background 
 
 What are data citations in this context. There are many way in which a researcher can cite data. Researchers can ... At the moment the prevailing formal recommendation to cite data is the DCIP. The data citation principles suggest that the best way to cite data is to ... In this blogpost we analyze citation that follow the DCIP. Those citations have 
