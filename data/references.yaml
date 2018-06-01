@@ -2102,24 +2102,83 @@ references:
   URL: https://github.com/datacite/metadata-reports
   DOI: 10.5438/wr0x-e194
 - id: https://doi.org/10.25490/a97f-egyk
-  title: 'Joint Declaration of Data Citation Principles'
+  type: article
+  keywords: ''
+  title: Joint Declaration of Data Citation Principles
+  publisher: Force11
+  year: '2014'
   DOI: https://doi.org/10.25490/a97f-egyk
 - id: https://doi.org/10.2218/ijdc.v12i1.531
-  title: 'Standardising and Harmonising Research Data Policy in Scholary Publishing'
+  type: article
+  url: http://www.ijdc.net/article/view/12.1.65
+  keywords: ''
+  title: Standardising and Harmonising Research Data Policy in Scholary Publishing
+  journal: International Journal of Digital Curation
+  volume: '12'
+  pages: 65-71
+  year: '2017'
   DOI: https://doi.org/10.2218/ijdc.v12i1.531
 - id: https://doi.org/10.5438/f17b-45vz
-  title: "The Location of the Citation: are Data Citation Recommendations Having an Effect?"
+  type: article
+  keywords: citation, data-level metrics
+  title: 'The Location of the Citation: are Data Citation Recommendations Having an Effect?'
+  publisher: DataCite
+  year: '2016'
   DOI: https://doi.org/10.5438/f17b-45vz
 - id: https://doi.org/10.1371/journal.pone.0063184
-  title: 'Database Citation in Full Text Biomedical Articles'
+  type: article
+  url: http://dx.plos.org/10.1371/journal.pone.0063184
+  keywords: ''
+  title: Database Citation in Full Text Biomedical Articles
+  journal: PLoS ONE
+  volume: '8'
+  pages: e63184
+  year: '2013'
   DOI: https://doi.org/10.1371/journal.pone.0063184
 - id: https://doi.org/10.1056/NEJMsb1616595
-  title: 'Data Authorship as an Incentive to Data Sharing'
+  type: article
+  url: http://www.nejm.org/doi/10.1056/NEJMsb1616595
+  keywords: ''
+  title: Data Authorship as an Incentive to Data Sharing
+  journal: New England Journal of Medicine
+  volume: '376'
+  pages: 1684-1687
+  year: '2017'
   DOI: https://doi.org/10.1056/NEJMsb1616595
 - id: https://doi.org/10.1511/2014.106.6
-  title: 'A Safety Net for Scientific Data'
+  type: article
+  url: https://www.americanscientist.org/article/a-safety-net-for-scientific-data
+  keywords: ''
+  title: A Safety Net for Scientific Data
+  journal: American Scientist
+  volume: '102'
+  pages: '6'
+  year: '2014'
   DOI: https://doi.org/10.1511/2014.106.6
 - id: https://doi.org/10.5281/zenodo.1063636
-  title: 'Article-Data Linking Workshop November 2016'
+  type: article
+  url: https://zenodo.org/record/1063636
+  keywords: THOR, Persistent Identifiers, Article-data linking
+  title: Article-Data Linking Workshop November 2016
+  publisher: Zenodo
+  year: '2017'
   DOI: https://doi.org/10.5281/zenodo.1063636
+- id: https://doi.org/10.1038/sdata.2015.39
+  type: article
+  DOI: https://doi.org/10.1038/sdata.2015.39
+  url: http://www.nature.com/articles/sdata201539
+  keywords: ''
+  title: Making data count
+  journal: Scientific Data
+  volume: '2'
+  pages: '150039'
+  year: '2015'
+- id: https://doi.org/10.1101/122929
+  type: article
+  doi: https://doi.org/10.1101/122929
+  url: http://biorxiv.org/lookup/doi/10.1101/122929
+  keywords: ''
+  title: Standardising and harmonising research data policy in scholarly publishing
+  publisher: bioRxiv
+  year: '2017'
 ...
