@@ -3,7 +3,6 @@ layout: post
 title: 'Glad you asked: A snapshot of the current state of data citation'
 author:
   - kjgarza
-  - mfenner
 date: '2018-05-30'
 tags:
   - scholix
