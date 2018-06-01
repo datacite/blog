@@ -1,8 +1,9 @@
 ---
 layout: post
-title: 'Glad you asked: A snapshot of the current state of data citation'
+title: 'Glad You Asked: A Snapshot of the Current State of Data Citation'
 author:
   - kjgarza
+  - mfenner
 date: '2018-05-30'
 tags:
   - scholix
@@ -10,67 +11,56 @@ tags:
   - make data count
   - rda
 ---
-citation analysis: title in progress
-2018-05-30
+For the past several years data citation has been an important topic in the research community. 
+The community came together and agreed that data must be granted first-class citizenship in the practice of scholarship. Thus the community defined a set of guiding principles for data within scholarly literature. This is known as the Joint Declaration of Data Citation Principles (JDDCP)[@https://doi.org/10.25490/a97f-egyk], published in 2014.
 
-For the past several years data citation has been an important topic in the research community. A recent [Scholarly Kitchen post](https://scholarlykitchen.sspnet.org/2018/05/28/whats-up-with-data-citations/) addresses the complexity of the citation network and the data citation gap in relations to article citation.  This is a complicated question and requires further analysis. This blog post examines two questions related to this topic: 1) the growth of data citation over the last several years, and 2) the opportunities and limitations of using the Crossref and DataCite [Event Data](https://www.crossref.org/services/event-data/) service as a source of data citation analyses. This work was recently presented at RDA Plenary Meeting Berlin 2018, as part of the  [RDA/WDS Scholarly Link Exchange Working Group](http://www.scholix.org/). 
+In the same year, the [Making Data Count](https://mdc.lagotto.io/) project started to explore the incentives for authors to share their data. The project did an initial exploration of metrics for data sharing [@10.1038/sdata.2015.39] and kickstarted services for the collection of data citations and other data metrics. In 2015, Crossref and DataCite started to collaborate on exchanging links between Crossref DOIs and DataCite DOIs – many of which are links between articles and data – in the context of the [Event Data](https://www.crossref.org/services/event-data/) service that more broadly collects information about resources linking to Crossref and DataCite DOIs. In 2016, the [RDA/WDS Scholarly Link Exchange Working Group](http://www.scholix.org/), extended the framework defined by the [RDA/WDS Publishing Data Services Working Group](https://rd-alliance.org/groups/rdawds-publishing-data-services-wg.html), and started to implement the Scholix exchange framework for data-article information links. The Crossref/DataCite Event Data service is part of that framework and supports the Scholix link exchange metadata schema since March 2018.
 
-In this work, we performed an exploratory analysis of data citation dataset collected via Crossref’s and DataCite's Event Data services. We analyzed data that used the preferred method for data citation according to the Joint Declaration of Data Citation Principles (JDDCP) \[@https://doi.org/10.25490/a97f-egyk]. 
+In this blog post we will use data from the Event Data service, with a focus on links between Crossref DOIs and DataCite DOIs, to obtain a snapshot of the current state of data citation. A version of this work was presented at the RDA Plenary Berlin in March 2018, as part of the  [RDA/WDS Scholarly Link Exchange Working Group](http://www.scholix.org/) session. 
+### Data analysis
+As of March 2018, we found more than 870,000 links between Crossref DOIs and DataCite DOIs. As shown in Figure 1, the majority of these links – more than 850,000 – originated from DataCite DOIs, compared to about 22,000 links originating from Crossref DOIs.
 
-Additionally, we examined records downloaded from the Crossref’s Event Data and DataCite service and developed a series of recommendations regarding the use of this source for data citation analyses. Overall, the analysis shows that data citation is growing at a slow rate. Furthermore, we found different data citation practices between publishers and data centers. We identify limitations in terms of identification of the types of relationship between datasets and publications. We hope  that this analysis will help identify early patterns of data citation. We also expect that this work will lay the groundwork for future analysis of data citation using the Crossref and DataCite Event Data services.
 
-Analysis Background
+![Figure 1. Comparison between links provided via Crossref DOIs (left panel, about 22,000 links) and DataCite DOIs (right panel, about 850,000 links). Each box represents 20,000 links.](/images/uploads/total_links.png)
 
-What are data citations in this context?\
-There are many ways a researcher can cite data. At the moment the prevailing formal recommendation is to cite data is the JDCCP. That is, in scholarly literature, whenever and wherever a claim relies upon data, the corresponding data should be cited \[@https://doi.org/10.25490/a97f-egyk]. 
+<small>Figure 1. Comparison between links provided via Crossref DOIs (left panel, about 22,000 links) and DataCite DOIs (right panel, about 850,000 links). Each box represents 20,000 links.</small>
 
-It is import to clarify that the nature of citations can vary by local practice and reason for citation. In some cases article authors cite their own data as way of including supplementary materials. And, in other cases, authors cite data from other contributors as a way to reuse data produced by other researchers.
 
-What is Event Data? 
-The [EventData](https://www.crossref.org/services/event-data/) service was collaboratively developed by Crossref and Datacite. The service collects events associated with scholarly resources on the web. The Crossref EventData service collects events related to article publication in the EventData hub, while the DataCite EventData service collects events related to scholarly resources with DataCite DOIs. Both services are made accessible using the EventData Query API provided by Crossref.
+Out of the 22,000 links provided via Crossref DOIs, only 16% or 3,657 are links between literature and data, defined by using a Crossref type for a scholarly text document and the DataCite metadata resourceTypeGeneral of “Dataset” [@http://doi.org/10.5438/0014]. This is the current number of data citations that we can discover via the Crossref/DataCite Event Data service. 
 
-This exploratory analysis is trying to answer three specific questions.
-How many data citations are there and how has data citation grown?
-How have publishers use of data citations changed over time?
-Who is citing who?
+In terms of how the number of these data citations have changed over time, we found a 40% increase (from 2,599 to 3,657) between March 2017 and March 2018. This increase varies by publisher and its driven mostly by increased data citation counts from SpringerNature and Faculty of 1000. Figure 2 shows how the number of data citations, broken down by publisher, changed between 2017 and 2018, focussing on the publishers with the highest number of data citations. 
 
-Results
-Data citation Practices
 
-In total, we found more than 870,000 data-article publication citations. We found an imbalance in data-article publication linking practices used by article authors. As shown in Figure 1, we observed that data citation information is, in most cases, provided by data producers rather than article authors. There are more than 850,000 citations from data to articles compared to 22,000 citations from articles to data.
+![Figure 2. Data citation changes between 2017 and 2018 for the eight publishers with the highest number of data citations. The dataset corresponds to data citations collected as of March 2018.](/images/uploads/slope_publishers.png)
+<small>Figure 2. Data citation changes between 2017 and 2018 for the eight publishers with the highest number of data citations. The dataset corresponds to data citations collected as of March 2018.</small>
 
-Figure 1. Comparison between links provided from data producers and article authors. Each box is 20,000 links. Data producers provided approximately 850,000 links (right panel). Article authors provided around 22,000 links (left panel).
 
-It is unclear why article authors are not providing as many citations to data as data producers are providing links to article publications. One potential issue is that data citation information might not be requested by publishers. Another possibility is publishers are not included in the references list for the EventData service capturing. Perhaps  authors do not provide this information even when requested. Other possibility is that authors provide data citation information in other ways, for instance, in article metadata or in-line text. Answering these questions would require an analysis of publisher requirements for publishing, their metadata ingestion workflows, and the practices of their authors.
+Finally, we looked at the data repositories where the cited data are hosted separately for each publisher. Using Wiley-Blackwell as an example, figure 3 shows that the majority of their data citations for go to the Dryad data repository.
 
-Out of the 20,000 data-article publication links provided by article authors only 19% of the resourced linked, or cited, are explicitly defined as “datasets”. For this blogpost we have limited this analysis to that 19% (~4,000 citations) of the data citations.
+![Figure 3. Data citations between particular publishers and a particular data center. Publishers as the top category and data centers as the bottom category. Highlighting (in GREEN) citations from Wiley Blackwell to particular repositories. The width of the bar denotes the absolute number of citations for that publisher-data center match. The dataset corresponds to links collected as of March 2018.](/images/uploads/wiley.png)
+<small>Figure 3. Data citations between particular publishers and a particular data center. Publishers as the top category and data centers as the bottom category. Highlighting (in GREEN) citations from Wiley Blackwell to particular repositories. The width of the bar denotes the absolute number of citations for that publisher-data center match. The dataset corresponds to links collected as of March 2018.</small>
 
-Data Citation Growth 
 
-In terms of how the data citation has changed over time we found a slight increase in data citations provided by article authors. Between March 2017 and March 2018 the increase in data citations provided by articles authors has seen a small increase. However, this increase varies by publisher. Figure 2  illustrates data citation registration by publishers and compares the current state, 2018, to 2017. We are filtering by the top contributors to this dataset only. Clearly data citation is growing at a very slow rate. The positive slope of this growth is small for most publishers -- with Springer Nature and F1000 being the exceptions .
+### Conclusions
 
-Figure 2. Slopegraph comparing data citation changes over time for a list of publishers. In this graph we filtered to the top 8 contributors of data citations to the dataset. The dataset corresponds to data citations collected as of March 2018.
+The number of data citations that can be found via links between Crossref DOIs and DataCite DOIs is low (3,657 in March 2018), and did not increase much since 2017. Our data analysis supports similar findings reported by Tim Vines in a [recent blog post](https://scholarlykitchen.sspnet.org/2018/05/28/whats-up-with-data-citations/). Reasons for this finding include the following:
 
-The slight growth should not come as a surprise. Although many journals provided citation information on their landing pages, they often rely in the citation information provided by data centers to populate landing pages. The outliers, Springer Nature and F1000 Research, show a steep increase in data citations, which needs further investigation. 
+Many journals still have no stated policy on research data [@http://www.ijdc.net/article/view/12.1.65/467] and don’t ask authors to link to the data underlying the findings in their manuscript submissions.
+Data citations can be deposited in Crossref metadata via [relation types or references](https://www.crossref.org/blog/how-do-you-deposit-data-citations/). The Crossref/DataCite Event Data service currently only captures reference metadata.
+The majority of data citations are done within the text of the publication, without including them in the reference list [@https://doi.org/10.5438/f17b-45vz].
+Many datasets are not using DOIs as a persistent identifier, in particular in the life sciences, where accession numbers are more common [@https://doi.org/10.1371/journal.pone.0063184].
+With the large number of links provided by data repositories (see above), many publishers [integrate these backlinks to their articles into their publishing platforms](https://www.elsevier.com/about/press-releases/science-and-technology/elsevier-and-pangaea-link-contents-for-easier-access-to-full-earth-system-research) instead of providing the links themselves.
+Coordinating the publication of an article and associated data is complicated [@https://doi.org/10.5281/zenodo.1063636], in particular if the dataset is not published before submission of the manuscript, but in parallel to the article. Many publishers and publication platforms still need to do significant work in this area, and integrating with many different data repositories is a particular challenge.
 
-Connection Patterns
+The large percentage of Wiley-Blackwell data citations going to the Dryad data repository reflects a long history of collaboration of Molecular Ecology, and other Wiley-Blackwell journals in the fields of Ecology and Evolution, with the Dryad data repository. Molecular Ecology is one of the journals leading the charge for improved data accessibility [@https://doi.org/10.1511/2014.106.6] and established a Joint Data Archiving Policy ([JDAP](https://datadryad.org//pages/jdap)), “which calls for authors to archive their data when their paper is published” in 2011. 
+### Next Steps
+Looking ahead there are many actions that can be taken to improve the state of data citation, including:
 
-We also found interesting patterns when looking at the entities to which data citations connect. These entities being publishers and data centers. To show this data we  are using a parallel set graph. We analyzed the three top contributors to the dataset (e.i., Springer Nature, F1000 research and Wiley-Blackwell) and we found three different patterns. 
+There is still a lot of work to do in the area of journal data policies, and the [RDA Data Policy Standardization and Implementation Interest Group](https://www.rd-alliance.org/groups/data-policy-standardisation-and-implementation) is one of the important venues for discussion and implementation.
+To provide incentives to authors, data citation counts and actual data citations should be displayed on repository landing pages for datasets. The [Make Data Count project](http://makedatacount.org/) is working on [example implementations](https://dash.ucop.edu/stash/dataset/doi:10.7280/D1988W) and data citation display guidelines for repositories. 
+Changing data citation practices will take time, so until all data citations are included in metadata and sent to Crossref, we should look at other approaches to collect data citations, such as text-mining for DOIs [@https://doi.org/10.1371/journal.pone.0063184].
+Data citations for datasets not using DOIs should be contributed to the Scholix network, and EMBL-EBI is doing this for the life sciences. ([API documentation](http://europepmc.org/RestfulWebService#dataLinks)).
+Crossref is working on including links to DataCite DOIs found in relation type metadata in the Event Data service. The DataCite metadata schema 4.0 released in 2016 requires a resourceTypeGeneral for all DOIs, making it easier to identify the subset of DataCite DOIs that describes datasets [@https://doi.org/10.5438/x4jq-egt5].
+Article-data publishing workflows need to be simplified and standardized. The Arnold Foundation-funded [Enabling FAIR Data project](https://osf.io/jy4d9/) is working on this topic for publishing workflows in the Earth and Space Sciences.
 
-With Springer Nature we observed a very dispersed pattern. In other words, the citations connect Springer Nature with many different data centers. This means that authors publishing in Springer Nature cite sources located in a number of diverse repositories. In the Figure 3, we highlight Dryad as one of the data centers that is the most cited by Springer Nature metadata. This pattern could be related to the wide range of topics in the Springer Nature journals.
-
-Figure 3 Parallel set graph for links between particular Publishers and a particular Data Center. Publishers as the top category and Data Centers as the bottom category. Highlighting (in GREEN) citations from Springer Nature to particular repositories.The width of the bar denotes the absolute number of citations for that publisher-data center match. The dataset corresponds to links collected as of March 2018.
-This dispersed pattern, however, is not the only one. We found that citations from F1000 Research usually links to the same data centers, either F1000 or figshare --see Figure 4. There are number of reasons for this. F1000 encourages the publication of  data together with article publication and this is done in the F1000 data section. F1000 acts as  both a publisher and a data center. The strong likeage with figshare come from the fact the figshare functioned as [F1000 data store in the early beginings of the journal](https://figshare.com/articles/F1000_and_figshare_Case_Study/1559059). 
-
-Figure 4 Parallel set graph for links between particular Publishers and a particular Data Center. Publishers as the top category and Data Centers as the bottom category. Highlighting (in GREEN) citations from F1000Research to particular repositories.The width of the bar denotes the absolute number of citations for that Publisher-Data center match. The dataset corresponds to links collected as of March 2018.
-
-Finally, another interesting pattern is from Wiley-Blackwell. In this case (see Figure 5) we found a combination of the two previous patterns. We can see an established pattern between journals in Wiley-Blackwell and the Dryad repository. At the same time we can see a dispersed pattern with many other repositories. 
-
-Figure 5. Parallel set graph for links between particular publishers and a particular data center. Publishers as the top category and data centers as the bottom category. Highlighting (in GREEN) citations from Wiley Blackwell to particular repositories.The width of the bar denotes the absolute number of citations for that publisher-data center match. The dataset corresponds to links collected as of March 2018.
-Overall our results indicate that data citation is taking place but there is still a long path ahead. This exploratory analysis has allows to assess that the Event Data service together with DataCite’s and Crossref API services can provide the data to answer questions about the trends of data citation in scholarly publishing. Overall the assessment is positive and has also provided further path of investigation. Additionally, we expect that this exploratory analysis will shed light in the early trends of data citation. For example,  consider F1000 Research, where  the researcher publishing in their journal has a specific data center or repository to preserve their data is very interesting. Does this suggest that other publishers should consider this strategy? 
-
-There are a few lessons learned from this analysis. The analysis used a combination of data sources, thus it required significant effort on integrating information from DataCite and Crossref. New strategies need to be considered to streamline further analyses. Additionally, DataCite needs to encourage data producers (and DataCite members) to assign correct resource type in their metadata. This will help us to separate resources that are not explicitly datasets. Furthermore, journals need to encourage article authors to add data citations in their references as well as streamline their workflows to allow services such as EventData to capture and make public data citations.
-
-Further investigation needs to be carried out exploring different topics. For example what underlying patterns exist in regard to data citations provided by data centers. This is a large dataset and DataCite is currently analyzing it. Additionally, there are other ways  that authors cite data, and further research would need to be undertaken . Finally, the underlying reasons for the imbalance between data citation information provided by data producers and article authors needs to be further investigated. This could potentially be addressed by reaching out to journals and investigating their workflows and requirements for data citation.
-
-Data citation is important for scholarly communications. This analysis provides data on current practices, but we, as a community, have a lot of work to do to make data a first-class citizen. We look forward to continued discussion and analysis on this topic..
+The increase of the data citation numbers by 40% since 2017, and the pioneering work by a number of publishers, is hopefully a sign that we are on a good path.
