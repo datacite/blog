@@ -11,7 +11,7 @@ tags:
   - make data count
   - rda
   - featured
-image: /images/uploads/slope_publishers.png
+image: https://blog.datacite.org/images/uploads/slope_publishers.png
 doi: 10.5438/h16y-3d72
 ---
 For the past several years data citation has been an important topic in the research community. The community came together and agreed that data must be granted first-class citizenship in the practice of scholarship. Thus the community defined a set of guiding principles for data within scholarly literature. This is known as the Joint Declaration of Data Citation Principles (JDDCP)[@https://doi.org/10.25490/a97f-egyk], published in 2014.
