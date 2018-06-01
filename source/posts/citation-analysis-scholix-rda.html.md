@@ -61,7 +61,10 @@ The number of data citations that can be found via links between Crossref DOIs a
 1. Coordinating the publication of an article and associated data is complicated [@https://doi.org/10.5281/zenodo.1063636], in particular if the dataset is not published before submission of the manuscript, but in parallel to the article. Many publishers and publication platforms still need to do significant work in this area, and integrating with many different data repositories is a particular challenge.
 
 The large percentage of Wiley-Blackwell data citations going to the Dryad data repository reflects a long history of collaboration of Molecular Ecology, and other Wiley-Blackwell journals in the fields of Ecology and Evolution, with the Dryad data repository. Molecular Ecology is one of the journals leading the charge for improved data accessibility [@https://doi.org/10.1511/2014.106.6] and established a Joint Data Archiving Policy ([JDAP](https://datadryad.org//pages/jdap)), “which calls for authors to archive their data when their paper is published” in 2011. 
+
+
 ### Next Steps
+
 Looking ahead there are many actions that can be taken to improve the state of data citation, including:
 
 
