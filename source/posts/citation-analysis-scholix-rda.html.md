@@ -2,7 +2,7 @@
 layout: post
 title: 'Glad You Asked: A Snapshot of the Current State of Data Citation'
 author:
-  - kjgarza
+  - kgarza
   - mfenner
 date: '2018-05-30'
 tags:
