@@ -6,7 +6,6 @@ author:
   - mfenner
 date: '2018-05-13'
 tags:
-  - featured
   - datacite
 image: 'https://blog.datacite.org/images/robin.png'
 location: 'Hamburg, Germany'

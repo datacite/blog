@@ -2101,84 +2101,140 @@ references:
   keyword: doi, software, codemeta
   URL: https://github.com/datacite/metadata-reports
   DOI: 10.5438/wr0x-e194
-- id: https://doi.org/10.25490/a97f-egyk
-  type: article
-  keywords: ''
-  title: Joint Declaration of Data Citation Principles
-  publisher: Force11
-  year: '2014'
-  DOI: https://doi.org/10.25490/a97f-egyk
+
 - id: https://doi.org/10.2218/ijdc.v12i1.531
-  type: article
-  url: http://www.ijdc.net/article/view/12.1.65
-  keywords: ''
+  type: article-journal
+  author:
+  - family: Hrynaszkiewicz
+    given: Iain
+  - family: Birukou
+    given: Aliaksandr
+  - family: Astell
+    given: Mathias
+  - family: Swaminathan
+    given: Sowmya
+  - family: Kenall
+    given: Amye
+  - family: Khodiyar
+    given: Varsha
+  issued:
+  - year: '2017'
+    month: '9'
   title: Standardising and Harmonising Research Data Policy in Scholary Publishing
-  journal: International Journal of Digital Curation
+  container-title: International Journal of Digital Curation
+  publisher: Edinburgh University Library
+  page: '65-71'
   volume: '12'
-  pages: 65-71
-  year: '2017'
-  DOI: https://doi.org/10.2218/ijdc.v12i1.531
+  issue: '1'
+  URL: https://doi.org/10.2218%2Fijdc.v12i1.531
+  DOI: 10.2218/ijdc.v12i1.531
+
 - id: https://doi.org/10.5438/f17b-45vz
-  type: article
-  keywords: citation, data-level metrics
-  title: 'The Location of the Citation: are Data Citation Recommendations Having an Effect?'
+  type: article-journal
+  author:
+  - family: Hull
+    given: Elizabeth
+  issued:
+  - year: '2016'
+  title: 'The Location of the Citation: are Data Citation Recommendations Having
+    an Effect?'
   publisher: DataCite
-  year: '2016'
-  DOI: https://doi.org/10.5438/f17b-45vz
+  keyword: citation, data-level metrics
+  DOI: 10.5438/f17b-45vz
+
 - id: https://doi.org/10.1371/journal.pone.0063184
-  type: article
-  url: http://dx.plos.org/10.1371/journal.pone.0063184
-  keywords: ''
+  type: article-journal
+  author:
+  - family: Kafkas
+    dropping-particle: Şenay
+  - family: Kim
+    given: Jee-Hyub
+  - family: McEntyre
+    given: Johanna R.
+  editor:
+  - family: Larivière
+    given: Vincent
+  issued:
+  - year: '2013'
+    month: '5'
   title: Database Citation in Full Text Biomedical Articles
-  journal: PLoS ONE
+  container-title: PLoS ONE
+  publisher: Public Library of Science (PLoS)
+  page: 'e63184'
   volume: '8'
-  pages: e63184
-  year: '2013'
-  DOI: https://doi.org/10.1371/journal.pone.0063184
-- id: https://doi.org/10.1056/NEJMsb1616595
-  type: article
-  url: http://www.nejm.org/doi/10.1056/NEJMsb1616595
-  keywords: ''
+  issue: '5'
+  URL: https://doi.org/10.1371%2Fjournal.pone.0063184
+  DOI: 10.1371/journal.pone.0063184
+
+- id: https://doi.org/10.1056/nejmsb1616595
+  type: article-journal
+  author:
+  - family: Bierer
+    given: Barbara E.
+  - family: Crosas
+    given: Mercè
+  - family: Pierce
+    given: Heather H.
+  issued:
+  - year: '2017'
+    month: '4'
   title: Data Authorship as an Incentive to Data Sharing
-  journal: New England Journal of Medicine
+  container-title: New England Journal of Medicine
+  publisher: New England Journal of Medicine (NEJM/MMS)
+  page: '1684-1687'
   volume: '376'
-  pages: 1684-1687
-  year: '2017'
-  DOI: https://doi.org/10.1056/NEJMsb1616595
+  issue: '17'
+  URL: https://doi.org/10.1056%2Fnejmsb1616595
+  DOI: 10.1056/nejmsb1616595
+
 - id: https://doi.org/10.1511/2014.106.6
-  type: article
-  url: https://www.americanscientist.org/article/a-safety-net-for-scientific-data
-  keywords: ''
+  type: article-journal
+  author:
+  - family: Burke
+    given: Katie
+  issued:
+  - year: '2014'
   title: A Safety Net for Scientific Data
-  journal: American Scientist
+  container-title: American Scientist
+  publisher: Sigma Xi
+  page: '6'
   volume: '102'
-  pages: '6'
-  year: '2014'
-  DOI: https://doi.org/10.1511/2014.106.6
+  issue: '1'
+  URL: https://doi.org/10.1511%2F2014.106.6
+  DOI: 10.1511/2014.106.6
+
 - id: https://doi.org/10.5281/zenodo.1063636
-  type: article
-  url: https://zenodo.org/record/1063636
-  keywords: THOR, Persistent Identifiers, Article-data linking
+  type: article-journal
+  author:
+  - family: Fenner
+    given: Martin
+  issued:
+  - year: '2017'
   title: Article-Data Linking Workshop November 2016
   publisher: Zenodo
-  year: '2017'
-  DOI: https://doi.org/10.5281/zenodo.1063636
-- id: https://doi.org/10.1038/sdata.2015.39
-  type: article
-  DOI: https://doi.org/10.1038/sdata.2015.39
-  url: http://www.nature.com/articles/sdata201539
-  keywords: ''
-  title: Making data count
-  journal: Scientific Data
-  volume: '2'
-  pages: '150039'
-  year: '2015'
+  keyword: THOR, Persistent Identifiers, Article-data linking
+  DOI: 10.5281/zenodo.1063636
+
 - id: https://doi.org/10.1101/122929
-  type: article
-  doi: https://doi.org/10.1101/122929
-  url: http://biorxiv.org/lookup/doi/10.1101/122929
-  keywords: ''
+  type: article-journal
+  author:
+  - family: Hrynaszkiewicz
+    given: Iain
+  - family: Birukou
+    given: Aliaksandr
+  - family: Astell
+    given: Mathias
+  - family: Swaminathan
+    given: Sowmya
+  - family: Kenall
+    given: Amye
+  - family: Khodiyar
+    given: Varsha
+  issued:
+  - year: '2017'
+    month: '4'
   title: Standardising and harmonising research data policy in scholarly publishing
-  publisher: bioRxiv
-  year: '2017'
+  publisher: Cold Spring Harbor Laboratory
+  URL: https://doi.org/10.1101%2F122929
+  DOI: 10.1101/122929
 ...

@@ -10,6 +10,7 @@ tags:
   - data citation
   - make data count
   - rda
+  - featured
 image: /images/uploads/slope_publishers.png
 doi: 10.5438/h16y-3d72
 ---
