@@ -58,3 +58,5 @@ Looking ahead there are many actions that can be taken to improve the state of d
 1. While DataCite is not directly involved in article-data publishing workflows, we can help in two important areas: a) better integrate with metadata lookup in publishing tools, e.g. to validate reference lists, and b) coordination with Crossref in DOI registration for article and data after manuscript acceptance. 
 
 The increase of the data citations coming via publishers by 40% since 2017, the pioneering work by a number of publishers, the large number of data citations provided by data repositories, and the wide-ranging activities of the data sharing community are hopefully signs that we are on a good path forward.
+
+## References
