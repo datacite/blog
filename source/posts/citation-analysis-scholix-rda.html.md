@@ -10,6 +10,8 @@ tags:
   - data citation
   - make data count
   - rda
+image: /images/uploads/slope_publishers.png
+doi: 'https://doi.org/10.5438/h16y-3d72'
 ---
 For the past several years data citation has been an important topic in the research community. The community came together and agreed that data must be granted first-class citizenship in the practice of scholarship. Thus the community defined a set of guiding principles for data within scholarly literature. This is known as the Joint Declaration of Data Citation Principles (JDDCP)[@https://doi.org/10.25490/a97f-egyk], published in 2014.
 
@@ -34,7 +36,7 @@ Finally, we looked at the data repositories where the cited data are hosted sepa
 ![Figure 3. Data citations between particular publishers and a particular data center. Publishers as the top category and data centers as the bottom category. Highlighting (in GREEN) citations from Wiley Blackwell to particular repositories. The width of the bar denotes the absolute number of citations for that publisher-data center match. The dataset corresponds to links collected as of March 2018.](/images/uploads/wiley.png)
 
 ### Conclusions
-The number of data citations that can be found via links between Crossref DOIs and DataCite DOIs is low (3,657 in March 2018), and did not increase much since 2017. Our data analysis supports similar findings reported by Tim Vines in a [recent blog post](https://scholarlykitchen.sspnet.org/2018/05/28/whats-up-with-data-citations/). Reasons for this finding include the following:
+The number of data citations that can be found via links between Crossref DOIs and DataCite DOIs is low (3,657 in March 2018). Our data analysis supports similar findings reported by Tim Vines in a [recent blog post](https://scholarlykitchen.sspnet.org/2018/05/28/whats-up-with-data-citations/). Reasons for this finding include the following:
 
 1. Many journals still have no stated policy on research data [@http://www.ijdc.net/article/view/12.1.65/467] and don’t ask authors to link to the data underlying the findings in their manuscript submissions.
 1. Data citations can be deposited in Crossref metadata via [relation types or references](https://www.crossref.org/blog/how-do-you-deposit-data-citations/). The Crossref/DataCite Event Data service currently only captures reference metadata.
