@@ -62,7 +62,8 @@ The large percentage of Wiley-Blackwell data citations going to the Dryad data r
 ### Next Steps
 Looking ahead there are many actions that can be taken to improve the state of data citation, including:
 
-1. There is still a lot of work to do in the area of journal data policies, and the [RDA Data Policy Standardization and Implementation Interest Group](https://www.rd-alliance.org/groups/data-policy-standardisation-and-implementation) is one of the important venues for discussion and implementation.
+
+1. There is still a lot of work to do in the area of policy, the [RDA Data Policy Standardization and Implementation Interest Group](https://www.rd-alliance.org/groups/data-policy-standardisation-and-implementation) is one of the important venues for discussion and implementation of journal data policies. The [Belmont Forum](http://www.bfe-inf.org/) is coordinating funder activities, and the 1. Credit for Data Sharing initiative focusses on acadmic institutions [@https://doi.org/10.1056/NEJMsb1616595].
 1. To provide incentives to authors, data citation counts and actual data citations should be displayed on repository landing pages for datasets. The [Make Data Count project](http://makedatacount.org/) is working on [example implementations](https://dash.ucop.edu/stash/dataset/doi:10.7280/D1988W) and data citation display guidelines for repositories. 
 1. Changing data citation practices will take time, so until all data citations are included in metadata and sent to Crossref, we should look at other approaches to collect data citations, such as text-mining for DOIs [@https://doi.org/10.1371/journal.pone.0063184].
 1. Data citations for datasets not using DOIs should be contributed to the Scholix network, and EMBL-EBI is doing this for the life sciences. ([API documentation](http://europepmc.org/RestfulWebService#dataLinks)).
@@ -70,4 +71,5 @@ Looking ahead there are many actions that can be taken to improve the state of d
 1. Article-data publishing workflows need to be simplified and standardized. The Arnold Foundation-funded [Enabling FAIR Data project](https://osf.io/jy4d9/) is working on this topic for publishing workflows in the Earth and Space Sciences.
 1. While DataCite is not directly involved in article-data publishing workflows, we can help in two important areas: a) better integrate with metadata lookup in publishing tools, e.g. to validate reference lists, and b) coordination with Crossref in DOI registration for article and data after manuscript acceptance. 
 
-The increase of the data citation numbers by 40% since 2017, and the pioneering work by a number of publishers, is hopefully a sign that we are on a good path.
+The increase of the data citation numbers by 40% since 2017, the pioneering work by a number of publishers, and the wide-ranging activities of the data sharing community are hopefully signs that we are on a good path forward.
+
