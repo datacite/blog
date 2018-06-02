@@ -18,7 +18,7 @@ references:
   URL: http://zenodo.org/record/32412
   DOI: 10.5281/zenodo.32412
 
-- id: Kratz:2015cr
+- id: '@https://doi.org/10.1038/sdata.2015.39'
   type: article-journal
   author:
   - family: Kratz
