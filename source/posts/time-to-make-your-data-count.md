@@ -22,3 +22,12 @@ The Make Data Count project team works in an agile “minimum viable product” 
 * volume of data being accessed
 * citation details
 * social media activity
+
+## We just released our first iteration of data-level metrics infrastructure, what next?
+
+### 1) Get Repositories Involved
+
+For this project to be effective and for us to compare and utilize data-level metrics we need as many repositories as possible to join the effort. This is an open call for every repository with research data to Make Data Count. A couple of important resources to do so:
+
+* Check out our [How-To Guide](https://github.com/CDLUC3/Make-Data-Count/blob/master/getting-started.md) as described by the California Digital Library implementation of Make Data Count. Tips and tools (e.g. a Python Log Processor) are detailed in this guide and available on our public Github. Links in this guide also point to the DataCite documentation necessary for implementation.
+* **Join our project team for a webinar on how to implement Make Data Count at your repository and learn more about the project on Tuesday, July 10th at 8am PST/11am EST. Webinar link:** [http://bit.ly/2xJEA4n](http://bit.ly/2xJEA4n).
