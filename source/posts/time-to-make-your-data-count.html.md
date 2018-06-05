@@ -50,6 +50,6 @@ When implementing this infrastructure in our repositories we became aware of how
 
 For the academic research community to value research data we need to talk about data-level metrics. This is a call out to researchers to utilize data-level metrics as they would with articles, and for academic governance to value these metrics as they do with articles.
 
-**With the first version of our data-level-metrics infrastructure released, we are excited to work as a community to further drive adoption of data metrics. For further updates, follow our twitter @makedatacount.**
+**With the first version of our data-level-metrics infrastructure released, we are excited to work as a community to further drive adoption of data metrics. For further updates, follow our twitter makedatacount.**
 
 ## References

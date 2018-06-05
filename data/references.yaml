@@ -2237,4 +2237,45 @@ references:
   publisher: Cold Spring Harbor Laboratory
   URL: https://doi.org/10.1101%2F122929
   DOI: 10.1101/122929
+
+- id: https://doi.org/10.7287/peerj.preprints.26505v1
+  type: article-journal
+  author:
+  - family: Fenner
+    given: Martin
+  - family: Lowenberg
+    given: Daniella
+  - family: Jones
+    given: Matt
+  - family: Needham
+    given: Paul
+  - family: Vieglais
+    given: Dave
+  - family: Abrams
+    given: Stephen
+  - family: Cruse
+    given: Patricia
+  - family: Chodacki
+    given: John
+  issued:
+  - year: '2018'
+    month: '2'
+  title: Code of practice for research data usage metrics release 1
+  publisher: PeerJ
+  URL: https://doi.org/10.7287%2Fpeerj.preprints.26505v1
+  DOI: 10.7287/peerj.preprints.26505v1
+
+- id: https://doi.org/10.5438/h16y-3d72
+  type: article-journal
+  author:
+  - family: Garza
+    given: Kristian
+  - family: Fenner
+    given: Martin
+  issued:
+  - year: '2018'
+  title: 'Glad You Asked: A Snapshot of the Current State of Data Citation'
+  publisher: DataCite
+  keyword: scholix, data citation, make data count, rda
+  DOI: 10.5438/H16Y-3D72
 ...
