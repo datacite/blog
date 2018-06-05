@@ -10,7 +10,7 @@ tags:
   - data-level metrics
   - mdc
   - featured
-image: /images/uploads/photo-1520246819288-8bcefb7ac966.jpeg
+image: https://blog.datacite.org/images/uploads/photo-1520246819288-8bcefb7ac966.jpeg
 doi: 10.5438/pre3-2f25
 ---
 One year into our Sloan funded Make Data Count project, we are proud to release Version 1 of standardized data usage and citation metrics!
