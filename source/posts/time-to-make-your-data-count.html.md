@@ -28,7 +28,7 @@ The repository pages above show how we Make Data Count:
 * Views and Downloads: Internal logs are processed against the Code of Practice and send standard formatted usage logs to a [DataCite hub](https://api.datacite.org/events) for public use and eventually, aggregation.
 * Citations: Citation information is pulled from Crossref Event Data.
 
-The Make Data Count project team works in an agile “minimum viable product” methodology. This first release has focused on developing a standard recommendation, processing our logs against that Code of Practice to develop comparable data usage metrics, and display of both usage and citation metrics at the repository level. We know from work done in the prototype NSF funded Making Data Count project \[@https://doi.org/10.1038/sdata.2015.39] that the community value additional metrics. Hence future versions will include features such as:
+The Make Data Count project team works in an agile “minimum viable product” methodology. This first release has focused on developing a standard recommendation, processing our logs against that Code of Practice to develop comparable data usage metrics, and display of both usage and citation metrics at the repository level. We know from work done in the prototype NSF funded Making Data Count project [@https://doi.org/10.1038/sdata.2015.39] that the community value additional metrics. Hence future versions will include features such as:
 
 * details about where the data are being accessed
 * volume of data being accessed
