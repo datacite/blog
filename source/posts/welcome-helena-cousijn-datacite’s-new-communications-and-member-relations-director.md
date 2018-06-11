@@ -8,13 +8,11 @@ author:
 date: '2018-06-11'
 tags:
   - datacite
-image: /images/uploads/helena.jpg
+image: ''
 ---
 Welcome Helena Cousijn -- DataCite’s New Communications and Member Relations Director
 
 We’re pleased to announce that Helena Cousijn has joined our team, bringing a wealth of experience and knowledge to her position as DataCite’s Communications and Member Relations Director. Helena lives in Amsterdam. 
-
-![](/images/uploads/helena.jpg)
 
 Prior to joining DataCite, Helena worked as Senior Product Manager for Research Data Management solutions at Elsevier where she was responsible for developing research data related outreach activities, providing Elsevier journals with data solutions, and managing partnerships with academic institutions. Helena’s research data outreach activities included managing relationships with data repositories, establishing partner programs with universities, providing insight into the researcher workflow, and developing solutions through extensive user testing. We welcome this mix of experience to the DataCite team. 
 
