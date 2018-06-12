@@ -19,6 +19,7 @@ In 2009, the DataCite was founded, with CDL as one of its first members. Shortly
 Last August, the EZID program began to transition its DOI services to DataCite. Since then Joan has worked closely with the DataCite team and has been instrumental in supporting EZID clients through this transition, providing guides, webinars, and personal introductions and support. I personally thank Joan for all of her work on this — it has been a pleasure. As one client wrote, “We really appreciate all the work you’ve \[Joan has] done to get us to the point where DataCite transition is straightforward and easy! You’ve been right there with us every step of the way!”
 
 Simultaneously with DataCite’s founding, Joan jumped in and led the Metadata Working Group and together with her colleagues provided DataCite’s metadata schema with the goals of
+
 1. establishing easier access to scientific research data on the Internet,
 2. increasing acceptance of research data as legitimate, citable contributions to the scientific record, and
 3. supporting data archiving that will permit results to be verified and re-purposed for future study.
