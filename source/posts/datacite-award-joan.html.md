@@ -8,6 +8,7 @@ author:
 date: '2018-06-11'
 tags:
   - datacite
+doi: 10.5438/4dcz-de44
 ---
 Joan Starr, EZID Service Manager, California Digital Library has been an important part of DataCite’s success from the beginning. Joan has made a difference with her guidance, passion, voice, knowledge — all of which has helped so many in the DataCite community. DataCite awarded Joan the Distinguished Service Award at the spring General Assembly in Berlin 2018. Her contributions are immense.
 
