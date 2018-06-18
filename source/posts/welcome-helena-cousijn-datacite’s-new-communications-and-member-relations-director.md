@@ -9,6 +9,7 @@ date: '2018-06-12'
 tags:
   - datacite
 image: ''
+doi: 10.5438/8syz-ym47
 ---
 We’re pleased to announce that Helena Cousijn has joined our team, bringing a wealth of experience and knowledge to her position as DataCite’s Director of Community Engagement and Communications. 
 
