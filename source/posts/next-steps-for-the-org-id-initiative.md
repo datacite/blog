@@ -2,11 +2,15 @@
 layout: post
 title: Next Steps for the Org ID Initiative
 author:
-  - John Chodacki
+  - jchodacki
+  - tcruse
+  - epentz
+  - lhaak
 date: '2018-08-02'
 tags:
   - organization identifier
   - featured
+doi: 10.5438/67sj-4y05
 ---
 The Org ID Working Group has put our time and energy into defining requirements for an open organization identifier and outlining a path forward for launching a project for our communities to leverage. As the working group chair, I wanted to provide an update on our initiative and let you know where our efforts are headed. 
 
