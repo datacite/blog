@@ -10,7 +10,7 @@ date: '2018-08-02'
 tags:
   - organization identifier
   - featured
-image: /images/uploads/doors.jpg
+image: https://blog.datacite.org/images/uploads/doors.jpg
 doi: 10.5438/67sj-4y05
 ---
 Over the past couple of years, a group of organizations with a shared purpose -- California Digital Library, Crossref, DataCite, and ORCID -- invested our time and energy into launching the Org ID initiative, with the goal of defining requirements for an open, community-led organization identifier registry.  The goal of our initiative has been to offer a transparent, accessible process that builds a better system for all of our communities.  As the working group chair, I wanted to provide an update on this initiative and let you know where our efforts are headed. 
