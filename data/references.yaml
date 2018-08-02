@@ -967,8 +967,79 @@ references:
   URL: https://doi.org/10.5438/4716
   DOI: 10.5438/4716
 
+- id: https://doi.org/10.23640/07243.5402002
+  type: article-journal
+  author:
+  - family: Pentz
+    given: Edward
+  - family: Cruse
+    given: Patricia
+  - family: Laurel
+    given: Haak
+  - family: Warner
+    given: Simeon
+  - literal: '0000-0001-9995-2172'
+  - literal: '0000-0003-4453-7136'
+  issued:
+  - year: '2017'
+  title: ORG ID WG Governance Principles and Recommendations
+  publisher: Figshare
+  keyword: 80612 Interorganisational Information Systems and Web Services
+  DOI: 10.23640/07243.5402002
+
+- id: https://doi.org/10.23640/07243.5402047
+  type: article-journal
+  author:
+  - family: Laurel
+    given: Haak
+  - family: Bilder
+    given: Geoffrey
+  - family: Brown
+    given: Christopher
+  - family: Cruse
+    given: Patricia
+  - family: Devenport
+    given: Tim
+  - family: Fenner
+    given: Martin
+  - family: Hoppermann
+    given: Christina
+  - family: Mori
+    given: Andres
+  - family: Pitts
+    given: Andrew
+  - literal: '0000-0001-6593-7476'
+  - literal: '0000-0002-9360-9979'
+  - literal: '0000-0002-1336-7368'
+  - family: Smith
+    given: Arthur
+  issued:
+  - year: '2017'
+  title: ORG ID WG Product Principles and Recommendations
+  publisher: Figshare
+  keyword: 80612 Interorganisational Information Systems and Web Services
+  DOI: 10.23640/07243.5402047
+
+- id: https://doi.org/10.23640/07243.5458162
+  type: article-journal
+  author:
+  - family: Laurel
+    given: Haak
+  - family: Pentz
+    given: Edward
+  - family: Cruse
+    given: Patricia
+  - family: Chodacki
+    given: John
+  issued:
+  - year: '2017'
+  title: 'Organization Identifier Project: Request for Information'
+  publisher: Figshare
+  keyword: 80612 Interorganisational Information Systems and Web Services
+  DOI: 10.23640/07243.5458162
+
 - id: https://doi.org/10.6084/M9.FIGSHARE.3479141
-  type: no-type
+  type: article-journal
   author:
   - family: Demeranville
     given: Tom
