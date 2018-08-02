@@ -28,10 +28,10 @@ I would like to summarize all of the work that has gone into this project, a tru
 
 * A [Working Group](https://orcid.org/content/organization-identifier-working-group) worked throughout 2017 and voted to approve a set of recommendations and principles for ‘governance’ and ‘product’:
 
-  * Governance Recommendations[@https://doi.org/10.23640/07243.5402002.v1]
-  * Product Principles and Recommendations[@https://doi.org/10.23640/07243.5402047.v1]
+  * Governance Recommendations[@https://doi.org/10.23640/07243.5402002]
+  * Product Principles and Recommendations[@https://doi.org/10.23640/07243.5402047]
 
-* We then put out a Request for Information[@https://doi.org/10.23640/07243.5458162.v1] that sought expressions of interest from organizations to be involved in implementing and running an organization identifier registry.
+* We then put out a Request for Information[@https://doi.org/10.23640/07243.5458162] that sought expressions of interest from organizations to be involved in implementing and running an organization identifier registry.
 * There was a really good response to the RFI and reviewing the responses and thinking about next steps led to our most recent [stakeholder meeting in Girona](https://orcid.org/content/2018-org-id-meeting) in January 2018.
 
 ### The work already invested
