@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Next Steps for the Org ID Initiative
+title: 'Org ID: a recap and a hint of things to come'
 author:
   - jchodacki
   - tcruse
