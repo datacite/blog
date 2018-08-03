@@ -19,7 +19,7 @@ Over the past couple of years, a group of organizations with a shared purpose --
 
 First, I would like to summarize all of the work that has gone into this project, a truly community-driven initiative, over the last two years:
 
-* A series of collaborative workshops were held at the Coalition for Networked Information (CNI) meeting in San Antonio TX (2016), the FORCE11 conference in Portland OR (2016), and at PIDapalooza in Reykjavik (2017).
+* A series of collaborative workshops were held at the Coalition for Networked Information (CNI) meeting in San Antonio TX (2016), the FORCE11 conference in Portland OR (2016), and at PIDapalooza in Reykjavik (2016).
 * Findings from these workshops were summarized in three documents, which we made openly available to the community for public comment:
   * Organization Identifier Project: A Way Forward \[@https://doi.org/10.5438/2906]
   * Organization Identifier Provider Landscape \[@https://doi.org/10.5438/4716]
