@@ -7,6 +7,7 @@ date: '2018-08-15'
 tags:
   - metadata
   - datacite
+  - featured
 image: 'https://blog.datacite.org/images/uploads/habermann-blogpost.jpg'
 doi: 'https://doi.org/10.5438/z5w2-gk80'
 ---
