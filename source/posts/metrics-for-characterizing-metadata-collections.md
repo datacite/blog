@@ -7,6 +7,7 @@ date: '2018-08-15'
 tags:
   - metadata; DataCite
 image: /images/uploads/habermann-blogpost.jpg
+doi: 'https://doi.org/10.5438/z5w2-gk80'
 ---
 _This is a guest blog post written by Ted Habermann, Director of Business and Community Development for The HDF Group. Dr. Habermann is currently leading International Standards Organization (ISO) projects developing XML Schema and transforms for ISO Metadata. He is also widely recognized as an expert in data management and in architectures of observing systems, data archives, and distribution systems._
 
@@ -16,9 +17,9 @@ Over the last several years, DataCite has grown to be one of the largest reposit
 
 I introduce the term “Metadata Collection” to refer to sets of metadata records that are managed, and usually governed, as a unit. These collections are typically produced by a single organization and their contents reflect decisions, policies, and practices of that organization. This usage is not to be confused with the “Collection” value of the resourceTypeGeneral attribute in the DataCite metadata schema which refers to collections of resources rather than to collections of metadata records that describe those resources.  
 
-DataCite includes metadata from over 1200 data centers collected by seventy-nine aggregation services (https://stats.datacite.org). While there are six collections with over 500,000 records, 663 of the collections include less than one hundred records and the median collection size is close to eighty. It seems likely that characteristics of these smaller collections reflect organizational decisions and practices. The goal of this work is to elucidate those behaviors and potentially identify groups of organizations with similar behaviors. 
+DataCite includes metadata from over 1200 data centers collected by seventy-nine aggregation services (<https://stats.datacite.org>). While there are six collections with over 500,000 records, 663 of the collections include less than one hundred records and the median collection size is close to eighty. It seems likely that characteristics of these smaller collections reflect organizational decisions and practices. The goal of this work is to elucidate those behaviors and potentially identify groups of organizations with similar behaviors. 
 
-There are many ways to slice the DataCite collection pie for analysis. We started with a sample of the largest collections from significant aggregators and added several others as the picture began to form. We collected random samples of 500 from larger collections and included entire collections that were smaller than 500. The sample is certainly not comprehensive, but it may be representative. If the metrics we propose turn out to be helpful, the analysis may be extended across DataCite and potentially to other repositories as well.
+There are many ways to slice the DataCite collection pie for analysis. We started with a sample of the largest collections from significant aggregators and added several others as the picture began to form. We collected random samples of 500 from larger collections and included entire collections that were smaller than 500. The sample is certainly not comprehensive, but it may be representative. If the metrics we propose turn out to be helpful, the analysis may be extended across DataCite and potentially to other metadata repositories as well.
 
 **Method**
 
@@ -34,17 +35,17 @@ Metadata samples were retrieved for DataCite collections with a variety of sizes
 
 Once these numbers are calculated for each element, they can be used to calculate several indices for each collection:
 
-Number of Records: The total number of records in the collection.
+_Number of Records_: The total number of records in the collection.
 
-Number of Elements: The number of elements in the collection with content: O/R >= 0.
+_Number of Elements_: The number of elements in the collection with content: O/R >= 0.
 
-Complete Elements: The elements that occur in all records.
+_Complete Elements_: The elements that occur in all records.
 
-Partial Elements: The elements that occur in some, but not all records. These may be opportunities for improving the completeness of the collection.
+_Partial Elements_: The elements that occur in some, but not all records. These may be opportunities for improving the completeness of the collection.
 
-Coverage w/r to Repository (CR): The set of elements present in the repository (repository total) is the union of elements present in each record in the repository. Typically, no single collection has all of these elements. CR is the number of elements in the collection / the total number of elements in all collections (the repository). Collections with high CR values (near 100%) contains many of the elements included in all other collections in the repository. These are a great place to look for usage examples and guidance. Collections with CR < 100% might benefit from guidance that references and builds on those examples.
+_Coverage w/r to Repository (CR)_: The set of elements present in the repository (repository total) is the union of elements present in each record in the repository. Typically, no single collection has all of these elements. CR is the number of elements in the collection / the total number of elements in all collections (the repository). Collections with high CR values (near 100%) contains many of the elements included in all other collections in the repository. These are a great place to look for usage examples and guidance. Collections with CR < 100% might benefit from guidance that references and builds on those examples.
 
-Collection Homogeneity (CH): If all elements in a collection are complete, then all of the records contain the same elements. The number of elements with O/R >= 1 / the total number of elements in the collection provides a measure of homogeneity of the records within a collection. CH is 1 if all of the records in a collection have all of the same elements.
+_Collection Homogeneity (CH)_: If all elements in a collection are complete, then all of the records contain the same elements. The number of elements with O/R >= 1 / the total number of elements in the collection provides a measure of homogeneity of the records within a collection. CH is 1 if all of the records in a collection have all of the same elements.
 
 **Results**
 
