@@ -2,7 +2,7 @@
 layout: post
 title: Metrics for Characterizing Metadata Collections
 author:
-  - Ted Habermann
+  - thabermann
 date: '2018-08-15'
 tags:
   - metadata; DataCite
