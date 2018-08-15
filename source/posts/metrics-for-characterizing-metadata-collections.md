@@ -53,9 +53,7 @@ Once these numbers are calculated for each element, they can be used to calculat
 
 The collections examined contained between eight and fifty-seven elements each with the total number of elements in this sample of the repository being seventy-five. Figure 1 shows the distributions of CR and CH for sixty-three collections. The average collection completeness is 34% (25 elements) and most of the collections are 50% or more homogeneous.
 
-![null](/images/uploads/figure1_habermann.png)
-
-_Figure 1. Distributions of Completeness w/r to Repository (blue) and Homogeneity (orange)._
+![_Figure 1. Distributions of Completeness w/r to Repository (blue) and Homogeneity (orange)._](/images/uploads/figure1_habermann.png)
 
 An interesting relationship emerges when these two metrices are combined (Figure 2). There is a clear tendency for collection completeness to decrease as homogeneity increases. In other words, collections tend to include records with the same small set of elements (in the lower right quadrant of Figure 2) or records with more elements incompletely populated (in the upper left quadrant). The homogeneous collections include the six required DataCite elements (creatorName, identifier, identifierType, publicationYear, publisher, and title) and one or more other elements selected to address specific need of each collection. For example, a collection that includes information in English and Russian includes the @xml:lang attribute and a collection that includes local identifiers uses the alternateIdentifier element with the @alternateIdentifierType attribute. The fact that these collections remain homogeneous as content grows beyond the required fields reflects collection wide use cases and associated requirements. Some of these requirements are met by recommended elements, some by optional elements in the DataCite Metadata Schema.
 
