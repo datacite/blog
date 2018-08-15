@@ -6,7 +6,10 @@ author:
 date: '2018-08-15'
 tags:
   - metadata; DataCite
+image: /images/uploads/habermann-blogpost.jpg
 ---
+_This is a guest blog post written by Ted Habermann, Director of Business and Community Development for The HDF Group. Dr. Habermann is currently leading International Standards Organization (ISO) projects developing XML Schema and transforms for ISO Metadata. He is also widely recognized as an expert in data management and in architectures of observing systems, data archives, and distribution systems._
+
 Over the last several years, DataCite has grown to be one of the largest repositories of metadata for many domains and types of resources. It is a great resource for data citation, discovery, and access and offers a growing set of related services. The [DataCite Metadata Schema](http://schema.datacite.org) includes over sixty metadata elements of which six are mandatory. Understanding how the recommended and optional elements are used can help DataCite understand their users and, more importantly, the use cases they are addressing. In addition, this may help identify cohorts of data providers with common behaviors and common metadata related needs and practices. Guidance and user support strategies that target these specific needs can then be developed.
 
 **DataCite Metadata Collections**
