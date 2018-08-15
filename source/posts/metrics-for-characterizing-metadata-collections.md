@@ -65,9 +65,7 @@ The quality of a metadata collection is related to how well it accomplishes the 
 
 Collections that are complete and homogeneous would occur in the upper right corner of Figure 2 and we can combine these two metrics by measuring distance from that corner. This combined measure ranges from 0.44 to 0.95 (31 to 67% of the maximum possible distance) with small numbers being better. Figure 2 identifies the three collections that are closest to complete and homogeneous (Global Biodiversity Information Facility (65 records), University College of Dublin (500 records), and The Kinder Institute (16 records)). These collections, and others like them, may provide a fruitful starting point for overall collection improvements.
 
-![null](/images/uploads/figure2_habermann.png)
-
-_Figure 2. Completeness vs. Homogeneity for sixty-three DataCite Metadata Collections. Three collections that are closest to complete and homogeneous are identified._
+![_Figure 2. Completeness vs. Homogeneity for sixty-three DataCite Metadata Collections. Three collections that are closest to complete and homogeneous are identified._](/images/uploads/figure2_habermann.png)
 
 ### Conclusion
 
