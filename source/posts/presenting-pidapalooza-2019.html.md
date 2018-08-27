@@ -9,7 +9,7 @@ tags:
   - conference
 image: /images/uploads/pidapalooza-dublin-2019-stocksnap_a5g6t8f11n.jpg
 location: 'https://blog.datacite.org/presenting-pidapalooza-2019'
-doi: 10.5438/k5w5-6539
+doi: 10.5438/cd2b-xj80
 ---
 _PIDapalooza, the open festival of persistent identifiers is back and it’s better than ever. Mark your calendar for Dublin, Ireland, January 23-24, 2019 -- and send us your session ideas by September 21. 
 _
