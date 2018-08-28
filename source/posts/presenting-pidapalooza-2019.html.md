@@ -8,7 +8,7 @@ tags:
   - persistent identifiers
   - conference
 image: /images/uploads/pidapalooza-dublin-2019-stocksnap_a5g6t8f11n.jpg
-location: 'https://blog.datacite.org/presenting-pidapalooza-2019'
+location: ''
 doi: 10.5438/cd2b-xj80
 ---
 _PIDapalooza, the open festival of persistent identifiers is back and it’s better than ever. Mark your calendar for Dublin, Ireland, January 23-24, 2019 -- and send us your session ideas by September 21. 
@@ -18,7 +18,7 @@ Yes, it’s back and -- with your support -- it’s going to be better than ever
 
 Hosted, once again, by California Digital Library, Crossref, DataCite, and ORCID, PIDapalooza will follow the same format as past events -- rapid-fire, interactive, 30-60 minute sessions (presentations, discussions, debates, brainstorms, etc.) presented on three stages -- plus main stage attractions, which will be announced shortly. New for this year is an unconference track, as suggested by several attendees last time.
 
-In the meantime, get those creative juices flowing and send us your session PIDeas! What would you like to talk about? Hear about? Learn about? What’s important for your organization and your community and why? What’s working and what’s not? What’s needed and what’s missing? We want to hear from as many PID people as possible!  Please use this form to send us your suggestions. The PIDapalooza Festival Committee will review all forms submitted by September 21, 2018 and decide on the lineup by mid-October.
+In the meantime, get those creative juices flowing and send us your session PIDeas! What would you like to talk about? Hear about? Learn about? What’s important for your organization and your community and why? What’s working and what’s not? What’s needed and what’s missing? We want to hear from as many PID people as possible!  Please use [this form](https://docs.google.com/forms/d/e/1FAIpQLSc3CzF510zTVh6Tfoy2OhC2zd7PcBrTihVV7Y3mR2CUIy14Fw/viewform) to send us your suggestions. The PIDapalooza Festival Committee will review all forms submitted by September 21, 2018 and decide on the lineup by mid-October.
 
 As a reminder, the regular themes are:
 
