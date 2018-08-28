@@ -41,8 +41,6 @@ We’ll be posting more information on the [PIDapalooza](https://pidapalooza.org
 
 In the meantime, what are you waiting for!? [Book your place now](https://www.eventbrite.com/e/pidapalooza-2019-registration-49295286529) -- and we also strongly recommend that you book your accommodation early as there are other big conferences in Dublin that week.
 
-\*\*
-\*\*
+<br/>
 
-**PIDapalooza, Dublin, Ireland, January 23-24, 2019 - it’s a date!
-**
+**PIDapalooza, Dublin, Ireland, January 23-24, 2019 - it’s a date!**
