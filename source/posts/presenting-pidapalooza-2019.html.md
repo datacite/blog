@@ -7,6 +7,7 @@ date: 2018-08-27
 tags:
   - persistent identifiers
   - conference
+  - featured
 image: https://blog.datacite.org/images/uploads/pidapalooza-dublin-2019-stocksnap_a5g6t8f11n.jpg
 doi: 10.5438/cd2b-xj80
 ---
