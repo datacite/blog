@@ -6,7 +6,7 @@ author:
 date: 2018-08-31T07:40:57.614Z
 tags:
   - featured
-image: https://blog.datacite.org/images/uploads/clouds-country-daylight-371633.jpg
+image: /images/uploads/clouds-country-daylight-371633.jpg
 doi: 10.5438/vj9e-sk62
 ---
 Over the years we’ve developed a number of services to help our members create, manage, and discover DOIs. We’ve added features and functionality along the way that we hope helps our members and the public do useful things with DOIs. But underneath it all, the APIs at the heart of our services weren’t seeing much change. Our initial APIs are now seven years old, and even our more recently launched REST API has already celebrated its second birthday. 
@@ -17,7 +17,7 @@ Over the years we’ve developed a number of services to help our members create
 
 But first, some of our members might be wondering what these API things even are. Essentially, an API (or Application Programming Interface) is a way for you to interact with our services. It sits between you and the bulk of DataCite’s codebase and specifies what kinds of information you can ask for and how you should do the asking. When you want to retrieve metadata for a DOI, or create a new DOI, or query for information about DOIs collectively (like finding everything authored by Smith), you send a request to the API in a specific way, and it returns the information. 
 
-An API endpoint is your gateway to accessing the API. In this post, we’re providing the URL as the API endpoint. This is the URL to which you would send your requests. More details about how to send those requests can be found in our [support pages](https://support.datacite.org). 
+An API endpoint is your gateway to accessing the API. In this post, we’re providing the URL as the API endpoint. This is the URL to which you would send your requests. More details about how to send those requests can be found in our support pages (https://support.datacite.org). 
 
 ## Consolidated API
 
