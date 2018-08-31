@@ -2,7 +2,7 @@
 layout: post
 title: The DataCite API Landscape
 author:
-  - daslerr
+  - rdasler
 date: 2018-08-31T07:40:57.614Z
 tags:
   - featured
