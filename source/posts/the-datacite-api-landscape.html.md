@@ -13,11 +13,11 @@ Over the years we’ve developed a number of services to help our members create
 
 2018 has been all about change. We’ve been working on an ambitious project to consolidate our various APIs into one service point, so that it’s simpler to know where to go and what to do to take advantage of DataCite services. This is a complicated project with many moving parts, and we know a lot of you have been looking for guidance about understanding and navigating our API transition plans. We’re pleased to say that a new API is almost here. In this blog post, we outline the current state of our API landscape, so you know where things stand, and next month we’ll follow up with a post that has more details about the new API consolidation and tells early adopters how they can get on board.  
 
-# What is an API? 
+# What is an API?
 
 But first, some of our members might be wondering what these API things even are. Essentially, an API (or Application Programming Interface) is a way for you to interact with our services. It sits between you and the bulk of DataCite’s codebase and specifies what kinds of information you can ask for and how you should do the asking. When you want to retrieve metadata for a DOI, or create a new DOI, or query for information about DOIs collectively (like finding everything authored by Smith), you send a request to the API in a specific way, and it returns the information. 
 
-An API endpoint is your gateway to accessing the API. In this post, we’re providing the URL as the API endpoint. This is the URL to which you would send your requests. More details about how to send those requests can be found in our support pages (https://support.datacite.org). 
+An API endpoint is your gateway to accessing the API. In this post, we’re providing the URL as the API endpoint. This is the URL to which you would send your requests. More details about how to send those requests can be found in our [support pages](https://support.datacite.org). 
 
 # Consolidated API
 
