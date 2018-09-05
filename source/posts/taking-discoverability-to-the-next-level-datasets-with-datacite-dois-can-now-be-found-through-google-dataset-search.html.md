@@ -23,7 +23,9 @@ Today the discoverability of datasets was taken to the next level with the launc
 
 To be able to include datasets from diverse sources, Google developed [guidelines](https://developers.google.com/search/docs/data-types/dataset#source-provenance) for dataset providers to describe their data in a way that allows Google to index the metadata. These guidelines include standard metadata such as title, dataset creator, publication data, publisher, license, and description, and use [schema.org](https://schema.org), a widely used metadata standard co-developed by Google.
 
-The schema.org metadata need to be embedded into the dataset landing page so that the Google indexer can find them, and the data repository needs to provide a sitemap file with the URLs of all dataset landing pages. By doing this the data repository not only is indexed in Google Dataset Search, but also follows our community recommendations for embedding machine-readable metadata in landing pages. [@https://doi.org/10.1101/097196].
+The schema.org metadata need to be embedded into the dataset landing page so that the Google indexer can find them, and the data repository needs to provide a [sitemaps](https://www.sitemaps.org/) file with the URLs of all dataset landing pages. By doing this the data repository not only can be indexed in Google Dataset Search, but also follows our community recommendations for embedding machine-readable metadata in landing pages. [@https://doi.org/10.1101/097196].
+
+The number of data repositories embedding schema.org metadata in dataset landing pages is still, low, see 
 
 DataCite was thrilled to be involved in discussions around the development of Google Dataset Search and to test previous versions. 
 
