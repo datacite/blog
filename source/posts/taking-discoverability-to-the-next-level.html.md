@@ -15,7 +15,7 @@ tags:
 image: /images/uploads/bildschirmfoto-2018-09-05-um-23.41.05.png
 doi: 10.5438/5aep-2n86
 ---
-Discoverability of research data is a core component of the research data ecosystem. Making data findable has always been one of DataCite’s main goals, with [DataCite Search](https://search.datacite.org] providing a tool to search for all datasets with DataCite DOIs. 
+Discoverability of research data is a core component of the research data ecosystem. Making data findable has always been one of DataCite’s main goals, with [DataCite Search](https://search.datacite.org) providing a tool to search for all datasets with DataCite DOIs. 
 
 Today the discoverability of datasets was taken to the next level with the launch of [Google Dataset Search](https://toolbox.google.com/datasetsearch). Google recognized the increasing importance of data and wants to make it easier for everyone, not just researchers, to find datasets. It is similar to Google Scholar in that datasets are included wherever the data lives. This large-scale effort means increased visibility for all data repositories and provides an extra push to make all research data openly available.
 
