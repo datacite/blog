@@ -1688,7 +1688,7 @@ references:
     negotiation
   DOI: 10.5438/t1jg-hvhn
 
-- id: https://10.1101/097196
+- id: https://doi.org/10.1101/097196
   type: article-journal
   author:
   - family: Fenner
@@ -1799,6 +1799,35 @@ references:
   publisher: DataCite
   keyword: doi, metadata, crossref, datacite, schema.org, bibtex, codemeta
   DOI: 10.5438/n138-z3mk
+
+- id: https://doi.org/10.5281/zenodo.1263942
+  type: no-type
+  author:
+  - family: Fenner
+    given: Martin
+  - family: Crosas
+    given: Merce
+  - family: Durand
+    given: Gustavo
+  - family: Wimalaratne
+    given: Sarala
+  - family: Gräf
+    given: Florian
+  - family: Hallett
+    given: Richard
+  - family: Bernal Llinares
+    given: Manuel
+  - family: Schindler
+    given: Uwe
+  - family: Clark
+    given: Tim
+  issued:
+  - year: '2018'
+    month: '3'
+  title: Listing of data repositories that embed schema.org metadata in dataset landing
+    pages
+  URL: https://doi.org/10.5281/zenodo.1263942
+  DOI: 10.5281/zenodo.1263942
 
 - id: https://doi.org/10.1101/103143
   type: article-journal
