@@ -8,6 +8,8 @@ tags:
   - data-level metrics
 doi: 10.5438/nb24-t773
 ---
+_Crossposted from the [COUNTER announcement](https://www.projectcounter.org/counter-code-practice-research-data-usage-metrics-release-1/) from September 13, 2018._
+
 There is a need for the consistent and credible reporting of research data usage. Such usage metrics are required as an important component in understanding how publicly available research data are being reused.
 
 To address this need, [COUNTER](https://www.projectcounter.org/) and members of the [Make Data Count](https://makedatacount.org/) team ([California Digital Library](https://www.cdlib.org/), [DataCite](https://datacite.org/), and [DataONE](https://www.dataone.org/) collaborated in drafting the [Code of Practice for Research Data Usage Metrics release 1](https://www.projectcounter.org/code-of-practice-rd-sections/foreword/).
