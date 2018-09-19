@@ -7,8 +7,8 @@ author:
 - hcousijn
 tags:
 - featured
-image: 
-doi:
+image: https://blog.datacite.org/images/2018/09/repositoryfinderheader.png
+doi: 10.5438/wday-8958
 ---
 More and more funders and publishers require research data to be made available in appropriate repositories, but determining which repository to choose or what counts as an “appropriate repository” can take up a lot of time. What is a researcher to do? 
 
