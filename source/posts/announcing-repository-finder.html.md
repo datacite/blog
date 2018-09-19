@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   Data sharing made easier: use Repository Finder to find the right repository
   for your data
