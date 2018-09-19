@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Data sharing made easier: use Repository Finder to find the right repository for your data.
 date: '2018-09-19'
@@ -8,7 +8,7 @@ author:
 tags:
 - featured
 image: 
-doi: 
+doi:
 ---
 More and more funders and publishers require research data to be made available in appropriate repositories, but determining which repository to choose or what counts as an “appropriate repository” can take up a lot of time. What is a researcher to do? 
 
