@@ -31,7 +31,7 @@ set :markdown_engine, :pandoc
 set :markdown, smartypants: true,
                metadata: "link-citations",
                csl: "styles/apa.csl",
-               bibliography: "data/references.yaml",
+               bibliography: "data/references.bib",
                lang: "en"
 
 # put configuration variables into .env file
