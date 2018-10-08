@@ -7,7 +7,7 @@ author:
 date: 2018-10-08T06:23:06.366Z
 tags:
   - featured
-image: /images/uploads/eventdata-datacite.png
+image: /images/uploads/system-2660914_640.jpg
 doi: 10.5438/s6d3-k860
 ---
 If you’ve gone through the effort of sharing your data, you’d like other people to find, view, download, and reuse your data. Sometimes the repository that holds your dataset will make that information available, but up to now there hasn’t really been a single system that provides views, downloads and citations for datasets across repositories.
@@ -29,14 +29,6 @@ Insights are only ever as good as the data they’re based on. While we’re hap
 ## Let’s get started
 
 So what can you do with Event Data? As a publisher, you could use Event Data to surface the connections between your articles and related datasets. As a repository you could query Event Data via the DataCite REST API to show views, downloads, and citations for your datasets. Both of these require the necessary connections to be in Event Data, so now’s the time to get started depositing relations metadata and submitting usage reports. 
-
-Publishers can submit event metadata as part of their usual Crossref deposit. 
-
-![](/images/uploads/eventdata-crossref.png)
-
-Data repositories can similarly submit event metadata via their usual DataCite deposit. 
-
-![](/images/uploads/eventdata-datacite.png)
 
 To begin using the information contained in Event Data via DataCite services, head on over to our [Event Data guide](https://support.datacite.org/docs/eventdata-guide). You can also take a look at our updated [REST API guide](https://support.datacite.org/docs/api) for the skinny on everything else you can do with the API, or you can read about submitting your repository usage reports via the [usage reports API](https://support.datacite.org/docs/usage-reports-api-guide). If you want to jump straight to the technical nitty gritty, check out the [API reference](https://support.datacite.org/reference). 
 
