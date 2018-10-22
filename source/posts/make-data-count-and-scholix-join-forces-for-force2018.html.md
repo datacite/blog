@@ -10,6 +10,7 @@ tags:
   - data citation
   - data-level metrics
   - force
+image: /images/uploads/force-featured.jpg
 doi: 10.5438/qm7p-wy23
 ---
 _This blog post was cross-posted from the Make Data Count blog_
