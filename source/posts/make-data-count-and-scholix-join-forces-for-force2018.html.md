@@ -9,11 +9,11 @@ tags:
   - featured
   - data citation
   - data-level metrics
-  - force
-image: /images/uploads/force-featured.jpg
+  - force11
+image: https://blog.datacite.org/images/uploads/force-featured.jpg
 doi: 10.5438/qm7p-wy23
 ---
-_This blog post was cross-posted from the Make Data Count blog_
+_This blog post was cross-posted from the Make Data Count blog._
 
 With Make Data Count now in its second year, the focus is shifting from building infrastructure to driving adoption of our open data-level metrics infrastructure. As described in previous blog posts, we built and released infrastructure for data level metrics (views, downloads, citations). While we developed a new [COUNTER endorsed Code of Practice for Research Data](https://www.projectcounter.org/code-practice-research-data/) and new processing pipelines for data usage metrics, we are using the outputs of the Scholix working group to count data citations. The most important next step? Get people, repositories, and publishers to use it. We teamed up with Scholix at FORCE2018 to explain to publishers and data repositories how they can implement and support research data metrics.
 
