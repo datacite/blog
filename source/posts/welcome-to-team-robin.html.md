@@ -7,7 +7,7 @@ author:
 date: '2018-05-13'
 tags:
   - datacite
-image: 'https://blog.datacite.org/images/robin.png'
+image: '/images/robin.png'
 location: 'Hamburg, Germany'
 doi: 10.5438/4cna-aq40
 ---

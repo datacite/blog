@@ -10,7 +10,7 @@ author:
 tags:
 - doi
 - software citation
-image: https://blog.datacite.org/images/2018/05/dois-for-software.png
+image: /images/2018/05/dois-for-software.png
 doi: 10.5438/1nmy-9902
 ---
 

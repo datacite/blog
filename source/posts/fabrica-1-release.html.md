@@ -6,7 +6,7 @@ author:
 date: '2018-05-09'
 tags: 
 - featured
-image: https://blog.datacite.org/images/2018/05/fabrica-homepage.png
+image: /images/2018/05/fabrica-homepage.png
 doi: 10.5438/0yk5-b755
 ---
 

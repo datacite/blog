@@ -7,7 +7,7 @@ author:
 date: 2018-10-08T06:23:06.366Z
 tags:
   - featured
-image: https://blog.datacite.org/images/uploads/system-2660914_640.jpg
+image: /images/uploads/system-2660914_640.jpg
 doi: 10.5438/s6d3-k860
 ---
 If you’ve gone through the effort of sharing your data, you’d like other people to find, view, download, and reuse your data. Sometimes the repository that holds your dataset will make that information available, but up to now there hasn’t really been a single system that provides views, downloads and citations for datasets across repositories.

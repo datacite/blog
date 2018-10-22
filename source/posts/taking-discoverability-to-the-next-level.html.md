@@ -13,7 +13,7 @@ tags:
   - search
   - schema.org
   - featured
-image: https://blog.datacite.org/images/uploads/bildschirmfoto-2018-09-05-um-23.41.05.png
+image: /images/uploads/bildschirmfoto-2018-09-05-um-23.41.05.png
 doi: 10.5438/5aep-2n86
 ---
 Discoverability of research data is a core component of the research data ecosystem. Making data findable has always been one of DataCite’s main goals, with [DataCite Search](https://search.datacite.org) providing a tool to search for all datasets with DataCite DOIs. 

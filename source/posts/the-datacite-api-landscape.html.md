@@ -6,7 +6,7 @@ author:
 date: 2018-08-31T07:40:57.614Z
 tags:
   - featured
-image: https://blog.datacite.org/images/uploads/clouds-country-daylight-371633.jpg
+image: /images/uploads/clouds-country-daylight-371633.jpg
 doi: 10.5438/vj9e-sk62
 ---
 Over the years we’ve developed a number of services to help our members create, manage, and discover DOIs. We’ve added features and functionality along the way that we hope helps our members and the public do useful things with DOIs. But underneath it all, the APIs at the heart of our services weren’t seeing much change. Our initial APIs are now seven years old, and even our more recently launched REST API has already celebrated its second birthday. 

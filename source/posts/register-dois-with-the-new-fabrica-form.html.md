@@ -6,7 +6,7 @@ author:
 date: '2018-05-30'
 tags:
   - featured
-image: https://blog.datacite.org/images/uploads/fabrica-form.png
+image: /images/uploads/fabrica-form.png
 doi: 10.5438/y92r-5t46
 ---
 Today we're releasing a special follow-up to our successful DOI Fabrica 1.0 release earlier this month [@https://doi.org/10.5438/0yk5-b755]. That's right, the DOI registration form is here! 

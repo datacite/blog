@@ -8,7 +8,7 @@ tags:
 - doi
 - mds
 - featured
-image: https://blog.datacite.org/images/2017/10/re3data.png
+image: /images/2017/10/re3data.png
 doi: 10.5438/g7q1-7t10
 ---
 

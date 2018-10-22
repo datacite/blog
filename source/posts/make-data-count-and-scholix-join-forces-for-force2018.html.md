@@ -10,7 +10,7 @@ tags:
   - data citation
   - data-level metrics
   - force11
-image: https://blog.datacite.org/images/uploads/force-featured.jpg
+image: /images/uploads/force-featured.jpg
 doi: 10.5438/qm7p-wy23
 ---
 

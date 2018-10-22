@@ -8,7 +8,7 @@ tags:
 - mdc
 - data-level metrics
 - featured
-image: https://makedatacount.files.wordpress.com/2017/11/mdc.png?w=712
+image: /images/uploads/mdc.png
 doi: 10.5438/fje8-da83
 ---
 *This blog post by Daniella Lowenberg was cross-posted from the [Make Data Count blog](https://makedatacount.org/2017/11/09/make-data-count-update-november-2017/).*

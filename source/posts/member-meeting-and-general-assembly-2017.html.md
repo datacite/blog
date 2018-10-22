@@ -6,7 +6,7 @@ author:
 date: '2017-04-27'
 tags:
   - datacite
-image: 'https://blog.datacite.org/images/2017/04/group.png'
+image: '/images/2017/04/group.png'
 location: 'Barcelona, Spain'
 doi: 10.5438/0000-1z1k
 ---

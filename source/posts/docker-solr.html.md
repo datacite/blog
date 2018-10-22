@@ -7,7 +7,7 @@ date: '2017-04-25'
 tags:
 - docker
 - solr
-image: https://blog.datacite.org/images/2017/04/new_db_index.png
+image: /images/2017/04/new_db_index.png
 doi: 10.5438/0000-02zn
 ---
 ![Art](/images/2017/04/art2_new_db_index.png)

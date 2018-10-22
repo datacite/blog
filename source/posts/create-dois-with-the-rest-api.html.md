@@ -6,7 +6,7 @@ author:
 date: 2018-09-28T16:42:34.079Z
 tags:
   - featured
-image: https://blog.datacite.org/images/uploads/reading_hammock.png
+image: /images/uploads/reading_hammock.png
 doi: 10.5438/s8rt-zv48
 ---
 In last month's overview of our [current API landscape](https://doi.org/10.5438/vj9e-sk62), we introduced the idea of our consolidated REST API, the one place to go to use all DataCite services. As part of this grand consolidation, we're pleased to say that DOI creation is now available as part of the REST API. We're calling on all interested early adopters who want to try it out to [drop us a line](mailto:support@datacite.org).

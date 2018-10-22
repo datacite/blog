@@ -8,7 +8,7 @@ tags:
   - metadata
   - datacite
   - featured
-image: 'https://blog.datacite.org/images/uploads/habermann-blogpost.jpg'
+image: '/images/uploads/habermann-blogpost.jpg'
 doi: 10.5438/z5w2-gk80
 ---
 _This is a guest blog post written by Ted Habermann, Director of Business and Community Development for The HDF Group. Dr. Habermann is currently leading International Standards Organization (ISO) projects developing XML Schema and transforms for ISO Metadata. He is also widely recognized as an expert in data management and in architectures of observing systems, data archives, and distribution systems._

@@ -10,7 +10,7 @@ tags:
   - datacite
   - crossref
   - citation
-image: https://blog.datacite.org/images/uploads/datacitation_blog.png
+image: /images/uploads/datacitation_blog.png
 doi: 10.5438/vqjq-jb84
 ---
 Data citation is seen as one of the most important ways to establish data as a first-class scientific output. At Crossref and DataCite, we are seeing growth in journal articles and other content types citing data, and datasets making the link the other way. Our organizations are committed to working together to help realize the data citation community’s ambition, so we’re embarking on a dedicated effort to get things moving.

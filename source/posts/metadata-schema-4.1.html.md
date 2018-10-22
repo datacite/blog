@@ -7,7 +7,7 @@ date: '2017-10-23'
 tags:
  - metadata
  - software
-image: https://blog.datacite.org/images/2017/10/fortran.png
+image: /images/2017/10/fortran.png
 doi: 10.5438/nzhx-xx96
 ---
 

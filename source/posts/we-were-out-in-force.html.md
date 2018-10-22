@@ -9,7 +9,7 @@ tags:
 - software citation
 - github
 - impactstory
-image: https://blog.datacite.org/images/2016/04/impactstory.png
+image: /images/2016/04/impactstory.png
 location: Portland, OR, USA
 doi: 10.5438/c3by-vyzs
 ---

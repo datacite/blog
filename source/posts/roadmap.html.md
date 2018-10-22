@@ -6,7 +6,7 @@ author:
 date: '2017-06-26'
 tags:
 - roadmap
-image: https://blog.datacite.org/images/2017/06/circle.png
+image: /images/2017/06/circle.png
 doi: 10.5438/9tc-71yb-2jdg
 ---
 Over the next several months DataCite will embark on a new development path focusing on member-facing services. Our goal is to provide easy, understandable, predictable, and robust services to create, manage, find, use and track DataCite DOIs to make data sharing and citation easier. Our activities are not limited to technical development but will include support services that will foster the successful use of all our services. Many of these activities come from all of you, the DataCite community, so thank you for the help.
