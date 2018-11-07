@@ -36,4 +36,4 @@ In an age of automation, things move fast and we want to make sure that you can 
 
 Remember, you can contact us here: support@datacite.org
 
-Or check out the user guides (new material coming soon) here: [www.support.datacite.org](www.support.datacite.org)
+Or check out the user guides (new material coming soon) here: [https://support.datacite.org](https://support.datacite.org)
