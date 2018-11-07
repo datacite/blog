@@ -7,6 +7,7 @@ date: 2018-11-07T19:41:23.624Z
 tags:
   - datacite
   - members
+doi: 10.5438/64h5-4562
 ---
 Your new Member Support Manager here, excited about my recent initiation into the world of persistent identifiers, and keen to learn more about the DataCite community.  I entered into the world of technical support working at a large global information company, a different set up to DataCite, to say the least, but the principles are the same. I love working with people, information, and now I’m a strong advocate of Open Knowledge.  I think I’m in the right place.
 
