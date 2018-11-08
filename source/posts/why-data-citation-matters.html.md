@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why Data Citation matters
+title: Why Data Citation matters to publishers and data repositories
 author:
   - hcousijn
   - rlammey
@@ -10,6 +10,7 @@ tags:
   - data citation
   - crossref
   - datacite
+image: /images/uploads/data_article_nexus_datacitation.jpeg
 ---
 A couple of weeks ago we shared with you that data citation is here, and that you can start doing data citation today. But why would you want to? There are always so many priorities, why should this be at the top of the list?
 
