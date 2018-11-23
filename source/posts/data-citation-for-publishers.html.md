@@ -20,34 +20,29 @@ This week [A Data Citation Roadmap for Scientific Publishers](https://doi.org/10
 
 In this blog post, we’ll discuss the steps you need to take after you’ve implemented this roadmap. The steps in the roadmap describe how you can track & tag data citation yourself. Here we describe how Crossref can help you make these available to the rest of the community. 
 
-**
-The what
-**
+---
+## The what
+
 
 Here’s the recap! From the Crossref perspective, there are two ways to data citation links into the metadata that you register. 
 
-\*\*
-
-1. Metadata deposits with Crossref using the References section of the schema.\*\* 
+**1. Metadata deposits with Crossref using the References section of the schema.**
 
 This is where ‘citations’ are normally recorded. Publishers include the data citation into the deposit of bibliographic references for each publication. 
 
 Publishers can deposit the full data or software citation as a unstructured reference. For guidance here, we recommend that authors cite the dataset or software based on community best practice ([Joint Declaration of Data Citation Principles](https://www.force11.org/group/joint-declaration-data-citation-principles-final), [FORCE11 citation placement](https://www.force11.org/node/4771), [FORCE11 Software Citation Principles](https://www.force11.org/software-citation-principles)).
 
 ```
-
 <citation key="ref=3">
 
    <unstructured_citation>Morinha F, Dávila JA, Estela B, Cabral JA, Frías Ó, González JL, Travassos P, Carvalho D, Milá B, Blanco G (2017) Data from: Extreme genetic structure in a social bird species despite high dispersal capacity. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.684v0</unstructured_citation>
 
 </citation>
-
 ```
 
 Or they can employ any number of [reference tags](https://support.crossref.org/hc/en-us/articles/215578403-Adding-references-to-your-metadata-record) currently accepted by Crossref.
 
 ```
-
 <citation key="ref2">
 
   <doi>10.5061/dryad.684v0</doi>
@@ -57,14 +52,11 @@ Or they can employ any number of [reference tags](https://support.crossref.org/h
   <author>Morinha F, Dávila JA, Estela B, Cabral JA, Frías Ó, González JL, Travassos P, Carvalho D, Milá B, Blanco G</author>
 
 </citation>
-
 ```
 
 We are exploring [JATS4R](http://jats4r.org/data-citations) recommendations to expand the current collection and better support these citations - more on this soon. We also encourage additional suggestions from the community.
 
-\*\*
-
-2. Metadata deposits using the Relations section of the schema. \*\*
+**2. Metadata deposits using the Relations section of the schema. **
 
 This is where other relationships can be recorded. Publishers assert the data link in the [relationship section](https://support.crossref.org/hc/en-us/articles/214357426-Relationships-between-DOIs-and-other-objects) of the metadata deposit. Here, publishers can identify data which are direct outputs of the research results if this is known. This level of specificity is optional, but we’d recommend it as it can support scientific validation and research funding management.
 
@@ -78,20 +70,17 @@ Data and software citations via relation type enables precise tagging of the dat
              </related_item>
           </program>
        </doi_relations> 
-
-
 ```
 
 In general, use the relation type “references” for data and software resources. 
 
 Publishers who wish to specify that the data or software resource was generated as part of the research results can use the “isSupplementedBy” relation type. 
 
-**
-The how 
-**
+---
+## The how 
 
-**
-I create my own XML and register it with Crossref
+
+**I create my own XML and register it with Crossref
 **
 
 Add links to datasets into your reference lists, including their DOIs if available as shown above and deposit them with Crossref. We’ll do the rest. If you want to add references to existing metadata records, you don’t need to redeposit the full article metadata, you can send us a [resource-only deposit](https://support.crossref.org/hc/en-us/articles/215578403) that just contains the reference metadata to append that to the existing metadata for the article. You can also use this method if you prefer to deposit references in a separate workflow to registering your content (i know some members prefer to work this way. 
@@ -117,6 +106,8 @@ I use Simple Text Query to search for and deposit references
 Make sure you include any citations to data in the references you add into Simple Text Query. When you use Simple Text Query to deposit these references, they will then be added into the article metadata in the Crossref database. 
 
 If you use OJS, they’re working on functionality (due for release soon) that will make it easier to deposit reference metadata with Crossref, so you can include citations to data in that. 
+
+---
 
 All of this metadata - sent to Crossref - make it possible to build up pictures of data citations, linking, and relationships. Whether the citations come from the authors in the reference list or they are extracted by the publisher and then deposited, Crossref collects them across publishers. We then make the aggregate set freely available via [Crossref’s APIs](http://help.crossref.org/crossref-apis) in multiple interfaces (REST, OAI-­PMH, OpenURL) and formats (XML and JSON). DataCite does the same for data repositories and so this provides an easy way for publishers and data repositories to exchange information about data citations. As mentioned previously, this all feeds in Event Data. Data is made openly available to a wide host of parties across the extended research ecosystem including funders, research organisations, technology and service providers, indexers, research data frameworks such as [Scholix](http://www.scholix.org), etc. 
 
