@@ -1,7 +1,15 @@
 <div class="bottom-teaser cf">
   <div class="isLeft">
     <section class="author">
-
+      <% Array(current_page.data.author).each_with_index do |a, i| %>
+        <% if data.authors.fetch(a, {})[:image_url] %>
+          <div class="author-image" style="background-image: url(<%= data.authors.fetch(a, {})[:image_url] %>)">Blog Logo</div>
+        <% end %>
+        <h4><%= data.authors.fetch(a, {})[:name] %></h4>
+        <p class="bio"><%= data.authors.fetch(a, {})[:bio] %></p>
+        <p class="orcid"><%= link_to data.authors.fetch(a, {})[:orcid], data.authors.fetch(a, {})[:orcid] %></p>
+        <div class="clearfix"></div>
+      <% end %>
       <h4><%= current_page.data.title %></h4>
       <% if current_page.data.doi.present? %>
         <p class="published"><%= link_to("https://doi.org/" + current_page.data.doi, "https://doi.org/" + current_page.data.doi) %>
