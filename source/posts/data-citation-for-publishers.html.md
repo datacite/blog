@@ -6,11 +6,10 @@ author:
   - rlammey
 date: 2018-11-23T11:34:33.763Z
 tags:
-  - featured
   - data citation
   - publishers
   - crossref
-image: /images/uploads/crossref-card.jpg
+image: ''
 doi: 10.5438/9456-sb49
 ---
 _This blog post was cross-posted from the Crossref blog_
