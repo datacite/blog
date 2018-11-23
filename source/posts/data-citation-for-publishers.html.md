@@ -32,13 +32,19 @@ This is where ‘citations’ are normally recorded. Publishers include the data
 
 Publishers can deposit the full data or software citation as a unstructured reference. For guidance here, we recommend that authors cite the dataset or software based on community best practice ([Joint Declaration of Data Citation Principles](https://www.force11.org/group/joint-declaration-data-citation-principles-final), [FORCE11 citation placement](https://www.force11.org/node/4771), [FORCE11 Software Citation Principles](https://www.force11.org/software-citation-principles)).
 
+```
+
 <citation key="ref=3">
 
    <unstructured_citation>Morinha F, Dávila JA, Estela B, Cabral JA, Frías Ó, González JL, Travassos P, Carvalho D, Milá B, Blanco G (2017) Data from: Extreme genetic structure in a social bird species despite high dispersal capacity. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.684v0</unstructured_citation>
 
 </citation>
 
+```
+
 Or they can employ any number of [reference tags](https://support.crossref.org/hc/en-us/articles/215578403-Adding-references-to-your-metadata-record) currently accepted by Crossref.
+
+```
 
 <citation key="ref2">
 
@@ -50,6 +56,8 @@ Or they can employ any number of [reference tags](https://support.crossref.org/h
 
 </citation>
 
+```
+
 We are exploring [JATS4R](http://jats4r.org/data-citations) recommendations to expand the current collection and better support these citations - more on this soon. We also encourage additional suggestions from the community.
 
 \*\*
@@ -60,19 +68,17 @@ This is where other relationships can be recorded. Publishers assert the data li
 
 Data and software citations via relation type enables precise tagging of the dataset and its specific relationship to the research results published. To tag the data & software citation in the metadata deposit, we ask for the description of the dataset & software (optional), dataset & software identifier and identifier type (DOI, PMID, PMCID, PURL, ARK, Handle, UUID, ECLI, and URI), and [relationship type](http://data.crossref.org/reports/help/schema_doc/4.3.5/NO_NAMESPACE.html#inter_work_relation_relationship-type). 
 
+```
  <program xmlns="http://www.crossref.org/relations.xsd">
+             <related_item>
+             <description>Data from: Extreme genetic structure in a social bird species despite high dispersal capacity</description>
+             <inter_work_relation relationship-type="references" identifier-type="doi">10.5061/dryad.684v0</inter_work_relation>
+             </related_item>
+          </program>
+       </doi_relations> 
 
-\    <related_item>
 
-\    <description>Data from: Extreme genetic structure in a social bird species despite high dispersal capacity</description>
-
-\    <inter_work_relation relationship-type="references" identifier-type="doi">10.5061/dryad.684v0</inter_work_relation>
-
-\    </related_item>
-
-\    </program>
-
-\    </doi_relations> 
+```
 
 In general, use the relation type “references” for data and software resources. 
 
