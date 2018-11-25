@@ -20,7 +20,6 @@ This week [A Data Citation Roadmap for Scientific Publishers](https://doi.org/10
 
 In this blog post, we’ll discuss the steps you need to take after you’ve implemented this roadmap. The steps in the roadmap describe how you can track & tag data citation yourself. Here we describe how Crossref can help you make these available to the rest of the community. 
 
----
 ## The what
 
 
@@ -76,38 +75,29 @@ In general, use the relation type “references” for data and software resourc
 
 Publishers who wish to specify that the data or software resource was generated as part of the research results can use the “isSupplementedBy” relation type. 
 
----
 ## The how 
 
-
-**I create my own XML and register it with Crossref
-**
+**I create my own XML and register it with Crossref**
 
 Add links to datasets into your reference lists, including their DOIs if available as shown above and deposit them with Crossref. We’ll do the rest. If you want to add references to existing metadata records, you don’t need to redeposit the full article metadata, you can send us a [resource-only deposit](https://support.crossref.org/hc/en-us/articles/215578403) that just contains the reference metadata to append that to the existing metadata for the article. You can also use this method if you prefer to deposit references in a separate workflow to registering your content (i know some members prefer to work this way. 
 
-**I’ve started using Metadata Manager for journal article deposits
-**
+**I’ve started using Metadata Manager for journal article deposits**
 
 You can deposit data citations using either method using our new [Metadata Manager](https://www.crossref.org/help/metadata-manager/) tool. When entering journal article metadata, you can use the ‘Related Items’ section to enter the DOI (or other identifier) for the dataset, the type of identifier, a description of the relation type e.g. .Data from: Extreme genetic structure in a social bird species despite high dispersal capacity’, and the relation type - ‘references’ or ‘is supplemented by’ depending on the relationship between the data and the article as described above. When you make the deposit, this relationship information will be registered in Crossref along with the rest of the article metadata. 
 
 ![](/images/uploads/metadatamanager.png)
 
-**Adding the relationships element via Metadata Manager 
-**
+**Adding the relationships element via Metadata Manager**
 
 Metadata Manager also has a section where you can enter and match your references, and then deposit these with Crossref. If you choose this method, enter any data citations into the references section before depositing the article metadata with Crossref. 
 
 If you want to add this information to deposits you have already made using Metadata Manager, you can search for the journals and articles in the interface, bring up the existing metadata and add in the additional information before redepositing. 
 
-**
-I use Simple Text Query to search for and deposit references
-**
+**I use Simple Text Query to search for and deposit references**
 
 Make sure you include any citations to data in the references you add into Simple Text Query. When you use Simple Text Query to deposit these references, they will then be added into the article metadata in the Crossref database. 
 
 If you use OJS, they’re working on functionality (due for release soon) that will make it easier to deposit reference metadata with Crossref, so you can include citations to data in that. 
-
----
 
 All of this metadata - sent to Crossref - make it possible to build up pictures of data citations, linking, and relationships. Whether the citations come from the authors in the reference list or they are extracted by the publisher and then deposited, Crossref collects them across publishers. We then make the aggregate set freely available via [Crossref’s APIs](http://help.crossref.org/crossref-apis) in multiple interfaces (REST, OAI-­PMH, OpenURL) and formats (XML and JSON). DataCite does the same for data repositories and so this provides an easy way for publishers and data repositories to exchange information about data citations. As mentioned previously, this all feeds in Event Data. Data is made openly available to a wide host of parties across the extended research ecosystem including funders, research organisations, technology and service providers, indexers, research data frameworks such as [Scholix](http://www.scholix.org), etc. 
 
