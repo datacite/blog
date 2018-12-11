@@ -121,17 +121,17 @@ _Do you show variables?_
 
 A few things we need to show are not shown yet.
 
-## Data Citation
+### Data Citation
 
-**Q.** How are data citations counted in google scholar?
+_How are data citations counted in Google Scholar?_
 
-**A.** Essentially we do a query for the DOI, url,  and full name of the dataset, and then try to account for special cases where the name of the dataset is generic like "public schools", because that’s not very useful. We plan to start looking at the context in which data is mentioned and how people cite data. Citing data is more complicated than citing publications. We want to go beyond “is this mentioned”.
+Essentially we do a query for the DOI, URL, and full name of the dataset, and then try to account for special cases where the name of the dataset is generic like "public schools", because that’s not very useful. We plan to start looking at the context in which data is mentioned and how people cite data. Citing data is more complicated than citing publications. We want to go beyond “is this mentioned”.
 
-**Q.** Does this mean you are going into a direction of "Google Scholar for Scientific Data"
+_Does this mean you are going into a direction of "Google Scholar for Scientific Data"_
 
-**A.** We are providing discovery: in the same way you can go into Google Scholar and find a publication on any publishers’ website, you will eventually be able to go into Dataset Search and find any dataset on providers’ website. Another big part of Google Scholar is the cross citations and links and for the specific links between datasets we’re hoping to incorporate that as much as possible. We have talked about, further down the line, author profiles. Academics like Google Scholar because they can find all their publications and see who cites them, we are thinking in that direction for Dataset Search, but not in the short term.
+We are providing discovery: in the same way you can go into Google Scholar and find a publication on any publishers’ website, you will eventually be able to go into Dataset Search and find any dataset on providers’ website. Another big part of Google Scholar is the cross citations and links and for the specific links between datasets we’re hoping to incorporate that as much as possible. We have talked about, further down the line, author profiles. Academics like Google Scholar because they can find all their publications and see who cites them, we are thinking in that direction for Dataset Search, but not in the short term.
 
-**Q.** Are there are plans to include data citations and their corresponding citation counts into Google Scholar Profiles?
+_Are there are plans to include data citations and their corresponding citation counts into Google Scholar Profiles?_
 
-**A.** We are in contact with the Google Scholar team discussing how and when it would make sense to cross reference in both directions. The products are clearly related and we are discussing how to provide information for all users.
+We are in contact with the Google Scholar team discussing how and when it would make sense to cross reference in both directions. The products are clearly related and we are discussing how to provide information for all users.
 
