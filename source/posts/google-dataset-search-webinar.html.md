@@ -15,13 +15,13 @@ tags:
 ---
 _Following the [launch](https://www.blog.google/products/search/making-it-easier-discover-datasets/) of [Google Dataset Search](https://toolbox.google.com/datasetsearch) we received many questions from DataCite members about [schema.org](http://schema.org), indexing by Google Dataset Search, and data citation in general. We wanted to make sure you had all the answers, so we organized a webinar and invited [Natasha Noy](https://ai.google/research/people/NatalyaNoy) from Google. Natasha leads the team that developed Dataset Search and during the webinar she was able to tell the people who joined everything they always wanted to know about Google Dataset Search._
 
-_For those who were unable to join, we made the [recording](https://youtu.be/nls8SlBUom4) available through the DataCite YouTube channel and are sharing the questions and answers from the webinar in this blog post. If reading this leads to even more questions, don’t hesitate to reach out (support@datacite.org)._
+<iframe width="800" height="450" src="https://www.youtube.com/embed/nls8SlBUom4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Sections**
+_For those who were unable to join, we made the [recording](https://youtu.be/nls8SlBUom4) available through the DataCite YouTube channel and are sharing the questions and answers from the webinar in this blog post. If reading this leads to even more questions, don’t hesitate to reach out to us via [support@datacite.org](mailto:support@datacite.org)._
 
-[[TOC]]
+## Questions and Answers
 
-## Schema.org Markup
+### Schema.org Markup
 
 **Q. **Do you have an exemplary case of schema.org markup for a data source that has covered many of the things to look out for when indexing sources?
 
