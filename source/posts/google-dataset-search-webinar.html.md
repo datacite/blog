@@ -59,69 +59,67 @@ There are a number of quality measures that we implement, including trying to ma
 
 _Data cleaning would result in a new version of the data file itself, so how do you approach file versioning?  There must be a cache, so how do you handle updates and synchronization? (When the provider updates the original file)_
 
-**A. **[Sitemaps](https://www.sitemaps.org/) help because, in sitemaps, you can see how often things get updated. Things do get re-crawled. We are downstream from crawl, once things get re-crawled we get the update within 2-3 days. 
+[Sitemaps](https://www.sitemaps.org/) help because, in sitemaps, you can see how often things get updated. Things do get re-crawled. We are downstream from crawl, once things get re-crawled we get the update within 2-3 days. 
 
-**Q. **How do you currently handle "similar" datasets? We often have hundreds of datasets with very similar metadata, just slight differences in metadata (different location/platform). When searching in Google Dataset Search it mostly shows one random result, but all the similar ones are hidden.
+_How do you currently handle "similar" datasets? We often have hundreds of datasets with very similar metadata, just slight differences in metadata (different location/platform). When searching in Google Dataset Search it mostly shows one random result, but all the similar ones are hidden._
 
-**A.** This is not handled very well right now. It needs more thought. Any websearch tries to show a diversity in results, the solution will be to group datasets and display the cluster.
+This is not handled very well right now. It needs more thought. Any web search tries to show a diversity in results, the solution will be to group datasets and display the cluster.
 
-**Q.** If we have only metadata records in our repository (but not the actual datasets), would those records be indexed ? And would it have an impact on the search rankings?
+_If we have only metadata records in our repository (but not the actual datasets), would those records be indexed ? And would it have an impact on the search rankings?_
 
-**A. **Metadata records will be indexed. There are so many signals that go into ranking that it is hard to identify how a single signal will affect it.
+Metadata records will be indexed. There are so many signals that go into ranking that it is hard to identify how a single signal will affect it.
 
-**Q.** Are there plans to allow search on summaries of the data (e.g., limit search to datasets with a minimum number of rows/sample size, data with a high mean age)? How can Dataset Search learn about means and variables labels?
+_Are there plans to allow search on summaries of the data (e.g., limit search to datasets with a minimum number of rows/sample size, data with a high mean age)? How can Dataset Search learn about means and variables labels?_
 
-**A.** Means and variables could be in the metadata, there could be options to include this, including things like biases in the data. If the provider wants to publish certain  stats then that could be part of the metadata. One option could be to bring this up on the [schema.org GitHub issue tracker](https://github.com/schemaorg/schemaorg/issues). For those that have pushed for more detailed additional properties, there’s often a push back to keep things simple. This is because schema.org is designed to be easy to implement.  Anything more complicated belongs in an extension, e.g [BioSchemas.org](http://bioschemas.org/)
+Means and variables could be in the metadata, there could be options to include this, including things like biases in the data. If the provider wants to publish certain  stats then that could be part of the metadata. One option could be to bring this up on the [schema.org GitHub issue tracker](https://github.com/schemaorg/schemaorg/issues). For those that have pushed for more detailed additional properties, there’s often a push back to keep things simple. This is because schema.org is designed to be easy to implement.  Anything more complicated belongs in an extension, e.g [BioSchemas.org](http://bioschemas.org/).
 
-**Q. **A lot of human subject datasets are not public (for scientific use only), but the metadata is (or could be). When you start using information inside the data (variables names, labels, value labels, means) those datasets would fall under the table – unless variable metadata and data summaries become part of the metadata somehow. Any plans regarding this? I know [variableMeasured](https://pending.schema.org/variableMeasured) is in pending, but what about data summaries?
+_A lot of human subject datasets are not public (for scientific use only), but the metadata is (or could be). When you start using information inside the data (variables names, labels, value labels, means) those datasets would fall under the table – unless variable metadata and data summaries become part of the metadata somehow. Any plans regarding this? I know [variableMeasured](https://pending.schema.org/variableMeasured) is in pending, but what about data summaries?_
 
-**A. **The data does not have to be public. The metadata has to be public and crawlable. Providers would want their robots.txt file to provide information to crawlers, or to require a login in order to prevent any private data to appear in search. This is not specific to datasets, the issue is the same with Google Search, if something is public that shouldn’t be it can be found in the main search, but we have strict rules about taking this down as soon as it is reported by the provider. 
+The data does not have to be public. The metadata has to be public and crawlable. Providers would want their robots.txt file to provide information to crawlers, or to require a login in order to prevent any private data to appear in search. This is not specific to datasets, the issue is the same with Google Search, if something is public that shouldn’t be it can be found in the main search, but we have strict rules about taking this down as soon as it is reported by the provider. 
 
-**Q.** All "our" datasets found in Google Dataset Search have the DataCite logo, link to search.datacite.org, “provided by Datacite”, etc.? Will adding structured data markup to our own dataset landing pages change that? 
+_All "our" datasets found in Google Dataset Search have the DataCite logo, link to search.datacite.org, “provided by Datacite”, etc.? Will adding structured data markup to our own dataset landing pages change that?_
 
-Sometimes you randomly show datasets using DataCite metadata instead of native ones from the datacenter. Would it be good to have some ranking on your side, like first show the local metadata and only use DataCite as fallback?
+_Sometimes you randomly show datasets using DataCite metadata instead of native ones from the datacenter. Would it be good to have some ranking on your side, like first show the local metadata and only use DataCite as fallback?_
 
-**A.** Yes, that’s the case, adding the markup will solve that. DataCite has a markup for all it’s pages so you can always find them. If the primary source doesn’t have the markup it won’t be found, if you add the metadata it will be linked. We are working on figuring out how best to identify the primary and secondary source of a dataset to make the display more helpful to users.
+Yes, that’s the case, adding the markup will solve that. DataCite has a markup for all it’s pages so you can always find them. If the primary source doesn’t have the markup it won’t be found, if you add the metadata it will be linked. We are working on figuring out how best to identify the primary and secondary source of a dataset to make the display more helpful to users.
 
-**Q.** As a data provider can we have a repository level profile? Not just the dataset creator/author.
+_As a data provider can we have a repository level profile? Not just the dataset creator/author._
 
-**A. **That sounds like a good idea. We will consider that as we consider author/creator profiles.
+That sounds like a good idea. We will consider that as we consider author/creator profiles.
 
-**Q.** Are datasets published as sparql endpoints marked up with the DCAT ontology be included in the dataset search?
+_Are datasets published as sparql endpoints marked up with the DCAT ontology be included in the dataset search?_
 
-**A. **Yes.
+Yes.
 
-**Q.** How does the dataset have to be linked in the metadata to make indexing more likely in the future?
+_How does the dataset have to be linked in the metadata to make indexing more likely in the future?_
 
-**A. **Not sure what the question refers to. If the issue is about indexing the content of the dataset, then it needs to be linked and robots.txt should allow its crawling,
+Not sure what the question refers to. If the issue is about indexing the content of the dataset, then it needs to be linked and robots.txt should allow its crawling,
 
-**Q.** Also, we have multiple detailed [distributions](https://schema.org/distribution) in our metadata for the dataset, but they only show up as available formats. Neither the links nor the names are picked up (specified via "@type": "[DataDownload](https://schema.org/DataDownload)"). Is it planned to include these metadata, or should we solve this by creating more datasets and assign them to a [DataCatalog](https://schema.org/DataCatalog)?
+_Also, we have multiple detailed [distributions](https://schema.org/distribution) in our metadata for the dataset, but they only show up as available formats. Neither the links nor the names are picked up (specified via "@type": "[DataDownload](https://schema.org/DataDownload)"). Is it planned to include these metadata, or should we solve this by creating more datasets and assign them to a [DataCatalog](https://schema.org/DataCatalog)?_
 
-**A. **For the moment, we made a conscious decision not to provide direct download links so that users download the data from the original site, having all the necessary context to understand the data. It is still important to include the download links as they are part of the metadata, for Google and for other tools.
+For the moment, we made a conscious decision not to provide direct download links so that users download the data from the original site, having all the necessary context to understand the data. It is still important to include the download links as they are part of the metadata, for Google and for other tools.
 
-## Search
+### Search
 
-**Q.** What is allowed in the markdown of the description? Will you render figures (e.g., distributions of variables)? Are there plans to use logo provided in the metadata instead of the logo from the Google Knowledge Graph? The Google Knowledge Graph does for some reason not provide our logo.
+_What is allowed in the markdown of the description? Will you render figures (e.g., distributions of variables)? Are there plans to use logo provided in the metadata instead of the logo from the Google Knowledge Graph? The Google Knowledge Graph does for some reason not provide our logo._
 
-**A.** There is no policy at the moment. However, I would suggest using links instead of figures. We are adding the answer on how to add your logo to the results to the [FAQ](https://productforums.google.com/forum/#!topic/webmasters/nPq4BW6iPIA).
+There is no policy at the moment. However, I would suggest using links instead of figures. We are adding the answer on how to add your logo to the results to the [FAQ](https://productforums.google.com/forum/#!topic/webmasters/nPq4BW6iPIA).
 
-**Q.** Can Google Dataset Search do a dataset preview of it’s spreadsheet data since Google Search’s can display spreadsheet data in search results?
+_Can Google Dataset Search do a dataset preview of its spreadsheet data since Google Search’s can display spreadsheet data in search results?_
 
-**A. **Yes, that's among the features that we want to implement.
+Yes, that's among the features that we want to implement.
 
-**Q.** As a demo of how things could work, could you point to examples of a process where someone has discovered data w/ Dataset Search, then manipulated in Data Studio, then shared visualizations, for example?
+_As a demo of how things could work, could you point to examples of a process where someone has discovered data w/ Dataset Search, then manipulated in Data Studio, then shared visualizations, for example?_
 
-**A. **We don't have such an example, but if someone does, and can post it on a blog somewhere, we'd love to have our users see it!
+We don't have such an example, but if someone does, and can post it on a blog somewhere, we'd love to have our users see it!
 
-**Q.** Are there any plans to show more metadata for a dataset? For example, we provide a citation for the dataset which is not shown. Since the paper must be cited when the data is used, it would be very nice to have it shown in the Dataset Search as well. Everything but the abstract seems hidden.
+_Are there any plans to show more metadata for a dataset? For example, we provide a citation for the dataset which is not shown. Since the paper must be cited when the data is used, it would be very nice to have it shown in the Dataset Search as well. Everything but the abstract seems hidden._
 
-**A. **Yes, we do plan to extend the metadata that we are showing. We show more than just the abstract, but certainly not everything that we could be showing yet.
+Yes, we do plan to extend the metadata that we are showing. We show more than just the abstract, but certainly not everything that we could be showing yet.
 
-**Q.** Do you show variables? 
+_Do you show variables?_
 
- 
-
-**A. **A few things we need to show are not shown yet.
+A few things we need to show are not shown yet.
 
 ## Data Citation
 
