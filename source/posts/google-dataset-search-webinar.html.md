@@ -23,43 +23,41 @@ _For those who were unable to join, we made the [recording](https://youtu.be/nls
 
 ### Schema.org Markup
 
-**Q. **Do you have an exemplary case of schema.org markup for a data source that has covered many of the things to look out for when indexing sources?
+_Do you have an exemplary case of schema.org markup for a data source that has covered many of the things to look out for when indexing sources?_
 
-**A.** There is one fake example in the developers documentation. However, any page that you see in Google Dataset Search search is an example. Copy the link from a result that you like and paste it into the [Google Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/), and you can see what kind of metadata it has and the source of the page and what is imported in in terms of metadata. You can use any tool (not just the Google tool) to see the metadata and the source and what it is translated into in terms of structured data.
+There is one fake example in the developers documentation. However, any page that you see in Google Dataset Search search is an example. Copy the link from a result that you like and paste it into the [Google Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/), and you can see what kind of metadata it has and the source of the page and what is imported in in terms of metadata. You can use any tool (not just the Google tool) to see the metadata and the source and what it is translated into in terms of structured data.
 
-**Q.** There are many related entities (from schema.org, or hopefully to be added) that also would benefit by adding to search. Are there plans to create search for other scientific resource, like Linux containers (for which sometimes the line between Dataset and Container can be a bit gray!). 
+_There are many related entities (from schema.org, or hopefully to be added) that also would benefit by adding to search. Are there plans to create search for other scientific resource, like Linux containers (for which sometimes the line between Dataset and Container can be a bit gray!)._
 
-**A. **We’re mostly working on data and datasets. But we are looking at other artifacts. Our notion of dataset is quite inclusive. There are discussions at schema.org about describing containers in more detail but there are also cases where it would be reasonable to use "Dataset" markup for them. Also, some disciplines never publish structured data, they only publish figures and tables in papers. One thing we’re looking at is extracting the metadata about the figures and tables if you ask if there is data that matches Ph levels to wave lengths in silicon, we want to find a way to point to that. At the moment were not looking at workflows and containers. 
+We’re mostly working on data and datasets. But we are looking at other artifacts. Our notion of a dataset is quite inclusive. There are discussions at schema.org about describing containers in more detail but there are also cases where it would be reasonable to use "Dataset" markup for them. Also, some disciplines never publish structured data, they only publish figures and tables in papers. One thing we’re looking at is extracting the metadata about the figures and tables if you ask if there is data that matches Ph levels to wave lengths in silicon, we want to find a way to point to that. At the moment we are not looking at workflows and containers. 
 
-**Q.** Will there be an API exposed for developers to use for validation and query? *Clarification: Validation API, as in an endpoint to send *JSON-LD* and validate it. like the web testing tool, but one that can be done programmatically (not by a human). If I generated a *JSON-LD* for my resource, I would want to validate it. I want to be able to do it with a testing tool (in continuous integration) If I have 100 datasets and I need to validate, I don't want to manually copy paste 100 links. I want my automated tests to pass.*
+_Will there be an API exposed for developers to use for validation and query? Clarification: Validation API, as in an endpoint to send *JSON-LD* and validate it. like the web testing tool, but one that can be done programmatically (not by a human). If I generated a JSON-LD for my resource, I would want to validate it. I want to be able to do it with a testing tool (in continuous integration) If I have 100 datasets and I need to validate, I don't want to manually copy paste 100 links. I want my automated tests to pass._
 
-**A. **Regarding the API, if there was a plan it would be more generic for structured data, validating one page in the testing tool probably gives an idea of how it will work in other pages, there might be some use cases, someone else could do this, it’s an open standard.
+Regarding the API, if there was a plan it would be more generic for structured data, validating one page in the testing tool probably gives an idea of how it will work in other pages, there might be some use cases, someone else could do this, it’s an open standard.
 
-**Q. **How do you determine metadata quality?
+_How do you determine metadata quality?_
 
-**A. **We are still figuring it out and experimenting with different signals, from how the metadata corresponds to what is actually on the page to how much metadata is present given the type of the dataset, etc.
+We are still figuring it out and experimenting with different signals, from how the metadata corresponds to what is actually on the page to how much metadata is present given the type of the dataset, etc.
 
-## Indexing
+### Indexing
 
-**Q.** Can you give us more information on how indexing works?
+_Can you give us more information on how indexing works?_
 
-- how frequently to expect updates
+* _how frequently to expect updates_
+* _why some datasets that have valid JSON-LD according to the [Google Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/) are not indexed (how to debug in this case)_
+* _generally how to find out whether we’ve generated valid JSON-LD more immediately_
 
-- why some datasets that have valid JSON-LD according to the [Google Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/) are not indexed (how to debug in this case)
+Once the dataset page is crawled (or re-crawled), it will be updated in Google Dataset Search within a few days. We (the Dataset Search team) do not control the crawl part however, and that one is subject to whatever all Google crawlers do. Your [Search Console](https://search.google.com/search-console/about) is a good place for that information. To debug,  first check [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/); then make sure through the [Search Console](https://search.google.com/search-console/about) that it was crawled. If it still doesn't appear after a few days, use the Feedback button in Dataset Search to file a bug report.
 
-- generally how to find out whether we’ve generated valid JSON-LD more immediately
+_Is there a size limit to the web pages that go into the index? (e.g. the structured data testing tool gives up > 2.5Mb)._
 
-**A. **Once the dataset page is crawled (or re-crawled), it will be updated in Google Dataset Search within a few days. We (the Dataset Search team) do not control the crawl part however, and that one is subject to whatever all Google crawlers do. Your [Search Console](https://search.google.com/search-console/about) is a good place for that information. To debug,  first check [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/); then make sure through the [Search Console](https://search.google.com/search-console/about) that it was crawled. If it still doesn't appear after a few days, use the Feedback button in Dataset Search to file a bug report.
+This is a more general Search question. Maybe a product forum is a good place to ask.
 
-**Q.** Is there a size limit to the web pages that go into the index? (e.g. the structured data testing tool gives up >2.5Mb).
+_Are you handling "spam", fake pages just implementing schema.org with dataset metadata as a fake to put spam into the search?_
 
-**A. **This is a more general Search question. Maybe a product forum is a good place to ask.
+There are a number of quality measures that we implement, including trying to make sure that the metadata corresponds to the information on the page itself.
 
-**Q.** Are you handling "spam", fake pages just implementing schema.org with dataset metadata as a fake to put spam into the search?
-
-**A. **There are a number of quality measures that we implement, including trying to make sure  that the metadata corresponds to the information on the page itself.
-
-**Q.** Data cleaning would result in a new version of the data file itself, so how do you approach file versioning?  There must be a cache, so how do you handle updates & synchronization? (When the provider updates the original file)
+_Data cleaning would result in a new version of the data file itself, so how do you approach file versioning?  There must be a cache, so how do you handle updates and synchronization? (When the provider updates the original file)_
 
 **A. **[Sitemaps](https://www.sitemaps.org/) help because, in sitemaps, you can see how often things get updated. Things do get re-crawled. We are downstream from crawl, once things get re-crawled we get the update within 2-3 days. 
 
