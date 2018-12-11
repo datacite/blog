@@ -15,6 +15,7 @@ tags:
 image: /images/uploads/bildschirmfoto-2018-12-11-um-19.28.35.png
 doi: 10.5438/4sdj-hf49
 ---
+
 _Following the [launch](https://www.blog.google/products/search/making-it-easier-discover-datasets/) of [Google Dataset Search](https://toolbox.google.com/datasetsearch) we received many questions from DataCite members about [schema.org](http://schema.org), indexing by Google Dataset Search, and data citation in general. We wanted to make sure you had all the answers, so we organized a webinar and invited [Natasha Noy](https://ai.google/research/people/NatalyaNoy) from Google. Natasha leads the team that developed Dataset Search and during the webinar she was able to tell the people who joined everything they always wanted to know about Google Dataset Search._
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/nls8SlBUom4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
