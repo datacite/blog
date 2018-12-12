@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/datacite/blog.svg)](https://travis-ci.org/datacite/blog)
 
+
 ### How to create a Blog post
 
 Create a blog entry is really simple. There are 3 simple steps:
