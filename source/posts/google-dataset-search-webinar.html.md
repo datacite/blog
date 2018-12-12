@@ -98,7 +98,7 @@ Yes.
 
 Not sure what the question refers to. If the issue is about indexing the content of the dataset, then it needs to be linked and robots.txt should allow its crawling,
 
-#### Also, we have multiple detailed [distributions](https://schema.org/distribution) in our metadata for the dataset, but they only show up as available formats. Neither the links nor the names are picked up (specified via "@type": "[DataDownload](https://schema.org/DataDownload)"). Is it planned to include these metadata, or should we solve this by creating more datasets and assign them to a [DataCatalog](https://schema.org/DataCatalog)?
+#### Also, we have multiple detailed [distributions](https://schema.org/distribution) in our metadata for the dataset, but they only show up as available formats. Neither the links nor the names are picked up (specified via "type": "[DataDownload](https://schema.org/DataDownload)"). Is it planned to include these metadata, or should we solve this by creating more datasets and assign them to a [DataCatalog](https://schema.org/DataCatalog)?
 
 For the moment, we made a conscious decision not to provide direct download links so that users download the data from the original site, having all the necessary context to understand the data. It is still important to include the download links as they are part of the metadata, for Google and for other tools.
 
