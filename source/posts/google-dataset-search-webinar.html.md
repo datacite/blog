@@ -8,7 +8,7 @@ author:
   - hcousijn
   - mhirsch
   - mfenner
-date: 2018-12-11T18:04:05.754Z
+date: 2018-12-12
 tags:
   - google dataset search
   - schema.org
