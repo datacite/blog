@@ -10,9 +10,7 @@ doi: 10.5438/1pca-1y05
 ---
 All DataCite DOIs have associated metadata, described in the DataCite Metadata Schema Documentation (@https://doi.org/10.5438/0014), validated and stored as XML in the DataCite Metadata Store (MDS). These metadata are then made available via DataCite APIs and services. For these services XML is not always the best format, and we are thus providing the metadata in other formats, most notably JSON. The problem with our approach so far has been that this JSON was not properly defined, creating overhead and ambiguity both for our internal services and for our users. To change this situation, and to make it easier to work with metadata for DataCite DOIs, we today are announcing **DataCite JSON**.READMORE
 
-
-
-![](/images/uploads/bildschirmfoto-2018-12-19-um-15.36.18.png "Google Trends XML API (red) vs. JSON API (blue)")
+![Google Trends: Searches for XML API (red) vs. JSON API (blue)](/images/uploads/bildschirmfoto-2018-12-19-um-15.36.18.png)
 
 ## What is DataCite JSON?
 
