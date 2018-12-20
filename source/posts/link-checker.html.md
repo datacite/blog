@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: Link checker is here
 date: '2018-12-20'
 image: https://blog.datacite.org/images/uploads/linkchecker-issues.png
 author:
@@ -11,7 +11,7 @@ tags:
 doi: 10.5438/vywf-6s91
 ---
 
-DataCite is pleased to announce our newest service: the link checker is here! Many of you have asked for an automated link checking service to help you maintain your DOI records, and it's now out of the box and ready for Providers to use. 
+DataCite is pleased to announce our newest service. The link checker is here! Many of you have asked for an automated link checking service to help you maintain your DOI records, and it's now out of the box and ready for Providers to use. 
 
 The link checker is a custom-built crawler that works its way through every single DataCite DOI and attempts to follow the URL registered in the metadata. The link checker then returns information about whether or not its attempt was successful and what it found at the other end.  
 
