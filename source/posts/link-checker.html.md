@@ -32,4 +32,4 @@ In addition to verifying that it can reach the URL found in a DOI's metadata, th
 
 ![Link checker results showing issues to investigate](/images/uploads/linkchecker-issues.png)
 
-We're hoping the new link checker service will be valuable for helping you care for your DOIs. Feel free to send us your questions, comments, and suggestions at [support@datacite.org](mailto:support@datacite.org).
+We're hoping the new link checker service will be valuable for helping you care for your DOIs. You can read more about link checker in our [support article about the service](https://support.datacite.org/docs/link-checker). Feel free to send us your questions, comments, and suggestions at [support@datacite.org](mailto:support@datacite.org).
