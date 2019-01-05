@@ -7,12 +7,14 @@ date: 2019-01-07T16:20:48.240Z
 tags:
   - search
   - metadata
+  - fabrica
 image: ''
 ---
+Today we are announcing the first new functionality in 2019, a much improved search for DataCite DOIs and metadata. While the [DataCite Search](https://search.datacite.org) user interface has not changed, the changes under the hood bring many important improvements, and are the biggest changes we have done with search since 2012.READMORE
 
 ## Faster Indexing
 
-Newly registered findable DOIs now appear in the DataCite Search index within a few minutes, compared to the up to 12 hours it took before. The same goes for updates of metadata, or DOIs removed from the public search index (by changing the DOI state from **findable** to **registered**. Faster indexing is particularly important when related content is published at the same time, e.g. a dataset with a DataCite DOI associated with a journal article with a Crossref DOI.
+Newly registered findable DOIs now appear in the DataCite Search index within a few minutes, compared to the up to 12 hours it took before. The same goes for updates of metadata, or DOIs removed from the public search index (by changing the DOI state from **findable** to **registered**). Faster indexing is particularly important when related content is published at the same time, e.g. a dataset with a DataCite DOI associated with a journal article with a Crossref DOI.
 
 ## Advanced DOI Search in DOI Fabrica
 
