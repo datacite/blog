@@ -205,16 +205,3 @@ configure :build do
   # Minify Javascript on build
   activate :minify_javascript
 end
-
-# ready do
-#   resources_without_accession_number = sitemap.resources.select { |r| r.data.accession_number.blank? }
-#   namespace = 'MS-'
-#   upper_limit = 1000000
-
-#   resources_without_accession_number.each do |resource|
-#     number = SecureRandom.random_number(upper_limit).to_s
-#     resource.add_metadata accession_number: namespace + number
-#   end
-
-#   resources
-# end
