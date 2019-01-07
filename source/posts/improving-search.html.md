@@ -38,10 +38,10 @@ One important limitation of our previous search index, and a common issue with m
 
 The above changes were made possible by updating our search index service from an old version of Solr (4.0) to a recent version of Elasticsearch (6.3). While we could have updated Solr, we decided to switch to Elasticsearch, as it works better with our JSON-based workflow – see our December blog post about JSON [@https://doi.org/10.5438/1pca-1y05] – and we can use a [hosted service](https://aws.amazon.com/elasticsearch-service/) tightly integrated with the rest of our infrastructure, greatly reducing the support effort needed.
 
-Not all DataCite services have been switched to the new search index, the [Stats Portal](https://stats.datacite.org) and [OAI-PMH](https://oai.datacite.org) service will be migrated within the next three months and continue to use the old Solr search index for now.
-
 ## Next
 
-In the coming months we will focus on transitioning the remaining services from Solr to Elasticsearch, provide better documentation, and improve performance and fix any bugs we encounter. We will also work with our members to better understand what kind of queries they are most interested in, and how we can better support these queries in the search interface.
+Not all DataCite services have been switched to the new search index, the [Stats Portal](https://stats.datacite.org) and [OAI-PMH](https://oai.datacite.org) service will be migrated within the next three months and continue to use the old Solr search index for now.
+
+In the coming weeks and months we will also provide better documentation, and improve performance and fix any bugs we encounter. We will also work with our members to better understand what kind of queries they are most interested in, and how we can better support these queries in the search interface.
 
 ## References
