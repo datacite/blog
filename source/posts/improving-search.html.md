@@ -9,6 +9,7 @@ tags:
   - metadata
   - fabrica
 image: /images/uploads/bildschirmfoto-2019-01-05-um-17.30.20.png
+doi: 10.5438/eqyb-md72
 ---
 Today we are announcing our first new functionality of 2019, a much improved search for DataCite DOIs and metadata. While the [DataCite Search](https://search.datacite.org) user interface has not changed, changes under the hood bring many important improvements and are our biggest changes to search since 2012.READMORE. This change is available in two places: 1) our DataCite Search index and, 2) DOI Fabrica. 
 
