@@ -18,7 +18,7 @@ Newly registered findable DOIs now appear in the DataCite Search index within a 
 
 ## Advanced DOI Search in DOI Fabrica
 
-This faster indexing makes it possible for members and clients to use the Search index also in [DOI Fabrica](https://doi.datacite.org), enabling the same advanced search functionality available in DataCite Search, but also including DOIs in **draft** or **registered** state. This makes it much easier to manage DOIs and associated metadata, e.g. by filtering for DOIs in draft state or finding DOIs using the retired metadata schemata 2.1 and 2.2. And it is the first time that we provide DOI registration and search in a single user interface; this kind of simplification is one of our themes for 2019 [@https://doi.org/10.5438/bckb-qy95].
+This faster indexing makes it possible for members and clients to use the Search index also in [DOI Fabrica](https://doi.datacite.org), enabling the same advanced search functionality available in DataCite Search, but also including DOIs in **draft** or **registered** state. Our Solr search index could not be used in DOI Fabrica, as users would not see newly created or updated DOIs because of the indexing delay. This makes it much easier to manage DOIs and associated metadata, e.g. by filtering for DOIs in draft state or finding DOIs using the retired metadata schemata 2.1 and 2.2. And it is the first time that we provide DOI registration and search in a single user interface; this kind of simplification is one of our themes for 2019 [@https://doi.org/10.5438/bckb-qy95].
 
 ![query for research data management](/images/uploads/bildschirmfoto-2019-01-05-um-17.30.20.png)
 
