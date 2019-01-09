@@ -13,6 +13,7 @@ doi: 10.5438/vyd9-ty64
 ---
 Today we are announcing our first new functionality of 2019, a much improved search for DataCite DOIs and metadata. While the [DataCite Search](https://search.datacite.org) user interface has not changed, changes under the hood bring many important improvements and are our biggest changes to search since 2012.READMORE
 
+
 ## Faster Indexing
 
 Newly registered (and tagged findable) DOIs now appear in the DataCite Search index within a few minutes, compared with the previous up to 12 hour lag. The same is true for metadata updates or DOIs removed from the public search index (by changing the DOI state from **findable** to **registered**). Faster indexing is particularly important when related content is published at the same time, e.g. a dataset with a DataCite DOI associated with a journal article with a Crossref DOI.
