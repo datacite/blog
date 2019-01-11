@@ -20,14 +20,14 @@ if (!params.empty()) {
 // load the data from the DataCite API
 if (query_url) {
   d3.json(query_url)
-    .get(function(error, json) {
+    .get(function (error, json) {
       if (error) { return console.warn(error); }
       searchResult(json);
 
       json.meta["page"] = page;
-      json.meta["total_pages"] = Math.ceil(json.meta.total/per_page);
+      json.meta["total_pages"] = Math.ceil(json.meta.total / per_page);
       paginate(json, "#content");
-  });
+    });
 }
 
 // add search results to page
@@ -55,7 +55,7 @@ function searchResult(json) {
       .text(numberWithDelimiter(json.meta.total) + " Posts");
   }
 
-  for (var i=0; i<data.length; i++) {
+  for (var i = 0; i < data.length; i++) {
     var post = data[i];
     post["url"] = post.attributes.url.replace(/https:\/\/blog.datacite.org/, site_url);
 
@@ -70,7 +70,7 @@ function searchResult(json) {
       .append("h3")
       .attr("class", "work")
       .append("a")
-      .attr("href", function() { return post.url; })
+      .attr("href", function () { return post.url; })
       .text(post.attributes.title);
     d3.select("#panel-body-" + i).append("section")
       .attr("class", "post-excerpt")
@@ -97,8 +97,9 @@ function searchResult(json) {
       .text(formattedAuthorList(post.attributes.author));
 
     d3.select("#panel-footer-" + i).insert("a")
-      .attr("href", function() { return post.attributes.url + "#disqus_thread"; })
-      .attr("data-disqus-identifier", post.id)
+      .attr("href", function () { return post.attributes.url + "#disqus_thread"; })
+      .attr("data-disqus-identifier", post.attributes.url)
+      .attr("class", "disqus-comment-count")
       .attr("class", "pull-right")
       .text("0 comments");
   }
@@ -125,17 +126,17 @@ function searchResult(json) {
 
     d3.select("#tags .panel-body").insert("ul");
 
-    for (k = 0; k<tags.length; k++) {
+    for (k = 0; k < tags.length; k++) {
       var key = tags[k];
       if (tag === key) {
         d3.select("#tags .panel-body ul").insert("li")
           .append("a")
-          .attr("href", function() { return "/index.html"; }).insert("i")
+          .attr("href", function () { return "/index.html"; }).insert("i")
           .attr("class", "fa fa-check-square-o");
       } else {
         d3.select("#tags .panel-body ul").insert("li")
           .append("a")
-          .attr("href", function() { return "/index.html?tag=" + key; }).insert("i")
+          .attr("href", function () { return "/index.html?tag=" + key; }).insert("i")
           .attr("class", "fa fa-square-o");
       }
       d3.select("#tags .panel-body ul li:last-child").insert("span")
