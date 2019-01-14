@@ -10,7 +10,7 @@ if (!params.empty()) {
   if (page === null) { page = 1; }
   var per_page = 10;
   var query = getParameterByName('query');
-  var tag = getParameterByName('tag');
+  var tag = getParameterByName('subject');
   var api_url = "https://api.datacite.org/dois"
 
   var query_url = encodeURI(api_url + "?page[size]=" + per_page + "&page[number]=" + page + "&client-id=datacite.blog&sort=-created&state=findable");
@@ -40,7 +40,7 @@ function searchResult(json) {
 
   json.href = "?page={{number}}";
   if (query !== null) { json.href += "&query=" + query; }
-  if (tag !== null) { json.href += "&tag=" + tag; }
+  if (tag !== null) { json.href += "&subject=" + tag; }
 
   if (typeof data === "undefined" || data.length === 0) {
     d3.select("#content").text("")
@@ -73,10 +73,13 @@ function searchResult(json) {
       .append("a")
       .attr("href", function () { return post.url; })
       .text(post.attributes.titles[0].title);
-    var description = post.attributes.descriptions[0].description;
-    if(description == null) {
-      description = "";
+    var descriptions = post.attributes.descriptions;
+    if(descriptions.length < 1) {
+      var description = "";
+    }else{
+      var description = post.attributes.descriptions[0].description;
     }
+  
     d3.select("#panel-body-" + i).append("section")
       .attr("class", "post-excerpt")
       .attr("itemprop", "description").insert("p")
@@ -134,7 +137,7 @@ function searchResult(json) {
 
     for (k = 0; k < tags.length; k++) {
       var key = tags[k];
-      if (tag === key.title) {
+      if (tag === meta.subjects[key].title) {
         d3.select("#tags .panel-body ul").insert("li")
           .append("a")
           .attr("href", function () { return "/index.html"; }).insert("i")
@@ -142,7 +145,7 @@ function searchResult(json) {
       } else {
         d3.select("#tags .panel-body ul").insert("li")
           .append("a")
-          .attr("href", function () { return "/index.html?subject=" + meta.subjects[key].title; }).insert("i")
+          .attr("href", function () { return "/index.html?query=" + query + "&subject=" + meta.subjects[key].title.toLowerCase(); }).insert("i")
           .attr("class", "fa fa-square-o");
       }
       d3.select("#tags .panel-body ul li:last-child").insert("span")
