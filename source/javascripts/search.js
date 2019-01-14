@@ -11,10 +11,11 @@ if (!params.empty()) {
   var per_page = 10;
   var query = getParameterByName('query');
   var tag = getParameterByName('tag');
+  var api_url = "https://api.datacite.org/dois"
 
-  var query_url = encodeURI(search_url + "/pages?page[size]=" + per_page + "&page[number]=" + page);
+  var query_url = encodeURI(api_url + "?page[size]=" + per_page + "&page[number]=" + page + "&client-id=datacite.blog&sort=-created&state=findable");
   if (query !== null) { query_url += "&query=" + query; }
-  if (tag !== null) { query_url += "&tag=" + tag; }
+  if (tag !== null) { query_url += "&subject=" + tag; }
 }
 
 // load the data from the DataCite API
@@ -71,21 +72,26 @@ function searchResult(json) {
       .attr("class", "work")
       .append("a")
       .attr("href", function () { return post.url; })
-      .text(post.attributes.title);
+      .text(post.attributes.titles[0].title);
+    var description = post.attributes.descriptions[0].description;
+    if(description == null) {
+      description = "";
+    }
     d3.select("#panel-body-" + i).append("section")
       .attr("class", "post-excerpt")
       .attr("itemprop", "description").insert("p")
-      .html(post.attributes.description);
+      .html(description);
+  
 
     d3.select("#panel-" + i).insert("div")
       .attr("class", "panel-footer")
       .attr("id", "panel-footer-" + i);
 
-    if (post.attributes.issued !== null) {
+    if (post.attributes.dates[0].date !== null) {
       d3.select("#panel-footer-" + i).insert("span")
         .attr("class", "meta").append("time")
-        .attr("datetime", post.attributes.issued)
-        .text(formattedDate(post.attributes.issued.substring(0, 10)));
+        .attr("datetime", post.attributes.dates[0].date)
+        .text(formattedDate(post.attributes.dates[0].date.substring(0, 10)));
     } else {
       d3.select("#panel-footer-" + i).insert("span")
         .attr("class", "meta")
@@ -94,7 +100,7 @@ function searchResult(json) {
 
     d3.select("#panel-footer-" + i).insert("span")
       .attr("class", "meta")
-      .text(formattedAuthorList(post.attributes.author));
+      .text(formattedCreatorList(post.attributes.creators));
 
     d3.select("#panel-footer-" + i).insert("a")
       .attr("href", function () { return post.attributes.url + "#disqus_thread"; })
@@ -105,14 +111,14 @@ function searchResult(json) {
   }
 
   // convert tags object to array for sorting
-  tags = Object.keys(meta.tags);
+  tags = Object.keys(meta.subjects);
 
   if (typeof tags !== "undefined" && tags.length > 0) {
     tags.sort(function (a, b) {
-      if (meta.tags[a] > meta.tags[b]) {
+      if (meta.subjects[a] > meta.subjects[b]) {
         return -1;
       }
-      if (meta.tags[a] < meta.tags[b]) {
+      if (meta.subjects[a] < meta.subjects[b]) {
         return 1;
       }
       // a must be equal to b
@@ -128,7 +134,7 @@ function searchResult(json) {
 
     for (k = 0; k < tags.length; k++) {
       var key = tags[k];
-      if (tag === key) {
+      if (tag === key.title) {
         d3.select("#tags .panel-body ul").insert("li")
           .append("a")
           .attr("href", function () { return "/index.html"; }).insert("i")
@@ -136,14 +142,14 @@ function searchResult(json) {
       } else {
         d3.select("#tags .panel-body ul").insert("li")
           .append("a")
-          .attr("href", function () { return "/index.html?tag=" + key; }).insert("i")
+          .attr("href", function () { return "/index.html?subject=" + meta.subjects[key].title; }).insert("i")
           .attr("class", "fa fa-square-o");
       }
       d3.select("#tags .panel-body ul li:last-child").insert("span")
-        .text(key);
+        .text(meta.subjects[key].title);
       d3.select("#tags .panel-body ul li:last-child").insert("span")
         .attr("class", "number pull-right")
-        .text(meta.tags[key]);
+        .text(meta.subjects[key].count);
 
     }
   }
