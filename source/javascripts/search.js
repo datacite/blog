@@ -142,7 +142,7 @@ function searchResult(json) {
       } else {
         d3.select("#tags .panel-body ul").insert("li")
           .append("a")
-          .attr("href", function () { return "/index.html?created=" + meta.subjects[key].title; }).insert("i")
+          .attr("href", function () { return "/index.html?subject=" + meta.subjects[key].title; }).insert("i")
           .attr("class", "fa fa-square-o");
       }
       d3.select("#tags .panel-body ul li:last-child").insert("span")
