@@ -10,7 +10,7 @@ tags:
 image: /images/uploads/howitbegan3.jpg
 doi: 10.5438/g4x3-r450
 ---
-_As part of our 10-year anniversary, we want to tell you the story of how DataCite was founded 10 years ago. Therefore, we approached several people ‘who were there’ to tell you their part of the story. This is the first guest blog post by Jan Brase, currently Head of Research and Development at Göttingen State and University Library, who was the executive officer of DataCite for its first 5 years._
+_As part of our 10-year anniversary, we want to tell you the story of how DataCite was founded 10 years ago. Therefore, we approached several people ‘who were there’ to tell you their part of the story. This is the first guest blog post by Jan Brase, currently Head of Research and Development at Göttingen State and University Library, who was DataCite's executive officer for its first 5 years._
 
 The year 2019 sees the 10 year anniversary of DataCite and as someone who was there at the start, it is a great opportunity to look back on how it all began. Starting DataCite has been without a doubt a highlight and I am still extremely grateful that I had the opportunity to build up something that changed academic publishing. Looking back, I also believe that the story of DataCite is a great example how a simple idea could get global momentum, just because the time was right and people were enthusiastic.
 
