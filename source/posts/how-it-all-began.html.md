@@ -6,7 +6,8 @@ author:
 date: 2019-02-01T12:30:53.133Z
 tags:
   - anniversary
-  - DataCite
+  - featured
+  - datacite
 image: /images/uploads/howitbegan3.jpg
 doi: 10.5438/g4x3-r450
 ---
