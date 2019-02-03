@@ -2,7 +2,7 @@
 layout: post
 title: Link checker is here
 date: '2018-12-20'
-image: https://blog.datacite.org/images/uploads/linkchecker-issues.png
+image: /images/uploads/linkchecker-issues.png
 author:
   - rdasler
 tags: 

@@ -2,7 +2,7 @@
 layout: post
 title: DataCite 2018 Wrap-up and 2019 Preview
 date: '2018-12-18'
-image: https://blog.datacite.org/images/uploads/fireworks.jpg
+image: /images/uploads/fireworks.jpg
 author: 
   - rdasler
 tags:
