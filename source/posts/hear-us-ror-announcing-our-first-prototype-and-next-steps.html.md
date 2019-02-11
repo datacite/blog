@@ -4,6 +4,7 @@ title: Hear us ROR! Announcing our first prototype and next steps
 author:
   - Maria Gould
 date: 2019-02-11T11:19:27.937Z
+doi: 10.5072/r362-a877
 ---
 What has hundreds of heads, 91,000 affiliations, and roars like a lion? If you guessed the Research Organization Registry community, you’d be absolutely right!
 
