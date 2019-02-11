@@ -18,18 +18,21 @@ We’re energized by the positive reception and response we’ve received and we
 
 The Research Organization Registry (ROR) is finally here! We’re thrilled to officially announce the launch of our ROR MVR (minimum viable registry). The MVR consists of the following components, which are ready for anyone to use right now.
 
-*  **ROR IDs**: Starting with seed data from GRID, ROR has begun assigning unique identifiers to approximately 91,000 organizations in its registry. ROR IDs include a random, unique, and opaque 9-character string and are expressed as URLs that resolve to the organization’s record. For instance, here is the ROR ID for California Digital Library: https://ror.org/03yrm5c26
-* **Search: **We also built a search interface to look up organizations in the registry: https://ror.org/search.
+\    **ROR IDs**: Starting with seed data from GRID, ROR has begun assigning unique identifiers to approximately 91,000 organizations in its registry. ROR IDs include a random, unique, and opaque 9-character string and are expressed as URLs that resolve to the organization’s record. For instance, here is the ROR ID for California Digital Library: https://ror.org/03yrm5c26
+
+\    **Search: **We also built a search interface to look up organizations in the registry: https://ror.org/search.
 
 ![](/images/uploads/ror1.png)
 
-* **ROR records:** ROR IDs are stored with additional metadata about the organization, such as alternate names/abbreviations, external URLs (e.g., an organization’s official website), and other identifiers, such as Wikidata, ISNI, and the Open Funder Registry. This metadata will allow ROR to be interoperable with other identifiers and across different systems. The current schema is based on GRID’s dataset and we plan to incorporate other metadata fields over time and according to community needs.
+\    **ROR records:** ROR IDs are stored with additional metadata about the organization, such as alternate names/abbreviations, external URLs (e.g., an organization’s official website), and other identifiers, such as Wikidata, ISNI, and the Open Funder Registry. This metadata will allow ROR to be interoperable with other identifiers and across different systems. The current schema is based on GRID’s dataset and we plan to incorporate other metadata fields over time and according to community needs.
 
 ![](/images/uploads/ror2.png)
 
-* **API:** The ROR API is now public. You can access the JSON files at https://api.ror.org/organizations.
-* **OpenRefine reconciler:** We’ve released an OpenRefine reconciler that can map your internal identifiers to ROR identifiers: https://github.com/ror-community/ror-reconciler.
-* **Documentation:** We have begun storing documentation on Github and will be adding more as we go along. Please feel free to follow and contribute:  https://github.com/ror-community.
+\    **API:** The ROR API is now public. You can access the JSON files at https://api.ror.org/organizations.
+
+\    **OpenRefine reconciler:** We’ve released an OpenRefine reconciler that can map your internal identifiers to ROR identifiers: https://github.com/ror-community/ror-reconciler.
+
+\    **Documentation:** We have begun storing documentation on Github and will be adding more as we go along. Please feel free to follow and contribute:  https://github.com/ror-community.
 
 ## Community meeting recap
 
@@ -41,23 +44,31 @@ In the second half of the meeting, attendees split into discussion groups to ide
 
 **ROR as seamlessly-integrated and sometimes invisible infrastructure**
 
-* Integration between and within existing systems (and in new ones!)
-* Auto-detection of ROR IDs for example in manuscript tracking and funding application platforms
-* As such, researchers don’t ever have to be responsible for knowing what a ROR is and using it appropriately - the systems they use will do this for them.
+\    Integration between and within existing systems (and in new ones!)
+
+\    Auto-detection of ROR IDs for example in manuscript tracking and funding application platforms
+
+\    As such, researchers don’t ever have to be responsible for knowing what a ROR is and using it appropriately - the systems they use will do this for them.
 
 **ROR as a critical piece of funder workflows and infrastructure**
 
-* Demonstrate to funders how ROR can help them analyze impact of research they fund
-* Conduct outreach with key international funders, especially those interested in open infrastructure
-* Make funders aware of ROR and encourage them to adopt and mandate use of ROR IDs - involve funders at the beginning to collaborate on technology
-* Integrate ROR with existing systems and identifiers already in use by funders and other stakeholders
+\    Demonstrate to funders how ROR can help them analyze impact of research they fund
+
+\    Conduct outreach with key international funders, especially those interested in open infrastructure
+
+\    Make funders aware of ROR and encourage them to adopt and mandate use of ROR IDs - involve funders at the beginning to collaborate on technology
+
+\    Integrate ROR with existing systems and identifiers already in use by funders and other stakeholders
 
 **ROR as a trusted registry, collaborative partner, and responsible steward**
 
-* Culturally sensitive, inclusive, and respectful of what countries are already doing with regard to organizational identifiers, partnering with national bodies working on this and mapping ROR IDs to locally used identifiers.
-* Involve the institutions listed in the registry early on as well as CRIS systems
-* Interoperability with existing communities and governance bodies
-* Workflows to support trust and responsible management of organizational metadata, with policies and procedures for long-term curation and maintenance of records
+\    Culturally sensitive, inclusive, and respectful of what countries are already doing with regard to organizational identifiers, partnering with national bodies working on this and mapping ROR IDs to locally used identifiers.
+
+\    Involve the institutions listed in the registry early on as well as CRIS systems
+
+\    Interoperability with existing communities and governance bodies
+
+\    Workflows to support trust and responsible management of organizational metadata, with policies and procedures for long-term curation and maintenance of records
 
 ## What we’re hearing
 
@@ -103,10 +114,13 @@ Now that we have our MVR, what happens next for ROR? We’re eager to sustain th
 
 We have a few to-do items on our list following the launch of the MVR to keep everything running smoothly while we develop a comprehensive long-term product roadmap.
 
-* Rewrite some of the code for both the API and the OpenRefine reconciler
-* Address a few bugs in our repos
-* Provide guidance for troubleshooting issues
-* Communicate our processes for users to request changes, report bugs, and suggest features
+\    Rewrite some of the code for both the API and the OpenRefine reconciler
+
+\    Address a few bugs in our repos
+
+\    Provide guidance for troubleshooting issues
+
+\    Communicate our processes for users to request changes, report bugs, and suggest features
 
 As a reminder, you can access the existing code in Github: https://github.com/ror-community
 
@@ -120,9 +134,11 @@ To help guide the next stages of the project, we are putting out an open call fo
 
 For those who want to stay informed about the project but not necessarily be part of the advisory group, you have other options!
 
-* Sign up for our mailing list (via the footer at [ror.org](https://ror.org/))
-* Join our community on Slack (www.tinyurl.com/ror-community),
-* Follow us on Twitter ( @ResearchOrgs ).
+\    Sign up for our mailing list (via the footer at ror.org)
+
+\    Join our community on Slack (www.tinyurl.com/ror-community),
+
+\    Follow us on Twitter ( [@ResearchOrgs](https://twitter.com/ResearchOrgs) ).
 
 You can also always drop us a line at info@ror.org, and let us know if you’d ever like to set up a meeting or conference call to talk about the project in more detail.
 
