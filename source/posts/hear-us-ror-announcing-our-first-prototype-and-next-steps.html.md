@@ -2,7 +2,7 @@
 layout: post
 title: Hear us ROR! Announcing our first prototype and next steps
 author:
-  - Maria Gould
+  - mgould
 date: 2019-02-11T11:19:27.937Z
 doi: 10.5072/r362-a877
 ---
