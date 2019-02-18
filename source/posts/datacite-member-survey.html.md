@@ -14,11 +14,11 @@ As a membership organization, our members are our most important source of infor
 
 Before I share the results with you, I’d first like to thank all the people who completed the survey. Your input is invaluable! We sent the survey out to our 144 members and received 36 responses, which is a response rate of around 25%. If you read this and would still like to add your answers, please don’t hesitate to contact us and we’re happy to talk to you. 
 
-We were not only pleased with our members responding, but also with the responses we received. Thank you for your support!
+We were not only pleased with our members responding, but also with the responses we received. Thank you for your support.
 
 ![](/images/uploads/survey_score.png)
 
-Half of you rated us 10 out of 10 when asked how likely you were to recommend DataCite. It won’t be easy to improve that next year! When asked what we do well, you told us:  DOI registration/providing DOI services, which is of course our core activity. You also mentioned the development of new services and the ease of use of existing services. In terms of outreach, you mentioned our work on raising awareness of the importance of data sharing and PIDs and our efforts to bring the community together. We were also happy to hear that you feel we continuously evolve to meet member needs and have the ability to do even better!
+Half of you rated us 10 out of 10 when asked how likely you were to recommend DataCite. It won’t be easy to improve that next year! When asked what we do well, you told us:  DOI registration/providing DOI services, which is of course our core activity. You also mentioned the development of new services and the ease of use of existing services. In terms of outreach, you mentioned our work on raising awareness of the importance of data sharing and PIDs and our efforts to bring the community together. We were also happy to hear that you feel we continuously evolve to meet member needs and have the ability to do even better.
 
 Several of you mentioned you appreciated the friendly onboarding and support we provide, but when asked what we could do better, several of you also mentioned support. Specifically, you’d like to see shorter response times and more advance notice when there are changes or outages. You also asked for some specific product developments, Most often mentioned were usage statistics, better search, and link checking.
 
