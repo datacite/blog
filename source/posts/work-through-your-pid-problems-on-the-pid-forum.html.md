@@ -10,6 +10,7 @@ tags:
   - PIDapalooza
   - featured
 image: /images/uploads/yinyang_all.jpg
+doi: 10.5438/ecs2-0r47
 ---
 As self-confessed PID nerds, we’re big fans of persistent identifiers. However, we’re also conscious that the uptake and use of PIDs isn’t a done deal, and there are things that challenge how broadly these are adopted by the community. 
 
@@ -26,7 +27,7 @@ So what came out of the session? [Lots of things](https://doi.org/10.5281/zenodo
 * Yay for [auto-update](https://support.orcid.org/hc/en-us/articles/360006896394-Auto-updates-time-saving-and-trust-building)!
 * Slow adoption of  new PID types 
 * Trust issues (I don’t want my information in another system)
-* "I'm the only Erik, I don't need an ORCID"
+* I'm the only Erik, I don't need an ORCID
 * User stories work! 
 
 ![](/images/uploads/auto-update.jpg)
