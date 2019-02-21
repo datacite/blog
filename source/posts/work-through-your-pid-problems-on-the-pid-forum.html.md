@@ -27,9 +27,9 @@ So what came out of the session? [Lots of things](https://doi.org/10.5281/zenodo
 * Yay for [auto-update](https://support.orcid.org/hc/en-us/articles/360006896394-Auto-updates-time-saving-and-trust-building)!
 * Slow adoption of  new PID types 
 * Trust issues (I don’t want my information in another system)
-* I'm the only Erik, I don't need an ORCID
+* "I'm the only Erik, I don't need an ORCID"
 * User stories work! 
 
 ![](/images/uploads/auto-update.jpg)
 
-We know we only scratched the surface in the session, but fortunately PIDapalooza also brought a good way to continue the conversation: [pidforum.org](https://www.pidforum.org/)! The PIDforum was [launched at PIDapalooza](https://doi.org/10.5281/zenodo.2548649)  and is a global discussion platform for all things PID-related. Many PID providers and PID users are already on there, so help us understand more about the yin and yang of PIDs by sharing your own PID problems!
+We know we only scratched the surface in the session, but fortunately PIDapalooza also brought a good way to continue the conversation: [pidforum.org](https://www.pidforum.org/)! The PIDforum was [launched at PIDapalooza](https://doi.org/10.5281/zenodo.2548649)  and is a global discussion platform for all things PID-related. Many PID providers and PID users are already on there, so help us understand more about the Yin and Yang of PIDs by sharing your own PID problems!
