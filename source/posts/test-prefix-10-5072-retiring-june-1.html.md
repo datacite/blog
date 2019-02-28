@@ -10,7 +10,7 @@ doi: 10.5438/k0fm-jt50
 ---
 At the end of last year, we made significant changes to how testing works for our Members and Clients. We re-introduced a completely separate test system and did away with testing within the production account. We think these changes will ultimately make testing clearer and easier to understand. 
 
-As part of these changes, we will be retiring the test prefix 10.5072 as of June 1. We hope that this blog post will help answer some of your qeustions. 
+As part of these changes, we will be retiring the test prefix 10.5072 as of June 1. We hope that this blog post will help answer some of your questions. 
 
 Why is the test prefix going away? 
 We want to create a hard division between your real DOIs and your test DOIs so that it's clear when you're doing something permanent and when you're not. Having a so-called "test prefix" in your production account that is incapable of creating any live DOIs contributes to the ambiguity and confusion that our test system updates were trying to solve. 
