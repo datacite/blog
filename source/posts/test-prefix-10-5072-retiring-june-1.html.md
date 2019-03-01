@@ -9,7 +9,7 @@ tags:
 image: /images/uploads/retirement.jpg
 doi: 10.5438/k0fm-jt50
 ---
-At the end of last year, we made significant changes to how testing works for our Members and Clients. We re-introduced a completely separate test system and did away with testing within the production account. We think these changes will ultimately make testing clearer and easier to understand. 
+At the end of last year, we made significant changes to [how testing works](https://doi.org/10.5438/6f6r-jf56) for our Members and Clients. We re-introduced a completely separate test system and did away with testing within the production account. We think these changes will ultimately make testing clearer and easier to understand. 
 
 As part of these changes, we will be retiring the test prefix 10.5072 as of June 1. We hope that this blog post will help answer some of your questions. 
 
