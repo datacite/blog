@@ -32,6 +32,6 @@ This allowed Google to collect metadata about these DOIs, even if the repository
 
 Google Dataset Search will greatly enhance discoverability of research datasets and we will continue to ensure that all relevant datasets with DataCite DOIs are included. Right now the focus is mainly on Social Sciences and Environmental Sciences, but the use of schema.org should make expansion to other disciplines straightforward. 
 
-As Google also notes, a search engine is only as good as the metadata that go into it, so we want to encourage all DataCite members to continue to deposit complete metadata - that we then convert into schema.org format - to ensure your datasets can be found. Even better, embed schema.org metadata in your dataset landing pages. Should you have further questions, e.g. how to embed schema.org in your repository pages, do not hesitate to reach out to [mailto:support@datacite.org](support@datacite.org).
+As Google also notes, a search engine is only as good as the metadata that go into it, so we want to encourage all DataCite members to continue to deposit complete metadata - that we then convert into schema.org format - to ensure your datasets can be found. Even better, embed schema.org metadata in your dataset landing pages. Should you have further questions, e.g. how to embed schema.org in your repository pages, do not hesitate to reach out to [support@datacite.org](mailto:support@datacite.org).
 
 ## References

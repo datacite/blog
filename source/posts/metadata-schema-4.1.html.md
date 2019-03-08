@@ -38,6 +38,6 @@ for items being registered, it is not to be used as a version control or source 
 widely available that are ideally suited for that purpose. Instead, DataCite facilitates *software discovery*, *sharing*
 and *citation*.
 
-If you have any specific questions about the new schema please send us a note at [mailto:support@datacite.org](support@datacite.org).
+If you have any specific questions about the new schema please send us a note at [support@datacite.org](mailto:support@datacite.org).
 
 ## References
