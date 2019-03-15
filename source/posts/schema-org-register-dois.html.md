@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Schema.org for DOI Registration
-author: 
+author:
 - mfenner
 date: '2017-01-09'
 tags:
@@ -153,7 +153,7 @@ The DataCite blog uses "cool" DOIs that are generated from random numbers using 
 
 Blog posts are web pages and the landing page for the DOI also contains the fulltext of the post. But there are good reasons to make a blog post also available in downloadable form, most importantly to facilitate reuse, and for archiving. Journal Article Tag Suite ([JATS](https://jats.nlm.nih.gov/)) is an XML standard for tagging journal articles, used by the [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/) full-text archive of biomedical literature and by an increasing number of scholarly publishers.
 
-JATS is an appropriate format for the blog posts of this blog, and starting this week all of our posts are also available in JATS XML format. You can see the download URL in the schema.org markup (the JATS for this post is [here](https://blog.datacite.org/schema-org-register-dois/schema-org-register-dois.xml)), we will add a more visible link to all posts once some minor tagging issues are resolved. We will also start registering the download URL with the DataCite MDS as `media`, making the JATS XML available to [DOI content negotiation](http://citation.crosscite.org/docs.html), and thus direct download. This should facilitate reuse by others, e.g. aggregation of content from multiple sources and display of content in different formats. This blog uses the [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) license, allowing the copying, redistribution and remixing of the material in any medium or format for any purpose.
+JATS is an appropriate format for the blog posts of this blog, and starting this week all of our posts are also available in JATS XML format. You can see the download URL in the schema.org markup, we will add a more visible link to all posts once some minor tagging issues are resolved. We will also start registering the download URL with the DataCite MDS as `media`, making the JATS XML available to [DOI content negotiation](http://citation.crosscite.org/docs.html), and thus direct download. This should facilitate reuse by others, e.g. aggregation of content from multiple sources and display of content in different formats. This blog uses the [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) license, allowing the copying, redistribution and remixing of the material in any medium or format for any purpose.
 
 ### The blog as container
 

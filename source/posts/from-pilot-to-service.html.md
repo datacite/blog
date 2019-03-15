@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From Pilot to Service
-author: 
+author:
 - mfenner
 date: '2015-08-17'
 tags:
@@ -46,7 +46,7 @@ The single input field for searching should be appropriate for most queries, but
 
 ![Citation](/images/2015/08/Bildschirmfoto-2015-08-17-um-14-13-09.png)
 
-Providing the metadata as formatted citation is an important feature that facilitates data citation. With BibTeX and RIS two standard import formats for reference managers are also supported. This feature is basically unchanged since 2013, and relies on the [DOI content negotiation](http://crosscite.org/cn/) API provided by several DOI registration agencies. In addition, COinS is supported, allowing the import of multiple items at once, e.g. into a reference manager.
+Providing the metadata as formatted citation is an important feature that facilitates data citation. With BibTeX and RIS two standard import formats for reference managers are also supported. This feature is basically unchanged since 2013, and relies on the [DOI content negotiation](http://crosscite.org/) API provided by several DOI registration agencies. In addition, COinS is supported, allowing the import of multiple items at once, e.g. into a reference manager.
 
 ![COinS](/images/2015/08/Bildschirmfoto-2015-08-17-um-14-22-48.png)
 

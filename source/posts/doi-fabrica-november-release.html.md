@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Three new DOI Fabrica features to simplify account management
-author: 
+author:
 - kgarza
 date: '2017-11-09'
 image: /images/uploads/b23b589-Bildschirmfoto_2017-11-06_um_23.17.06.png
@@ -10,7 +10,7 @@ tags:
 doi: 10.5438/spfd-gh73
 ---
 
-Last month we launched [DOI Fabrica](https://blog.datacite.org/doi-fabrica/), the modernized version of the DataCite Metadata Store (MDS) web frontend. It is the one place for [DataCite providers](https://support.datacite.org/docs/datacite-doi-fabrica#section-what-is-the-difference-between-members-providers-and-clients) and their clients to create, find, connect and track every single DOI from their organization.
+Last month we launched [DOI Fabrica](https://blog.datacite.org/doi-fabrica/), the modernized version of the DataCite Metadata Store (MDS) web frontend. It is the one place for [DataCite providers](https://support.datacite.org/docs/members-providers-and-clients) and their clients to create, find, connect and track every single DOI from their organization.
 
 November has arrived and it has brought a new set of features and improvements to DOI Fabrica. We're constantly improving DOI Fabrica to help your organization register and manage DOIs and metadata. In the release this week, there are two new features and a major improvement.
 
