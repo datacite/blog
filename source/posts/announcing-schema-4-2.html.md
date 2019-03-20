@@ -2,7 +2,8 @@
 layout: post
 title: Announcing schema 4.2!
 author:
-  - rdasler; msmaele
+  - rdasler
+  - msmaele
 date: 2019-03-20T07:17:52.792Z
 tags:
   - featured
