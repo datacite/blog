@@ -4,6 +4,10 @@ title: Announcing schema 4.2!
 author:
   - rdasler; msmaele
 date: 2019-03-20T07:17:52.792Z
+tags:
+  - featured
+image: /images/uploads/screenshot-2019-03-20-at-09.24.22.png
+doi: 10.5438/wvkv-fz40
 ---
 The DataCite Metadata Schema is the basis for the metadata you submit to DataCite. It tells you the available fields and structure for your metadata records, and it’s what we validate against to make sure everything is as it should be. The metadata schema is maintained by the Metadata Working Group, which is composed of member representatives. The Working Group meets monthly to talk through issues raised and to plan new releases of the schema. They’ve been hard at work on the latest schema update, and we’re pleased to announce that it’s ready. 
 
