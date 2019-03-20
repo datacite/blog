@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing schema 4.2!
+title: Announcing schema 4.2
 author:
   - rdasler
   - msmaele
