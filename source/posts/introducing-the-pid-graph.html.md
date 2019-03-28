@@ -25,7 +25,7 @@ Work is needed to connect existing persistent identifiers to each other in stand
 
 To address these use cases we need a more complex model to describe the resources that are identified by PIDs, and the connections between them: a graph. In graph theory, the resources identified by PIDs correspond to the nodes in this graph, and the connections between PIDs correspond to the edges.
 
-![PID Graph](/images/uploads/pid_graph_image.png "Fig 1. A schematic representation of the PID graph with digital objects connected by PIDs, showing three use cases: A: Different versions of software code, B: Datasets hosted by a particular repository, C: All digital objects connected to a research object.")
+![Fig 1. A schematic representation of the PID graph with digital objects connected by PIDs, showing three use cases: A: Different versions of software code, B: Datasets hosted by a particular repository, C: All digital objects connected to a research object.](/images/uploads/pid_graph_image.png)
 
 Using a graph makes it easier to describe these more complex use cases and relationships, and this approach has been frequently applied to similar questions in the past. FREYA builds on the expertise and close collaboration with the [Research Graph](http://researchgraph.org/) team and adopts the outputs of the [Research Data Alliance DDRI Working group](https://www.rd-alliance.org/groups/data-description-registry-interoperability.html) to transform PID connections into an improved graph of research objects. This project takes advantage of the best practices of graph modelling and distributed network analysis techniques. We call this the **PID Graph**.
 
@@ -41,7 +41,7 @@ After identifying and describing the most relevant use cases, summarized  above,
 
 ### Initial PID Graph Implementation
 
-The first working PID Graph implementation is provided by DataCite, extending the existing Event Data Service [@https://doi.org/10.5438/s6d3-k860], a collaboration between Crossref and DataCite. Event Data is a service that provides connections (here called events) between PIDs and other resources, with an initial focus on social media mentions and data citations. The initial PID Graph work done this year by DataCite has added these functionalities to [DataCite Event Data](https://datacite.org/eventdata.html):
+The first working PID Graph implementation is provided by DataCite, extending the existing Event Data Service [@https://doi.org/10.5438/s6d3-k860], a collaboration between Crossref and DataCite. Event Data is a service that provides connections (here called events) between PIDs and other resources, with an initial focus on social media mentions and data citations. The initial PID Graph work done by DataCite since the August 2018 workshop has added these functionalities to [DataCite Event Data](https://datacite.org/eventdata.html):
 
 #### Include metadata about resources
 
@@ -72,11 +72,8 @@ Similarly, the citation of a specific version of a dataset would be included if 
 
 The initial focus in Event Data was on social media mentions and data citations. DataCite has added author-resource links and funder-resource links, using ORCID and Crossref Funder ID as PIDs, respectively. DataCite also include dataset usage statistics, as part of the work in the Make Data Count [@https://doi.org/10.5438/pre3-2f25] project. This enables the following two use cases:
 
-1. Show all datasets created by a particular researcher and their usage stats <https://api.datacite.org/events?include=subj,obj&orcid=0000-0002-1194-1055>
-   The query today returns four datasets created by a researcher identified via her ORCID ID, plus a combined 21 unique views of these datasets in February and March 2019.
-2. Show all datasets funded by the European Commission that have been cited by a journal article <https://api.datacite.org/events?include=subj,obj&doi=10.13039/501100000780&citation-type=Dataset-ScholarlyArticle>
-
-The query today returns 69 datasets cited by 37 journal articles.
+1. Show all datasets created by a particular researcher and their usage stats <https://api.datacite.org/events?include=subj,obj&orcid=0000-0002-1194-1055>. The query today returns four datasets created by a researcher identified via her ORCID ID, plus a combined 21 unique views of these datasets in February and March 2019.
+2. Show all datasets funded by the European Commission that have been cited by a journal article <https://api.datacite.org/events?include=subj,obj&doi=10.13039/501100000780&citation-type=Dataset-ScholarlyArticle>. The query today returns 69 datasets cited by 37 journal articles.
 
 ### Collaborating on Research Data Graph Initiatives
 
