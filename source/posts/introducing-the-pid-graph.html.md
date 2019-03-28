@@ -41,7 +41,7 @@ After identifying and describing the most relevant use cases, summarized  above,
 
 ### Initial PID Graph Implementation
 
-The first working PID Graph implementation is provided by DataCite, extending the existing [Event Data Service](https://blog.datacite.org/are-your-data-being-used-event-data-has-the-answer/), a collaboration between Crossref and DataCite. Event Data is a service that provides connections (here called events) between PIDs and other resources, with an initial focus on social media mentions and data citations. The initial PID Graph work done this year by DataCite has added these functionalities to [DataCite Event Data](https://datacite.org/eventdata.html):
+The first working PID Graph implementation is provided by DataCite, extending the existing Event Data Service [@https://doi.org/10.5438/s6d3-k860], a collaboration between Crossref and DataCite. Event Data is a service that provides connections (here called events) between PIDs and other resources, with an initial focus on social media mentions and data citations. The initial PID Graph work done this year by DataCite has added these functionalities to [DataCite Event Data](https://datacite.org/eventdata.html):
 
 #### Include metadata about resources
 
@@ -64,13 +64,13 @@ These connected PIDs can then act as a **proxy** in PID Graph queries, as demons
 
 <https://api.datacite.org/events?include=subj,obj&doi=10.5061/dryad.k5k9074>
 
-The query today returns one data citation of the dataset identified by the DOI, and eight data files that are part of this dataset. If someone decides to cite one of these data files instead of the dataset (following principle 8 Specificity and Verifiability of the [Joint Declaration of Data Citation Principles](https://www.force11.org/datacitationprinciples)), that data citation would also be included in the DataCite Event Data response. 
+The query today returns one data citation of the dataset identified by the DOI, and eight data files that are part of this dataset. If someone decides to cite one of these data files instead of the dataset (following principle 8 Specificity and Verifiability of the Joint Declaration of Data Citation Principles [@https://doi.org/10.25490/a97f-egyk]), that data citation would also be included in the DataCite Event Data response. 
 
 Similarly, the citation of a specific version of a dataset would be included if querying for the parent version of the dataset. Examples for funding and authorship are given in the next paragraph.  
 
 #### Include more types of events
 
-The initial focus in Event Data was on social media mentions and data citations. DataCite has added author-resource links and funder-resource links, using ORCID and Crossref Funder ID as PIDs, respectively. DataCite also include dataset usage statistics, as part of the work in the [Make Data Count](https://makedatacount.org/) project. This enables the following two use cases:
+The initial focus in Event Data was on social media mentions and data citations. DataCite has added author-resource links and funder-resource links, using ORCID and Crossref Funder ID as PIDs, respectively. DataCite also include dataset usage statistics, as part of the work in the Make Data Count [@https://doi.org/10.5438/pre3-2f25] project. This enables the following two use cases:
 
 1. Show all datasets created by a particular researcher and their usage stats <https://api.datacite.org/events?include=subj,obj&orcid=0000-0002-1194-1055>
    The query today returns four datasets created by a researcher identified via her ORCID ID, plus a combined 21 unique views of these datasets in February and March 2019.
@@ -84,11 +84,13 @@ The aim is for any interested parties within and beyond FREYA to implement PID G
 
 1. The already mentioned Research Graph Foundation
 2. [Scholix](http://www.scholix.org/): a framework for Scholarly Link Exchange coordinated by a Research Data Alliance (RDA) Working Group
-3. The [OpenAIRE Research Graph](http://doi.org/10.5281/zenodo.2600275), an open metadata research graph of interlinked scientific products, with access rights information, linked to funding information and research communities.
-4. [Asclepias](http://doi.org/10.5281/zenodo.2548643), a broker service initially developed to track software citations in astronomy.
+3. The OpenAIRE Research Graph [@https://doi.org/10.5281/zenodo.2600275], an open metadata research graph of interlinked scientific products, with access rights information, linked to funding information and research communities.
+4. Asclepias [@https://doi.org/10.5281/zenodo.2548643], a broker service initially developed to track software citations in astronomy.
 
 To coordinate these activities we have organized a Birds of a Feather session at the RDA Plenary in Philadelphia next week (Wednesday at 2:30 PM): [Research Data Graph](https://rd-alliance.org/bof-Research-Data-Graph-RDA-13th-Plenary-meeting).
 
 The initial implementation of the PID Graph in DataCite Event Data contains 5.38 million events as of today and more work is needed to convert existing events to the new format (we expect a total of 25 million events with the current data source), improve documentation, and build visualizations and other frontend services to make it easier to show the PID Graph information we already have. But if you can’t wait and are not afraid working with JSON REST APIs, feel free to explore DataCite Event Data, which is a free service with no registration required, by starting with the [documentation](https://support.datacite.org/docs/eventdata-guide). 
 
 And please reach out to us via the [PID Forum](https://www.pidforum.org) if you are interested to learn more about PID Graph, want to see your data in PID Graph, or are working on a related project and want to coordinate. And of course, join us for the RDA Plenary session next week in Philadelphia if you plan to attend the conference.
+
+## References
