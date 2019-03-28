@@ -8,6 +8,7 @@ date: 2019-03-28T15:53:35.985Z
 tags:
   - pid graph
   - freya
+  - featured
 image: /images/uploads/everything-is-connected.png
 doi: 10.5438/jwvf-8a66
 ---
