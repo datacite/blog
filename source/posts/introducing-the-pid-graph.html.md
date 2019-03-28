@@ -21,9 +21,7 @@ Work is needed to connect existing persistent identifiers to each other in stand
 
 To address these use cases we need a more complex model to describe the resources that are identified by PIDs, and the connections between them: a graph. In graph theory, the resources identified by PIDs correspond to the nodes in this graph, and the connections between PIDs correspond to the edges.
 
-
-
-_Fig 1. A schematic representation of the PID graph with digital objects connected by PIDs, showing three use cases: A: Different versions of software code, B: Datasets hosted by a particular repository, C: All digital objects connected to a research object._
+![PID Graph](/images/uploads/pid_graph_image.png "Fig 1. A schematic representation of the PID graph with digital objects connected by PIDs, showing three use cases: A: Different versions of software code, B: Datasets hosted by a particular repository, C: All digital objects connected to a research object.")
 
 Using a graph makes it easier to describe these more complex use cases and relationships, and this approach has been frequently applied to similar questions in the past. FREYA builds on the expertise and close collaboration with the [Research Graph](http://researchgraph.org/) team and adopts the outputs of the [Research Data Alliance DDRI Working group](https://www.rd-alliance.org/groups/data-description-registry-interoperability.html) to transform PID connections into an improved graph of research objects. This project takes advantage of the best practices of graph modelling and distributed network analysis techniques. We call this the **PID Graph**.
 
