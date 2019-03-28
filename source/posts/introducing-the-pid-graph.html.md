@@ -11,9 +11,12 @@ tags:
 image: /images/uploads/everything-is-connected.png
 doi: 10.5438/jwvf-8a66
 ---
-Persistent identifiers (PIDs) are not only important to uniquely identify a publication, dataset, or person, but the metadata for these persistent identifiers can provide unambiguous linking between persistent identifiers of the same type, e.g. journal articles citing other journal articles, or of different types, e.g. linking a researcher and the datasets they produced. 
 
-Work is needed to connect existing persistent identifiers to each other in standardized ways, e.g. to ¶the outputs associated with a particular researcher, repository, institution or funder, for discovery and impact assessment. Some of the more complex but still important use cases can’t be addressed by simply collecting and aggregating links between two persistent identifiers, including
+*This post has been [cross-posted](https://www.project-freya.eu/en/blogs/blogs/the-pid-graph) from the FREYA blog.*
+
+Persistent identifiers (PIDs) are not only important to uniquely identify a publication, dataset, or person, but the metadata for these persistent identifiers can provide unambiguous linking between persistent identifiers of the same type, e.g. journal articles citing other journal articles, or of different types, e.g. linking a researcher and the datasets they produced.READMORE
+
+Work is needed to connect existing persistent identifiers to each other in standardized ways, e.g. to the outputs associated with a particular researcher, repository, institution or funder, for discovery and impact assessment. Some of the more complex but still important use cases can’t be addressed by simply collecting and aggregating links between two persistent identifiers, including
 
 1. Aggregate the citations for all versions of a dataset or software source code
 2. Aggregate the citations for all datasets hosted in a particular repository, funded by a particular funder, or created by a particular researcher
@@ -21,9 +24,7 @@ Work is needed to connect existing persistent identifiers to each other in stand
 
 To address these use cases we need a more complex model to describe the resources that are identified by PIDs, and the connections between them: a graph. In graph theory, the resources identified by PIDs correspond to the nodes in this graph, and the connections between PIDs correspond to the edges.
 
-
-
-_Fig 1. A schematic representation of the PID graph with digital objects connected by PIDs, showing three use cases: A: Different versions of software code, B: Datasets hosted by a particular repository, C: All digital objects connected to a research object._
+![PID Graph](/images/uploads/pid_graph_image.png "Fig 1. A schematic representation of the PID graph with digital objects connected by PIDs, showing three use cases: A: Different versions of software code, B: Datasets hosted by a particular repository, C: All digital objects connected to a research object.")
 
 Using a graph makes it easier to describe these more complex use cases and relationships, and this approach has been frequently applied to similar questions in the past. FREYA builds on the expertise and close collaboration with the [Research Graph](http://researchgraph.org/) team and adopts the outputs of the [Research Data Alliance DDRI Working group](https://www.rd-alliance.org/groups/data-description-registry-interoperability.html) to transform PID connections into an improved graph of research objects. This project takes advantage of the best practices of graph modelling and distributed network analysis techniques. We call this the **PID Graph**.
 
