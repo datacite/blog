@@ -5,7 +5,7 @@ author:
   - hcousijn
 date: 2019-04-02T13:39:32.159Z
 tags:
-  - Feature
+  - featured
 doi: 10.5438/4e49-5a58
 ---
 Watch this space for to find out who won and why...
