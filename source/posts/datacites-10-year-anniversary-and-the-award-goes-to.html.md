@@ -2,7 +2,7 @@
 layout: post
 title: 'DataCite''s 10 year anniversary: and the award goes to...'
 author:
-  - Helena Cousijn
+  - hcousijn
 date: 2019-04-02T13:39:32.159Z
 tags:
   - Feature
