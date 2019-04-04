@@ -9,6 +9,4 @@ tags:
 image: /images/uploads/20190402_015514.jpg
 doi: 10.5438/4e49-5a58
 ---
-
-
 ![](/images/uploads/20190402_015514.jpg)
