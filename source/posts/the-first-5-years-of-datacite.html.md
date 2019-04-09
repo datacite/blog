@@ -9,6 +9,7 @@ tags:
   - featured
   - datacite
 image: /images/uploads/5yearsdatacite.png
+doi: 10.5438/edb7-0r15
 ---
 _As part of our 10-year anniversary, we want to tell you the story of how DataCite was founded 10 years ago. Therefore, we approached several people ‘who were there’ to tell you their part of the story. This guest blog post is by Frauke Ziedorn, who was DataCite's DOI Service Manager from 2010 until 2015._
 
