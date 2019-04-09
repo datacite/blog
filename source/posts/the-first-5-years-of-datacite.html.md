@@ -33,4 +33,6 @@ The Metadata Working Group is still active today. The Metadata Schema is the bac
 
 The Tech Team consisted mostly of two developers, Sebastian Peters at the TIB and Ed Zukowsky at the British Library. They developed the first version of the Metadata Store (MDS) which was in use until last year. They added a lot of basic and useful services built upon the MDS and the metadata associated with DOIs, such as the search portal, OAI-PMH metadata harvesting, statistics, and link redirection to allow computers to directly access the data behind the DOIs instead of the metadata. They also started the collaboration with Crossref. One of the first services that came out of this collaboration was the DOI Citation Formatter, which allows users to extract metadata automatically from a DOI and build a full citation. Many of their services are still in use today or have become the basis for more modernized versions.
 
+
+
 Over time, DataCite became more professional and started to employ its own staff, which helped it grow and incorporate new services like re3data.org or Make Data Count. It was great to help build this amazing organization during its first five years and I wish DataCite and its staff a lot of success for the future!
