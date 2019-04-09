@@ -13,7 +13,7 @@
               <% end %>
               • <span class="post-reading-time"></span> read
               <% if current_page.data.doi.present? %>
-                <p class="doi"><%= link_to("https://doi.org/" + current_page.data.doi, "https://doi.org/" + current_page.data.doi) %></p>
+                <p class="doi"><%= link_to("https://doi.org/" + current_page.data.doi, "https://doi.org/" + current_page.data.doi, :"data-proofer-ignore" => true) %></p>
               <% end %>
             </div>
 
