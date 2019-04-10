@@ -11,7 +11,7 @@ tags:
 image: /images/uploads/5yearsdatacite.png
 doi: 10.5438/edb7-0r15
 ---
-_As part of our 10-year anniversary, we want to tell you the story of how DataCite was founded 10 years ago. Therefore, we approached several people ‘who were there’ to tell you their part of the story. This guest blog post is by Frauke Ziedorn, who was DataCite's DOI Service Manager from 2010 until 2015._
+_As part of our 10-year anniversary, we want to tell you the story of how DataCite was founded 10 years ago. Therefore, we approached several people ‘who were there’ to tell you their part of the story. This guest blog post is by Frauke Ziedorn, who was TIB's DOI Service Manager from 2010 until 2015 and the first co-chair of DataCite's Metadata Working Group._
 
 I came to the TIB and DataCite in 2010. Being the managing agency of DataCite, the TIB was the organizational hub of DataCite, providing not only a lot of man-power but also technical and organizational resources. Working for DataCite in the early years was a great adventure. We were a close and growing community expanding fast from the initial seven members to 21 members by the end of 2015. In this blog post, I will describe the work we did during the first five years and the working groups we started that allowed us to build the community.
 
@@ -32,7 +32,5 @@ The Metadata Working Group is still active today. The Metadata Schema is the bac
 **The TechTeam**
 
 The Tech Team consisted mostly of two developers, Sebastian Peters at the TIB and Ed Zukowsky at the British Library. They developed the first version of the Metadata Store (MDS) which was in use until last year. They added a lot of basic and useful services built upon the MDS and the metadata associated with DOIs, such as the search portal, OAI-PMH metadata harvesting, statistics, and link redirection to allow computers to directly access the data behind the DOIs instead of the metadata. They also started the collaboration with Crossref. One of the first services that came out of this collaboration was the DOI Citation Formatter, which allows users to extract metadata automatically from a DOI and build a full citation. Many of their services are still in use today or have become the basis for more modernized versions.
-
-
 
 Over time, DataCite became more professional and started to employ its own staff, which helped it grow and incorporate new services like re3data.org or Make Data Count. It was great to help build this amazing organization during its first five years and I wish DataCite and its staff a lot of success for the future!
