@@ -28,8 +28,7 @@ end
 
 # Set markdown template engine
 set :markdown_engine, :pandoc
-set :markdown, smartypants: true,
-               metadata: "link-citations",
+set :markdown, metadata: "link-citations",
                csl: "styles/apa.csl",
                bibliography: "data/references.bib",
                lang: "en"

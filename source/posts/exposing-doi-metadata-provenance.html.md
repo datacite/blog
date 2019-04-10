@@ -3,7 +3,7 @@ layout: post
 title: Exposing DOI metadata provenance
 author:
   - mfenner
-date: 2019-04-10T16:45:22.561Z
+date: 2019-04-10
 tags:
   - featured
   - provenance
