@@ -7,6 +7,7 @@ date: 2019-04-17T14:51:29.365Z
 tags:
   - featured
 image: /images/uploads/usagestats.png
+doi: 10.5438/eepd-3x92
 ---
 Those of you attending the recent General Assembly might have heard us talk about how DataCite is at a crossroads. We’ve spent the last several years building and honing the infrastructure necessary to make it simple for institutions to create and manage DOIs for their data, and our members have created DOIs for a host of different research outputs. With this foundational infrastructure laid out, it’s now time to start working on services that will add greater value to our members and really harness the power of what interconnected research could mean. 
 
