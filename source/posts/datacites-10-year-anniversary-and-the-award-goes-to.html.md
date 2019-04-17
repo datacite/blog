@@ -23,7 +23,7 @@ Many members - from 4 different continents- joined us, but for those unable to t
 
 **Make Data Count**
 
-One of our most important projects right now is[ Make Data Count](makedatacount.org), a collaboration with CDL and DataONE to develop an infrastructure for data-level metrics. We are only 1 month away from the end date of this project, and in the last 2 years we achieved a lot! We therefore started the day with a Make Data Count workshop to explain the importance of standardized usage metrics and find out what the barriers to adoption might be. Even though the project is ending, we will continue out work on this, so don’t hesitate to reach out if we can help you get started!
+One of our most important projects right now is[ Make Data Count](https://makedatacount.org), a collaboration with CDL and DataONE to develop an infrastructure for data-level metrics. We are only 1 month away from the end date of this project, and in the last 2 years we achieved a lot! We therefore started the day with a Make Data Count workshop to explain the importance of standardized usage metrics and find out what the barriers to adoption might be. Even though the project is ending, we will continue out work on this, so don’t hesitate to reach out if we can help you get started!
 
 
 
