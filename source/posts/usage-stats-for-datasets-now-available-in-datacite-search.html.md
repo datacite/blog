@@ -11,7 +11,7 @@ doi: 10.5438/eepd-3x92
 ---
 Those of you attending the recent General Assembly might have heard us talk about how DataCite is at a crossroads. We’ve spent the last several years building and honing the infrastructure necessary to make it simple for institutions to create and manage DOIs for their data, and our members have created DOIs for a host of different research outputs. With this foundational infrastructure laid out, it’s now time to start working on services that will add greater value to our members and really harness the power of what interconnected research could mean. 
 
-As an initial step along that path to greater DOI value, we’re working on a series of statistics-related updates that we’ll be making to DataCite Search over the next few months. Today we're rolling out the first of these updates by adding usage statistics to DOIs in DataCite Search. Starting now, you'll be able to see views and downloads for each of those DOIs for which a repository has submitted usage information. 
+As an initial step along that path to greater DOI value, we’re working on a series of statistics-related updates that we’ll be making to [DataCite Search](https://search.datacite.org) over the next few months. Today we're rolling out the first of these updates by adding usage statistics to DOIs in DataCite Search. Starting now, you'll be able to see views and downloads for each of those DOIs for which a repository has submitted usage information. 
 
 ![Looking at usage statistics in DataCite Search results](/images/uploads/usagestats.png "Looking at usage statistics in DataCite Search results")
 
