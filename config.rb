@@ -19,7 +19,6 @@ end
 
 # Load data
 activate :data_source do |c|
-  c.root = "#{ENV['CDN_URL']}/data"
   c.files = [
     "authors.json",
     "links.json"
@@ -94,7 +93,8 @@ helpers do
         "@id" => au[:orcid],
         "givenName" => au[:given],
         "familyName" => au[:family],
-        "name" => au[:name] }.compact
+        "name" => au[:name],
+        "affiliation" => au[:affiliation] }.compact
     end
 
     html = article.render({layout: false})
