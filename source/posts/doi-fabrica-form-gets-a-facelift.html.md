@@ -33,4 +33,4 @@ This brings us to another important aspect of the form update. By tying the form
 ## Where’s my favorite optional metadata field? 
 Enthusiasts of detailed metadata will notice that it’s still not yet possible to use the DOI Fabrica form to submit metadata for every single one of the recommended and optional fields. This is still something that’s on our radar, and we do eventually want to include every field from the schema in the DOI Fabrica form. As mentioned above, the Creator, Title, and Description fields posed more challenges than the other fields. Now that those challenges are solved, it will be comparatively easier to implement the remaining fields at a later time. You can check out our plans and leave us feedback on our [new roadmap portal](https://datacite.org/roadmap.html).
 
-As always, if you have questions, comments, or concerns, please let us know by contacting support at [mailto:support@datacite.org](support@datacite.org). 
+As always, if you have questions, comments, or concerns, please let us know by contacting support at [support@datacite.org](mailto:support@datacite.org). 
