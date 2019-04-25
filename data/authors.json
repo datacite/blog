@@ -95,7 +95,8 @@
     "family": "Brase",
     "bio": "Head of Research and Development, SUB Goettingen",
     "orcid": "https://orcid.org/0000-0002-8250-6253",
-    "image_url": "/images/jbrase.jpg"
+    "image_url": "/images/jbrase.jpg",
+    "affiliation": "University of Göttingen"
    },
   "fziedorn": {
     "name": "Frauke Ziedorn",
@@ -103,7 +104,8 @@
     "family": "Ziedorn",
     "bio": "Research Data Management Consultant, TIB Hannover",
     "orcid": "https://orcid.org/0000-0002-1143-781X",
-    "image_url": "/images/fziedorn.jpg"
+    "image_url": "/images/fziedorn.jpg",
+    "affiliation": "German National Library of Science and Technology"
    },
   "mhirsch": {
     "name": "Mary Hirsch",
@@ -140,7 +142,8 @@
     "family": "Gould",
     "bio": "Research Data Specialist & Product Manager",
     "orcid": "http://orcid.org/0000-0002-2916-3423",
-    "image_url": "/images/mariagould.png"
+    "image_url": "/images/mariagould.png",
+    "affiliation": "California Digital Library"
    }, 
   "jstarr": {
     "name": "Joan Starr",
@@ -149,7 +152,8 @@
     "bio": "EZID Service Manager",
     "twitter": "joan_starr",
     "orcid": "https://orcid.org/0000-0002-7285-027X",
-    "image_url": "/images/jstarr.png"
+    "image_url": "/images/jstarr.png",
+    "affiliation": "California Digital Library"
   },
   "dlowenberg": {
     "name": "Daniella Lowenberg",
@@ -157,7 +161,8 @@
     "family": "Lowenberg",
     "bio": "Research Data Specialist and Product Manager California Digital Library",
     "orcid": "https://orcid.org/0000-0003-2255-1869",
-    "image_url": "/images/dl.jpg"
+    "image_url": "/images/dl.jpg",
+    "affiliation": "California Digital Library"
   },
   "abudden": {
     "name": "Amber Budden",
@@ -165,7 +170,8 @@
     "family": "Budden",
     "bio": "Director for Community Engagement and Outreach at DataONE",
     "orcid": "https://orcid.org/0000-0003-2885-3980",
-    "image_url": "/images/abudden.jpg"
+    "image_url": "/images/abudden.jpg",
+    "affiliation": "University of California, Santa Barbara"
   },
   "jlin": {
     "name": "Jennifer Lin",
@@ -184,7 +190,8 @@
     "family": "Witt",
     "bio": "Head of the Distributed Data Curation Center, Purdue University",
     "orcid": "https://orcid.org/0000-0003-4221-7956",
-    "image_url": "/images/mwitt.jpg"
+    "image_url": "/images/mwitt.jpg",
+    "affiliation": "Purdue University"
   },
   "hpampel": {
     "name": "Heinz Pampel",
@@ -194,7 +201,8 @@
     "orcid": "https://orcid.org/0000-0003-3334-2771",
     "email": "heinz.pampel@gfz-potsdam.de",
     "twitter": "pampel",
-    "image_url": "/images/hpampel.jpeg"
+    "image_url": "/images/hpampel.jpeg",
+    "affiliation": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences"
   },
   "ehull": {
     "name": "Elizabeth Hull",
@@ -204,7 +212,8 @@
     "orcid": "https://orcid.org/0000-0002-8661-6265",
     "email": "ehull@datadryad.org",
     "twitter": "datadryad",
-    "image_url": "/images/ehull.jpg"
+    "image_url": "/images/ehull.jpg",
+    "affiliation": "Dryad Digital Repository"
   },
   "ecastro": {
     "name": "Eleni Castro",
@@ -223,7 +232,8 @@
     "bio": "Assistant Director for Scientific Software and Applications at NCSA, Research Associate Professor at the University of Illinois Urbana-Champaign",
     "orcid": "https://orcid.org/0000-0001-5934-7525",
     "twitter": "danielskatz",
-    "image_url": "https://secure.gravatar.com/avatar/3f59e90625547fce79de3e9c0d46867d"
+    "image_url": "https://secure.gravatar.com/avatar/3f59e90625547fce79de3e9c0d46867d",
+    "affiliation": "National Center for Supercomputing Applications"
   },
   "larsjuhljensen": {
     "name": "Lars Juhl Jensen",
