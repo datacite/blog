@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Tune-Up for the Statistics Portal
+title: Tune-Up for Statistics Portal
 author:
   - rdasler
 date: 2019-04-29T16:27:50.212Z
