@@ -9,7 +9,7 @@ tags:
 image: /images/uploads/ce66bf0-screenshot_2019-04-23_at_10.24.32.png
 doi: 10.5438/vznz-vj55
 ---
-We’ve previously shared with you our plans to migrate all of our services from Solr to Elasticsearch. (See for example our 2019 preview[@https://doi.org/10.5438/bckb-qy95] or how we’ve used Elasticsearch to make an improved DataCite Search[@https://doi.org/10.5438/vyd9-ty64].)  Elasticsearch is already a key component of [DOI Fabrica](https://doi.datacite.org) and of [DataCite Search](https://search.datacite.org), and we’re in the process of bringing it to our other services, too. 
+We’ve previously shared with you our plans to migrate all of our services from Solr to Elasticsearch. (See for example our 2019 preview [@https://doi.org/10.5438/bckb-qy95] or how we’ve used Elasticsearch to make an improved DataCite Search [@https://doi.org/10.5438/vyd9-ty64].)  Elasticsearch is already a key component of [DOI Fabrica](https://doi.datacite.org) and of [DataCite Search](https://search.datacite.org), and we’re in the process of bringing it to our other services, too. 
 
 To that end, we’ve updated the DataCite Statistics portal, our registration and resolution statistics portal, which sits at <https://stats.datacite.org>. 
 
