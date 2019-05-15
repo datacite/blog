@@ -8,5 +8,7 @@ tags:
   - graphql
   - pid graph
   - freya
+image: /images/uploads/graphql.png
+doi: 10.5438/qab1-n315
 ---
 aa
