@@ -47,7 +47,7 @@ A typical starting point for a query in the PID Graph using GraphQL is a resourc
   }
 }
 ``
-GraphQL allows you to specify exactly the fields the query should return, including linked resources. For example all publications (with DataCite DOI) authored by a particular researcher, and including the titles and relatedIdentifiers:
+GraphQL allows you to specify exactly the fields the query should return, including linked resources. For example all publications (with DataCite DOI) authored by a particular researcher, and including the titles and relatedIdentifiers for those publications:
 
 ```
 {
@@ -74,6 +74,28 @@ GraphQL allows you to specify exactly the fields the query should return, includ
   }
 }
 ```
+In addition to retrieving a specific resource using the PID, you can also do queries. For resources with DOIs, the query syntax is exactly the same as in DataCite Search or DOI Fabrica. For example: 
 
+```
+{
+  softwares(query: "subjects.subject:python") {
+    totalCount
+    
+    nodes {
+      id
+      titles {
+        title
+      }
+      fundingReferences {
+        funderIdentifier
+        funderName
+        awardTitle
+        awardNumber
+      }
+    }
+  }
+}
+``
+With this introduction you can 
 
 ## References
