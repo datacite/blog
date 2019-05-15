@@ -47,6 +47,8 @@ A typical starting point for a query in the PID Graph using GraphQL is a resourc
   }
 }
 ``
+Some of these PIDs are obviously not provided by DataCite, but the DataCite GraphQL supports them as well via a wrapper layer over for example the [ROR](https://ror.org) API.
+
 GraphQL allows you to specify exactly the fields the query should return, including linked resources. For example all publications (with DataCite DOI) authored by a particular researcher, and including the titles and relatedIdentifiers for those publications:
 
 ```
@@ -96,6 +98,8 @@ In addition to retrieving a specific resource using the PID, you can also do que
   }
 }
 ``
-With this introduction you can 
+After this short introduction it should have become clearer how GraphQL works differently from your typical REST API, and that GraphQL is a perfect fit for the kinds of queries one might want to do with the PID Graph.
+
+Now that you have had an introduction to the DataCite GraphQL API, you can try your own queries. The API is a pre-release version and can contain bugs or might miss functionality you expect. In particular more complex queries of the PID Graph are not yet supported. Please use the [PID Graph section in the PID Forum](https://www.pidforum.org/c/pid-graph) to ask questions or suggest features.
 
 ## References
