@@ -28,20 +28,36 @@ A typical starting point for a query in the PID Graph using GraphQL is a resourc
       title
     }
   }
+}
+```
+```
+{
   publication(id: "https://doi.org/10.5438/jwvf-8a66") {
     titles {
       title
     }
   }
+}
+```
+```
+{
   software(id: "https://doi.org/10.5281/zenodo.1013940") {
     titles {
       title
     }
   }
+}
+```
+```
+{
   researcher(id: "https://orcid.org/0000-0002-1642-628X") {
     givenName
     familyName
   }
+}
+```
+```
+{
   organization(id: "https://ror.org/05rrcem69") {
     name
   }
