@@ -16,11 +16,11 @@ DataCite DOIs describe resources such as datasets, samples, software and publica
 
 Accessing information available in this PID Graph, while preserving the rich connections between resources, is not trivial, and the JSON REST APIs that most PID service providers including DataCite are providing to users, while having a very good track record allowing users to access a single resource or a list of similar resources, might not be the best fit for more complex queries of the PID Graph.
 
-Enter [GraphQL](https://graphql.org/), a query language that uses a graph as the underlying data model and aligns well with the kinds of queries that need to be supported in the PID Graph. GraphQL was invented by Facebook in 2012, made available as Open Source software in 2015, and in 2019 has become a mainstream technology with broad support in terms of [libraries, tools and services](https://graphql.org/code/). 
+Enter [GraphQL](https://graphql.org/), a query language that uses a graph as the underlying data model and aligns well with the kinds of queries that need to be supported in the PID Graph. GraphQL was started by Facebook in 2012, made available as Open Source software in 2015, and in 2019 has become a mainstream technology with broad support in terms of [libraries, tools and services](https://graphql.org/code/).
 
-Today DataCite is announcing the pre-release version of the DataCite GraphQL API, and we invite you to try it out at [https://api.datacite.org/graphql](https://api.datacite.org/graphql). GraphQL works very differently from the REST APIs that most of us are familiar with: you need a special client application (e.g. [this one](https://electronjs.org/apps/graphiql)) to use a GraphQL API, and all API calls are done to the same URL and using the POST method.
+Today DataCite is announcing the pre-release version of the DataCite GraphQL API, and we invite you to try it out at [https://api.datacite.org/graphql](https://api.datacite.org/graphql). GraphQL works very differently from the REST APIs that most of us are familiar with: you need a special client application (e.g. [this one](https://electronjs.org/apps/graphiql) or [this one](https://www.graphqlbin.com/)) to use a GraphQL API, and all API calls are done to the same URL and using the POST method.
 
-A typical starting point for a query in the PID Graph using GraphQL is a resource such as a dataset or researcher identified by it's PID. For example:
+A typical starting point for a query in the PID Graph using GraphQL is a resource such as a dataset, researcher, organization, etc. identified by it's PID. For example:
 
 ```
 {
