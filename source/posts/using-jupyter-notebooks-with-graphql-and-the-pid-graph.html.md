@@ -9,9 +9,10 @@ tags:
   - graphql
   - jupyter
   - pid graph
+  - freya
 image: /images/uploads/download-3-.jpeg
 ---
-Two weeks ago DataCite announced the pre-release version of a GraphQL API \[@https://doi.org/10.5438/qab1-n315]. GraphQL simplifies complex queries that for example want to retrieve information about the authors, funding and data citations for a dataset with DataCite DOI. These connections together form the PID Graph \[@https://doi.org/10.5438/jwvf-8a66], and DataCite is working with the other partners in the [FREYA project](https://www.project-freya.eu) on making it easier to contribute to and consume information in the PID Graph.
+Two weeks ago DataCite announced the pre-release version of a GraphQL API \[@https://doi.org/10.5438/qab1-n315]. GraphQL simplifies complex queries that for example want to retrieve information about the authors, funding and data citations for a dataset with a DataCite DOI. These connections together form the PID Graph \[@https://doi.org/10.5438/jwvf-8a66], and DataCite is working with the other partners in the EC-funded [FREYA project](https://www.project-freya.eu) on making it easier to contribute to and consume information in the PID Graph.
 
 [Jupyter notebooks](https://jupyter.org/) are a popular web-based interactive computational environment and are the perfect platform to explore the PID Graph via GraphQL APIs. Since interactions with GraphQL APIs are standardized and GraphQL libraries exist for many programming languages, all the user has to do is come up with interesting queries and process the information returned from the API.
 
