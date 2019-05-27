@@ -10,6 +10,7 @@ tags:
   - jupyter
   - pid graph
   - freya
+doi: 10.5438/hwaw-xe52
 image: /images/uploads/download-3-.jpeg
 ---
 Two weeks ago DataCite announced the pre-release version of a GraphQL API \[@https://doi.org/10.5438/qab1-n315]. GraphQL simplifies complex queries that for example want to retrieve information about the authors, funding and data citations for a dataset with a DataCite DOI. These connections together form the PID Graph \[@https://doi.org/10.5438/jwvf-8a66], and DataCite is working with the other partners in the EC-funded [FREYA project](https://www.project-freya.eu) on making it easier to contribute to the PID Graph, and consume information in the PID Graph.
