@@ -44,4 +44,8 @@ This query will return the first 50 publications linked to my ORCID ID, together
 
 ![](/images/uploads/download-3-.jpeg "Force-directed graph of publications by a particular researcher and their references")
 
+Even with only 50 publications the graph already is rather complicated. Many of my publications with DataCite DOIs are for the DataCite Blog, and you see them linked to a blue node in the top part of the graph. In the lower left corner you see a blog post with an unusually high number of references [@https://doi.org/10.5438/ct8b-x1ce]. A number of publications appear as pairs linked to each other, reflecting the figshare approach to versioning.
+
 This is only the starting point of what can be done with Jupyter notebooks and GraphQL, but it is clear that the possibilities are almost endless. You can use the above notebook as a starting point, e.g. to generate the graph of publications (with DataCite DOIs) using your ORCID ID. Or you do something very different, and for example using Python instead of R as programming language, and contribute your notebook to the above GitHub repository.
+
+## References
