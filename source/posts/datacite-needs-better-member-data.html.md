@@ -9,6 +9,7 @@ tags:
   - featured
   - DataCite
 image: /images/uploads/memberform.png
+doi: 10.5438/q7r3-f935
 ---
 At the end of last year we conducted the first DataCite member survey. And one of the things you told us is that relevant information doesn’t always reach you. This is obviously really important to us, so we immediately put it on our 2019 [roadmap](https://datacite.org/roadmap.html). 
 
