@@ -1,11 +1,12 @@
 ---
 layout: post
-title: DataCite is looking for an Executive Director
+title: 'Job announcement: DataCite is looking for an Executive Director'
 author:
   - jchodacki
 date: 2019-06-03T19:48:14.361Z
 tags:
   - DataCite
+doi: 10.5438/7qgp-5z42
 ---
 Following the announcement of Trisha Cruse’s retirement, DataCite has started its search for a dynamic, committed, and entrepreneurial Executive Director to build on our exceptional record of providing first-class services to the research community.
 
