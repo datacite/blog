@@ -20,4 +20,4 @@ Ideal candidates will share our commitment to our mission, our services, and the
 * The ability to manage a small, diverse, remote, non-profit team
 * Experience with budget management and financial oversight, and the strategic insight to ensure long-term sustainability for DataCite
 
-To apply, please send an email to [John Chodacki] (mailto: board.president@datacite.org), Executive Board President, with your resume and cover letter detailing your interest in the position and your qualifications. We are looking to fill the position this year, preferably September 1, 2019. Applications will begin being considered on July 1.
+To apply, please send an email to [John Chodacki] (mailto: board.president@datacite.org) Executive Board President, with your resume and cover letter detailing your interest in the position and your qualifications. We are looking to fill the position this year, preferably September 1, 2019. Applications will begin being considered on July 1.
