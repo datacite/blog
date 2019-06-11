@@ -7,6 +7,7 @@ date: 2019-06-03T19:48:14.361Z
 tags:
   - DataCite
   - featured
+image: /images/uploads/search.jpg
 doi: 10.5438/7qgp-5z42
 ---
 Following the [announcement](https://doi.org/10.5438/4j6f-0r45) of Trisha Cruse’s retirement, DataCite has started its search for a dynamic, committed, and entrepreneurial Executive Director to build on our exceptional record of providing first-class services to the research community.
