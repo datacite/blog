@@ -89,6 +89,16 @@
     "image_url": "/images/hcousijn.png",
     "affiliation": "DataCite"
   },
+  "swilamaratne": {
+    "name": "Sarala Wimalaratne",
+    "given": "Sarla",
+    "family": "Wimalaratne",
+    "bio": "DataCite Head of Infrastructure Services",
+    "orcid": "https://orcid.org/0000-0002-5355-2576",
+    "github": "sarala",
+    "image_url": "/images/sarala.jpg",
+    "affiliation": "DataCite"
+  },
   "jbrase": {
     "name": "Jan Brase",
     "given": "Jan",
