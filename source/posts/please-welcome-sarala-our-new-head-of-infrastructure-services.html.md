@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Please Welcome Sarala, our new Head of Infrastructure Services'
+title: 'Please welcome Sarala, our new Head of Infrastructure Services'
 author:
   - mfenner
   - swimalaratne
