@@ -2,16 +2,19 @@
 layout: post
 title: 'Please welcome Sarala, our new Head of Infrastructure Services'
 author:
-  - mfenner
   - swimalaratne
+  - mfenner
 date: 2019-06-24
 doi: 10.5438/aj7f-h903
 tags:
   - infrastructure
   - staff
   - featured
+image: /images/uploads/sarala.png
 ---
 DataCite is excited to announce that Sarala Wimalaratne will join our team in the new role ’Head of Infrastructure Services’ on September 1st. Sarala brings a wealth of experience in the Open Science and PID communities and will be a great addition to our team. Get to know her better via this interview.
+
+/images/uploads/sarala.png
 
 ### 1. Can you tell us a little bit about what you did before you will start working for DataCite?
 
