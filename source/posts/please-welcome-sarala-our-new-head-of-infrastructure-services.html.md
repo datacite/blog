@@ -4,7 +4,7 @@ title: 'Please welcome Sarala, our new Head of Infrastructure Services'
 author:
   - mfenner
   - swimalaratne
-date: 2019-06-24T19:39:30.693Z
+date: 2019-06-24
 tags:
   - infrastructure
   - staff
