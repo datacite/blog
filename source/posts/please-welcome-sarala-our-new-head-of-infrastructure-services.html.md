@@ -18,9 +18,9 @@ DataCite is excited to announce that Sarala Wimalaratne will join our team in th
 
 ### 1. Can you tell us a little bit about what you did before you will start working for DataCite?
 
-I have been working at the European Bioinformatics Institute (EMBL-EBI) since 2009. During my time at the EMBL-EBI I have been involved in multiple data integration projects. More recently, I have been leading the [Identifiers.org](https://identifiers.org) resource, which provides stable identifier resolution for life science data and beyond [@10.1038/sdata.2018.29].
+I have been working at the European Bioinformatics Institute (EMBL-EBI) since 2009. During my time at the EMBL-EBI I have been involved in multiple data integration projects. More recently, I have been leading the [Identifiers.org](https://identifiers.org) resource, which provides stable identifier resolution for life science data and beyond [@https://doi.org/10.1038/sdata.2018.29].
 
-In the last few years I have been working more closely with DataCite on several projects ([THOR](https://project-thor.eu/), [DCPPC](https://nihdatacommons.us/) and [FREYA](https://www.project-freya.eu/) around standardizing identifier metadata and services [@10.5281/zenodo.1324300, @10.5281/zenodo.1263942, @10.5281/zenodo.3248652]. Therefore, moving to DataCite after my time at the EMBL-EBI is very exciting as it allows me to continue working in the world of identifiers. 
+In the last few years I have been working more closely with DataCite on several projects ([THOR](https://project-thor.eu/), [DCPPC](https://nihdatacommons.us/) and [FREYA](https://www.project-freya.eu/) around standardizing identifier metadata and services [@https://doi.org/10.5281/zenodo.1324300, @https://doi.org/10.5281/zenodo.1263942], @https://doi.org/10.5281/zenodo.3248652]. Therefore, moving to DataCite after my time at the EMBL-EBI is very exciting as it allows me to continue working in the world of identifiers. 
 
 ### 2. What lessons you learned from working on the identifiers.org service could benefit DataCite?
 
