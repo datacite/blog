@@ -34,7 +34,7 @@ It is important for DataCite to allow claims from multiple sources, and to show 
 
 ### Push API
 
-[Notifications](http://support.orcid.org/knowledgebase/articles/665437-the-orcid-inbox) are an essential feature of ORCID's Auto-update. They allow CrossRef and DataCite to push information to the ORCID record of a person without prior permission. The ORCID record owner receives a message in his/her inbox and has the opportunity to decide whether or not to accept the claim(s).
+[Notifications](https://support.orcid.org/hc/en-us/articles/360006972953) are an essential feature of ORCID's Auto-update. They allow CrossRef and DataCite to push information to the ORCID record of a person without prior permission. The ORCID record owner receives a message in his/her inbox and has the opportunity to decide whether or not to accept the claim(s).
 
 The way DataCite's end is implemented results in an information push to ORCID whenever an ORCID is found in our metadata. There is a big overlap between this functionality and what we do in the Search and Link service: authentication with ORCID, background workers for processing, XML generation, error tracking, etc. Therefore we want to move this functionality to a centralised place, separate from the core Search and Link and Auto-update functionalities. While the current focus is on pushing information to ORCID, we could build similar notification services for other organizations in the future, e.g. pushing information to a funder whenever we find a grant identifier in newly issued DOI names. The above requires refactoring of the Search and Link code and it is currently underway.
 
