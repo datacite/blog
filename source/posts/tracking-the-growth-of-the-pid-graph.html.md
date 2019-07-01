@@ -3,7 +3,7 @@ layout: post
 title: Tracking the Growth of the PID Graph
 author:
   - mfenner
-date: 2019-07-01T16:37:58.887Z
+date: 2019-07-01
 tags:
   - pid graph
   - freya
