@@ -11,7 +11,7 @@
     "orcid": "https://orcid.org/0000-0003-1419-2405",
     "email": "mfenner@datacite.org",
     "image_url": "https://www.gravatar.com/avatar/434592a097e91261792ebd6b492042bc?s=250&d=mm&r=x",
-    "affiliation": "DataCite",
+    "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" },
     "twitter": "mfenner",
     "github": "mfenner"
   },
@@ -23,7 +23,7 @@
     "orcid": "https://orcid.org/0000-0001-5952-7630",
     "email": "laura.rueda@datacite.org",
     "image_url": "/images/lrueda.jpg",
-    "affiliation": "DataCite"
+    "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
   "tcruse": {
     "name": "Trisha Cruse",
@@ -34,7 +34,7 @@
     "github": "pcruse",
     "email": "patricia.cruse@datacite.org",
     "image_url": "/images/cruse.jpg",
-    "affiliation": "DataCite"
+    "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
   "kgarza": {
     "name": "Kristian Garza",
@@ -45,7 +45,7 @@
     "github": "kjgarza",
     "email": "kgarza@datacite.org",
     "image_url": "/images/kristian.png",
-    "affiliation": "DataCite"
+    "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
   "rhallett": {
     "name": "Richard Hallett",
@@ -56,7 +56,7 @@
     "github": "richardhallett",
     "email": "rhallett@datacite.org",
     "image_url": "/images/rhallett.png",
-    "affiliation": "DataCite"
+    "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
     "rdasler": {
     "name": "Robin Dasler",
@@ -67,7 +67,7 @@
     "github": "daslerr",
     "email": "robin.dasler@datacite.org",
     "image_url": "/images/robin.png",
-    "affiliation": "DataCite"
+    "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
   "bdreyer": {
     "name": "Britta Dreyer",
@@ -77,7 +77,7 @@
     "orcid": "https://orcid.org/0000-0002-0687-5460",
     "github": "brittadreyer",
     "image_url": "/images/bdreyer.png",
-    "affiliation": "DataCite"
+    "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
   "hcousijn": {
     "name": "Helena Cousijn",
@@ -87,7 +87,7 @@
     "orcid": "https://orcid.org/0000-0001-6660-6214",
     "github": "hcousijn",
     "image_url": "/images/hcousijn.png",
-    "affiliation": "DataCite"
+    "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
   "swimalaratne": {
     "name": "Sarala Wimalaratne",
@@ -97,7 +97,7 @@
     "orcid": "https://orcid.org/0000-0002-5355-2576",
     "github": "sarala",
     "image_url": "/images/sarala.jpg",
-    "affiliation": "DataCite"
+    "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
   "jbrase": {
     "name": "Jan Brase",
@@ -125,7 +125,7 @@
     "orcid": "https://orcid.org/0000-0002-6628-8225",
     "github": "maryhirsch",
     "image_url": "/images/mhirsch.jpg",
-    "affiliation": "DataCite"
+    "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
   "rlammey": {
     "name": "Rachael Lammey",
