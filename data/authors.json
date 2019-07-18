@@ -135,7 +135,7 @@
     "orcid": "https://orcid.org/0000-0001-5800-1434",
     "github": "rlammey",
     "image_url": "/images/rlammey.jpg",
-    "affiliation": "Crossref"
+    "affiliation": { "@id": "https://ror.org/02twcfp32", "name": "Crossref", "@type": "Organization" }
   },
   "ameadows": {
     "name": "Alice Meadows",
@@ -144,7 +144,7 @@
     "bio": "ORCID Director of Communications",
     "orcid": "https://orcid.org/0000-0003-2161-3781",
     "image_url": "/images/ameadows.jpg",
-    "affiliation": "ORCID"
+    "affiliation": { "@id": "https://ror.org/04fa4r544", "name": "ORCID", "@type": "Organization" }
   },
   "mgould": {
     "name": "Maria Gould",
@@ -153,7 +153,7 @@
     "bio": "Research Data Specialist & Product Manager",
     "orcid": "http://orcid.org/0000-0002-2916-3423",
     "image_url": "/images/mariagould.png",
-    "affiliation": "California Digital Library"
+    "affiliation": { "@id": "https://ror.org/03yrm5c26", "name": "California Digital Library", "@type": "Organization" }
    }, 
   "jstarr": {
     "name": "Joan Starr",
@@ -163,7 +163,7 @@
     "twitter": "joan_starr",
     "orcid": "https://orcid.org/0000-0002-7285-027X",
     "image_url": "/images/jstarr.png",
-    "affiliation": "California Digital Library"
+    "affiliation": { "@id": "https://ror.org/03yrm5c26", "name": "California Digital Library", "@type": "Organization" }
   },
   "dlowenberg": {
     "name": "Daniella Lowenberg",
@@ -172,7 +172,7 @@
     "bio": "Research Data Specialist and Product Manager California Digital Library",
     "orcid": "https://orcid.org/0000-0003-2255-1869",
     "image_url": "/images/dl.jpg",
-    "affiliation": "California Digital Library"
+    "affiliation": { "@id": "https://ror.org/03yrm5c26", "name": "California Digital Library", "@type": "Organization" }
   },
   "abudden": {
     "name": "Amber Budden",
@@ -192,7 +192,7 @@
     "twitter": "jenniferlin15",
     "orcid": "https://orcid.org/0000-0002-9680-2328",
     "image_url": "/images/jlin.jpg",
-    "affiliation": "Crossref"
+    "affiliation": { "@id": "https://ror.org/02twcfp32", "name": "Crossref", "@type": "Organization" }
   },
   "mwitt": {
     "name": "Michael Witt",
@@ -201,7 +201,7 @@
     "bio": "Head of the Distributed Data Curation Center, Purdue University",
     "orcid": "https://orcid.org/0000-0003-4221-7956",
     "image_url": "/images/mwitt.jpg",
-    "affiliation": "Purdue University"
+    "affiliation": { "@id": "https://ror.org/05p8z3f47", "name": "Purdue University", "@type": "Organization" }
   },
   "hpampel": {
     "name": "Heinz Pampel",
@@ -268,24 +268,25 @@
     "given": "Ed",
     "family": "Pentz",
     "bio": "Crossref Executive Director.",
+    "affiliation": { "@id": "https://ror.org/02twcfp32", "name": "Crossref", "@type": "Organization" },
     "orcid": "https://orcid.org/0000-0002-5993-8592",
-    "image_url": "/images/epentz.png",
-    "affiliation": "Crossref"
+    "image_url": "/images/epentz.png"
   },
   "ghendricks": {
     "name": "Ginny Hendricks",
     "given": "Ginny",
     "family": "Hendricks",
     "bio": "Crossref Director of Member & Community Outreach.",
+    "affiliation": { "@id": "https://ror.org/02twcfp32", "name": "Crossref", "@type": "Organization" },
     "orcid": "https://orcid.org/0000-0002-0353-2702",
-    "image_url": "/images/ghendricks.png",
-    "affiliation": "Crossref"
+    "image_url": "/images/ghendricks.png"
   },
   "abirukou": {
     "name": "Aliaksandr Birukou",
     "given": "Aliaksandr",
     "family": "Birukou",
-    "bio": "Executive Editor for Computer Science at SpringerNature.",
+    "bio": "Executive Editor for Computer Science at Springer Nature.",
+    "affiliation": { "@id": "https://ror.org/0117jxy09", "name": "Springer Nature", "@type": "Organization" },
     "orcid": "https://orcid.org/0000-0002-4925-9131",
     "image_url": "/images/abirukou.png"
   },
@@ -310,6 +311,7 @@
     "given": "John",
     "family": "Chodacki",
     "bio": "DataCite Board President and Director of the University of California Curation Center (UC3) at California Digital Library (CDL)",
+    "affiliation": { "@id": "https://ror.org/03yrm5c26", "name": "California Digital Library", "@type": "Organization" },
     "orcid": "https://orcid.org/0000-0002-7378-2408",
     "image_url": "/images/jchodacki.jpg"
   },
@@ -327,13 +329,15 @@
     "family": "Aryani",
     "bio": "Head, Social Data Analytics Lab, Swinburne University",
     "orcid": "https://orcid.org/0000-0002-4259-9774",
+    "affiliation": { "@id": "https://ror.org/031rekg67", "name": "Swinburne University", "@type": "Organization" },
     "image_url": "/images/aaryani.png"
   },
-  "nnoy": {
+  "nnoy": { 
     "name": "Natasha Noy",
     "given": "Natasha",
     "family": "Noy",
     "bio": "Research Scientist at Google AI.",
+    "affiliation": { "@id": "https://ror.org/00njsd438", "name": "Google", "@type": "Organization" },
     "image_url": "/images/nnoy.jpg"
   },
   "jashton": {
