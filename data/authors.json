@@ -106,7 +106,7 @@
     "bio": "Head of Research and Development, SUB Goettingen",
     "orcid": "https://orcid.org/0000-0002-8250-6253",
     "image_url": "/images/jbrase.jpg",
-    "affiliation": "University of Göttingen"
+    "affiliation": { "@id": "https://ror.org/01y9bpm73", "name": "University of Göttingen", "@type": "Organization" }
    },
   "fziedorn": {
     "name": "Frauke Ziedorn",
@@ -115,7 +115,7 @@
     "bio": "Research Data Management Consultant, TIB Hannover",
     "orcid": "https://orcid.org/0000-0002-1143-781X",
     "image_url": "/images/fziedorn.jpg",
-    "affiliation": "German National Library of Science and Technology"
+    "affiliation": { "@id": "https://ror.org/04aj4c181", "name": "German National Library of Science and Technology", "@type": "Organization" }
    },
   "mhirsch": {
     "name": "Mary Hirsch",
