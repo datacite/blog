@@ -181,7 +181,7 @@
     "bio": "Director for Community Engagement and Outreach at DataONE",
     "orcid": "https://orcid.org/0000-0003-2885-3980",
     "image_url": "/images/abudden.jpg",
-    "affiliation": "University of California, Santa Barbara"
+    "affiliation": { "@id": "https://ror.org/02t274463", "name": "University of California, Santa Barbara", "@type": "Organization" }
   },
   "jlin": {
     "name": "Jennifer Lin",
@@ -212,7 +212,7 @@
     "email": "heinz.pampel@gfz-potsdam.de",
     "twitter": "pampel",
     "image_url": "/images/hpampel.jpeg",
-    "affiliation": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences"
+    "affiliation": { "@id": "https://ror.org/04z8jg394", "name": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences", "@type": "Organization" }
   },
   "ehull": {
     "name": "Elizabeth Hull",
@@ -223,7 +223,7 @@
     "email": "ehull@datadryad.org",
     "twitter": "datadryad",
     "image_url": "/images/ehull.jpg",
-    "affiliation": "Dryad Digital Repository"
+    "affiliation": { "@id": "https://ror.org/00x6h5n95", "name": "Dryad Digital Repository", "@type": "Organization" }
   },
   "ecastro": {
     "name": "Eleni Castro",
@@ -233,7 +233,8 @@
     "orcid": "https://orcid.org/0000-0001-9767-8536",
     "email": "ecastro@fas.harvard.edu",
     "twitter": "dataverseorg",
-    "image_url": "/images/ecastro.png"
+    "image_url": "/images/ecastro.png",
+    "affiliation": { "@id": "https://ror.org/03vek6s52", "name": "Harvard University", "@type": "Organization" }
   },
   "danielskatz": {
     "name": "Daniel S. Katz",
@@ -243,7 +244,7 @@
     "orcid": "https://orcid.org/0000-0001-5934-7525",
     "twitter": "danielskatz",
     "image_url": "https://secure.gravatar.com/avatar/3f59e90625547fce79de3e9c0d46867d",
-    "affiliation": "National Center for Supercomputing Applications"
+    "affiliation": { "@id": "https://ror.org/03r10zj06", "name": "National Center for Supercomputing Applications", "@type": "Organization" }
   },
   "larsjuhljensen": {
     "name": "Lars Juhl Jensen",
@@ -252,7 +253,8 @@
     "bio": "Research professor at the Novo Nordisk Foundation Center for Protein Research in Copenhagen where he heads a disease systems biology group.",
     "orcid": "https://orcid.org/0000-0001-7885-715X",
     "twitter": "larsjuhljensen",
-    "image_url": "/images/larsjuhljensen.jpg"
+    "image_url": "/images/larsjuhljensen.jpg",
+    "affiliation": { "@id": "https://ror.org/04txyc737", "name": "Novo Nordisk Foundation", "@type": "Organization" }
   },
   "lhaak": {
     "name": "Laure Haak",
@@ -261,7 +263,7 @@
     "bio": "ORCID Executive Director.",
     "orcid": "https://orcid.org/0000-0001-5109-3700",
     "image_url": "/images/lhaak.png",
-    "affiliation": "ORCID"
+    "affiliation": { "@id": "https://ror.org/04fa4r544", "name": "ORCID", "@type": "Organization" }
   },
   "epentz": {
     "name": "Ed Pentz",
@@ -296,7 +298,8 @@
     "family": "Nielsen",
     "bio": "Zenodo Project Leader at CERN.",
     "orcid": "https://orcid.org/0000-0001-8135-3489",
-    "image_url": "/images/larsholmnielsen.jpeg"
+    "image_url": "/images/larsholmnielsen.jpeg",
+    "affiliation": { "@id": "https://ror.org/01ggx4157", "name": "European Organization for Nuclear Research", "@type": "Organization" }
   },
   "arfon": {
     "name": "Arfon Smith",
@@ -304,7 +307,8 @@
     "family": "Smith",
     "bio": "Head of the Data Science Mission Office at Space Telescope Science Institute.",
     "orcid": "https://orcid.org/0000-0002-3957-2474",
-    "image_url": "/images/arfon.png"
+    "image_url": "/images/arfon.png",
+    "affiliation": { "@id": "https://ror.org/036f5mx38", "name": "Space Telescope Science Institute", "@type": "Organization" }
   },
   "jchodacki": {
     "name": "John Chodacki",
@@ -382,7 +386,8 @@
     "family": "de Smaele",
     "bio": "TU Delft",
     "orcid": "https://orcid.org/0000-0002-8963-3415",
-    "image_url": "/images/msmaele.jpg"
+    "image_url": "/images/msmaele.jpg",
+    "affiliation": { "@id": "https://ror.org/02e2c7k09", "name": "Delft University of Technology", "@type": "Organization" }
   },
   "myahia": {
     "name": "Mohamed Yahia",
