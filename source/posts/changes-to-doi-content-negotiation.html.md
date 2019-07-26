@@ -10,7 +10,7 @@ tags:
 image: /images/uploads/feedback.png
 doi: 10.5438/nz0m-rb06
 ---
-DOI Content negotiation is one of the oldest DataCite services, launched in 2012. Content negotiation makes it easy to fetch DataCite metadata in other metadata formats, for example *BibTeX* or *schema.org*, or as formatted citation in one of more than 5,000 citation styles. For example:
+DOI content negotiation is one of the oldest DataCite services, launched in 2012. Content negotiation makes it easy to fetch DataCite metadata in other metadata formats, for example *BibTeX* or *schema.org*, or as formatted citation in one of more than 5,000 citation styles. For example:
 
 ```
 curl -LH "Accept: application/x-bibtex" https://doi.org/10.5438/0000-0C2G
@@ -42,6 +42,6 @@ Going forward, the upcoming changes will lead to improvements in two areas:
 * the content negotiation service will become faster, easier to maintain, and more aligned with other DOI registration agencies such as Crossref. The new service is already running at https://data.crosscite.org.
 * we can improve the workflows for registering URLs to content in the DOI registration service. This will enable direct access to content, and will improve machine access to data.
 
-Please reach out to [DataCite support](mailto:support@datacite.org) if you need help transitioning from custom content types you have registered in the past.
+Please read our [support documentation for content negotiation](https://support.datacite.org/docs/datacite-content-resolver) for more details, or reach out to [DataCite support](mailto:support@datacite.org) if you need help transitioning from custom content types you have registered in the past.
 
 ## References
