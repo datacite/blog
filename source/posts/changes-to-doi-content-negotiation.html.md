@@ -23,7 +23,7 @@ With this blog post we want to announce an important upcoming change to DataCite
 
 We know that many organizations make heavy use of custom content types for DataCite DOIs, so we provide both a long transition period and alternative approaches to achieve the same.
 
-On October 1st, 2019 we will retire custom content types via the DOI resolver `https://doi.org`. You can continue to use custom content types by using the DataCite content negotiation service at data.datacite.org directly, e.g.
+On October 1st, 2019 we will retire support for custom content types via the DOI resolver `https://doi.org`. You can continue to use custom content types by using the DataCite content negotiation service at data.datacite.org directly, e.g.
 
 ```
 curl -LH "Accept: application/x-bibtex" https://data.datacite.org/10.5438/0000-0C2G
