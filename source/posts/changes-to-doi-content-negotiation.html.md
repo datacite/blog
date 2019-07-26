@@ -43,3 +43,5 @@ Going forward, the upcoming changes will lead to improvements in two areas:
 * we can improve the workflows for registering URLs to content in the DOI registration service. This will enable direct access to content, and will improve machine access to data.
 
 Please reach out to [DataCite support](mailto:support@datacite.org) if you need help transitioning from custom content types you have registered in the past.
+
+## References
