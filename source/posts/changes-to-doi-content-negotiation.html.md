@@ -8,6 +8,7 @@ tags:
   - content negotiation
   - metadata
 image: /images/uploads/feedback.png
+doi: 10.5438/nz0m-rb06
 ---
 DOI Content negotiation is one of the oldest DataCite services, launched in 2012. Content negotiation makes it easy to fetch DataCite metadata in other metadata formats, for example *BibTeX* or *schema.org*, or as formatted citation in one of more than 5,000 citation styles. For example:
 
