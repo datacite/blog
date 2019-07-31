@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DataCite Open Hours
+title: 'What''s Polling Got to do with it? '
 author:
   - Mary Hirsch
 date: 2019-07-31T08:19:47.970Z
@@ -63,7 +63,11 @@ When asked about the support site, everyone who answered said they had used it a
 
 ## The DataCite General Assembly
 
-The DataCite General Assembly provided an irresistible opportunity for us to get creative with our techniques for extracting feedback. Enter Mentimeter and some photos of space. We asked participants to guide the starship DataCite through the galaxy, and asked some big questions. Below, a couple of extracts of the results showing a direct split between flat packed and fulled assembled products, but a clear majority for collaborating and aligning on strategic partnerships.
+The DataCite General Assembly provided an irresistible opportunity for us to get creative with our techniques for extracting feedback. Enter Mentimeter and some photos of space. We asked participants to guide the starship DataCite through the galaxy, and asked some big questions. 
+
+![](/images/uploads/screen-shot-2019-07-30-at-13.09.20.png)
+
+Below, a couple of extracts of the results showing a direct split between flat packed and fulled assembled products, but a clear majority for collaborating and aligning on strategic partnerships.
 
 **Who should we focus on? **
 
@@ -79,7 +83,7 @@ You can view the full presentation with the polling results [here](https://datac
 
 In recent months we gave the polling a rest and dedicated Open Hours to providing updates on all the new stuff that we have rolled out this year including the [roadmap](https://doi.org/10.5438/dde6-ny45), the new [web form](https://doi.org/10.5438/rzb6-g292), [usage statistics in DataCite Search](https://doi.org/10.5438/eepd-3x92), the [stats portal](https://stats.datacite.org/) and [metadata provenance](https://doi.org/10.5438/wy92-xj57).
 
-We also had a fantastic Open Hours special edition with two guest speakers from our member organizations who presented their DataCite use cases. Many thanks to Mohamed Yahia (Research Engineer within the Department for the Promotion and Enhancement of Research Data at Inist-CNRS) and Viv Hutchinson (Science Data Management Branch Chief, USGS). You can view their presentations, and other presentations from Open Hours here.
+We also had a fantastic Open Hours special edition with two guest speakers from our member organizations who presented their DataCite use cases. Many thanks to Mohamed Yahia (Research Engineer within the Department for the Promotion and Enhancement of Research Data at Inist-CNRS) and Viv Hutchinson (Science Data Management Branch Chief, USGS). You can view their presentations, and other presentations from Open Hours [here](https://support.datacite.org/docs/open-hours).
 
 The most recent Open Hours session was focused on communication channels and the DataCite community on PIDForum.org. Since we will be overhauling our mailing lists and communication channels, this was a valuable moment to gather feedback on how we can target our communications better. Some participants were interested in using Slack as an alternative channel for informal discussions, but we would like to see if the DataCite Chat Room on the PIDForum can fill this gap first. We also gathered some good feedback on our plan to start sending reports, with repositories and new DOIs as favourites to be included.
 
