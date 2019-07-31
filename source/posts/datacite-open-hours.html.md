@@ -37,7 +37,7 @@ What are our users doing? and which enhancements would be most useful? Questions
 
 ![](/images/uploads/screen-shot-2019-07-31-at-10.59.03.png)
 
-When we delved deeper into the search habitats of users, it became clear that the majority search using a term with one or more words or an identifier like a DOI. Quite a lot of interest was also shown in searching metadata fields. The top candidates for new facets were: publisher and license.
+When we delved deeper into the search habits of users, it became clear that the majority search using a term with one or more words or an identifier like a DOI. Quite a lot of interest was also shown in searching metadata fields. The top candidates for new facets were: publisher and license.
 
 **What kind of searches do you typically do (more than one answer possible)?**
 
