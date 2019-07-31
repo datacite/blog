@@ -86,17 +86,13 @@ In recent months we gave the polling a rest and dedicated Open Hours to providin
 
 We also had a fantastic Open Hours special edition with two guest speakers from our member organizations who presented their DataCite use cases. Many thanks to Mohamed Yahia (Research Engineer within the Department for the Promotion and Enhancement of Research Data at Inist-CNRS) and Viv Hutchinson (Science Data Management Branch Chief, USGS). You can view their presentations, and other presentations from Open Hours [here](https://support.datacite.org/docs/open-hours).
 
-The most recent Open Hours session was focused on communication channels and the DataCite community on PIDForum.org. Since we will be overhauling our mailing lists and communication channels, this was a valuable moment to gather feedback on how we can target our communications better. Some participants were interested in using Slack as an alternative channel for informal discussions, but we would like to see if the DataCite Chat Room on the PIDForum can fill this gap first. We also gathered some good feedback on the new reports we are planning to send, with information about repositories and new DOIs seen as most important. 
+The most recent Open Hours session was focused on communication channels and the DataCite community on PIDForum.org. Since we will be overhauling our mailing lists and communication channels, this was a valuable moment to gather feedback on how we can target our communications better. Some participants were interested in using Slack as an alternative channel for informal discussions, but we would like to see if the DataCite Chat Room on the PIDForum can fill this gap first. 
 
 **Do you have suggestions for other Comms channels DataCite should be using?**
 
 ![](/images/uploads/screen-shot-2019-07-31-at-11.42.49.png)
 
-**What would you like us to include in the report?**
-
-![](/images/uploads/screen-shot-2019-07-31-at-11.43.10.png)
-
-You can view the full presentation and feedback [here](https://datacite.org/assets/Open_Hours_July_%202019.pdf), and you can check out the [DataCite Chat Room on the PIDForum](https://www.pidforum.org/c/datacite-chat-room). 
+You can view the full presentation and feedback [here](https://datacite.org/assets/Open_Hours_July_%202019.pdf), and you can also check out the [DataCite Chat Room on the PIDForum](https://www.pidforum.org/c/datacite-chat-room). 
 
 
 
