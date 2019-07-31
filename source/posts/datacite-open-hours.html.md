@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DataCite Open Hours
+title: A Lens On DataCite Open Hours
 author:
   - Mary Hirsch
 date: 2019-07-31T08:19:47.970Z
