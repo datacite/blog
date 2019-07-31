@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Lens On DataCite Open Hours
+title: A Lens on DataCite Open Hours
 author:
   - mhirsch
 date: 2019-07-31T08:19:47.970Z
