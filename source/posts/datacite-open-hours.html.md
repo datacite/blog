@@ -100,4 +100,4 @@ DataCite Open Hours will be taking a break in August. We’ll be back in Septemb
 
 Do you agree with the feedback given by the other participants? Do you want to have your say? Then join us for our monthly DataCite Open Hours and get involved in the discussion. We want to hear from you.
 
-We send the DataCite Open Hours calendar invite to our mailing lists. Email support@datacite.org if you would like to be added to the mailing list or if you would like to be added to the private DataCite Group on the PIDForum.org.
+If you would like to receive the invite to DataCite Open Hours, or be added to  to be added to the private DataCite Group on the PIDForum.org send us an email at support@datacite.org.
