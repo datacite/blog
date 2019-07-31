@@ -6,6 +6,7 @@ author:
 date: 2019-07-31T08:19:47.970Z
 tags:
   - Feature
+doi: ''
 ---
 As a membership organization we take our community engagement activities very seriously. We jump at the chance to interact with our members, whether it be at conferences, steering group meetings, our general assembly, or during DataCite Open Hours. DataCite Open Hours is a one-hour monthly call for discussion and information sharing (we like to think of them as a DataCite meet-up) where we invite DataCite members and community to join us as we share the latest product developments and releases. We also like to take the opportunity to gather feedback to help us make sure we are steering things in the right direction. The format is always informal and interactive.
 
