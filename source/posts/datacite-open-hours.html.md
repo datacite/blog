@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What's Polling Got to Do With it?
+title: DataCite Open Hours
 author:
   - Mary Hirsch
 date: 2019-07-31T08:19:47.970Z
