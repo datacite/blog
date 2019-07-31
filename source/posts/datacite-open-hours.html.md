@@ -8,9 +8,9 @@ tags:
   - Feature
 doi: 10.5438/g329-vn15
 ---
-As a membership organization we take our community engagement activities very seriously. We jump at the chance to interact with our members, whether it be at conferences, steering group meetings, our general assembly, or during DataCite Open Hours. DataCite Open Hours is a one-hour monthly call for discussion and information sharing (we like to think of them as a DataCite meet-up) where we invite DataCite members and community to join us as we share the latest product developments and releases. We also like to take the opportunity to gather feedback to help us make sure we are steering things in the right direction. The format is always informal and interactive.
+As a membership organization we take our community engagement activities very seriously. We jump at the chance to interact with our members, whether it be at conferences, steering group meetings, our general assembly, or during DataCite Open Hours. DataCite Open Hours is a one-hour monthly call for discussion and information sharing where we invite DataCite members and community to join us as we share the latest product developments and releases. We also like to take the opportunity to gather feedback to help us make sure we are steering things in the right direction. The format is always informal and interactive.
 
-The year is flying by. And there’s already been loads of new updates and developments at DataCite, and from the community and the PID world at large. So here, I would like to take a moment to reflect back on the last 8 months of DataCite Open Hours, since I took of as the host. Those who have joined us for Open Hours will know we like to ask questions, and we have lots of fun using polling tools. So here is a rundown of some of the key information that we have gathered during our Open Hours meet-ups so far. Keep in mind that the number of participants varies each month, and we don’t claim the views expressed necessarily represent the whole community. 
+The year is flying by. And there’s already been loads of new updates and developments at DataCite, and from the community and the PID world at large. So here, I would like to take a moment to reflect back on the last 8 months of DataCite Open Hours, since I took over as the host. Those who have joined us for Open Hours will know we like to ask questions, and we have lots of fun using polling tools. So here is a rundown of some of the key information that we have gathered during Open Hours so far. Keep in mind that the number of participants varies each month, and we don’t claim the views expressed necessarily represent the whole community. 
 
 ## Who’s out there?
 
@@ -44,9 +44,6 @@ When we delved deeper into the search habits of users, it became clear that the 
 
 ![](/images/uploads/screen-shot-2019-07-31-at-11.08.01.png)
 
-
-
-\
 **What other facets, if any, would you also want to see in the DOI Search in Fabrica?**
 
 ![](/images/uploads/screen-shot-2019-07-31-at-11.12.06.png)
@@ -71,7 +68,7 @@ The DataCite General Assembly provided an irresistible opportunity for us to get
 
 ![](/images/uploads/screen-shot-2019-07-30-at-13.09.20.png)
 
-Below, a couple of extracts of the results showing a clear majority for focusing on members and for collaborating and aligning on strategic partnerships.
+Below, a couple of extracts from the results showing a clear majority for focusing on members and for collaborating and aligning on strategic partnerships.
 
 **Where should we put our energy? **
 
@@ -103,4 +100,4 @@ DataCite Open Hours will be taking a break in August. We’ll be back in Septemb
 
 Do you agree with the feedback given by the other participants? Do you want to have your say? Then join us for our monthly DataCite Open Hours and get involved in the discussion. We want to hear from you.
 
-We send the DataCite Open Hours calendar invite to our mailing lists. Email support@datacite.org if you would like to be added to the mailing list or if you would like to be added to the private DataCite Group on the PIDForum.org.
+If you would like to receive the invite to DataCite Open Hours, or be added to  to be added to the private DataCite Group on the PIDForum.org send us an email at support@datacite.org.
