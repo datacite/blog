@@ -68,7 +68,7 @@ The DataCite General Assembly provided an irresistible opportunity for us to get
 
 ![](/images/uploads/screen-shot-2019-07-30-at-13.09.20.png)
 
-Below, a couple of extracts of the results showing a clear majority for focusing on members and for collaborating and aligning on strategic partnerships.
+Below, a couple of extracts from the results showing a clear majority for focusing on members and for collaborating and aligning on strategic partnerships.
 
 **Where should we put our energy? **
 
