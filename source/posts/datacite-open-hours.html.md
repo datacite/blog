@@ -44,9 +44,6 @@ When we delved deeper into the search habits of users, it became clear that the 
 
 ![](/images/uploads/screen-shot-2019-07-31-at-11.08.01.png)
 
-
-
-\
 **What other facets, if any, would you also want to see in the DOI Search in Fabrica?**
 
 ![](/images/uploads/screen-shot-2019-07-31-at-11.12.06.png)
