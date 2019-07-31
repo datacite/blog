@@ -71,7 +71,7 @@ What changes would you like to see to the support site?
 
 The DataCite General Assembly
 
-The DataCite General Assembly provided an irresistible opportunity for us to get creative with our techniques for extracting feedback. Enter Mentimeter and some photos of space. We asked participants to guide the starship DataCite through the galaxy, and asked some big questions. Below, a couple of extracts of the results from Mentimeter showing a direct split between flat packed and fulled assembled products, but a clear majority for collaborating and aligning on strategic partnerships.
+The DataCite General Assembly provided an irresistible opportunity for us to get creative with our techniques for extracting feedback. Enter Mentimeter and some photos of space. We asked participants to guide the starship DataCite through the galaxy, and asked some big questions. Below, a couple of extracts of the results showing a direct split between flat packed and fulled assembled products, but a clear majority for collaborating and aligning on strategic partnerships.
 
 Who should we focus on? 
 
@@ -85,7 +85,7 @@ You can view the full presentation with the polling results [here](https://datac
 
 Show and tell
 
-In recent months we gave the polling a rest and dedicated Open Hours to providing updates on all the new stuff that we have rolled out this year including the roadmap, the web form, usage statistics in DataCite Search, the stats portal and metadata provenance (BLOG LINKS).
+In recent months we gave the polling a rest and dedicated Open Hours to providing updates on all the new stuff that we have rolled out this year including the [roadmap](https://doi.org/10.5438/dde6-ny45), the new [web form](https://doi.org/10.5438/rzb6-g292), [usage statistics in DataCite Search](https://doi.org/10.5438/eepd-3x92), the [stats portal](https://stats.datacite.org/) and [metadata provenance](https://doi.org/10.5438/wy92-xj57).
 
 We also had a fantastic Open Hours special edition with two guest speakers from our member organizations who presented their DataCite use cases. Many thanks to Mohamed Yahia (Research Engineer within the Department for the Promotion and Enhancement of Research Data at Inist-CNRS) and Viv Hutchinson (Science Data Management Branch Chief, USGS). You can view their presentations, and other presentations from Open Hours here.
 
