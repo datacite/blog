@@ -44,7 +44,9 @@ When we delved deeper into the search habits of users, it became clear that the 
 
 ![](/images/uploads/screen-shot-2019-07-31-at-11.08.01.png)
 
-****\
+
+
+\
 **What other facets, if any, would you also want to see in the DOI Search in Fabrica?**
 
 ![](/images/uploads/screen-shot-2019-07-31-at-11.12.06.png)
@@ -94,8 +96,6 @@ The most recent Open Hours session was focused on communication channels and the
 ![](/images/uploads/screen-shot-2019-07-31-at-11.42.49.png)
 
 You can view the full presentation and feedback [here](https://datacite.org/assets/Open_Hours_July_%202019.pdf), and you can also check out the [DataCite Chat Room on the PIDForum](https://www.pidforum.org/c/datacite-chat-room). 
-
-
 
 ## The future
 
