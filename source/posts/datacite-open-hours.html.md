@@ -68,11 +68,11 @@ The DataCite General Assembly provided an irresistible opportunity for us to get
 
 ![](/images/uploads/screen-shot-2019-07-30-at-13.09.20.png)
 
-Below, a couple of extracts of the results showing a direct split between flat packed and fulled assembled products, but a clear majority for collaborating and aligning on strategic partnerships.
+Below, a couple of extracts of the results showing a clear majority for focusing on members and for collaborating and aligning on strategic partnerships.
 
-**Who should we focus on? **
+**Where should we put our energy? **
 
-![](/images/uploads/screen-shot-2019-07-31-at-11.24.44.png)
+![](/images/uploads/screen-shot-2019-07-31-at-14.35.32.png)
 
 **How should we tackle strategic partnerships? **
 
@@ -86,15 +86,15 @@ In recent months we gave the polling a rest and dedicated Open Hours to providin
 
 We also had a fantastic Open Hours special edition with two guest speakers from our member organizations who presented their DataCite use cases. Many thanks to Mohamed Yahia (Research Engineer within the Department for the Promotion and Enhancement of Research Data at Inist-CNRS) and Viv Hutchinson (Science Data Management Branch Chief, USGS). You can view their presentations, and other presentations from Open Hours [here](https://support.datacite.org/docs/open-hours).
 
-The most recent Open Hours session was focused on communication channels and the DataCite community on PIDForum.org. Since we will be overhauling our mailing lists and communication channels, this was a valuable moment to gather feedback on how we can target our communications better. Some participants were interested in using Slack as an alternative channel for informal discussions, but we would like to see if the DataCite Chat Room on the PIDForum can fill this gap first. We also gathered some good feedback on our plan to start sending reports, with repositories and new DOIs as favourites to be included.
+The most recent Open Hours session was focused on communication channels and the DataCite community on PIDForum.org. Since we will be overhauling our mailing lists and communication channels, this was a valuable moment to gather feedback on how we can target our communications better. Some participants were interested in using Slack as an alternative channel for informal discussions, but we would like to see if the DataCite Chat Room on the PIDForum can fill this gap first. We also gathered some good feedback on about how frequently the community would like to receive updates from us, with a newsletter once a month being seen as sufficient, but additional emails when the system is down were welcomed.
 
 **Do you have suggestions for other Comms channels DataCite should be using?**
 
 ![](/images/uploads/screen-shot-2019-07-31-at-11.42.49.png)
 
-**What would you like us to include in the report?**
+**We are currently trying to update you once a month through our newsletter, is that enough?**
 
-![](/images/uploads/screen-shot-2019-07-31-at-11.43.10.png)
+![](/images/uploads/screen-shot-2019-07-31-at-14.27.02.png)
 
 You can view the full presentation and feedback [here](https://datacite.org/assets/Open_Hours_July_%202019.pdf), and you can check out the [DataCite Chat Room on the PIDForum](https://www.pidforum.org/c/datacite-chat-room). 
 
