@@ -41,7 +41,7 @@ Which types of information do you most want to be able to add via Fabrica form f
 
 Reporting and Searching
 
-What are our users doing? and which enhancements would be most useful? Questions we regularly ask ourselves. Our Open Hours polling on the topic of reporting and searching revealed that most respondents were currently creating reports and DOI registration stats came out top as most helpful for reporting. The results also showed DataCite Search is the preferred place to run searches because it provides information that Fabrica does not. Since then we’ve revamped our DOI Statistics Portal (https://stats.datacite.org/), added usage stats to DataCite Search, and citations are coming to DataCite Search very soon.
+What are our users doing? and which enhancements would be most useful? Questions we regularly ask ourselves. Our Open Hours polling on the topic of reporting and searching revealed that most respondents were currently creating reports and DOI registration stats came out top as most helpful for reporting. The results also showed DataCite Search is the preferred place to run searches because it provides information that Fabrica does not. Since then we’ve revamped our [DOI Statistics Portal](https://stats.datacite.org/), added usage stats to DataCite Search, and citations are coming to DataCite Search very soon.
 
 ![](/images/uploads/screen-shot-2019-07-31-at-10.59.03.png)
 
@@ -57,13 +57,13 @@ What other facets, if any, would you also want to see in the DOI Search in Fabri
 
 Affiliations
 
-Back in February, we announced the launch of the Research Organization Registry (ROR) (https://doi.org/10.5438/cykz-fh60) During Open Hours, with the help of guest speaker Maria Gould, we asked some questions about current practices and needs around affiliations. We now know users are collecting affiliation data, using Crossref Funder Identifiers and finding it painful or challenging. We hope the work being done to implement ROR IDs in the DataCite metadata will ease some of this pain.
+Back in February, we announced the launch of the [Research Organization Registry (ROR)](https://doi.org/10.5438/cykz-fh60). During Open Hours, with the help of guest speaker Maria Gould, we asked some questions about current practices and needs around affiliations. We now know users are collecting affiliation data, using Crossref Funder Identifiers and finding it painful or challenging. We hope the work being done to implement ROR IDs in the DataCite metadata will ease some of this pain.
 
 ![](/images/uploads/screen-shot-2019-07-31-at-11.16.12.png)
 
 Support
 
-When asked about the support site, everyone who answered said they had used it and it was more or less split between those who said it was good and adequate. It was useful to find out that more information was the number one change requested, and we have since restructured the support site and added new documentation, including a section dedicated to usage and citations https://support.datacite.org/docs/views-and-downloads, and will continue to do so.
+When asked about the support site, everyone who answered said they had used it and it was more or less split between those who said it was good and adequate. It was useful to find out that more information was the number one change requested, and we have since restructured the support site and added new documentation, including a section dedicated to [usage and citations](https://support.datacite.org/docs/views-and-downloads), and will continue to do so.
 
 What changes would you like to see to the support site?
 
@@ -87,9 +87,23 @@ Show and tell
 
 In recent months we gave the polling a rest and dedicated Open Hours to providing updates on all the new stuff that we have rolled out this year including the roadmap, the web form, usage statistics in DataCite Search, the stats portal and metadata provenance (BLOG LINKS).
 
-We also had a fantastic Open Hours special edition with two guest speakers from our member organizations who presented their DataCite use cases. Many thanks to Mohamed Yahia (Research Engineer within the Department for the Promotion and Enhancement of Research Data at Inist-CNRS) and Viv Hutchinson (Science Data Management Branch Chief, USGS) (LINK).
+We also had a fantastic Open Hours special edition with two guest speakers from our member organizations who presented their DataCite use cases. Many thanks to Mohamed Yahia (Research Engineer within the Department for the Promotion and Enhancement of Research Data at Inist-CNRS) and Viv Hutchinson (Science Data Management Branch Chief, USGS). You can view their presentations, and other presentations from Open Hours here.
 
-The most recent Open Hours session was focused on communication channels and the DataCite community on PIDForum.org. Since we will be overhauling our mailing lists and communication channels, this was a valuable moment to gather feedback on how we can target our communications better. You can read the full presentation and feedback here (LINK), and you can check out the [DataCite Chat Room on the PIDForum](https://www.pidforum.org/c/datacite-chat-room). 
+The most recent Open Hours session was focused on communication channels and the DataCite community on PIDForum.org. Since we will be overhauling our mailing lists and communication channels, this was a valuable moment to gather feedback on how we can target our communications better. Some participants were interested in using Slack as an alternative channel for informal discussions, but we would like to see if the DataCite Chat Room on the PIDForum can fill this niche first. We also gathered some good feedback on our plan to start sending reports, with repositories and new DOIs as favourites to be included.
+
+Do you have suggestions for other Comms channels DataCite should be using?
+
+![](/images/uploads/screen-shot-2019-07-31-at-11.42.49.png)
+
+
+
+What would you like us to include in the report?
+
+![](/images/uploads/screen-shot-2019-07-31-at-11.43.10.png)
+
+You can read the full presentation and feedback here (LINK), and you can check out the [DataCite Chat Room on the PIDForum](https://www.pidforum.org/c/datacite-chat-room). 
+
+
 
 The future
 
