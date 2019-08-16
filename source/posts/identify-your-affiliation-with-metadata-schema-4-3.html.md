@@ -3,7 +3,7 @@ layout: post
 title: Identify your affiliation with Metadata Schema 4.3
 author:
   - rdasler
-  - mdesmaele
+  - msmaele
 date: 2019-08-16T13:01:52.683Z
 tags:
   - DataCite
