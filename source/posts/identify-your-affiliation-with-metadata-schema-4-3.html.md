@@ -10,6 +10,7 @@ tags:
   - metadata
   - featured
 image: /images/uploads/metadataschema4.3.png
+doi: 10.5438/vgaq-ar22
 ---
 The [DataCite Metadata Schema](https://schema.datacite.org/) is the basis for the metadata you submit to DataCite. It tells you the available fields and structure for your metadata records. Many of our members have told us that they’d really like to be able to include affiliation information in their metadata in a more structured way. The [launch of ROR](https://doi.org/10.5438/cykz-fh60) earlier this year provides a great step towards addressing structured capturing of affiliation information. 
 
