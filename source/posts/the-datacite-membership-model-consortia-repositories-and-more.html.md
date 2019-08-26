@@ -51,7 +51,7 @@ Going forward, we’ll be making some changes to DOI Fabrica to align with the m
 
 Repositories
 
-We’ll be replacing the old “Clients” terminology with “Repositories” and making a stronger connection to the repository concept by adding metadata elements from re3data to the repository settings information displayed in Fabrica. Periodicals, as their own sub-category of research material service, will be designated by a periodicals badge for easy identification. Consortia
+We’ll be replacing the old “Clients” terminology with “Repositories” and making a stronger connection to the repository concept by adding metadata elements from re3data to the repository settings information displayed in Fabrica. Periodicals, as their own sub-category of research material service, will be designated by a periodicals badge for easy identification. 
 
 Consortia
 
