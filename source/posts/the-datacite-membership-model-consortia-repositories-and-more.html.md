@@ -8,6 +8,7 @@ tags:
   - DataCite
   - featured
 image: /images/uploads/direct_member.jpg
+doi: 10.5438/gk09-ba24
 ---
 As a membership organization, members are at the core of everything we do. Understanding our members and ensuring good 2-way communication is therefore extremely important. Over the last year, we have been working on clarifying and aligning DataCite’s membership model. We believe this will enable us to work with all organizations in the same way and give us more insight into the organizations using our services.
 
