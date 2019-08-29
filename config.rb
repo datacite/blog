@@ -62,7 +62,7 @@ helpers do
     id = article.data.doi.present? ? "https://doi.org/" + article.data.doi : url
     version = article.data.version.presence || "1.0"
     keywords = article.data.tags.present? ? article.data.tags.join(", ") : nil
-    license = data.site.license.url || "https://creativecommons.org/licenses/by/4.0/"
+    license = data.site.license.url || "https://creativecommons.org/licenses/by/4.0/legalcode"
     date_created = article.data.date_created.presence || article.data.date
     date_published = article.data.published.to_s == "false" ? nil : article.data.date
 
