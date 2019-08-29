@@ -32,4 +32,4 @@ We hope to see you in January!
 
 **Where**: Auditori Palau de Congressos de Girona, Passeig de la Devesa, 35, Girona, Catalonia, Spain
 **When**: 23rd and 24th January 2018
-**Short [form](https://goo.gl/forms/UvBUgMhnRbfSac1s1) to submit session(s). Deadline: September 18
+**Short form to submit session(s). Deadline: September 18
