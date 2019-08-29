@@ -23,7 +23,7 @@ We’re looking for your PIDeas! Want to update the community on your current PI
 7. **PID stories**. Which strategies worked? Which strategies failed? Tell us your horror stories! Share your victories!
 8. **Kinds of persistence**. What are the frontiers of ‘persistence’? We hear lots about rigor and reproducibility, but what about data papers? Promoting PIDs for long-term access to objects that change over time, like software or live data feeds?
 
-Please use this [short form](https://goo.gl/forms/UvBUgMhnRbfSac1s1) to tell us about your proposed session. The program committee will review all suggestions received by September 18 and we’ll let you know whether you’ve been successful by the first week of October.
+Please use the short form to tell us about your proposed session. The program committee will review all suggestions received by September 18 and we’ll let you know whether you’ve been successful by the first week of October.
 We’ll be posting more information about the festival lineup on the [PIDapalooza website](https://pidapalooza.org/) and on Twitter ([@PIDapalooza](http://twitter.com/pidapalooza)) in the coming weeks.
 
 We hope to see you in January!
