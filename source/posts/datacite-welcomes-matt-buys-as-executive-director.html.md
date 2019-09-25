@@ -8,6 +8,7 @@ tags:
   - DataCite
   - featured
 image: /images/uploads/mj-buys-headshot.jpg
+doi: 10.5438/qv4s-ck42
 ---
 Earlier this year, we [announced the retirement](https://doi.org/10.5438/4j6f-0r45) of our Executive Director, Trisha Cruse.  After an extensive search, led by DataCite’s Executive Board, we are proud to announce that Matt Buys will join DataCite as Executive Director beginning October 14, 2019.  
 
