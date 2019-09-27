@@ -37,7 +37,7 @@ We have divided the relevant conceptual elements into two groups: essential and 
 
 Table 2 presents our initial proposal for Essential and Supporting concepts that are included as elements in the DataCite dialect. The DataCite Obligations (M = Mandatory, R = Recommended, O = Optional) for these concepts are shown in the column titled DCO. All of the essential concepts and many of the supporting concepts are included in the MetaDIG FAIR Recommendation that we are developing with community input. These are identified in the MetaDIG repository with the DataCite label and are [available](https://github.com/NCEAS/metadig-checks/labels/DataCite) for comments and suggestions from the DataCite community.
 
-# Measuring FAIRness of DataCite Metadata
+## Measuring FAIRness of DataCite Metadata
 
 Experience and community discussion are important parts of the recommendation development and evolution process and we welcome community input on the proposal presented above. Element occurrence rates in existing metadata collections can also provide important input to this process. The essential concepts in Table 1 were mapped to DataCite metadata elements and the occurrence rates for those elements in DataCite metadata are shown Figure 2. Blue bars (in the background) show the % of DataCite collections (out of 1411 total) that include the element in some, but not all, of their records (Exists). Orange bars show the % of DataCite collections that include the element in all records (complete). For example, the Resource Author Affiliation element exists in 43% of the collections and is complete in 11%. Three elements (Resource Publisher, Resource Publication Date, and Resource Identifier) are complete in all collections so the blue bars are not visible.
 
