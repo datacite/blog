@@ -33,9 +33,153 @@ Dialect-independent recommendations include two levels: 1) a universal set of re
 
 ## Essential and Supporting Findability Concepts
 
-We have divided the relevant conceptual elements into two groups: essential and supporting. The characteristics of these groups are best described by an example. The documentation concept “Resource Author” clearly supports Findability. In the DataCite dialect, this concept is implemented as creator and the name can be represented as creator.name or creator.givenName and creator.familyName. These elements are essential to this concept and equivalents are universal across metadata dialects. There are other elements in the DataCite dialect that can provide important supporting information about authors: types, identifiers, and identifier details. Conceptual names for these items are shown in Table 1.  Similar relationships are shown in Table 2 for other concepts.
+We have divided the relevant conceptual elements into two groups: essential and supporting. The characteristics of these groups are best described by an example. The documentation concept “Resource Author” clearly supports Findability. In the DataCite dialect, this concept is implemented as creator and the name can be represented as creator.name or creator.givenName and creator.familyName. These elements are essential to this concept and equivalents are universal across metadata dialects. There are other elements in the DataCite dialect that can provide important supporting information about authors: types, identifiers, and identifier details. Conceptual names for these items are shown in Table 1. Similar relationships are shown in Table 2 for other concepts.
+
+<i>Table 1. Essential and supporting concepts for the documentation concept Resource Author</i>
+
+<table width="100%" cellpadding="5" border="1">
+    <tr>
+        <td><b>Essential</b></td>
+        <td><b>Supporting</b></td>
+    </tr>
+    <tr>
+        <td rowspan="4">Name, Family Name, Given Name</td>
+        <td>Resource Author Type (Person / Organization)</td>
+    </tr>
+    <tr>
+        <td>Resource Author Identifier</td>
+    </tr>
+    <tr>
+        <td>Resource Author Identifier Type</td>
+    </tr>
+    <tr>
+        <td>Resource Author Identifier Scheme URI</td>
+    </tr>
+</table>
 
 Table 2 presents our initial proposal for Essential and Supporting concepts that are included as elements in the DataCite dialect. The DataCite Obligations (M = Mandatory, R = Recommended, O = Optional) for these concepts are shown in the column titled DCO. All of the essential concepts and many of the supporting concepts are included in the MetaDIG FAIR Recommendation that we are developing with community input. These are identified in the MetaDIG repository with the DataCite label and are [available](https://github.com/NCEAS/metadig-checks/labels/DataCite) for comments and suggestions from the DataCite community.
+
+<i>Table 2. Essential and supporting concepts included in the Findable recommendation</i>
+
+<table width="100%" cellpadding="5" border="1">
+    <tr>
+        <td><b>Findable Essential</b></td>
+        <td><b>DCO<sup>**</sup></b></td>
+        <td><b>Supporting</b></td>
+    </tr>
+    <tr>
+        <td>Abstract<sup>*</sup></td>
+        <td>R</td>
+        <td/>
+    </tr>
+    <tr>
+        <td>Data Created<sup>*</sup></td>
+        <td>R</td>
+        <td>Date Submitted</td>
+    </tr>
+    <tr>
+        <td>Keyword<sup>*</sup></td>
+        <td>R</td>
+        <td>Keyword URI</td>
+    </tr>
+    <tr>
+        <td>Keyword Vocabulary<sup>*</sup></td>
+        <td>R</td>
+        <td>Keyword Vocabulary/Ontology URI</td>
+    </tr>
+    <tr>
+        <td rowspan="4"><b>Resource Author<sup>*</sup></b></td>
+        <td>M</td>
+        <td>Resource Author Type (Person / Organization)</td>
+    </tr>
+    <tr>
+        <td rowspan="3">O</td>
+        <td>Resource Author Identifier<sup>*</sup></td>
+    </tr>
+    <tr>
+        <td>Resource Author Identifier Type<sup>*</sup></td>
+    </tr>
+    <tr>
+        <td>Resource Author Identifier Schema URI</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Resource Author Affiliation<sup>*</sup></td>
+        <td rowspan="3">O</td>
+        <td>Resource Author Affiliation Identifier</td>
+    </tr>
+    <tr>
+        <td>Resource Author Affiliation Identifier Type<sup>*</sup></td>
+    </tr>
+    <tr>
+        <td>Resource Author Affiliation Identifier Schema URI</td>
+    </tr>
+    <tr>
+        <td><b>Resource Identifier<sup>*</sup></b></td>
+        <td>M</td>
+        <td><b>Resource Identifier Type<sup>*</sup></b></td>
+    </tr>
+    <tr>
+        <td><b>Resource Publication Date<sup>*</sup></b></td>
+        <td>M</td>
+        <td/>
+    </tr>
+    <tr>
+        <td><b>Resource Publisher<sup>*</sup></b></td>
+        <td>M</td>
+        <td/>
+    </tr>
+    <tr>
+        <td><b>Resource Title<sup>*</sup></b></td>
+        <td>M</td>
+        <td/>
+    </tr>
+    <tr>
+        <td><b>Resource Type General<sup>*</sup></b></td>
+        <td>M</td>
+        <td/>
+    </tr>
+    <tr>
+        <td rowspan="4">Project Sponsor Funder<sup>*</sup></td>
+        <td rowspan="4">O</td>
+        <td>Project Sponsor Identifier</td>
+    </tr>
+    <tr>
+        <td>Project Sponsor Identifier Type</td>
+    </tr>
+    <tr>
+        <td>Project Sponsor Identifier Scheme</td>
+    </tr>
+    <tr>
+        <td>Project Sponsor Identifier Scheme URI</td>
+    </tr>
+    <tr>
+        <td>Sponsor Project Identifier<sup>*</sup></td>
+        <td>O</td>
+        <td/>
+    </tr>
+    <tr>
+        <td>Temporal Extent<sup>*</sup></td>
+        <td>O</td>
+        <td/>
+    </tr>
+    <tr>
+        <td rowspan="4">Spatial Extent<sup>*</sup></td>
+        <td rowspan="4">R</td>
+        <td>Spatial Extent Bounding Box<sup>*</sup></td>
+    </tr>
+    <tr>
+        <td>Spatial Extent Polygon<sup>*</sup></td>
+    </tr>
+    <tr>
+        <td>Spatial Extent Point<sup>*</sup></td>
+    </tr>
+    <tr>
+        <td>Spatial Extent Bounding Place<sup>*</sup></td>
+    </tr>
+</table>
+
+<i>* Included in METADIG FAIR Suite, **DataCite Obligation: M = Mandatory, R = Recommended, O = Optional, Bold concepts are mandatory in DataCite
+</i>
 
 ## Measuring FAIRness of DataCite Metadata
 
