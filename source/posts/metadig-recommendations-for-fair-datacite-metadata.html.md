@@ -3,7 +3,7 @@ layout: post
 title: MetaDIG recommendations for FAIR DataCite metadata
 author:
   - thabermann
-date: 2019-09-27
+date: '2019-09-27'
 tags:
   - DataCite
   - metadata
@@ -39,7 +39,7 @@ We have divided the relevant conceptual elements into two groups: essential and 
 
 <i>Table 1. Essential and supporting concepts for the documentation concept Resource Author</i>
 
-<table class="table">
+<table class="table pricing">
     <tr>
         <td><b>Essential</b></td>
         <td><b>Supporting</b></td>
@@ -63,7 +63,7 @@ Table 2 presents our initial proposal for Essential and Supporting concepts that
 
 <i>Table 2. Essential and supporting concepts included in the Findable recommendation</i>
 
-<table class="table">
+<table class="table pricing">
     <tr>
         <td><b>Findable Essential</b></td>
         <td><b>DCO<sup>**</sup></b></td>
