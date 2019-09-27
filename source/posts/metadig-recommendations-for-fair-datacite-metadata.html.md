@@ -11,6 +11,8 @@ tags:
 image: /images/uploads/figure-3_habermann.png
 doi: 10.5438/2chg-b074
 ---
+_This is a guest blog post written by Ted Habermann. In this blog post, Dr Habermann introduces the MetaDIG project and how the project recommendations can be applied to DataCite metadata._
+
 Since Wilkenson et al. (@https://doi.org/10.1038/sdata.2016.18) introduced the FAIR Principles, discussions and implementation guidelines have been published in almost every possible context. Most of these guidelines are focused on making data and/or repositories FAIR and, because of the nature of the principles, they are generally related to policies and generally high-level guidance.
 
 Many of the FAIR Principles are applicable to metadata as well as data. The original authors point out that “throughout the Principles, we use the phrase ‘(meta)data’ in cases where the Principle should be applied to both metadata and data.” FAIR Principles F2 ([data are described with rich metadata](https://www.go-fair.org/fair-principles/f2-data-described-rich-metadata/)) and R1 ([meta(data) have a plurality of accurate and relevant attributes](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/)) mention metadata specifically, but responsibility for identifying specific metadata elements that support FAIR data is left to community standards (Principle R1.3).
@@ -191,7 +193,7 @@ _Figure 2. Existence and completeness of Findable Essential metadata elements._
 
 Six concepts were mapped to mandatory DataCite elements (Resource Type General, Resource Title, Resource Publisher, Resource Publication Date, Resource Identifier, and Resource Author) and, as expected, these are by far the most common in DataCite metadata. More specialized elements (Temporal and Spatial Extent) are relatively rare.
 
-Figure 3 shows the average % of records that include each of the elements in our recommendation in a random sample of [100 records from each DataCite data center](https://www.tedhabermann.com/blog/2019/8/15/metadata-archeology-hunting-affiliations-and-rors-in-datacite-metadata) and may provide an easy visualization of completeness for single collections (or for an overall average). Elements that are complete (Resource Title, Resource Publisher, Resource Publication Date, and Resource Identifier) show % near the outside of the circle. Less complete elements (e.g Temporal Extent, Funder Project ID, and Project Funder) are near the center of the circle.
+Figure 3 shows the average % of records that include each of the elements in our recommendation in a random sample of [100 records from each DataCite repository](https://www.tedhabermann.com/blog/2019/8/15/metadata-archeology-hunting-affiliations-and-rors-in-datacite-metadata) and may provide an easy visualization of completeness for single collections (or for an overall average). Elements that are complete (Resource Title, Resource Publisher, Resource Publication Date, and Resource Identifier) show % near the outside of the circle. Less complete elements (e.g Temporal Extent, Funder Project ID, and Project Funder) are near the center of the circle.
 
 ![](/images/uploads/figure-3_habermann.png)
 
@@ -199,13 +201,13 @@ _Figure 3. % or records in DataCite sample that include each concept._
 
 A simple Findable Essential Index can be created by summing the % of records that contain each recommended element. In this case, there are fifteen elements, so the index has a range of zero to fifteen. The index for the average shown in Figure 2 is 7.57 or 50%. Many of the recommended or optional elements are currently rare (< 20%) in the DataCite metadata collection. 
 
-One hundred and thirty-eight DataCite Providers provide and manage DOIs for over 1400 Data Centers (or clients). Figure 4 shows the minimum, maximum, and average of the Findable Essential Indices for each Provider. The providers are sorted by the number of clients (shown below the data) and average index (shown by circles). The overall average index from Figure 3 is shown as a dashed line. Most providers include only one data center and they show up as single dots in this Figure. For those with more than one data center the range of the indices are shown by vertical lines.
+At the time of the analysis, 138 DataCite Members provided and managed DOIs for over 1400 repositories. Figure 4 shows the minimum, maximum, and average of the Findable Essential Indices for each Member. The Members are sorted by the number of repositories (shown below the data) and average index (shown by circles). The overall average index from Figure 3 is shown as a dashed line. Most Members include only one repository and they show up as single dots in this Figure. For those with more than one repository the range of the indices are shown by vertical lines.
 
-There is significant variance of the proposed index within and between the data center collections. This is to be expected because DataCite metadata serves different purposes for different data centers. In the minimum case, the sole purpose is to register a DOI and the minimum metadata suffices. In other cases, more DataCite metadata might be provided because it exists in a native dialect and can be created as part of an automatic DataCite metadata generation process. It is clearly too early to understand and elucidate explanations for specific cases. That interesting and important task remains for future work.
+There is significant variance of the proposed index within and between the repository collections. This is to be expected because DataCite metadata serves different purposes for different repositories. In the minimum case, the sole purpose is to register a DOI and the minimum metadata suffices. In other cases, more DataCite metadata might be provided because it exists in a native dialect and can be created as part of an automatic DataCite metadata generation process. It is clearly too early to understand and elucidate explanations for specific cases. That interesting and important task remains for future work.
 
 ![](/images/uploads/figure-4_habermann.png)
 
-_Figure 4. Findable Essential Index minima, average, and maxima for 138 DataCite providers. The average index (7.57) is shown by the dashed line and the number of Data Centers for each provider are indicated by braces and counts below the data._
+_Figure 4. Findable Essential Index minima, average, and maxima for 138 DataCite Members. The average index (7.57) is shown by the dashed line and the number of repositories for each Member are indicated by braces and counts below the data._
 
 ## Conclusions
 
