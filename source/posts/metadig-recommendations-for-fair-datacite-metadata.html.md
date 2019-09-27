@@ -213,6 +213,6 @@ _Figure 4. Findable Essential Index minima, average, and maxima for 138 DataCite
 
 Clear and specific community recommendations for FAIR metadata in multiple dialects are rare and necessary for measuring progress towards evaluating and improving metadata in many repositories. MetaDIG is initiating development of such a recommendation and soliciting community input in a repository of proposed metadata checks. We propose an initial set of concepts and an evaluation of the DataCite metadata collection for essential metadata elements that support Findability. We also examined the occurrence data for these elements in a sample of the DataCite metadata. That analysis shows that there is considerable variation in completeness of DataCite collections with respect to the recommended content. 
 
-Our final goal is a recommendation that includes content in four categories. The first, Findable Essential, was described here. Others include Findable – Supporting and Accessible-Interoperable-Reusable Essential and Supporting. These other categories will be described in future blogs.
+Our final goal is a recommendation that includes content in four categories. The first, Findable Essential, was described here. Others include Findable – Supporting and Accessible-Interoperable-Reusable Essential and Supporting. These other categories will be described in future posts.
 
 ## References
