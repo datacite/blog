@@ -3,7 +3,7 @@ layout: post
 title: MetaDIG recommendations for FAIR DataCite metadata
 author:
   - thabermann
-date: 2019-09-27T11:02:33.672Z
+date: 2019-09-27
 tags:
   - DataCite
   - metadata
