@@ -13,7 +13,7 @@ doi: 10.5438/2chg-b074
 ---
 _This is a guest blog post written by Ted Habermann. In this blog post, Dr Habermann introduces the MetaDIG project and how the project recommendations can be applied to DataCite metadata._
 
-Since Wilkenson et al. (@https://doi.org/10.1038/sdata.2016.18) introduced the FAIR Principles, discussions and implementation guidelines have been published in almost every possible context. Most of these guidelines are focused on making data and/or repositories FAIR and, because of the nature of the principles, they are generally related to policies and generally high-level guidance.
+Since Wilkinson et al. (@https://doi.org/10.1038/sdata.2016.18) introduced the FAIR Principles, discussions and implementation guidelines have been published in almost every possible context. Most of these guidelines are focused on making data and/or repositories FAIR and, because of the nature of the principles, they are generally related to policies and high-level guidance.
 
 Many of the FAIR Principles are applicable to metadata as well as data. The original authors point out that “throughout the Principles, we use the phrase ‘(meta)data’ in cases where the Principle should be applied to both metadata and data.” FAIR Principles F2 ([data are described with rich metadata](https://www.go-fair.org/fair-principles/f2-data-described-rich-metadata/)) and R1 ([meta(data) have a plurality of accurate and relevant attributes](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/)) mention metadata specifically, but responsibility for identifying specific metadata elements that support FAIR data is left to community standards (Principle R1.3).
 
@@ -39,7 +39,7 @@ We have divided the relevant conceptual elements into two groups: essential and 
 
 <i>Table 1. Essential and supporting concepts for the documentation concept Resource Author</i>
 
-<table width="100%" cellpadding="5" border="1">
+<table class="table">
     <tr>
         <td><b>Essential</b></td>
         <td><b>Supporting</b></td>
@@ -63,7 +63,7 @@ Table 2 presents our initial proposal for Essential and Supporting concepts that
 
 <i>Table 2. Essential and supporting concepts included in the Findable recommendation</i>
 
-<table width="100%" cellpadding="5" border="1">
+<table class="table">
     <tr>
         <td><b>Findable Essential</b></td>
         <td><b>DCO<sup>**</sup></b></td>
