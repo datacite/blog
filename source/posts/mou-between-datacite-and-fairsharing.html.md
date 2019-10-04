@@ -1,6 +1,8 @@
 ---
 layout: post
-title: MoU between DataCite and FAIRsharing
+title: >-
+  MoU between DataCite and FAIRsharing: improving criteria for the
+  recommendation of data repositories
 author:
   - hcousijn
   - pmcquilton
