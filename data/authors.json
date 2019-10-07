@@ -104,14 +104,14 @@
     "given": "Susanna",
     "family": "Sansone",
     "bio": "Associate Director, Oxford e-Research Centre",
-    "orcid": "https://orcid.org/0000-0001-5306-5690",
+    "orcid": "https://orcid.org/0000-0001-5306-5690"
  },
   "pmcquilton": {
     "name": "Peter McQuilton",
     "given": "Peter",
     "family": "McQuilton",
     "bio": "FAIRsharing Coordinator, Oxford e-Research Centre",
-    "orcid": "https://orcid.org/0000-0003-2687-1982",
+    "orcid": "https://orcid.org/0000-0003-2687-1982"
   },
   "jbrase": {
     "name": "Jan Brase",
@@ -168,7 +168,7 @@
     "orcid": "http://orcid.org/0000-0002-2916-3423",
     "image_url": "/images/mariagould.png",
     "affiliation": { "@id": "https://ror.org/03yrm5c26", "name": "California Digital Library", "@type": "Organization" }
-   }, 
+   },
   "jstarr": {
     "name": "Joan Starr",
     "given": "Joan",
@@ -349,7 +349,7 @@
     "affiliation": { "@id": "https://ror.org/031rekg67", "name": "Swinburne University", "@type": "Organization" },
     "image_url": "/images/aaryani.png"
   },
-  "nnoy": { 
+  "nnoy": {
     "name": "Natasha Noy",
     "given": "Natasha",
     "family": "Noy",
