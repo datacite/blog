@@ -99,6 +99,20 @@
     "image_url": "/images/sarala.jpg",
     "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
+  "ssanone": {
+    "name": "Susanna Sansone",
+    "given": "Susanna",
+    "family": "Sansone",
+    "bio": "Associate Director, Oxford e-Research Centre",
+    "orcid": "https://orcid.org/0000-0001-5306-5690",
+ },
+  "pmcquilton": {
+    "name": "Peter McQuilton",
+    "given": "Peter",
+    "family": "McQuilton",
+    "bio": "FAIRsharing Coordinator, Oxford e-Research Centre",
+    "orcid": "https://orcid.org/0000-0003-2687-1982",
+  },
   "jbrase": {
     "name": "Jan Brase",
     "given": "Jan",
