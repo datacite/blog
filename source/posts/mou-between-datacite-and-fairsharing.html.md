@@ -6,14 +6,14 @@ author:
   - pmcquilton
   - ssansone
 date: 2019-10-04T15:22:37.542Z
+tags:
+  - datacite
 image: /images/uploads/fairsharing.png
 doi: 10.5438/z32p-wj46
 ---
 ![](/images/uploads/logo-fairsharing.png)
 
 We’re delighted to announce a joint effort between DataCite and [FAIRsharing](https://fairsharing.org) to improve, in collaboration with several leading publishers, the criteria used by journal publishers for the recommendation of research data repositories for the benefit of the broader research community.
-
-
 
 ## The project
 
@@ -24,8 +24,6 @@ In this context, DataCite and FAIRsharing are carrying out a joint project to id
 ## Next steps
 
 The aim is to publish a final version before the end of the year. The resulting criteria will be implemented by FAIRsharing to enable publishers to start recommending repositories based on these criteria, and will be used by DataCite as input in the European FAIRsFAIR project.
-
-
 
 ## About DataCite & FAIRsharing
 
