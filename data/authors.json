@@ -99,7 +99,7 @@
     "image_url": "/images/sarala.jpg",
     "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
-  "ssanone": {
+  "ssansone": {
     "name": "Susanna Sansone",
     "given": "Susanna",
     "family": "Sansone",
