@@ -3,7 +3,7 @@ layout: post
 title: DataCite's New Search
 author:
   - mfenner
-date: 2019-01-07T16:20:48.240Z
+date: 2019-01-07
 tags:
   - search
   - metadata

@@ -4,7 +4,7 @@ title: Identify your affiliation with Metadata Schema 4.3
 author:
   - rdasler
   - msmaele
-date: 2019-08-16T13:01:52.683Z
+date: 2019-08-16
 tags:
   - DataCite
   - metadata
@@ -12,7 +12,7 @@ tags:
 image: /images/uploads/metadataschema4.3.png
 doi: 10.5438/vgaq-ar22
 ---
-The [DataCite Metadata Schema](https://schema.datacite.org/) is the basis for the metadata you submit to DataCite. It tells you the available fields and structure for your metadata records. Many of our members have told us that they’d really like to be able to include affiliation information in their metadata in a more structured way. The [launch of ROR](https://doi.org/10.5438/cykz-fh60) earlier this year provides a great step towards addressing structured capturing of affiliation information. 
+The [DataCite Metadata Schema](https://schema.datacite.org/) is the basis for the metadata you submit to DataCite. It tells you the available fields and structure for your metadata records. Many of our members have told us that they’d really like to be able to include affiliation information in their metadata in a more structured way. The [launch of ROR](https://doi.org/10.5438/cykz-fh60) earlier this year provides a great step towards addressing structured capturing of affiliation information.
 
 The release of [metadata schema 4.3](http://schema.datacite.org/meta/kernel-4.3/) therefore contains support for organizational identifiers, such as [ROR ID](https://ror.org/)s. Including ROR IDs in metadata will enable more efficient discovery and tracking of publications by institutions and is making unambiguous affiliation information widely and freely available.
 
