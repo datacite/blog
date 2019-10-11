@@ -69,6 +69,10 @@ None of us would be here if it were not for you. We are immensely grateful for t
 
 The energy you have brought to our early morning team meetings, your great sense of humor successfully cooled down our intense discussions e.g. around roadmap priorities, your positive spirit in very-early-morning or in-flight budget talks, the way you made sure that everyone in the room was heard......YOU will be missed! Your DataCite team
 
+![](/images/uploads/teamphoto2.png)
+
+
+
 _“What we call the beginning is often the end. And to make an end is to make a beginning. The end is where we start from.”_ – T.S. Eliot
 
 Not only are DataCite members located all over the globe, but the DataCite staff works completely remotely, with nine staff members in eight cities and five countries, spanning nine time zones. Trisha managed this challenge with a smile, even if it involved many very early morning calls (6 AM was not too early to talk to the team regularly) and lots of travel.
