@@ -15,17 +15,15 @@ Today is Trisha Cruse’s last day at DataCite. There will be many memories, but
 
 ## Board
 
-
-
 **Irina Sens**
-
-![](/images/uploads/foundingdatacite.png "Trisha on DataCite’s birthday in Philadelphia - Irina: I think that was the founding meeting in London 2009 (Michael Witt took the photo, and Maria Heijne from TU Delft is missed")
 
 Trisha was very important for the founding of DataCite. For the foundation of a German Association you need 7 members and ANDS was not on time in London. So, Trisha decided that CDL becomes a member spontaneously and DataCite could be founded.
 
-![](/images/uploads/barcelona.png "Trisha, Martin and Britta in Barcelona for GA 2017")
+![Trisha on DataCite’s birthday in Philadelphia, London 2009](/images/uploads/foundingdatacite.png)
 
 
+
+![Trisha, Martin and Britta in Barcelona for GA 2017](/images/uploads/barcelona.png)
 
 **Marco Marsella**
 
@@ -49,30 +47,22 @@ Trisha has a whole suite of landmark achievements to be really proud of - partic
 
 ![](/images/uploads/johnandtrisha1.png)
 
-
-
 ![](/images/uploads/johnandtrisha2.png)
 
-
-
-**DataCite Staff**
+# **DataCite Staff**
 
 The DataCite team said goodbye to Trisha during our last team meeting in Hamburg in June. Together we ate cake (photo below), went out for dinner, and reminisced about all the adventures we had together. During Trisha’s farewell dinner we decided to have one more adventure: we condensed the agenda for the last day and used the afternoon to go to Hamburg’s train museum together. This is a great example of what it was like to work with Trisha: she wanted work to be fun and always made the most of our f2f time.
 
 ![At the team meeting in Hamburg, June 2019](/images/uploads/teamphoto1.png)
 
- 
+![Thank you, Trisha!](/images/uploads/thank-you-trisha-cake.png)
 
-![](/images/uploads/thank-you-trisha-cake.png "Thank you, Trisha")
+Trisha, none of us would be here if it were not for you. We are immensely grateful for the trust you put in all of us to join you on this fantastic journey. It has been said that a team is a reflection of its leadership. Rest assured that we will continue reflecting the values of your leadership.
 
-None of us would be here if it were not for you. We are immensely grateful for the trust you put in all of us to join you on this fantastic journey. It has been said that a team is a reflection of its leadership. Rest assured that we will continue reflecting the values of your leadership.
+Not only are DataCite members located all over the globe, but the DataCite staff works completely remotely, with nine staff members in eight cities and five countries, spanning nine time zones. Trisha, you managed this challenge with a smile, even if it involved many very early morning calls (6 AM was not too early to talk to the team regularly) and lots of travel.
 
 The energy you have brought to our early morning team meetings, your great sense of humor successfully cooled down our intense discussions e.g. around roadmap priorities, your positive spirit in very-early-morning or in-flight budget talks, the way you made sure that everyone in the room was heard......YOU will be missed! Your DataCite team
 
 ![Team meeting in California, July 2018](/images/uploads/teamphoto2.png)
 
-
-
-_“What we call the beginning is often the end. And to make an end is to make a beginning. The end is where we start from.”_ – T.S. Eliot
-
-Not only are DataCite members located all over the globe, but the DataCite staff works completely remotely, with nine staff members in eight cities and five countries, spanning nine time zones. Trisha managed this challenge with a smile, even if it involved many very early morning calls (6 AM was not too early to talk to the team regularly) and lots of travel.
+> _“What we call the beginning is often the end. And to make an end is to make a beginning. The end is where we start from.”  _– T.S. Eliot
