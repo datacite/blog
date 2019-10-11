@@ -17,7 +17,7 @@ Today is Trisha Cruse’s last day at DataCite. There will be many memories, but
 
 ## **DataCite Board**
 
-****\
+\
 **Irina Sens**
 
 Trisha was very important for the founding of DataCite. For the foundation of a German Association you need 7 members and ANDS was not on time in London. So, Trisha decided that CDL becomes a member spontaneously and DataCite could be founded.
