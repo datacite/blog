@@ -19,7 +19,7 @@ Today is Trisha Cruse’s last day at DataCite. There will be many memories, but
 
 Trisha on DataCite’s birthday in Philadelphia - Irina: I think that was the founding meeting in London 2009 (Michael Witt took the photo, and Maria Heijne from TU Delft is missed
 
-**Irina**
+**Irina Sens**
 
 ![](/images/uploads/foundingdatacite.png "Trisha on DataCite’s birthday in Philadelphia - Irina: I think that was the founding meeting in London 2009 (Michael Witt took the photo, and Maria Heijne from TU Delft is missed")
 
@@ -45,7 +45,7 @@ Trisha lights up a room when she is present. Her energy, ideas, and her ability 
 
 Since the early days of the Making Data Count project to our recent search for her successor, Trisha has helped guide the way I work and the way I problem solve. She has been a friend and a mentor. I really admire her ability to approach complex issues with a friendliness that allows everyone a place at the table. I will miss our day-to-day work together and wish her the best in her retirement! 
 
-**Adrian**
+**Adrian Burton**
 
 Trisha has a whole suite of landmark achievements to be really proud of - particularly scaling DataCite up to be a credible services and support organisation as well as biting the bullet on the transition to financial sustainability. And she has done it all with such a big smile and infectious energy that the journey has been a pleasant one indeed. All the best for future!
 
@@ -69,7 +69,7 @@ None of us would be here if it were not for you. We are immensely grateful for t
 
 The energy you have brought to our early morning team meetings, your great sense of humor successfully cooled down our intense discussions e.g. around roadmap priorities, your positive spirit in very-early-morning or in-flight budget talks, the way you made sure that everyone in the room was heard......YOU will be missed! Your DataCite team
 
-![](/images/uploads/teamphoto2.png)
+![Team meeting in California, July 2018](/images/uploads/teamphoto2.png)
 
 
 
