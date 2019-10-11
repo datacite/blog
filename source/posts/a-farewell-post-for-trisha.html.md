@@ -17,11 +17,11 @@ Today is Trisha Cruse’s last day at DataCite. There will be many memories, but
 
 ## Board
 
-****
-
 Trisha on DataCite’s birthday in Philadelphia - Irina: I think that was the founding meeting in London 2009 (Michael Witt took the photo, and Maria Heijne from TU Delft is missed
 
 **Irina**
+
+![](/images/uploads/foundingdatacite.png "Trisha on DataCite’s birthday in Philadelphia - Irina: I think that was the founding meeting in London 2009 (Michael Witt took the photo, and Maria Heijne from TU Delft is missed")
 
 Trisha was very important for the founding of DataCite. For the foundation of a German Association you need 7 members and ANDS was not on time in London. So, Trisha decided that CDL becomes a member spontaneously and DataCite could be founded.
 
