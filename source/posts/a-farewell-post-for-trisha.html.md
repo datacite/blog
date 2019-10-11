@@ -15,7 +15,7 @@ Today is Trisha Cruse’s last day at DataCite. There will be many memories, but
 
 ## Board
 
-Trisha on DataCite’s birthday in Philadelphia - Irina: I think that was the founding meeting in London 2009 (Michael Witt took the photo, and Maria Heijne from TU Delft is missed
+
 
 **Irina Sens**
 
