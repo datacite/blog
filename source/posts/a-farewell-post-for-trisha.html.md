@@ -11,8 +11,6 @@ doi: 10.5438/3280-n727
 ---
 Today is Trisha Cruse’s last day at DataCite. There will be many memories, but this being DataCite, we wanted to preserve some of those under a DOI. Below you’ll find some final words from current staff and board members. Goodbye Trisha, you will be missed!
 
-![Thank you, Trisha](/images/uploads/thank-you-trisha-cake.png)
-
 ![Trisha at DataCite’s 10th Anniversary celebration in Philadelphia](/images/uploads/datacite10yrs.png)
 
 ## Board
@@ -64,6 +62,8 @@ The DataCite team said goodbye to Trisha during our last team meeting in Hamburg
 ![At the team meeting in Hamburg, June 2019](/images/uploads/teamphoto1.png)
 
  
+
+![](/images/uploads/thank-you-trisha-cake.png "Thank you, Trisha")
 
 None of us would be here if it were not for you. We are immensely grateful for the trust you put in all of us to join you on this fantastic journey. It has been said that a team is a reflection of its leadership. Rest assured that we will continue reflecting the values of your leadership.
 
