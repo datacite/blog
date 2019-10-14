@@ -5,7 +5,7 @@ author:
   - datacite
 date: 2019-10-11T10:16:37.160Z
 tags:
-  - Feature
+  - featured
 image: /images/uploads/thank-you-trisha-cake.png
 doi: 10.5438/3280-n727
 ---
