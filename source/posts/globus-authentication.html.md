@@ -3,7 +3,7 @@ layout: post
 title: DataCite switches to Globus for Authentication
 author:
   - mfenner
-date: 2019-10-14T05:57:31.618Z
+date: 2019-10-14
 tags:
   - authentication
   - globus
