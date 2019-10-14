@@ -17,7 +17,7 @@ Two weeks ago DataCite announced the pre-release version of a GraphQL API \[@htt
 
 [Jupyter notebooks](https://jupyter.org/) are a very popular web-based interactive computational environment and are the perfect platform to explore the PID Graph via GraphQL APIs. Since interactions with GraphQL APIs are standardized and GraphQL libraries exist for many programming languages supported by Jupyter notebooks, all the user has to do is come up with interesting queries and process the information returned from the API as JSON, following exactly the format of the query.
 
-An example notebook can best explain this. We have created a GitHub repository for notebooks using the GraphQL API at [https://github.com/datacite/notebooks](https://github.com/datacite/notebooks), and you find [this notebook](https://github.com/datacite/notebooks/blob/master/pid-graph/r-researcher-publications/r-researcher-publications.ipynb) in there. Open the notebook in your favorite Jupyter client (e.g. [nteract](https://nteract.io/)) or look at it directly in GitHub.
+An example notebook can best explain this. We have created a GitHub repository for notebooks using the GraphQL API at [https://github.com/datacite/notebooks](https://github.com/datacite/notebooks), and you find [this notebook](https://github.com/datacite/notebooks/blob/master/pid-graph/r-person-publications/r-person-publications.ipynb) in there. Open the notebook in your favorite Jupyter client (e.g. [nteract](https://nteract.io/)) or look at it directly in GitHub.
 
 The GraphQL query in the notebook is as follows:
 

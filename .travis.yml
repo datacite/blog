@@ -33,7 +33,7 @@ install:
 
 script:
   - bundle exec middleman build -e $RACK_ENV --verbose
-  - bundle exec htmlproofer --http-status-ignore "999,403,405" --allow-hash-href --empty_alt_ignore --only-4xx ./build
+  - bundle exec htmlproofer --http-status-ignore "999,403,405" --allow-hash-href --empty_alt_ignore --only-4xx --url-ignore doi.org/10.4172/2381-8719.1000256 ./build
 
 deploy:
   - provider: s3
