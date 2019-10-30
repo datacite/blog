@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stronger together
+title: Stronger together!
 author:
   - mbuys
 date: 2019-10-30T17:52:05.164Z
