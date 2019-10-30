@@ -15,14 +15,14 @@
     "twitter": "mfenner",
     "github": "mfenner"
   },
-  "lrueda": {
-    "name": "Laura Rueda",
-    "given": "Laura",
-    "family": "Rueda",
-    "bio": "DataCite Communications Director",
-    "orcid": "https://orcid.org/0000-0001-5952-7630",
-    "email": "laura.rueda@datacite.org",
-    "image_url": "/images/lrueda.jpg",
+  "mbuys": {
+    "name": "Matt Buys",
+    "given": "Matt",
+    "family": "Buys",
+    "bio": "DataCite Executive Director",
+    "orcid": "https://orcid.org/0000-0001-7234-3684",
+    "email": "mattbuys@datacite.org",
+    "image_url": "/images/mbuys.jpg",
     "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
   "tcruse": {
