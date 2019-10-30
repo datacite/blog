@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Affiliation Facet - New in DataCite Search!
+title: Affiliation Facet - New in DataCite Search
 author:
   - rdasler
 date: 2019-10-29T17:52:33.732Z
