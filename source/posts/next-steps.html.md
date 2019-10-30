@@ -1,16 +1,18 @@
 ---
 layout: post
-title: 'Next steps for the Organization ID Initiative: Report from the Stakeholder Meeting'
+title: >-
+  Next steps for the Organization ID Initiative: Report from the Stakeholder
+  Meeting
 author:
-- lhaak
-- tcruse
-- epentz
+  - lhaak
+  - tcruse
+  - epentz
 date: '2018-02-01'
 tags:
-- organization identifier
-- orcid
-- crossref
-- featured
+  - organization identifier
+  - orcid
+  - crossref
+  - featured
 image: /images/2018/02/org_id.png
 doi: 10.5438/spfw-5q39
 ---
@@ -23,7 +25,7 @@ The meeting opened with a discussion of the findings and recommendations of the 
 
 ![Stakeholder meeting in Girona 22 January](/images/2018/02/org_id.png)
 
-We moved into a presentation on the [responses to the RFI](https://docs.google.com/document/d/1bS3MQV6FPR58YMM5RdDOqxGAMcKn6rHObLvCEa1yRG4/edit), which solicited statements of interest from the research community in serving in a governance role, and/or providing data, hosting, and/or resources to launch the initiative. The RFI received 22 responses, from members of the Working Group and a number of organizations who maintain organization data models and/or databases. In general, there was broad interest in participating in the creation of an open registry -- in each of the components of standing up a service: governance, providing data, hosting, or providing staffing or administrative resources. We also received policy, data structure, and business model suggestions. This strong response bodes well for gathering the expertise, resources, and enthusiasm for standing up an open registry that will be used by the research community.
+We moved into a presentation on the responses to the RFI, which solicited statements of interest from the research community in serving in a governance role, and/or providing data, hosting, and/or resources to launch the initiative. The RFI received 22 responses, from members of the Working Group and a number of organizations who maintain organization data models and/or databases. In general, there was broad interest in participating in the creation of an open registry -- in each of the components of standing up a service: governance, providing data, hosting, or providing staffing or administrative resources. We also received policy, data structure, and business model suggestions. This strong response bodes well for gathering the expertise, resources, and enthusiasm for standing up an open registry that will be used by the research community.
 
 From this solid foundation, the attendees opened a discussion on governance. We reviewed options for establishing collaboration of partners to host the registry - using the [SCOAP3](https://scoap3.org/) framework as a starting point (see the [event page](https://orcid.org/content/2018-org-id-meeting) for the straw man proposal).  The group discussed what would qualify an organization to be a founding partner, as well as the structure of a governing body. Ultimately, there was consensus around creating an interim governing council, consisting of the Working Group members, meeting attendees, and the meeting participants, all of whom are actively engaged in getting the initiative off the ground.
 
