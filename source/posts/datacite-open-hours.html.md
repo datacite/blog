@@ -10,7 +10,7 @@ doi: 10.5438/g329-vn15
 ---
 As a membership organization we take our community engagement activities very seriously. We jump at the chance to interact with our members, whether it be at conferences, steering group meetings, our general assembly, or during DataCite Open Hours. DataCite Open Hours is a one-hour monthly call for discussion and information sharing where we invite DataCite members and community to join us as we share the latest product developments and releases. We also like to take the opportunity to gather feedback to help us make sure we are steering things in the right direction. The format is always informal and interactive.
 
-The year is flying by. And there’s already been loads of new updates and developments at DataCite, and from the community and the PID world at large. So here, I would like to take a moment to reflect back on the last 8 months of DataCite Open Hours, since I took over as the host. Those who have joined us for Open Hours will know we like to ask questions, and we have lots of fun using polling tools. So here is a rundown of some of the key information that we have gathered during Open Hours so far. Keep in mind that the number of participants varies each month, and we don’t claim the views expressed necessarily represent the whole community. 
+The year is flying by. And there’s already been loads of new updates and developments at DataCite, and from the community and the PID world at large. So here, I would like to take a moment to reflect back on the last 8 months of DataCite Open Hours, since I took over as the host. Those who have joined us for Open Hours will know we like to ask questions, and we have lots of fun using polling tools. So here is a rundown of some of the key information that we have gathered during Open Hours so far. Keep in mind that the number of participants varies each month, and we don’t claim the views expressed necessarily represent the whole community.
 
 ## Who’s out there?
 
@@ -26,7 +26,7 @@ We wanted to know who was attending our Open Hours sessions and what kinds of in
 
 ## DOI registration - DOI Fabrica
 
-At the end of last year, we were working on the development of the new form for creating DOIs in Fabrica. Open Hours was an opportunity to find out what really mattered to users. From the results, we saw that related identifiers and author information like ORCIDs and affiliations were considered most important as additional fields in the form. We took this on-board and already implemented a name identifier field in Fabrica. 
+At the end of last year, we were working on the development of the new form for creating DOIs in Fabrica. Open Hours was an opportunity to find out what really mattered to users. From the results, we saw that related identifiers and author information like ORCIDs and affiliations were considered most important as additional fields in the form. We took this on-board and already implemented a name identifier field in Fabrica.
 
 **Which types of information do you most want to be able to add via Fabrica form fields?**
 
@@ -64,7 +64,7 @@ When asked about the support site, everyone who answered said they had used it a
 
 ## The DataCite General Assembly
 
-The DataCite General Assembly provided an irresistible opportunity for us to get creative with our techniques for extracting feedback. Enter Mentimeter and some photos of space. We asked participants to guide the starship DataCite through the galaxy, and asked some big questions. 
+The DataCite General Assembly provided an irresistible opportunity for us to get creative with our techniques for extracting feedback. Enter Mentimeter and some photos of space. We asked participants to guide the starship DataCite through the galaxy, and asked some big questions.
 
 ![](/images/uploads/screen-shot-2019-07-30-at-13.09.20.png)
 
@@ -86,13 +86,13 @@ In recent months we gave the polling a rest and dedicated Open Hours to providin
 
 We also had a fantastic Open Hours special edition with two guest speakers from our member organizations who presented their DataCite use cases. Many thanks to Mohamed Yahia (Research Engineer within the Department for the Promotion and Enhancement of Research Data at Inist-CNRS) and Viv Hutchinson (Science Data Management Branch Chief, USGS). You can view their presentations, and other presentations from Open Hours [here](https://support.datacite.org/docs/open-hours).
 
-The most recent Open Hours session was focused on communication channels and the DataCite community on PIDForum.org. Since we will be overhauling our mailing lists and communication channels, this was a valuable moment to gather feedback on how we can target our communications better. Some participants were interested in using Slack as an alternative channel for informal discussions, but we would like to see if the DataCite Chat Room on the PIDForum can fill this gap first. 
+The most recent Open Hours session was focused on communication channels and the DataCite community on PIDForum.org. Since we will be overhauling our mailing lists and communication channels, this was a valuable moment to gather feedback on how we can target our communications better. Some participants were interested in using Slack as an alternative channel for informal discussions, but we would like to see if the DataCite Chat Room on the PIDForum can fill this gap first.
 
 **Do you have suggestions for other Comms channels DataCite should be using?**
 
 ![](/images/uploads/screen-shot-2019-07-31-at-11.42.49.png)
 
-You can view the full presentation and feedback [here](https://datacite.org/assets/Open_Hours_July_%202019.pdf), and you can also check out the [DataCite Chat Room on the PIDForum](https://www.pidforum.org/c/datacite-chat-room). 
+You can view the full presentation and feedback [here](https://datacite.org/assets/Open_Hours_July_%202019.pdf), and you can also check out the [DataCite Chat Room on the PIDForum](https://www.pidforum.org/).
 
 ## The future
 

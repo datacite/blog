@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cool DOI's
-author: 
+author:
 - mfenner
 date: '2016-12-15'
 tags:
@@ -29,7 +29,7 @@ The DOI proxy enables the functionality of expressing DOIs as HTTP URIs. Users s
 
 Ed Pentz from Crossref makes the case for HTTPS in a [September blog post](http://blog.crossref.org/2016/09/new-crossref-doi-display-guidelines.html). The web, and therefore also the scholarly web, is moving to HTTPS as the default. It is important that the DOI proxy redirects to HTTPS URLs, and it will take some time until all DataCite data centers use HTTPS for the landing pages their DOIs redirects to.
 
-What many users don’t know is that doi.org is not the only proxy server for DOIs. DOIs use the handle system and any handle server will resolve a DOI, just as doi.org will resolve any handle. This means that [https://hdl.handle.net/10.5281/ZENODO.31780](https://hdl.handle.net/10.5281/ZENODO.31780) will resolve to the landing page for that DOI and that [https://doi.org/10273/BGRB5054RX05201](https://doi.org/10273/BGRB5054RX05201) is a handle (for a [IGSN](http://www.igsn.org/)) and not a DOI.
+What many users don’t know is that doi.org is not the only proxy server for DOIs. DOIs use the handle system and any handle server will resolve a DOI, just as doi.org will resolve any handle. This means that [https://hdl.handle.net/10.5281/ZENODO.31780](https://hdl.handle.net/10.5281/ZENODO.31780) will resolve to the landing page for that DOI and that https://doi.org/10273/BGRB5054RX05201 is a handle (for a [IGSN](http://www.igsn.org/)) and not a DOI.
 
 ### Prefix
 

@@ -2,7 +2,7 @@
 layout: post
 title: 2016 in review
 date: '2016-12-19'
-author: 
+author:
 - lrueda
 tags:
 - datacite
@@ -26,7 +26,7 @@ On top of that, we have renewed [Profiles](http://profiles.datacite.org),
 
 ### Engagement and visibility
 
-This past year, we were very busy engaging with the community. We presented at numerous conferences ([RDA](https://www.rd-alliance.org/plenaries), [FORCE2016](https://www.force11.org/meetings/force2016/program/agenda/workshops), [IDCC](http://www.dcc.ac.uk/events/idcc16), [SciDataCon](http://www.scidatacon.org), [SSP](https://www.sspnet.org/events/past-events/annual-meeting-2016/event-home)... ), conducted webinars ([Zotero](https://vimeo.com/166934111), [Metadata Schema](https://vimeo.com/172929697), [Dynamic Data Citation](https://vimeo.com/174795589), [Software Citation](https://vimeo.com/195261237)... ), and held numerous training events ([Views about PID systems](https://www.rd-alliance.org/views-about-pid-systems-training-course-and-workshop-31-august-2-september-2016-garchingmunich), [THOR bootcamps](https://project-thor.eu/2016/12/02/hasta-la-vista-thor-bootcamp), [Moving Linked Open Science](http://www.conferencemanager.dk/MovingLinkedOpenScienceForward)... ), we can only share a few of each here!
+This past year, we were very busy engaging with the community. We presented at numerous conferences ([RDA](https://www.rd-alliance.org/plenaries), [FORCE2016](https://www.force11.org/meetings/force2016/program/agenda/workshops), [IDCC](http://www.dcc.ac.uk/events/idcc16), [SciDataCon](http://www.scidatacon.org), [SSP](https://www.sspnet.org/events/past-events/annual-meeting-2016/event-home)... ), conducted webinars ([Zotero](https://vimeo.com/166934111), [Metadata Schema](https://vimeo.com/172929697), [Dynamic Data Citation](https://vimeo.com/174795589), [Software Citation](https://vimeo.com/195261237)... ), and held numerous training events ([Views about PID systems](https://www.rd-alliance.org/views-about-pid-systems-training-course-and-workshop-31-august-2-september-2016-garchingmunich), [THOR bootcamps](https://project-thor.eu/2016/12/02/hasta-la-vista-thor-bootcamp), Moving Linked Open Science... ), we can only share a few of each here!
 
 We set a firm goal for DataCite in 2016 and that was to increase our visibility, and we met our goal. Our new [website](http://www.datacite.org), our [Twitter account](http://twitter.com/datacite) (with more than 5000 followers now) and this [blog](http://blog.datacite.org) have all helped us share the work of the DataCite community more broadly.
 
