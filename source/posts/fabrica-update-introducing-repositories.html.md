@@ -6,6 +6,8 @@ author:
 date: 2019-11-20T16:38:37.577Z
 tags:
   - featured
+image: /images/uploads/screenshot-2019-11-08-at-08.51.10.png
+doi: 10.5438/apyb-7x05
 ---
 Over the course of 2019, DataCite has been working on updates to our member model, as we explained in our [blog post](https://doi.org/10.5438/gk09-ba24) back in September. As a consequence, we've made some changes to Fabrica to better reflect the terminology and vision of the revised member model. You'll now see that the term "Client" has been replaced with the term "Repository". 
 
