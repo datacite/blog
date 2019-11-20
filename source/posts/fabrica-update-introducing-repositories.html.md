@@ -3,13 +3,13 @@ layout: post
 title: 'Fabrica Update: Introducing Repositories'
 author:
   - rdasler
-date: 2019-11-20T16:38:37.577Z
+date: 2019-11-20
 tags:
   - featured
 image: /images/uploads/screenshot-2019-11-08-at-08.51.10.png
 doi: 10.5438/apyb-7x05
 ---
-Over the course of 2019, DataCite has been working on updates to our member model, as we explained in our [blog post](https://doi.org/10.5438/gk09-ba24) back in September. As a consequence, we've made some changes to Fabrica to better reflect the terminology and vision of the revised member model. You'll now see that the term "Client" has been replaced with the term "Repository". 
+Over the course of 2019, DataCite has been working on updates to our member model, as we explained in our blog post (@https://doi.org/10.5438/gk09-ba24) back in September. As a consequence, we've made some changes to Fabrica to better reflect the terminology and vision of the revised member model. You'll now see that the term "Client" has been replaced with the term "Repository". 
 
 ![example of repositories terminology](/images/uploads/screenshot-2019-11-08-at-08.51.10.png "Repository terminology in action in Fabrica")
 
@@ -24,3 +24,5 @@ We recognize that we have a number of members whose "Repositories" are really so
 The next part of aligning the Fabrica interface with the updated member model will be a better structure for our Consortium members that will more accurately reflect their internal hierarchy. This update will happen soon, and we’ve already begun contacting the Consortia who will be affected. 
 
 As always, if you have questions, comments, or concerns, feel free to contact us at <mailto:support@datacite.org>, and we'll help you out.
+
+## References
