@@ -1,6 +1,6 @@
 ---
 layout: post
-title: We’re Having A PID Party
+title: We’re Having A PID Party - And You’re Invited!
 author:
   - hcousijn
 date: 2019-12-11T18:09:00.909Z
@@ -8,6 +8,7 @@ tags:
   - featured
   - PIDapalooza
 image: /images/uploads/audience-band-blur-1587927.jpg
+doi: 10.5438/c1c3-4w40
 ---
 [PIDapalooza 2020](https://www.pidapalooza.org/upcoming-festival) is just around the corner (January 29-30, Lisbon, Portugal) — and it’s going to be fun! We have a great venue, the fabulous [Belem Cultural Center](https://www.ccb.pt/Default/en/Homepage), and a great lineup:
 
