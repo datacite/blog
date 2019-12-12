@@ -23,7 +23,7 @@ We don't have the same immediate recognition for datasets. Given that a large nu
 
 *From: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spreadsheet_animation.gif), licensed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0).*
 
-A canonical format for datasets goes beyond immediate recognition of the essential parts by the user, it would also greatly facilitate reuse of data. As [Nick Stenning](https://twitter.com/nickstenning) from the Open Knowledge Foundation (OKFN) pointed out at CSV.conf last year, the cost of shipping of goods is in large part determined by the cost of loading and unloading, and the container has dramatically changed that equation. He argued that common formats such as the OKFN [data package](https://paulfitz.github.io/dataprotocols/data-packages/index.html) could do the same for data reuse.
+A canonical format for datasets goes beyond immediate recognition of the essential parts by the user, it would also greatly facilitate reuse of data. As [Nick Stenning](https://twitter.com/nickstenning) from the Open Knowledge Foundation (OKFN) pointed out at CSV.conf last year, the cost of shipping of goods is in large part determined by the cost of loading and unloading, and the container has dramatically changed that equation. He argued that common formats such as the OKFN [data package](https://frictionlessdata.io/specs/data-package/) could do the same for data reuse.
 
 ![Bulk parcels](/images/2015/08/break-bulk-sacks.png)
 
