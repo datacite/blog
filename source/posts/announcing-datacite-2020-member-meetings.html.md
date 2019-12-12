@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing DataCite 2020 member meetings
+title: Announcing DataCite's 2020 member meetings
 author:
   - mbuys
 date: 2019-12-12T12:57:26.622Z
