@@ -13,7 +13,7 @@ tags:
 image: /images/uploads/flag-canada.png
 doi: 10.5438/a9r4-ee34
 ---
-Following the [updates to the DataCite member model](https://doi.org/10.5438/gk09-ba24) earlier this year, we have been working with several organizations on establishing DataCite consortia. We are therefore very excited to announce that the DataCite Canada Consortium will [launch ](https://www.crkn-rcdr.ca/en/crkn-and-carl-portage-manage-datacite-canada-january-1-2020)on January 1, 2020!
+Following the [updates to the DataCite member model](https://doi.org/10.5438/gk09-ba24) earlier this year, we have been working with several organizations on establishing DataCite consortia. We are therefore very excited to announce that the DataCite Canada Consortium will [launch](https://www.crkn-rcdr.ca/en/crkn-and-carl-portage-manage-datacite-canada-january-1-2020) on January 1, 2020!
 
 For the past ten years, DOIs in Canada were provided through the National Research Council Canada (NRC). When we started conversations about forming a DataCite consortium, the NRC suggested that the Canadian Research Knowledge Network (CRKN) might be willing to play a role. CRKN is the national collective negotiating body for academic libraries in Canada. As part of their diverse portfolio of projects, tools, and services, CRKN leads the Canadian ORCID consortium, and therefore has experience building a community around persistent identifier (PID) infrastructure. 
 
