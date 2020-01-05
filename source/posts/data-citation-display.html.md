@@ -25,6 +25,7 @@ At their most basic level, data **citations** are mentions of datasets by other 
 Figure 1 explains which types of relationships are included in the three different categories. References are the inverse of citations, which basically means datasets mentioning that they used another academic resource. Relations are all other links between datasets and academic resources. We are using this scheme to classify citations in the DataCite Search citations display.
 
 ![Figure 1. Data citations criterion proposal. This example shows a dataset (DAT icon) and the type of relationships that would classify the links to/for that dataset in each category.](/images/uploads/citations_display_fig1.png)
+
 Figure 1. Data citations criterion proposal. This example shows a dataset (DAT icon) and the type of relationships that would classify the links to/for that dataset in each category.
 
 
@@ -33,6 +34,7 @@ Figure 1. Data citations criterion proposal. This example shows a dataset (DAT i
 The Citations Display takes all Citation, Reference, and Relation information between DOIs and makes it accessible via a friendly front-end interface in DataCite Search. There are three components to the display: a citation counter, a citation chart, and a list that separates the links by citations, references, and relations.
 
 ![Figure 2. Citations Display.](/images/uploads/citations_display_fig2.png)
+
 Figure 2. Citations Display
 
 
@@ -41,12 +43,14 @@ The counter allows quick access to the total number of citations a dataset has a
 The citations chart shows the distribution of the total number of citations over time. It displays the evolution over time since the Dataset publication date until the present day.
 
 ![Figure 3. Citations Display Counter and Chart.](/images/uploads/citations_display_fig3.png)
+
 Figure 3. Citations Display Counter and Chart.
 
 
 The links list displays links separated by group: citations, references, and relations. Here you get the full detail of the citations, references, and relationships. Each item is listed following the APA citation style and provides information about the assertion's origin. You might notice that there is no Reference and Relation counter or chart. The later is intentional; references are outward-looking and are less likely to change over time; links in the “Relation” category have not perceived temporal association.Therefore, there is less of a need to display them in a differently.
 
 ![Figure 4. Citations, references and relations list.](/images/uploads/citations_display_fig4.png)
+
 Figure 4. Citations, references and relations list.
 
 
