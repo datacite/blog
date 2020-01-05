@@ -2,11 +2,11 @@
 layout: post
 title: 'Datacite Citation Display: Unlocking Data Citations'
 author:
-- kgarza
+  - kgarza
 date: '2020-01-06'
 tags:
-- citation
-- data-level metrics
+  - citation
+  - data-level metrics
 image: /images/uploads/citations_display_fig2.png
 doi: 10.5438/
 ---
@@ -20,7 +20,7 @@ DataCite members (such as the British Library, Global Biodiversity Information F
 
 But datasets can be related to other academic resources in a number of different ways. In fact, version 4.3 of the DataCite Metadata Schema offers 33 possible relationTypes to select from! DataCite took time to consider these different relation types, discussed the options with different expert groups, and developed a proposal to classify links into three specific categories: citations, references, and relations. We presented this proposal in Force2019 Edinburgh and at the Research Data Alliance meeting in Helsinki. 
 
-At their most basic level, data *citations* are mentions of datasets by other academic resources, indicating that this academic resources made use of the dataset. The nature of these mentions implies credit attribution. From discussions with our team of advisors, we know that not all use is created equal, so we have included a very limited subset of relationship types in what we call a citation. Not all links provided by these sources are citations. Some of these links imply reference to another academic work, like when one references another dataset that contributed to the creation of your dataset. We’re grouping these outward-looking relationship types into what we’re calling *references*. There will be other links to express a variety of additional relationship types, such as those that suggest provenance, for example, or those that indicate version relationships. We’re grouping all of the remaining relationship types under the heading *relations*. This way, all of the relationship information we have is exposed, but it’s not all given the same degree of importance.
+At their most basic level, data **citations** are mentions of datasets by other academic resources, indicating that this academic resources made use of the dataset. The nature of these mentions implies credit attribution. From discussions with our team of advisors, we know that not all use is created equal, so we have included a very limited subset of relationship types in what we call a citation. Not all links provided by these sources are citations. Some of these links imply reference to another academic work, like when one references another dataset that contributed to the creation of your dataset. We’re grouping these outward-looking relationship types into what we’re calling **references**. There will be other links to express a variety of additional relationship types, such as those that suggest provenance, for example, or those that indicate version relationships. We’re grouping all of the remaining relationship types under the heading **relations**. This way, all of the relationship information we have is exposed, but it’s not all given the same degree of importance.
 
 Figure 1 explains which types of relationships are included in the three different categories. References are the inverse of citations, which basically means datasets mentioning that they used another academic resource. Relations are all other links between datasets and academic resources. We are using this scheme to classify citations in the DataCite Search citations display.
 
@@ -32,7 +32,7 @@ Figure 1. Data citations criterion proposal. This example shows a dataset (DAT i
 
 The Citations Display takes all Citation, Reference, and Relation information between DOIs and makes it accessible via a friendly front-end interface in DataCite Search. There are three components to the display: a citation counter, a citation chart, and a list that separates the links by citations, references, and relations.
 
-![Figure 2. Citations Display](/images/uploads/citations_display_fig2.png)
+![Figure 2. Citations Display.](/images/uploads/citations_display_fig2.png)
 Figure 2. Citations Display
 
 
