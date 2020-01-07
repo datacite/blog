@@ -3,7 +3,7 @@ layout: post
 title: 'Datacite Citation Display: Unlocking Data Citations'
 author:
   - kgarza
-date: 2020-01-06T23:00:00.000Z
+date: '2020-01-07'
 tags:
   - citation
   - data-level metrics
@@ -20,6 +20,7 @@ Until today, it wasn’t straightforward to visualize these links without having
 ### Where does DataCite get information about the links between articles and datasets?
 
 There are two ways in which we get this information:DataCite members provide information about the links between their datasets and other academic resources. They do this by including related identifiers in the dataset DOI metadata they deposit with us. You can see the workflow in Figure 1.Through our collaboration with [Crossref](https://www.crossref.org/), we also have information about dataset DOIs included in published articles. Like DataCite members, Crossref members include this information in the metadata they deposit with Crossref.
+
 ![Figure 1. Steps to share data citations using the Scholix framework.](/images/uploads/citations_display_fig5_.png)
 
 ### What is the difference between citations, references, and relations?
