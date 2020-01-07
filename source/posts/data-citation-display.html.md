@@ -9,7 +9,7 @@ tags:
   - data-level metrics
 image: /images/uploads/citations_display_fig2_.png
 location: Berlin
-doi: ''
+doi: 10.5438/1843-k679
 ---
 
 
