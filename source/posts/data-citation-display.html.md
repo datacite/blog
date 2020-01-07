@@ -9,7 +9,7 @@ tags:
   - data-level metrics
 image: /images/uploads/citations_display_fig2_.png
 location: Berlin
-doi: ''
+doi: '10.5438/1843-k679'
 ---
 
 Are published datasets actually being cited?  It's a question that must cross the mind of any avid reader of this blog at least once. We have talked about data citation plenty on this blog. Often, though, we talk about the links between academic resources and datasets — the kind of links collected by our [Event Data Service](https://support.datacite.org/docs/eventdata-guide). Many of these links between articles and datasets can be regarded as data citations, but not all. 
