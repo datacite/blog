@@ -12,6 +12,7 @@ location: Berlin
 doi: ''
 ---
 
+
 Are published datasets actually being cited?  It's a question that must cross the mind of any avid reader of this blog at least once. We have talked about data citation plenty on this blog. Often, though, we talk about the links between academic resources and datasets — the kind of links collected by our [Event Data Service](https://support.datacite.org/docs/eventdata-guide). Many of these links between articles and datasets can be regarded as data citations, but not all. 
 
 Until today, it wasn’t straightforward to visualize these links without having some programming skills. Well, today, that changes. Today we introduce the Citations Display in DataCite Search. Here you will be able to access all these links and distinguish between data citations, references, and other relations that exist between academic resources with DOIs. In this blog post, we try to answer the questions you may have about DataCite & data citation.
