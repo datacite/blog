@@ -23,7 +23,7 @@ There are two ways in which we get this information:
 DataCite members provide information about the links between their datasets and other academic resources. They do this by including related identifiers in the dataset DOI metadata they deposit with us. You can see the workflow in Figure 1.
 Through our collaboration with [Crossref](https://www.crossref.org/), we also have information about dataset DOIs included in published articles. Like DataCite members, Crossref members include this information in the metadata they deposit with Crossref.
 
-![Figure 1. Steps to share data citations using the Scholix framework.](/images/uploads/citations_display_fig5.png)
+![Figure 1. Steps to share data citations using the Scholix framework.](/images/uploads/citations_display_fig5_.png)
 
 ## What is the difference between citations, references, and relations?
 
@@ -44,7 +44,7 @@ Finally, there will be other links to express a variety of additional relationsh
 
 
 
-![Figure 2. Data citations criteria proposal. This explains which types of relationships are included in the three different categories. References are the inverse of citations, which basically means datasets mentioning that they used another academic resource. Relations are all other links between datasets and academic resources. This example shows a dataset (DAT icon) and the type of relationships that would classify the links to/for that dataset in each category.](/images/uploads/citations_display_fig1.png)
+![Figure 2. Data citations criteria proposal. This explains which types of relationships are included in the three different categories. References are the inverse of citations, which basically means datasets mentioning that they used another academic resource. Relations are all other links between datasets and academic resources. This example shows a dataset (DAT icon) and the type of relationships that would classify the links to/for that dataset in each category.](/images/uploads/citations_display_fig1_.png)
 Figure 2. Data citations criteria proposal. This example shows a dataset (DAT icon) and the type of relationships that would classify the links to/for that dataset in each category.
 
 ## What is the DataCite Citations Display?
@@ -52,7 +52,7 @@ Figure 2. Data citations criteria proposal. This example shows a dataset (DAT ic
 The Citations Display takes all Citation, Reference, and Relation information between DOIs and makes it accessible in DataCite search. There are three components to the display: a citation counter, a citation chart, and a list that separates the links by citations, references, and relations.
 
 
-![Figure 3. Citations Display](/images/uploads/citations_display_fig2.png)
+![Figure 3. Citations Display](/images/uploads/citations_display_fig2_.png)
 Figure 3. Citations Display
 
 The counter allows quick access to the total number of citations a dataset has at a given time. This counter is also shown in the search results when searching DataCite Search. 
@@ -60,14 +60,14 @@ The counter allows quick access to the total number of citations a dataset has a
 The citations chart shows the distribution of the total number of citations over time ⁠—from the Dataset publication date until the present day.
 
 
-![Figure 4. Citations Display Counter and Chart.](/images/uploads/citations_display_fig3.png)
+![Figure 4. Citations Display Counter and Chart.](/images/uploads/citations_display_fig3_.png)
 Figure 4. Citations Display Counter and Chart.
 
 The links list displays links separated by category: citations, references, and relations. Here you get the full detail of the citations, references, and relationships. Each item is listed following the APA citation style and provides information about the link’s origin. 
 
 
 
-![Figure 5. Citations, references and relations list.](/images/uploads/citations_display_fig4.png)
+![Figure 5. Citations, references and relations list.](/images/uploads/citations_display_fig4_.png)
 Figure 5. Citations, references and relations list.
 
 ## How can I find resources with Citations?
