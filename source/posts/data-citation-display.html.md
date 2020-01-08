@@ -47,17 +47,17 @@ Figure 2 explains which types of relationships are included in the three differe
 
 The Citations Display takes all Citation, Reference, and Relation information between DOIs and makes it accessible in DataCite search. There are three components to the display: a citation counter, a citation chart, and a list that separates the links by citations, references, and relations.
 
-![Figure 3. Citations Display](/images/uploads/citations_display_fig2_.png)<small>Figure 3. Citations Display</small>
+![Figure 3. Citations Display](/images/uploads/citations_display_fig2_.png)<small>Figure 3. Citations Display for [https://search.datacite.org/works/10.5438/0014](https://search.datacite.org/works/10.5438/0014)</small>
 
 The counter allows quick access to the total number of citations a dataset has at a given time. This counter is also shown in the search results when searching DataCite Search. 
 The citations chart shows the distribution of the total number of citations over time ⁠—from the Dataset publication date until the present day.
 
-![Figure 4. Citations Display Counter and Chart.](/images/uploads/citations_display_fig3_.png)<small>Figure 4. Citations Display Counter and Chart.</small>
+![Figure 4. Citations Display Counter and Chart.](/images/uploads/citations_display_fig3_.png)<small>Figure 4. Citations Display Counter and Chart for [https://search.datacite.org/works/10.5438/0014](https://search.datacite.org/works/10.5438/0014).</small>
 
 The links list displays links separated by category: citations, references, and relations. Here you get the full detail of the citations, references, and relationships. Each item is listed following the APA citation style and provides information about the link’s origin. 
 
 
-![Figure 5. Citations, references and relations list.](/images/uploads/citations_display_fig4_.png)<small>Figure 5. Citations, references and relations list.</small>
+![Figure 5. Citations, references and relations list.](/images/uploads/citations_display_fig4_.png)<small>Figure 5. Citations, references and relations list for [https://search.datacite.org/works/10.5438/0014](https://search.datacite.org/works/10.5438/0014).</small>
 
 ### How can I find resources with Citations?
 
