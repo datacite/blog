@@ -3,7 +3,7 @@ layout: post
 title: Announcing the new Member API
 author:
   - mfenner
-date: 2020-01-20T08:16:53.867Z
+date: 2020-01-20
 tags:
   - feature
   - api
