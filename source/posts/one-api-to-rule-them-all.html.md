@@ -8,6 +8,7 @@ tags:
   - feature
   - api
 image: /images/uploads/bildschirmfoto-2020-01-20-um-10.40.10.png
+doi: 10.5438/ysq3-p703
 ---
 When we launched the new version of the OAI-PMH service in November (@https://doi.org/10.5438/ppth-pz62),  and retired Solr (used by the old OAI-PMH service) in December, we completed the transition to Elasticsearch as our search index, and the [REST API](https://api.datacite.org) as our main API. All our services now integrate via Elasticsearch and the REST API, including:
 
