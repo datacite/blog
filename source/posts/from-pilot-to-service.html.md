@@ -32,7 +32,7 @@ The DataCite/ORCID claim tool was started in 2013 as a fork of the [open source 
 
 ## Search
 
-Allowing users to add works with DataCite DOIs to their ORCID profile should not be done in a separate service, but is ideally part of the standard search interface to DataCite that users use anyway. We therefore have to make [DataCite Labs Search](https://search.datacite.org) at least as good as the current [DataCite Search](http://search.datacite.org/ui). Both services use the [DataCite Search API](http://search.datacite.org/api) as their backend, but the user interface they provide is different. Some of the differences in Labs Search include:
+Allowing users to add works with DataCite DOIs to their ORCID profile should not be done in a separate service, but is ideally part of the standard search interface to DataCite that users use anyway. We therefore have to make [DataCite Labs Search](https://search.datacite.org) at least as good as the current DataCite Search. Both services use the DataCite Search API as their backend, but the user interface they provide is different. Some of the differences in Labs Search include:
 
 * a single search box
 * all information is shown in a list view, no linking to pages on data.datacite.org

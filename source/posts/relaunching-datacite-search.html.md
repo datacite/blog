@@ -23,4 +23,4 @@ In contrast to the previous search user interface the new search is not using th
 
 The software that is providing the search frontend was originally written by Crossref and is also powering the [Crossref Metadata Search](http://search.crossref.org/). As all DataCite software the code is [available](https://github.com/crosscite/doi-metadata-search) as open source software.
 
-The search has been running as Labs Search since last August and many users have provided valuable feedback. The old search user interface is still available at [https://search.datacite.org/ui](https://search.datacite.org/ui).
+The search has been running as Labs Search since last August and many users have provided valuable feedback. The old search user interface is still available at https://search.datacite.org/ui.
