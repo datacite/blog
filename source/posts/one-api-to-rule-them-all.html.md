@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One API to rule them all
+title: Announcing the new Member API
 author:
   - mfenner
 date: 2020-01-20T08:16:53.867Z
@@ -12,18 +12,12 @@ image: /images/uploads/bildschirmfoto-2020-01-20-um-10.40.10.png
 When we launched the new version of the OAI-PMH service in November (@https://doi.org/10.5438/ppth-pz62),  and retired Solr (used by the old OAI-PMH service) in December, we completed the transition to Elasticsearch as our search index, and the [REST API](https://api.datacite.org) as our main API. All our services now integrate via Elasticsearch and the REST API, including:
 
 1. [MDS API](https://mds.datacite.org) - DOI registration API
-
-1. [EZ API](https://ez.datacite.org) - DOI registration API, compatible with CDL EZID service
-
-1. [Fabrica](https://doi.datacite.org) - DOI registration and account management web interface
-
-1. [OAI-PMH](https://oai.datacite.org) - Metadata harvesting
-
-1. [DataCite Search](https://search.datacite.org) - public DOI search
-
-1. [Stats Portal](https://stats.datacite.org) - statistics about DOI registrations and resolutions
-
-1. [Content Negotiation](https://data.datacite.org) - DOI metadata in other formats
+2. [EZ API](https://ez.datacite.org) - DOI registration API, compatible with CDL EZID service
+3. [Fabrica](https://doi.datacite.org) - DOI registration and account management web interface
+4. [OAI-PMH](https://oai.datacite.org) - Metadata harvesting
+5. [DataCite Search](https://search.datacite.org) - public DOI search
+6. [Stats Portal](https://stats.datacite.org) - statistics about DOI registrations and resolutions
+7. [Content Negotiation](https://data.datacite.org) - DOI metadata in other formats
 
 This consolidation was a lot of work in 2019, but will greatly simplify the maintenance  of our services and the development of new functionality going forward. 
 
@@ -33,6 +27,6 @@ To address this challenge we have in December launched two versions of the REST 
 
 ![](/images/uploads/bildschirmfoto-2020-01-20-um-10.40.10.png)
 
-With this approach we follow best practices, the difference to what our persistent identifier provider colleagues at Crossref and ORCID do is that we separate out the public and member API in the backend rather than using different services (member-only vs. public) or service endpoints (e.g. pub.orcid.org vs. api.orcid.org).
+There are of course other approaches to separate out member API calls from public API calls, including separate API endpoints, e.g. pub.orcid.org vs. api.orcid.org at ORCID, or separate APIs for members and non-members, e.g. the separate DOI registration API at Crossref. But we feel that our approach for member vs. public API calls aligns best with the strategy to offer a consolidated REST API for all services.
 
 ## References
