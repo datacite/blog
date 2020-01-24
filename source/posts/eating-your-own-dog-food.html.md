@@ -57,7 +57,7 @@ The default metadata are metadata that always stay the same for the blog, such a
 
 Finally, there are metadata that we can automatically extract from the blog post, and we are currently doing this for the `description` and `relatedIdentifier`. This blog uses Pandoc and BibTex to generate the references section at the end, and we can fetch this information and convert it into the format needed for `relatedIdentifier`.
 
-Taken together we can provide all metadata that are *required* or *recommended* in the Metadata Schema documentation [-@https://doi.org/10.5438/0012], and we can do this without any extra effort for the author. The full XML is avalailable here.
+Taken together we can provide all metadata that are *required* or *recommended* in the Metadata Schema documentation [-@https://doi.org/10.5438/0012], and we can do this without any extra effort for the author. The full XML is avalailable [here](https://data.datacite.org/application/x-datacite+xml/10.5438/4K3M-NYVG).
 
 Not all blog posts need to be cited formally with metadata in a *references* list formatted according to a specific citation style. But these metadata greatly help with discovery, a search in DataCite Search for [eating dog food](http://search.datacite.org/works?query=eating+dog+food) will for example bring up this blog post as the first hit.
 
