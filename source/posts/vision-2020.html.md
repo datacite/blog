@@ -6,7 +6,7 @@ author:
 date: 2020-01-24T13:08:50.624Z
 tags:
   - DataCite
-doi: 'https://doi.org/10.5438/9j86-bv91'
+doi: 10.5438/9j86-bv91
 ---
 A new year, a new decade. Since our founding in 2009, DataCite has collaborated closely with the research community to expand our services, increase our membership, and promote an open culture of data sharing. As a global leader in the field of research data, we embrace the opportunity to further develop and promote the research infrastructure of the future by engaging with our members, taking a multidisciplinary approach to research data, and cultivating the technical expertise to deliver services that benefit the entire research community. 
 
