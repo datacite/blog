@@ -20,7 +20,7 @@ When we launched the new version of the OAI-PMH service in November (@https://do
 6. [Stats Portal](https://stats.datacite.org) - statistics about DOI registrations and resolutions
 7. [Content Negotiation](https://data.datacite.org) - DOI metadata in other formats
 
-This consolidation was a lot of work in 2019, but will greatly simplify the maintenance  of our services and the development of new functionality going forward. 
+This consolidation was a lot of work in 2019, but will greatly simplify the maintenance  of our services and the development of new functionality going forward.!READMORE
 
 This consolidation of course also has its downsides, and the most important one is supporting both member services and public services via the same API. While DataCite will always make all DOI metadata available in a public API and search interface, we also have to make sure our paying members get the best possible service quality when registering DOIs or otherwise interacting with DataCite services as member.
 
