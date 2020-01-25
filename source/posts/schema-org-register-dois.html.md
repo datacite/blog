@@ -161,4 +161,4 @@ Also this week we assigned a DOI to the DataCite blog itself [@https://doi.org/1
 
 The alternative would have been to describe the DataCite blog as the `publisher` of our blog posts. We are using **DataCite** as `publisher` instead, as we feel the publisher should be a person or organization.
 
-### References
+## References

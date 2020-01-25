@@ -65,4 +65,4 @@ Not all blog posts need to be cited formally with metadata in a *references* lis
 
 Using DOIs means that readers not only expect rich metadata that help with citation and discovery, but also that DataCite takes extra care to preserve the blog posts, thinking beyond the particular technical implementation or even the contiuing existence of this blog. This is an area where we do need to do more work, starting with a decision about the best archival format for a blog post (HTML, PDF, [JATS](https://jats.nlm.nih.gov/)?). For now blog posts are hosted in multiple Git repositories ([one of them on Github](https://github.com/datacite/blog)), and in two independent Amazon S3 buckets that each use [versioning](http://docs.aws.amazon.com/AmazonS3/latest/dev/Versioning.html). Multiple locations with versioning are a good start, but more work is clearly needed.
 
-### References
+## References

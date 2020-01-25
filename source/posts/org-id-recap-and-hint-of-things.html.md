@@ -48,4 +48,4 @@ We hope that all stakeholders will continue to support the next phase of our wor
 
 As always, we welcome your feedback and involvement as this effort continues. Please contact me directly with any questions or comments at <mailto:john.chodacki@ucop.edu>. And thanks again for your help bringing an open organization identifier registry to fruition! 
 
-### References
+## References

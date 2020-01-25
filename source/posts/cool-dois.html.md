@@ -96,4 +96,4 @@ To answer the question raised at the beginning: a cool DOI is a DOI expressed as
 
 ![Cool DOIs](/images/2016/12/cool-dois.svg)
 
-### References
+## References

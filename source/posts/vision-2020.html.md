@@ -19,14 +19,14 @@ As we begin 2020, we align with our Strategic Plan, established through an itera
 * Our **DataCite Vision 2020** defines the strategic priorities and goals for the year ahead, these were the outcomes of our full team meeting last year and we plan to go through the process annually. 
 * Our **DataCite 2020 Objectives** form the basis for our individual goals linked to the overall organisation vision and defined from the annual strategic priorities.
 
-As we focus on open communication this year[@https://doi.org/10.5438/sqpf-9g08], it is important that we share our plans with the community. During 2020, we have defined four (4) operational strategic priorities:
+As we focus on open communication this year [@https://doi.org/10.5438/sqpf-9g08], it is important that we share our plans with the community. During 2020, we have defined four (4) operational strategic priorities:
 
 1. **Formalising the new business model.** As a membership organization, members are at the core of everything we do and it is important that we are collectively able to work on DataCite’s strategy and long term sustainability.
 2. **Optimising internal operations, systems and processes.** Improving our internal systems to ensure that we continue to scale optimally and can support our growing community.
 3. **Consolidation of services and infrastructure.** Make our services easier to use for members, and easier to maintain for staff, by continuing the consolidation towards a single foundational API, and a single web interface.
 4. **Continuation of member driven product development.** As a community driven organisation, we continue to improve our processes and decisions. This means that all decisions we make about our services and infrastructure are driven by community input and validation.
 
-We continue to expand the opportunities to engage regularly as a community[@https://doi.org/10.5438/sqpf-9g08]. As such, we have planned several meetings to ensure that we will have opportunities for us to meet and discuss important matters (both virtually and in-person):
+We continue to expand the opportunities to engage regularly as a community [@https://doi.org/10.5438/sqpf-9g08]. As such, we have planned several meetings to ensure that we will have opportunities for us to meet and discuss important matters (both virtually and in-person):
 
 * **Annual Member Meeting (October 23)**. This year, we will be collocating our annual member meeting with Force2020 in San Sebastian, Spain. Our annual member meeting focuses on DataCite strategy and community outreach. As a community, we will share best practices, discuss common themes and define priorities for DataCite’s future.
 * **Business Meeting and Board Elections (April 30)**. As we are a growing global community of 180 members across 40 countries, this year we will be hosting the Business Meeting of the General Assembly virtually to include as many members of our community as possible. The meeting will be focused on approving the budget, voting on any statues changes, approving the next steps on the business model, Executive Board elections etc. Information for voting will be sent out prior to ensure all members are informed of content and process.

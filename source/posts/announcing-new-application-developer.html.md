@@ -55,4 +55,4 @@ My interest depends on the problems I am  facing at a particular time. My first 
 
 Kristian has started working on the DataCite [Statistics portal](https://www.datacite.org/stats.html) and [Citation Formatter service](https://www.datacite.org/citation.html). You can reach out to him via the comments here, via [email](mailto:kgarza@datacite.org), or via the usual DataCite channels.
 
-### References
+## References
