@@ -8,16 +8,15 @@ tags:
   - citation
   - data-level metrics
 image: /images/uploads/citations_display_fig2_.png
-location: Berlin
+location:
 doi: 10.5438/1843-k679
 ---
 
-
-Are published datasets actually being cited?  It's a question that must cross the mind of any avid reader of this blog at least once. We have talked about data citation plenty on this blog. Often, though, we talk about the links between academic resources and datasets — the kind of links collected by our [Event Data Service](https://support.datacite.org/docs/eventdata-guide). Many of these links between articles and datasets can be regarded as data citations, but not all. 
+Are published datasets actually being cited?  It's a question that must cross the mind of any avid reader of this blog at least once. We have talked about data citation plenty on this blog. Often, though, we talk about the links between academic resources and datasets — the kind of links collected by our [Event Data Service](https://support.datacite.org/docs/eventdata-guide). Many of these links between articles and datasets can be regarded as data citations, but not all.!READMORE
 
 Until today, it wasn’t straightforward to visualize these links without having some programming skills. Well, today, that changes. Today we introduce the Citations Display in DataCite Search. Here you will be able to access all these links and distinguish between data citations, references, and other relations that exist between academic resources with DOIs. In this blog post, we try to answer the questions you may have about DataCite & data citation.
 
-### Where does DataCite get information about the links between articles and datasets?
+### Where does DataCite get information about the links between articles and datasets?4
 
 There are two ways in which we get this information:DataCite members provide information about the links between their datasets and other academic resources. They do this by including related identifiers in the dataset DOI metadata they deposit with us. You can see the workflow in Figure 1.Through our collaboration with [Crossref](https://www.crossref.org/), we also have information about dataset DOIs included in published articles. Like DataCite members, Crossref members include this information in the metadata they deposit with Crossref.
 
@@ -25,7 +24,7 @@ There are two ways in which we get this information:DataCite members provide inf
 
 ### What is the difference between citations, references, and relations?
 
-Datasets can be related to other academic resources in a number of different ways. When members deposit related identifiers, they can indicate what the exact relationship between the dataset and the other resource is. The current version of the [DataCite Metadata Schema](https://doi.org/10.14454/7xq3-zf69) even offers 33 possible relationTypes to select from!
+Datasets can be related to other academic resources in a number of different ways. When members deposit related identifiers, they can indicate what the exact relationship between the dataset and the other resource is. The current version of the DataCite Metadata Schema[@https://doi.org/10.14454/7xq3-zf69] even offers 33 possible relationTypes to select from!
 DataCite staff took time to consider these different relation types, discussed the options with different expert groups, and developed a proposal to classify the links into three specific categories: citations, references, and relations. We presented this proposal at the Force2019 Edinburgh and Research Data Alliance Helsinki meetings last October. 
 
 Here we will describe each category, and we will use a definition of the term data citation as a point of departure. 
@@ -44,7 +43,6 @@ Figure 2 explains which types of relationships are included in the three differe
 
 ### What is the DataCite Citations Display?
 
-
 The Citations Display takes all Citation, Reference, and Relation information between DOIs and makes it accessible in DataCite search. There are three components to the display: a citation counter, a citation chart, and a list that separates the links by citations, references, and relations.
 
 ![Figure 3. Citations Display](/images/uploads/citations_display_fig2_.png)<small>Figure 3. Citations Display for [https://search.datacite.org/works/10.5438/0014](https://search.datacite.org/works/10.5438/0014)</small>
@@ -55,7 +53,6 @@ The citations chart shows the distribution of the total number of citations over
 ![Figure 4. Citations Display Counter and Chart.](/images/uploads/citations_display_fig3_.png)<small>Figure 4. Citations Display Counter and Chart for [https://search.datacite.org/works/10.5438/0014](https://search.datacite.org/works/10.5438/0014).</small>
 
 The links list displays links separated by category: citations, references, and relations. Here you get the full detail of the citations, references, and relationships. Each item is listed following the APA citation style and provides information about the link’s origin. 
-
 
 ![Figure 5. Citations, references and relations list.](/images/uploads/citations_display_fig4_.png)<small>Figure 5. Citations, references and relations list for [https://search.datacite.org/works/10.5438/0014](https://search.datacite.org/works/10.5438/0014).</small>
 
@@ -73,7 +70,7 @@ In addition, consider working with publishers to ensure they support data citati
 
 ### What do these numbers mean?
 
-It might be tempting to start using the citation numbers to draw comparisons between resources. To those who are feeling the urge to rank datasets according to the citation number, we want to say: Stop! Stay your hand! Hold off with those statistical utensils because we believe it’s still too early to rank and compare. A wealth of educated opinions exists in the literature arguing against the rash use of these counts [@http://doi.org/10.5334/dsj-2019-052][@http://doi.org/10.5281/zenodo.2547485][@https://escholarship.org/uc/item/8w36p9zf]. Today these counts provide an exciting insight into the relations between academic resources. Still, their meaning needs to be analyzed and studied by bibliometricians before we can attach meaning to them.
+It might be tempting to start using the citation numbers to draw comparisons between resources. To those who are feeling the urge to rank datasets according to the citation number, we want to say: Stop! Stay your hand! Hold off with those statistical utensils because we believe it’s still too early to rank and compare. A wealth of educated opinions exists in the literature arguing against the rash use of these counts [@https://doi.org/10.5334/dsj-2019-052, @https://doi.org/10.5281/zenodo.2547485, @https://escholarship.org/uc/item/8w36p9zf]. Today these counts provide an exciting insight into the relations between academic resources. Still, their meaning needs to be analyzed and studied by bibliometricians before we can attach meaning to them.
 
 ### Where is this information going to be used?
 Displaying citations in DataCite Search is just a first step. We are currently working on a widget that will provide data repositories with an easy way to display data citations, views and downloads on their pages. We’ll be piloting this soon so if you’re interested, don’t hesitate to get in touch! We believe that increased visibility of these numbers will lead to more adoption of data citation practices, which will ensure your repository is given the credit it deserves.
