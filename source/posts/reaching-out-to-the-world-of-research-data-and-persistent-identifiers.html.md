@@ -9,4 +9,4 @@ May I introduce myself as the new outreach manager of DataCite. Being an Open Sc
 
 Within my work for Helmholtz I was responsible for outreach activities for topics such as author identification using the Open Researcher and Contributor iD (ORCID) or research data management promoting the registry of research data repositories (re3data). In both fields there was and still is a fundamental need to raise awareness about the important role of persistent identifiers in research. Also for this reason DataCite is an active partner in research projects such as the recently started project re3data COREF (Community Driven Open Reference for Research Data Repositories) and ORCID DE. 
 
-In the course of re3data COREF…
+In the course of re3data COREF we will develop a service model that takes into account new requirements by research data management stakeholders using the re3data API
