@@ -12,3 +12,5 @@ Within my work for Helmholtz I was responsible for outreach activities for topic
 In the course of re3data COREF we will develop a conceptual service model that takes into account new requirements by other stakeholders (e.g. content aggregators) using the re3data API. In addition the technical infrastructure as well as the metadata schema will be revised and updated according to FAIR criteria and the latest standards in research data management. These goals can only be met in search for a deeper understanding reaching out to the community.
 
 Reaching out applies also to DataCite's major goal within ORCID DE which is to determine the usage and status quo of organisation identifiers at higher educational and research institutions in Germany. Community engagement will play a key role in this process of raising awareness for the need of a persistent identifier system for organizations such as the Research Organization Registry (ROR).
+
+As DataCite's outreach manager I stick to the title one of the greatest songs of the Four Tops if you have any questions or comments regarding re3data, ORCID DE and ROR: "Reach out I'll be there!"
