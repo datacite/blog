@@ -409,5 +409,15 @@
   "tbradford": {
     "name": "Tina Bradford",
     "bio": "NRC/CISTI (New)"
+  },
+  "pvierkant": {
+   "name": "Paul Vierkant",
+   "given": "Paul",
+   "family": "Vierkant",
+   "bio": "DataCite Outreach Manager",
+   "orcid": "https://orcid.org/0000-0003-4448-3844",
+   "github": "paulvierkant",
+   "email": "pvierkant@datacite.org",
+   "image_url": "/images/pvierkant.png"
   }
 }
