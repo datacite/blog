@@ -3,7 +3,7 @@ layout: post
 title: Reaching out to the World of Research Data and Persistent Identifiers
 author:
   - pvierkant
-date: '2020-02-20'
+date: '2020-02-21'
 tags:
   - featured
 doi: 'https://doi.org/10.5438/t4jb-b450'
