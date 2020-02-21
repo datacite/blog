@@ -419,5 +419,6 @@
    "github": "paulvierkant",
    "email": "pvierkant@datacite.org",
    "image_url": "/images/pvierkant.png"
+   "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization"
   }
 }
