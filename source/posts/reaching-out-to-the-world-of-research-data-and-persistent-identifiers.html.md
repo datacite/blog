@@ -6,9 +6,13 @@ author:
 date: '2020-02-21'
 tags:
   - featured
+  - re3data
+  - orcid
 doi: 'https://doi.org/10.5438/t4jb-b450'
 ---
 With this blog post I'd like to introduce myself as the new Outreach Manager of DataCite. Being an Open Science advocate by conviction, I am happy to contribute my knowledge and experience to DataCite's Engagement team. Before I joined DataCite, I was working for the Helmholtz Open Science Office in Germany, spreading the idea of Open Science among researchers and research institutions alike.
+
+![Paul Vierkant, new DataCite Outreach Manager](/images/uploads/pvierkant.png)
 
 Within my work for Helmholtz, I was responsible for outreach activities on topics such as author identification using the [Open Researcher and Contributor iD (ORCID)](https://orcid.org) and research data management promoting the [registry of research data repositories (re3data)](https://www.re3data.org). In both fields there was, and still is, a fundamental need to raise awareness about the important role of persistent identifiers in research. This is one of the reasons DataCite is an active partner in research projects such as the recently started projects re3data COREF (Community Driven Open Reference for Research Data Repositories)(@https://doi.org/10.5438/fwkt-3t12) and ORCID DE(@https://doi.org/10.5438/2d8b-np33). In my role at DataCite, I will be working on these two projects.
 
