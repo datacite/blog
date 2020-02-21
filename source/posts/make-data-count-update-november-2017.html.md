@@ -25,7 +25,7 @@ This fall the MDC team also spent time traveling to several [conferences](https:
 
 Coming up, representatives from the MDC team will be (and hope you can join us) at:
 
-* [American Geophysical Union (AGU)](https://fallmeeting.agu.org/2017/), December 11-15
+* [American Geophysical Union (AGU)](https://www.agu.org/Fall-Meeting), December 11-15
 * NISO Webinar “Advancing Altmetrics: Best Practices and Emerging Ideas”, December 13
 
 ### So, what is MDC working on outside of these presentations?
