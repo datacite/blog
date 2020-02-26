@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Setting DataCites priorities: the 2019 member survey'
+title: 'Setting DataCite''s priorities: the 2019 member survey'
 author:
   - hcousijn
 date: 2020-02-25T19:37:27.557Z
