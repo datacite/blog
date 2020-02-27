@@ -4,7 +4,7 @@ title: 2020 Strategic Priorities for Services and Infrastructure
 author:
   - mfenner
   - swimalaratne
-date: 2020-02-27T11:09:00.915Z
+date: '2020-02-27'
 tags:
   - featured
   - infrastructure
