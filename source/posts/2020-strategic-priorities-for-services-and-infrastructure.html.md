@@ -10,7 +10,7 @@ tags:
   - infrastructure
 doi: 10.5438/9te8-5h68
 ---
-The strategic priorities we have set for 2020 regarding services and infrastructure are the consolidation of our services and infrastructure, and stronger emphasis on member-driven product development. These strategic priorities are only possible as DataCite revenue from membership fees has significantly increased in the last two years, providing resources for work on services and infrastructure that is most relevant to members. In the past, DataCite staff members in the development and product teams had to spend almost all their time fulfilling grant obligations, or worked on major infrastructure upgrades such as the migration to Elasticsearch [@https://doi.org/10.5438/vyd9-ty64] and the development of the [Fabrica](https://doi.datacite.org) service.
+In a blog post four weeks ago DataCite Executive Director Matt Buys talked about the DataCite strategic priorities for 2020 [@https://doi.org/10.5438/9j86-bv91]. In this post we want to talk a bit more about the strategic priorities for this year we have regarding services and infrastructure work: a) consolidation of our services and infrastructure, and b) stronger emphasis on member-driven product development. They are based on the clear message we heard from our members, e.g. in the member survey that we shared yesterday [@https://doi.org/10.5438/0x81-y943].
 
 ### Consolidation of our services and infrastructure
 
