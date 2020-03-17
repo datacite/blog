@@ -16,7 +16,7 @@ What all the above systems (Ghost, Wordpress, Drupal) have in common is that the
 * a PDF (and possibly ePub) version for downloading and archiving
 * a register blog posts with a DOI
 
-Since DataCite is in the business of providing DOI names for scholarly content, the above is a pretty obvious wish list. Some people might argue about the content of this blog needing a DOI, but DOIs have been used for similar content for many years, whether it is for frontmatter content (editorials, opinion pieces, etc.) in journals, or in services such as [Nature News](http://www.nature.com/news/).
+Since DataCite is in the business of providing DOI names for scholarly content, the above is a pretty obvious wish list. Some people might argue about the content of this blog needing a DOI, but DOIs have been used for similar content for many years, whether it is for frontmatter content (editorials, opinion pieces, etc.) in journals, or in services such as [Nature News](https://www.nature.com/news).
 
 Out of the box the standard blogging platforms mentioned above don't support references or DOI registration, so a bit of extra work is needed. The easiest way to do this is to switch to a  simpler blogging platform. Luckily there are a lot of choices among these so-called **static site generators**, which don't need a database and simply generate HTML files. Adding the features from the above wish list then becomes a straightforward process and that is what I have started doing.
 
