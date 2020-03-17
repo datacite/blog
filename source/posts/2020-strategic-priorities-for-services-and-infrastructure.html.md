@@ -8,6 +8,7 @@ date: '2020-02-27'
 tags:
   - featured
   - infrastructure
+image: /images/logo.png
 doi: 10.5438/9te8-5h68
 ---
 In a blog post four weeks ago DataCite Executive Director Matt Buys talked about the DataCite strategic priorities for 2020 [@https://doi.org/10.5438/9j86-bv91]. In this post we want to talk a bit more about the strategic priorities for this year we have regarding services and infrastructure work: a) consolidation of our services and infrastructure, and b) stronger emphasis on member-driven product development. They are based on the clear message we heard from our members, e.g. in the member survey that we shared yesterday [@https://doi.org/10.5438/0x81-y943].

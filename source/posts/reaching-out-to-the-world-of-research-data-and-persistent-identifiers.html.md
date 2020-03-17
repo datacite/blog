@@ -8,6 +8,7 @@ tags:
   - featured
   - re3data
   - orcid
+image: /images/logo.png
 doi: '10.5438/t4jb-b450'
 ---
 With this blog post I'd like to introduce myself as the new Outreach Manager of DataCite. Being an Open Science advocate by conviction, I am happy to contribute my knowledge and experience to DataCite's Engagement team. Before I joined DataCite, I was working for the Helmholtz Open Science Office in Germany, spreading the idea of Open Science among researchers and research institutions alike.
