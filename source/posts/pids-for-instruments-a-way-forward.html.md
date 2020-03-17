@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'PIDs for instruments: a way forward'
+title: '"PIDs for instruments: a way forward"'
 author:
   - mbuys
   - rdasler
