@@ -10,6 +10,7 @@ tags:
   - instrument
   - rda
   - featured
+image: /images/uploads/bildschirmfoto-2020-03-17-um-18.31.57.png
 doi: 10.5438/tdk2-2g94
 ---
 As a community-driven organization, we continue to focus and explore use cases with our members. The persistent identification and citation of scientific instruments is a particular use case that continues to gain momentum across community stakeholders. The capacity to uniquely identify an instrument is critical for the community to gather contextual information and interpret the related data accordingly. As such, we are interested in continuing the conversation on how we can better serve this use case.
