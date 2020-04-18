@@ -9,7 +9,7 @@ tags:
 - zotero
 doi: 10.5438/q2gh-6egd
 ---
-On May 17, 2016, DataCite continued our monthly webinar series with Sebastian Karcher, Associate Director of the [Qualitative Data Repository](https://qdr.syrr.edu/) (QDR) at Syracuse University, presenting on Zotero for data repositories.  Sebastian is an expert in scholarly referencing and citation workflows and has been a longtime contributor to the Citation Style Language as well as Zotero, the open source reference management software.READMORE
+On May 17, 2016, DataCite continued our monthly webinar series with Sebastian Karcher, Associate Director of the [Qualitative Data Repository](https://qdr.syr.edu/) (QDR) at Syracuse University, presenting on Zotero for data repositories.  Sebastian is an expert in scholarly referencing and citation workflows and has been a longtime contributor to the Citation Style Language as well as Zotero, the open source reference management software.READMORE
 
 Sebastian provided insights in how Zotero can be used to fetch metadata from data repositories and demonstrated how repositories can aid integration with reference managers such as Zotero. Example repositories included [Dataverse](http://dataverse.org/), the [Dryad Digital Repository](http://datadryad.org/), the [UK Data Service](https://www.ukdataservice.ac.uk/), and the Qualitative Data Repository.
 
