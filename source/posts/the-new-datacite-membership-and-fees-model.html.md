@@ -1,6 +1,6 @@
 ---
 layout: post
-title: the new DataCite Membership and Fees Model
+title: The new DataCite Membership and Fees Model
 author:
   - hcousijn
 date: '2020-04-30'
@@ -8,14 +8,15 @@ tags:
   - DataCite
   - featured
 image: /images/uploads/group-of-members-users-icon.png
+doi: 10.5438/xn0c-m298
 ---
-As a membership organization, members are at the core of everything we do and it is important that we work collectively on DataCite’s strategy and long term sustainability. Over the last year, following the October 2018 board meeting, we have been working on clarifying and updating DataCite’s membership and fee model. We believe this will enable us to work with all organizations in a more consistent way, give us more insight into the organizations using our services, and allow us to continue on the path to sustainability. Last year we updated our member types and corresponding structure in DOI Fabrica. Today, our members approved a new fee structure for non-profit members at the Business Meeting of the General Assembly. This blog post explains this new fee structure.
+As a membership organization, members are at the core of everything we do and it is important that we work collectively on DataCite’s strategy and long term sustainability. Over the last year, following the October 2018 board meeting, we have been working on clarifying and updating DataCite’s membership and fee model. We believe this will enable us to work with all organizations in a more consistent way, give us more insight into the organizations using our services, and allow us to continue on the path to sustainability. Last year we updated our [member types and corresponding structure in DOI Fabrica](https://doi.org/10.5438/gk09-ba24). Today, our members approved a new fee structure for non-profit members at the Business Meeting of the General Assembly. This blog post explains this new fee structure.
 
 # Developing the model
 
 Over the last year, we have worked through an extensive consultation process with our members and community. This process included proposed scenarios, open hours, formal feedback through a survey, ongoing conversations, and dedicated in person and virtual meetings.
 
-Following this, we established a community group to work with the DataCite team, review the final feedback and develop a proposal to the DataCite Board. This Member Model Advisory Group consisted of the following stakeholders, representing various organization and member types:
+Following this, we established a community group to work with the DataCite team, review the final feedback and develop a proposal to the DataCite Board. This Member Model Advisory Group consisted of the following stakeholders, representing various organization and member types:
 
 * Ian Bruno (CCDC)
 * Carly Robinson (US Department of Energy)
@@ -25,19 +26,11 @@ Over the last year, we have worked through an extensive consultation process wit
 * Samantha Foulger (ETH Zurich)
 * Rachael Kotarski (British Library)
 
-
-
 We are extremely grateful for their guidance and the time and effort they put into developing this new model.
-
-
 
 # The new model
 
-
-
 Members pay an annual membership fee and applicable service fees based on their use of DataCite services (determined from the previous year DOI registration). This remains unchanged from our existing model. For the purposes of membership, DataCite defines an organization as a single legal entity. Fees will be applied based on this legal entity, noting that for state, national or intergovernmental organisations, the Executive Board will determine the application across campuses. 
-
-
 
 ## Membership fee
 
@@ -55,7 +48,7 @@ In the existing fee structure fees are based on the number of repositories an or
 
 As in the existing model, the proposed model recognizes several tiers of new DOIs registered annually. The tiers have been adjusted to accommodate different types of organizations and align with the cost impact supporting the DataCite infrastructure.
 
-
+![](/images/uploads/feestructure.png)
 
 # Consortia
 
@@ -80,21 +73,13 @@ In order to support growing consortia and the adoption within communities, the t
 * 61-100 orgs: 600 € multiplied by total number of organizations within the consortium
 * 101+ orgs: 500 € multiplied by total number of organizations within the consortium
 
-
-
 # Next steps
-
-
 
 Now that the new Membership and Fees model has been approved by the General Assembly, it will take effect immediately. In practice, this means that for:
 
 * New members - if you join after April 30, 2020, the new model will apply and you will be invoiced accordingly.
 * Existing members - the existing model applies in 2020. The new model will be applied from January 1 2021. Accordingly, your annual 2021 invoice will be based on the new model and the number of DOI registrations in 2020.
 
-
-
 Several of our existing members will be transitioning to the consortium structure during 2020. We will be working with all of you to ensure this transition is as smooth as possible. If you have any comments or questions, please don’t hesitate to contact us at support@datacite.org.
-
-
 
 We would like to thank our whole community for your contributions. Your input has been extremely valuable and we are grateful to have your support. We feel confident that this change ensures DataCite’s long-term sustainability and will enable us as a community to achieve our goals together.
