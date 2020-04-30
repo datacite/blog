@@ -60,13 +60,13 @@ A consortium is a group of like-minded organizations that have come together to 
 
 * Consortia should consist of a minimum of five organizations, including the consortium lead. New consortia are expected to reach this number in one year.
 * Consortium Organizations that expect to register more than 10.000 DOIs annually should transfer to Direct Membership within the following calendar year, or pay the additional membership fee (2.000 € annually) while remaining part of the consortium. This ensures that there is appropriate cost recovery based on the impact on cost drivers.   
-* All future consortia should be within one geographic region OR subject area
+* All consortia should be within one geographic region OR subject area
 * Only non-profit organizations can participate in consortia
 * Consortium Leads can distribute costs across the Consortium Organizations as per their own policies and structures
 
 ## Consortium fee caps
 
-In order to support growing consortia and the adoption within communities, the total consortium service fee (organization + DOI fee) is capped based on the number of organizations. Consortium Leads can distribute costs across the Consortium Organizations as per their own policies and structures. The total cap is calculated based on the total number of organizations within the consortium:
+In order to support growing consortia and the adoption within communities, the total consortium service fee (organization + DOI fee) is capped based on the number of organizations. The total cap is calculated based on the total number of organizations within the consortium:
 
 * 5-30 orgs: 1.000 € multiplied by total number of organizations within the consortium
 * 31-60 orgs: 700 € multiplied by total number of organizations within the consortium
