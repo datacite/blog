@@ -10,7 +10,7 @@ tags:
 image: /images/uploads/group-of-members-users-icon.png
 doi: 10.5438/xn0c-m298
 ---
-As a membership organization, members are at the core of everything we do and it is important that we work collectively on DataCite’s strategy and long term sustainability. Over the last year, following the October 2018 board meeting, we have been working on clarifying and updating DataCite’s membership and fee model. We believe this will enable us to work with all organizations in a more consistent way, give us more insight into the organizations using our services, and allow us to continue on the path to sustainability. Last year we updated our [member types and corresponding structure in DOI Fabrica](https://doi.org/10.5438/gk09-ba24). Today, our members approved a new fee structure for non-profit members at the Business Meeting of the General Assembly. This blog post explains this new fee structure.
+As a membership organization, members are at the core of everything we do and it is important that we work collectively on DataCite’s strategy and long term sustainability. Over the last year, following the October 2018 board meeting, we have been working on clarifying and updating DataCite’s membership and fee model. We believe this will enable us to work with all organizations in a more consistent way, give us more insight into the organizations using our services, and allow us to continue on the path to sustainability. Last year we updated our [member types and corresponding structure in DOI Fabrica](https://doi.org/10.5438/gk09-ba24). Today, our members approved a new fee structure for non-profit members at the Business Meeting of the General Assembly. 
 
 # Developing the model
 
@@ -18,8 +18,8 @@ Over the last year, we have worked through an extensive consultation process wit
 
 Following this, we established a community group to work with the DataCite team, review the final feedback and develop a proposal to the DataCite Board. This Member Model Advisory Group consisted of the following stakeholders, representing various organization and member types:
 
-* Ian Bruno (CCDC)
-* Carly Robinson (US Department of Energy)
+* Ian Bruno (co-chair, CCDC)
+* Carly Robinson (co-chair, US Department of Energy)
 * Marco Marsella (FAO)
 * Mohamed Ba-Essa (KAUST)
 * Tom Morrell (Caltech)
