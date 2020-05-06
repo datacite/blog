@@ -19,7 +19,7 @@ Today DataCite launches a new API that powers the PID Graph, the graph formed by
 
 We launched a pre-release version of the API in May 2019 \[@https://doi.org/10.5438/qab1-n315], and have used the last 12 months to improve the performance and stability of the service, add functionality based on user feedback, decide on a stable GraphQL schema that describes the resources and links in the Graph, and add many additional resources. The PID Graph now includes all of DataCite's DOIs, nine million Crossref DOIs, all ORCID IDs, and all Research Organization Registry (ROR), Crossref Funder ID, and Registry of Research Data Repositories (re3data) records, for a total of about 35 million resources with PIDs and associated metadata, and about 9 million links between them. 
 
-![Number of resources and links in the PID Graph.](/images/uploads/pidgraph-2020-05-04.png "Number of resources and links in the PID Graph available via GraphQL API as of May 4, 2020.")
+![**PID Graph KPI**: Number of resources and links in the PID Graph.](/images/uploads/pidgraph-2020-05-04.png "**PID Graph KPI**: Number of resources and links in the PID Graph available via GraphQL API as of May 4, 2020.")
 
 The PID Graph and the GraphQL API announced today are an important output from the European Commission-funded [FREYA Project, grant agreement No 777523.](https://www.project-freya.eu/en), and have been developed in close collaboration of all FREYA partners, including the PID providers Crossref and ORCID. PID Graph is part of the Research Data Alliance (RDA) [Open Science Graphs for FAIR Interest Group](https://www.rd-alliance.org/groups/open-science-graphs-fair-data-ig), where we coordinate with other initiatives building Open Science graphs.
 
