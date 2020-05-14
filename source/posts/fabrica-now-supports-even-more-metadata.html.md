@@ -17,4 +17,4 @@ Today, DataCite is very pleased to announce a major update to the DOI Fabrica fo
 
 We're also trying something a little different with this release. The new form will be available to everyone in an open beta. We recognize that our member community has diverse needs, and we thought the best way to uncover additional edge cases would be to have all of you put the form through its paces "in the wild" in your normal workflows. So please give the new form a spin and send us your feedback and comments. Together we'll refine the form to be the best it can be. 
 
-If you need help getting started with the new form, please consult our [updated support pages](https://support.datacite.org/docs/field-descriptions-for-form). For any other questions or comments, you can reach us at [mailto:support@datacite.org](support@datacite.org).
+If you need help getting started with the new form, please consult our [updated support pages](https://support.datacite.org/docs/field-descriptions-for-form). For any other questions or comments, you can reach us at [support@datacite.org](mailto:support@datacite.org).
