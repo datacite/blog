@@ -6,6 +6,8 @@ author:
 date: '2020-05-14'
 tags:
   - featured
+image: /images/uploads/screen-shot-2020-05-14-at-3.42.54-pm.png
+doi: 10.5438/tpf8-0051
 ---
 Today, DataCite is very pleased to announce a major update to the DOI Fabrica form. With this update, you can now add metadata for every possible property in the entire [DataCite Metadata Schema](https://schema.datacite.org). While it was always possible to add all of the required properties, you can now also add all of the recommended and optional properties, too. This includes related identifiers, subjects, funding, geolocation, and more. Now the DOIs you create and update via the form will be just like the DOIs you create and update via the APIs. This update has been a long time coming, and we hope you're as excited as we are. 
 
