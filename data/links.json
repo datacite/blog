@@ -25,7 +25,7 @@
     },
     {
       "name": "MDS",
-      "url": "https://mds.test.datacite.org",
+      "url": "https://mds.stage.datacite.org",
       "icon": "database"
     },
     {
@@ -70,22 +70,22 @@
   "stage_links": [
     {
       "name": "MDS",
-      "url": "https://mds.test.datacite.org",
+      "url": "https://mds.stage.datacite.org",
       "icon": "database"
     },
     {
       "name": "Schema",
-      "url": "https://schema.test.datacite.org",
+      "url": "https://schema.stage.datacite.org",
       "icon": "file-code-o"
     },
     {
       "name": "Handle Server",
-      "url": "https://handle.test.datacite.org",
+      "url": "https://handle.stage.datacite.org",
       "icon": "mail-forward"
     },
     {
       "name": "Citation Formatter",
-      "url": "https://citation.test.datacite.org",
+      "url": "https://citation.stage.datacite.org",
       "icon": "file-text-o"
     },
     {
@@ -93,22 +93,22 @@
     },
     {
       "name": "Search",
-      "url": "https://search.test.datacite.org",
+      "url": "https://search.stage.datacite.org",
       "icon": "search"
     },
     {
       "name": "OAI-PMH",
-      "url": "https://oai.test.datacite.org",
+      "url": "https://oai.stage.datacite.org",
       "icon": "table"
     },
     {
       "name": "Statistics",
-      "url": "https://stats.test.datacite.org",
+      "url": "https://stats.stage.datacite.org",
       "icon": "bar-chart"
     },
     {
       "name": "REST API",
-      "url": "https://api.test.datacite.org",
+      "url": "https://api.stage.datacite.org",
       "icon": "cogs"
     }
   ],
