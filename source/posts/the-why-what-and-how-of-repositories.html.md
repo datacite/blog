@@ -12,6 +12,7 @@ tags:
   - re3data
   - featured
 image: /images/uploads/direct_member.jpg
+doi: 10.5438/xafc-2c88
 ---
 DataCite is a community of libraries, research institutions, and data centers that house repositories. We often receive questions about how exactly we work with repositories, so we wanted to take this opportunity to answer your top 10 questions.
 
