@@ -13,7 +13,21 @@
             • <span class="unpublished">unpublished</span>
             <% end %>
             • <span class="post-reading-time"></span> read
+            <div class="post-meta">
+              <div class="row">
 
+                <div class="col-md-6">
+                  <% if current_page.data.doi.present? %>
+                  <p class="doi">
+                    <%= link_to("https://doi.org/" + current_page.data.doi, "https://doi.org/" + current_page.data.doi, :"data-proofer-ignore" => true) %>
+                  </p>
+                  <% end %>
+                </div>
+                <div class="col-md-6">
+                  <data-metrics-badge doi=<%= current_page.data.doi %> display="small"></data-metrics-badge>
+                </div>
+              </div>
+            </div>
           </div>
           <%= yield %>
 
