@@ -53,7 +53,7 @@ The Data Metrics Badge – developed as part of the [Parsec](http://www.belmontf
 
 ### Researcher Profile
 
-Also as part of the PARSEC project, we are developing tools that will allow researchers to assess all reuse of their datasets quickly. We have built the [Researcher Profile](https://support.datacite.org/docs/datacite-researcher-profiles) that, using ORCID, brings all your research datasets and their metrics into a single place. 
+Also as part of the PARSEC project, we developed tools that will allow researchers to assess all reuse of their datasets quickly. We have built the [Researcher Profile](https://support.datacite.org/docs/datacite-researcher-profiles) that, using ORCID, brings all researcher's academic outputs and their metrics into a single place. Where they can gain access to visulisations and display of multiple aggregated statstistics of a single researcher via their ORCID.
 
 
 
