@@ -27,22 +27,22 @@ The bibliometrics dashboard
 In the MDC initiative we track data citations in the scholarly literature, focussing on datasets registered with DataCite and publications registered with Crossref.
 
 ### Event Data
-We use the joint Crossref/DataCite Event Data service to exchange information about connections between publications and datasets, contributed via Crossref and DataCite members and the metadata they register. These connections are also made available to all other users via a Scholix-compliant REST API.
+We use the joint Crossref/DataCite Event Data service to exchange information about connections between publications and datasets, contributed via Crossref and DataCite members and the metadata they register. These connections are also made available to all other users via a [Scholix](http://www.scholix.org/)-compliant REST API. In the previous MDC project the Event Data service was expanded to include data usage stats and make reporting easier for DataCite members.
 
 ### Data Usage Reports
-DataCite members and repositories upload monthly reports about data usage to DataCite using a standard format ([COUNTER Code of Practice for Research Data Usage Metrics](https://www.projectcounter.org/counter-code-practice-research-data-usage-metrics-release-1/) and protocol ([SUSHI](https://www.projectcounter.org/code-of-practice-sections/sushi/)).
+DataCite members and repositories upload monthly reports about data usage to DataCite using a standard format ([COUNTER Code of Practice for Research Data Usage Metrics](https://www.projectcounter.org/counter-code-practice-research-data-usage-metrics-release-1/) and protocol ([SUSHI](https://www.projectcounter.org/code-of-practice-sections/sushi/)). COUNTER Code of Practice for Research Data Usage Metrics and the DataCite usage reports API were developed in the previous MDC project.
 
 ### GraphQL API
-The DataCite GraphQL API built in the EC-funded FREYA project brings together all the above information in a single API that supports the complex queries needed for retrieving data citation information.
+The DataCite GraphQL API built in the EC-funded [FREYA](https://www.project-freya.eu/en) project brings together all the above information in a single API that supports the complex queries needed for retrieving data citation information.
 
 ### Jupyter Notebooks
-We use Jupyter notebooks to analyze and visualize the information made available in the GraphQL API, and have developed documentation, demos and training material with our partners in the FREYA project.
+We use Jupyter notebooks to analyze and visualize the information made available in the GraphQL API, and have developed documentation, demos, and training material with our partners in the FREYA project.
 
 ### Common DOI Search
-Common DOI Search, a service currently under development by DataCite with help from Crossref and others in the EC-funded FREYA project, will bring a single search interface for all scholarly DOIs, no matter from which DOI registration agency (DataCite, Crossref, etc.). All DOIs in Common DOI Search are in a single search cluster using the same DataCite metadata format.
+Common DOI Search, a service currently under development by DataCite with help from Crossref and others in the FREYA project and with a first version planned to be released in August, will bring a single search interface for all scholarly DOIs, no matter from which DOI registration agency (DataCite, Crossref, etc.). All DOIs in Common DOI Search are in a single Elasticsearch search cluster using the same DataCite metadata schema.
 
 ### Data Metrics Badge
-The Data Metrics Badge – developed as part of the Parsec project – is an easy to install Javascript widget that displays citations, views and downloads for a single DOI, and links to the DataCite Search page for more detailed information.
+The Data Metrics Badge – developed as part of the [Parsec](http://www.belmontforum.org/projects/4057/) project – is an easy to install Javascript widget that displays citations, views and downloads for a single DOI, and links to the DataCite Search page for more detailed information.
 
-### 
+
 
