@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The DataCite MDS Stack
+title: The DataCite MDC Stack
 author:
   - mfenner
   - kjgarza
