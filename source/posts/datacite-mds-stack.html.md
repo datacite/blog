@@ -27,13 +27,13 @@ The bibliometrics dashboard
 In the MDC initiative we track data citations in the scholarly literature, focussing on datasets registered with DataCite and publications registered with Crossref.
 
 ### Event Data
-We use the joint Crossref/DataCite Event Data service to exchange information about connections between publications and datasets, contributed via Crossref and DataCite members and the metadata they register. These connections are also made available to all other users via a [Scholix](http://www.scholix.org/)-compliant REST API. In the previous MDC project the Event Data service was expanded to include data usage stats and make reporting easier for DataCite members.
+We use the joint Crossref/DataCite Event Data service to exchange information about connections between publications and datasets, contributed via Crossref and DataCite members and the metadata they register. These connections are also made available via a [Scholix](http://www.scholix.org/)-compliant REST API. In the previous MDC project the Event Data service was expanded to include data usage stats and make retrieving information easier for DataCite members.
 
 ### Data Usage Reports
 DataCite members and repositories upload monthly reports about data usage to DataCite using a standard format ([COUNTER Code of Practice for Research Data Usage Metrics](https://www.projectcounter.org/counter-code-practice-research-data-usage-metrics-release-1/) and protocol ([SUSHI](https://www.projectcounter.org/code-of-practice-sections/sushi/)). COUNTER Code of Practice for Research Data Usage Metrics and the DataCite usage reports API were developed in the previous MDC project.
 
 ### GraphQL API
-The DataCite GraphQL API built in the EC-funded [FREYA](https://www.project-freya.eu/en) project brings together all the above information in a single API that supports the complex queries needed for retrieving data citation information.
+The DataCite GraphQL API built in the EC-funded [FREYA](https://www.project-freya.eu/en) project brings together all the above information in a single API that supports the complex queries typically needed for retrieving aggregated data citation information.
 
 ### Jupyter Notebooks
 We use Jupyter notebooks to analyze and visualize the information made available in the GraphQL API, and have developed documentation, demos, and training material with our partners in the FREYA project.
@@ -44,5 +44,5 @@ Common DOI Search, a service currently under development by DataCite with help f
 ### Data Metrics Badge
 The Data Metrics Badge – developed as part of the [Parsec](http://www.belmontforum.org/projects/4057/) project – is an easy to install Javascript widget that displays citations, views and downloads for a single DOI, and links to the DataCite Search page for more detailed information.
 
-
-
+### Bibliometrics Dashboard
+All the services described above are required building blocks for the bibliometrics dashboard we will start developing in August. What this work will add is better insights into the data citation data we have collected, primarily helping the bibliometricians in the project, but also available to other users. We will use Jupyter notebooks for exploratory analyses and to address very specific research questions, and data visualizations in the bibliometrics dashboard that address the most common questions, such as the growth of data citations over time.
