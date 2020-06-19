@@ -44,5 +44,9 @@ Common DOI Search, a service currently under development by DataCite with help f
 ### Data Metrics Badge
 The Data Metrics Badge – developed as part of the [Parsec](http://www.belmontforum.org/projects/4057/) project – is an easy to install Javascript widget that displays citations, views and downloads for a single DOI, and links to the DataCite Search page for more detailed information.
 
-### Bibliometrics Dashboard
-All the services described above are required building blocks for the bibliometrics dashboard we will start developing in August. What this work will add is better insights into the data citation data we have collected, primarily helping the bibliometricians in the project, but also available to other users. We will use Jupyter notebooks for exploratory analyses and to address very specific research questions, and data visualizations in the bibliometrics dashboard that address the most common questions, such as the growth of data citations over time.
+## Bibliometrics Dashboard
+All the services described above are required building blocks for the bibliometrics dashboard we will start developing in August. What this work will add is better insights into the data citation data we have collected, primarily helping the bibliometricians in the project, but also available to other users. We will use Jupyter notebooks for exploratory analyses and to address very specific research questions, and data visualizations in the bibliometrics dashboard that address the most common questions, such as the growth of data citations over time. 
+
+The bibliometrics dashboard will expand the work on common DOI search that we are currently building beyond FREYA, which is ending in November. Common DOI search, and also the bibliometrics dashboard, are built using [React](https://reactjs.org/), not only the most popular Javascript framework right now, but also integrating very nicely with GraphQL.
+
+We have picked the popular [Vega](https://vega.github.io/vega/) library for our data visualizations. Vega is not only widely used and very flexible, but also available in versions for Jupyter notebooks ([Altair](https://altair-viz.github.io/getting_started/installation.html)) and React ([React-Vega](https://github.com/vega/react-vega)).
