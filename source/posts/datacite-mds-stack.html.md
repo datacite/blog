@@ -50,14 +50,14 @@ Common DOI Search, a service currently under development by DataCite with help f
 
 The Data Metrics Badge – developed as part of the [Parsec](http://www.belmontforum.org/projects/4057/) project – is an [easy to install ](https://support.datacite.org/docs/displaying-usage-and-citations-in-your-repository)Javascript widget that displays up-to-date citations, views, and downloads for a single DOI, and links to the DataCite Search page for more detailed information. 
 
-![](/images/uploads/noun_dashboard_2172952.png)
-
-
 
 ### Researcher Profile
 
 Also as part of the PARSEC project, we are developing tools that will allow researchers to assess all reuse of their datasets quickly. We have built the [Researcher Profile](https://support.datacite.org/docs/datacite-researcher-profiles) that, using ORCID, brings all your research datasets and their metrics into a single place. 
 
+
+
+![](/images/uploads/noun_dashboard_2172952.png)
 
 
 ## Bibliometrics Dashboard
