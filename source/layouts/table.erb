@@ -10,7 +10,7 @@
               <%= current_page.data.date.strftime("%B %-d, %Y") %> by <%= author_string(current_page.data.author) %>
               • <span class="post-reading-time"></span> read
               <% if current_page.data.doi.present? %>
-                <p><%= link_to("https://doi.org/" + current_page.data.doi, "https://doi.org/" + current_page.data.doi) %></p>
+                <p><%= link_to("https://doi.org/" + current_page.data.doi, "https://doi.org/" + current_page.data.doi, :"data-proofer-ignore" => true) %></p>
               <% end %>
             </div>
 

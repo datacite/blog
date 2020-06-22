@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing the DataCite Blog Relaunch
-author: 
+author:
 - mfenner
 date: '2015-12-28'
 tags:
@@ -26,7 +26,7 @@ pandoc:
     - bibliography: bibliography/references.bib
 ```
 
-The DataCite blog uses the [APA citation style](http://www.apastyle.org/) and stores the references in BibTex format [here](https://blog.datacite.org/bibliography/references.bib). Pandoc uses the [Citation Style Language](http://citationstyles.org/), so it is easy to switch to any of the 5000+ available styles.
+The DataCite blog uses the [APA citation style](http://www.apastyle.org/) and stores the references in BibTex format. Pandoc uses the [Citation Style Language](http://citationstyles.org/), so it is easy to switch to any of the 5000+ available styles.
 
 2. You can use [Github Pages](https://pages.github.com/) to host the blog, but if you want to use `https`, and/or more flexibility with caching and domain names I recommend [Amazon S3](https://aws.amazon.com/s3/). Unless your blog sees a lot of traffic I doubt that the monthly cost is more than $2-5. One other advantage is that you don't have to deal with multiple git branches – which is how Github Pages stores the deployed website – as this can be confusing.
 

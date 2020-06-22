@@ -1,15 +1,16 @@
 ---
 layout: post
 title: Welcoming Children’s Hospital of Philadelphia to the community!
-author: 
-- lrueda
+author:
+  - lrueda
 date: '2017-03-02'
 tags:
-- doi
-- members
+  - doi
+  - members
+location: 'Philadelphia, PA, USA'
 doi: 10.5438/0000-9g41
 ---
-[Children's Hospital of Philadelphia (CHOP)](http://www.chop.edu/) was founded in 1855 as the first hospital in the United States dedicated to the healthcare of children. It has a tradition of research that has spanned nearly a [century](https://www.research.chop.edu/about/overview). The research breakthroughs at CHOP have improved the lives of countless children throughout the world.
+[Children's Hospital of Philadelphia (CHOP)](http://www.chop.edu/) was founded in 1855 as the first hospital in the United States dedicated to the healthcare of children. It has a tradition of research that has spanned nearly a century. The research breakthroughs at CHOP have improved the lives of countless children throughout the world.
 
 ![Center for data-driven discovery in biomedicine](/images/2017/03/d3b.png)
 

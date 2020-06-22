@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From Pilot to Service
-author: 
+author:
 - mfenner
 date: '2015-08-17'
 tags:
@@ -32,7 +32,7 @@ The DataCite/ORCID claim tool was started in 2013 as a fork of the [open source 
 
 ## Search
 
-Allowing users to add works with DataCite DOIs to their ORCID profile should not be done in a separate service, but is ideally part of the standard search interface to DataCite that users use anyway. We therefore have to make [DataCite Labs Search](https://search.datacite.org) at least as good as the current [DataCite Search](http://search.datacite.org/ui). Both services use the [DataCite Search API](http://search.datacite.org/api) as their backend, but the user interface they provide is different. Some of the differences in Labs Search include:
+Allowing users to add works with DataCite DOIs to their ORCID profile should not be done in a separate service, but is ideally part of the standard search interface to DataCite that users use anyway. We therefore have to make [DataCite Labs Search](https://search.datacite.org) at least as good as the current DataCite Search. Both services use the DataCite Search API as their backend, but the user interface they provide is different. Some of the differences in Labs Search include:
 
 * a single search box
 * all information is shown in a list view, no linking to pages on data.datacite.org
@@ -46,7 +46,7 @@ The single input field for searching should be appropriate for most queries, but
 
 ![Citation](/images/2015/08/Bildschirmfoto-2015-08-17-um-14-13-09.png)
 
-Providing the metadata as formatted citation is an important feature that facilitates data citation. With BibTeX and RIS two standard import formats for reference managers are also supported. This feature is basically unchanged since 2013, and relies on the [DOI content negotiation](http://crosscite.org/cn/) API provided by several DOI registration agencies. In addition, COinS is supported, allowing the import of multiple items at once, e.g. into a reference manager.
+Providing the metadata as formatted citation is an important feature that facilitates data citation. With BibTeX and RIS two standard import formats for reference managers are also supported. This feature is basically unchanged since 2013, and relies on the [DOI content negotiation](http://crosscite.org/) API provided by several DOI registration agencies. In addition, COinS is supported, allowing the import of multiple items at once, e.g. into a reference manager.
 
 ![COinS](/images/2015/08/Bildschirmfoto-2015-08-17-um-14-22-48.png)
 

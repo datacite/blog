@@ -6,7 +6,7 @@ author:
 date: '2016-07-05'
 tags:
 - infrastructure
-image: https://blog.datacite.org/images/2016/07/search.png
+image: /images/2016/07/search.png
 doi: 10.5438/vq2t-vr4k
 ---
 This week we relaunched [DataCite Search](https://search.datacite.org), providing a more user-friendly search interface for DataCite metadata. We also added functionality that was not available before.
@@ -23,4 +23,4 @@ In contrast to the previous search user interface the new search is not using th
 
 The software that is providing the search frontend was originally written by Crossref and is also powering the [Crossref Metadata Search](http://search.crossref.org/). As all DataCite software the code is [available](https://github.com/crosscite/doi-metadata-search) as open source software.
 
-The search has been running as Labs Search since last August and many users have provided valuable feedback. The old search user interface is still available at [https://search.datacite.org/ui](https://search.datacite.org/ui).
+The search has been running as Labs Search since last August and many users have provided valuable feedback. The old search user interface is still available at https://search.datacite.org/ui.

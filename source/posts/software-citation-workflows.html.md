@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Software Citation Workflows
-author: 
+author:
 - mfenner
 date: '2015-10-19'
 tags:
@@ -25,7 +25,7 @@ Long-term archiving of software is best done in dedicated data repositories, the
 
 ![Making your code citable](/images/2015/10/Bildschirmfoto-2015-10-18-um-14-01-39.png)
 
-Providing a long-term archive for code is needed to properly cite software, similarly to what we expect for research data and scholarly articles. We of course don't have to use DOIs for this, but DOIs make citation easier by requiring basic citation metadata, are supported by reference managers, and we can provide formatted citations via [DOI content negotiation](http://www.crosscite.org/cn/), e.g. in [DataCite Labs Search](https://search.datacite.org/?query=10.5281/ZENODO.32193):
+Providing a long-term archive for code is needed to properly cite software, similarly to what we expect for research data and scholarly articles. We of course don't have to use DOIs for this, but DOIs make citation easier by requiring basic citation metadata, are supported by reference managers, and we can provide formatted citations via [DOI content negotiation](http://www.crosscite.org/), e.g. in [DataCite Labs Search](https://search.datacite.org/?query=10.5281/ZENODO.32193):
 
 ![Citation style](/images/2015/10/Bildschirmfoto-2015-10-18-um-13-59-34.png)
 

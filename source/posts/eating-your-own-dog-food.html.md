@@ -9,7 +9,7 @@ tags:
 - doi
 - metadata
 - featured
-image: https://blog.datacite.org/images/2016/12/230785.jpg
+image: /images/2016/12/230785.jpg
 doi: 10.5438/4k3m-nyvg
 ---
 [Eating your own dog food](https://newrepublic.com/article/115349/dogfooding-tech-slang-working-out-glitches) is a slang term to describe that an organization should itself use the products and services it provides. For DataCite this means that we should use DOIs with appropriate metadata and strategies for long-term preservation for the scholarly outputs we produce. For the most part this is not research data, but rather technical documents such as the DataCite Schema and its documentation [-@https://doi.org/10.5438/0012].
@@ -57,7 +57,7 @@ The default metadata are metadata that always stay the same for the blog, such a
 
 Finally, there are metadata that we can automatically extract from the blog post, and we are currently doing this for the `description` and `relatedIdentifier`. This blog uses Pandoc and BibTex to generate the references section at the end, and we can fetch this information and convert it into the format needed for `relatedIdentifier`.
 
-Taken together we can provide all metadata that are *required* or *recommended* in the Metadata Schema documentation [-@https://doi.org/10.5438/0012], and we can do this without any extra effort for the author. The full XML is avalailable [here](https://data.datacite.org/application/x-datacite+xml/10.5438/4K3M-NYVG).
+Taken together we can provide all metadata that are *required* or *recommended* in the Metadata Schema documentation [-@https://doi.org/10.5438/0012], and we can do this without any extra effort for the author. The full XML is avalailable [here](https://data.crosscite.org/application/vnd.datacite.datacite+xml/10.5438/4K3M-NYVG).
 
 Not all blog posts need to be cited formally with metadata in a *references* list formatted according to a specific citation style. But these metadata greatly help with discovery, a search in DataCite Search for [eating dog food](http://search.datacite.org/works?query=eating+dog+food) will for example bring up this blog post as the first hit.
 
@@ -65,4 +65,4 @@ Not all blog posts need to be cited formally with metadata in a *references* lis
 
 Using DOIs means that readers not only expect rich metadata that help with citation and discovery, but also that DataCite takes extra care to preserve the blog posts, thinking beyond the particular technical implementation or even the contiuing existence of this blog. This is an area where we do need to do more work, starting with a decision about the best archival format for a blog post (HTML, PDF, [JATS](https://jats.nlm.nih.gov/)?). For now blog posts are hosted in multiple Git repositories ([one of them on Github](https://github.com/datacite/blog)), and in two independent Amazon S3 buckets that each use [versioning](http://docs.aws.amazon.com/AmazonS3/latest/dev/Versioning.html). Multiple locations with versioning are a good start, but more work is clearly needed.
 
-### References
+## References

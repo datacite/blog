@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Persistent Identifiers: Enabling Services for Data Intensive Research'
-author: 
+author:
 - mfenner
 date: '2015-09-22'
 tags:
@@ -50,7 +50,7 @@ Yesterday DataCite and [ePIC](http://www.pidconsortium.eu/) co-hosted the worksh
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/PID_Paris?src=hash">#PID_Paris</a> A. Angjeli: 8.46 million individuals identified by ISNI, among which 2.55 million researchers; and 525 600 organizations</p>&mdash; ISSN Int. Centre (@ISSN_IC) <a href="https://twitter.com/ISSN_IC/status/645940553293647872">September 21, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/project_thor_eu">@project_thor_eu</a> has an Ambassador Programme to benefit from expertise of a widespread network <a href="https://twitter.com/hashtag/pid_paris?src=hash">#pid_paris</a></p>&mdash; DataCite (@datacite) <a href="https://twitter.com/datacite/status/645974819046060032">September 21, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">@project_thor_eu has an Ambassador Programme to benefit from expertise of a widespread network <a href="https://twitter.com/hashtag/pid_paris?src=hash">#pid_paris</a></p>&mdash; DataCite (@datacite) <a href="https://twitter.com/datacite/status/645974819046060032">September 21, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Impact of Data Research findings NY the making data count project <a href="https://twitter.com/hashtag/Pid_paris?src=hash">#Pid_paris</a> <a href="http://t.co/NxGnhmiNrm">pic.twitter.com/NxGnhmiNrm</a></p>&mdash; da|ra (@dara_info) <a href="https://twitter.com/dara_info/status/645978800589795328">September 21, 2015</a></blockquote>

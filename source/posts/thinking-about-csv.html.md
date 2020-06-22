@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thinking about CSV
-author: 
+author:
 - mfenner
 date: '2016-05-04'
 tags:
@@ -19,7 +19,7 @@ The presentations and informal discussions at the conference have been very valu
 One topic that I have been thinking about the past two days is how to add metadata to CSV files while keeping the simplicity of the format. This is important for DataCite, as we want to make the process of registering datasets with metadata painless, and for individual researchers and small research groups the process should be as simple as possible. Two groups have done great work in this area and Jeni Tennison and Dan Fowler gave presentations about their work at CSVconf:
 
 * **Jeni Tennison**: Making CSV part of the web, describing the work of the [CSV on the Web](https://www.w3.org/2013/csvw/wiki/Main_Page) W3C working group
-* **Dan Fowler**: Data Packages and Frictionless Data for Research, talking about the work Open Knowledge has done on defining [data packages](http://dataprotocols.org/data-packages/)
+* **Dan Fowler**: Data Packages and Frictionless Data for Research, talking about the work Open Knowledge has done on defining [data packages](https://frictionlessdata.io/data-packages/)
 
 Both groups use a JSON file to describe the metadata of an associated CSV file. While it is a straightforward process, it still feels as if we are leaving the simplicity of the CSV format. And when we generate a JSON file to describe the metadata, we might as well convert the CSV into JSON and put the metadata into the same file.
 
@@ -47,6 +47,6 @@ Alternatively we might want to read in the CSV from an external file, using a ta
 ,[CSVconf Speakers](/_data/speakers.csvy)
 ```
 
-CSVY is compatible with [CSV on the Web](https://www.w3.org/2013/csvw/wiki/Main_Page) and [data packages](http://dataprotocols.org/data-packages/) described above as it should be easy to convert the CSVY file with YAML header into a CSV file and JSON file with the metadata, and then host the two files on the web using the CSV on the Web recommendations.
+CSVY is compatible with [CSV on the Web](https://www.w3.org/2013/csvw/wiki/Main_Page) and [data packages](https://frictionlessdata.io/specs/data-package/) described above as it should be easy to convert the CSVY file with YAML header into a CSV file and JSON file with the metadata, and then host the two files on the web using the CSV on the Web recommendations.
 
 CSVY is not meant to cover all use cases for CSV files, but should be useful to many people working with CSV. The critical factor is of course tool support in languages that commonly are used to work with CSV files, e.g. Python, R, and Javascript. I learned today that the [rio package for R](https://cran.r-project.org/web/packages/rio/index.html) is supporting CSVY, so that is a great start. For more information about CSVY go to [http://csvy.org](http://csvy.org).

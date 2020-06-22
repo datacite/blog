@@ -16,7 +16,7 @@ Since ORCID’s inception, our key goal has been to unambiguously identify resea
 
 There’s already been a lot of excitement about Auto-Update: [Crossref’s recent announcement](https://www.crossref.org/blog/crossref-to-auto-update-orcid-records/) about the imminent launch generated a flurry of discussion and celebration on social media. Our own [tweet](https://twitter.com/ORCID_Org/status/647020600192581633) on the topic was viewed over 10,500 times and retweeted by 60 other accounts.
 
-So why all the fuss? We think Auto-Update will transform the way researchers manage their scholarly record. Until now, researchers have had to manually maintain their record, connecting new activities as they are made public. In ORCID, that meant using [Search & Link](http://support.orcid.org/knowledgebase/articles/188278-link-works-website-user) tools developed by our member organizations to claim works manually. Researchers frequently ask,  “Why, if I include my ORCID iD when I submit a manuscript or dataset, isn’t my ORCID record “automagically” updated when the work is published?”
+So why all the fuss? We think Auto-Update will transform the way researchers manage their scholarly record. Until now, researchers have had to manually maintain their record, connecting new activities as they are made public. In ORCID, that meant using [Search & Link](https://support.orcid.org/hc/en-us/articles/360006973653-Add-works-by-direct-import-from-other-systems) tools developed by our member organizations to claim works manually. Researchers frequently ask,  “Why, if I include my ORCID iD when I submit a manuscript or dataset, isn’t my ORCID record “automagically” updated when the work is published?”
 
 With the launch of Auto-Update, that is just what will happen.
 
@@ -25,7 +25,7 @@ With the launch of Auto-Update, that is just what will happen.
 * **Researchers**. You need to do two things: (1) use your ORCID iD when submitting a paper or dataset, and (2) authorize Crossref and DataCite to update your ORCID record. In keeping with our commitment to ensuring that researchers maintain full control of their ORCID record, you may revoke this permission at any time, and may also choose privacy settings for the information posted on your record.
 * **Publishers and data centers**. These organizations also have two things to do: (1) collect ORCID identifiers during the submission workflow, using a process that involves authentication (not a type-in field!), and (2) embed the iD in the published paper and include the iD when submitting information to Crossref or DataCite.
 * **Crossref and DataCite**. Upon receipt of data from a publisher or data center with a valid identifier, Crossref or DataCite can automatically push that information to the researcher’s ORCID record.
-More information about how to opt out of this service can be found here: [the ORCID Inbox](http://support.orcid.org/knowledgebase/articles/665437-the-orcid-inbox).
+More information about how to opt out of this service can be found here: [the ORCID Inbox](https://support.orcid.org/hc/en-us/articles/360006972953).
 
 ![Automagically](/images/2015/10/graph.png)
 
@@ -43,7 +43,7 @@ This is the beginning of the end for the endless rekeying of information that pl
 
 #### Q. What do I need to do to sign up for auto-update?
 
-You need to grant permission to Crossref and DataCite to post information to your ORCID record.  You can do this today by using the Search and Link wizard for DataCite available through the ORCID Registry or the [DataCite Search](https://search.datacite.org/) page. We also have added a new ORCID Inbox, so that you can receive a message from Crossref or DataCite if they receive a datafile with your iD, and you can grant permission directly. See [more on the ORCID Inbox](http://support.orcid.org/knowledgebase/articles/665437-the-orcid-inbox).
+You need to grant permission to Crossref and DataCite to post information to your ORCID record.  You can do this today by using the Search and Link wizard for DataCite available through the ORCID Registry or the [DataCite Search](https://search.datacite.org/) page. We also have added a new ORCID Inbox, so that you can receive a message from Crossref or DataCite if they receive a datafile with your iD, and you can grant permission directly. See [more on the ORCID Inbox](https://support.orcid.org/hc/en-us/articles/360006972953).
 
 #### Q. Will Crossref and DataCite be able to update my ORCID record with already published works for which I did not use my ORCID iD?
 

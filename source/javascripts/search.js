@@ -10,24 +10,25 @@ if (!params.empty()) {
   if (page === null) { page = 1; }
   var per_page = 10;
   var query = getParameterByName('query');
-  var tag = getParameterByName('tag');
+  var tag = getParameterByName('subject');
+  var api_url = "https://api.datacite.org/dois"
 
-  var query_url = encodeURI(search_url + "/pages?page[size]=" + per_page + "&page[number]=" + page);
+  var query_url = encodeURI(api_url + "?page[size]=" + per_page + "&page[number]=" + page + "&client-id=datacite.blog&sort=-created&state=findable");
   if (query !== null) { query_url += "&query=" + query; }
-  if (tag !== null) { query_url += "&tag=" + tag; }
+  if (tag !== null) { query_url += "&subject=" + tag; }
 }
 
 // load the data from the DataCite API
 if (query_url) {
   d3.json(query_url)
-    .get(function(error, json) {
+    .get(function (error, json) {
       if (error) { return console.warn(error); }
       searchResult(json);
 
       json.meta["page"] = page;
-      json.meta["total_pages"] = Math.ceil(json.meta.total/per_page);
+      json.meta["total_pages"] = Math.ceil(json.meta.total / per_page);
       paginate(json, "#content");
-  });
+    });
 }
 
 // add search results to page
@@ -39,7 +40,7 @@ function searchResult(json) {
 
   json.href = "?page={{number}}";
   if (query !== null) { json.href += "&query=" + query; }
-  if (tag !== null) { json.href += "&tag=" + tag; }
+  if (tag !== null) { json.href += "&subject=" + tag; }
 
   if (typeof data === "undefined" || data.length === 0) {
     d3.select("#content").text("")
@@ -55,7 +56,7 @@ function searchResult(json) {
       .text(numberWithDelimiter(json.meta.total) + " Posts");
   }
 
-  for (var i=0; i<data.length; i++) {
+  for (var i = 0; i < data.length; i++) {
     var post = data[i];
     post["url"] = post.attributes.url.replace(/https:\/\/blog.datacite.org/, site_url);
 
@@ -70,22 +71,30 @@ function searchResult(json) {
       .append("h3")
       .attr("class", "work")
       .append("a")
-      .attr("href", function() { return post.url; })
-      .text(post.attributes.title);
+      .attr("href", function () { return post.url; })
+      .text(post.attributes.titles[0].title);
+    var descriptions = post.attributes.descriptions;
+    if(descriptions.length < 1) {
+      var description = "";
+    }else{
+      var description = post.attributes.descriptions[0].description;
+    }
+  
     d3.select("#panel-body-" + i).append("section")
       .attr("class", "post-excerpt")
       .attr("itemprop", "description").insert("p")
-      .html(post.attributes.description);
+      .html(description);
+  
 
     d3.select("#panel-" + i).insert("div")
       .attr("class", "panel-footer")
       .attr("id", "panel-footer-" + i);
 
-    if (post.attributes.issued !== null) {
+    if (post.attributes.dates[0].date !== null) {
       d3.select("#panel-footer-" + i).insert("span")
         .attr("class", "meta").append("time")
-        .attr("datetime", post.attributes.issued)
-        .text(formattedDate(post.attributes.issued.substring(0, 10)));
+        .attr("datetime", post.attributes.dates[0].date)
+        .text(formattedDate(post.attributes.dates[0].date.substring(0, 10)));
     } else {
       d3.select("#panel-footer-" + i).insert("span")
         .attr("class", "meta")
@@ -94,24 +103,25 @@ function searchResult(json) {
 
     d3.select("#panel-footer-" + i).insert("span")
       .attr("class", "meta")
-      .text(formattedAuthorList(post.attributes.author));
+      .text(formattedCreatorList(post.attributes.creators));
 
     d3.select("#panel-footer-" + i).insert("a")
-      .attr("href", function() { return post.attributes.url + "#disqus_thread"; })
-      .attr("data-disqus-identifier", post.id)
+      .attr("href", function () { return post.attributes.url + "#disqus_thread"; })
+      .attr("data-disqus-identifier", post.attributes.url)
+      .attr("class", "disqus-comment-count")
       .attr("class", "pull-right")
       .text("0 comments");
   }
 
   // convert tags object to array for sorting
-  tags = Object.keys(meta.tags);
+  tags = Object.keys(meta.subjects);
 
   if (typeof tags !== "undefined" && tags.length > 0) {
     tags.sort(function (a, b) {
-      if (meta.tags[a] > meta.tags[b]) {
+      if (meta.subjects[a] > meta.subjects[b]) {
         return -1;
       }
-      if (meta.tags[a] < meta.tags[b]) {
+      if (meta.subjects[a] < meta.subjects[b]) {
         return 1;
       }
       // a must be equal to b
@@ -125,24 +135,24 @@ function searchResult(json) {
 
     d3.select("#tags .panel-body").insert("ul");
 
-    for (k = 0; k<tags.length; k++) {
+    for (k = 0; k < tags.length; k++) {
       var key = tags[k];
-      if (tag === key) {
+      if (tag === meta.subjects[key].title) {
         d3.select("#tags .panel-body ul").insert("li")
           .append("a")
-          .attr("href", function() { return "/index.html"; }).insert("i")
+          .attr("href", function () { return "/index.html"; }).insert("i")
           .attr("class", "fa fa-check-square-o");
       } else {
         d3.select("#tags .panel-body ul").insert("li")
           .append("a")
-          .attr("href", function() { return "/index.html?tag=" + key; }).insert("i")
+          .attr("href", function () { return "/index.html?query=" + query + "&subject=" + meta.subjects[key].title.toLowerCase(); }).insert("i")
           .attr("class", "fa fa-square-o");
       }
       d3.select("#tags .panel-body ul li:last-child").insert("span")
-        .text(key);
+        .text(meta.subjects[key].title);
       d3.select("#tags .panel-body ul li:last-child").insert("span")
         .attr("class", "number pull-right")
-        .text(meta.tags[key]);
+        .text(meta.subjects[key].count);
 
     }
   }

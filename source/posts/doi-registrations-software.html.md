@@ -9,9 +9,8 @@ author:
 - arfon
 tags:
 - doi
-- software
-- featured
-image: https://blog.datacite.org/images/2018/05/dois-for-software.png
+- software citation
+image: /images/2018/05/dois-for-software.png
 doi: 10.5438/1nmy-9902
 ---
 

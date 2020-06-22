@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We were out in Force
-author: 
+author:
 - mfenner
 date: '2016-04-19'
 tags:
@@ -9,7 +9,7 @@ tags:
 - software citation
 - github
 - impactstory
-image: https://blog.datacite.org/images/2016/04/impactstory.png
+image: /images/2016/04/impactstory.png
 location: Portland, OR, USA
 doi: 10.5438/c3by-vyzs
 ---
@@ -23,4 +23,4 @@ The latest version of the [DataCite Profiles](https://profiles.datacite.org) ser
 
 ![Example of DataCite Profiles Settings Page](/images/2016/04/impactstory.png)
 
-To try out this new functionality, go to the [DataCite Profiles](https://profiles.datacite.org) service, and then after login to your [Settings](https://profiles.datacite.org/users/me). And sign up with Impactstory and GitHub if you haven't done so already.
+To try out this new functionality, go to the [DataCite Profiles](https://profiles.datacite.org) service, and then after login to your [Settings](https://profiles.datacite.org/settings/me). And sign up with Impactstory and GitHub if you haven't done so already.

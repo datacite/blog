@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Using Schema.org for DOI Registration
-author: 
+author:
 - mfenner
 date: '2017-01-09'
 tags:
 - doi
 - schema.org
 - featured
-image: https://blog.datacite.org/images/2016/12/schema-org.png
+image: /images/2016/12/schema-org.png
 doi: 10.5438/0000-00cc
 ---
 Three weeks ago we started assigning DOIs to every post on this blog [@https://doi.org/10.5438/4K3M-NYVG]. The process we implemented uses a new [command line utility](https://github.com/datacite/cirneco) and integrates well with our the publishing workflow, with (almost) no extra effort compared to how we published blog posts before.
@@ -83,7 +83,7 @@ The DataCite blog now uses schema.org in JSON-LD format to embed metadata in mac
 }
 ```
 
-If you are familiar with the DataCite Metadata Schema, it is easy to see how schema.org metadata can be converted into DataCite metadata and used with the DataCite Metadata Store, DataCite’s DOI registration and management service. The properties required by DataCite metadata (DOI, author, title, publisher, publicationYear, resourceTypeGeneral) are standard metadata for blog posts with the exception of the DOI. You can see that the JSON-LD `@id` is the DOI expressed as HTTPS URL (and that the `@id`for authors is their ORCID ID). And there are some naming differences e.g. `name` vs. `title`. The DataCite metadata corresponding to the above schema.org metadata look like this (and [can be downloaded](http://data.datacite.org/application/vnd.datacite.datacite+xml/10.5438/4K3M-NYVG) via DOI content negotiation):
+If you are familiar with the DataCite Metadata Schema, it is easy to see how schema.org metadata can be converted into DataCite metadata and used with the DataCite Metadata Store, DataCite’s DOI registration and management service. The properties required by DataCite metadata (DOI, author, title, publisher, publicationYear, resourceTypeGeneral) are standard metadata for blog posts with the exception of the DOI. You can see that the JSON-LD `@id` is the DOI expressed as HTTPS URL (and that the `@id`for authors is their ORCID ID). And there are some naming differences e.g. `name` vs. `title`. The DataCite metadata corresponding to the above schema.org metadata look like this (and [can be downloaded](http://data.crosscite.org/application/vnd.datacite.datacite+xml/10.5438/4K3M-NYVG) via DOI content negotiation):
 
 ```{xml}
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -153,7 +153,7 @@ The DataCite blog uses "cool" DOIs that are generated from random numbers using 
 
 Blog posts are web pages and the landing page for the DOI also contains the fulltext of the post. But there are good reasons to make a blog post also available in downloadable form, most importantly to facilitate reuse, and for archiving. Journal Article Tag Suite ([JATS](https://jats.nlm.nih.gov/)) is an XML standard for tagging journal articles, used by the [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/) full-text archive of biomedical literature and by an increasing number of scholarly publishers.
 
-JATS is an appropriate format for the blog posts of this blog, and starting this week all of our posts are also available in JATS XML format. You can see the download URL in the schema.org markup (the JATS for this post is [here](https://blog.datacite.org/schema-org-register-dois/schema-org-register-dois.xml)), we will add a more visible link to all posts once some minor tagging issues are resolved. We will also start registering the download URL with the DataCite MDS as `media`, making the JATS XML available to [DOI content negotiation](http://citation.crosscite.org/docs.html), and thus direct download. This should facilitate reuse by others, e.g. aggregation of content from multiple sources and display of content in different formats. This blog uses the [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) license, allowing the copying, redistribution and remixing of the material in any medium or format for any purpose.
+JATS is an appropriate format for the blog posts of this blog, and starting this week all of our posts are also available in JATS XML format. You can see the download URL in the schema.org markup, we will add a more visible link to all posts once some minor tagging issues are resolved. We will also start registering the download URL with the DataCite MDS as `media`, making the JATS XML available to [DOI content negotiation](http://citation.crosscite.org/docs.html), and thus direct download. This should facilitate reuse by others, e.g. aggregation of content from multiple sources and display of content in different formats. This blog uses the [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) license, allowing the copying, redistribution and remixing of the material in any medium or format for any purpose.
 
 ### The blog as container
 
@@ -161,4 +161,4 @@ Also this week we assigned a DOI to the DataCite blog itself [@https://doi.org/1
 
 The alternative would have been to describe the DataCite blog as the `publisher` of our blog posts. We are using **DataCite** as `publisher` instead, as we feel the publisher should be a person or organization.
 
-### References
+## References

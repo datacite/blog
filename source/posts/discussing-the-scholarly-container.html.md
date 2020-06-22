@@ -30,4 +30,4 @@ As important as the containers themselves are tools and services that work with 
 * specify the work needed for DataCite to fully support scholarly containers
 * work with Rufus and OKFN, e.g. on registry support and packaging into a single file
 * work with the broader community on supporting scholarly containers: data repositories, reference managers, tools to analyze datasets, etc.
-* propose a pre-conference workshop for the [Force2016 conference](https://www.force11.org/event/force2016-mark-your-calendars) in April 2016. This conference started out as [Beyond the PDF in 2011](http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-is-epub/), and scholarly containers are a perfect thematic fit.
+* propose a pre-conference workshop for the [Force2016 conference](https://www.force11.org/event/force2016-mark-your-calendars) in April 2016. This conference started out as Beyond the PDF in 2011, and scholarly containers are a perfect thematic fit.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Launching the DataCite Status Page
-author: 
+author:
 - mfenner
 date: '2016-01-11'
 tags:
@@ -9,7 +9,7 @@ tags:
 - datacite
 doi: 10.5438/yhcj-p5hr
 ---
-As a provider of crucial scholarly infrastructure, it is critical that DataCite not only provides a reliable service, but also [properly communicates problems](https://www.crossref.org/blog/problems-with-dx.doi.org-on-january-20th-2015--what-we-know./). The best way to do this is via a central status page, a best practice used by many organizations from [Github](https://status.github.com/) and [Diqus](https://status.disqus.com/) to [Slack](https://status.slack.com/). Because you don't want to run the status page with the rest of your infrastructure (as the page may go down if there is a problem), many organizations use a third-party service.READMORE
+As a provider of crucial scholarly infrastructure, it is critical that DataCite not only provides a reliable service, but also [properly communicates problems](https://www.crossref.org/blog/problems-with-dx.doi.org-on-january-20th-2015-what-we-know./). The best way to do this is via a central status page, a best practice used by many organizations from [Github](https://status.github.com/) and [Diqus](https://status.disqus.com/) to [Slack](https://status.slack.com/). Because you don't want to run the status page with the rest of your infrastructure (as the page may go down if there is a problem), many organizations use a third-party service.READMORE
 
 Today DataCite is launching a status page for all its services at [http://status.datacite.org](http://status.datacite.org). You can also reach the status page via the navigation menu <i class='fa fa-th'></i> in the upper right corner of recently launched DataCite services. Below is more information about the main features of the service.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Data catalog cards: simplifying article/data linking'
-author: 
+author:
 - mfenner
 date: '2016-05-13'
 tags:
@@ -35,6 +35,6 @@ The publisher then links to this data catalog card via the article metadata and 
 
 Several general purpose data repositories already provide most or all of this functionality, I am most familiar with [Dryad](https://www.datadryad.org/), BioStudies [@https://doi.org/10.15252/msb.20156658] and Figshare [@https://figshare.com/blog/Unveiling_figshare_Collections_a_new_way_to_group_content/202]. Data catalog cards probably work best for repositories that a flexible in the kinds of data they take, and repositories that already have integrations with publishers. Not every data repository needs to support this functionality. Data catalog cards are also an opportunity for differentiation, e.g. by providing data curation, help with data review, etc.
 
-My thinking about this topic was triggered by a conversation with [Tim Clark](http://www.massgeneral.org/neurology/researcher_profiles/clark_timothy.aspx) in the context of the DCIP project. The guest post by Dan S. Katz [@https://blog.datacite.org/to-better-understand-research-communication-we-need-a-groid-group-object-identifier] and the discussion around it was another important motivation, and a DataCite blog post from last August [@https://blog.datacite.org/reference-lists-and-tables-of-content] contains some of the ideas expressed here. Obviously this topic is of great interest to DataCite, as we hope that data catalog cards use DataCite DOIs, and that we can help both with making article/data publishing workflows easier, and with discovering data associated with an article.
+My thinking about this topic was triggered by a conversation with [Tim Clark](https://researchers.mgh.harvard.edu/profile?profile_id=1667831) in the context of the DCIP project. The guest post by Dan S. Katz [@https://blog.datacite.org/to-better-understand-research-communication-we-need-a-groid-group-object-identifier] and the discussion around it was another important motivation, and a DataCite blog post from last August [@https://blog.datacite.org/reference-lists-and-tables-of-content] contains some of the ideas expressed here. Obviously this topic is of great interest to DataCite, as we hope that data catalog cards use DataCite DOIs, and that we can help both with making article/data publishing workflows easier, and with discovering data associated with an article.
 
 ## References

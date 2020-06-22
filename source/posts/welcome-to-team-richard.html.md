@@ -7,7 +7,7 @@ author:
 date: '2018-01-18'
 tags:
   - datacite
-image: 'https://blog.datacite.org/images/2018/01/rhallett.jpg'
+image: '/images/2018/01/rhallett.jpg'
 location: 'Bath, United Kingdom'
 doi: 10.5438/prvv-nv23
 ---

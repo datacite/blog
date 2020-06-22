@@ -19,7 +19,6 @@ end
 
 # Load data
 activate :data_source do |c|
-  c.root = "#{ENV['CDN_URL']}/data"
   c.files = [
     "authors.json",
     "links.json"
@@ -28,10 +27,9 @@ end
 
 # Set markdown template engine
 set :markdown_engine, :pandoc
-set :markdown, smartypants: true,
-               metadata: "link-citations",
+set :markdown, metadata: "link-citations",
                csl: "styles/apa.csl",
-               bibliography: "data/references.yaml",
+               bibliography: "data/references.bib",
                lang: "en"
 
 activate :external_pipeline,
@@ -39,7 +37,7 @@ activate :external_pipeline,
   command: build? ? './node_modules/webpack/bin/webpack.js --bail' : './node_modules/webpack/bin/webpack.js --watch -d',
   source: ".tmp/dist",
   latency: 1
-
+  
 # put configuration variables into .env file
 activate :dotenv
 
@@ -70,7 +68,7 @@ helpers do
     id = article.data.doi.present? ? "https://doi.org/" + article.data.doi : url
     version = article.data.version.presence || "1.0"
     keywords = article.data.tags.present? ? article.data.tags.join(", ") : nil
-    license = data.site.license.url || "https://creativecommons.org/licenses/by/4.0/"
+    license = data.site.license.url || "https://creativecommons.org/licenses/by/4.0/legalcode"
     date_created = article.data.date_created.presence || article.data.date
     date_published = article.data.published.to_s == "false" ? nil : article.data.date
 
@@ -101,7 +99,8 @@ helpers do
         "@id" => au[:orcid],
         "givenName" => au[:given],
         "familyName" => au[:family],
-        "name" => au[:name] }.compact
+        "name" => au[:name],
+        "affiliation" => au[:affiliation] }.compact
     end
 
     html = article.render({layout: false})
@@ -202,25 +201,3 @@ end
 activate :directory_indexes
 
 page "/feed.xml", layout: false
-
-# Build-specific configuration
-configure :build do
-  # Minify CSS on build
-  activate :minify_css
-
-  # Minify Javascript on build
-  activate :minify_javascript
-end
-
-# ready do
-#   resources_without_accession_number = sitemap.resources.select { |r| r.data.accession_number.blank? }
-#   namespace = 'MS-'
-#   upper_limit = 1000000
-
-#   resources_without_accession_number.each do |resource|
-#     number = SecureRandom.random_number(upper_limit).to_s
-#     resource.add_metadata accession_number: namespace + number
-#   end
-
-#   resources
-# end

@@ -12,14 +12,14 @@ collections:
     label: "Post"
     folder: "source/posts"
     create: true
-    extension: "md"
+    extension: "html.md"
     format: "yaml-frontmatter"
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Author", name: "author", widget: "list"}
-      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Publish Date", name: "date", widget: "date", format: 'YYYY-MM-DD' }
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Location", name: "location", widget: "string", required: false}

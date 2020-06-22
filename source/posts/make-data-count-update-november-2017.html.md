@@ -1,14 +1,14 @@
 ---
 layout: post
 title: 'Make Data Count Update: November, 2017'
-author: 
+author:
 - dlowenberg
 date: '2017-11-10'
 tags:
 - mdc
 - data-level metrics
 - featured
-image: https://makedatacount.files.wordpress.com/2017/11/mdc.png?w=712
+image: /images/uploads/mdc.png
 doi: 10.5438/fje8-da83
 ---
 *This blog post by Daniella Lowenberg was cross-posted from the [Make Data Count blog](https://makedatacount.org/2017/11/09/make-data-count-update-november-2017/).*
@@ -19,13 +19,13 @@ In September, the MDC team sat down and mapped out the project plan for our two-
 
 ![](https://makedatacount.files.wordpress.com/2017/11/screen-shot-2017-11-08-at-11-30-12-am.png)
 
-This fall the MDC team also spent time traveling to several [conferences](https://makedatacount.org/mdc-webinar-20170913/) to gather early adopters and gauge interest in data usage metrics. Many energetic and thoughtful discussions occurred regarding what the MDC-envisioned full ecosystem of data usage metrics will look like and how various stakeholders can contribute. The main takeaway: there is a need for a comprehensive and standardized way to count and display data level metrics.
+This fall the MDC team also spent time traveling to several [conferences](https://makedatacount.org/2017/11/09/make-data-count-update-november-2017/) to gather early adopters and gauge interest in data usage metrics. Many energetic and thoughtful discussions occurred regarding what the MDC-envisioned full ecosystem of data usage metrics will look like and how various stakeholders can contribute. The main takeaway: there is a need for a comprehensive and standardized way to count and display data level metrics.
 
 ![](https://makedatacount.files.wordpress.com/2017/11/mdc.png?w=712)
 
 Coming up, representatives from the MDC team will be (and hope you can join us) at:
 
-* [American Geophysical Union (AGU)](https://fallmeeting.agu.org/2017/), December 11-15
+* American Geophysical Union (AGU), December 11-15
 * NISO Webinar “Advancing Altmetrics: Best Practices and Emerging Ideas”, December 13
 
 ### So, what is MDC working on outside of these presentations?

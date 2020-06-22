@@ -1,13 +1,13 @@
 ---
 layout: post
 title: New DataCite Metadata Updates Support Software Citation
-author: 
+author:
 - jstarr
 date: '2017-10-23'
 tags:
  - metadata
  - software
-image: https://blog.datacite.org/images/2017/10/fortran.png
+image: /images/2017/10/fortran.png
 doi: 10.5438/nzhx-xx96
 ---
 
@@ -38,6 +38,6 @@ for items being registered, it is not to be used as a version control or source 
 widely available that are ideally suited for that purpose. Instead, DataCite facilitates *software discovery*, *sharing*
 and *citation*.
 
-If you have any specific questions about the new schema please send us a note at [mailto:support@datacite.org](support@datacite.org).
+If you have any specific questions about the new schema please send us a note at [support@datacite.org](mailto:support@datacite.org).
 
 ## References

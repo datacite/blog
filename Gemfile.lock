@@ -122,9 +122,9 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
-    middleman-syntax (2.1.0)
+    middleman-syntax (3.2.0)
       middleman-core (>= 3.2)
-      rouge (~> 1.0)
+      rouge (~> 3.2)
     mini_portile2 (2.4.0)
     minitest (5.14.1)
     multi_json (1.14.1)
@@ -151,7 +151,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rouge (1.11.1)
+    rouge (3.20.0)
     safe_yaml (1.0.5)
     sass (3.4.25)
     servolux (0.13.0)
@@ -171,14 +171,14 @@ PLATFORMS
 
 DEPENDENCIES
   bergamasco (~> 0.3)
-  builder (~> 3.0)
+  builder (~> 3.2, >= 3.2.4)
   html-proofer (~> 3.7, >= 3.7.6)
-  middleman (~> 4.1)
-  middleman-blog (~> 4.0)
+  middleman (~> 4.2)
+  middleman-blog (~> 4.0, >= 4.0.3)
   middleman-data_source (~> 0.8.1)
   middleman-dotenv (~> 2.0)
   middleman-livereload
-  middleman-syntax (~> 2.0)
+  middleman-syntax (~> 3.2)
   pandoc-ruby (~> 2.0)
   tilt (~> 2.0)!
   tzinfo-data

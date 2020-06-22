@@ -7,7 +7,7 @@ date: '2016-12-23'
 tags:
 - doi
 - citation
-image: https://blog.datacite.org/images/2016/12/journal.pone.0105948.g004.png
+image: /images/2016/12/journal.pone.0105948.g004.png
 doi: 10.5438/ct8b-x1ce
 ---
 On Tuesday the journal PLOS ONE celebrated its 10th anniversary (see [blog post](http://blogs.plos.org/plos/2016/12/ten-years-of-advancing-science-as-one/) by PLOS ONE Editor-in-Chief Jörg Heber and [blog post](http://blogs.plos.org/everyone/2016/12/20/the-ride-of-your-life-one-to-the-power-of-10/) by PLOS ONE Managing Editor Iratxe Puebla and PLOS Advocacy Director Catriona MacCallum). PLOS ONE (and PLOS) have changed scholarly publishing in many ways, from a DataCite perspective probably most importantly via the data policy [updated in February 2014](http://blogs.plos.org/everyone/2014/02/24/plos-new-data-policy-public-access-data-2/) that states that
@@ -44,7 +44,7 @@ motion. Plos One 9 (8), <www.plosone.org>. *Link goes to PLOS ONE homepage.*
 
 1. **Earth Surfaces Processes and Landforms** [@https://doi.org/10.1002/esp.3677]. Norris JM, Lorenz RD, Ray J, Jackson B. 2014. Sliding rocks on Racetrack Playa, Death Valley National Park: first observation of rocks in motion. PLoS One 9: e1059448. *Name of first author missing, extra 4 in electronic location identifier*.
 
-1. **Journal of Geology & Geophysics** [@https://doi.org/10.4172/2381-8719.1000256]. Norris RD, Norris JM, Lorenz RD, Ray J, Jackson B (2014) Sliding Rocks on Racetrack Playa, Death Valley National Park: First Observation of Rocks in Motion. PLoS ONE 9 (8), doi: 10.1371/journal.pone.0105948.
+1. **Journal of Geology & Geophysics** Norris RD, Norris JM, Lorenz RD, Ray J, Jackson B (2014) Sliding Rocks on Racetrack Playa, Death Valley National Park: First Observation of Rocks in Motion. PLoS ONE 9 (8), doi: 10.1371/journal.pone.0105948.
 
 1. **Journal of Archaeological Science** [@https://doi.org/10.1016/j.jas.2015.02.009]. Norris, R.D., Norris, J.M., Lorenz, R.D., Ray, J., Jackson, B., 2014. Sliding rocks on Racetrack Playa, Death Valley National Park: first observation of rocks in motion. PLoS One 9 (8), e105948.
 

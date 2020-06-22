@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Content Negotiation Update
-author: 
+author:
 - mfenner
 date: '2017-04-28'
 tags:
@@ -9,7 +9,7 @@ tags:
 - metadata
 - thor
 - featured
-image: https://blog.datacite.org/images/2017/04/cite-apa.png
+image: /images/2017/04/cite-apa.png
 doi: 10.5438/0000-01qj
 ---
 While it is a best practice for DOIs (expressed as URL) to send the user to the landing page for that resource [@https://doi.org/10.7717/peerj-cs.1; @https://10.1101/097196], sometimes we want something else: **metadata**, e.g. to generate a citation, or to go to the **content** itself. The easiest way to do that is to use DOI content negotiation.
@@ -99,6 +99,6 @@ DataCite has rewritten most of the code of the content negotiation service, and 
 * new content type `codemeta`, other content types will be added in the coming months based on user feedback
 * available as open source software via Github [@https://doi.org/10.5438/t1jg-hvhn] and [Docker Hub](https://hub.docker.com/r/crosscite/content-negotiation/).
 
-There is one breaking change that users should be aware of: the content type `text/html` will no longer be supported, as the DOI proxy always forwards requests with this content type to the URL registered in the handle system. Users who want to see a HTML representation of the DOI metadata should go to DataCite Search, i.e. [https://search.datacite.org/works/10.5438/0000-0C2G](https://search.datacite.org/works/10.5438/0000-0C2G) instead of  [https://data.datacite.org/10.5438/0000-0C2G](https://data.datacite.org/10.5438/0000-0C2G). We will be improving the information shown for a single DOI in DataCite Search in the coming months, and appreciate user feedback.
+There is one breaking change that users should be aware of: the content type `text/html` will no longer be supported, as the DOI proxy always forwards requests with this content type to the URL registered in the handle system. Users who want to see a HTML representation of the DOI metadata should go to DataCite Search, i.e. [https://search.datacite.org/works/10.5438/0000-0C2G](https://search.datacite.org/works/10.5438/0000-0C2G) instead of  https://data.datacite.org/10.5438/0000-0C2G. We will be improving the information shown for a single DOI in DataCite Search in the coming months, and appreciate user feedback.
 
 ## References
