@@ -18,11 +18,13 @@ doi: 10.5438/v9pp-7a27
 ---
 In May, the Make Data Count team [announced](https://makedatacount.org/2020/05/05/igniting-change-our-next-steps/) that we have received additional funding from the Alfred P. Sloan Foundation for work on the Make Data Count (MDC) initiative. This will enable DataCite to do additional work in two important areas:
 
-\* Implement a bibliometrics dashboard that enables bibliometricians – funded by a [separate Sloan grant](https://www.scholcommlab.ca/2020/05/04/sloan-announcement/) – to do quantitative studies around data usage and citation behaviors.
+* Implement a bibliometrics dashboard that enables bibliometricians – funded by a [separate Sloan grant](https://www.scholcommlab.ca/2020/05/04/sloan-announcement/) – to do quantitative studies around data usage and citation behaviors.
 
-\* Increase adoption of standardized data usage across repositories by developing a log processing service that offloads much of the hard work from repositories.
+* Increase adoption of standardized data usage across repositories by developing a log processing service that offloads much of the hard work from repositories.
 
 In this blog post, we want to provide more technical details about the upcoming work on the bibliometrics dashboard; the log processing service will be the topic of a future blog post. The bibliometrics dashboard will be based on several important infrastructure pieces that DataCite has built over the past few years, and that are again briefly described below.
+
+![](/images/uploads/noun_dashboard_2172952.png)
 
 ### DOI registration services
 
@@ -55,8 +57,6 @@ The Data Metrics Badge – developed as part of the [Parsec](http://www.belmontf
 ### Researcher Profile
 
 Also as part of the PARSEC project, we have built the [Researcher Profile](https://support.datacite.org/docs/datacite-researcher-profiles) that, using the researcher's ORCID ID, brings all academic outputs and their metrics for a given researcher into a single dashboard. This work serves as a blueprint for other aggregations (e.g. by research organization) in the bibliometrics dashboard.
-
-![](/images/uploads/noun_dashboard_2172952.png)
 
 ## Bibliometrics Dashboard
 
