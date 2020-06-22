@@ -3,7 +3,7 @@ layout: post
 title: The DataCite MDC Stack
 author:
   - mfenner
-  - kjgarza
+  - kgarza
 date: '2020-06-22'
 tags:
   - mdc
