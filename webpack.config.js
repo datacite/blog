@@ -5,7 +5,9 @@ const plugins = require('./webpack/plugins.js');
 module.exports = {
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   entry: {
+    index: './source/javascripts/index.js',
     search: './source/javascripts/search.js',
+    readingTime: './source/javascripts/readingTime.min.js',
   },
   module: {
     rules: [
