@@ -58,7 +58,7 @@ The Data Metrics Badge – developed as part of the [Parsec](http://www.belmontf
 
 Also as part of the PARSEC project, we have built the [Researcher Profile](https://support.datacite.org/docs/datacite-researcher-profiles) that, using the researcher's ORCID ID, brings all academic outputs and their metrics for a given researcher into a single dashboard. This work serves as a blueprint for other aggregations (e.g. by research organization) in the bibliometrics dashboard.
 
-## Bibliometrics Dashboard
+### Bibliometrics Dashboard
 
 All the services described above are required building blocks for the bibliometrics dashboard we will start working on in August. What the dashboard will add is better insights into the data citation data we have collected, primarily helping the bibliometricians in the project, but also available to other users. We will use Jupyter notebooks for exploratory analyses and to address very specific research questions, and data visualizations in the bibliometrics dashboard that address the most common questions, such as the growth of data citations over time. 
 
@@ -66,8 +66,8 @@ The bibliometrics dashboard will expand the common DOI search service that we ar
 
 We have picked the popular [Vega](https://vega.github.io/vega/) library for our data visualizations. Vega is not only widely used and very flexible, but also available in versions for Jupyter notebooks ([Altair](https://altair-viz.github.io/getting_started/installation.html)) and React ([React-Vega](https://github.com/vega/react-vega)).
 
-## Using the Bibliometrics Dashboard
+### Using the Bibliometrics Dashboard
 
 DataCite members and the repositories they work with contribute to the bibliometrics dashboard in important ways, registering content with a DOI and standard metadata facilitating citation, inclusion of references in the metadata, and submission of data repository usage stats. The bibliometrics dashboard will increase our understanding of data citation and data usage stats through the bibliometrics work, but will also provide aggregations of information of interest to our members – for example data citations and data usage over time, by discipline or by repository – not available before. This information is displayed in the bibliometrics dashboard, and available via Jupyter notebooks and the GraphQL API.
 
-## References
+### References
