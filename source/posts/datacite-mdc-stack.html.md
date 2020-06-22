@@ -4,7 +4,7 @@ title: The DataCite MDC Stack
 author:
   - mfenner
   - kjgarza
-date: '2020-06-19'
+date: '2020-06-22'
 tags:
   - mdc
   - data citation
@@ -12,7 +12,9 @@ tags:
   - graphql
   - bibliometrics
   - react
+  - featured
 image: /images/uploads/noun_dashboard_2172952.png
+doi: 10.5438/v9pp-7a27
 ---
 In May, the Make Data Count team [announced](https://makedatacount.org/2020/05/05/igniting-change-our-next-steps/) that we have received additional funding from the Alfred P. Sloan Foundation for work on the Make Data Count (MDC) initiative. This will enable DataCite to do additional work in two important areas:
 
