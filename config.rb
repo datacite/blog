@@ -32,6 +32,12 @@ set :markdown, metadata: "link-citations",
                bibliography: "data/references.bib",
                lang: "en"
 
+activate :external_pipeline,
+  name: :webpack,
+  command: build? ? './node_modules/webpack/bin/webpack.js --bail' : './node_modules/webpack/bin/webpack.js --watch -d',
+  source: ".tmp/dist",
+  latency: 1
+  
 # put configuration variables into .env file
 activate :dotenv
 
@@ -195,12 +201,3 @@ end
 activate :directory_indexes
 
 page "/feed.xml", layout: false
-
-# Build-specific configuration
-configure :build do
-  # Minify CSS on build
-  activate :minify_css
-
-  # Minify Javascript on build
-  activate :minify_javascript
-end
