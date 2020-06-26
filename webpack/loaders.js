@@ -32,13 +32,6 @@ const CSSLoader = {
         sourceMap: true
       }
     },
-    // Not to be used in conjunction with MiniCssExtract
-    // {
-    //   loader: 'style-loader',
-    //   options: {
-    //     sourceMap: true
-    //   }
-    // },
     {
       loader: 'css-loader',
       options: {

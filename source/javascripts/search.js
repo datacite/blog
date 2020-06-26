@@ -1,5 +1,8 @@
 'use strict';
 
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
+
 import * as React from 'react'
 import ReactDOM from 'react-dom'
 import ReactHtmlParser from 'react-html-parser'
@@ -44,9 +47,9 @@ function Search() {
     }
 
     const description = () => {
-      if (!item.attributes.descriptions[0]) return ''
+      if (!item.attributes.descriptions[0]) return '';
   
-      const descriptionHtml = truncate(item.attributes.descriptions[0].description, { 'length': 750, 'separator': '… '})
+      const descriptionHtml = truncate(item.attributes.descriptions[0].description, { 'length': 750, 'separator': '… '});
   
       return (
         <p>
@@ -82,7 +85,6 @@ function Search() {
   }
 
   const FacetItem = ({tag}) => {
-    console.log(tag)
     return (
       <li>
         <a href={facetLink(tag.id)}><i className="fa fa-square-o"></i></a>
