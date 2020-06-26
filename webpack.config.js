@@ -5,10 +5,7 @@ const plugins = require('./webpack/plugins.js');
 module.exports = {
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   entry: {
-    blog: './source/javascripts/blog.js',
-    members: './source/javascripts/members.js',
-    homepage: './source/stylesheets/homepage.scss',
-    application: './source/stylesheets/application.scss',
+    search: './source/javascripts/search.js',
   },
   module: {
     rules: [

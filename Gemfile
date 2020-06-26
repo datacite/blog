@@ -15,7 +15,7 @@ gem 'middleman-dotenv', '~> 2.0'
 gem 'middleman-livereload'
 gem 'middleman-syntax', '~> 3.2'
 gem 'middleman-data_source', '~> 0.8.1'
-gem 'html-proofer', '~> 3.7', '>= 3.7.2'
+gem 'html-proofer', '~> 3.7', '>= 3.7.6'
 
 # For feed.xml.builder
 gem 'builder', '~> 3.2', '>= 3.2.4'
