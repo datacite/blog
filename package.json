@@ -3,7 +3,8 @@
   "version": "0.3.0",
   "private": true,
   "scripts": {
-    "build": "webpack --config ./webpack.config.js"
+    "build": "webpack --config ./webpack.config.js",
+    "lint": "./node_modules/.bin/eslint . --ext .js"
   },
   "repository": "",
   "engines": {
@@ -19,11 +20,15 @@
     "es5-shim": "~4.1.0",
     "eslint": "^7.2.0",
     "eslint-loader": "^4.0.2",
+    "lodash": "^4.17.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-html-parser": "^2.0.2",
     "webpack-dev-server": "^3.11.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.2",
-    "@babel/preset-env": "^7.10.2",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
     "@babel/preset-typescript": "^7.10.1",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
