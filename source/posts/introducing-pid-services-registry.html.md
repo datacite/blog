@@ -3,11 +3,12 @@ layout: post
 title: Introducing the PID Services Registry
 author:
   - rhallett
-date: 2020-06-26T12:00:00.000Z
+date: 2020-06-26
 tags:
   - freya
   - pid services
   - pid graph
+  - featured
 image: /images/uploads/pidservices-screen.png
 doi: 10.5438/pwjv-9m56
 ---
@@ -22,5 +23,4 @@ The PID Services Registry provides an easy way to look up existing PID services.
 
 The interface provides searching and filtering of the registered services and this is presented using a modern React web application built upon our DataCite GraphQL API. The services were put together by various organizational partners across disciplines, 35 currently registered and we would like to continue growing this.
 
-If you are interested in more information or to register a service here, please contact DataCite support. We will also be planning a webinar to introduce the PID services registry on July 8th at 11am CEST
-
+If you are interested in more information or to register a service here, please contact DataCite support. We will also be planning a webinar to introduce the PID services registry on July 8th at 11am CEST.
