@@ -23,6 +23,9 @@
         <%= current_page.data.tags.map { |tag| "<a href=\"/index.html?tag=#{tag}\">#{tag}</a>" }.join(", ") %>
       </p>
       <% end %>
+      <div style="padding-left:70px">
+        <data-metrics-badge doi=<%= current_page.data.doi %> display="small"></data-metrics-badge>
+      </div>
     </section>
   </div>
 </div>
