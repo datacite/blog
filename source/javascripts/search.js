@@ -1,159 +1,158 @@
-/*global d3 */
+'use strict';
 
-// construct query string
-var params = d3.select("#search-form");
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 
-if (!params.empty()) {
-  var site_url = params.attr('data-site-url');
-  var search_url = params.attr('data-search-url');
-  var page = getParameterByName('page');
-  if (page === null) { page = 1; }
-  var per_page = 10;
-  var query = getParameterByName('query');
-  var tag = getParameterByName('subject');
-  var api_url = "https://api.datacite.org/dois"
+import * as React from 'react'
+import ReactDOM from 'react-dom'
+import ReactHtmlParser from 'react-html-parser'
+import truncate from 'lodash/truncate'
 
-  var query_url = encodeURI(api_url + "?page[size]=" + per_page + "&page[number]=" + page + "&client-id=datacite.blog&sort=-created&state=findable");
-  if (query !== null) { query_url += "&query=" + query; }
-  if (tag !== null) { query_url += "&subject=" + tag; }
-}
+const e = React.createElement;
 
-// load the data from the DataCite API
-if (query_url) {
-  d3.json(query_url)
-    .get(function (error, json) {
-      if (error) { return console.warn(error); }
-      searchResult(json);
+function Search() {
+  const [error, setError] = React.useState(null);
+  const [isLoaded, setIsLoaded] = React.useState(false);
+  const [items, setItems] = React.useState([]);
+  const [tags, setTags] = React.useState([]);
 
-      json.meta["page"] = page;
-      json.meta["total_pages"] = Math.ceil(json.meta.total / per_page);
-      paginate(json, "#content");
-    });
-}
-
-// add search results to page
-function searchResult(json) {
-  data = json.data;
-  meta = json.meta;
-
-  d3.select("#query").property("value", query);
-
-  json.href = "?page={{number}}";
-  if (query !== null) { json.href += "&query=" + query; }
-  if (tag !== null) { json.href += "&subject=" + tag; }
-
-  if (typeof data === "undefined" || data.length === 0) {
-    d3.select("#content").text("")
-      .insert("div")
-      .attr("class", "alert alert-info")
-      .text("No blog posts found.");
-    return;
-  }
-
-  if (json.meta.total > 1) {
-    d3.select("#content").insert("h3")
-      .attr("class", "results")
-      .text(numberWithDelimiter(json.meta.total) + " Posts");
-  }
-
-  for (var i = 0; i < data.length; i++) {
-    var post = data[i];
-    post["url"] = post.attributes.url.replace(/https:\/\/blog.datacite.org/, site_url);
-
-    d3.select("#content").insert("div")
-      .attr("class", "panel panel-default post-list")
-      .attr("id", "panel-" + i).insert("div")
-      .attr("class", "panel-body post-content")
-      .attr("id", "panel-body-" + i);
-
-    d3.select("#panel-body-" + i).append("header")
-      .attr("class", "post-header")
-      .append("h3")
-      .attr("class", "work")
-      .append("a")
-      .attr("href", function () { return post.url; })
-      .text(post.attributes.titles[0].title);
-    var descriptions = post.attributes.descriptions;
-    if(descriptions.length < 1) {
-      var description = "";
-    }else{
-      var description = post.attributes.descriptions[0].description;
+  function ApiError(props) {
+    this.status = props.status;
+    this.message = props.statusText
+    if (!this.message) {
+      if (this.status == 404) this.message = "Not found";
     }
+  }
+
+  const SearchItem = ({item}) => {
+    const creators = () => {
+      if (!item.attributes.creators) return 'No creators'
   
-    d3.select("#panel-body-" + i).append("section")
-      .attr("class", "post-excerpt")
-      .attr("itemprop", "description").insert("p")
-      .html(description);
+      const creatorList = item.attributes.creators.reduce( (sum, creator, index, array) => {
+        const c = creator.familyName ? [creator.givenName, creator.familyName].join(' ') : creator.name
+        
+        // padding depending on position in creators list
+        if (array.length > index + 2) {
+          return sum + c + ', '
+        } else if (array.length > index + 1) {
+          return sum + c + ' and '
+        } else {
+          return sum + c
+        }
+      }, '')
   
-
-    d3.select("#panel-" + i).insert("div")
-      .attr("class", "panel-footer")
-      .attr("id", "panel-footer-" + i);
-
-    if (post.attributes.dates[0].date !== null) {
-      d3.select("#panel-footer-" + i).insert("span")
-        .attr("class", "meta").append("time")
-        .attr("datetime", post.attributes.dates[0].date)
-        .text(formattedDate(post.attributes.dates[0].date.substring(0, 10)));
-    } else {
-      d3.select("#panel-footer-" + i).insert("span")
-        .attr("class", "meta")
-        .text("unpublished");
+      return (
+        creatorList
+      )
     }
 
-    d3.select("#panel-footer-" + i).insert("span")
-      .attr("class", "meta")
-      .text(formattedCreatorList(post.attributes.creators));
-
-    d3.select("#panel-footer-" + i).insert("a")
-      .attr("href", function () { return post.attributes.url + "#disqus_thread"; })
-      .attr("data-disqus-identifier", post.attributes.url)
-      .attr("class", "disqus-comment-count")
-      .attr("class", "pull-right")
-      .text("0 comments");
-  }
-
-  // convert tags object to array for sorting
-  tags = Object.keys(meta.subjects);
-
-  if (typeof tags !== "undefined" && tags.length > 0) {
-    tags.sort(function (a, b) {
-      if (meta.subjects[a] > meta.subjects[b]) {
-        return -1;
-      }
-      if (meta.subjects[a] < meta.subjects[b]) {
-        return 1;
-      }
-      // a must be equal to b
-      return 0;
-    });
-
-    d3.select("#tags")
-      .classed("panel facets", true).insert("div")
-      .attr("class", "panel-body").insert("h4")
-      .text("Tags");
-
-    d3.select("#tags .panel-body").insert("ul");
-
-    for (k = 0; k < tags.length; k++) {
-      var key = tags[k];
-      if (tag === meta.subjects[key].title) {
-        d3.select("#tags .panel-body ul").insert("li")
-          .append("a")
-          .attr("href", function () { return "/index.html"; }).insert("i")
-          .attr("class", "fa fa-check-square-o");
-      } else {
-        d3.select("#tags .panel-body ul").insert("li")
-          .append("a")
-          .attr("href", function () { return "/index.html?query=" + query + "&subject=" + meta.subjects[key].title.toLowerCase(); }).insert("i")
-          .attr("class", "fa fa-square-o");
-      }
-      d3.select("#tags .panel-body ul li:last-child").insert("span")
-        .text(meta.subjects[key].title);
-      d3.select("#tags .panel-body ul li:last-child").insert("span")
-        .attr("class", "number pull-right")
-        .text(meta.subjects[key].count);
-
+    const description = () => {
+      if (!item.attributes.descriptions[0]) return '';
+  
+      const descriptionHtml = truncate(item.attributes.descriptions[0].description, { 'length': 750, 'separator': '… '});
+  
+      return (
+        <p>
+          {ReactHtmlParser(descriptionHtml)}
+        </p>
+      )
     }
+
+    return (
+      <div key={item.id} className="panel panel-default post-list">
+        <div className="panel-body post-content">
+          <header className="post-header"><h3 className="work"><a href={new URL(item.attributes.url).pathname}>{item.attributes.titles[0].title}</a></h3></header>
+          <section className="post-excerpt" itemProp="description">
+            {description()}
+          </section>
+        </div>
+        <div className="panel-footer" id={item.id}>
+          <span className="meta"><time>{new Date(item.attributes.dates[0].date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time></span>
+          <span className="meta">{creators()}</span>
+          <a href={item.attributes.url + "#disqus_thread"} data-disqus-identifier={item.attributes.url} className="pull-right">0 comments</a>
+        </div>
+      </div>
+    );
   }
+
+  function facetLink(id) {
+    let url = '/index.html?';
+    let params = new URLSearchParams(window.location.search);
+    
+    params.set('tag', id);
+    url += params.toString();
+    return url;
+  }
+
+  const FacetItem = ({tag}) => {
+    return (
+      <li>
+        <a href={facetLink(tag.id)}><i className="fa fa-square-o"></i></a>
+        <span>{tag.title}</span>
+        <span className="number pull-right">{tag.count}</span>
+      </li>
+    )
+  }
+
+  React.useEffect(() => {
+    let url = "https://api.datacite.org/dois?client-id=datacite.blog&sort=-created&state=findable"
+    const params = new URLSearchParams(window.location.search)
+    if (params.has('query')) url += '&query=' + params.get('query');
+    if (params.has('tag')) url += '&subject=' + params.get('tag');
+
+    fetch(url)
+      .then((response) => {
+        if (!response.ok) throw new ApiError(response);
+        else return response.json();
+      })
+      .then(
+        (result) => {
+          setIsLoaded(true);
+          setItems(result.data);
+          setTags(result.meta.subjects);
+        },
+        (error) => {
+          setIsLoaded(true);
+          setError(error);
+        }
+      )
+  }, [])
+
+  if (error) {
+    return e(
+      'div', null, 'Error: ' + error.message
+    )
+  }
+
+  // loading should be fast enough, so no need to render before isLoaded
+
+  return (
+    <div className="row">
+      <div className='col-md-9'>
+        <div className="post-list"></div>
+          {items.map(item => (
+            <React.Fragment key={item.id}>
+              <SearchItem item={item} />
+            </React.Fragment>
+          ))}
+      </div>
+      <div className='col-md-3'>
+        {tags &&
+          <div id="tags" className="panel facets">
+            <div className="panel-body">
+              <h4>Tags</h4>
+              <ul>
+              {tags.map(tag => (
+                <FacetItem key={tag.id} tag={tag} />
+              ))}
+              </ul>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  )
 }
+
+const domContainer = document.querySelector('#search-content');
+ReactDOM.render(e(Search), domContainer);

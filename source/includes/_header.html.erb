@@ -1,0 +1,32 @@
+<% if current_page.data.alert %>
+  <div class="alert alert-warning landing-alert">
+    <div class="container text-center">
+      <h5><%= current_page.data.alert %></h5>
+    </div>
+  </div>
+<% end %>
+
+<!-- header start -->
+
+<div class="header" id="navtop">
+  <div class="navbar navbar-<%= current_page.url == "/" ? "default" : "white" %>" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header"
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><%= ENV['SITE_TITLE'] %></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "Support", "http://support.datacite.org" %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- header end -->

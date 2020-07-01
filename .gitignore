@@ -13,3 +13,5 @@
 
 .env
 .netlify
+node_modules
+.tmp/dist

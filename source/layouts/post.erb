@@ -14,7 +14,17 @@
             <% end %>
             • <span class="post-reading-time"></span> read
             <div class="post-meta">
-              <div class="row">
+              <h1><%= current_page.data.title %></h1>
+              <%= current_page.data.date.to_date.strftime("%B %-d, %Y") %> by <%= author_string(current_page.data.author) %>
+              <% if current_page.data.published.to_s == "false" %>
+              • <span class="unpublished">unpublished</span>
+              <% end %>
+              <% if current_page.data.doi.present? %>
+                <p class="doi"><%= link_to("https://doi.org/" + current_page.data.doi, "https://doi.org/" + current_page.data.doi, :"data-proofer-ignore" => true) %></p>
+              <% end %>
+            </div>
+
+            <%= yield %>
 
                 <div class="col-md-6">
                   <% if current_page.data.doi.present? %>
