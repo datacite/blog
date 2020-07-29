@@ -6,6 +6,8 @@ title: >-
 author:
   - rdasler;hcousijn
 date: '2020-07-29'
+tags:
+  - featured
 image: /images/uploads/datacite_badge_final.png
 doi: 10.5438/fw74-1e52
 ---
