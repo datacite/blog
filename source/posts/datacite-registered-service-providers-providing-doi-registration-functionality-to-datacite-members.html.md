@@ -12,11 +12,11 @@ tags:
 image: /images/uploads/datacite_badge_final.png
 doi: 10.5438/fw74-1e52
 ---
-We recognize that as a community-driven organization, our Members make use of various platforms or systems to help them manage their DOI workflow. Many of our Members make use of repository platforms, CRIS systems or other services. In order to better serve our Members, it is critical for us to have a close relationship with these Service Providers to ensure best practice adoption, better understand the needs of our Members, and support the workflows adopted by our Members.
+We recognize that as a community-driven organization, our Members make use of various platforms or systems to help them manage their DOI workflow. Many of our Members make use of repository platforms, CRIS systems or other services. In order to better serve our Members, it is critical for us to have a close relationship with these Service Providers to ensure best practice adoption, better understand the needs of our Members, and support the workflows adopted by our Members.READMORE
 
 ## DataCite Registered Service Providers Program
 
-Today, we’re announcing the launch of the DataCite Registered Service Providers program. A DataCite Registered Service Provider is an organization that has integrated with one of the DataCite APIs in order to allow existing DataCite Members to register DOIs using that Member's own log-in credentials. This program allows DataCite to improve communication between ourselves, our Members, and Service Providers such as repository platforms and CRIS systems. We want to provide guidance and best practices to the Service Providers that integrate with our APIs and to establish a consistent communication channel to hear from Service Providers about how we can address our Members’ needs together. 
+Today, we’re announcing the launch of the DataCite Registered Service Providers program. A DataCite Registered Service Provider is an organization that has integrated with one of the DataCite APIs in order to allow existing DataCite Members to register DOIs using that Member's own log-in credentials. This program allows DataCite to improve communication between ourselves, our Members, and Service Providers such as repository platforms and CRIS systems. We want to provide guidance and best practices to the Service Providers that integrate with our APIs and to establish a consistent communication channel to hear from Service Providers about how we can address our Members’ needs together.
 
 ## Developing the program
 
@@ -30,6 +30,6 @@ It is important to note that organizations that supply DOIs and prefixes as part
 
 ## How to register as a Service Provider
 
-In order to become a Registered Service Provider, organizations must have an integration with a DataCite API and must meet a [set of requirements](https://datacite.org/service-provider-program.html) which includes agreeing to uphold a set of best practices for the handling of DOIs and their metadata. We’ll list the Registered Service Providers on a special page, so that our Members can be confident they’ll get a consistent experience. Registered Service Providers will display a badge on their page so that their potential clients know that they are a registered DataCite Service Provider. 
+In order to become a Registered Service Provider, organizations must have an integration with a DataCite API and must meet a [set of requirements](https://datacite.org/service-provider-program.html) which includes agreeing to uphold a set of best practices for the handling of DOIs and their metadata. We’ll list the Registered Service Providers on a special page, so that our Members can be confident they’ll get a consistent experience. Registered Service Providers will display a badge on their page so that their potential clients know that they are a registered DataCite Service Provider.
 
 If you are a Service Provider interested in the program, you can apply [here](https://formstack.io/F45B4) or email us at [support@datacite.org](mailto:support@datacite.org) for more information.

@@ -10,7 +10,7 @@ tags:
 image: /images/uploads/survey_piechart.png
 doi: 10.5438/99ne-g618
 ---
-As a membership organization, our members are our most important source of information. We try to stay in touch with all our members, look for them at conferences, and take all input seriously. However, to date we hadn’t gathered structured feedback on how we’re doing. To change that, we sent out a member survey at the end of last year. This is the first survey in what will become a yearly member satisfaction survey. 
+As a membership organization, our members are our most important source of information. We try to stay in touch with all our members, look for them at conferences, and take all input seriously. However, to date we hadn’t gathered structured feedback on how we’re doing. To change that, we sent out a member survey at the end of last year. This is the first survey in what will become a yearly member satisfaction survey.
 
 Before I share the results with you, I’d first like to thank all the people who completed the survey. Your input is invaluable! We sent the survey out to our 144 members and received 36 responses, which is a response rate of around 25%. If you read this and would still like to add your answers, please don’t hesitate to contact us and we’re happy to talk to you. 
 
