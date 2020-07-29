@@ -4,7 +4,8 @@ title: >-
   DataCite Registered Service Providers: Providing DOI registration
   functionality to DataCite Members
 author:
-  - rdasler;hcousijn
+  - rdasler
+  - hcousijn
 date: '2020-07-29'
 tags:
   - featured
