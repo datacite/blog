@@ -7,6 +7,7 @@ author:
   - rdasler;hcousijn
 date: '2020-07-29'
 image: /images/uploads/datacite_badge_final.png
+doi: 10.5438/fw74-1e52
 ---
 We recognize that as a community-driven organization, our Members make use of various platforms or systems to help them manage their DOI workflow. Many of our Members make use of repository platforms, CRIS systems or other services. In order to better serve our Members, it is critical for us to have a close relationship with these Service Providers to ensure best practice adoption, better understand the needs of our Members, and support the workflows adopted by our Members.
 
