@@ -3,6 +3,9 @@ layout: post
 title: DataCite is Hiring an Application Developer
 author:
   - mfenner
+tags:
+  - featured
+  - mdc
 date: '2020-08-17'
 doi: 10.5438/4g5x-4k09
 ---
