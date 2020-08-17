@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Application Developer MDC
+title: DataCite is Hiring an Application Developer
 author:
   - mfenner
 date: '2020-08-17'
