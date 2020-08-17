@@ -4,6 +4,7 @@ title: DataCite is Hiring an Application Developer
 author:
   - mfenner
 date: '2020-08-17'
+doi: 10.5438/4g5x-4k09
 ---
 DataCite is looking for a full-stack application developer to join the DataCite development team.
 
