@@ -2,7 +2,7 @@
 layout: post
 title: The new Product Engineering team at DataCite
 author:
-  - Sarala Wimalaratne
+  - swimalaratne
 date: '2020-08-26'
 tags:
   - featured
