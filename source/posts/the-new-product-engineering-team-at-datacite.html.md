@@ -6,7 +6,7 @@ author:
 date: '2020-08-26'
 tags:
   - featured
-doi: 'https://doi.org/10.5438/abbn-yt14'
+doi: 10.5438/abbn-yt14
 ---
 Last month [we announced](https://doi.org/10.5438/ws34-2n45) that DataCite has a new Product Engineering team responsible for DataCite's Product roadmap.
 
