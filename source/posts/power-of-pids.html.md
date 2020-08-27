@@ -22,25 +22,15 @@ DataCite Commons has a lot of content to search for. One of the most important f
 
 DataCite Commons not only has a lot more content to search for but also exposes the connections between DOIs in the form of citations, versions, and collections. DataCite Commons also shows the connections between content with DOIs and people, research organizations, and funders – what we together call the PID Graph of scholarly resources identified via persistent identifiers (PIDs) and connected in standard ways. We integrate with both the [ORCID](https://orcid.org/) and [ROR](https://ror.org/) (Research Organization Registry) APIs to enable a search for (10 million) people and (100,000) organizations and to show the associated content. For funding, we take advantage of the inclusion of Crossref Funder IDs in ROR metadata. We combine these connections, showing a funder, research organization, or researcher not only their content but also the citations and views and downloads if available, together with aggregate statistics such as numbers by year or content type.
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+![](/images/uploads/bildschirmfoto-2020-08-25-um-06.34.23.png "Works by organization")
 
-![alt_text](images/image2.png "image_tooltip")
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image3.png "image_tooltip")
+![](/images/uploads/bildschirmfoto-2020-08-25-um-06.33.07.png "Views, downloads and citations")
 
 ### Metadata
 
 By mapping all Crossref metadata to corresponding metadata in DataCite, we can support much more granular search queries compared to just mapping basic metadata. With this release, we are also launching a new set of filters for content search. We added license type, fields of science, primary language, and DOI registration agency to the existing filters publication year and work type. As described in a July blog post (<https://doi.org/10.5438/1dgk-1m22>), we are using existing controlled vocabularies for these filters (license type: [SPDX](https://spdx.dev/), fields of science: [OECD](https://www.oecd.org/science/inno/38235147.pdf), and language: [ISO639-1](https://www.iso.org/iso-639-language-codes.html)), and are re-indexing all our metadata (almost completed) to align with these standard vocabularies where possible. We encourage our members to use these standard vocabularies when registering content. This should help to find content that has a license that allows unrestricted re-use, and that is in the research field and language we are interested in. Using these widely used vocabularies should help with interoperability with other services. 
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image4.png "image_tooltip")
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image5.png "image_tooltip")
+![](/images/uploads/bildschirmfoto-2020-08-25-um-06.29.39.png "Filtering by license")
 
 ### Technology
 
