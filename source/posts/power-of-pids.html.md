@@ -24,6 +24,8 @@ DataCite Commons not only has a lot more content to search for but also exposes 
 
 ![](/images/uploads/bildschirmfoto-2020-08-25-um-06.34.23.png "Works by organization")
 
+For a single work, e.g. the dataset registered with DOI [@https://doi.org/10.5061/dryad.234](https://commons.datacite.org/doi.org/10.5061/dryad.234), we show views, downloads and citations if available.
+
 ![](/images/uploads/bildschirmfoto-2020-08-25-um-06.33.07.png "Views, downloads and citations")
 
 ### Metadata
