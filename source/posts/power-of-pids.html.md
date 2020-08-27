@@ -43,3 +43,5 @@ The work on DataCite Commons is part of the [FREYA project](https://www.project-
 ### Next steps
 
 While DataCite Commons is open to everyone to help with the discovery of scholarly resources and its connections that are part of the PID Graph, it provides particular value to DataCite members. The service makes their metadata and content available to a wide audience, helps them discover and report connections such as citations and affiliation and funding information, and provides an open platform for further integrations with other services going forward. We will closely work with DataCite members to further align the new service with their needs and the needs of the communities they serve. We will be actively seeking input as we continue to build on the DataCite Commons and there will be a dedicated Open Hours session in the coming months. If you have feedback at this point, please reach out to [DataCite Support](mailto:support@datacite.org) or post a message in the DataCite channel of the PID Forum.
+
+### References
