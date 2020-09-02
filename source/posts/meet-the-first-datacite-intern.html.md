@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Meet the first DataCite intern
+title: Meet the first DataCite intern!
+author:
+  - vferreira
 date: '2020-09-02'
 tags:
   - DataCite
