@@ -30,7 +30,7 @@
     "given": "Veronica",
     "family": "Gomes Ferreira",
     "bio": "DataCite intern",
-    "image_url": "/images/Veronica.jpg",
+    "image_url": "/images/Veronica.jpeg",
     "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
   },
   "kgarza": {
