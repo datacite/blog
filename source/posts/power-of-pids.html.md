@@ -9,6 +9,7 @@ tags:
   - pidgraph
   - freya
 doi: 10.5438/f4df-4817
+image: /images/uploads/bildschirmfoto-2020-08-25-um-06.34.23.png
 ---
 Today DataCite is proud to announce the launch of [DataCite Commons](https://commons.datacite.org), available at <https://commons.datacite.org>. DataCite Commons is a discovery service that enables simple searches while giving users a comprehensive overview of connections between entities in the research landscape. This means that DataCite members registering DOIs with us will have easier access to information about the use of their DOIs and can discover and track connections between their DOIs and other entities. DataCite Commons was developed as part of the EC-funded project Freya and will form the basis of new DataCite services.
 
