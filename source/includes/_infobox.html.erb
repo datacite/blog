@@ -14,12 +14,12 @@
       <% if current_page.data.doi.present? %>
         <p class="published"><%= link_to("https://doi.org/" + current_page.data.doi, "https://doi.org/" + current_page.data.doi, :"data-proofer-ignore" => true) %>
       <% end %>
-      <p class="published"><i class="fa fa-calendar"></i> <time datetime="<%= current_page.data.date.to_date.strftime("%F %R") %>"><%= current_page.data.date.to_date.strftime("%B %-d, %Y") %></time></p>
-      <p class="published"><i class="fa fa-history"></i> <a href="<%= data.site.source_url %>/commits/master/source/<%= current_page.path %>.md">History</a></p>
+      <p class="published"><i class="fas fa-calendar"></i> <time datetime="<%= current_page.data.date.to_date.strftime("%F %R") %>"><%= current_page.data.date.to_date.strftime("%B %-d, %Y") %></time></p>
+      <p class="published"><i class="fas fa-history"></i> <a href="<%= data.site.source_url %>/commits/master/source/<%= current_page.path %>.md">History</a></p>
       <p class="published">© <%= current_page.data.date.to_date.strftime("%Y") %> <%= author_string(current_page.data.author) %>. Distributed under the terms of the <a href="<%= data.site.license.url %>"><%= data.site.license.name %> license</a>.</p>
       <% if current_page.data.tags.size > 0 %>
       <p class="published">
-        <i class="fa fa-tags"></i>
+        <i class="fas fa-tags"></i>
         <%= current_page.data.tags.map { |tag| "<a href=\"/index.html?tag=#{tag}\">#{tag}</a>" }.join(", ") %>
       </p>
       <% end %>

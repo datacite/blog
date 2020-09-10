@@ -87,7 +87,7 @@ function Search() {
   const FacetItem = ({tag}) => {
     return (
       <li>
-        <a href={facetLink(tag.id)}><i className="fa fa-square-o"></i></a>
+        <a href={facetLink(tag.id)}><i className="far fa-square"></i></a>
         <span>{tag.title}</span>
         <span className="number pull-right">{tag.count}</span>
       </li>
