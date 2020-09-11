@@ -19,6 +19,7 @@ end
 
 # Load data
 activate :data_source do |c|
+  c.root = "#{ENV['CDN_URL']}/data"
   c.files = [
     "authors.json",
     "links.json"
