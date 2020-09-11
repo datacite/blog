@@ -7,7 +7,7 @@ source_url: https://github.com/datacite/blog
 search_url: https://api.datacite.org
 default_type: BlogPosting
 institution: DataCite
-logo: https://assets.datacite.org/images/logo-big.png
+logo: https://datacite.org/images/logo-big.png
 prefix: 10.5438
 license:
   name: Creative Commons Attribution
