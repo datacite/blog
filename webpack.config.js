@@ -6,6 +6,8 @@ module.exports = {
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   entry: {
     search: './source/javascripts/search.js',
+    consent: './source/javascripts/consent.js',
+    ga: './source/javascripts/ga.js',
   },
   module: {
     rules: [
