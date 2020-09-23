@@ -24,9 +24,9 @@ function Consent() {
   }
 
   // disabled until ready to launch
-  // const cookieDisabled = true
+  const cookieDisabled = true
 
-  // if (cookieDisabled) return <div></div>
+  if (cookieDisabled) return <div></div>
 
   return (
     <CookieConsent
