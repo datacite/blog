@@ -24,6 +24,11 @@ function Consent() {
       domain = '.stage.datacite.org';
   }
 
+  // disabled until ready to launch
+  const cookieDisabled = true
+
+  if (cookieDisabled) return <div></div>
+
   const cookieStyle = { fontSize: '16px', height: '90px' }
   const linkStyle = { color: '#fecd23' }
 
