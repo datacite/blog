@@ -10,8 +10,6 @@ tags:
   - members
 doi: 10.5438/yx6w-7595
 ---
-## Introduction
-
 As a member organization, it is crucial that all members receive relevant information from us and are kept up to date in a timely manner. For the last couple of years, we have used two google mailing lists: the allmembers list and the allusers list. Last year we [announced](https://doi.org/10.5438/q7r3-f935) that we were planning to replace these mailing lists with mailing lists that will be based on member information available in DataCite Fabrica. This makes it easier for members to keep their own information up to date and therefore ensure that the right people at their organization receive the right information. In this blog post, we outline some of the next steps in this transition process.
 
 ## Member information in Fabrica
