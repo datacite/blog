@@ -23,7 +23,7 @@ function Consent() {
     case 4:
       domain = '.stage.datacite.org';
   }
-
+ 
   const cookieStyle = { fontSize: '16px', height: '90px' }
   const linkStyle = { color: '#fecd23' }
 
