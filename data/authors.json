@@ -32,7 +32,14 @@
     "bio": "DataCite intern",
     "image_url": "/images/Veronica.jpeg",
     "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization" }
-  },
+     },
+  "rwynne": {
+    "name": "Richard Wynne",
+    "given": "Richard",
+    "family": "Wynne",
+    "bio": "Founder of Rescognito",
+    "orcid": "https://orcid.org/0000-0002-9217-0407",
+     },
   "kgarza": {
     "name": "Kristian Garza",
     "given": "Kristian",
