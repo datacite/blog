@@ -7,7 +7,9 @@ date: '2020-10-22'
 ---
 _DataCite occasionally has guest blog posts that illustrate how the community makes use of DataCite services or metadata. In this post we hear from Richard Wynne from Rescognito, who have started using DataCite metadata to explore how persistent identifiers can be used to recognize a broader set of research contributions. DataCite continues to participate in various related community initiatives, including Make Data Count and the RDA SHARC interest group, in order to gather input on this topic._
 
-## Background
+## 
+
+Background
 
 These are exciting times for scholarly publishing infrastructure! The most important components of scholarly workflow are now represented by well-established persistent identifiers (PIDs) and supporting metadata:
 
@@ -15,100 +17,46 @@ These are exciting times for scholarly publishing infrastructure! The most impor
 * ORCID – for identification of research contributors
 * ROR – for institutional identification
 
-
-
 Collectively this infrastructure represents a new “operating system” for scholarly workflow and offers exciting opportunities to rethink how research output is tracked and evaluated.
 
-
-
-Rescognito is a small start-up organization focused on exploring how persistent identifiers can be used to recognize a broader set of research contributions than has been possible using traditional measures of impact and citation counting.
-
-
+[Rescognito](https://rescognito.com/) is a small start-up organization focused on exploring how persistent identifiers can be used to recognize a broader set of research contributions than has been possible using traditional measures of impact and citation counting.
 
 ## Recognizing Datasets
 
-
-
 Thanks to DataCite, it is now easy to obtain a DOI for a dataset and to register contributor ORCID iDs in the metadata. However, dataset publication does not easily fit into the scholarly publication workflow because it evolved to support paper manuscript publication. 
-
-
 
 This means that contributors to datasets (and other non-manuscript objects) go under-recognized.
 
-
-
 Rescognito is exploring how this issue can be addressed and we would like your feedback and suggestions. 
-
-
 
 We have created a Dataset Recognition Checklist. For example, this checklist can be automatically displayed for any Zenodo DOI (provided there are associated ORCID iDs in the metadata). 
 
-
-
 Just add the Zenodo DOI to the end of the relevant Rescognito URL – here is an example:
 
-
-
-https://rescognito.com/drc/10.5281/zenodo.4017050
-
-
+<https://rescognito.com/drc/10.5281/zenodo.4017050>
 
 This link displays a checklist for completion:
 
-
-
-
-
-
-
-
+![](/images/uploads/rc-dc-1.png)
 
 Using the Dataset Recognition Checklist anyone with an ORCID iD can verifiably “assert” that the dataset was used for a variety of purposes such as: creating visualizations, contributing to public policy or supporting a journal article. 
 
-
-
 Such checklist-based assertions are stored and associated with the dataset DOI and the contributors’ ORCID iDs; and can be displayed in a variety of formats (examples are not real data):
 
+Display based on DOI: (e.g. [https://rescognito.com/v/10.5281/zenodo.4017050 ](https://rescognito.com/v/10.5281/zenodo.4017050))
 
+![](/images/uploads/rc-dc-2.png)
 
-Display based on DOI: (e.g. https://rescognito.com/v/10.5281/zenodo.4017050 )
+Display based on contributor ORCID: (e.g. <https://rescognito.com/0000-0001-8499-824X> )
 
-
-
-
-
-
-
-
-
-Display based on contributor ORCID: (e.g. https://rescognito.com/0000-0001-8499-824X )
-
-
-
-
-
-
-
-
+![](/images/uploads/rc-dc-3.png)
 
 
 
 ## Next steps
 
-
-
 Because Rescognito data is Open and accessed using PIDs, it is easy for individuals and institutions to integrate the data into their applications and workflow.
 
-
-
 The next release of Rescognito will take the next step by allowing researchers to create their own customized checklists associated with DOIs. This means researchers and institutions will be able to easily supplement digital objects with assertions from attributable sources:
-
-
-
-
-
-
-
-
 
 Our platform is still in the early stages of development, we welcome any feedback from the DataCite community.
