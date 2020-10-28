@@ -6,8 +6,8 @@ author:
 date: '2020-10-28'
 tags:
   - featured
-  - pidgraph
-  - freya
+  - policy
+  - license
 doi: 10.5438/vjsa-1540
 ---
 As DataCite continues to scale as a global community with members across 43 countries, it is important that we make sure our operations and policies align to support our growing community of members.
