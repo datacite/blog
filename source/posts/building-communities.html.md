@@ -19,3 +19,5 @@ Earlier this year we set out the Vision 2020[@https://doi.org/10.5438/9j86-bv91]
 3. **Datafile license**. In line with our commitment to openness and ensuring that our members DOIs are reuseable, we worked with our legal counsel to consider the various licensing options available. This follows continued discussions over the last four years and desire from many stakeholders in the community to clarify the specific license associated with the DataCite datafile. In accordance with [DataCite statutes](https://datacite.org/statutes.html), the board approved that the DataCite metadata file be released under CC0 license. CC0 is a useful tool for clarifying that DataCite does not claim copyright in a work anywhere in the world. Although CC0 does not legally require individuals to cite the source, it does not affect the ethical norms for attribution in scientific and research communities. We continue to openly advocate for citation and attribution of research globally.
 
 We continue to seek input from our members and community as our infrastructure scales. Please feel free to provide any feedback or send questions to <mailto:info@datacite.org>.
+
+## References
