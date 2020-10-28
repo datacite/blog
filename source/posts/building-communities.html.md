@@ -10,7 +10,7 @@ tags:
   - license
 doi: 10.5438/vjsa-1540
 ---
-As DataCite continues to scale as a global community with members across 43 countries, it is important that we make sure our operations and policies align to support our growing community of members.
+As DataCite continues to scale as a global community with members across 43 countries, it is important that we make sure our operations and policies align to support our growing community of members.READMORE
 
 Earlier this year we set out the Vision 2020[@https://doi.org/10.5438/9j86-bv91], which included optimising internal operations, systems and processes as one of the strategic priorities for this year. As such, we have spent time reviewing our policies, licenses and agreements with the assistance of our legal counsel. Following this work and discussions in the board meetings, we are pleased to share an update on several key outcomes:
 
