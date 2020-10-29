@@ -1,6 +1,6 @@
 ---
 layout: post
-title: datacite-commons-at-your-service
+title: DataCite Commons at your service
 author:
   - mfenner
 date: '2020-10-29'
