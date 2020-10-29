@@ -19,7 +19,7 @@ We launched a pre-release version of DataCite Commons in August \[@https://doi.o
 
 ![](/images/uploads/bildschirmfoto-2020-10-28-um-11.42.23.png "DataCite Commons data sources summarized on the DataCite Commons statistics page.")
 
-While DataCite Commons includes all PIDs and metadata from DataCite and Research Organization Registry (ROR), it currently includes only a subset of metadata from ORCID, and only a subset of DOIs and metadata from Crossref. Other persistent identifiers for scholarly resources will be added over time. The statistics page shows the current coverage of DataCite Commons and thus the FREYA PID Graph. The statistics page also shows the current numbers of the connections between works, between works and people, and between works and organizations, allowing us to track the growth of the PID Graph over time. 
+While DataCite Commons includes all PIDs and metadata from DataCite and Research Organization Registry (ROR), it currently includes only a subset of metadata from ORCID, and only a subset of DOIs and metadata from Crossref. Other persistent identifiers for scholarly resources will be added over time. The statistics page shows the current coverage of DataCite Commons and thus the FREYA PID Graph. The statistics page also shows the current numbers of the connections between works, between works and people, and between works and organizations, allowing us to track the growth of the PID Graph over time.
 
 ![](/images/uploads/bildschirmfoto-2020-10-28-um-12.02.32.png "DataCite Commons personal accounts showing the ORCID claiming status.")
 
@@ -37,7 +37,7 @@ Based on these requirements we started to investigate if our existing technical 
 
 ### Web frontend development
 
-The GraphQL API we had developed allowed us to address the user stories we identified, and we started to write Jupyter notebooks as a platform that makes it easier to work with the GraphQL API, and in August 2020 the FREYA project released ten Jupyter notebooks addressing some of the user stories we had identified. But APIs and Juypter notebooks are still a significant hurdle for many users, and in the spring of 2020 we started work on a web frontend for the GraphQL API and thus the PID Graph. In August 2020 we launched a pre-release version of this web frontend and called it DataCite Commons [@https://doi.org/10.5438/f4df-4817]. Today we are officially releasing DataCite Commons as the web frontend for the FREYA PID Graph and as a key FREYA contribution to the European Open Science Cloud (EOSC).
+The GraphQL API we had developed allowed us to address the user stories we identified, and we started to write Jupyter notebooks as a platform that makes it easier to work with the GraphQL API, and in August 2020 the FREYA project released ten Jupyter notebooks addressing some of the user stories we had identified [@https://doi.org/10.5281/zenodo.4004426]. But APIs and Juypter notebooks are still a significant hurdle for many users, and in the spring of 2020 we started work on a web frontend for the GraphQL API and thus the PID Graph. In August 2020 we launched a pre-release version of this web frontend and called it DataCite Commons [@https://doi.org/10.5438/f4df-4817]. Today we are officially releasing DataCite Commons [@https://doi.org/10.14454/qgk4-zs88] as the web frontend for the FREYA PID Graph and as a key FREYA contribution to the European Open Science Cloud (EOSC).
 
 ### Monitoring and feedback
 
