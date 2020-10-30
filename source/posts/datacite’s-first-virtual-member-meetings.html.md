@@ -5,7 +5,8 @@ author:
   - mhirsch
 date: '2020-10-30'
 tags:
-  - feature
+  - featured
+image: /images/uploads/screen-shot-2020-10-30-at-16.14.47.png
 doi: 10.5438/jr56-bd14
 ---
 Humanity will remember 2020 for lots of reasons. Maybe one of them will be that it was the year that conferences and meetings around the globe went online. Maybe this trend won’t last, but for many, the challenge of bringing together communities to try and replicate the in person meeting experience with a virtual one, could not be missed. DataCite stepped up to the challenge by bringing our annual member meeting to the virtual realm in 3 different time zones; EMEA, APAC and AMER. Here’s a summary.
