@@ -49,7 +49,7 @@ Next up were 3 short talks from members in each region, who shared their DataCit
 
 **EMEA Member talks - view the recording** [**here**](https://www.youtube.com/watch?v=NvRVWA91Ibs&feature=youtu.be)
 
-1. Building a DataCite consortium - Irina Sens, TIB, German
+1. Building a DataCite consortium - Irina Sens, TIB, Germany
 
 * download presentation [here](https://datacite.org/assets/Membermeeting2020_howtobuildaconsortium_TIB.pdf).
 
