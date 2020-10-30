@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DataCites First Virtual Member Meetings
+title: "DataCite's First Virtual Member Meetings"
 author:
   - mhirsch
 date: "2020-10-30"
