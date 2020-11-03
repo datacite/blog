@@ -22,6 +22,7 @@ Here it is a quick video to show you how it works:
 
 To make the blogpost to show correctly you can copy the template below and added to the top part of your blogpost. Just change the title, author, date and tags.
 
+
 ```
 ---
 layout: post
