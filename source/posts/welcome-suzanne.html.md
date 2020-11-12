@@ -8,9 +8,12 @@ date: '2020-11-12'
 tags:
   - featured
   - staff
+image: /images/uploads/svogt.png
 doi: 10.5438/d3hs-6s25
 ---
 DataCite is pleased to welcome Suzanne Vogt to our team.  Suzanne joined DataCite as an application developer in November 2020.
+
+![](/images/uploads/svogt.png)
 
 ### Can you tell us a little bit about what you did before you started working for DataCite?
 
@@ -26,4 +29,4 @@ I have always been interested in upgrading my knowledge.  I have worked with a n
 
 ### Given your background working on technology for an academic institution, how can DataCite make it easier for them to use DataCite services?
 
-I would have to say that, in general, the key things to making a service easier to use, for anyone, is great documentation, and a meaningful API. 
+I would have to say that, in general, the key things to making a service easier to use, for anyone, is great documentation, and a meaningful API.
