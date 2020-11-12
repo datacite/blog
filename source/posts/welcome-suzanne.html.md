@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome Suzanne
+title: Welcome Suzanne to the DataCite Team!
 author:
   - svogt
   - mfenner
