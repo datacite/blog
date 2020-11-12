@@ -67,6 +67,21 @@
       "@type": "Organization"
     }
   },
+  "svogt": {
+    "name": "Suzanne Vogt",
+    "given": "Suzanne",
+    "family": "Vogt",
+    "bio": "DataCite Application Developer",
+    "orcid": "https://orcid.org/0000-0001-8866-3199",
+    "github": "svogt0511",
+    "email": "suzanne.vogt@datacite.org",
+    "image_url": "/images/svogt.png",
+    "affiliation": {
+      "@id": "https://ror.org/04wxnsj81",
+      "name": "DataCite",
+      "@type": "Organization"
+    }
+  },
   "rhallett": {
     "name": "Richard Hallett",
     "given": "Richard",
