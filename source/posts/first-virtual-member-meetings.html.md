@@ -52,7 +52,7 @@ Next up were 3 short talks from members in each region, who shared their DataCit
 
 1. Building a DataCite consortium - Irina Sens, TIB, Germany
 
-- download presentation [here](https://datacite.org/assets/Membermeeting2020_howtobuildaconsortium_TIB.pdf).
+- download presentation [here](https://datacite.org/assets/How%20to%20build%20a%20consortium_TIB.pdf).
 
 2. Metadata licensing - Nick Sheppard, University of Leeds, UK
 
