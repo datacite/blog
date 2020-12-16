@@ -583,5 +583,20 @@
       "name": "DataCite",
       "@type": "Organization"
     }
+  },
+  "lkrznarich": {
+    "name": "Liz Krznarich",
+    "given": "Liz",
+    "family": "Krznarich",
+    "bio": "DataCite/ROR Adoption Manager",
+    "orcid": "https://orcid.org/0000-0001-6622-4910",
+    "github": "lizkrznarich",
+    "email": "liz.krznarich@datacite.org",
+    "image_url": "/images/liz_krz.jpg",
+    "affiliation": {
+      "@id": "https://ror.org/04wxnsj81",
+      "name": "DataCite",
+      "@type": "Organization"
+    }
   }
 }

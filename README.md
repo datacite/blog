@@ -1,6 +1,6 @@
 # DataCite Blog
 
-[![Build Status](https://travis-ci.org/datacite/blog.svg)](https://travis-ci.org/datacite/blog)
+![Release](https://github.com/datacite/blog/workflows/Release/badge.svg)
 
 ### How to create a Blog post
 
