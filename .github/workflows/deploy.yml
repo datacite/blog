@@ -52,7 +52,7 @@ jobs:
         with:
           channel: '#ops'
           color: 'good'
-          text: 'A new version of the blog has been deployed to <https://blog.stage.datacite.org|stage>.'
+          text: 'A new version of the <https://blog.stage.datacite.org|blog> has been deployed to stage.'
           failure_text: '${env.GITHUB_WORKFLOW} (${env.GITHUB_RUN_NUMBER}) build failed'
           fields: |
             [{ "title": "Commit message", "value": "${{ github.event.head_commit.message }}" },
