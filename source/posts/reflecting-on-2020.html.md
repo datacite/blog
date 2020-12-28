@@ -21,10 +21,12 @@ In our **Development** team, launching DataCite Commons was the most important a
 
 It has been a challenging year for many of us in the community and it is during these times that we realize our collective strength. Despite the challenges we have continued to grow as a global community working together to provide the means to create, find, cite, connect, and use research. The uptake and use of our services also increased and below is a snapshot showing the DOIs registered to date:
 
- 
+![](/images/uploads/bildschirmfoto-2020-12-24-um-21.44.50.png)
+
+![](/images/uploads/bildschirmfoto-2020-12-24-um-21.48.01.png)
 
 I would like to congratulate the team on a successful year and all that you achieved. It is gratifying to close out a year with lots to celebrate and we cannot wait to get 2021 underway. We thank the community for the continued support and look forward to working with you all next year.
 
-As always, please feel free to reach out should you have any questions or would like to get in touch ([info@datacite.org](mailto:info@datacite.org)).
+As always, please feel free to reach out should you have any questions or would like to get in touch (<mailto:info@datacite.org>).
 
 ### References
