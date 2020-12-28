@@ -6,6 +6,7 @@ author:
 date: '2020-12-28'
 tags:
   - featured
+doi: 10.5438/dc6e-ht89
 ---
 As 2020 comes to a close, we reflect back on a year of global uncertainty and many challenges faced by our entire community. It can only be described as a year of the unexpected, and it demonstrated the importance of communities working together. Despite the challenges we faced this year, DataCite also had a year with lots to celebrate and it is important to reflect on some of the highlights. We should celebrate these highlights as our collective success with our members and the broader community. As many of you know, our community now includes members across 44 countries with over 2.300 repositories registering DOIs! 
 
