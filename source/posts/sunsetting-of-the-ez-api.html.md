@@ -2,7 +2,7 @@
 layout: post
 title: Sunsetting of the EZ API
 author:
-  - sarala
+  - swimalaratne
 date: '2021-01-18'
 tags:
   - featured
