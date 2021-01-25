@@ -24,7 +24,7 @@ Can we make the same statements about data citation and data publication behavio
 
 For the bibliometrics analysis, the investigators are using the DataCite Metadata Corpus to search for these answers. Unfortunately, they are facing a challenge. Not all DOI metadata includes disciplinary information, and even when it is present, it is not in a standardized fashion that would make it useful for Bibliometricians. According to a recent analysis, only around 6% of DOI metadata includes disciplinary information in a standard manner.
 
-![](/images/uploads/Screenshot-2021-01-13-distribution-fos.png "Only a small percentage of the DOIs have metadata with standardized disciplinary information")
+![](/images/uploads/oecd-dist.png "Only a small percentage of the DOIs have metadata with standardized disciplinary information")
 
 ## How can repositories help?
 
