@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Are You There, Metadata? It’s Me, the Bibliometrician.
+title: 'Are You There, Metadata? It’s Me, the Bibliometrician'
 author:
   - kgarza
 date: '2021-01-26'
