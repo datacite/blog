@@ -80,28 +80,4 @@ A few repositories have already started to use a standardized disciplinary vocab
 
 Metadata completeness and conformance will continue to be a problem for Bibliometric studies. Nevertheless, DataCite and repositories can help by communicating and coordinating everybody's efforts towards a more conformant and complete metadata corpus that can help the Bibliometrics community advance the understanding of citation and publishing behavior.
 
-
-
-
-
-
-
 ## References
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
