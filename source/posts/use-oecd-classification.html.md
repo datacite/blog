@@ -3,7 +3,7 @@ layout: post
 title: Are You There, Metadata? It’s Me, the Bibliometrician.
 author:
   - kgarza
-date: 2021-01-26T09:44:56.398Z
+date: '2021-01-26'
 tags:
   - featured
   - metadata
@@ -12,7 +12,6 @@ tags:
   - bibliometrics
   - fos
 doi: 10.5438/j4xv-y945
-image: /images/uploads/oecd-dist.png
 ---
 
 In a recent conversation with Dr. Isabella Peters, she mentioned:
