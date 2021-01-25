@@ -3,7 +3,7 @@ layout: post
 title: Are You There, Metadata? It’s Me, the Bibliometrician.
 author:
   - kgarza
-date: 2021-01-23T09:44:56.398Z
+date: 2021-01-26T09:44:56.398Z
 tags:
   - featured
   - metadata
