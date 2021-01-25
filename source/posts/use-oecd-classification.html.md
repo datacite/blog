@@ -28,9 +28,6 @@ For the bibliometrics analysis, the investigators are using the DataCite Metadat
 ![](/images/uploads/Screenshot-2021-01-13-distribution-fos.png "Only a small percentage of the DOIs have metadata with standardized disciplinary information")
 
 
-Why are there so few DOI metadata deposits with standardized disciplinary information? There is no shortage of theories, but the one that I hear most often is that there is no standard way to describe the subject area covered by a given resource. There is truth in that statement; discipline classification is hard, and without a recommended standard, it can be challenging for metadata depositors to align. However, that does not mean we can not strive for a middle ground. 
-
-
 ## How can repositories help?
 
 Although DOI metadata does not have a standard vocabulary for the resource discipline, we can all help by using the same vocabulary recommendation. DataCite metadata has a very flexible Subject property, with sub-properties _SubjectScheme_, _SchemeURI_, and _ValueURI_ that can allow the inclusion of any disciplinary vocabulary.  There are many discipline classification schemes, but the most widely used generic classification scheme is the [OECD Fields of Science classification](https://www.oecd.org/science/inno/38235147.pdf) with six top-level categories and 42 subcategories. As described in a July blog post [@https://doi.org/10.5438/1dgk-1m22], we are mapping, where possible, the controlled vocabularies for fields of science: [OECD](https://www.oecd.org/science/inno/38235147.pdf) and we are re-indexing all our metadata to align with this standard vocabulary. And we encourage our members and their repositories to use this standard vocabulary when registering content with the DataCite APIs. Here are two examples of how to use it:
