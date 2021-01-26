@@ -12,6 +12,7 @@ tags:
   - bibliometrics
   - fos
 doi: 10.5438/j4xv-y945
+image: /images/uploads/oecd-dist.png
 ---
 
 In a recent conversation with Dr. Isabella Peters, she mentioned:
