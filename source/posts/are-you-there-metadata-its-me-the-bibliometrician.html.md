@@ -26,7 +26,7 @@ Can we make the same statements about data citation and data publication behavio
 For the bibliometrics analysis, the investigators are using the DataCite Metadata Corpus to search for these answers. The corpus is composed of all metadata deposits made by Datacite Members and their repositories. Unfortunately, not all DOI metadata deposits include disciplinary information, and even when it is present, it is not in a standardized fashion that would make it useful for Bibliometricians. According to a recent analysis, only around 6% of DOI metadata includes disciplinary information in a standard manner. The metadata completeness and shortage of conformance to a standard are a challenge to the Bibliometric analysis.  
 
 ![](/images/uploads/oecd-dist.png "Only a small percentage of the DOIs have metadata with standardized disciplinary information")
-<sub><sup>Distribution of standarised Datacite DOI metadata by Field of Science. Only a small percentage of the DOIs have metadata with standardized disciplinary information</sup></sub>
+<center><sub><sup>Distribution of standarised Datacite DOI metadata by Field of Science. Only a small percentage of the DOIs have metadata with standardized disciplinary information</sup></sub></center>
 
 ## How can repositories help?
 
@@ -56,7 +56,7 @@ We are also supporting the [Australian and New Zealand Standard Research Classif
 Furthermore, we have implemented the OECD Fields of Science classification in the DOI form in Fabrica, and when you select a field of science using the form, you can be sure your metadata would be in standardized values.
 
 ![](/images/uploads/bildschirmfoto-2020-07-09-um-07.51.23.png "DOI form with a selection of subject using the OECD Classification")
-<sub><sup>DOI form with a selection of subject using the OECD Classification</sup></sub>
+<center><sub><sup>DOI form with a selection of subject using the OECD Classification</sup></sub></center>
 
 
 If you lead a single discipline repository (e.g., AUSSDA, CCDC, etc.), you can significantly help by adopting the same classification to tag all their resources. In many cases, each category in the OECD Fields of Science classification is general enough to encapsulate all the resources in a single discipline repository. At first, classifying all your DOIs with the same category might not seem useful, but the aggregated effect can greatly help bibliometrics studies.
@@ -72,7 +72,7 @@ A few repositories have already started to use a standardized disciplinary vocab
 > > _-- Dr. Daniela Lowenberg. Dryad's Product Manager._
 
 ![](/images/uploads/dryad-oecd.png "Dryad Metadata deposit page with discipline selection using the OECD classification.")
-<sub><sup>Dryad Metadata deposit page with discipline selection using the OECD classification.</sup></sub>
+<center><sub><sup>Dryad Metadata deposit page with discipline selection using the OECD classification.</sup></sub></center>
 
 Metadata completeness and conformance will continue to be a problem for Bibliometric studies. Nevertheless, DataCite and repositories can help by communicating and coordinating everybody's efforts towards a more conformant and complete metadata corpus that can help the Bibliometrics community advance the understanding of citation and publishing behavior.
 
