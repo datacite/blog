@@ -1,11 +1,12 @@
 ---
 layout: post
-title: 2021 underway
+title: 2021 underway!
 author:
   - mbuys
 date: '2021-01-29'
 tags:
   - DataCite
+doi: 10.5438/t9t1-yt25
 ---
 At the end of last year, we had the opportunity to [reflect on 2020](https://doi.org/10.5438/dc6e-ht89) as a year and plan for 2021. It was certainly a challenging year for all of us in the community and it is during these times that we realize our collective strength! Despite the challenges that we had, DataCite continued to grow as a global community working together.
 
