@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ' Looking back and looking forward: the 2020 member survey'
+title: 'Looking back and looking forward: the 2020 member survey'
 author:
   - hcousijn
 date: '2021-02-18'
