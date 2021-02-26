@@ -3,11 +3,14 @@ layout: post
 title: 'Open hours updates: Spring re-launch & open hours for consortium leads'
 date: '2021-02-25'
 author:
-  - rdasler
+  - maryhirsch
 tags: 
   - datacite
   - featured
-doi: 10.5438/vywf-6s91
+  - open_hours
+  - consortium
+doi: 10.5438/2nps-h961
+
 ---
 
 
@@ -23,7 +26,7 @@ More focus on shaping DataCite services and features, including:
 
 - Validating members’ suggestions
 - Experimenting with feedback gathering techniques
-- Providing guidance about how to engage with the DataCite roadmap 
+- Providing guidance about how to engage with the [DataCite roadmap](https://datacite.org/roadmap) 
 
 As always, we will welcome any questions or comments from participants during each meeting and follow-up notes will be sent afterwards..
 
@@ -33,5 +36,5 @@ The shift to bi-monthly open hours meetings for the general community makes room
 
 We’ve heard loud and clear that a venue for consortium leads to connect is needed, so open hours for consortium leads will begin 14 April, with 2 identical sessions at 4pm and 10pm GMT. Meetings will continue every other month, alternating with the general open hours meetings.
 
-We will send invitations to those listed as contacts in Consortium accounts in Fabrica, so, consortium leads, please update your contacts! https://support.datacite.org/docs/consortium-dashboard#settings
+We will send invitations to those listed as contacts in Consortium accounts in Fabrica, so, consortium leads, please update your contacts! in your [settings page](https://support.datacite.org/docs/consortium-dashboard#settings)
 
