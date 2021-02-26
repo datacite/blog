@@ -1,6 +1,6 @@
 ---
 layout: post
-title: launching strategic vision
+title: "What is next? Launching our Strategic Visioning Process"
 author:
   - mbuys
 tags:
