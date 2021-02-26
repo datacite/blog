@@ -49,7 +49,6 @@ To make headers in Markdown, you preface the phrase with a hash mark (#). You pl
 We'll now learn how to make links to other web sites on the world wide web.
 
 To create an inline link, you wrap the link text in brackets ( `[ ]` ), and then you wrap the link in parenthesis ( `( )` ). For example, to create a hyperlink to www.datacite.org, with a link text that says, Visit DataCite!, you'd write this in the blogpost: `[Visit DataCite!](www.datacite.org)`.
-
 [Visit DataCite!](www.datacite.org)
 
 More info in [this](https://doi.org/10.5438/4K3M-NYVG) blog post.
