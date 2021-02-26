@@ -3,8 +3,8 @@ layout: post
 title: 'Open hours updates: Spring re-launch & open hours for consortium leads'
 date: '2021-02-25'
 author:
-  - mhirsch
   - lkrznarich
+  - mhirsch
   - kgarza
 tags: 
   - datacite
