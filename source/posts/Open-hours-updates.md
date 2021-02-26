@@ -4,6 +4,8 @@ title: 'Open hours updates: Spring re-launch & open hours for consortium leads'
 date: '2021-02-25'
 author:
   - maryhirsch
+  - lizkrznarich
+  - kjgarza
 tags: 
   - datacite
   - featured
