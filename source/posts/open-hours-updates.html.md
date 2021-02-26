@@ -3,18 +3,16 @@ layout: post
 title: 'Open hours updates: Spring re-launch & open hours for consortium leads'
 date: '2021-02-25'
 author:
-  - maryhirsch
-  - lizkrznarich
-  - kjgarza
+  - mhirsch
+  - lkrznarich
+  - kgarza
 tags: 
   - datacite
   - featured
   - open_hours
   - consortium
 doi: 10.5438/2nps-h961
-
 ---
-
 
 DataCite Open Hours are an opportunity for anyone in the community to hear the latest updates, ask questions and engage with DataCite staff and other community members. Sometimes there’s even a festive pub quiz!
 
