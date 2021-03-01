@@ -26,7 +26,7 @@ More focus on shaping DataCite services and features, including:
 
 - Validating members’ suggestions
 - Experimenting with feedback gathering techniques
-- Providing guidance about how to engage with the [DataCite roadmap](https://datacite.org/roadmap) 
+- Providing guidance about how to engage with the [DataCite roadmap](https://datacite.org/roadmap.html) 
 
 As always, we will welcome any questions or comments from participants during each meeting and follow-up notes will be sent afterwards..
 
