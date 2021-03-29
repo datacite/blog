@@ -33,18 +33,17 @@ We have made 3 contacts (service, voting and billing) mandatory to allow us to c
 
 1. Add contacts in the new contacts tab
 
-Fill in the contact details
+2. Fill in the contact details
 
-Assign a role in the Member Settings 
+3. Assign a role in the Member Settings 
 
-Please refer to our support pages on contacts workflow for detailed information.
+Please refer to our [support pages on contacts workflow](https://support.datacite.org/docs/account-contacts) for detailed information.
 
-Specific actions for members
+## Specific actions for members
 
 In order to ensure that you continue receiving all communications from DataCite, it is very important that you take the following two steps:
 
-Update your member information in DataCite Fabrica as described here. This also applies to Consortium Organizations who can find instructions here.
-
-When you receive a confirmation email, please click on the link to subscribe to the mailing list. If you don't receive this confirmation email, please contact support@datacite.org.
+1. Update your member information in DataCite Fabrica as described [here](https://support.datacite.org/docs/fabrica-update-provider). This also applies to Consortium Organizations who can find instructions [here](https://support.datacite.org/docs/update-consortium-organizations-settings).
+2. When you receive a confirmation email, please click on the link to subscribe to the mailing list. If you don't receive this confirmation email, please contact support@datacite.org.
 
 We are looking forward to providing you with all relevant information that is customized according to your needs and role in Fabrica.
