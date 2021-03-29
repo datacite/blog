@@ -33,7 +33,7 @@ We have made 3 contacts (service, voting and billing) mandatory to allow us to c
 
 1. Add contacts in the new contacts tab
 
-![]()
+
 
 2. Fill in the contact details
 
