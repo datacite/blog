@@ -4,12 +4,13 @@ title: >-
   Retirement of the DataCite mailing lists: Update your contact information in
   Fabrica to get uptodate information
 author:
-  - Vierkant
+  - swimalaratne
+  - pvierkant
 date: '2021-03-30'
 tags:
   - fabrica
 image: /images/uploads/bildschirmfoto-2021-03-29-um-14.51.18.png
-location: Wonderland
+location: ''
 doi: 10.5438/gq7m-ah78
 ---
 We are happy to announce that we are taking the final step on our way to providing you with all the relevant information you need. We outlined this transition already last year, meaning to move away from our current mailing lists to mailing lists that will be based on member information available in DataCite Fabrica. We are excited to announce that this step will happen this week.
