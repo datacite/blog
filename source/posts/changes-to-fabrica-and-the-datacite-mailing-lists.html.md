@@ -2,7 +2,7 @@
 layout: post
 title: >-
   Changes to Fabrica and the DataCite mailing lists: update your contact
-  information in Fabrica to get uptodate information
+  information in Fabrica to get up-to-date information
 author:
   - swimalaratne
   - pvierkant
@@ -20,7 +20,7 @@ A lot of our members have already updated their contact information in Fabrica s
 
 ## allmembers subscribers should update their information using the new fields in Fabrica
 
-We have made 3 contacts (service, voting and billing) mandatory to allow us to capture vital information to contact our members. To facilitate this we have introduced a new workflow for adding and updating contact information. We have added a new `Contacts` menu to your accounts to manage contact information. `Contacts` area can be used to add, update and delete contact information. Once you have added your contacts via the `Contact` menu, you can assign roles to the added contacts in the `Settings` menu. The added contacts will appear in a drop down menu for you to assign roles for each contact. As of today, all of these changes apply to the Fabrica test environment too. Please note that the option to create new repositories is not available to members with incomplete contact information.
+We have made 3 contacts (service, voting and billing) mandatory to allow us to capture vital information to contact our members. To facilitate this we have introduced a new workflow for adding and updating contact information. We have added a new `Contacts` menu to your accounts to manage contact information. The `Contacts` area can be used to add, update and delete contact information. Once you have added your contacts via the `Contact` menu, you can assign roles to the added contacts in the `Settings` menu. The added contacts will appear in a drop down menu for you to assign roles for each contact. As of today, all of these changes apply to the Fabrica test environment too. Please note that the option to create new repositories is not available to members with incomplete contact information.
 
 1. Add contacts in the new contacts tab
 
@@ -46,11 +46,4 @@ We realize that some of the subscribers on the allusers mailing lists are not pa
 
 ## Specific actions for members
 
-**If your organization hasn’t updated its contact information, please do so in order to receive future communications from DataCite. The current mailing lists, the allmembers and allusers lists, will be retired on April 30, 2021.** This means that from May 1, only contacts listed in Fabrica will receive emails from DataCite. The changes made today in Fabrica will technically take effect in our new communication tool by the end of this week. After you updated your contact information in Fabrica, you’ll receive an email to confirm your subscription to the mailing list at the end of this week. 
-
-In order to ensure that you continue receiving all communications from DataCite, it is very important that you take the following two steps:
-
-1. Update your [Member contacts in DataCite Fabrica](https://support.datacite.org/docs/add-contacts). This also applies to [Consortium leads](https://support.datacite.org/docs/add-contacts-in-fabrica-consortia) and [Consortium Organizations](https://support.datacite.org/docs/add-contacts-in-fabrica-consortium-organizations). 
-2. When you receive a confirmation email, please click on the link to subscribe to the mailing list. If you don't receive this confirmation email, please contact support@datacite.org.
-
-We are looking forward to providing you with all relevant information that is customized according to your needs and role in Fabrica.
+**If your organization hasn’t updated its contact information, please do so in order to receive future communications from DataCite. The current mailing lists, the allmembers and allusers lists, will be retired on April 30, 2021.** This means that from May 1, only contacts listed in Fabrica will receive emails from DataCite. In order to ensure that you continue receiving all communications from DataCite, it is very important that you update your [Member contacts in DataCite Fabrica](https://support.datacite.org/docs/add-contacts). This also applies to [Consortium leads](https://support.datacite.org/docs/add-contacts-in-fabrica-consortia) and [Consortium Organizations](https://support.datacite.org/docs/add-contacts-in-fabrica-consortium-organizations). After you updated your contact information in Fabrica, you’ll receive an email to confirm your subscription to the mailing list. We are looking forward to providing you with all relevant information that is customized according to your needs and role in Fabrica.
