@@ -11,7 +11,7 @@ tags:
   - fabrica
   - PIDforum
   - ''
-image: ''
+image: /images/uploads/bildschirmfoto-2021-03-29-um-14.51.18.png
 location: ''
 doi: 10.5438/gq7m-ah78
 ---
