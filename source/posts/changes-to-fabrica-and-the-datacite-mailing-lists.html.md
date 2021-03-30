@@ -52,7 +52,7 @@ The changes made today in Fabrica will technically take effect in our new commun
 
 In order to ensure that you continue receiving all communications from DataCite, it is very important that you take the following two steps:
 
-1. Update your member information in DataCite Fabrica as described [here](https://support.datacite.org/docs/fabrica-update-provider). This also applies to Consortium Organizations who can find instructions [here](https://support.datacite.org/docs/update-consortium-organizations-settings).
+1. Update your [Member contacts in DataCite Fabrica](https://support.datacite.org/docs/add-contacts). This also applies to [Consortium leads](https://support.datacite.org/docs/add-contacts-in-fabrica-consortia) and [Consortium Organizations](https://support.datacite.org/docs/add-contacts-in-fabrica-consortium-organizations). 
 2. When you receive a confirmation email, please click on the link to subscribe to the mailing list. If you don't receive this confirmation email, please contact support@datacite.org.
 
 We are looking forward to providing you with all relevant information that is customized according to your needs and role in Fabrica.
