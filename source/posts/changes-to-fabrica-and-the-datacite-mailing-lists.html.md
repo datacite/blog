@@ -44,4 +44,17 @@ Please refer to our [support pages on contacts workflow](https://support.datacit
 
 ## allusers subscribers are invited to the PIDforum
 
-We realize that some of the subscribers on the allusers mailing lists are not part of a member organization and are therefore unable to enter their information in Fabrica. Next week, we will invite everyone on the allusers list to join the [PIDforum](https://www.pidforum.org). Created and launched as a key element of global engagement activities on PIDs within the FREYA project, the PIDforum offers different categories and (multilingual) channels to discuss PID related topics. NISO, the National Information Standards Organisation, hosts the PIDforum as a sustainable global resource for persistent identifiers. On the PIDforum DataCite moderates a private DataCite Chat Room where you can discuss DataCite related topics. Going forward, we will share all information that you used to receive via the allusers list in the DataCite chat room. In order to join these channels you need to sign up. An invitation to the PIDforum will be sent to all subscribers of the allusers mailing list next week.
+We realize that some of the subscribers on the allusers mailing lists are not part of a member organization and are therefore unable to enter their information in Fabrica. Next week, we will invite everyone on the allusers list to join the [PIDforum](https://www.pidforum.org). Created and launched as a key element of global engagement activities on PIDs within the FREYA project, the PIDforum offers different categories and (multilingual) channels to discuss PID related topics. NISO, the National Information Standards Organisation, hosts the PIDforum as a sustainable global resource for persistent identifiers. On the PIDforum DataCite moderates a private [DataCite Chat Room](https://www.pidforum.org/c/datacite-chat-room/13) where you can discuss DataCite related topics. Going forward, we will share all information that you used to receive via the allusers list in the DataCite chat room. In order to join these channels you need to sign up. An invitation to the PIDforum will be sent to all subscribers of the allusers mailing list next week. 
+
+## Specific actions for members
+
+**If your organization hasn’t updated its contact information, please do so in order to receive future communications from DataCite. The current mailing lists, the allmembers and allusers lists, will be retired on April 30, 2021.** This means that from May 1, only contacts listed in Fabrica will receive emails from DataCite.
+
+The changes made today in Fabrica will technically take effect in our new communication tool by the end of this week. After you updated your contact information in Fabrica, at the end of this week, you’ll receive an email to confirm your subscription to the mailing list via which we are sending out DataCite emails. 
+
+In order to ensure that you continue receiving all communications from DataCite, it is very important that you take the following two steps:
+
+1. Update your member information in DataCite Fabrica as described [here](https://support.datacite.org/docs/fabrica-update-provider). This also applies to Consortium Organizations who can find instructions [here](https://support.datacite.org/docs/update-consortium-organizations-settings).
+2. When you receive a confirmation email, please click on the link to subscribe to the mailing list. If you don't receive this confirmation email, please contact support@datacite.org.
+
+We are looking forward to providing you with all relevant information that is customized according to your needs and role in Fabrica.
