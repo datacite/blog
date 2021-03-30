@@ -11,7 +11,7 @@ tags:
   - fabrica
   - PIDforum
   - ''
-image: /images/uploads/bildschirmfoto-2021-03-29-um-14.51.18.png
+image: ''
 location: ''
 doi: 10.5438/gq7m-ah78
 ---
@@ -33,7 +33,7 @@ We have made 3 contacts (service, voting and billing) mandatory to allow us to c
 
 1. Add contacts in the new contacts tab
 
-
+![Add contacts in the new contacts tab](/images/uploads/bildschirmfoto-2020-08-25-um-06.33.07.png)
 
 2. Fill in the contact details
 
