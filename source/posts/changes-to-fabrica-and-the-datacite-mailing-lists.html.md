@@ -46,9 +46,7 @@ We realize that some of the subscribers on the allusers mailing lists are not pa
 
 ## Specific actions for members
 
-**If your organization hasn’t updated its contact information, please do so in order to receive future communications from DataCite. The current mailing lists, the allmembers and allusers lists, will be retired on April 30, 2021.** This means that from May 1, only contacts listed in Fabrica will receive emails from DataCite.
-
-The changes made today in Fabrica will technically take effect in our new communication tool by the end of this week. After you updated your contact information in Fabrica, at the end of this week, you’ll receive an email to confirm your subscription to the mailing list via which we are sending out DataCite emails. 
+**If your organization hasn’t updated its contact information, please do so in order to receive future communications from DataCite. The current mailing lists, the allmembers and allusers lists, will be retired on April 30, 2021.** This means that from May 1, only contacts listed in Fabrica will receive emails from DataCite. The changes made today in Fabrica will technically take effect in our new communication tool by the end of this week. After you updated your contact information in Fabrica, you’ll receive an email to confirm your subscription to the mailing list at the end of this week. 
 
 In order to ensure that you continue receiving all communications from DataCite, it is very important that you take the following two steps:
 
