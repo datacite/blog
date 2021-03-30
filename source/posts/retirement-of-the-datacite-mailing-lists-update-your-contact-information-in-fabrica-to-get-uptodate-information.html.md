@@ -33,10 +33,9 @@ We have made 3 contacts (service, voting and billing) mandatory to allow us to c
 
 1. Add contacts in the new contacts tab
 
-![Add contacts in the new contacts tab](/images/uploads/bildschirmfoto-2020-08-25-um-06.33.07.png)
+![Add contacts in the new contacts tab]()
 
 2. Fill in the contact details
-
 3. Assign a role in the Member Settings 
 
 Please refer to our [support pages on contacts workflow](https://support.datacite.org/docs/account-contacts) for detailed information.
