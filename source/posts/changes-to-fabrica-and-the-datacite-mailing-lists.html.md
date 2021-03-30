@@ -20,9 +20,7 @@ A lot of our members have already updated their contact information in Fabrica s
 
 ## allmembers subscribers should update their information using the new fields in Fabrica
 
-We have made 3 contacts (service, voting and billing) mandatory to allow us to capture vital information to contact our members. To facilitate this we have introduced a new workflow for adding and updating contact information. We have added a new `Contacts` menu to your accounts to manage contact information. `Contacts` area can be used to add, update and delete contact information. Once you have added your contacts via the `Contact` menu, you can assign roles to the added contacts in the `Settings` menu. The added contacts will appear in a drop down menu for you to assign roles for each contact. As of today, all of these changes apply to the Fabrica test environment too.
-
-**Please note that the option to create new repositories is not available to members with incomplete contact information.**
+We have made 3 contacts (service, voting and billing) mandatory to allow us to capture vital information to contact our members. To facilitate this we have introduced a new workflow for adding and updating contact information. We have added a new `Contacts` menu to your accounts to manage contact information. `Contacts` area can be used to add, update and delete contact information. Once you have added your contacts via the `Contact` menu, you can assign roles to the added contacts in the `Settings` menu. The added contacts will appear in a drop down menu for you to assign roles for each contact. As of today, all of these changes apply to the Fabrica test environment too. Please note that the option to create new repositories is not available to members with incomplete contact information.
 
 1. Add contacts in the new contacts tab
 
