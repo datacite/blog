@@ -10,9 +10,7 @@ Create a blog entry is really simple. There are 3 simple steps:
 2. Then type your blog post as it were a simple text file and give it a name.
 3. When you finish just click the **Commit new file** button.
 
-The Blog will take care of formatting, sourcing images, spacing, etc by itself. Wait a few minutes and see it live.
-
-Here it is a quick video to show you how it works:
+The Blog will take care of formatting, sourcing images, spacing, etc by itself. Wait a few minutes and see it live. Here it is a quick video to show you how it works:
 
 [![How to create a Blog post](https://img.youtube.com/vi/HPuYi-h7XGI/0.jpg)](https://www.youtube.com/watch?v=HPuYi-h7XGI "How to create a Blog post")
 
