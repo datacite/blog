@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "What's in a name: the release of Metadata Schema 4.4"
+title: 'What''s in a name: the release of Metadata Schema 4.4'
 author:
   - msmaele
-date: "2021-03-31"
+  - ibernal
+date: '2021-03-31'
 tags:
   - datacite
   - metadata
