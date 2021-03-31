@@ -565,6 +565,16 @@
     "name": "Mohamed Yahia",
     "bio": "Inist-CNRS"
   },
+  "ibernal": {
+    "name": "Isabel Bernal",
+    "given": "Isabel",
+    "family": "Bernal",
+    "bio": "CSIC"
+      "affiliation": {
+      "@id": "https://ror.org/02gfc7t72",
+      "name": "Spanish National Research Council",
+      "@type": "Organization"
+  },
   "tbradford": {
     "name": "Tina Bradford",
     "bio": "NRC/CISTI (New)"
