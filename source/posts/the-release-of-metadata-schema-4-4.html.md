@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'What''s in a name: the release of Metadata Schema 4.4'
+title: "What's in a name: the release of Metadata Schema 4.4"
 author:
   - msmaele
   - ibernal
-date: '2021-03-31'
+date: "2021-03-31"
 tags:
   - datacite
   - metadata
@@ -25,9 +25,9 @@ Second, the new version allows description of text based outputs in a more granu
 
 Version 4.4 of the schema includes the following changes:
 
-### Addition of the new subproperty “_classificationCode_” in the Subject property.
+#### Addition of the new subproperty “_classificationCode_” in the Subject property.
 
-### Addition of new values to the _resourceTypseGeneral_ property:
+#### Addition of new values to the _resourceTypseGeneral_ property:
 
 - Book
 - BookChapter
@@ -43,9 +43,9 @@ Version 4.4 of the schema includes the following changes:
 - Report
 - Standard
 
-### Addition of a new _relationType_: isPublishedIn (indicates that A is published in B)
+#### Addition of a new _relationType_: isPublishedIn (indicates that A is published in B)
 
-### Addition of a new _relatedItem_ property, with subproperties to contain specific details for containing publication information previously encoded in a description field with descriptionType=”SeriesInformation” (for example, to define the journal name, volume, and page number for an article resource). Subproperties:
+#### Addition of a new _relatedItem_ property, with subproperties to contain specific details for containing publication information previously encoded in a description field with descriptionType=”SeriesInformation” (for example, to define the journal name, volume, and page number for an article resource). Subproperties:
 
 - relatedItemType
 - relationType
