@@ -24,69 +24,43 @@ Second, the new version allows description of text based outputs in a more granu
 
 Version 4.4 of the schema includes the following changes:
 
-- Addition of the new subproperty “_classificationCode_” in the Subject property.
-- Addition of new values to the _resourceTypseGeneral_ property:
+### Addition of the new subproperty “_classificationCode_” in the Subject property.
 
-○ Book
+### Addition of new values to the _resourceTypseGeneral_ property:
 
-○ BookChapter
+- Book
+- BookChapter
+- ComputationalNotebook
+- ConferencePaper
+- ConferenceProceeding
+- Dissertation
+- Journal
+- JournalArticle
+- OutputManagementPlan
+- PeerReview
+- Preprint
+- Report
+- Standard
 
-○ ComputationalNotebook
+### Addition of a new _relationType_: isPublishedIn (indicates that A is published in B)
 
-○ ConferencePaper
+### Addition of a new _relatedItem_ property, with subproperties to contain specific details for containing publication information previously encoded in a description field with descriptionType=”SeriesInformation” (for example, to define the journal name, volume, and page number for an article resource). Subproperties:
 
-○ ConferenceProceeding
-
-○ Dissertation
-
-○ Journal
-
-○ JournalArticle
-
-○ OutputManagementPlan
-
-○ PeerReview
-
-○ Preprint
-
-○ Report
-
-○ Standard
-
-- Addition of a new _relationType_: isPublishedIn (indicates that A is published in B)
-- Addition of a new _relatedItem_ property, with subproperties to contain specific details for containing publication information previously encoded in a description field with descriptionType=”SeriesInformation” (for example, to define the journal name, volume, and page number for an article resource).
-
-Subproperties:
-
-○ relatedItemType
-
-○ relationType
-
-○ relatedItemIdentifier
-
-○ relatedItemIdentifierType
-
-○ creator
-
-○ title
-
-○ publicationYear
-
-○ volume
-
-○ issue
-
-○ number
-
-○ firstPage
-
-○ lastPage
-
-○ publisher
-
-○ edition
-
-○ contributor
+- relatedItemType
+- relationType
+- relatedItemIdentifier
+- relatedItemIdentifierType
+- creator
+- title
+- publicationYear
+- volume
+- issue
+- number
+- firstPage
+- lastPage
+- publisher
+- edition
+- contributor
 
 Further, following community feedback and suggestions, this version includes further clarification as regards the following contributorTypes: DataManager, DataCurator, ResearchGroup, and HostingInstitution.
 
