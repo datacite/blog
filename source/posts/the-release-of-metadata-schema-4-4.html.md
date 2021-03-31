@@ -7,6 +7,7 @@ date: '2021-03-31'
 tags:
   - DataCite
   - metadata
+doi: 10.5438/pwsy-ma86
 ---
 Many things have happened since the DataCite Metadata Working Group last [released a new version](https://doi.org/10.5438/vgaq-ar22) of its schema in the summer of 2019. 
 
@@ -22,8 +23,8 @@ Second, the new version allows description of text based outputs in a more granu
 
 Version 4.4 of the schema includes the following changes:
 
-* Addition of the new subproperty “classificationCode” in the Subject property.
-* Addition of new values to the resourceTypseGeneral property: 
+* Addition of the new subproperty “_classificationCode_” in the Subject property.
+* Addition of new values to the _resourceTypseGeneral_ property: 
 
 ○  Book
 
@@ -51,8 +52,10 @@ Version 4.4 of the schema includes the following changes:
 
 ○  Standard
 
-* Addition of a new relationType: isPublishedIn (indicates that A is published in B)
-* Addition of a new relatedItem property, with subproperties to contain specific details for containing publication information previously encoded in a description field with descriptionType=”SeriesInformation” (for example, to define the journal name, volume, and page number for an article resource). Subproperties:
+* Addition of a new _relationType_: isPublishedIn (indicates that A is published in B)
+* Addition of a new _relatedItem_ property, with subproperties to contain specific details for containing publication information previously encoded in a description field with descriptionType=”SeriesInformation” (for example, to define the journal name, volume, and page number for an article resource). 
+
+Subproperties:
 
 ○  relatedItemType
 
@@ -86,28 +89,28 @@ Version 4.4 of the schema includes the following changes:
 
 Further, following community feedback and suggestions, this version includes further clarification as regards the following contributorTypes: DataManager, DataCurator, ResearchGroup, and HostingInstitution.
 
-Version 4.4 is backwards compatible, and as of version 4.0 you only need to specify the major version in your metadata submission (using http://datacite.org/schema/kernel-4) so you can already take advantage of these updates without having to change anything else about how you send metadata to us.
+Version 4.4 is backwards compatible, and as of version 4.0 you only need to specify the major version in your metadata submission (using <http://datacite.org/schema/kernel-4>) so you can already take advantage of these updates without having to change anything else about how you send metadata to us.
 
 With the release of metadata schema 4.4, DataCite is updating its services to enable users to create and update DOIs with the new metadata schema. The changes to the DataCite services to support metadata schema 4.4 is carried out in two phases to enable immediate access to non breaking changes. 
 
 Phase 1 has already been completed and includes:
 
 * Full support for metadata schema version 4.4 via MDS API
-* REST API Version 2 supports all changes in metadata schema version 4.4 except the new relationType isPublishedIn
+* REST API Version 2 supports all changes in metadata schema version 4.4 except the new relationType _isPublishedIn_
 * XSD for metadata schema 4.4 for validation
-* Fabrica interface has been improved to provide access to new values to the resourceTypeGeneral property from metadata schema version 4.4.
+* Fabrica interface has been improved to provide access to new values to the _resourceTypeGeneral_ property from metadata schema version 4.4.
 
 Phase 2 that will be released in Q3 will include:
 
 * Full support for metadata schema version 4.4 via the REST API Version 3
 * JSON schema to support validation
-* Fabrica interface will support further selected changes from metadata schema version 4.4. This will include support for isPublishedIn and relatedItem within Fabrica.
+* Fabrica interface will support further selected changes from metadata schema version 4.4. This will include support for _isPublishedIn_ and _relatedItem_ within Fabrica.
 
-You can find out more details about how to use our services with metadata schema 4.4 via our support documentation <link>.
+You can find out more details about how to use our services with metadata schema 4.4 via our [support documentation](https://support.datacite.org/docs/datacite-metadata-schema-43).
 
 Last but not the least, the DataCite Metadata Working Group is currently working on the update of its crosswalk to Dublin Core schema, so stay tuned for news!
 
-If you have any specific questions about the new schema or suggestions for the next release, please send us a note at mailto:support@datacite.org.
+If you have any specific questions about the new schema or suggestions for the next release, please send us a note at support@datacite.org.
 
 For the complete schema, please see:
 
