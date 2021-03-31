@@ -82,7 +82,7 @@ Phase 2 that will be released in Q3 will include:
 - JSON schema to support validation
 - Fabrica interface will support further selected changes from metadata schema version 4.4. This will include support for _isPublishedIn_ and _relatedItem_ within Fabrica.
 
-You can find out more details about how to use our services with metadata schema 4.4 via our [support documentation](https://support.datacite.org/docs/datacite-metadata-schema-43).
+You can find out more details about how to use our services with metadata schema 4.4 via our [support documentation](https://support.datacite.org/docs/datacite-metadata-schema-44).
 
 Last but not the least, the DataCite Metadata Working Group is currently working on the update of its crosswalk to Dublin Core schema, so stay tuned for news!
 
