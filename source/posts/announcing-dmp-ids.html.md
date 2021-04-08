@@ -30,7 +30,13 @@ Over the last few years, there has been lots of community effort towards establi
 
 DMP IDs at a fundamental level are registered as a DOI with the resourceTypeGeneral "OutputsManagementPlan." Since the DataCite release of schema 4.4, the resourceTypeGeneral controlled vocabulary now includes this as a controlled list item. DMP IDs are created in the same way as registering any DOI, with the same required fields, but must include the "OutputsManagementPlan" resourceTypeGeneral to be identifiable. 
 
-**Generating DMP IDs creates an unbreakable link between a data plan to the project outputs and allows access to DataCite’s supporting services such as Event Data to facilitate connections via the PID Graph.**
+> **Generating DMP IDs creates an unbreakable link between a data plan to the project outputs and allows access to DataCite’s supporting services such as Event Data to facilitate connections via the PID Graph.**
+
+
+
+![](/images/uploads/dmp-year.png "Distribution of DOIs assigned to DMPs by year(creation of the DOI)")
+<center><sub><sup>Distribution of DOIs assigned to DMPs by year(creation of the DOI).</sup></sub></center>
+
 
 Assigning DOIs to persistently identify DMPs is a trend that we have seen already. Since 2019,  more than 200 DMPs have been assigned a DOI for their identification. Repositories such as Zenodo made this possible by allowing users to select Data Management Plans as one of the many types of resources. 
 
@@ -38,10 +44,6 @@ We know through our work with the DMP community that the introduction of the for
 
 Besides persistently identifying DMPs, the assignment of DMP IDs realizes the promises of machine-actionable DMPs. The DataCite GraphQL API can now expose Data Management Plans and all their connections. Other applications can use the same APIs to build machine-actionable DMPs-based applications such as [visualizations](https://nbviewer.jupyter.org/github/datacite/pidgraph-notebooks-python/blob/master/dmp/user-story-single-dmp-connections.ipynb) or [summary statistics]([https://nbviewer.jupyter.org/github/datacite/pidgraph-notebooks-python/blob/master/dmp/user-story-all-dmps.ipynb](https://nbviewer.jupyter.org/github/datacite/pidgraph-notebooks-python/blob/master/dmp/user-story-all-dmps.ipynb)).
 
-
-
-![](/images/uploads/dmp-year.png "Distribution of DOIs assigned to DMPs by year(creation of the DOI)")
-<center><sub><sup>Distribution of DOIs assigned to DMPs by year(creation of the DOI).</sup></sub></center>
 
 From today, it is possible for DataCite members to use the MDS API and Fabrica to assign DMP IDs to your Data Management Plans. Our team has created [documentation](https://support.datacite.org/docs/introduction-to-machine-actionable-dmps-madmps) to support the community in registering DMP IDs, understanding best practices and exploring related connections in the PID Graph.
 
