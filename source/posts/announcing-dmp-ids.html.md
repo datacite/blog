@@ -16,9 +16,9 @@ doi: 10.5438/j22a-5d79
 ---
 
 
-Despite the challenges over the last year, we are pleased to share some exciting news about launching the brave new PID, DMP IDs. Two years ago we set out a plan in collaboration with the [University of California Curation Center](https://uc3.cdlib.org/) and the [DMPTool ](https://dmptool.org/)to bring DMP IDs to life. The work was part of the NSF Eager grant [DMP Roadmap: Making Data Management Plans Actionable](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1745675&HistoricalAwards=false) and allowed us to explore the potential of machine-actionable DMPs as a means to transform the DMP into a critical component of networked research data management. 
+Despite the challenges over the last year, we are pleased to share some exciting news about launching the brave new PID, DMP IDs. Two years ago we set out a plan in collaboration with the [University of California Curation Center](https://uc3.cdlib.org/) and the [DMPTool ](https://dmptool.org/) to bring DMP IDs to life. The work was part of the NSF Eager grant [DMP Roadmap: Making Data Management Plans Actionable](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1745675&HistoricalAwards=false) and allowed us to explore the potential of machine-actionable DMPs as a means to transform the DMP into a critical component of networked research data management. 
 
-The plan was to develop a persistent identifier (PID) for Data Management Plans (DMPs). We already have PIDs for many entities, such as  articles, datasets etc. (DOIs), people (such as ORCID iDs) and places (such as ROR IDs). We knew that it would be important for DataCite to support the community in establishing a unique persistent identifier for DMPs. Until now, we had no PID for the document that **"describes data that will be acquired or produced during research; how the data will be managed, described, and stored, what standards you will use, and how data will be handled and protected during and after the completion of the project"**. There was no such thing as a DMP-ID; and today that changes.
+The plan was to develop a persistent identifier (PID) for Data Management Plans (DMPs). We already have PIDs for many entities, such as  articles, datasets etc. (DOIs), people (such as ORCID iDs) and places (such as ROR IDs). We knew that it would be important for DataCite to support the community in establishing a unique persistent identifier for DMPs. Until now, we had no PID for the document that *"describes data that will be acquired or produced during research; how the data will be managed, described, and stored, what standards you will use, and how data will be handled and protected during and after the completion of the project"*. There was no such thing as a DMP-ID; and today that changes.
 
 Over the last few years, there has been lots of community effort towards establishing a standard data model under the [Research Data Alliance (RDA) DMP Common Standards Working Group](https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard) and we are now able to bring this all together in the form of a new identifier. 
 
@@ -34,11 +34,10 @@ DMP IDs at a fundamental level are registered as a DOI with the resourceTypeGene
 
 
 
+Assigning DOIs to persistently identify DMPs is a trend that we have seen already. Since 2019,  more than 200 DMPs have been assigned a DOI for their identification. Repositories such as Zenodo made this possible by allowing users to select Data Management Plans as one of the many types of resources. 
+
 ![](/images/uploads/dmp-year.png "Distribution of DOIs assigned to DMPs by year(creation of the DOI)")
 <center><sub><sup>Distribution of DOIs assigned to DMPs by year(creation of the DOI).</sup></sub></center>
-
-
-Assigning DOIs to persistently identify DMPs is a trend that we have seen already. Since 2019,  more than 200 DMPs have been assigned a DOI for their identification. Repositories such as Zenodo made this possible by allowing users to select Data Management Plans as one of the many types of resources. 
 
 We know through our work with the DMP community that the introduction of the formal DMP ID, will allow for DMP IDs to proliferate and serve downstream use cases.
 
