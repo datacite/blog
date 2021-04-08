@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Brave New PID: DMP-IDs "
+title: "A Brave New PID: DMP-IDs "
 author: 
 - kgarza
 - mbuys
