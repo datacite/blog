@@ -570,6 +570,8 @@
     "given": "Isabel",
     "family": "Bernal",
     "bio": "CSIC",
+    "orcid": "https://orcid.org/0000-0003-2506-9947",
+    "image_url": "/images/ibernal.jpg",
     "affiliation": {
       "@id": "https://ror.org/02gfc7t72",
       "name": "Spanish National Research Council",
