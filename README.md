@@ -14,8 +14,6 @@ The Blog will take care of formatting, sourcing images, spacing, etc by itself. 
 
 [![How to create a Blog post](https://img.youtube.com/vi/HPuYi-h7XGI/0.jpg)](https://www.youtube.com/watch?v=HPuYi-h7XGI "How to create a Blog post")
 
-_Important Note: When choosing a date/time for the post, the generator by default will not pick up dates set in the future._
-
 ### Metadata template
 
 To make the blogpost to show correctly you can copy the template below and added to the top part of your blogpost. Just change the title, author, date and tags.
