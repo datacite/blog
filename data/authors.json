@@ -154,6 +154,14 @@
       "@type": "Organization"
     }
   },
+  "klehnert": {
+    "name": "Kerstin Lehnert",
+    "given": "Kerstin",
+    "family": "Lehnert",
+    "bio": "President, IGSN e.V.",
+    "image_url": "images/Lehnert_Portrait2018.jpg",
+    "orcid": "https://orcid.org/0000-0001-7036-1977"
+  },
   "ssansone": {
     "name": "Susanna Sansone",
     "given": "Susanna",
