@@ -4,7 +4,7 @@ title: "Bringing together communities: IGSN and DataCite"
 author: 
 - mbuys
 - klehnert
-date: '2021-05-31’
+date: '2021-05-31'
 tags:
 - igsn
 - datacite
