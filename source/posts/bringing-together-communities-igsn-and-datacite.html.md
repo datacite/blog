@@ -19,7 +19,7 @@ DataCite and IGSN are pleased to announce their roadmap towards a partnership th
 
 DataCite is a community-led organisation with a vision to connect research and identify knowledge.  We have been providing the means to create, find, cite, connect, and use research across 47 countries globally since 2009.  In addition to DataCite core services, we support the scaling efforts of  several identifier communities through governance, sustainability, insurance, and technical implementation.   
 
-IGSN e.V. is an international, non-profit organization which has operated a central registration system for IGSNs since 2011. The IGSN is a globally unique and persistent identifier for physical samples. The core purpose of IGSN is to enable transparent and traceable connections between research activities and objects, including samples, collections, instruments, grants, data, publications, people and organizations.  
+IGSN e.V. is an international, non-profit organization with more than 20 members, which has operated a central registration system for IGSNs since 2011. The IGSN is a globally unique and persistent identifier for physical samples. The core purpose of IGSN is to enable transparent and traceable connections between research activities and objects, including samples, collections, instruments, grants, data, publications, people and organizations.  
 
 ![](/images/uploads/igsn_diagram.png "IGSN scaling diagram")
 <center><sub><sup>IGSN scaling diagram</sup></sub></center>
