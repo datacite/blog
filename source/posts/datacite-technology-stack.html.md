@@ -30,4 +30,6 @@ The DataCite frontend services have over time been clearly separated from backen
 
 The following picture puts everything I talked about together into a single view (obviously omitting a lot of detail):
 
+![alt_text](images/uploads/reference_architecture.png "reference_architecture")
+
 Please feel free to reach out to [me](mailto:mfenner@datacite.org) if you have any questions about the DataCite technology stack. If you are now interested in working for the DataCite development team, you can find more information about an open position [here](https://doi.org/10.5438/wkc7-p624).
