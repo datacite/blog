@@ -21,7 +21,7 @@ DataCite members can register DOIs and metadata for content using the Metadata S
 
 In October 2020 DataCite launched [DataCite Commons](https://commons.datacite.org/) as a new discovery platform, followed by an announcement to retire DataCite Search by the end of 2021. DataCite Commons enables the discovery of connections between content, people, and organizations. DataCite Commons uses the existing DataCite backend infrastructure with relational databases and Elasticsearch in combination with a new [GraphQL](https://graphql.org/) API. Going forward we will see whether this approach scales appropriately, or whether a different technology is needed to power DataCite Commons. This would include the exploration of graph database technologies such as neo4j with or without GraphQL. Further, we will work to track the adoption of GraphQL and our REST API architecture.
 
-## Backend services
+### Backend services
 
 DataCite as an infrastructure provider has always focussed on backend APIs and related services. As part of this work, DataCite has migrated to a Docker container-based cloud architecture. There is still work ahead, from migrating to [Kubernetes](https://kubernetes.io/) to service meshes and better monitoring and handling of service loads.
 
