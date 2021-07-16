@@ -3,10 +3,9 @@ layout: post
 title: Scaling infrastructure and communities: our path forward
 author:
   - mbuys
-date: '2021-07-16'
+date: '2021-07-15'
 tags:
   - DataCite
-  - featured
 doi: 10.5438/2cp7-3m85
 ---
 
