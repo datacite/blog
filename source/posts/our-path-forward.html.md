@@ -9,12 +9,12 @@ tags:
   - featured
 doi: 10.5438/2cp7-3m85
 ---
+
+
 As a global community organization, our values and collective efforts are paramount to our success.  It is as important to reflect on our strategic direction and continue to define our collective priorities as a community. 
 
-
-
-# Strategic Visioning
-## Exploration, Engagement and Elevation
+## Strategic Visioning
+### Exploration, Engagement and Elevation
 
 Earlier this year we launched our Strategic Visioning process. During the process, the DataCite community was engaged to understand their current perspectives of DataCite, how we might exist and thrive in the future, and what roadblocks might get in the way of achieving that vision. The feedback was collected through surveys, online consultation workshops and reported back to the Board and DataCite leadership team for consideration. Direction on how to accomplish this can take many forms, although the community supported DataCite to lead in these efforts, to continue to invest in an entrepreneurial effort to innovate boldly in the PID services landscape. Our role is to serve our community and following the strategic visioning process, we understood the following:
 
@@ -27,7 +27,7 @@ The Strategic Visioning process included five (5) stages. We have now concluded 
 
 ![Approach](/images/uploads/datacite_strategic_vision_process.png)
 
-## Consultation to Execution: Establish and Enable
+### Consultation to Execution: Establish and Enable
 
 Following the consultation phase of the process, we will now move into the next two phases.
 
@@ -39,7 +39,7 @@ Following the consultation phase of the process, we will now move into the next 
 2. Our DataCite Annual Vision defines the annual strategic priorities and goals for the year ahead (see Vision 2020 | Vision 2021)
 3. Our DataCite Annual Objectives & Activities form the basis for our individual goals linked to the overall organisation vision. Individuals will have their annual objectives and KPIs based on the cascading effect, ensuring that each team member is connected to our overall DataCite Strategic Plan.
 
-# Aligning our team structures
+## Aligning our team structures
 
 As you know from the previous post, Martin Fenner will be leaving DataCite at the end of July 2021. Martin joined DataCite 6 years ago to take on the challenge of scaling our technical infrastructure to what it is today. After 6 years, Martin is moving onto a new challenge at invenioRDM. We are sorry to see him go, but Martin will continue to be an active member of our community and continue to be involved in our collaborative initiatives such as Make Data Count. I would like to thank Martin for the tremendous impact that he has had at DataCite and I am excited for him as he takes on his next challenge. DataCite is in a good position to handle our technology projects during this transition. Martin has spent the last two years building a technical team that is capable of continuing his legacy. This team has 4 existing team members across product and development roles, and 2 new team members joining the development team to backfill existing open roles.
 
