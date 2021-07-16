@@ -24,7 +24,7 @@ Earlier this year we launched our Strategic Visioning process. During the proces
 
 The Strategic Visioning process included five (5) stages. We have now concluded the first three (3) stages and will move into the final two (2) stages which transitions from consultation to planning and execution.
 
-![Approach](/images/uploads/datacite_strategic_vision_process.png)
+![](/images/uploads/datacite_strategic_vision_process.png)
 
 ### Consultation to Execution: Establish and Enable
 
@@ -57,6 +57,7 @@ We develop and support reliable persistent identifier services.
 We support a global community and value diverse perspectives.
 
 Building on our values, we have reviewed our team structures and going forwards will coordinate across four functions within the DataCite team:
+
 1. Support, Adoption and Outreach
 1. Product Design
 1. Application Development & Technical Infrastructure
