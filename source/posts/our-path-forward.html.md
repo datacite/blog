@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scaling infrastructure and communities: our path forward
+title: "Scaling infrastructure and communities: our path forward"
 author:
   - mbuys
 date: "2021-07-15"
