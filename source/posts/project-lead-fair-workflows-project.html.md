@@ -28,8 +28,6 @@ The Project Lead has the overall day to day responsibility of the project and re
 * Communication of FAIR workflows and Open Science best practices
 * Management of grant deliverables and milestones
 
-
-
 Required skills and qualifications
 
 * University degree, preferably a PhD degree in a field related to Neuroscience or Open Science
@@ -55,4 +53,10 @@ Why work for us
 
 To apply
 
-Please send a resume and statement of interest to Helena Cousijn \[<helena.cousijn@datacite.org>] by August 15, 2021. Interviews will take place in the second half of August. We would like the candidate to start in this role on October 1. Please don’t hesitate to contact us with any questions.
+Please send a resume and statement of interest to Helena Cousijn [<mailto:helena.cousijn@datacite.org>] by August 15, 2021. Interviews will take place in the second half of August. We would like the candidate to start in this role on October 1. Please don’t hesitate to contact us with any questions.
+
+
+
+This project was made possible through the support of a grant from Templeton World Charity Foundation, Inc. The opinions expressed in this publication are those of the author(s) and do not necessarily reflect the views of Templeton World Charity Foundation, Inc.
+
+![](/images/uploads/twcf_logo_light_horizontal3.png)
