@@ -4,9 +4,7 @@ title: Project Lead - FAIR workflows project
 author:
   - hcousijn
 date: '2021-07-28'
-tags:
-  - feature
-doi: 10.5438/d79d-ak32
+doi: ''
 ---
 DataCite is looking for a Project Lead to manage a global Open Science project with partners across Europe and the United States. The role is funded by the ​​Templeton World Charity Foundation, Inc. 
 
