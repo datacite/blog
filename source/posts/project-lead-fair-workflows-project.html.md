@@ -4,6 +4,8 @@ title: Project Lead - FAIR workflows project
 author:
   - hcousijn
 date: '2021-07-28'
+tags:
+  - feature
 doi: 10.5438/d79d-ak32
 ---
 DataCite is looking for a Project Lead to manage a global Open Science project with partners across Europe and the United States. The role is funded by the ​​Templeton World Charity Foundation, Inc. 
@@ -54,7 +56,7 @@ Why work for us
 
 To apply
 
-Please send a resume and statement of interest to Helena Cousijn \[<mailto:helena.cousijn@datacite.org>] by August 15, 2021. Interviews will take place in the second half of August. We would like the candidate to start in this role on October 1. Please don’t hesitate to contact us with any questions.
+Please send a resume and statement of interest to Helena Cousijn [<mailto:helena.cousijn@datacite.org>] by August 15, 2021. Interviews will take place in the second half of August. We would like the candidate to start in this role on October 1. Please don’t hesitate to contact us with any questions.
 
 This project was made possible through the support of a grant from Templeton World Charity Foundation, Inc. The opinions expressed in this publication are those of the author(s) and do not necessarily reflect the views of Templeton World Charity Foundation, Inc.
 
