@@ -6,6 +6,7 @@ author:
 date: '2021-08-29'
 tags:
   - DataCite
+  - featured
 doi: 10.5438/vy7h-g464
 ---
 DataCite was founded in 2009 on the principle of being an open stakeholder governed community that is open to participation from organizations around the world. Today, that continues to be true. Although our services have expanded, we continue to remain grounded to our roots. DataCite’s umbrella was formed with the aim to safeguard common standards worldwide to support research, thereby facilitating compliance with the rules of good scientific practice. DataCite's identifier registration, Data File, and services are foundational components of the scholarly ecosystem. As the ecosystem continues to evolve, governance, sustainability and living-will insurance have become increasingly important components of the open infrastructure. 
