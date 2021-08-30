@@ -1,9 +1,9 @@
 ---
 layout: post
-title: DataCite's commitment to The Principles of Open Scholarly Infrastructure
+title: "DataCite's commitment to The Principles of Open Scholarly Infrastructure"
 author:
   - mbuys
-date: '2021-08-30'
+date: '2021-08-29'
 tags:
   - DataCite
 doi: 10.5438/vy7h-g464
