@@ -1,21 +1,18 @@
 ---
 layout: post
-title: "DataCite's commitment to The Principles of Open Scholarly Infrastructure"
+title: DataCite's commitment to The Principles of Open Scholarly Infrastructure
 author:
   - mbuys
-date: "2021-08-30"
+date: '2021-08-30'
 tags:
   - DataCite
 doi: 10.5438/vy7h-g464
 ---
-
-DataCite was founded in 2009 on the principle of being an open stakeholder governed community that is open to participation from organizations around the world. Today, that continues to be true. Although our services have expanded, we continue to remain grounded to our roots. DataCite’s umbrella was formed with the aim to safeguard common standards worldwide to support research, thereby facilitating compliance with the rules of good scientific practice. DataCite's identifier registration, Data File and services are foundational components of the scholarly ecosystem. As the ecosystem continues to evolve, governance, sustainability and living-will insurance have become increasingly important components of the open infrastructure. 
+DataCite was founded in 2009 on the principle of being an open stakeholder governed community that is open to participation from organizations around the world. Today, that continues to be true. Although our services have expanded, we continue to remain grounded to our roots. DataCite’s umbrella was formed with the aim to safeguard common standards worldwide to support research, thereby facilitating compliance with the rules of good scientific practice. DataCite's identifier registration, Data File, and services are foundational components of the scholarly ecosystem. As the ecosystem continues to evolve, governance, sustainability and living-will insurance have become increasingly important components of the open infrastructure. 
 
 Recently several open scholarly infrastructure organizations and initiatives have adopted [The Principles of Open Scholarly Infrastructure](https://openscholarlyinfrastructure.org/posse/). DataCite has conducted its own audit against the principles and would like to affirm our commitment to upholding these.
 
-
 ## Governance
-
 
 <table>
   <tr>
@@ -66,7 +63,6 @@ Recently several open scholarly infrastructure organizations and initiatives hav
   </tr>
 </table>
 
-
 **Coverage across the research enterprise** – it is increasingly clear that research transcends disciplines, geography, institutions and stakeholders. The infrastructure that supports it needs to do the same.
 
 As a global organization, DataCite represents a member community from over 47 countries, more than 2,300 repositories and a global user base that has the means to find, cite and reuse research. DataCite provides the means to create, find, cite, connect, and use research across a range of resource types and seek to address the needs of our members throughout the research lifecycle. In addition, DataCite supports many types of research organizations, including universities, government bodies, research facilities, medical facilities, funders, and research-producing companies. In this way, DataCite services can be used for many types of research activities. 
@@ -99,9 +95,7 @@ Formal incentives to fulfil mission & wind-down – infrastructures exist for a 
 
 DataCite operates on a strict cost recovery basis with a lean team that supports a global community. The mission of the organization is to address the needs of the global research community and our sustainability is supported through a cost-recovery membership model.
 
-
 ## Sustainability
-
 
 <table>
   <tr>
@@ -140,7 +134,6 @@ DataCite operates on a strict cost recovery basis with a lean team that supports
   </tr>
 </table>
 
-
 Time-limited funds are used only for time-limited activities – day to day operations should be supported by day to day sustainable revenue sources. Grant dependency for funding operations makes them fragile and more easily distracted from building core infrastructure.
 
 DataCite continues to make efforts to ensure that our sustainability is supported through membership fees. We reached an important milestone during 2020 with the approval of an updated membership model that ensures that DataCite can operate on a sustainable basis and is no longer dependent on grant funding. As we continue to seek opportunities to collaborate and innovate with community partners, there are occasions where DataCite will opt to participate in funded projects and in these cases allocate time based resources to these projects. DataCite day- to-day operations are fully supported through the membership and service fees model.
@@ -161,9 +154,7 @@ Revenue based on services, not data – data related to the running of the resea
 
 DataCite offers a portfolio of member services and has no intention to change our strategy in this regard. Our services are grouped within three distinct categories, namely; [discovery](https://commons.datacite.org/), [registration](https://doi.datacite.org/) and [integration](https://datacite.org/integratorapis.html). We provide the means to create, find, cite, connect, and use research.
 
-
 ## Insurance
-
 
 <table>
   <tr>
@@ -195,7 +186,6 @@ DataCite offers a portfolio of member services and has no intention to change ou
    </td>
   </tr>
 </table>
-
 
 Open source – All software required to run the infrastructure should be available under an open source license. This does not include other software that may be involved with running the organisation.
 
