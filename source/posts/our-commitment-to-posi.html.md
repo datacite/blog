@@ -16,11 +16,11 @@ Recently several open scholarly infrastructure organizations and initiatives hav
 ## Governance
 
 ![](/images/uploads/posi_governance.png "POSI Governance Self-Assessment")
-<center><sub><sup>POSI Governance Self-Assessment</sup></sub></center>
+<left><sub><sup>POSI Governance Self-Assessment</sup></sub></left>
 
 **Coverage across the research enterprise – it is increasingly clear that research transcends disciplines, geography, institutions and stakeholders. The infrastructure that supports it needs to do the same.**
 
-As a global organization, DataCite represents a member community from over 47 countries, more than 2,300 repositories and a global user base that has the means to find, cite and reuse research. DataCite provides the means to create, find, cite, connect, and use research across a range of resource types and seek to address the needs of our members throughout the research lifecycle. In addition, DataCite supports many types of research organizations, including universities, government bodies, research facilities, medical facilities, funders, and research-producing companies. In this way, DataCite services can be used for many types of research activities. 
+As a global organization, DataCite represents a member community from over 47 countries, more than 2,300 repositories and a global user base that has the means to find, cite and reuse research. DataCite provides the means to create, find, cite, connect, and use research across a range of resource types and seek to address the needs of our members throughout the research lifecycle. We support research organizations, including universities, government bodies, research facilities, medical facilities, funders, and research-producing companies. In this way, DataCite services can be used for many types of research activities. 
 
 **Stakeholder Governed – a board-governed organisation drawn from the stakeholder community builds more confidence that the organisation will take decisions driven by community consensus and consideration of different interests.**
 
@@ -42,9 +42,9 @@ DataCite does not lobby nor does DataCite include regulatory change as part of i
 
 **Living will – a powerful way to create trust is to publicly describe a plan addressing the condition under which an organisation would be wound down, how this would happen, and how any ongoing assets could be archived and preserved when passed to a successor organisation. Any such organisation would need to honour this same set of principles.**
 
-As a nonprofit, DataCite is governed by a set of statutes that are approved by our board and members. The DataCite Statutes provide the procedures should the association need to be resolved. In addition, DataCite provides the Data File under CC0 license and all code is made publicly available under the open MIT License.
+As a nonprofit, DataCite is governed by a set of statutes that are approved by our board and members. The DataCite Statutes provide the procedures should the association need to be dissolved. In addition, DataCite provides the Data File under CC0 license and all code is made publicly available under the open MIT License.
 
-DataCite intends to archive the  Data Filewith a third party in the coming months. This is therefore an area for improvement.
+DataCite intends to archive the Data File with a third party in the coming months. This is therefore an area for improvement.
 
 **Formal incentives to fulfil mission & wind-down – infrastructures exist for a specific purpose and that purpose can be radically simplified or even rendered unnecessary by technological or social change. If it is possible the organisation (and staff) should have direct incentives to deliver on the mission and wind down.**
 
@@ -53,11 +53,11 @@ DataCite operates on a strict cost recovery basis with a lean team that supports
 ## Sustainability
 
 ![](/images/uploads/posi_sustainability.png "POSI Sustainability Self-Assessment")
-<center><sub><sup>POSI Sustainability Self-Assessment</sup></sub></center>
+<left><sub><sup>POSI Sustainability Self-Assessment</sup></sub></left>
 
 **Time-limited funds are used only for time-limited activities – day to day operations should be supported by day to day sustainable revenue sources. Grant dependency for funding operations makes them fragile and more easily distracted from building core infrastructure.**
 
-DataCite continues to make efforts to ensure that our sustainability is supported through membership fees. We reached an important milestone during 2020 with the approval of an updated membership model that ensures that DataCite can operate on a sustainable basis and is no longer dependent on grant funding. As we continue to seek opportunities to collaborate and innovate with community partners, there are occasions where DataCite will opt to participate in funded projects and in these cases allocate time based resources to these projects. DataCite day- to-day operations are fully supported through the membership and service fees model.
+DataCite continues to make efforts to ensure that our sustainability is supported through membership fees. We reached an important milestone during 2020 with the approval of an updated membership model that ensures that DataCite can operate on a sustainable basis and is no longer dependent on grant funding. As we continue to seek opportunities to collaborate and innovate with community partners, there are occasions where DataCite will opt to participate in funded projects and in these cases allocate time based resources to these projects. DataCite day-to-day operations are fully supported through the membership and service fees model.
 
 **Goal to generate surplus – organisations which define sustainability based merely on recovering costs are brittle and stagnant. It is not enough to merely survive, it has to be able to adapt and change. To weather economic, social and technological volatility, they need financial resources beyond immediate operating costs.**
 
@@ -65,7 +65,7 @@ DataCite operates on a cost-recovery membership model. As our community continue
 
 **Goal to create contingency fund to support operations for 12 months – a high priority should be generating a contingency fund that can support a complete, orderly wind down (12 months in most cases). This fund should be separate from those allocated to covering operating risk and investment in development.**
 
-DataCite currently maintains an operational reserve in accordance with statutory association laws of Germany. The DataCite General Assembly is required to approve the use of reserves in accordance with the activities of the association. As such, we maintain a steady approach to continue to build a contingency fund that supports the ongoing charitable mission of the organization.
+DataCite currently maintains an operational reserve in accordance with statutory association laws of Germany. The DataCite General Assembly is required to approve the use of reserves in accordance with the activities of the association. As such, we maintain a steady approach to continue to build a contingency fund that supports the charitable mission of the organization.
 
 **Mission-consistent revenue generation – potential revenue sources should be considered for consistency with the organisational mission and not run counter to the aims of the organisation.**
 
@@ -78,7 +78,7 @@ DataCite offers a portfolio of member services and has no intention to change ou
 ## Insurance
 
 ![](/images/uploads/posi_insurance.png "POSI Insurance Self-Assessment")
-<center><sub><sup>POSI Insurance Self-Assessment</sup></sub></center>
+<left><sub><sup>POSI Insurance Self-Assessment</sup></sub></left>
 
 **Open source – All software required to run the infrastructure should be available under an open source license. This does not include other software that may be involved with running the organisation.**
 
