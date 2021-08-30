@@ -16,7 +16,7 @@ Recently several open scholarly infrastructure organizations and initiatives hav
 ## Governance
 
 ![](/images/uploads/posi_governance.png "POSI Governance Self-Assessment")
-<left><sub><sup>POSI Governance Self-Assessment</sup></sub></left>
+<center><sub><sup>POSI Governance Self-Assessment</sup></sub></center>
 
 **Coverage across the research enterprise – it is increasingly clear that research transcends disciplines, geography, institutions and stakeholders. The infrastructure that supports it needs to do the same.**
 
@@ -53,7 +53,7 @@ DataCite operates on a strict cost recovery basis with a lean team that supports
 ## Sustainability
 
 ![](/images/uploads/posi_sustainability.png "POSI Sustainability Self-Assessment")
-<left><sub><sup>POSI Sustainability Self-Assessment</sup></sub></left>
+<center><sub><sup>POSI Sustainability Self-Assessment</sup></sub></center>
 
 **Time-limited funds are used only for time-limited activities – day to day operations should be supported by day to day sustainable revenue sources. Grant dependency for funding operations makes them fragile and more easily distracted from building core infrastructure.**
 
@@ -78,7 +78,7 @@ DataCite offers a portfolio of member services and has no intention to change ou
 ## Insurance
 
 ![](/images/uploads/posi_insurance.png "POSI Insurance Self-Assessment")
-<left><sub><sup>POSI Insurance Self-Assessment</sup></sub></left>
+<center><sub><sup>POSI Insurance Self-Assessment</sup></sub></center>
 
 **Open source – All software required to run the infrastructure should be available under an open source license. This does not include other software that may be involved with running the organisation.**
 
