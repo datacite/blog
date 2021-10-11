@@ -626,7 +626,7 @@
       "name": "DataCite",
       "@type": "Organization"
     }
-  }
+  },
   "xchen": {
    "name": "Xiaoli Chen",
    "given": "Xiaoli",
@@ -636,6 +636,9 @@
    "github": "xchen101",
    "email": "xiaoli.chen@datacite.org",
    "image_url": "/images/xiaoli.jpg"
-   "affiliation": { "@id": "https://ror.org/04wxnsj81", "name": "DataCite", "@type": "Organization"}
-},
-}
+    "affiliation": {
+      "@id": "https://ror.org/04wxnsj81",
+      "name": "DataCite",
+      "@type": "Organization"
+    }
+  },
