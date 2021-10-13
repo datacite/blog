@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing Xiaoli and the FAIR workflows project
+title: Introducing Xiaoli and the FAIR Workflows Project
 author:
   - xchen
 date: '2021-10-12'
@@ -22,7 +22,5 @@ Going forward I will be sharing the progress of the FAIR Workflows project with 
 
 
 
-*This project was made possible through the support of a grant from Templeton World Charity
-*Foundation, Inc. The opinions expressed in this publication are those of the author(s) and do not
-*necessarily reflect the views of Templeton World Charity Foundation, Inc.
+*This project was made possible through the support of a grant from Templeton World Charity Foundation, Inc. The opinions expressed in this publication are those of the author(s) and do not necessarily reflect the views of Templeton World Charity Foundation, Inc.*
 
