@@ -36,8 +36,8 @@ jobs:
           sudo dpkg -i pandoc-1.19.2.1-1-amd64.deb
           rm pandoc-1.19.2.1-1-amd64.deb
           bundle exec middleman build -e $RACK_ENV
-          
-      - name: Deploy 
+
+      - name: Deploy
         uses: reggionick/s3-deploy@v2
         with:
           folder: build
@@ -46,17 +46,3 @@ jobs:
           dist-id: ${{ secrets.STAGE_CLOUDFRONT_DISTRIBUTION_ID }}
           invalidation: /
           delete-removed: true
-
-      - name: Notify Slack
-        uses: edge/simple-slack-notify@master
-        with:
-          channel: '#ops'
-          color: 'good'
-          text: 'A new version of the <https://blog.stage.datacite.org|blog> has been deployed to stage.'
-          failure_text: '${env.GITHUB_WORKFLOW} (${env.GITHUB_RUN_NUMBER}) build failed'
-          fields: |
-            [{ "title": "Commit message", "value": "${{ github.event.head_commit.message }}" },
-             { "title": "Committed by", "value": "<https://github.com/${{ github.repository }}/commits?author=${{ github.actor }}|${{ github.actor }}>", "short": true },
-             { "title": "Commit SHA", "value": "<https://github.com/${{ github.repository }}/commit/${{ steps.extract_variables.outputs.GIT_SHA }}|${{ steps.extract_variables.outputs.GIT_SHA_SHORT }}>", "short": true },
-             { "title": "Repository", "value": "<https://github.com/${{ github.repository }}|${{ github.repository }}>", "short": true },
-             { "title": "Branch", "value": "<https://github.com/${{ github.repository }}/tree/${{ steps.extract_variables.outputs.BRANCH }}|${{ steps.extract_variables.outputs.BRANCH }}>", "short": true }]
