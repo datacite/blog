@@ -646,11 +646,11 @@
     "name": "Joseph Rhoads",
     "given": "Joseph",
     "family": "Rhoads",
-    "bio": "Application Developer",
+    "bio": "DataCite Application Developer",
     "orcid": "https://orcid.org/0000-0001-9871-4850",
     "github": "jrhoads",
     "email": "jrhoads@datacite.org",
-    "image_url": "/images/jrhoads.jpg",
+    "image_url": "/images/joseph.jpg",
     "affiliation": {
       "@id": "https://ror.org/04wxnsj81",
       "name": "DataCite",
