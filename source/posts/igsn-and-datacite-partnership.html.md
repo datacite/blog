@@ -37,6 +37,4 @@ Some key details about the partnership:
 As we continue to work on the transition timelines and roadmap, we can share an initial overview of the transition:
 ![](/images/uploads/igsnroadmap.jpg)
 
-As a member-driven organization, we thank all presenters and attendees for their valuable contributions, take your ideas to our hearts, and look forward to seeing you at next year’s DataCite Member Meeting!
-
 If you have any further questions, please see our [FAQs](https://support.datacite.org/docs/igsn-faq) or reach out to support@datacite.org.
