@@ -168,6 +168,13 @@
     "family": "Sansone",
     "bio": "Associate Director, Oxford e-Research Centre",
     "orcid": "https://orcid.org/0000-0001-5306-5690"
+   },
+  "klai": {
+    "name": "Lai Yung Yin Kelvin",
+    "given": "Kelvin",
+    "family": "Lai",
+    "bio": "Intern",
+    "orcid": "https://orcid.org/0000-0001-9026-2562"
   },
   "pmcquilton": {
     "name": "Peter McQuilton",
@@ -614,6 +621,36 @@
     "github": "lizkrznarich",
     "email": "liz.krznarich@datacite.org",
     "image_url": "/images/liz_krz.jpg",
+    "affiliation": {
+      "@id": "https://ror.org/04wxnsj81",
+      "name": "DataCite",
+      "@type": "Organization"
+    }
+  },
+  "xchen": {
+   "name": "Xiaoli Chen",
+   "given": "Xiaoli",
+   "family": "Chen",
+   "bio": "FAIR Workflows Project Lead",
+   "orcid": "https://orcid.org/0000-0003-0207-2705",
+   "github": "xchen101",
+   "email": "xiaoli.chen@datacite.org",
+   "image_url": "/images/xiaoli.jpg",
+    "affiliation": {
+      "@id": "https://ror.org/04wxnsj81",
+      "name": "DataCite",
+      "@type": "Organization"
+    }
+  },
+  "jrhoads": {
+    "name": "Joseph Rhoads",
+    "given": "Joseph",
+    "family": "Rhoads",
+    "bio": "DataCite Application Developer",
+    "orcid": "https://orcid.org/0000-0001-9871-4850",
+    "github": "jrhoads",
+    "email": "jrhoads@datacite.org",
+    "image_url": "/images/joseph.jpg",
     "affiliation": {
       "@id": "https://ror.org/04wxnsj81",
       "name": "DataCite",
