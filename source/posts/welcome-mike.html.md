@@ -3,7 +3,7 @@ layout: post
 title: Welcome Mike to the DataCite Team!
 author:
   - mbennett
-date: '2021-11-19'
+date: '2021-11-22'
 tags:
   - datacite
   - staff
