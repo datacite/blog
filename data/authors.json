@@ -656,5 +656,20 @@
       "name": "DataCite",
       "@type": "Organization"
     }
+  },
+  "mbennett": {
+    "name": "Mike Bennett",
+    "given": "Mike",
+    "family": "Bennett",
+    "bio": "DataCite Application Developer",
+    "orcid": "https://orcid.org/0000-0002-4795-7817",
+    "github": "digitaldogsbody",
+    "email": "mbennett@datacite.org",
+    "image_url": "/images/mbennett.jpg",
+    "affiliation": {
+      "@id": "https://ror.org/04wxnsj81",
+      "name": "DataCite",
+      "@type": "Organization"
+    }
   }
 }
