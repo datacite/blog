@@ -16,7 +16,7 @@ The first strategic priority of [DataCite’s vision 2021](https://doi.org/10.54
 Starting with the question of the exact shade of DataCite blue, we redefined our primary logo to include dark blue and a light blue, because one blue simply was not enough. In addition to this redefinition of colors, we updated the claim to match our vision of “Connecting Research, Identifying Knowledge”.
 ![](images/uploads/DataCite-Logos_primary.png)
 
-For occasions where the primary logo might not fit in (e.g. due to lack of space)  we now offer a palette of alternate DataCite logos.
+For occasions where the primary logo might not fit in (e.g. due to lack of space) we now offer a palette of alternate DataCite logos.
 
 [The secondary logo](https://support.datacite.org/docs/secondary-logo) without the claim:
 ![](/images/uploads/DataCite-Logo_secondary.png)
@@ -42,7 +42,7 @@ Being a member-driven organization, we respond to requests of our members to be 
 ![](/images/uploads/DataCite-Logos_DC%badge_ServiceProvider.png)
 
 ### Design transition roadmap
-We are excited to apply the new design step by step to DataCite’s resources, communication channels, and services  in the upcoming weeks and months. DataCite Members, Consortium Organizations, and registered Service Providers may use DataCite’s name, logo, and the relevant community badge to announce their status and their activities. The design manual, logos and badges can be embedded into your websites following the documentation in our [support page](https://support.datacite.org/docs/datacite-logo).
+We are excited to apply the new design step by step to DataCite’s resources, communication channels, and services in the upcoming weeks and months. DataCite Members, Consortium Organizations, and registered Service Providers may use DataCite’s name, logo, and the relevant community badge to announce their status and their activities. The design manual, logos and badges can be embedded into your websites following the documentation in our [support page](https://support.datacite.org/docs/datacite-logo).
 If you have questions about the new design and how to (re-) use it, feel free to contact us at [info@datacite.org]
 
-Now let’s all apply the new logos and badges to the world,  and paint it DataCite blue.
+Now let’s all apply the new logos and badges to the world, and paint it DataCite blue.
