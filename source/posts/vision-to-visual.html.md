@@ -43,6 +43,6 @@ Being a member-driven organization, we respond to requests of our members to be 
 
 ### Design transition roadmap
 We are excited to apply the new design step by step to DataCite’s resources, communication channels, and services in the upcoming weeks and months. DataCite Members, Consortium Organizations, and registered Service Providers may use DataCite’s name, logo, and the relevant community badge to announce their status and their activities. The design manual, logos and badges can be embedded into your websites following the documentation in our [support page](https://support.datacite.org/docs/datacite-logo).
-If you have questions about the new design and how to (re-) use it, feel free to contact us at [info@datacite.org]
+If you have questions about the new design and how to (re-) use it, feel free to contact us at info@datacite.org
 
 Now let’s all apply the new logos and badges to the world, and paint it DataCite blue.
