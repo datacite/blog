@@ -38,13 +38,13 @@ To have a consistent visual user experience across our services, we created a sc
 
 ### DataCite community badges
 Being a member-driven organization, we respond to requests of our members to be able to display their DataCite membership with the introduction of the [DataCite community badges](https://support.datacite.org/docs/community-badges). Direct members, Consortium Leads and Consortium Organizations are now able to integrate their respective badge into their website (either in a standard or grayscale version). We updated the existing badge for our registered Service Providers and aligned it with the other community badges. The DataCite community badges are meant for use by registered Service Providers, Members, and Consortium Organizations to announce their status.
-![](/images/uploads/DataCite-Logos_DC%20badge_Member.png){width=25% height=25%}
+![](/images/uploads/DataCite-Logos_DC%20badge_Member.png){width=10% height=10%}
 
-![](/images/uploads/DataCite-Logos_DC%20badge_ConsortiumLead.png){width=25% height=25%}
+![](/images/uploads/DataCite-Logos_DC%20badge_ConsortiumLead.png){width=10% height=10%}
 
-![](/images/uploads/DataCite-Logos_DC%20badge_ConsortiumOrganization.png){width=25% height=25%}
+![](/images/uploads/DataCite-Logos_DC%20badge_ConsortiumOrganization.png){width=10% height=10%}
 
-![](/images/uploads/DataCite-Logos_DC%20badge_ServiceProvider.png){width=25% height=25%}
+![](/images/uploads/DataCite-Logos_DC%20badge_ServiceProvider.png){width=10% height=10%}
 
 ### Design transition roadmap
 We are excited to apply the new design step by step to DataCite’s resources, communication channels, and services in the upcoming weeks and months. DataCite Members, Consortium Organizations, and registered Service Providers may use DataCite’s name, logo, and the relevant community badge to announce their status and their activities. The design manual, logos and badges can be embedded into your websites following the documentation in our [support page](https://support.datacite.org/docs/datacite-logo).
