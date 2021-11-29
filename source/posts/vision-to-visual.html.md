@@ -22,7 +22,7 @@ For occasions where the primary logo might not fit in (e.g. due to lack of space
 [The secondary logo](https://support.datacite.org/docs/secondary-logo) without the claim:
 ![](/images/uploads/DataCite-Logo_secondary.png){width=50% height=50%}
 
-The [stacked logo](https://support.datacite.org/docs/stacked) if there is not enough horizontal space:
+The [stacked logo](https://support.datacite.org/docs/stacked-logo) if there is not enough horizontal space:
 ![](/images/uploads/DataCite-Logo_stacked.png){width=25% height=25%}
 
 And finally the [Schwoop](https://support.datacite.org/docs/schwoop), our icon that represents DataCite’s initials D and C:
