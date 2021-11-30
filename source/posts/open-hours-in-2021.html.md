@@ -25,4 +25,4 @@ Using this new format, the Product Engineering team has kept the membership info
 
 We share the DataCite Open Hours invite with our mailing lists (make sure your contact is included in your organization’s Fabrica account) and in the [DataCite Chat Room on the PID Forum](https://pidforum.org/invites/XU8RAJa1KF).
 
-If you have an idea or suggestion for an interesting topic you would like to know more about an Open Hours session, please contact us at mailto:info@datacite.org.
+If you have an idea or suggestion for an interesting topic you would like to know more about an Open Hours session, please contact us at [info@datacite.org](mailto:info@datacite.org)
