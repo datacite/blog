@@ -2,7 +2,8 @@
 layout: post
 title: 'DataCite Open Hours in 2021'
 author:
-  - kgarza, mhirsch
+  - kgarza
+  - mhirsch
 date: '2021-11-30'
 tags:
   - datacite
