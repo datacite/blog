@@ -12,7 +12,7 @@ doi: 10.5438/kw4k-q070
 
 This year we relaunched DataCite Open Hours, keeping the same focus on community interaction, but also incorporating a section for gathering structured feedback for the DataCite product roadmap and metadata schema. 
 
-![](/images/uploads/open_hours.png){width=25% height=25%}
+![](/images/uploads/open_hours.png){width=50% height=50%}
 
 We don’t record Open Hours because we want to create an informal and relaxed environment where everyone can ask questions and share ideas with the presenters and other attendees. Those that have joined the meetings this year will have enjoyed some fantastic presentations. Some of the highlights include a session dedicated to data curation where we heard presentations from 3 of our members ([ICPSR](https://doi.org/10.5281/zenodo.5085844),[Virginia Tech](https://doi.org/10.5281/zenodo.5084939) and [PANGAEA](https://doi.org/10.5281/zenodo.5084896) about their data curation workflows, and more recently a fascinating introduction to the new [Fair Workflows project](https://datacite.org/assets/Open_hours_Implementing%20FAIR%20Workflows.pdf) that has just kicked off.
 
