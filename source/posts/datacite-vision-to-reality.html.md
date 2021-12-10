@@ -34,7 +34,7 @@ During 2021, building on our core values, our community went through a [strategi
 
 The blueprint of our strategic plan includes key strategic pillars and initiatives and is executed through an annual operational vision defining the strategic activities.
 
-![Strategic Pillars](/images/uploads/Strategic_Pillars.png)
+![Fig 1. Strategic Pillars](/images/uploads/Strategic_Pillars.png)
 
 ##Pillar 1: Provide easy, efficient and responsive community services to support the needs of our community
 
@@ -61,4 +61,4 @@ During the course of 2022, there will be a series of engagements with our member
 Our collective strength as DataCite is based in our community and we would like to thank you all for your engagement, input and participation in the strategic visioning process that led to the development of our strategic plan.
 
 The final strategic plan document can be found using the following link:
-https://doi.org/10.14454/79CY-QE15
+[https://doi.org/10.14454/79CY-QE15](https://doi.org/10.14454/79CY-QE15)
