@@ -13,14 +13,14 @@ tags:
 doi: 10.5438/2fkx-z370
 ---
 
-Since our founding in 2009, DataCite’s strategy has been led by our community of members and partners around the world. We work with organisations globally to help identify, find, cite, connect, and use research. Our community consists of stakeholders throughout the research lifecycle, including researchers and organisations identifying and citing research resource types. 
+Since our founding in 2009, DataCite’s strategy has been led by our community of members and partners around the world. We work with organisations globally to help identify, find, cite, connect, and use research. Our community consists of stakeholders throughout the research lifecycle, including researchers and organisations identifying and citing research resource types.
 
 Our members and team embrace core values to ensure that the ways in which we undertake our activities and initiatives are aligned with the needs and expectations of our community. Our core values are as follows:
 
-**Reliability:**  We develop and support reliable persistent identifier services. 
-**Transparency:**  We make transparent decisions and engage openly with the community in all that we do.  
-**Trust:**  We seek to be a trusted partner for our members and other community stakeholders by delivering services that uphold community principles.
-**Inclusivity:** We support a global community and value diverse perspectives.
+-  **Reliability:**  We develop and support reliable persistent identifier services.
+-  **Transparency:**  We make transparent decisions and engage openly with the community in all that we do.
+-  **Trust:**  We seek to be a trusted partner for our members and other community stakeholders by delivering services that uphold community principles.
+-  **Inclusivity:** We support a global community and value diverse perspectives.
 
 During 2021, building on our core values, our community went through a [strategic visioning process](https://doi.org/10.5438/sf91-5w29) to understand current perspectives of DataCite, how we can thrive in the future, and what roadblocks might get in the way of achieving our vision. This strategic plan is an output of the process and provides the blueprint for achieving our vision and mission by aligning with the needs of the DataCite community. The plan continues to support our statutory charitable purpose as a not-for-profit organisation.
 
@@ -34,25 +34,25 @@ During 2021, building on our core values, our community went through a [strategi
 
 The blueprint of our strategic plan includes key strategic pillars and initiatives and is executed through an annual operational vision defining the strategic activities.
 
-![Strategic Pillars](images/uploads/Strategic_Pillars.png)
+![Strategic Pillars](/images/uploads/Strategic_Pillars.png)
 
 ##Pillar 1: Provide easy, efficient and responsive community services to support the needs of our community
 
-Evaluate operational objectives and processes annually to align with community needs as they evolve. 
+Evaluate operational objectives and processes annually to align with community needs as they evolve.
 Execute against priority indicators that consistently measure our delivery of easy, efficient and responsive services to support the evolving needs of our community.
 
 ##Pillar 2: Connect scholarly resources through metadata to bring rigor to the scholarly record and track research influence
 
 Accelerate metadata completeness of our datafile by providing enhanced member services and insights.
 Consolidate and refine member use cases for connecting and tracking identified research outputs and resources throughout scholarly research lifecycle over time; develop and launch analytical services that address these.
-Accelerate the discoverability and reuse of our members' metadata through enhanced services. 
+Accelerate the discoverability and reuse of our members' metadata through enhanced services.
 
 ##Pillar 3: Identify and connect all resource types held by research organisations globally
 
-Communicate across community stakeholders our role in the PID services landscape. 
+Communicate across community stakeholders our role in the PID services landscape.
 Take intentional, proactive steps as the trusted community PID service partner for research organisations identifying research outputs and resources. Build services and strategies that support these use cases.
 Enhance related identifier metadata by ingesting metadata from additional sources.
-Identify priority strategies to accelerate our innovation in the PID services landscape. 
+Identify priority strategies to accelerate our innovation in the PID services landscape.
 
 #Next steps
 
