@@ -38,21 +38,21 @@ The blueprint of our strategic plan includes key strategic pillars and initiativ
 
 ##Pillar 1: Provide easy, efficient and responsive community services to support the needs of our community
 
-Evaluate operational objectives and processes annually to align with community needs as they evolve.
-Execute against priority indicators that consistently measure our delivery of easy, efficient and responsive services to support the evolving needs of our community.
+- Evaluate operational objectives and processes annually to align with community needs as they evolve.
+- Execute against priority indicators that consistently measure our delivery of easy, efficient and responsive services to support the evolving needs of our community.
 
 ##Pillar 2: Connect scholarly resources through metadata to bring rigor to the scholarly record and track research influence
 
-Accelerate metadata completeness of our datafile by providing enhanced member services and insights.
-Consolidate and refine member use cases for connecting and tracking identified research outputs and resources throughout scholarly research lifecycle over time; develop and launch analytical services that address these.
-Accelerate the discoverability and reuse of our members' metadata through enhanced services.
+- Accelerate metadata completeness of our datafile by providing enhanced member services and insights.
+- Consolidate and refine member use cases for connecting and tracking identified research outputs and resources throughout scholarly research lifecycle over time; develop and launch analytical services that address these.
+- Accelerate the discoverability and reuse of our members' metadata through enhanced services.
 
 ##Pillar 3: Identify and connect all resource types held by research organisations globally
 
-Communicate across community stakeholders our role in the PID services landscape.
-Take intentional, proactive steps as the trusted community PID service partner for research organisations identifying research outputs and resources. Build services and strategies that support these use cases.
-Enhance related identifier metadata by ingesting metadata from additional sources.
-Identify priority strategies to accelerate our innovation in the PID services landscape.
+- Communicate across community stakeholders our role in the PID services landscape.
+- Take intentional, proactive steps as the trusted community PID service partner for research organisations identifying research outputs and resources. Build services and strategies that support these use cases.
+- Enhance related identifier metadata by ingesting metadata from additional sources.
+- Identify priority strategies to accelerate our innovation in the PID services landscape.
 
 #Next steps
 
